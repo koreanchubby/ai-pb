@@ -3,7 +3,7 @@
 > **작업 시작 전과 끝난 후에 반드시 갱신합니다.** 순서는 `docs/WORKFLOW.md` 참고.
 > 상태 표시: 🟡 진행 중 · 🔵 리뷰 대기 · ✅ 완료 · ⬜ 시작 전
 
-마지막 갱신: 2026-10-02
+마지막 갱신: 2026-10-03
 
 ## 현재 단계
 
@@ -15,10 +15,10 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
-| 옥경환 (koreanchubby) | 입력값 저장·복원 | #1 | `feat/save-input` | `app.js` | 🟡 진행 중 (10/2~) |
+| 옥경환 (koreanchubby) | 입력값 저장·복원 | #1 | `feat/save-input` | `app.js` | 🔵 리뷰 대기 (PR #7) |
 | 옥경환 (koreanchubby) | 뉴스 출처(RSS) 선정 | #2 | — | `docs/DECISIONS.md` | ⬜ |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | ⬜ |
-| 이유경 (yukyung16) | `feat/save-input` PR 리뷰 | #5 | — | — | ⬜ |
+| 이유경 (yukyung16) | `feat/save-input` PR 리뷰 (PR #7) | #5 | — | — | ⬜ 리뷰 요청됨 |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
 | 둘 다 | WebStorm 비상업 무료 라이선스 등록 | #4 | — | — | 옥경환 ✅ / 이유경 ⬜ |
 
@@ -34,6 +34,6 @@
 
 ## 이번 주 메모
 
-- 화면에 "자동 저장됨"이 표시되지만 실제 저장은 안 됨 → `feat/save-input`에서 해결
+- 화면에 "자동 저장됨"이 표시되지만 실제 저장은 안 됨 → `feat/save-input`(PR #7)에서 해결, 리뷰 대기 중
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
