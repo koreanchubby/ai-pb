@@ -1,0 +1,306 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#07182d" />
+  <meta name="description" content="은퇴·자산승계 목표와 뉴스 근거를 연결하는 AI PB 인터랙티브 시나리오 v4" />
+  <title>AI PB v4 | 근거 기반 맞춤 자산관리</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%2307182d'/%3E%3Cpath d='M8 22 14.2 9h3.6L24 22h-4l-1.1-2.7h-6L11.8 22H8Zm6.1-6h3.6L16 11.8 14.1 16Z' fill='%235b8cff'/%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="stylesheet" href="./v3.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar" aria-label="주요 메뉴">
+      <div class="brand-wrap">
+        <button class="brand" data-view="dashboard" aria-label="AI PB 자산진단으로 이동"><span class="brand-mark">A</span><span><strong>AI PB</strong><small>EVIDENCE ADVISOR</small></span></button>
+        <button class="sidebar-close" id="sidebar-close" aria-label="메뉴 닫기">×</button>
+      </div>
+      <div class="client-mini"><div class="avatar">A</div><div><strong>A 고객</strong><span id="client-route-label">은퇴·승계 통합관리</span></div><span class="status-dot" title="시나리오 연결됨"></span></div>
+      <nav class="nav-list">
+        <p class="nav-label">상담 흐름</p>
+        <button data-view="profile"><span class="nav-icon">01</span>고객 정보·투자성향</button>
+        <button data-view="goals"><span class="nav-icon">02</span>목표 설계</button>
+        <button data-view="dashboard"><span class="nav-icon">03</span>자산 입력·진단</button>
+        <button data-view="transfer"><span class="nav-icon">04</span>승계 사전진단</button>
+        <button data-view="market"><span class="nav-icon">05</span>하우스뷰·시장근거</button>
+        <button data-view="analysis"><span class="nav-icon">06</span>포트폴리오 설계·실행</button>
+        <button data-view="tax"><span class="nav-icon">07</span>절세 전략</button>
+        <p class="nav-label nav-label-spaced">투자자 페이지</p>
+        <button data-view="news"><span class="nav-icon">◉</span>뉴스 분석</button>
+        <p class="nav-label nav-label-spaced">검토·결과</p>
+        <button data-view="experts"><span class="nav-icon">◎</span>전문가 검토</button>
+        <button data-view="report"><span class="nav-icon">▤</span>최종 AI 리포트</button>
+        <button data-view="assets"><span class="nav-icon">◫</span>자산 세부내역</button>
+      </nav>
+      <div class="sidebar-foot"><span class="secure-mark">✓</span><span>분석 기준<br><strong>데모 데이터 · 오늘 09:30</strong></span></div>
+    </aside>
+
+    <main class="main-shell">
+      <header class="topbar">
+        <button class="menu-button" id="menu-button" aria-label="메뉴 열기">☰</button>
+        <div class="page-context"><span class="eyebrow">AI PRIVATE BANKING · V4</span><strong id="page-title">고객 정보·투자성향</strong></div>
+        <div class="top-actions"><span class="data-chip"><i></i> 근거 12건 연결</span><button class="icon-button" data-view="market" aria-label="중요 알림 2개">2</button><button class="profile-button" data-view="profile"><span>A</span><b>A 고객</b></button></div>
+      </header>
+
+      <section class="journey" aria-label="AI PB 상담 단계">
+        <div class="journey-head"><div><span>DYNAMIC ADVISORY FLOW</span><strong id="journey-title">은퇴·승계 통합 경로</strong></div><div class="journey-progress"><b id="progress-text">1 / 9</b><span><i id="progress-bar"></i></span></div></div>
+        <div class="journey-steps" id="journey-steps" role="tablist" aria-label="상담 단계"></div>
+      </section>
+
+      <div class="content-area">
+        <section class="view" data-view-panel="profile">
+          <div class="section-heading"><div><span class="section-kicker">CUSTOMER PROFILE · KYC</span><h1>고객 정보·투자성향</h1><p>선택형 질문만으로 고객 정보와 투자성향을 확인합니다. 금액은 자산 입력 단계에서 한 번만 받습니다.</p></div><span class="save-state">자동 저장됨</span></div>
+          <div class="profile-grid">
+            <article class="panel form-panel">
+              <div class="panel-title"><span class="panel-index">01</span><div><h2>고객 기본정보</h2><p>연령은 투자성향 점수에 자동 반영됩니다.</p></div></div>
+              <div class="field-grid two">
+                <label>연령<input id="age" type="number" value="62" min="18" max="100"></label>
+                <label>현재 상태<select id="employment"><option>근로소득자</option><option>사업자</option><option selected>은퇴 예정</option><option>은퇴</option></select></label>
+              </div>
+            </article>
+            <article class="panel form-panel">
+              <div class="panel-title"><span class="panel-index">02</span><div><h2>가족 구성</h2><p>여기서 한 번만 받고 승계 사전진단에서 재사용합니다.</p></div></div>
+              <div class="family-row"><span>배우자</span><div class="stepper"><button type="button" data-counter="spouse" data-delta="-1" aria-label="배우자 수 감소">−</button><b id="spouse-count">1명</b><button type="button" data-counter="spouse" data-delta="1" aria-label="배우자 수 증가">＋</button></div></div>
+              <div class="family-row"><span>자녀</span><div class="stepper"><button type="button" data-counter="children" data-delta="-1" aria-label="자녀 수 감소">−</button><b id="children-count">2명</b><button type="button" data-counter="children" data-delta="1" aria-label="자녀 수 증가">＋</button></div></div>
+            </article>
+            <article class="panel form-panel span-two">
+              <div class="panel-title"><span class="panel-index">03</span><div><h2>투자성향 설문</h2><p>한 문항씩 답하면 성향이 자동 산출됩니다. 실제 증권사처럼 성향을 직접 고르지 않습니다.</p></div><span class="pill info" id="survey-count">10 / 10 응답</span></div>
+              <div class="survey-layout">
+                <div class="survey-card">
+                  <div class="survey-progress"><span id="survey-step">1 / 10</span><div class="survey-track"><i id="survey-bar"></i></div></div>
+                  <h3 id="survey-question">투자 예정 기간은 어느 정도인가요?</h3>
+                  <div class="survey-options" id="survey-options" role="radiogroup" aria-labelledby="survey-question"></div>
+                  <div class="survey-nav"><button class="secondary" id="survey-prev" type="button">← 이전 문항</button><button class="secondary" id="survey-next" type="button">다음 문항 →</button></div>
+                </div>
+                <aside class="survey-result" id="survey-result"></aside>
+              </div>
+            </article>
+          </div>
+          <div class="bottom-action"><p><strong>다음 단계</strong>관리 목표를 고르면 그 목표에 필요한 질문만 이어집니다.</p><button class="primary" id="profile-next">관리 목표 선택</button></div>
+        </section>
+
+        <section class="view" data-view-panel="goals">
+          <div class="section-heading"><div><span class="section-kicker">GOAL ROUTING</span><h1>관리 목표 선택</h1><p>은퇴와 자산승계는 동시에 선택할 수 있으며, 선택에 따라 상담 경로가 달라집니다.</p></div><span class="route-chip" id="route-chip">은퇴·승계 통합 경로</span></div>
+          <div class="goal-grid" role="radiogroup" aria-label="관리 목표">
+            <label class="goal-card"><input type="radio" name="goal" value="general"><span class="goal-icon">G</span><strong>일반 자산관리</strong><small>별도 목표 없이 위험·수익 기반 포트폴리오 관리</small></label>
+            <label class="goal-card"><input type="radio" name="goal" value="retirement"><span class="goal-icon">R</span><strong>은퇴 준비</strong><small>생활비와 연금 부족분을 현금흐름 제약으로 반영</small></label>
+            <label class="goal-card"><input type="radio" name="goal" value="transfer"><span class="goal-icon">W</span><strong>자산승계</strong><small>관계자별 희망 배분과 상속세 재원을 먼저 점검</small></label>
+            <label class="goal-card selected"><input type="radio" name="goal" value="both" checked><span class="goal-icon">B</span><strong>은퇴·승계 모두</strong><small>두 목표의 현금 수요와 매각 제한을 함께 반영</small></label>
+          </div>
+          <div class="conditional-plan-grid">
+            <article class="panel plan-card" data-goal-panel="retirement">
+              <div class="panel-title simple"><div><h2>은퇴 현금흐름 계획</h2><p>생활비와 비상자금을 먼저 확보합니다.</p></div><span class="pill success">적용</span></div>
+              <div class="field-grid three"><label id="retirement-years-field">은퇴 시점<div class="input-suffix"><input id="retirement-years" type="number" value="3" min="0"><span>년 후</span></div></label><label>월 생활비<div class="input-suffix"><input id="monthly-spend" type="number" value="500" min="0"><span>만원</span></div></label><label>연금 수입<div class="input-suffix"><input id="pension-income" type="number" value="280" min="0"><span>만원</span></div></label></div>
+              <div class="bucket-grid">
+                <div><span>버킷 1 · 현금성</span><strong id="bucket1">0.8억원</strong><small>부족분 2년 + 비상자금 6개월 · MMF·CMA·발행어음</small></div>
+                <div><span>버킷 2 · 채권 사다리</span><strong id="bucket2">1.3억원</strong><small>3~7년차 부족분 · 국채·우량채 만기 분산</small></div>
+                <div><span>버킷 3 · 성장</span><strong>나머지</strong><small>8년차 이후 · 성향별 모델 포트폴리오</small></div>
+              </div>
+              <div class="plan-result"><span>은퇴 안정자산 기준 (버킷 1+2)</span><strong id="retirement-reserve">2.2억원</strong><small id="retirement-copy">월 부족분 220만원 · 은퇴 3년 후 개시. 20년치를 현금으로 묶지 않고 버킷별로 나눠 준비합니다.</small></div>
+            </article>
+            <article class="panel plan-card" data-goal-panel="transfer">
+              <div class="panel-title simple"><div><h2>승계 사전계획</h2><p>투자분석 전에 현금·매각 제한을 설정합니다.</p></div><span class="pill info">다음 단계</span></div>
+              <div class="precheck-list"><div><span>관계자</span><strong id="goal-family">배우자 1명 · 자녀 2명</strong></div><div><span>비유동자산</span><strong id="goal-illiquid">부동산·사모펀드 29억원</strong></div><div><span>상속세 추정</span><strong data-kpi="estate-tax">6.7억원</strong></div></div>
+              <div class="micro-note">자산 입력·진단 다음 단계에서 희망 배분과 상속세 재원을 점검합니다.</div>
+            </article>
+            <article class="panel empty-goal-card" data-goal-panel="general"><span>G</span><div><h2>일반 자산관리 경로</h2><p>추가 목표 페이지 없이 통합 자산진단으로 이동합니다.</p></div></article>
+          </div>
+          <div class="bottom-action"><p><strong>경로 자동 구성</strong><span id="goal-route-copy">승계 사전진단에서 필요한 현금을 먼저 정한 뒤 자산진단으로 이동합니다.</span></p><button class="primary" id="goals-next">승계 사전진단 계속</button></div>
+        </section>
+
+        <section class="view" data-view-panel="transfer">
+          <div class="section-heading"><div><span class="section-kicker">WEALTH TRANSFER PRE-DIAGNOSIS</span><h1>자산승계 사전진단</h1><p>희망 배분안을 법정상속분·유류분과 비교하고, 상속세 추정액으로 재원 계획을 세웁니다.</p></div><span class="pill info">전문가 검토 전 참고안</span></div>
+          <div class="notice-bar"><b>판단 경계</b><span>AI는 상속 비율이나 법적 결과를 확정하지 않습니다. 현행 세법 기준 단순 추정과 위험 신호만 표시하며, 세법 개정·평가방법·사전증여 합산은 세무사·변호사가 확정합니다.</span></div>
+          <div class="transfer-layout">
+            <article class="panel allocation-editor">
+              <div class="panel-title simple"><div><h2>관계자별 희망 배분</h2><p>법정상속분과 유류분(법정상속분의 1/2)을 함께 표시합니다.</p></div><span class="sum-badge" id="allocation-sum">합계 100%</span></div>
+              <div id="heir-inputs"></div>
+              <button class="secondary full" id="run-transfer-check">희망안 다시 진단</button>
+            </article>
+            <article class="risk-flag-card" id="transfer-risk-card">
+              <span>AI PRE-CHECK</span><h2 id="transfer-risk-title">법률 검토 우선순위: 보통</h2>
+              <p id="transfer-risk-copy">관계자별 배분과 부동산 집중 여부를 전문가가 확인해야 합니다.</p>
+              <ul><li><span>유류분 관련</span><strong id="legal-flag">확인 필요</strong></li><li><span>평가 불확실성</span><strong>부동산·사모펀드</strong></li><li><span>현금화 제약</span><strong data-kpi="illiquid">29억원</strong></li></ul>
+            </article>
+            <article class="panel liquidity-planner">
+              <div class="panel-title simple"><div><h2>상속세 재원 계획</h2><p>현행 세법 기준 단순 추정입니다.</p></div><span class="recommended">핵심 제약</span></div>
+              <div class="tax-breakdown" id="estate-breakdown"></div>
+              <div class="field-grid two">
+                <label>상속세 재원 목표<div class="input-suffix"><input id="liquidity-target" type="number" value="6.7" min="0" step="0.1"><span>억원</span></div></label>
+                <label>종신보험 등 별도 재원<div class="input-suffix"><input id="insurance-reserve" type="number" value="0" min="0" step="0.1"><span>억원</span></div></label>
+              </div>
+              <div class="constraint-checks"><label><input type="checkbox" id="lock-pef" checked disabled> 사모펀드 <span class="pef-year">2029</span>년까지 조정 불가 (환매 제한)</label><label><input type="checkbox" id="gift-window" checked> 5년 내 증여 예정 ETF 별도 관리</label></div>
+              <div class="liquidity-gap"><span>현재 안정자산</span><strong id="current-stable">9.0억원</strong><i>→</i><span>필요 안정자산</span><strong id="liquidity-target-output">8.8억원</strong></div>
+            </article>
+            <article class="panel scenario-mini">
+              <h2>재원 마련 방식 비교</h2>
+              <button class="scenario-choice active" data-transfer-scenario="financial"><span>A</span><div><strong>금융자산 준비안</strong><small>재원 전액을 국채·우량채 사다리로 보유</small></div><b>선택됨</b></button>
+              <button class="scenario-choice" data-transfer-scenario="insurance"><span>B</span><div><strong>종신보험 병행안</strong><small>재원 절반을 보험금으로, 투자자산 유지</small></div><b>비교</b></button>
+              <button class="scenario-choice" data-transfer-scenario="installment"><span>C</span><div><strong>연부연납 활용안</strong><small>최대 10년 분할납부 · 초기 30%만 준비</small></div><b>비교</b></button>
+            </article>
+          </div>
+          <p class="legal-note">상속세는 일괄공제 5억원, 배우자공제(실제 상속분·법정상속분·30억원 중 작은 금액, 최소 5억원), 금융재산공제(최대 2억원), 누진세율 10~50%, 신고세액공제 3%로 단순 추정합니다. 사전증여 합산(10년), 동거주택공제, 부동산 평가방법(시가·감정가·기준시가), 세법 개정 여부는 반영하지 않았습니다.</p>
+          <div class="bottom-action"><p><strong>다음 단계</strong><span id="transfer-next-copy">필요 안정자산과 매각 제한을 자산진단·리밸런싱의 제약조건으로 전달합니다.</span></p><button class="primary" data-view="market">하우스뷰·시장근거 확인</button></div>
+        </section>
+
+        <section class="view" data-view-panel="dashboard">
+          <div class="section-heading"><div><span class="section-kicker">ASSET INPUT & DIAGNOSIS</span><h1>자산 입력·진단</h1><p>보유 자산을 입력하면 목표 단계의 은퇴·승계 조건과 함께 자산 구조, 안정자산, 세금 부담을 바로 진단합니다.</p></div><button class="secondary" data-view="assets">세부내역 보기</button></div>
+          <article class="panel form-panel asset-input-panel">
+            <div class="panel-title simple"><div><h2>보유 자산 입력</h2><p>정확한 금액은 여기서 한 번만 입력합니다. 입력하는 즉시 아래 진단이 갱신됩니다.</p></div><span class="pill info">단위: 억원</span></div>
+              <div class="asset-entry-grid">
+                <label><span>부동산</span><input class="asset-input" id="asset-realestate" data-category="realestate" type="number" value="25" min="0" step="0.1"><small>주택·상가·토지</small></label>
+                <label><span>국내 주식 ETF</span><input class="asset-input" id="asset-kretf" data-category="kretf" type="number" value="4" min="0" step="0.1"><small>시장·산업 ETF</small></label>
+                <label><span>해외 주식 ETF</span><input class="asset-input" id="asset-globaletf" data-category="globaletf" type="number" value="6" min="0" step="0.1"><small>미국·글로벌 ETF</small></label>
+                <label><span>국채</span><input class="asset-input" id="asset-govbond" data-category="govbond" type="number" value="3" min="0" step="0.1"><small>국내·미국 국채</small></label>
+                <label><span>회사채</span><input class="asset-input" id="asset-corpat" data-category="corpbond" type="number" value="2" min="0" step="0.1"><small>우량 회사채</small></label>
+                <label class="illiquid"><span>사모펀드</span><input class="asset-input" id="asset-pef" data-category="pef" type="number" value="4" min="0" step="0.1"><small><span class="pef-year">2029</span>년까지 환매 제한</small></label>
+                <label><span>기타 대체투자</span><input class="asset-input" id="asset-alternative" data-category="alternative" type="number" value="2" min="0" step="0.1"><small>금·리츠 등</small></label>
+                <label><span>현금·예금</span><input class="asset-input" id="asset-cash" data-category="cash" type="number" value="4" min="0" step="0.1"><small>즉시 사용 가능</small></label>
+                <label class="debt-entry"><span>부채</span><input id="asset-debt" type="number" value="3" min="0" step="0.1"><small>담보·기타 대출</small></label>
+              </div>
+            <div class="asset-extra">
+              <label>사모펀드 환매 가능 연도<div class="input-suffix"><input id="pef-year" type="number" value="2029" min="2026" max="2045"><span>년</span></div></label>
+              <label class="check-line"><input type="checkbox" id="lock-home" checked> 거주 부동산은 매각하지 않음 (반드시 보유)</label>
+            </div>
+          </article>
+          <div class="kpi-grid"><article class="kpi-card"><span>총자산</span><strong data-kpi="total">50억원</strong><small>부동산·사모펀드 포함</small></article><article class="kpi-card"><span>순자산</span><strong class="positive" data-kpi="net">47억원</strong><small>부채 차감 후</small></article><article class="kpi-card"><span>비유동자산</span><strong data-kpi="illiquid">29억원</strong><small>부동산·사모펀드</small></article><article class="kpi-card dark"><span>필요 안정자산</span><strong data-kpi="liquidity">8.8억원</strong><small id="kpi-liquidity-note">은퇴 버킷 + 상속세 재원(자동 추정)</small></article></div>
+          <div class="dashboard-grid">
+            <article class="panel allocation-card"><div class="panel-title simple"><div><h2>총자산 구성</h2><p>ETF·채권·부동산·사모펀드를 분리해 봅니다.</p></div><span class="pill info">8개 세부자산</span></div><div class="allocation-body"><div class="donut v3-donut" id="asset-donut"><div><strong id="realestate-share">50%</strong><span>부동산</span></div></div><div class="legend-list" id="asset-legend"></div></div></article>
+            <article class="panel alert-panel"><div class="panel-title simple"><div><h2>목표 기반 진단 신호</h2><p>유동성 → 적합성 → 세금 → 집중도 순으로 정렬합니다.</p></div><span class="count-badge" id="alert-count">4</span></div><div id="alert-list"></div></article>
+            <article class="constraint-strip span-two"><div><span>은퇴 버킷 1+2</span><strong id="dashboard-retirement-reserve">2.2억원</strong></div><div><span>상속세 재원</span><strong id="dashboard-liquidity-target">6.7억원</strong></div><div><span>매각 금지</span><strong id="dashboard-lock-home">거주 부동산</strong></div><div><span>조정 제외</span><strong>사모펀드</strong></div><button class="primary" id="dashboard-next" data-view="transfer">승계 사전진단</button></article>
+          </div>
+        </section>
+
+        <section class="view" data-view-panel="assets">
+          <div class="section-heading"><div><span class="section-kicker">ASSET UNIVERSE</span><h1>자산 세부내역</h1><p>각 자산군을 유동성·위험·승계 제약 기준으로 나눠 관리합니다.</p></div><button class="secondary" data-view="dashboard">금액 수정</button></div>
+          <div class="asset-universe-grid">
+            <article class="asset-class-card"><span class="asset-symbol navy">RE</span><div><h2>부동산</h2><p id="ac-re">부동산 25억</p></div><ul><li>유동성 매우 낮음</li><li>감정평가 필요</li><li>거주주택 매각 금지</li></ul></article>
+            <article class="asset-class-card"><span class="asset-symbol blue">ETF</span><div><h2>주식 ETF</h2><p id="ac-etf">국내 4억 · 미국·글로벌 6억</p></div><ul><li>개별주식 제외</li><li>일 단위 가격 확인</li><li>리밸런싱 가능</li></ul></article>
+            <article class="asset-class-card"><span class="asset-symbol sky">FI</span><div><h2>채권</h2><p id="ac-bond">국채 3억 · 우량회사채 2억</p></div><ul><li>은퇴·상속세 재원 버킷</li><li>금리 민감도 관리</li><li>신용등급 확인</li></ul></article>
+            <article class="asset-class-card pef-card"><span class="asset-symbol violet">PEF</span><div><h2>사모펀드</h2><p id="ac-pef">최근 평가액 4억 · 2029년 만기</p></div><ul><li>환매 제한</li><li>분기별 평가</li><li>이전 제한 검토</li></ul></article>
+            <article class="asset-class-card"><span class="asset-symbol violet">ALT</span><div><h2>기타 대체투자</h2><p id="ac-alt">금·리츠 2억</p></div><ul><li>인플레이션 방어</li><li>가격 변동성 중간</li><li>일부 현금화 가능</li></ul></article>
+            <article class="asset-class-card"><span class="asset-symbol mint">CA</span><div><h2>현금·예금</h2><p id="ac-cash">즉시 가용 4억</p></div><ul><li>예금 방치분은 MMF·단기채로</li><li>비상자금 포함</li><li>예금만기 분산</li></ul></article>
+          </div>
+          <div class="bottom-action"><p><strong>설계 범위</strong>개별주식은 제외하고 ETF의 수익·위험 특성과 자산군 간 배분에 집중합니다.</p><button class="primary" data-view="analysis">목표 포트폴리오 설계</button></div>
+        </section>
+
+        <section class="view" data-view-panel="analysis">
+          <div class="section-heading"><div><span class="section-kicker">PORTFOLIO DESIGN & EXECUTION</span><h1>포트폴리오 설계·실행</h1><p>고객 목표와 투자성향으로 장기 목표 배분(SAA)을 설계하고, 앞 단계의 하우스뷰 결정을 반영해 현재 보유와의 차이를 거래 계획으로 바꿉니다.</p></div><label class="switch-row"><span><b>허용범위 밴드</b><small id="band-copy">0.3억원 미만 차이는 거래 생략</small></span><input id="band-switch" type="checkbox" checked><i></i></label></div>
+          <div class="part-title"><span>1</span><div><h2>목표 설계</h2><p>고객에게 설명하는 장기 목표 배분입니다.</p></div></div>
+          <div class="analysis-grid">
+            <article class="panel allocation-compare target-allocation"><div class="panel-title simple"><div><h2>목표 배분 (SAA)</h2><p id="compare-base">금융자산 25억원 기준 (부동산 제외)</p></div></div><div id="saa-rows"></div></article>
+            <aside class="risk-card"><span>HOW THE TARGET IS BUILT</span><h2>목표 배분 산출 3단계</h2><ol class="build-steps" id="build-steps"></ol><p class="build-note">하우스뷰 조정(±2%p)은 목표 설계에 넣지 않고, 아래 실행 계획의 목표에만 반영합니다.</p></aside>
+            <article class="panel metrics-card"><h2>목표안 위험·수익</h2><div id="metrics-rows"></div><p>현재 보유 대비 목표 SAA의 추정치입니다. 자산군별 장기 가정치(변동성·스트레스 손실)를 적용한 범위 추정이며 수익을 보장하지 않습니다.</p></article>
+          </div>
+          <article class="panel etf-table-card"><div class="panel-title simple"><div><h2>주식 ETF Core-Satellite 설계</h2><p>코어는 광범위 지수 ETF, 테마·섹터 ETF는 주식의 20% 이내로 제한합니다.</p></div><span class="pill info" id="satellite-pill">위성 한도 20%</span></div><div class="table-scroll"><table><thead><tr><th>구분</th><th>ETF 버킷</th><th>목표 금액</th><th>주식 내 비중</th><th>변동성</th><th>역할</th></tr></thead><tbody id="etf-body"></tbody></table></div></article>
+          <div class="part-title"><span>2</span><div><h2>실행 계획</h2><p id="execution-part-copy">목표와 현재 보유의 차이를 거래로 바꿉니다. 부동산·사모펀드는 그대로 두고 금융자산만 조정합니다.</p></div></div>
+          <article class="market-strip" id="rebalance-strip"><span>적용 제약</span><strong>필요 안정자산 8.8억원</strong><i></i><strong>거주부동산 매각금지</strong><i></i><strong>사모펀드 환매제한</strong><em>SAA 기준</em></article>
+          <article class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>조정 대상</th><th>현재</th><th>목표</th><th>변화</th><th>제안</th><th>근거</th></tr></thead><tbody id="rebalance-body"></tbody></table></div></article>
+          <article class="panel execution-card"><div class="panel-title simple"><div><h2>분할 실행 순서</h2><p>가격 위험이 없는 거래부터 실행하고, 주식 매도는 나눠서 진행합니다.</p></div><span class="pill info" id="execution-pill">3회 분할</span></div><ol class="execution-steps" id="execution-steps"></ol></article>
+          <div class="liquidity-progress panel"><div><span>필요 안정자산 충족</span><strong id="stable-progress-label">현금 1.4억 + 채권 11.6억</strong></div><div class="progress-track"><i id="stable-progress-bar"></i></div><small id="stable-progress-copy">부동산·사모펀드를 매각하지 않고 목표를 충족합니다.</small></div>
+          <div class="trade-summary"><div><span>예상 거래비용</span><strong id="trade-cost">0만원</strong><small>매매금액 × 0.15% 가정</small></div><div><span>예상 변동성 변화</span><strong class="positive" id="trade-risk">-0.0%p</strong><small id="trade-plan">3회 분할 실행 (월 1회)</small></div><button class="primary" id="approve-rebalance">설계·실행안 검토 완료</button></div>
+          <div class="suitability-bar" id="suitability"></div>
+        </section>
+
+        <section class="view" data-view-panel="market">
+          <div class="section-heading"><div><span class="section-kicker">HOUSE VIEW & MARKET EVIDENCE</span><h1>하우스뷰·시장 인텔리전스</h1><p>리서치센터 하우스뷰를 1차 기준으로, 뉴스·시황은 보조 근거로 사용합니다. 반대 근거와 판단 변경 조건도 공개합니다.</p></div><div class="segmented" role="group" aria-label="하우스뷰 반영 여부"><button class="active" data-analysis-mode="saa">SAA 유지</button><button data-analysis-mode="taa">하우스뷰 TAA 반영</button></div></div>
+          <article class="evidence-hero">
+            <div><span class="decision-label">TODAY'S AI DECISION</span><div class="decision-line"><strong>HOLD</strong><i>＋</i><b>제한적 리밸런싱 검토</b></div><p id="decision-copy">장기 SAA는 유지하고, 하우스뷰에 따라 주식 비중을 2%p 이내에서 줄입니다.</p></div>
+            <div class="decision-meta"><span>판단 신뢰도<strong>82%</strong></span><span>연결 근거<strong>12건</strong></span><span>데이터 기준<strong>09:30</strong></span></div>
+          </article>
+          <article class="panel taa-card"><div class="panel-title simple"><div><h2>하우스뷰 TAA 조정안</h2><p>장기 SAA 대비 조정 폭입니다. 반영 여부는 상단에서 선택하며, 선택 결과가 다음 단계 실행 계획의 목표가 됩니다.</p></div><span class="pill info" id="taa-status">미반영 · SAA 유지</span></div><div class="table-scroll"><table><thead><tr><th>자산</th><th>장기 SAA</th><th>하우스뷰 조정</th><th>반영 시 목표</th></tr></thead><tbody id="taa-body"></tbody></table></div></article>
+          <div class="evidence-tabs" role="tablist" aria-label="시장 리포트 보기"><button class="active" data-evidence-tab="report">상세 리포트</button><button data-evidence-tab="sources">근거 뉴스·지표</button><button data-evidence-tab="history">판단 기록</button></div>
+          <div class="evidence-panel active" data-evidence-panel="report">
+            <div class="market-report-grid">
+              <article class="panel report-section span-two"><div class="panel-title simple"><div><h2>OO증권 리서치센터 하우스뷰 (데모 예시)</h2><p>출처: OO증권 리서치센터 월간 자산배분 전략 (데모 예시). 실제 서비스에서는 계약한 리서치센터명·자료명·발간일을 표기합니다. 월간 자산배분 회의 결과를 TAA 방향으로 사용하며, 조정 폭은 자산별 ±2%p 이내입니다.</p></div><span class="regime-badge">2026년 9월 기준</span></div><div class="house-view" id="house-view"></div></article>
+              <article class="panel report-section"><div class="panel-title simple"><div><h2>오늘의 시장 요약</h2><p>데모 시황을 자산군별 영향으로 번역했습니다.</p></div><span class="regime-badge">둔화·변동성 확대</span></div><div class="market-facts"><div><span>미국 장기금리</span><strong>상승 압력</strong><small>성장주 ETF 부담</small></div><div><span>반도체 업종</span><strong>변동성 확대</strong><small>산업 ETF 한도 관리</small></div><div><span>국제유가</span><strong>상방 위험</strong><small>인플레이션 경계</small></div><div><span>원화</span><strong>변동성 중립 이상</strong><small>환헤지 유지</small></div></div></article>
+              <article class="panel report-section"><h2>사실과 AI 해석</h2><div class="fact-interpret"><span>확인된 사실</span><p>장기금리와 유가의 상승 압력이 확대되고 반도체 관련 지수의 일중 변동성이 높아졌습니다.</p></div><div class="fact-interpret ai"><span>AI 해석</span><p>금리 민감도가 높은 성장·반도체 ETF의 단기 위험이 커졌지만 장기 SAA를 바꿀 정도의 체제 전환은 아닙니다.</p></div></article>
+              <article class="panel report-section span-two"><div class="panel-title simple"><div><h2>의사결정 연결 과정</h2><p>시장 사건이 고객 행동 제안으로 바뀐 경로입니다.</p></div><button class="text-button" data-evidence-tab="sources">근거 12건 확인</button></div><div class="logic-chain"><div><span>01</span><b>하우스뷰·지표</b><small>금리·유가·반도체 변동성</small></div><i>→</i><div><span>02</span><b>자산 영향</b><small>성장·반도체 ETF 위험 증가</small></div><i>→</i><div><span>03</span><b>고객 노출</b><small id="chain-exposure">주식 ETF 10억원</small></div><i>→</i><div><span>04</span><b>제약 확인</b><small id="chain-constraint">안정자산 8.8억원 필요</small></div><i>→</i><div class="active"><span>05</span><b>최종 판단</b><small>±2% 내 제한 조정</small></div></div></article>
+              <article class="panel report-section"><h2>반대 근거</h2><p>AI 투자 확대와 일부 기업의 실적 개선은 위험자산에 긍정적입니다. 부정 뉴스만으로 장기 주식 비중을 과도하게 낮추지 않습니다.</p><span class="counter-badge">결론: 장기 SAA 유지</span></article>
+              <article class="panel report-section"><h2>판단 변경 조건</h2><ul class="trigger-list"><li>하우스뷰 방향 변경 (월간 회의)</li><li>미국 10년물 금리 5% 상회</li><li>자산군 비중이 목표 대비 ±5%p 이탈</li><li id="trigger-stable">필요 안정자산 8.8억원 미달</li></ul></article>
+            </div>
+          </div>
+          <div class="evidence-panel" data-evidence-panel="sources">
+            <div class="source-grid">
+              <article class="evidence-card" tabindex="0"><div><span class="source-type official">공식</span><time>08:10</time></div><h2>미국 통화정책·장기금리 자료</h2><p>금리 인하 기대가 지연될 가능성을 시장금리와 함께 확인했습니다.</p><button class="text-button evidence-toggle">AI 활용 방식 보기</button><div class="evidence-detail"><strong>연결:</strong> 미국 성장주·반도체 ETF 할인율 부담 → 단기 위험 상향</div></article>
+              <article class="evidence-card" tabindex="0"><div><span class="source-type official">공식</span><time>08:25</time></div><h2>한국은행 금리·환율 통계</h2><p>원화 변동성과 국내 시장의 외국인 수급 환경을 점검했습니다.</p><button class="text-button evidence-toggle">AI 활용 방식 보기</button><div class="evidence-detail"><strong>연결:</strong> 해외 ETF 환헤지 비율 유지 → 추가 환노출 확대 보류</div></article>
+              <article class="evidence-card" tabindex="0"><div><span class="source-type market">시장</span><time>09:00</time></div><h2>국내·미국 ETF 가격 신호</h2><p>대표지수와 반도체 ETF 변동성·최대낙폭 신호를 비교했습니다.</p><button class="text-button evidence-toggle">AI 활용 방식 보기</button><div class="evidence-detail"><strong>연결:</strong> 국내 ETF 0.5억원·글로벌 ETF 1.0억원 축소 후보</div></article>
+              <article class="evidence-card" tabindex="0"><div><span class="source-type news">뉴스</span><time>09:12</time></div><h2>지정학적 위험과 국제유가</h2><p>복수 출처가 보도한 공급 차질 가능성을 중복 제거 후 반영했습니다.</p><button class="text-button evidence-toggle">AI 활용 방식 보기</button><div class="evidence-detail"><strong>연결:</strong> 인플레이션 재상승 위험 → 장기채 확대 속도 제한</div></article>
+            </div>
+            <p class="legal-note">실제 서비스에서는 기사 원문 URL, 언론사, 발표시각, 데이터 기준시각과 중복 제거 결과를 함께 저장합니다. 현재 화면의 내용은 인터랙티브 시나리오용 데모입니다.</p>
+          </div>
+          <div class="evidence-panel" data-evidence-panel="history">
+            <article class="panel decision-history"><div><time>오늘 09:30</time><span class="action hold">HOLD</span><strong>장기 SAA 유지 · 유동성 확보용 제한 조정</strong><button class="text-button">근거 12건</button></div><div><time>어제 07:30</time><span class="action hold">HOLD</span><strong>중대 변화 없음 · 기존 전략 유지</strong><button class="text-button">근거 9건</button></div><div><time>3일 전 14:20</time><span class="action buy">REVIEW</span><strong>국채 비중 확대 조건 충족 여부 재검토</strong><button class="text-button">근거 15건</button></div></article>
+          </div>
+          <div class="bottom-action"><p><strong>판단 원칙</strong>하우스뷰와 뉴스는 장기 SAA를 덮어쓰지 않으며, TAA 조정은 자산별 ±2%p로 제한합니다.</p><button class="primary" data-view="analysis">포트폴리오 설계·실행</button></div>
+        </section>
+
+        <section class="view" data-view-panel="tax">
+          <div class="section-heading"><div><span class="section-kicker">TAX EFFICIENCY</span><h1>절세 전략</h1><p>금융소득종합과세·건강보험료·상속세를 기준으로 상품과 계좌 배치를 조정합니다.</p></div><span class="pill info">세무사 확인 필요</span></div>
+          <div class="tax-grid">
+            <article class="panel account-map">
+              <h2>연간 금융소득(이자·배당) 추정</h2><p>종합과세 기준 연 2,000만원과 비교합니다. 보유 자산별 분배율 가정치를 적용했습니다.</p>
+              <div class="income-bars" id="income-bars"></div>
+              <h2 class="tax-subhead">실행 가능한 절세 수단</h2>
+              <div id="tax-actions"></div>
+            </article>
+            <aside class="panel tax-impact"><span class="card-label">검토 우선순위</span><strong id="tax-headline">종합과세<br><b>기준 초과</b></strong><div><span>리밸런싱 후 금융소득</span><b id="tax-after-side">0만원</b></div><div><span>상속세 추정</span><b data-kpi="estate-tax">6.7억원</b></div><div><span>필요 안정자산</span><b data-kpi="liquidity">8.8억원</b></div><p>세법·계좌 한도·실제 분배율은 매년 바뀔 수 있어 세무사 검토 후 확정합니다.</p></aside>
+          </div>
+        </section>
+
+        <section class="view" data-view-panel="experts">
+          <div class="section-heading"><div><span class="section-kicker">HUMAN-IN-THE-LOOP</span><h1>전문가 검토</h1><p>AI 사전진단을 세무사·변호사가 검토한 뒤 승인 조건만 포트폴리오에 반영합니다.</p></div><span class="pill info" id="expert-overall-status">변호사 검토 대기</span></div>
+          <div class="review-steps"><div class="done"><b>1</b><span>AI 사전진단</span><strong>완료</strong></div><i></i><div class="done"><b>2</b><span>세무사 검토</span><strong>보완완료</strong></div><i></i><div class="current" id="lawyer-step"><b>3</b><span>변호사 검토</span><strong id="lawyer-status">검토 대기</strong></div><i></i><div id="approval-step"><b>4</b><span>승인안 반영</span><strong id="approval-status">대기</strong></div></div>
+          <div class="expert-grid">
+            <article class="expert-opinion"><div><span>검토 요청 항목</span><em id="expert-badge">3건 남음</em></div><h2>희망 배분안 · 재원 계획 · 절세안</h2><ul><li><span>세무사</span><strong>상속세 추정 <b data-kpi="estate-tax">6.7억원</b> · 금융소득종합과세 확인</strong></li><li><span>변호사</span><strong id="expert-lawyer-item">유류분·공동소유 위험 확인</strong></li><li><span>PB</span><strong>적합성 확인 · 거주부동산·사모펀드 제외 반영</strong></li></ul><p>AI는 검토 상태와 승인 조건을 전달하지만 법률·세무 결론을 생성하지 않습니다.</p></article>
+            <article class="panel document-card"><div class="doc-icon">DOC</div><h2>전문가 검토 패키지</h2><p>가족관계, 희망 배분, 자산평가, 10년 내 사전증여 내역, 재원 계획, 금융소득 추정과 AI 위험 신호를 함께 전달합니다.</p><button class="secondary full" id="request-lawyer">변호사 검토 요청</button><button class="primary full" id="approve-expert-plan">전문가 승인 데모</button></article>
+          </div>
+          <div class="bottom-action"><p><strong>승인 전 제한</strong>최종 세액·배분·법률 판단은 확정값으로 표시하지 않습니다.</p><button class="primary" id="expert-next" disabled>승인안 반영 결과 보기</button></div>
+        </section>
+
+        <section class="view" data-view-panel="report">
+          <div class="section-heading"><div><span class="section-kicker">FINAL ADVISORY REPORT</span><h1>최종 AI 자문 리포트</h1><p>고객 목표, 적합성, 하우스뷰, 전문가 승인 조건과 최종 포트폴리오, 사후관리 계획을 한 번에 확인합니다.</p></div><button class="secondary" id="save-report">리포트 저장</button></div>
+          <div class="constraint-grid"><article><span>관리 목표</span><strong id="report-goal">은퇴·자산승계</strong><small>조건부 경로 반영</small></article><article><span>필요 안정자산</span><strong id="report-liquidity">8.8억원</strong><small>현금·채권으로 확보</small></article><article><span>적용 투자성향</span><strong id="report-profile">위험중립형</strong><small id="report-suitability">적합성 확인</small></article><article><span>시장 판단</span><strong>HOLD</strong><small id="report-mode">하우스뷰 TAA ±2%p</small></article></div>
+          <div class="report-grid">
+            <article class="panel final-allocation"><div class="panel-title simple"><div><h2>최종 금융자산 배분</h2><p id="final-base">금융자산 25억원 기준</p></div><div class="compare-key"><span><i></i>현재</span><span><b></b>최종</span></div></div><div id="final-rows"></div></article>
+            <aside class="liquidity-result"><span>GOAL CONSTRAINT RESULT</span><h2>안정자산 <strong id="final-liquidity">8.8억원</strong> 확보</h2><div id="final-liquidity-rows"></div><p>하우스뷰 판단과 전문가 승인 조건이 함께 적용된 결과입니다.</p></aside>
+          </div>
+          <article class="panel monitoring-card"><div class="panel-title simple"><div><h2>사후관리 계획</h2><p>실행 후에도 정기 리뷰와 이벤트 트리거로 계획을 유지합니다.</p></div><span class="pill success">모니터링</span></div><ul class="monitoring-list" id="monitoring-list"></ul></article>
+          <article class="panel audit-report"><div><span>판단 추적 ID</span><strong>APB-2026-0926-0930</strong></div><div><span>연결 데이터</span><strong>하우스뷰 + 시장·뉴스 12건</strong></div><div><span>AI 해석</span><strong>사실과 분리 표시</strong></div><div><span>전문가 상태</span><strong id="report-expert-status">승인 데모 전</strong></div><button class="primary" data-view="market">판단 근거 다시 보기</button></article>
+          <p class="legal-note">이 리포트는 인터랙티브 프로토타입의 예시 결과이며 실제 투자주문, 세액 확정 또는 법률자문을 제공하지 않습니다. 실제 권유 시에는 투자자정보 확인서, 적합성·적정성 확인, 설명의무 이행 기록이 필요합니다.</p>
+        </section>
+        <section class="view" data-view-panel="news">
+          <div class="section-heading"><div><span class="section-kicker">NEWS ANALYSIS · 투자자용</span><h1>뉴스 분석</h1><p>상담 흐름과 별개로 투자자가 직접 보는 페이지입니다. 오늘의 주요 뉴스가 무엇이고, 보유 자산에 어떤 영향을 줄 수 있는지 쉽게 풀어 설명합니다.</p></div><span class="data-chip"><i></i> 오늘 09:30 기준</span></div>
+          <div class="source-grid">
+            <article class="evidence-card news-card"><div><span class="source-type official">공식</span><time>08:10</time></div><h2>미국 금리 인하 기대가 늦춰지고 있어요</h2><p>미국 통화정책 자료와 시장금리를 보면 금리 인하 시점이 예상보다 늦어질 가능성이 커졌습니다.</p><p class="news-impact"><strong>내 자산 영향</strong>미국 성장주·반도체 ETF는 단기 변동성이 커질 수 있습니다. 국채는 이자 수익을 더 오래 받을 수 있습니다.</p></article>
+            <article class="evidence-card news-card"><div><span class="source-type official">공식</span><time>08:25</time></div><h2>원·달러 환율 변동폭이 커졌어요</h2><p>한국은행 통계를 보면 원화 변동성이 높아지고 외국인 자금 흐름도 불안정합니다.</p><p class="news-impact"><strong>내 자산 영향</strong>해외 ETF는 환율에 따라 원화 기준 수익이 달라질 수 있습니다. 환헤지 비율은 현재 수준을 유지합니다.</p></article>
+            <article class="evidence-card news-card"><div><span class="source-type market">시장</span><time>09:00</time></div><h2>반도체 ETF의 하루 등락이 커졌어요</h2><p>대표지수보다 반도체 관련 ETF의 가격 변동과 최대 하락폭이 크게 나타났습니다.</p><p class="news-impact"><strong>내 자산 영향</strong>보유 중인 반도체 테마 ETF는 주식 비중의 20% 이내로 관리하는 것이 원칙입니다.</p></article>
+            <article class="evidence-card news-card"><div><span class="source-type news">뉴스</span><time>09:12</time></div><h2>지정학적 위험으로 국제유가가 올랐어요</h2><p>여러 언론이 원유 공급 차질 가능성을 보도했습니다. 같은 내용의 기사는 한 건으로 묶어 분석했습니다.</p><p class="news-impact"><strong>내 자산 영향</strong>물가가 다시 오를 수 있어 장기 채권을 한꺼번에 늘리기보다 나눠서 담는 것이 좋습니다.</p></article>
+          </div>
+          <p class="legal-note">이 페이지는 이해를 돕기 위한 뉴스 요약이며 투자 권유가 아닙니다. 실제 투자 결정은 담당 PB와 상담 후 진행하세요. 현재 화면의 뉴스는 인터랙티브 시나리오용 데모입니다.</p>
+        </section>
+      </div>
+
+      <footer class="flow-navigation" id="flow-navigation" aria-label="상담 단계 이동">
+        <button class="flow-button flow-back" id="flow-back" type="button">
+          <span class="flow-arrow" aria-hidden="true">←</span>
+          <span class="flow-button-copy"><small>이전 단계</small><strong id="flow-back-label">처음 단계</strong></span>
+        </button>
+        <div class="flow-position" aria-live="polite">
+          <span id="flow-position-label">1 / 9 · 고객 정보</span>
+          <small>입력 내용은 자동으로 유지됩니다</small>
+        </div>
+        <button class="flow-button flow-next" id="flow-next" type="button">
+          <span class="flow-button-copy"><small id="flow-next-kicker">다음 단계</small><strong id="flow-next-label">관리 목표 선택</strong></span>
+          <span class="flow-arrow" aria-hidden="true">→</span>
+        </button>
+      </footer>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"><span>✓</span><p></p></div>
+  <script src="./app.js"></script>
+</body>
+</html>
