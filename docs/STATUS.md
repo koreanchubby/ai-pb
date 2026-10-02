@@ -15,12 +15,12 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
-| 옥경환 (koreanchubby) | 입력값 저장·복원 | #1 | `feat/save-input` | `app.js` | ⬜ |
+| 옥경환 (koreanchubby) | 입력값 저장·복원 | #1 | `feat/save-input` | `app.js` | 🟡 진행 중 (10/2~) |
 | 옥경환 (koreanchubby) | 뉴스 출처(RSS) 선정 | #2 | — | `docs/DECISIONS.md` | ⬜ |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | ⬜ |
 | 이유경 (yukyung16) | `feat/save-input` PR 리뷰 | #5 | — | — | ⬜ |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
-| 둘 다 | WebStorm 비상업 무료 라이선스 등록 | #4 | — | — | ⬜ |
+| 둘 다 | WebStorm 비상업 무료 라이선스 등록 | #4 | — | — | 옥경환 ✅ / 이유경 ⬜ |
 
 ## 완료
 
