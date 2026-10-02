@@ -1396,8 +1396,130 @@ function registerWebMcpTools() {
   tools.forEach(function (tool) { context.registerTool(tool); });
 }
 
+// ---------------------------------------------------------------------------
+// 입력값 저장·복원 (이슈 #1)
+// 고객 입력과 진행 단계를 브라우저(localStorage)에 저장하고, 새로고침 후 복원합니다.
+// 저장 실패(사생활 보호 모드 등)는 앱 동작에 영향을 주지 않도록 무시합니다.
+// 전문가 승인(expertApproved)은 데모 승인 절차이므로 저장하지 않고 매번 다시 승인합니다.
+// ---------------------------------------------------------------------------
+const STORAGE_KEY = 'aipb-v4-state';
+const STORAGE_VERSION = 1;
+const SAVED_FIELD_SELECTORS = '.asset-input, #asset-debt, #age, #employment, #monthly-spend, #pension-income, #retirement-years, #insurance-reserve, #pef-year, #lock-home, #liquidity-target, #band-switch';
+const SAVED_STATE_KEYS = ['currentView', 'goal', 'spouse', 'children', 'estateTarget', 'estateTargetManual', 'estateMode', 'useTaa', 'useBand', 'answers', 'surveyIndex'];
+let storageRestoring = false;
+
+function collectSavedFields() {
+  const fields = {};
+  document.querySelectorAll(SAVED_FIELD_SELECTORS).forEach(function (el) {
+    if (!el.id) return;
+    fields[el.id] = el.type === 'checkbox' ? el.checked : el.value;
+  });
+  return fields;
+}
+
+function saveAppState() {
+  if (storageRestoring) return;
+  const snapshot = { version: STORAGE_VERSION, savedAt: new Date().toISOString(), state: {}, fields: collectSavedFields() };
+  SAVED_STATE_KEYS.forEach(function (key) { snapshot.state[key] = state[key]; });
+  snapshot.state.heirShares = state.heirs.map(function (heir) { return heir.share; });
+  try {
+    window.localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
+    const time = new Date().toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' });
+    document.querySelectorAll('.save-state').forEach(function (el) { el.textContent = '자동 저장됨 · ' + time; });
+  } catch (error) {
+    document.querySelectorAll('.save-state').forEach(function (el) { el.textContent = '저장 불가 (브라우저 설정)'; });
+  }
+}
+
+function scheduleSave() {
+  window.clearTimeout(scheduleSave.timer);
+  scheduleSave.timer = window.setTimeout(saveAppState, 300);
+}
+
+function readSavedState() {
+  try {
+    const raw = window.localStorage.getItem(STORAGE_KEY);
+    if (!raw) return null;
+    const snapshot = JSON.parse(raw);
+    return snapshot && snapshot.version === STORAGE_VERSION ? snapshot : null;
+  } catch (error) {
+    return null;
+  }
+}
+
+function applySavedState(snapshot) {
+  const saved = snapshot.state || {};
+  const fields = snapshot.fields || {};
+  Object.keys(fields).forEach(function (id) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    if (el.type === 'checkbox') el.checked = Boolean(fields[id]);
+    else el.value = fields[id];
+  });
+  SAVED_STATE_KEYS.forEach(function (key) {
+    if (key in saved && key !== 'currentView') state[key] = saved[key];
+  });
+  if (!Array.isArray(state.answers) || state.answers.length !== SURVEY.length) {
+    state.answers = SURVEY.map(function () { return null; });
+  }
+  state.surveyIndex = Math.min(Math.max(0, Number(state.surveyIndex) || 0), SURVEY.length - 1);
+  // 화면 요소를 저장된 상태에 맞춤
+  document.querySelectorAll('input[name="goal"]').forEach(function (radio) { radio.checked = radio.value === state.goal; });
+  $('#spouse-count').textContent = state.spouse + '명';
+  $('#children-count').textContent = state.children + '명';
+  document.querySelectorAll('[data-transfer-scenario]').forEach(function (button) {
+    const active = button.dataset.transferScenario === state.estateMode;
+    button.classList.toggle('active', active);
+    button.querySelector('b').textContent = active ? '선택됨' : '비교';
+  });
+  document.querySelectorAll('[data-analysis-mode]').forEach(function (button) {
+    button.classList.toggle('active', (button.dataset.analysisMode === 'taa') === state.useTaa);
+  });
+  $('#band-copy').textContent = state.useBand ? '0.3억원 미만 차이는 거래 생략' : '모든 차이를 거래';
+}
+
+function restoreHeirShares(snapshot) {
+  const shares = snapshot && snapshot.state && snapshot.state.heirShares;
+  if (!Array.isArray(shares) || shares.length !== state.heirs.length) return;
+  state.heirs.forEach(function (heir, index) { heir.share = Number(shares[index]) || 0; });
+  renderHeirInputs();
+}
+
+function resetAppState() {
+  if (!window.confirm('입력한 내용을 모두 지우고 처음부터 다시 시작할까요?')) return;
+  try { window.localStorage.removeItem(STORAGE_KEY); } catch (error) { /* 저장소 접근 불가 시 무시 */ }
+  window.location.reload();
+}
+
+function addResetButton() {
+  document.querySelectorAll('.save-state').forEach(function (badge) {
+    const button = document.createElement('button');
+    button.type = 'button';
+    button.className = 'secondary save-reset';
+    button.textContent = '처음부터 다시';
+    button.style.marginLeft = '8px';
+    button.addEventListener('click', resetAppState);
+    badge.insertAdjacentElement('afterend', button);
+  });
+}
+
+// 기존 이벤트 처리가 끝난 뒤 저장되도록 문서 전체의 입력·클릭을 감지합니다.
+['input', 'change', 'click'].forEach(function (type) {
+  document.addEventListener(type, scheduleSave);
+});
+
+const savedSnapshot = readSavedState();
+if (savedSnapshot) {
+  storageRestoring = true;
+  applySavedState(savedSnapshot);
+}
 buildHeirs(false);
+if (savedSnapshot) restoreHeirShares(savedSnapshot);
 updateConditionalUI();
 analyzeDistribution(false);
 registerWebMcpTools();
-navigate('profile', { silent: true });
+addResetButton();
+const startView = savedSnapshot && savedSnapshot.state && views[savedSnapshot.state.currentView] ? savedSnapshot.state.currentView : 'profile';
+navigate(startView, { silent: true });
+if (savedSnapshot) renderSurvey();
+storageRestoring = false;
