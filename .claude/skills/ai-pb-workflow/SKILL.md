@@ -18,6 +18,7 @@ description: AI PB(github.com/koreanchubby/ai-pb) 팀 프로젝트에서 작업�
 - `.env`, API 키, 비밀번호를 커밋하지 않는다.
 - 새 기능·파라미터에는 근거(논문 또는 공식 실무 자료)를 남기고, 팀 결정은 `docs/DECISIONS.md` 맨 위에 기록한다.
 - 사용자가 이름이나 이슈 번호를 말하지 않았으면 STATUS.md와 Issues를 보고 추정한 뒤, 추정했다고 밝힌다.
+- 진행 상태(PR·이슈·리뷰·Merge·배포)를 말하거나 "다음에 할 일"을 안내하기 직전에 GitHub 현재 상태를 다시 조회한다(`gh pr list --state all`, `gh issue list`, `gh run list`). STATUS.md나 앞서 본 결과만 믿고 말하지 않는다. 팀원이 그사이 Merge했을 수 있다.
 
 ## 작업 시작 ("작업 시작", "시작할게")
 
