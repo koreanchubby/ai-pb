@@ -17,7 +17,11 @@
 |---|---|---|---|---|---|
 | 옥경환 (koreanchubby) | 입력 저장 후속 수정 (PR #7 리뷰 지적 반영) | #1 | `fix/save-followup` | `app.js` | 🔵 리뷰 대기 (PR #9) |
 | 옥경환 (koreanchubby) | PWA 설치·오프라인 | — | `feat/pwa` | `index.html`(5줄 추가, id 변경 없음), `sw.js`, `pwa.js`, `manifest.webmanifest`, `icons/` | 🔵 리뷰 대기 (PR #10) |
-| 옥경환 (koreanchubby) | 뉴스 출처 선정·자동 수집 | #2 | `feat/news-actions` | `docs/`, `scripts/`, `data/`, `.github/` | ⬜ (PR #9·#10·리포트 PDF가 합쳐진 뒤 올림) |
+| 옥경환 (koreanchubby) | 리포트 PDF 저장 | — | `feat/report-print` | `app.js`(저장 버튼), `print.css`, `sw.js`, `index.html`(1줄) | 🔵 리뷰 대기 (PR #12, #9·#10 다음에 Merge) |
+| 옥경환 (koreanchubby) | 뉴스 출처 선정·자동 수집·AI 설명, 하우스뷰 합의, 계산 재현 모델·테스트 47개, 산출물 문서 | #2 | `feat/news-actions` | `scripts/`, `tests/`, `data/`, `.github/workflows/`, `docs/`(STATUS 제외), `README.md` | 🔵 리뷰 대기 (PR #13, #12 다음에 Merge) |
+| 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ⬜ #13 Merge 후 이유경이 채택 여부 결정 |
+| 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ⬜ #13 Merge 후 팀 결정 |
+| 둘 다 | 하우스뷰 참고 증권사 목록 확정 | — | — | `data/house_view_input.json` | ⬜ |
 | 옥경환 (koreanchubby) | 주간 보고서 6주차 옥경환 초안 | — | `docs/weekly-report-okh` | `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #11) |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | 🟡 진행 중 (2026-10-05 시작) — Stitch에서 "고객 정보·투자성향" 화면 시안 다듬는 중, 아직 CSS 반영 전 |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
@@ -40,7 +44,10 @@
 ## 이번 주 메모
 
 - 화면에 "자동 저장됨"이 표시되지만 실제 저장은 안 됨 → PR #7로 해결(2026-10-05 병합). 리뷰 지적(검토 완료 직후 새로고침)은 PR #9에서 수정
-- (옥경환, 10-06) 올릴 순서: PR #9(app.js) · PWA(`index.html` 5줄) → 둘 다 합쳐지면 리포트 PDF(`app.js`·`index.html`) → 뉴스 자동 수집·문서. `styles.css`·`v3.css`는 건드리지 않음
+- (옥경환, 10-06) **Merge 순서: #9 → #10 → #12 → #13.** #12·#13은 앞 PR 위에 쌓아서 올렸기 때문에, 앞 PR이 합쳐지면 자기 변경만 남음. `styles.css`·`v3.css`는 건드리지 않음 (리포트 인쇄 모양은 별도 `print.css`)
+- `index.html`에 추가된 줄: PWA 5줄(manifest·아이콘 링크·iOS meta, `pwa.js`), 리포트 PDF 1줄(`print.css`). 디자인 작업과 겹치면 이 줄들만 살려서 합치기
+- 코드 메모: 회사채 입력칸 id가 `asset-corpat`(오타로 보임). 저장 키로도 쓰이므로 고칠 때는 `STORAGE_VERSION`도 함께 올리기
+- #13 Merge 후 옥경환: Settings → Secrets(`ECOS_API_KEY`, `FRED_API_KEY`, `ANTHROPIC_API_KEY`)·Variables(`LLM_MODEL`) 등록 → Actions의 news 첫 실행 확인 → 이슈 #2 닫기
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
 - (이유경, 10-05) 디자인 작업 진행 상황: Stitch 시안 작업 중. 순서는 ① 고객 정보·투자성향 화면 시안 확정 → ② `styles.css`/`v3.css`에만 반영(`index.html` id·`app.js`는 안 건드림) → ③ 9단계·7단계·모바일 점검 → ④ PR. 디자인 작업 동안 CSS 파일은 건드리지 말아 줘
