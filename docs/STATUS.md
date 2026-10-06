@@ -51,7 +51,7 @@
 - (옥경환, 10-06) **Merge 순서: #9 → #10 → #12 → #13.** #12·#13은 앞 PR 위에 쌓아서 올렸기 때문에, 앞 PR이 합쳐지면 자기 변경만 남음. `styles.css`·`v3.css`는 건드리지 않음 (리포트 인쇄 모양은 별도 `print.css`)
 - `index.html`에 추가된 줄: PWA 5줄(manifest·아이콘 링크·iOS meta, `pwa.js`), 리포트 PDF 1줄(`print.css`). 디자인 작업과 겹치면 이 줄들만 살려서 합치기
 - 코드 메모: 회사채 입력칸 id가 `asset-corpat`(오타로 보임). 저장 키로도 쓰이므로 고칠 때는 `STORAGE_VERSION`도 함께 올리기
-- #13 Merge 후 옥경환: Settings → Secrets(`ECOS_API_KEY`, `FRED_API_KEY`, `ANTHROPIC_API_KEY`)·Variables(`LLM_MODEL`) 등록 → Actions의 news 첫 실행 확인 → 이슈 #2 닫기
+- (옥경환, 10-06) Secrets `ECOS_API_KEY`·`FRED_API_KEY` 등록 완료. `ANTHROPIC_API_KEY`·`LLM_MODEL`(AI 설명, 유료)은 팀 결정 후. #13 Merge 후 Actions의 news 첫 실행 확인 → 이슈 #2 닫기
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
 - (이유경, 10-06) PR #9·#10·#12·#13 Merge 완료. **이슈 #2는 PR #13의 `Closes #2`로 자동으로 닫힘** → API 키(Secrets)·Variables 등록과 Actions news 첫 실행 확인은 아직 남아 있음. 리뷰 의견: print.css의 `#pwa-banner` id 불일치(오프라인 PDF에 알림 찍힐 수 있음), DB_DESIGN은 강의계획서상 백엔드+DB 필수라 Supabase로 가는 쪽 + 권한(소유자·RLS) 추가 제안, PWA는 배포 후 휴대폰 설치·비행기 모드로 확인 필요
