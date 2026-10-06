@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T14:34:46Z",
+  "generated_at": "2026-10-06T15:33:22Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 3
+      "count": 18
     },
     {
       "source": "한국은행 ECOS",
@@ -141,24 +141,6 @@
       }
     },
     {
-      "id": "news-e36dfadbf9e9",
-      "title": "Nikkei Tops 70 , 000 at Close , Hits Three - Month High as Wall Street Rally and Cheaper Oil Lift Tokyo Stocks",
-      "url": "https://www.ibtimes.com.au/japan-nikkei-closes-above-70000-1876319",
-      "source": "ibtimes.com.au",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "rates",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-ac602b32a01a",
       "title": "Air India , IndiGo , SpiceJet Seek Govt Relief As West Asia Conflict Pushes ATF Costs Higher",
       "url": "https://www.freepressjournal.in/business/air-india-indigo-spicejet-seek-govt-relief-as-west-asia-conflict-pushes-atf-costs-higher",
@@ -168,6 +150,24 @@
       "categories": [
         "oil",
         "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e36dfadbf9e9",
+      "title": "Nikkei Tops 70 , 000 at Close , Hits Three - Month High as Wall Street Rally and Cheaper Oil Lift Tokyo Stocks",
+      "url": "https://www.ibtimes.com.au/japan-nikkei-closes-above-70000-1876319",
+      "source": "ibtimes.com.au",
+      "source_type": "news",
+      "published_at": "2026-10-06T08:30:00Z",
+      "categories": [
+        "rates",
+        "oil"
       ],
       "importance": 4,
       "facts": null,
@@ -195,14 +195,14 @@
       "change_condition": null
     },
     {
-      "id": "news-fd85ac601dc8",
-      "title": "Lars Felds Ordnungsruf : Vor Frankreichs Zinskurve sollte ganz Europa zittern",
-      "url": "https://www.handelsblatt.com/meinung/wirtschaftsforum/lars-felds-ordnungsruf-vor-frankreichs-zinskurve-sollte-ganz-europa-zittern/100259599.html",
-      "source": "handelsblatt.com",
+      "id": "news-89f2c2d7bcf8",
+      "title": "IPO 시장 4분기  기지개 … AI · 로봇 앞세워 22곳 상장 채비",
+      "url": "https://www.newspim.com/news/view/20261006001270",
+      "source": "newspim.com",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -212,14 +212,31 @@
       "change_condition": null
     },
     {
-      "id": "news-a278e631eda3",
-      "title": "台灣央行就是不一樣 ！ 林啟超預估美日歐Q4再次升息 ， 台股 「 過五關斬六將 」 有底氣 | 林彥呈 | 財經",
-      "url": "https://www.storm.mg/article/11170209",
-      "source": "storm.mg",
+      "id": "news-d801c7a7295c",
+      "title": "KOSPI跌0 . 89 % 科技股领跌 韩元兑美元走强",
+      "url": "https://stock.jrj.com.cn/2026/10/06160358625130.shtml",
+      "source": "stock.jrj.com.cn",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
-        "rates"
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4ee03b102ffc",
+      "title": "刚刚 ， 开盘大涨 ！ 中国资产 ， 集体爆发 _ 财富号 _ 东方财富网",
+      "url": "https://caifuhao.eastmoney.com/news/20261006102035868920650",
+      "source": "caifuhao.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-06T08:30:00Z",
+      "categories": [
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -467,6 +484,40 @@
       "change_condition": null
     },
     {
+      "id": "news-fd85ac601dc8",
+      "title": "Lars Felds Ordnungsruf : Vor Frankreichs Zinskurve sollte ganz Europa zittern",
+      "url": "https://www.handelsblatt.com/meinung/wirtschaftsforum/lars-felds-ordnungsruf-vor-frankreichs-zinskurve-sollte-ganz-europa-zittern/100259599.html",
+      "source": "handelsblatt.com",
+      "source_type": "news",
+      "published_at": "2026-10-06T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a278e631eda3",
+      "title": "台灣央行就是不一樣 ！ 林啟超預估美日歐Q4再次升息 ， 台股 「 過五關斬六將 」 有底氣 | 林彥呈 | 財經",
+      "url": "https://www.storm.mg/article/11170209",
+      "source": "storm.mg",
+      "source_type": "news",
+      "published_at": "2026-10-06T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-89ca6b1f7b22",
       "title": "长存预计NAND闪存短缺将持续三年 ： 消费级存储市场被挤压 _ 3DM单机",
       "url": "https://www.3dmgame.com/news/202610/3955420.html",
@@ -518,23 +569,6 @@
       "change_condition": null
     },
     {
-      "id": "news-d801c7a7295c",
-      "title": "KOSPI跌0 . 89 % 科技股领跌 韩元兑美元走强",
-      "url": "https://stock.jrj.com.cn/2026/10/06160358625130.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-8263dcbab42e",
       "title": "삼성전자 잠정 실적 발표 앞두고 외인  이탈  ⋯코스피 1 . 6 % 밀려  6890선",
       "url": "http://inews24.com/view/2012252",
@@ -543,40 +577,6 @@
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-89f2c2d7bcf8",
-      "title": "IPO 시장 4분기  기지개 … AI · 로봇 앞세워 22곳 상장 채비",
-      "url": "https://www.newspim.com/news/view/20261006001270",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4ee03b102ffc",
-      "title": "刚刚 ， 开盘大涨 ！ 中国资产 ， 集体爆发 _ 财富号 _ 东方财富网",
-      "url": "https://caifuhao.eastmoney.com/news/20261006102035868920650",
-      "source": "caifuhao.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "fx"
       ],
       "importance": 3,
       "facts": null,
