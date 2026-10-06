@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T14:28:35Z",
+  "generated_at": "2026-10-06T14:34:46Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,8 +25,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 3
     },
     {
       "source": "한국은행 ECOS",
@@ -141,15 +141,15 @@
       }
     },
     {
-      "id": "news-ac602b32a01a",
-      "title": "Air India , IndiGo , SpiceJet Seek Govt Relief As West Asia Conflict Pushes ATF Costs Higher",
-      "url": "https://www.freepressjournal.in/business/air-india-indigo-spicejet-seek-govt-relief-as-west-asia-conflict-pushes-atf-costs-higher",
-      "source": "freepressjournal.in",
+      "id": "news-e36dfadbf9e9",
+      "title": "Nikkei Tops 70 , 000 at Close , Hits Three - Month High as Wall Street Rally and Cheaper Oil Lift Tokyo Stocks",
+      "url": "https://www.ibtimes.com.au/japan-nikkei-closes-above-70000-1876319",
+      "source": "ibtimes.com.au",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
+        "rates",
+        "oil"
       ],
       "importance": 4,
       "facts": null,
@@ -159,15 +159,15 @@
       "change_condition": null
     },
     {
-      "id": "news-e36dfadbf9e9",
-      "title": "Nikkei Tops 70 , 000 at Close , Hits Three - Month High as Wall Street Rally and Cheaper Oil Lift Tokyo Stocks",
-      "url": "https://www.ibtimes.com.au/japan-nikkei-closes-above-70000-1876319",
-      "source": "ibtimes.com.au",
+      "id": "news-ac602b32a01a",
+      "title": "Air India , IndiGo , SpiceJet Seek Govt Relief As West Asia Conflict Pushes ATF Costs Higher",
+      "url": "https://www.freepressjournal.in/business/air-india-indigo-spicejet-seek-govt-relief-as-west-asia-conflict-pushes-atf-costs-higher",
+      "source": "freepressjournal.in",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
-        "semis",
-        "oil"
+        "oil",
+        "geopolitics"
       ],
       "importance": 4,
       "facts": null,
@@ -188,6 +188,40 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fd85ac601dc8",
+      "title": "Lars Felds Ordnungsruf : Vor Frankreichs Zinskurve sollte ganz Europa zittern",
+      "url": "https://www.handelsblatt.com/meinung/wirtschaftsforum/lars-felds-ordnungsruf-vor-frankreichs-zinskurve-sollte-ganz-europa-zittern/100259599.html",
+      "source": "handelsblatt.com",
+      "source_type": "news",
+      "published_at": "2026-10-06T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a278e631eda3",
+      "title": "台灣央行就是不一樣 ！ 林啟超預估美日歐Q4再次升息 ， 台股 「 過五關斬六將 」 有底氣 | 林彥呈 | 財經",
+      "url": "https://www.storm.mg/article/11170209",
+      "source": "storm.mg",
+      "source_type": "news",
+      "published_at": "2026-10-06T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
