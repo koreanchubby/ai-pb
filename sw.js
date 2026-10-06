@@ -4,7 +4,7 @@
  * 저장 대상: 아래 SHELL_FILES, data/*.json, 앱 첫 화면. 그 밖의 주소(docs 등)는 건드리지 않습니다.
  * SHELL_FILES 목록(파일 추가·삭제)을 바꿀 때만 CACHE_VERSION 숫자를 올립니다.
  */
-const CACHE_VERSION = 'v2';
+const CACHE_VERSION = 'v3';
 const SHELL_CACHE = 'aipb-shell-' + CACHE_VERSION;
 const DATA_CACHE = 'aipb-data-' + CACHE_VERSION;
 const SHELL_FILES = [
@@ -15,6 +15,8 @@ const SHELL_FILES = [
   './print.css',
   './app.js',
   './pwa.js',
+  './news-view.js',
+  './data/news.json',
   './manifest.webmanifest',
   './icons/icon.svg',
   './icons/icon-192.png',
