@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "month": "2026-10",
+  "generated_at": "2026-10-03T19:27:33Z",
+  "demo": true,
+  "method": "동일가중 평균(Timmermann, 2006). +1과 -1이 함께 있으면 0(의견 불일치), 그 외 |평균|>0.5면 ±1",
+  "sources": [
+    {
+      "id": "demo-a",
+      "name": "데모 증권사 A (가상)",
+      "title": "10월 하우스뷰 (데모 예시)",
+      "published": "2026-10-01",
+      "url": null
+    },
+    {
+      "id": "demo-b",
+      "name": "데모 증권사 B (가상)",
+      "title": "10월 자산배분 전략 (데모 예시)",
+      "published": "2026-10-01",
+      "url": null
+    },
+    {
+      "id": "demo-c",
+      "name": "데모 증권사 C (가상)",
+      "title": "10월 투자전략 (데모 예시)",
+      "published": "2026-10-02",
+      "url": null
+    }
+  ],
+  "consensus": {
+    "kr_equity": {
+      "asset": "국내 주식",
+      "n": 3,
+      "mean": 0.3333,
+      "view": 0,
+      "label": "중립",
+      "tone": "hold",
+      "disagreement": false,
+      "votes": {
+        "demo-a": 0,
+        "demo-b": 1,
+        "demo-c": 0
+      }
+    },
+    "global_equity": {
+      "asset": "해외 주식",
+      "n": 3,
+      "mean": -0.6667,
+      "view": -1,
+      "label": "축소",
+      "tone": "sell",
+      "disagreement": false,
+      "votes": {
+        "demo-a": -1,
+        "demo-b": -1,
+        "demo-c": 0
+      }
+    },
+    "govbond": {
+      "asset": "국채",
+      "n": 3,
+      "mean": 1.0,
+      "view": 1,
+      "label": "확대",
+      "tone": "buy",
+      "disagreement": false,
+      "votes": {
+        "demo-a": 1,
+        "demo-b": 1,
+        "demo-c": 1
+      }
+    },
+    "corpbond": {
+      "asset": "회사채",
+      "n": 3,
+      "mean": 0.0,
+      "view": 0,
+      "label": "중립",
+      "tone": "hold",
+      "disagreement": false,
+      "votes": {
+        "demo-a": 0,
+        "demo-b": 0,
+        "demo-c": 0
+      }
+    },
+    "alternative": {
+      "asset": "금·리츠",
+      "n": 3,
+      "mean": 0.3333,
+      "view": 0,
+      "label": "중립",
+      "tone": "hold",
+      "disagreement": false,
+      "votes": {
+        "demo-a": 0,
+        "demo-b": 0,
+        "demo-c": 1
+      }
+    },
+    "cash": {
+      "asset": "현금성",
+      "n": 3,
+      "mean": 0.6667,
+      "view": 1,
+      "label": "확대",
+      "tone": "buy",
+      "disagreement": false,
+      "votes": {
+        "demo-a": 1,
+        "demo-b": 0,
+        "demo-c": 1
+      }
+    }
+  },
+  "notice": "증권사 자료의 원문·표·차트는 싣지 않고 자산군별 의견 점수와 출처만 사용합니다. 투자 권유가 아닙니다."
+}

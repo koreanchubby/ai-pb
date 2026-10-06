@@ -1,0 +1,81 @@
+# 1시간마다 뉴스·시장 데이터를 수집해 data/news.json을 갱신합니다 (가이드 4~5단계).
+# 필요한 Secrets (Settings → Secrets and variables → Actions):
+#   ECOS_API_KEY  (선택) 한국은행 ECOS 인증키
+#   FRED_API_KEY  (선택) FRED API 키
+#   ANTHROPIC_API_KEY (선택) AI 설명 생성용
+# 필요한 Variables:
+#   LLM_MODEL (선택) AI 설명에 쓸 모델 ID
+# 키가 없는 출처·단계는 자동으로 건너뜁니다.
+name: news
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # 매시 17분 (정각은 혼잡해 지연될 수 있음)
+  workflow_dispatch: {}     # Actions 탭에서 수동 실행
+
+permissions:
+  contents: write   # data/news.json 커밋
+  pages: write      # 봇 커밋 후 GitHub Pages 다시 빌드 요청
+
+concurrency:
+  group: news
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 단위 테스트 (뉴스)
+        run: python -m unittest discover -s tests -p "test_news.py" -v
+
+      - name: 뉴스·시장 데이터 수집
+        env:
+          ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
+          FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+        run: python scripts/fetch_news.py
+
+      - name: AI 설명 생성 (키가 있을 때만)
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+        run: python scripts/summarize_news.py
+
+      - name: 변경 시 커밋
+        id: commit
+        run: |
+          if git diff --quiet -- data/news.json; then
+            echo "변경 없음"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "ai-pb-news-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/news.json
+          git commit -m "data: 뉴스 자동 갱신 $(date -u +'%Y-%m-%dT%H:%MZ')"
+          # 다른 봇(하우스뷰)이 동시에 올렸을 수 있어 최대 3번 다시 시도
+          pushed=false
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then pushed=true; break; fi
+            sleep $((attempt * 5))
+          done
+          if [ "$pushed" != "true" ]; then echo "push 실패(3회)"; exit 1; fi
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      # Actions 기본 토큰으로 올린 커밋은 GitHub Pages 빌드를 자동으로 시작하지 않으므로 직접 요청한다.
+      - name: GitHub Pages 다시 빌드 요청
+        if: steps.commit.outputs.pushed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds"

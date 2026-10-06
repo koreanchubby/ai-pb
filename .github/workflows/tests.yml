@@ -1,0 +1,24 @@
+# PR을 올리거나 main에 합칠 때 전체 테스트를 돌립니다 (뉴스·계산 재현·하우스뷰).
+name: tests
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "tests/**", "data/house_view_input.json", ".github/workflows/**"]
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+jobs:
+  unittest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: 전체 단위 테스트
+        run: python -m unittest discover -s tests -v

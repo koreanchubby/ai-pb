@@ -322,6 +322,8 @@ function navigate(viewName, options) {
   renderFlowNavigation();
   sidebar.classList.remove('open');
   if (!settings.silent) window.scrollTo({ top: 0, behavior: 'smooth' });
+  // 지연 이동(예: 리밸런싱 검토 완료 0.35초 뒤)도 저장되도록 화면 이동마다 저장을 예약합니다.
+  scheduleSave();
   return true;
 }
 
@@ -1329,9 +1331,49 @@ $('#expert-next').addEventListener('click', function () {
   navigate('report');
 });
 
-$('#save-report').addEventListener('click', function () {
-  showToast('최종 리포트를 저장했습니다. 데모에서는 파일이 생성되지 않습니다.');
-});
+// 리포트 저장: 브라우저 인쇄 창을 열어 "PDF로 저장"으로 파일을 만듭니다(외부 라이브러리 없음).
+// 인쇄 모양은 print.css가 정합니다(리포트 화면만, A4).
+const ORIGINAL_TITLE = document.title;
+let printing = false;
+
+function restoreTitleAfterPrint() {
+  document.title = ORIGINAL_TITLE;
+  printing = false;
+}
+
+function printReport() {
+  if (printing) return; // 두 번 눌러도 한 번만 (제목 복구가 꼬이지 않게)
+  printing = true;
+  if (state.currentView !== 'report') navigate('report', { silent: true });
+  updateAll();
+  const draft = includesTransfer() && !state.expertApproved;
+  const now = new Date();
+  const stamp = now.getFullYear() + String(now.getMonth() + 1).padStart(2, '0') + String(now.getDate()).padStart(2, '0');
+  const panel = document.querySelector('[data-view-panel="report"]');
+  let header = document.getElementById('print-header');
+  if (!header) {
+    header = document.createElement('div');
+    header.id = 'print-header';
+    header.className = 'print-only';
+    panel.insertBefore(header, panel.firstChild);
+  }
+  header.innerHTML = '<strong>AI PB 자문 리포트</strong><span>작성 ' + now.toLocaleString('ko-KR') + '</span>' +
+    (draft ? '<em>전문가 승인 전 초안</em>' : '');
+  document.title = 'AI-PB-리포트-' + stamp; // PDF 기본 파일 이름
+  window.addEventListener('afterprint', restoreTitleAfterPrint, { once: true });
+  // 아이폰 홈 화면 앱(standalone)에서는 인쇄 창이 열리지 않을 수 있어 안내를 바꿉니다.
+  const iosStandalone = window.navigator.standalone === true;
+  showToast(iosStandalone
+    ? '인쇄 창이 열리지 않으면 Safari에서 열어 공유 → 프린트로 PDF를 저장하세요.'
+    : '인쇄 창에서 대상을 "PDF로 저장"으로 고르면 파일로 저장됩니다.');
+  window.setTimeout(function () {
+    window.print();
+    // afterprint를 지원하지 않는 브라우저는 인쇄 창이 닫힌 뒤 제목을 되돌립니다.
+    if (!('onafterprint' in window)) window.setTimeout(restoreTitleAfterPrint, 1000);
+  }, 100);
+}
+
+$('#save-report').addEventListener('click', printReport);
 
 $('#menu-button').addEventListener('click', function () {
   sidebar.classList.add('open');
@@ -1404,8 +1446,8 @@ function registerWebMcpTools() {
 // ---------------------------------------------------------------------------
 const STORAGE_KEY = 'aipb-v4-state';
 const STORAGE_VERSION = 1;
-const SAVED_FIELD_SELECTORS = '.asset-input, #asset-debt, #age, #employment, #monthly-spend, #pension-income, #retirement-years, #insurance-reserve, #pef-year, #lock-home, #liquidity-target, #band-switch';
-const SAVED_STATE_KEYS = ['currentView', 'goal', 'spouse', 'children', 'estateTarget', 'estateTargetManual', 'estateMode', 'useTaa', 'useBand', 'answers', 'surveyIndex'];
+const SAVED_FIELD_SELECTORS = '.asset-input, #asset-debt, #age, #employment, #monthly-spend, #pension-income, #retirement-years, #insurance-reserve, #pef-year, #lock-home, #liquidity-target, #band-switch, #lock-pef, #gift-window';
+const SAVED_STATE_KEYS = ['currentView', 'returnView', 'goal', 'spouse', 'children', 'estateTarget', 'estateTargetManual', 'estateMode', 'useTaa', 'useBand', 'answers', 'surveyIndex'];
 let storageRestoring = false;
 
 function collectSavedFields() {
@@ -1433,7 +1475,10 @@ function saveAppState() {
 
 function scheduleSave() {
   window.clearTimeout(scheduleSave.timer);
-  scheduleSave.timer = window.setTimeout(saveAppState, 300);
+  scheduleSave.timer = window.setTimeout(function () {
+    scheduleSave.timer = null;
+    saveAppState();
+  }, 300);
 }
 
 function readSavedState() {
@@ -1447,22 +1492,38 @@ function readSavedState() {
   }
 }
 
+// 저장값을 그대로 믿지 않고 허용 범위만 받아들입니다(문항·목표가 바뀌거나 값이 깨져도 앱이 멈추지 않게).
+function sanitizeSavedState(saved) {
+  const clean = {};
+  const isInt = function (v, min, max) { return Number.isInteger(v) && v >= min && v <= max; };
+  if (typeof saved.goal === 'string' && Object.prototype.hasOwnProperty.call(goalContent, saved.goal)) clean.goal = saved.goal;
+  if (isInt(saved.spouse, 0, 1)) clean.spouse = saved.spouse;
+  if (isInt(saved.children, 0, 5)) clean.children = saved.children;
+  if (typeof saved.estateTarget === 'number' && isFinite(saved.estateTarget) && saved.estateTarget >= 0) clean.estateTarget = saved.estateTarget;
+  if (typeof saved.estateTargetManual === 'boolean') clean.estateTargetManual = saved.estateTargetManual;
+  if (['financial', 'insurance', 'installment'].indexOf(saved.estateMode) > -1) clean.estateMode = saved.estateMode;
+  if (typeof saved.useTaa === 'boolean') clean.useTaa = saved.useTaa;
+  if (typeof saved.useBand === 'boolean') clean.useBand = saved.useBand;
+  if (typeof saved.returnView === 'string' && views[saved.returnView]) clean.returnView = saved.returnView;
+  if (Array.isArray(saved.answers) && saved.answers.length === SURVEY.length) {
+    clean.answers = saved.answers.map(function (answer, index) {
+      return isInt(answer, 0, SURVEY[index].options.length - 1) ? answer : null;
+    });
+  }
+  if (isInt(saved.surveyIndex, 0, SURVEY.length - 1)) clean.surveyIndex = saved.surveyIndex;
+  return clean;
+}
+
 function applySavedState(snapshot) {
-  const saved = snapshot.state || {};
+  const saved = sanitizeSavedState(snapshot.state || {});
   const fields = snapshot.fields || {};
   Object.keys(fields).forEach(function (id) {
     const el = document.getElementById(id);
-    if (!el) return;
+    if (!el || !el.matches(SAVED_FIELD_SELECTORS)) return;
     if (el.type === 'checkbox') el.checked = Boolean(fields[id]);
-    else el.value = fields[id];
+    else if (typeof fields[id] === 'string' || typeof fields[id] === 'number') el.value = fields[id];
   });
-  SAVED_STATE_KEYS.forEach(function (key) {
-    if (key in saved && key !== 'currentView') state[key] = saved[key];
-  });
-  if (!Array.isArray(state.answers) || state.answers.length !== SURVEY.length) {
-    state.answers = SURVEY.map(function () { return null; });
-  }
-  state.surveyIndex = Math.min(Math.max(0, Number(state.surveyIndex) || 0), SURVEY.length - 1);
+  Object.keys(saved).forEach(function (key) { state[key] = saved[key]; });
   // 화면 요소를 저장된 상태에 맞춤
   document.querySelectorAll('input[name="goal"]').forEach(function (radio) { radio.checked = radio.value === state.goal; });
   $('#spouse-count').textContent = state.spouse + '명';
@@ -1470,7 +1531,8 @@ function applySavedState(snapshot) {
   document.querySelectorAll('[data-transfer-scenario]').forEach(function (button) {
     const active = button.dataset.transferScenario === state.estateMode;
     button.classList.toggle('active', active);
-    button.querySelector('b').textContent = active ? '선택됨' : '비교';
+    const label = button.querySelector('b');
+    if (label) label.textContent = active ? '선택됨' : '비교';
   });
   document.querySelectorAll('[data-analysis-mode]').forEach(function (button) {
     button.classList.toggle('active', (button.dataset.analysisMode === 'taa') === state.useTaa);
@@ -1478,16 +1540,31 @@ function applySavedState(snapshot) {
   $('#band-copy').textContent = state.useBand ? '0.3억원 미만 차이는 거래 생략' : '모든 차이를 거래';
 }
 
+// 저장된 배분을 상속인 수에 맞춰 복원합니다. 수가 다르면(깨진 저장값) 법정상속분으로 채웁니다.
 function restoreHeirShares(snapshot) {
   const shares = snapshot && snapshot.state && snapshot.state.heirShares;
-  if (!Array.isArray(shares) || shares.length !== state.heirs.length) return;
-  state.heirs.forEach(function (heir, index) { heir.share = Number(shares[index]) || 0; });
+  const valid = Array.isArray(shares) && shares.length === state.heirs.length && shares.every(function (share) {
+    return typeof share === 'number' && isFinite(share) && share >= 0 && share <= 100;
+  });
+  if (!valid) {
+    if (state.heirs.length !== 3) buildHeirs(true);
+    return;
+  }
+  state.heirs.forEach(function (heir, index) { heir.share = shares[index]; });
   renderHeirInputs();
+}
+
+function clearSavedState() {
+  try { window.localStorage.removeItem(STORAGE_KEY); } catch (error) { /* 저장소 접근 불가 시 무시 */ }
 }
 
 function resetAppState() {
   if (!window.confirm('입력한 내용을 모두 지우고 처음부터 다시 시작할까요?')) return;
-  try { window.localStorage.removeItem(STORAGE_KEY); } catch (error) { /* 저장소 접근 불가 시 무시 */ }
+  // 버튼 클릭으로 예약된 저장이 새로고침 전에 실행되어 옛 상태를 다시 쓰지 않도록 먼저 막습니다.
+  window.clearTimeout(scheduleSave.timer);
+  scheduleSave.timer = null;
+  storageRestoring = true;
+  clearSavedState();
   window.location.reload();
 }
 
@@ -1508,18 +1585,44 @@ function addResetButton() {
   document.addEventListener(type, scheduleSave);
 });
 
-const savedSnapshot = readSavedState();
-if (savedSnapshot) {
-  storageRestoring = true;
-  applySavedState(savedSnapshot);
+// 저장 대기(0.3초) 중에 새로고침하거나 앱을 닫아도 마지막 상태가 남도록 즉시 저장합니다.
+window.addEventListener('pagehide', function () {
+  if (!scheduleSave.timer) return;
+  window.clearTimeout(scheduleSave.timer);
+  scheduleSave.timer = null;
+  saveAppState();
+});
+
+// 다시 열 때 시작 화면: 저장된 단계. 단, 전문가 승인은 저장하지 않으므로
+// 승계 경로에서 최종 리포트에 있었다면 전문가 검토 단계부터 다시 시작합니다.
+function restoredStartView(snapshot) {
+  const saved = snapshot && snapshot.state ? snapshot.state.currentView : null;
+  if (!saved || !views[saved]) return 'profile';
+  if (saved === 'report' && includesTransfer() && !state.expertApproved) return 'experts';
+  return saved;
 }
-buildHeirs(false);
-if (savedSnapshot) restoreHeirShares(savedSnapshot);
+
+let savedSnapshot = readSavedState();
+storageRestoring = Boolean(savedSnapshot);
+try {
+  if (savedSnapshot) applySavedState(savedSnapshot);
+  buildHeirs(false);
+  if (savedSnapshot) restoreHeirShares(savedSnapshot);
+} catch (error) {
+  // 저장값 때문에 복원이 실패하면 저장값을 지우고 기본 화면으로 다시 시작합니다(저장값이 없을 때는 그대로 오류).
+  if (!savedSnapshot) throw error;
+  clearSavedState();
+  window.location.reload();
+  throw error;
+}
 updateConditionalUI();
 analyzeDistribution(false);
 registerWebMcpTools();
 addResetButton();
-const startView = savedSnapshot && savedSnapshot.state && views[savedSnapshot.state.currentView] ? savedSnapshot.state.currentView : 'profile';
+const startView = restoredStartView(savedSnapshot);
+// 뉴스 화면으로 복원할 때 저장된 '돌아갈 단계'를 덮어쓰지 않도록 현재 화면을 먼저 맞춥니다.
+if (startView === 'news') state.currentView = 'news';
+if (!views[state.returnView] || state.returnView === 'news') state.returnView = 'profile';
 navigate(startView, { silent: true });
 if (savedSnapshot) renderSurvey();
 storageRestoring = false;

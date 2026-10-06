@@ -25,8 +25,7 @@
 | 옥경환 (koreanchubby) | 주간 보고서 6주차 옥경환 초안 | — | `docs/weekly-report-okh` | `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #11) |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | 🟡 진행 중 (2026-10-05 시작) — Stitch에서 "고객 정보·투자성향" 화면 시안 다듬는 중, 아직 CSS 반영 전 |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
-| 이유경 (yukyung16) | 옥경환 PR 리뷰·Merge (#9 → #10 → #12 → #13 순서) | — | — | — | ⬜ 다음 할 일 |
-| 이유경 (yukyung16) | 주간 보고서 6주차 이유경 초안 맞춤 (마일스톤 3 기준) + 7주차 칸 | — | `docs/weekly-report-yk` | `docs/WEEKLY_REPORTS.md` | 🔵 PR 올림 (eyefeet 6주차 입력 완료, 저장 확인 중) |
+| 이유경 (yukyung16) | 강의계획서 대비 진행 점검표, 주간 보고서 마감·작성 방법 | — | `docs/syllabus-progress` | `docs/SYLLABUS_PROGRESS.md`, `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #15) |
 | 둘 다 | WebStorm 비상업 무료 라이선스 등록 | #4 | — | — | 옥경환 ✅ / 이유경 ✅ |
 
 ## 완료
@@ -43,6 +42,8 @@
 | 2026-10-05 | 입력값 저장·복원 (PR #7, 이슈 #1) | 옥경환 |
 | 2026-10-06 | 주간 보고서 문서 PR #8 리뷰·승인·Merge | 옥경환 |
 | 2026-10-06 | 옥경환 6주차 초안 PR #11 리뷰·Merge, 보고서 기준 합의(그 주차 마일스톤만, 마일스톤 3 = 5주차) | 이유경 |
+| 2026-10-06 | 주간 보고서 6주차 초안·간트 기준표 (PR #14, 옥경환 Merge) | 이유경 |
+| 2026-10-06 | 옥경환 PR #9·#10·#12·#13 실행·리뷰·Merge (순서대로). 리뷰 의견은 각 Merge 기록에 남김 | 이유경 |
 
 ## 이번 주 메모
 
@@ -53,4 +54,6 @@
 - #13 Merge 후 옥경환: Settings → Secrets(`ECOS_API_KEY`, `FRED_API_KEY`, `ANTHROPIC_API_KEY`)·Variables(`LLM_MODEL`) 등록 → Actions의 news 첫 실행 확인 → 이슈 #2 닫기
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
+- (이유경, 10-06) PR #9·#10·#12·#13 Merge 완료. **이슈 #2는 PR #13의 `Closes #2`로 자동으로 닫힘** → API 키(Secrets)·Variables 등록과 Actions news 첫 실행 확인은 아직 남아 있음. 리뷰 의견: print.css의 `#pwa-banner` id 불일치(오프라인 PDF에 알림 찍힐 수 있음), DB_DESIGN은 강의계획서상 백엔드+DB 필수라 Supabase로 가는 쪽 + 권한(소유자·RLS) 추가 제안, PWA는 배포 후 휴대폰 설치·비행기 모드로 확인 필요
+- (이유경, 10-06) **eyefeet 보고서 마감: 매주 화요일 17시.** 강의계획서 대비 점검(PR #15): 백엔드·DB·REST API(8~9주), AI 예측→백테스트(13주, 기말), /docs 번호 문서 세트 정리가 비어 있음 → 같이 정하자
 - (이유경, 10-05) 디자인 작업 진행 상황: Stitch 시안 작업 중. 순서는 ① 고객 정보·투자성향 화면 시안 확정 → ② `styles.css`/`v3.css`에만 반영(`index.html` id·`app.js`는 안 건드림) → ③ 9단계·7단계·모바일 점검 → ④ PR. 디자인 작업 동안 CSS 파일은 건드리지 말아 줘
