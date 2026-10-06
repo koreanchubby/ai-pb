@@ -1331,9 +1331,49 @@ $('#expert-next').addEventListener('click', function () {
   navigate('report');
 });
 
-$('#save-report').addEventListener('click', function () {
-  showToast('최종 리포트를 저장했습니다. 데모에서는 파일이 생성되지 않습니다.');
-});
+// 리포트 저장: 브라우저 인쇄 창을 열어 "PDF로 저장"으로 파일을 만듭니다(외부 라이브러리 없음).
+// 인쇄 모양은 print.css가 정합니다(리포트 화면만, A4).
+const ORIGINAL_TITLE = document.title;
+let printing = false;
+
+function restoreTitleAfterPrint() {
+  document.title = ORIGINAL_TITLE;
+  printing = false;
+}
+
+function printReport() {
+  if (printing) return; // 두 번 눌러도 한 번만 (제목 복구가 꼬이지 않게)
+  printing = true;
+  if (state.currentView !== 'report') navigate('report', { silent: true });
+  updateAll();
+  const draft = includesTransfer() && !state.expertApproved;
+  const now = new Date();
+  const stamp = now.getFullYear() + String(now.getMonth() + 1).padStart(2, '0') + String(now.getDate()).padStart(2, '0');
+  const panel = document.querySelector('[data-view-panel="report"]');
+  let header = document.getElementById('print-header');
+  if (!header) {
+    header = document.createElement('div');
+    header.id = 'print-header';
+    header.className = 'print-only';
+    panel.insertBefore(header, panel.firstChild);
+  }
+  header.innerHTML = '<strong>AI PB 자문 리포트</strong><span>작성 ' + now.toLocaleString('ko-KR') + '</span>' +
+    (draft ? '<em>전문가 승인 전 초안</em>' : '');
+  document.title = 'AI-PB-리포트-' + stamp; // PDF 기본 파일 이름
+  window.addEventListener('afterprint', restoreTitleAfterPrint, { once: true });
+  // 아이폰 홈 화면 앱(standalone)에서는 인쇄 창이 열리지 않을 수 있어 안내를 바꿉니다.
+  const iosStandalone = window.navigator.standalone === true;
+  showToast(iosStandalone
+    ? '인쇄 창이 열리지 않으면 Safari에서 열어 공유 → 프린트로 PDF를 저장하세요.'
+    : '인쇄 창에서 대상을 "PDF로 저장"으로 고르면 파일로 저장됩니다.');
+  window.setTimeout(function () {
+    window.print();
+    // afterprint를 지원하지 않는 브라우저는 인쇄 창이 닫힌 뒤 제목을 되돌립니다.
+    if (!('onafterprint' in window)) window.setTimeout(restoreTitleAfterPrint, 1000);
+  }, 100);
+}
+
+$('#save-report').addEventListener('click', printReport);
 
 $('#menu-button').addEventListener('click', function () {
   sidebar.classList.add('open');
