@@ -1,0 +1,26 @@
+/* 리포트 인쇄·PDF 저장용. 화면에서는 .print-only만 숨기고, 나머지 규칙은 인쇄할 때만(@media print) 적용됩니다. */
+.print-only { display: none; }
+
+@page { size: A4; margin: 14mm 12mm; }
+
+@media print {
+  html, body { background: #fff !important; }
+  * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  /* 화면 틀은 숨기고 리포트만 */
+  .sidebar, .topbar, .journey, .flow-navigation, .toast, #pwa-banner,
+  .section-heading button, .audit-report button, .save-state, .save-state + button { display: none !important; }
+  .app-shell, .main-shell { display: block !important; width: auto !important; max-width: none !important;
+    margin: 0 !important; padding: 0 !important; min-height: 0 !important; overflow: visible !important; }
+  .view { display: none !important; }
+  .view[data-view-panel="report"] { display: block !important; padding: 0 !important; margin: 0 !important; }
+
+  .print-only { display: flex !important; justify-content: space-between; align-items: baseline; gap: 12px;
+    border-bottom: 2px solid #07182d; padding-bottom: 6px; margin-bottom: 10px; font-size: 10.5pt; color: #07182d; }
+  #print-header em { color: #b42318; font-style: normal; font-weight: 700; border: 1px solid #b42318;
+    padding: 1px 6px; border-radius: 4px; }
+
+  .panel, article, aside { break-inside: avoid; page-break-inside: avoid; box-shadow: none !important; }
+  .section-heading { margin-bottom: 8px !important; }
+  .legal-note { font-size: 8.5pt; break-inside: avoid; }
+}
