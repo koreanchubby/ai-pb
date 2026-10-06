@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-06T13:35:15Z",
+  "generated_at": "2026-10-06T14:28:35Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,23 +25,121 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "skipped": true,
-      "reason": "ECOS_API_KEY 없음"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "FRED",
-      "ok": false,
-      "skipped": true,
-      "reason": "FRED_API_KEY 없음"
+      "ok": true,
+      "count": 2
     }
   ],
   "items": [
+    {
+      "id": "market-858e41a69c7d",
+      "title": "WTI 원유 가격 96.16달러 (직전 대비 -3.21달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-09-29T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 96.16,
+        "previous": 99.37,
+        "change": -3.21,
+        "unit": "달러",
+        "date": "2026-09-29",
+        "alert_threshold": 3.0
+      }
+    },
+    {
+      "id": "market-80ad2ab88a16",
+      "title": "원/달러 환율(매매기준율) 1358.5원 (직전 대비 -1.1원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-05T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1358.5,
+        "previous": 1359.6,
+        "change": -1.1,
+        "unit": "원",
+        "date": "20261006",
+        "alert_threshold": 15.0
+      }
+    },
+    {
+      "id": "market-58e6d68477e2",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-03T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261004",
+        "alert_threshold": 0.25
+      }
+    },
+    {
+      "id": "market-4c9fd4446977",
+      "title": "미국 10년물 국채금리 5.28% (직전 대비 +0.04%p)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-02T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.28,
+        "previous": 5.24,
+        "change": 0.04,
+        "unit": "%",
+        "date": "2026-10-02",
+        "alert_threshold": 0.15
+      }
+    },
     {
       "id": "news-ac602b32a01a",
       "title": "Air India , IndiGo , SpiceJet Seek Govt Relief As West Asia Conflict Pushes ATF Costs Higher",
