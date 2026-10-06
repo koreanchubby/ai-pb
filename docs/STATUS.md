@@ -25,6 +25,8 @@
 | 옥경환 (koreanchubby) | 주간 보고서 6주차 옥경환 초안 | — | `docs/weekly-report-okh` | `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #11) |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | 🟡 진행 중 (2026-10-05 시작) — Stitch에서 "고객 정보·투자성향" 화면 시안 다듬는 중, 아직 CSS 반영 전 |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
+| 이유경 (yukyung16) | 옥경환 PR 리뷰·Merge (#9 → #10 → #12 → #13 순서) | — | — | — | ⬜ 다음 할 일 |
+| 이유경 (yukyung16) | 주간 보고서 6주차 이유경 초안 맞춤 (마일스톤 3 기준) + 7주차 칸 | — | `docs/weekly-report-yk` | `docs/WEEKLY_REPORTS.md` | 🔵 PR 올림 (eyefeet 6주차 입력 완료, 저장 확인 중) |
 | 둘 다 | WebStorm 비상업 무료 라이선스 등록 | #4 | — | — | 옥경환 ✅ / 이유경 ✅ |
 
 ## 완료
@@ -40,6 +42,7 @@
 | 2026-10-05 | `feat/save-input` PR #7 실행·리뷰·승인·Merge (이슈 #5 첫 항목) | 이유경 |
 | 2026-10-05 | 입력값 저장·복원 (PR #7, 이슈 #1) | 옥경환 |
 | 2026-10-06 | 주간 보고서 문서 PR #8 리뷰·승인·Merge | 옥경환 |
+| 2026-10-06 | 옥경환 6주차 초안 PR #11 리뷰·Merge, 보고서 기준 합의(그 주차 마일스톤만, 마일스톤 3 = 5주차) | 이유경 |
 
 ## 이번 주 메모
 
