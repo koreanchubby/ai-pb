@@ -55,5 +55,6 @@
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
 - (이유경, 10-06) PR #9·#10·#12·#13 Merge 완료. **이슈 #2는 PR #13의 `Closes #2`로 자동으로 닫힘** → API 키(Secrets)·Variables 등록과 Actions news 첫 실행 확인은 아직 남아 있음. 리뷰 의견: print.css의 `#pwa-banner` id 불일치(오프라인 PDF에 알림 찍힐 수 있음), DB_DESIGN은 강의계획서상 백엔드+DB 필수라 Supabase로 가는 쪽 + 권한(소유자·RLS) 추가 제안, PWA는 배포 후 휴대폰 설치·비행기 모드로 확인 필요
+- (이유경, 10-06) **교수님 안내: 배포·DB는 Eyefeet Cloud(admin.eyefeet.com) 사용, 팀당 테넌트 1개.** 제공 기능: 저장소 연결·push 자동 배포(웹훅), 런타임(static/python/node 등), PostgreSQL + PostgREST(REST API 자동 생성), 환경변수·🔒비밀. → 제안: ① 테넌트는 **한 명만** 만들기(중복 생성 금지, 누가 만들지 정하기) ② 처음엔 지금 앱을 `static`으로 main 브랜치 연결 ③ DB_DESIGN의 Supabase 대신 Eyefeet PostgreSQL로 바꿀지 정한 뒤 DECISIONS에 기록. API 키는 저장소가 아니라 Eyefeet 🔒비밀 환경변수에만
 - (이유경, 10-06) **eyefeet 보고서 마감: 매주 화요일 17시.** 강의계획서 대비 점검(PR #15): 백엔드·DB·REST API(8~9주), AI 예측→백테스트(13주, 기말), /docs 번호 문서 세트 정리가 비어 있음 → 같이 정하자
 - (이유경, 10-05) 디자인 작업 진행 상황: Stitch 시안 작업 중. 순서는 ① 고객 정보·투자성향 화면 시안 확정 → ② `styles.css`/`v3.css`에만 반영(`index.html` id·`app.js`는 안 건드림) → ③ 9단계·7단계·모바일 점검 → ④ PR. 디자인 작업 동안 CSS 파일은 건드리지 말아 줘
