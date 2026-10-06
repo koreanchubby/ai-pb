@@ -1,0 +1,147 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-09-25T09:00:00Z",
+  "demo": true,
+  "attribution": [
+    "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
+    "미 연준 자료: Board of Governors of the Federal Reserve System",
+    "This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.",
+    "출처: 한국은행 경제통계시스템(ECOS)"
+  ],
+  "notice": "데모 데이터입니다(고정 샘플). GitHub Actions가 처음 실행되면 실제 데이터로 바뀝니다. 기사 원문은 저장하지 않고 제목·링크·출처·시각만 표시합니다. 투자 권유가 아닙니다.",
+  "categories": {
+    "rates": "금리",
+    "fx": "환율",
+    "oil": "유가",
+    "etf": "ETF",
+    "semis": "반도체",
+    "geopolitics": "지정학"
+  },
+  "sources": [
+    {
+      "source": "Federal Reserve",
+      "ok": true,
+      "count": 2
+    },
+    {
+      "source": "GDELT",
+      "ok": true,
+      "count": 3
+    },
+    {
+      "source": "한국은행 ECOS",
+      "ok": true,
+      "count": 1
+    },
+    {
+      "source": "FRED",
+      "ok": true,
+      "count": 1
+    }
+  ],
+  "items": [
+    {
+      "id": "market-437c9e20c064",
+      "title": "한국은행 기준금리 2.25% (전일 대비 -0.25%)",
+      "url": "https://ecos.bok.or.kr/?stat=722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-01T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 7,
+      "facts": "한국은행 기준금리가 2.25%로 직전 2.5%보다 0.25%p 낮아졌다(데모 수치).",
+      "ai_interpretation": "금리 인하로 예금·단기채 이자는 줄고, 채권 가격은 오를 수 있다.",
+      "asset_impact": "보유 채권의 평가 가격에는 유리할 수 있고, 현금성 자산의 이자 수익은 줄어들 수 있습니다.",
+      "counter_evidence": "물가가 다시 오르면 추가 인하가 늦어질 수 있다.",
+      "change_condition": "다음 금통위에서 동결·인상 신호가 나오면 해석이 바뀐다.",
+      "value": {
+        "latest": 2.25,
+        "previous": 2.5,
+        "change": -0.25,
+        "unit": "%",
+        "date": "20261002",
+        "alert_threshold": 0.25
+      },
+      "ai_generated": true
+    },
+    {
+      "id": "market-372f4fef34fd",
+      "title": "WTI 원유 가격 72.4달러 (직전 대비 +4.3달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-01T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 72.4,
+        "previous": 68.1,
+        "change": 4.3,
+        "unit": "달러",
+        "date": "2026-10-01",
+        "alert_threshold": 3.0
+      }
+    },
+    {
+      "id": "official-656a6d641342",
+      "title": "Federal Reserve issues FOMC statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260917a.htm",
+      "source": "Federal Reserve",
+      "source_type": "official",
+      "published_at": "2026-09-17T18:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-552886599849",
+      "title": "엔비디아 실적 발표 앞두고 반도체 ETF 변동성 확대",
+      "url": "https://example.net/a2",
+      "source": "example.net",
+      "source_type": "news",
+      "published_at": "2026-10-03T03:00:00Z",
+      "categories": [
+        "etf",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7963a4d36b0c",
+      "title": "Samsung and SK hynix lead chip rally on HBM demand",
+      "url": "https://example.com/a1",
+      "source": "example.com",
+      "source_type": "news",
+      "published_at": "2026-10-03T01:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    }
+  ]
+}
