@@ -16,9 +16,9 @@
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
 | 옥경환 (koreanchubby) | 입력 저장 후속 수정 (PR #7 리뷰 지적 반영) | #1 | `fix/save-followup` | `app.js` | 🔵 리뷰 대기 (PR #9) |
-| 옥경환 (koreanchubby) | PWA 설치·오프라인 | — | `feat/pwa` | `index.html`(5줄 추가, id 변경 없음), `sw.js`, `pwa.js`, `manifest.webmanifest`, `icons/` | 🔵 리뷰 대기 (PR 생성 중) |
-| 옥경환 (koreanchubby) | 뉴스 출처 선정·자동 수집 | #2 | `feat/news-actions` | `docs/`, `scripts/`, `data/`, `.github/` | ⬜ (PR #9·PWA·리포트 PDF가 합쳐진 뒤 올림) |
-| 옥경환 (koreanchubby) | 이유경 PR #8(주간 보고서 문서) 리뷰 | — | — | — | 🟡 리뷰 중 (2026-10-06) |
+| 옥경환 (koreanchubby) | PWA 설치·오프라인 | — | `feat/pwa` | `index.html`(5줄 추가, id 변경 없음), `sw.js`, `pwa.js`, `manifest.webmanifest`, `icons/` | 🔵 리뷰 대기 (PR #10) |
+| 옥경환 (koreanchubby) | 뉴스 출처 선정·자동 수집 | #2 | `feat/news-actions` | `docs/`, `scripts/`, `data/`, `.github/` | ⬜ (PR #9·#10·리포트 PDF가 합쳐진 뒤 올림) |
+| 옥경환 (koreanchubby) | 이유경 PR #8(주간 보고서 문서) 리뷰 | — | — | — | ✅ 승인 (2026-10-06), Merge 대기 |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | 🟡 진행 중 (2026-10-05 시작) — Stitch에서 "고객 정보·투자성향" 화면 시안 다듬는 중, 아직 CSS 반영 전 |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
 | 둘 다 | WebStorm 비상업 무료 라이선스 등록 | #4 | — | — | 옥경환 ✅ / 이유경 ✅ |
