@@ -15,14 +15,9 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
-| 옥경환 (koreanchubby) | 입력 저장 후속 수정 (PR #7 리뷰 지적 반영) | #1 | `fix/save-followup` | `app.js` | 🔵 리뷰 대기 (PR #9) |
-| 옥경환 (koreanchubby) | PWA 설치·오프라인 | — | `feat/pwa` | `index.html`(5줄 추가, id 변경 없음), `sw.js`, `pwa.js`, `manifest.webmanifest`, `icons/` | 🔵 리뷰 대기 (PR #10) |
-| 옥경환 (koreanchubby) | 리포트 PDF 저장 | — | `feat/report-print` | `app.js`(저장 버튼), `print.css`, `sw.js`, `index.html`(1줄) | 🔵 리뷰 대기 (PR #12, #9·#10 다음에 Merge) |
-| 옥경환 (koreanchubby) | 뉴스 출처 선정·자동 수집·AI 설명, 하우스뷰 합의, 계산 재현 모델·테스트 47개, 산출물 문서 | #2 | `feat/news-actions` | `scripts/`, `tests/`, `data/`, `.github/workflows/`, `docs/`(STATUS 제외), `README.md` | 🔵 리뷰 대기 (PR #13, #12 다음에 Merge) |
-| 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ⬜ #13 Merge 후 이유경이 채택 여부 결정 |
+| 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ⬜ 이유경이 채택 여부 결정 (#13 Merge 완료) |
 | 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ⬜ #13 Merge 후 팀 결정 |
 | 둘 다 | 하우스뷰 참고 증권사 목록 확정 | — | — | `data/house_view_input.json` | ⬜ |
-| 옥경환 (koreanchubby) | 주간 보고서 6주차 옥경환 초안 | — | `docs/weekly-report-okh` | `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #11) |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | 🟡 진행 중 (2026-10-05 시작) — Stitch에서 "고객 정보·투자성향" 화면 시안 다듬는 중, 아직 CSS 반영 전. 컨셉 색은 **현재 색(네이비+파랑) 유지**로 결정(10-06, DECISIONS) |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
 | 이유경 (yukyung16) | 강의계획서 대비 진행 점검표, 주간 보고서 마감·작성 방법 | — | `docs/syllabus-progress` | `docs/SYLLABUS_PROGRESS.md`, `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #15) |
@@ -44,14 +39,16 @@
 | 2026-10-06 | 옥경환 6주차 초안 PR #11 리뷰·Merge, 보고서 기준 합의(그 주차 마일스톤만, 마일스톤 3 = 5주차) | 이유경 |
 | 2026-10-06 | 주간 보고서 6주차 초안·간트 기준표 (PR #14, 옥경환 Merge) | 이유경 |
 | 2026-10-06 | 옥경환 PR #9·#10·#12·#13 실행·리뷰·Merge (순서대로). 리뷰 의견은 각 Merge 기록에 남김 | 이유경 |
+| 2026-10-06 | 입력 저장 후속 수정(PR #9), PWA(PR #10), 리포트 PDF(PR #12), 뉴스 자동 수집·하우스뷰·계산 재현·산출물 문서(PR #13, 이슈 #2 닫힘), 6주차 초안(PR #11) | 옥경환 |
+| 2026-10-06 | ECOS·FRED API 키 등록, 뉴스 수집 수동 실행 성공(연준 15·ECOS 2·FRED 2건), 이유경 PR #15 리뷰·Merge | 옥경환 |
 
 ## 이번 주 메모
 
 - 화면에 "자동 저장됨"이 표시되지만 실제 저장은 안 됨 → PR #7로 해결(2026-10-05 병합). 리뷰 지적(검토 완료 직후 새로고침)은 PR #9에서 수정
-- (옥경환, 10-06) **Merge 순서: #9 → #10 → #12 → #13.** #12·#13은 앞 PR 위에 쌓아서 올렸기 때문에, 앞 PR이 합쳐지면 자기 변경만 남음. `styles.css`·`v3.css`는 건드리지 않음 (리포트 인쇄 모양은 별도 `print.css`)
 - `index.html`에 추가된 줄: PWA 5줄(manifest·아이콘 링크·iOS meta, `pwa.js`), 리포트 PDF 1줄(`print.css`). 디자인 작업과 겹치면 이 줄들만 살려서 합치기
 - 코드 메모: 회사채 입력칸 id가 `asset-corpat`(오타로 보임). 저장 키로도 쓰이므로 고칠 때는 `STORAGE_VERSION`도 함께 올리기
-- (옥경환, 10-06) Secrets `ECOS_API_KEY`·`FRED_API_KEY` 등록 완료. `ANTHROPIC_API_KEY`·`LLM_MODEL`(AI 설명, 유료)은 팀 결정 후. #13 Merge 후 Actions의 news 첫 실행 확인 → 이슈 #2 닫기
+- (옥경환, 10-06) 뉴스 자동 수집 가동 중(매시 17분). Secrets `ECOS_API_KEY`·`FRED_API_KEY` 등록. **AI 설명(Anthropic, 유료)은 쓰지 않기로 함** → 키 없이 그 단계만 건너뜀
+- GDELT(해외 뉴스)는 GitHub 서버 IP 공유 때문에 가끔 "요청 많음(429)"으로 실패함. 실패해도 이전에 받은 기사는 보관 시간 동안 유지되므로 화면에서 사라지지 않음
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
 - (이유경, 10-06) PR #9·#10·#12·#13 Merge 완료. **이슈 #2는 PR #13의 `Closes #2`로 자동으로 닫힘** → API 키(Secrets)·Variables 등록과 Actions news 첫 실행 확인은 아직 남아 있음. 리뷰 의견: print.css의 `#pwa-banner` id 불일치(오프라인 PDF에 알림 찍힐 수 있음), DB_DESIGN은 강의계획서상 백엔드+DB 필수라 Supabase로 가는 쪽 + 권한(소유자·RLS) 추가 제안, PWA는 배포 후 휴대폰 설치·비행기 모드로 확인 필요
