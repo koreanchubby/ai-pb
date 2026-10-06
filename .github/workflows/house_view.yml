@@ -1,0 +1,65 @@
+# 사람이 data/house_view_input.json을 고쳐 main에 올리면 합의 결과(data/house_view.json)를 다시 계산합니다.
+# 형식이 틀리면 실패(빨간 X)하고 어느 칸이 틀렸는지 로그에 나옵니다. 방법: docs/HOUSE_VIEW_GUIDE.md
+name: house-view
+
+on:
+  push:
+    branches: [main]
+    paths: [data/house_view_input.json]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: house-view
+  cancel-in-progress: false
+
+jobs:
+  consensus:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 테스트
+        run: python -m unittest discover -s tests -p "test_house_view.py" -v
+
+      - name: 합의 계산
+        run: python scripts/house_view.py
+
+      - name: 변경 시 커밋
+        id: commit
+        run: |
+          if git diff --quiet -- data/house_view.json; then
+            echo "변경 없음"
+            echo "pushed=false" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "ai-pb-house-view-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/house_view.json
+          git commit -m "data: 하우스뷰 합의 갱신 $(date -u +'%Y-%m-%d')"
+          pushed=false
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then pushed=true; break; fi
+            sleep $((attempt * 5))
+          done
+          if [ "$pushed" != "true" ]; then echo "push 실패(3회)"; exit 1; fi
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+
+      - name: GitHub Pages 다시 빌드 요청
+        if: steps.commit.outputs.pushed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          curl -fsS -X POST \
+            -H "Authorization: Bearer $GH_TOKEN" \
+            -H "Accept: application/vnd.github+json" \
+            "https://api.github.com/repos/${{ github.repository }}/pages/builds"
