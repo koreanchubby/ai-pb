@@ -27,6 +27,7 @@
 - [파라미터 근거 조사](docs/RESEARCH_PARAMETERS.md)
 - [데이터 형식 약속](docs/API_CONTRACT.md)
 - [하우스뷰 월간 입력 방법](docs/HOUSE_VIEW_GUIDE.md)
+- [AI 명세 (예측·데이터셋·라벨링·백테스트·검증)](docs/AI_SPEC.md)
 
 ## 실행 방법
 
