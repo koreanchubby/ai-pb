@@ -15,8 +15,8 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
-| 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | 🔵 초안 PR #16 — 이유경이 보고 채택 여부 결정 (AI 설명 문구는 원문 안내로 바꿈) |
-| 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | 🔵 초안 PR #17 — 변경 전후 숫자 정리됨, 둘이 합의 후 Merge |
+| 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ✅ PR #16 채택·Merge (10-07 이유경 리뷰: 로컬에서 카드 12개·필터·원문 링크 확인) |
+| 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ✅ PR #17 Merge (10-07 합의: 해외 기관 전망 USD 사용·국내주식=신흥국 값·설문 구간 1점 조정. 스트레스 손실·과세 분배율은 아직 데모값) |
 | 둘 다 | 하우스뷰 참고 증권사 목록 확정 | — | — | `data/house_view_input.json` | ⬜ |
 | 옥경환 (koreanchubby) | Supabase로 DB·REST API 연동 (마일스톤 5) | #20 | `feat/supabase-db` | `supabase/`(새 폴더), `app.js`(저장 부분만, 시작 전 알림), 새 JS 파일 1개, `index.html`(script 1줄), `docs/DB_DESIGN.md` | 🔵 리뷰 대기 (PR #21) — Supabase 프로젝트 `ai-pb`(서울) 생성·테이블 11개·RLS 적용 완료 |
 | 옥경환 (koreanchubby) | AI 예측 파이프라인 초안: 거시지표 → 다음 달 미국 주식 방향 (마일스톤 8, 주제는 이유경과 합의 필요) | #22 | `feat/ai-prediction` | `scripts/ai_predict.py`, `tests/`, `data/ai_signal.json`, `.github/workflows/`, `docs/AI_SPEC.md` (앱 화면 파일은 안 건드림) | 🔵 초안 PR #23 — 주제 합의 필요. 백테스트 결과: 방향 정확도 50.8%로 기준(59.3%)보다 낮음, 최대 낙폭은 작음 |
@@ -55,6 +55,7 @@
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
 - (이유경, 10-06) PR #9·#10·#12·#13 Merge 완료. **이슈 #2는 PR #13의 `Closes #2`로 자동으로 닫힘** → API 키(Secrets)·Variables 등록과 Actions news 첫 실행 확인은 아직 남아 있음. 리뷰 의견: print.css의 `#pwa-banner` id 불일치(오프라인 PDF에 알림 찍힐 수 있음), DB_DESIGN은 강의계획서상 백엔드+DB 필수라 Supabase로 가는 쪽 + 권한(소유자·RLS) 추가 제안, PWA는 배포 후 휴대폰 설치·비행기 모드로 확인 필요
+- (이유경, 10-07) PR #18(상태 안내 전 GitHub 재조회 규칙)·#16·#17 Merge 완료 → 둘 다 Pull 받기. eyefeet 6주차 보고서·간트 스냅샷 저장 완료(10-07, 사이트 장애로 하루 늦음), 내용 공유 PR은 `docs/weekly6-yk`
 - (이유경, 10-06) **교수님 안내: 배포·DB는 Eyefeet Cloud(admin.eyefeet.com) 사용, 팀당 테넌트 1개.** 제공 기능: 저장소 연결·push 자동 배포(웹훅), 런타임(static/python/node 등), PostgreSQL + PostgREST(REST API 자동 생성), 환경변수·🔒비밀. → 제안: ① 테넌트는 **한 명만** 만들기(중복 생성 금지, 누가 만들지 정하기) ② 처음엔 지금 앱을 `static`으로 main 브랜치 연결 ③ DB_DESIGN의 Supabase 대신 Eyefeet PostgreSQL로 바꿀지 정한 뒤 DECISIONS에 기록. API 키는 저장소가 아니라 Eyefeet 🔒비밀 환경변수에만
 - (이유경, 10-06) **eyefeet 보고서 마감: 매주 화요일 17시.** 강의계획서 대비 점검(PR #15): 백엔드·DB·REST API(8~9주), AI 예측→백테스트(13주, 기말), /docs 번호 문서 세트 정리가 비어 있음 → 같이 정하자
 - (이유경, 10-05) 디자인 작업 진행 상황: Stitch 시안 작업 중. 순서는 ① 고객 정보·투자성향 화면 시안 확정 → ② `styles.css`/`v3.css`에만 반영(`index.html` id·`app.js`는 안 건드림) → ③ 9단계·7단계·모바일 점검 → ④ PR. 디자인 작업 동안 CSS 파일은 건드리지 말아 줘
