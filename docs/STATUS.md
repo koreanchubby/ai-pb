@@ -19,6 +19,7 @@
 | 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | 🔵 초안 PR #17 — 변경 전후 숫자 정리됨, 둘이 합의 후 Merge |
 | 둘 다 | 하우스뷰 참고 증권사 목록 확정 | — | — | `data/house_view_input.json` | ⬜ |
 | 옥경환 (koreanchubby) | Supabase로 DB·REST API 연동 (마일스톤 5) | #20 | `feat/supabase-db` | `supabase/`(새 폴더), `app.js`(저장 부분만, 시작 전 알림), 새 JS 파일 1개, `index.html`(script 1줄), `docs/DB_DESIGN.md` | 🔵 리뷰 대기 (PR #21) — Supabase 프로젝트 `ai-pb`(서울) 생성·테이블 11개·RLS 적용 완료 |
+| 옥경환 (koreanchubby) | AI 예측 파이프라인 초안: 거시지표 → 다음 달 미국 주식 방향 (마일스톤 8, 주제는 이유경과 합의 필요) | #22 | `feat/ai-prediction` | `scripts/ai_predict.py`, `tests/`, `data/ai_signal.json`, `.github/workflows/`, `docs/AI_SPEC.md` (앱 화면 파일은 안 건드림) | 🟡 진행 중 (2026-10-07 시작) |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | 🟡 진행 중 (2026-10-05 시작) — Stitch에서 "고객 정보·투자성향" 화면 시안 다듬는 중, 아직 CSS 반영 전. 컨셉 색은 **현재 색(네이비+파랑) 유지**로 결정(10-06, DECISIONS) |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
 | 이유경 (yukyung16) | 강의계획서 대비 진행 점검표, 주간 보고서 마감·작성 방법 | — | `docs/syllabus-progress` | `docs/SYLLABUS_PROGRESS.md`, `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #15) |
