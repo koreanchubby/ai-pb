@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T17:35:35Z",
+  "generated_at": "2026-10-07T18:39:19Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,13 +25,13 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 0
     },
     {
       "source": "한국은행 ECOS",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
     },
     {
       "source": "FRED",
@@ -40,6 +40,23 @@
     }
   ],
   "items": [
+    {
+      "id": "official-ec910a0cc438",
+      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+      "source": "Federal Reserve",
+      "source_type": "official",
+      "published_at": "2026-10-07T18:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
     {
       "id": "market-d23ec0d1bb2a",
       "title": "원/달러 환율(매매기준율) 1343.4원 (직전 대비 -15.1원)",
@@ -726,23 +743,6 @@
       "title": "Fertilizer Stocks To Follow Now – October 3rd",
       "url": "https://www.tickerreport.com/banking-finance/13609675/fertilizer-stocks-to-follow-now-october-3rd.html",
       "source": "tickerreport.com",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-16554e4a040f",
-      "title": "Houthis claim attacks on Riyadh airport , Aramco refinery",
-      "url": "https://www.samaa.tv/2087357988-houthis-claim-attacks-on-saudi-airports-aramco-refinery-military-sites",
-      "source": "samaa.tv",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
