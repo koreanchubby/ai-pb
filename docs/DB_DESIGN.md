@@ -1,7 +1,7 @@
-# DB 설계 (초안)
+# DB 설계
 
 > 교수님 진행 순서의 **4번째 산출물(DB 설계)** 초안입니다. 구현 가이드 5.4 "저장할 데이터"와 현재 v4 화면의 입력값을 기준으로 정리했습니다.
-> 상태: 초안 (2026-10-03, 옥경환 작성) — 팀원 검토 후 확정
+> 상태: **2단계(Supabase) 구현** (2026-10-07, 옥경환, 이슈 #20) — 실제 테이블 정의는 `supabase/schema.sql`, 앱 연결은 `db-sync.js`
 
 ## 1. 저장 방식 단계
 
@@ -9,7 +9,7 @@
 |---|---|---|---|
 | 1단계 (현재) | 브라우저 `localStorage` 1개 키 (`aipb-v4-state`) | PR #7 | 로그인 없는 MVP. 한 브라우저 안에서만 유지 |
 | 1단계 (현재) | `data/news.json` 파일 | GitHub Actions | 뉴스·지표는 모든 사용자가 같은 내용을 보므로 파일로 충분 |
-| 2단계 (필요 시) | Supabase(PostgreSQL) | 고객별 저장·다기기 공유가 필요할 때 | 강의자료(IT 기초 05)에서 BaaS 예시로 제시 |
+| **2단계 (구현됨)** | Supabase(PostgreSQL, 서울 리전) + 자동 REST API | 이슈 #20 | 강의자료(IT 기초 05)에서 BaaS 예시로 제시. 강의계획서 8~9주차(백엔드·DB, REST API 연동) |
 
 아래 테이블 설계는 **2단계(관계형 DB)를 기준**으로 하고, 1단계 localStorage는 같은 구조를 JSON 하나로 묶어 저장합니다.
 
@@ -154,8 +154,70 @@ erDiagram
 | `state.currentView`, `state.returnView`, `state.surveyIndex` | (화면 위치 — DB에는 저장 안 함) |
 | (저장 안 함) 전문가 승인 | EXPERT_REVIEW |
 
-## 6. 확정 전에 팀이 정할 것
+## 6. 실제 구현 (Supabase)
 
-- [ ] 2단계(Supabase)로 갈지, MVP는 localStorage로 끝낼지
+### 6-1. 구조
+
+```mermaid
+flowchart LR
+  U[브라우저 앱<br/>index.html · app.js] -->|1. 입력 즉시| L[(localStorage<br/>aipb-v4-state)]
+  U -->|2. 'aipb:saved' 이벤트| S[db-sync.js]
+  S -->|익명 로그인<br/>/auth/v1/signup| A[Supabase Auth]
+  S -->|REST API<br/>/rest/v1/표이름| D[(Supabase PostgreSQL<br/>테이블 11개 + RLS)]
+```
+
+- 앱은 지금처럼 **localStorage에 먼저 저장**합니다. `db-sync.js`가 같은 내용을 2초 모았다가 Supabase에 올립니다.
+- **로그인 없음 → 익명 로그인**: 브라우저마다 고유 사용자(`auth.uid()`)를 받고, `client.owner`로 묶습니다.
+- **접근 규칙(RLS)**: 내 고객 행과 그 하위 행만 읽고 쓸 수 있습니다. 하우스뷰·근거는 누구나 읽기만 가능합니다. 추천안은 추가·읽기만 가능하고 수정·삭제는 막혀 있습니다.
+- **장애 시**: 네트워크가 끊기거나 Supabase가 응답하지 않으면 서버 저장만 건너뛰고, 앱은 localStorage로 그대로 동작합니다.
+- 앱에 들어 있는 키는 웹에 공개해도 되는 **publishable 키**입니다. 비밀 키는 저장소에 없습니다.
+
+### 6-2. 화면 → 테이블 저장 시점
+
+| 테이블 | 언제 저장 | 방식 |
+|---|---|---|
+| client | 입력이 바뀔 때마다 | 연령·현재 상태·성향(설문 10문항을 다 답했을 때만) 갱신 |
+| survey_answer | 설문에 답할 때 | (고객, 문항 번호) 기준 덮어쓰기 |
+| family_member | 배우자·자녀 수가 바뀔 때 | 수에 맞게 행 추가·삭제 |
+| goal | 목표·은퇴 입력이 바뀔 때 | 고객 기준 덮어쓰기 |
+| asset | 자산 금액이 바뀔 때 | (고객, 자산군) 기준 덮어쓰기, 9개 자산군 |
+| transfer_plan | 승계가 포함된 목표일 때 | 고객 기준 덮어쓰기 |
+| recommendation | **최종 리포트 화면에 도착했고 목표 배분이 지난번과 다를 때** | 새 행으로 쌓음(이력 보존) |
+| heir_share, expert_review, house_view, evidence | 아직 앱에서 쓰지 않음 | 하우스뷰·근거는 관리자가 대시보드에서 입력 예정 |
+
+### 6-3. REST API 사용 예시
+
+```http
+# 1) 익명 로그인 → access_token 받기
+POST https://ozetifxlmlvfwnuqytqg.supabase.co/auth/v1/signup
+apikey: <publishable 키>
+{"data": {}}
+
+# 2) 내 자산 읽기
+GET /rest/v1/asset?select=category,amount_eok
+apikey: <publishable 키>
+Authorization: Bearer <access_token>
+
+# 3) 자산 저장(있으면 덮어쓰기)
+POST /rest/v1/asset?on_conflict=client_id,category
+Prefer: resolution=merge-duplicates
+[{"client_id": "...", "category": "govbond", "amount_eok": 3}]
+```
+
+### 6-4. 검증 (2026-10-07)
+
+| 시험 | 결과 |
+|---|---|
+| 익명 로그인 → 고객·자산 저장 → 내 데이터 읽기 | 성공 |
+| 다른 익명 사용자가 내 고객 읽기 | 0건 (안 보임) |
+| 다른 익명 사용자가 내 고객에 자산 쓰기 | 403 거부 |
+| 로그인 없이 고객 테이블 읽기 | 401 거부 |
+| 앱에서 설문·자산 입력 후 리포트 도착 | 7개 테이블에 저장 확인 (설문 10, 가족 3, 자산 9, 추천안 1) |
+| 자녀 2 → 1명 | 가족 행도 1명으로 줄어듦 |
+| Supabase 연결 실패 상황 | 서버 저장만 건너뛰고 localStorage 저장·화면은 정상 |
+
+## 7. 남은 일
+
+- [x] 2단계(Supabase)로 감 (2026-10-07, 이슈 #20)
 - [ ] 하우스뷰 합의에 참여할 증권사 목록 (DECISIONS 2026-09-30)
 - [ ] 설문 점수 구간을 표준 예시 환산값(≤19/≤28/≤36/≤45)으로 바꿀지 (`fix/assumptions`)
