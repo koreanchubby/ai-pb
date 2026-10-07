@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T16:37:28Z",
+  "generated_at": "2026-10-07T17:35:35Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -66,27 +66,27 @@
       }
     },
     {
-      "id": "market-858e41a69c7d",
-      "title": "WTI 원유 가격 96.16달러 (직전 대비 -3.21달러)",
+      "id": "market-5312c358265a",
+      "title": "WTI 원유 가격 96.24달러 (직전 대비 +0.11달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
       "source": "FRED",
       "source_type": "market",
-      "published_at": "2026-09-29T00:00:00Z",
+      "published_at": "2026-10-06T00:00:00Z",
       "categories": [
         "oil"
       ],
-      "importance": 7,
+      "importance": 5,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 96.16,
-        "previous": 99.37,
-        "change": -3.21,
+        "latest": 96.24,
+        "previous": 96.13,
+        "change": 0.11,
         "unit": "달러",
-        "date": "2026-09-29",
+        "date": "2026-10-06",
         "alert_threshold": 3.0
       }
     },
