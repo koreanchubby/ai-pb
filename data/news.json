@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T19:33:25Z",
+  "generated_at": "2026-10-07T20:33:58Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -83,6 +83,31 @@
       }
     },
     {
+      "id": "market-971125c6584a",
+      "title": "미국 10년물 국채금리 5.27% (직전 대비 -0.04%p)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-06T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.27,
+        "previous": 5.31,
+        "change": -0.04,
+        "unit": "%",
+        "date": "2026-10-06",
+        "alert_threshold": 0.15
+      }
+    },
+    {
       "id": "market-5312c358265a",
       "title": "WTI 원유 가격 96.24달러 (직전 대비 +0.11달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
@@ -105,31 +130,6 @@
         "unit": "달러",
         "date": "2026-10-06",
         "alert_threshold": 3.0
-      }
-    },
-    {
-      "id": "market-fd467e438154",
-      "title": "미국 10년물 국채금리 5.31% (직전 대비 +0.03%p)",
-      "url": "https://fred.stlouisfed.org/series/DGS10",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-10-05T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.31,
-        "previous": 5.28,
-        "change": 0.03,
-        "unit": "%",
-        "date": "2026-10-05",
-        "alert_threshold": 0.15
       }
     },
     {
