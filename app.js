@@ -93,15 +93,21 @@ const LOSS_LABELS = {
   5: '매우 높음 · 연 -30% 이상'
 };
 
-// 자산군별 장기 가정치(데모): 변동성·기대수익 %, 스트레스 손실 %, 과세 분배율 %
+// 자산군별 장기 가정치: 변동성·기대수익 %, 스트레스 손실 %, 과세 분배율 %
+// 변동성·기대수익: 공개 장기 자본시장 가정(CMA) 결합값 (docs/RESEARCH_PARAMETERS.md A-4)
+//   J.P. Morgan 2026 LTCMA(2025-10-20), Schwab 2026 LTCME(2026-01-02), Northern Trust CMA 2026(2026-01-15),
+//   Vanguard VCMM(2026-06-30 기준) 중 자산별로 수치가 있는 곳의 단순 평균(예측 결합: Timmermann, 2006).
+//   변동성은 JPM 값. 모두 USD 기준(국채는 USD 헤지). 국내주식은 한국 전용 수치가 없어 신흥국(EM) 주식으로 대신함.
+//   현금은 원화 기준 데모값 유지.
+// 스트레스 손실·과세 분배율: 데모 가정(근거 미확인, 교체 대상)
 const ASSUMPTIONS = {
-  kretf: { vol: 18, ret: 6.0, stress: -32, income: 2.0 },
-  globaletf: { vol: 16, ret: 6.8, stress: -30, income: 1.5 },
-  govbond: { vol: 5, ret: 3.0, stress: 3, income: 3.0 },
-  corpbond: { vol: 6, ret: 3.8, stress: -4, income: 4.0 },
-  alternative: { vol: 13, ret: 4.5, stress: -15, income: 2.0 },
-  pef: { vol: 18, ret: 8.0, stress: -25, income: 0 },
-  cash: { vol: 0.5, ret: 2.6, stress: 0, income: 3.0 }
+  kretf: { vol: 21, ret: 5.9, stress: -32, income: 2.0 },
+  globaletf: { vol: 17, ret: 6.2, stress: -30, income: 1.5 },
+  govbond: { vol: 4, ret: 4.0, stress: 3, income: 3.0 },
+  corpbond: { vol: 7.5, ret: 5.0, stress: -4, income: 4.0 },
+  alternative: { vol: 16, ret: 6.5, stress: -15, income: 2.0 },
+  pef: { vol: 20, ret: 10.0, stress: -25, income: 0 },
+  cash: { vol: 0.7, ret: 2.6, stress: 0, income: 3.0 }
 };
 const LOW_COUPON_INCOME = 1.5;
 const FIN_INCOME_THRESHOLD = 0.2; // 금융소득종합과세 기준 연 2,000만원 (억원)
@@ -393,10 +399,12 @@ function surveyScore() {
     score += value;
     if (SURVEY[index].loss) loss = value;
   });
+  // 구간: 금융투자협회 표준 예시·키움증권의 100점 기준 20/40/60/80 경계를
+  // 이 설문의 원점수 범위(11~54)로 선형 환산 → 19.6/28.2/36.8/45.4 (docs/RESEARCH_PARAMETERS.md C-3)
   let declared;
-  if (score <= 20) declared = 1;
+  if (score <= 19) declared = 1;
   else if (score <= 28) declared = 2;
-  else if (score <= 37) declared = 3;
+  else if (score <= 36) declared = 3;
   else if (score <= 45) declared = 4;
   else declared = 5;
   return { score: score, declared: declared, loss: loss };
@@ -514,7 +522,8 @@ function portfolioStats(h) {
   function corr(a, b) {
     if (a === b) return 1;
     if (a === 'cash' || b === 'cash') return 0;
-    if (a === 'govbond' || b === 'govbond') return (a.indexOf('etf') > -1 || b.indexOf('etf') > -1) ? -0.2 : 0.2;
+    // 국채–주식: JPM 2026 LTCMA 상관 -0.01~0.00 → 0. 국채–회사채·대체는 데모 가정 0.2 유지
+    if (a === 'govbond' || b === 'govbond') return (a.indexOf('etf') > -1 || b.indexOf('etf') > -1) ? 0 : 0.2;
     if (risky.indexOf(a) > -1 && risky.indexOf(b) > -1) return (a.indexOf('etf') > -1 && b.indexOf('etf') > -1) ? 0.8 : 0.5;
     return 0;
   }

@@ -13,7 +13,7 @@ from __future__ import annotations
 import json
 import math
 
-# ---- app.js 상수와 같은 값 (2026-10-04 기준, PR #7 + 보완 커밋) ----
+# ---- app.js 상수와 같은 값 (fix/assumptions 적용 후) ----
 PROFILES = {
     1: {"name": "안정형", "mix": {"equity": 0.15, "bond": 0.65, "alt": 0.05, "cash": 0.15}, "equity_cap": 20},
     2: {"name": "안정추구형", "mix": {"equity": 0.35, "bond": 0.50, "alt": 0.08, "cash": 0.07}, "equity_cap": 35},
@@ -21,15 +21,15 @@ PROFILES = {
     4: {"name": "적극투자형", "mix": {"equity": 0.70, "bond": 0.18, "alt": 0.10, "cash": 0.02}, "equity_cap": 70},
     5: {"name": "공격투자형", "mix": {"equity": 0.85, "bond": 0.05, "alt": 0.10, "cash": 0.0}, "equity_cap": 90},
 }
-SURVEY_CUTS = (20, 28, 37, 45)          # 이하이면 1, 2, 3, 4단계 (권고안: 19, 28, 36, 45)
-ASSUMPTIONS = {                          # 변동성, 기대수익, 스트레스 손실, 과세 분배율 (%)
-    "kretf": (18, 6.0, -32, 2.0),
-    "globaletf": (16, 6.8, -30, 1.5),
-    "govbond": (5, 3.0, 3, 3.0),
-    "corpbond": (6, 3.8, -4, 4.0),
-    "alternative": (13, 4.5, -15, 2.0),
-    "pef": (18, 8.0, -25, 0.0),
-    "cash": (0.5, 2.6, 0, 3.0),
+SURVEY_CUTS = (19, 28, 36, 45)          # 이하이면 1, 2, 3, 4단계 (표준 예시 20/40/60/80을 11~54점으로 환산)
+ASSUMPTIONS = {                          # 변동성, 기대수익(공개 CMA 결합값), 스트레스 손실, 과세 분배율 (%)
+    "kretf": (21, 5.9, -32, 2.0),
+    "globaletf": (17, 6.2, -30, 1.5),
+    "govbond": (4, 4.0, 3, 3.0),
+    "corpbond": (7.5, 5.0, -4, 4.0),
+    "alternative": (16, 6.5, -15, 2.0),
+    "pef": (20, 10.0, -25, 0.0),
+    "cash": (0.7, 2.6, 0, 3.0),
 }
 LOW_COUPON_INCOME = 1.5
 TAA_TILT = 0.02
@@ -105,7 +105,7 @@ def corr(a: str, b: str) -> float:
     if "cash" in (a, b):
         return 0.0
     if "govbond" in (a, b):
-        return -0.2 if ("etf" in a or "etf" in b) else 0.2
+        return 0.0 if ("etf" in a or "etf" in b) else 0.2   # 국채–주식: JPM 2026 LTCMA 상관 ≈ 0
     if a in risky and b in risky:
         return 0.8 if ("etf" in a and "etf" in b) else 0.5
     return 0.0
