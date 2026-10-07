@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T01:33:53Z",
+  "generated_at": "2026-10-07T02:33:49Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -30,8 +30,8 @@
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "FRED",
@@ -40,6 +40,31 @@
     }
   ],
   "items": [
+    {
+      "id": "market-d23ec0d1bb2a",
+      "title": "원/달러 환율(매매기준율) 1343.4원 (직전 대비 -15.1원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-06T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1343.4,
+        "previous": 1358.5,
+        "change": -15.1,
+        "unit": "원",
+        "date": "20261007",
+        "alert_threshold": 15.0
+      }
+    },
     {
       "id": "market-858e41a69c7d",
       "title": "WTI 원유 가격 96.16달러 (직전 대비 -3.21달러)",
@@ -63,31 +88,6 @@
         "unit": "달러",
         "date": "2026-09-29",
         "alert_threshold": 3.0
-      }
-    },
-    {
-      "id": "market-80ad2ab88a16",
-      "title": "원/달러 환율(매매기준율) 1358.5원 (직전 대비 -1.1원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-05T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1358.5,
-        "previous": 1359.6,
-        "change": -1.1,
-        "unit": "원",
-        "date": "20261006",
-        "alert_threshold": 15.0
       }
     },
     {
