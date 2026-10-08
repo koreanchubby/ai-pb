@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-07T13:36:17Z",
+  "generated_at": "2026-10-08T09:36:07Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 0
+      "count": 5
     },
     {
       "source": "한국은행 ECOS",
@@ -41,87 +41,29 @@
   ],
   "items": [
     {
-      "id": "market-d23ec0d1bb2a",
-      "title": "원/달러 환율(매매기준율) 1343.4원 (직전 대비 -15.1원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-06T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 7,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1343.4,
-        "previous": 1358.5,
-        "change": -15.1,
-        "unit": "원",
-        "date": "20261007",
-        "alert_threshold": 15.0
-      }
-    },
-    {
-      "id": "market-858e41a69c7d",
-      "title": "WTI 원유 가격 96.16달러 (직전 대비 -3.21달러)",
-      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-09-29T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 7,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 96.16,
-        "previous": 99.37,
-        "change": -3.21,
-        "unit": "달러",
-        "date": "2026-09-29",
-        "alert_threshold": 3.0
-      }
-    },
-    {
-      "id": "market-fd467e438154",
-      "title": "미국 10년물 국채금리 5.31% (직전 대비 +0.03%p)",
-      "url": "https://fred.stlouisfed.org/series/DGS10",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-10-05T00:00:00Z",
+      "id": "official-ec910a0cc438",
+      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
+      "source": "Federal Reserve",
+      "source_type": "official",
+      "published_at": "2026-10-07T18:00:00Z",
       "categories": [
         "rates"
       ],
-      "importance": 5,
+      "importance": 7,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.31,
-        "previous": 5.28,
-        "change": 0.03,
-        "unit": "%",
-        "date": "2026-10-05",
-        "alert_threshold": 0.15
-      }
+      "change_condition": null
     },
     {
-      "id": "market-ede2fec1794a",
+      "id": "market-a51e8ef385f2",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-04T15:00:00Z",
+      "published_at": "2026-10-07T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -136,8 +78,83 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261005",
+        "date": "20261008",
         "alert_threshold": 0.25
+      }
+    },
+    {
+      "id": "market-dca0a66d6549",
+      "title": "원/달러 환율(매매기준율) 1339.2원 (직전 대비 -4.2원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-07T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1339.2,
+        "previous": 1343.4,
+        "change": -4.2,
+        "unit": "원",
+        "date": "20261008",
+        "alert_threshold": 15.0
+      }
+    },
+    {
+      "id": "market-971125c6584a",
+      "title": "미국 10년물 국채금리 5.27% (직전 대비 -0.04%p)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-06T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.27,
+        "previous": 5.31,
+        "change": -0.04,
+        "unit": "%",
+        "date": "2026-10-06",
+        "alert_threshold": 0.15
+      }
+    },
+    {
+      "id": "market-5312c358265a",
+      "title": "WTI 원유 가격 96.24달러 (직전 대비 +0.11달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-06T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 96.24,
+        "previous": 96.13,
+        "change": 0.11,
+        "unit": "달러",
+        "date": "2026-10-06",
+        "alert_threshold": 3.0
       }
     },
     {
@@ -188,6 +205,108 @@
         "geopolitics"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-23aa72ad7d5e",
+      "title": "Stadtwerke Wolfhagen erhöhen Gaspreise zum 1 . Dezember 2026",
+      "url": "http://www.wlz-online.de/nordhessen/stadtwerke-wolfhagen-erhoehen-gaspreise-zum-dezember-2026-94529391.html",
+      "source": "wlz-online.de",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e16b6043b2cd",
+      "title": "Eurogroup - Ecofin : Ξεκινά η « μάχη » για δημοσιονομική ευελιξία",
+      "url": "https://www.naftemporiki.gr/finance/economy/2172241/eurogroup-ecofin-xekina-i-machi-gia-dimosionomiki-eyelixia/",
+      "source": "naftemporiki.gr",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e98aadb9bd87",
+      "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ?",
+      "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
+      "source": "sentinelassam.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4bf3a5115a06",
+      "title": "Tata Steel India Crude Steel Production Rises 10 % YoY In Q2 FY27 To 6 . 21 Million Tonnes",
+      "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
+      "source": "freepressjournal.in",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a863e2e3ba3a",
+      "title": "IEA紧急加码释储 ： 1亿桶石油待投放 ， 柴油危机为何持续发酵 ？_ 期市动态 _ 期货 _ 中金在线",
+      "url": "http://futures.cnfol.com/qishidongtai/20261008/32389720.shtml",
+      "source": "futures.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-99d49817c895",
+      "title": "Samsung prevê salto de 780 % no lucro graças à demanda por chips de IA",
+      "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/07/samsung-preve-salto-de-780percent-no-lucro-gracas-a-demanda-por-chips-de-ia.ghtml",
+      "source": "oglobo.globo.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -624,125 +743,6 @@
       "title": "Nigeria CNG supply to overtake petrol availability soon Ahmed",
       "url": "https://thesun.ng/nigerias-cng-supply-to-overtake-petrol-availability-soon-ahmed/",
       "source": "thesun.ng",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8480242d9f68",
-      "title": "Reuters : Veniturile Rusiei din petrol şi gaze au scăzut cu 17 %",
-      "url": "https://www.bursa.ro/reuters-veniturile-rusiei-din-petrol-si-gaze-au-scazut-cu-17-procente-88415064",
-      "source": "bursa.ro",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e0477e408c05",
-      "title": "Chwilowa ulga na stacjach nie mija . Ropa znów tanieje",
-      "url": "https://www.bankier.pl/wiadomosc/Chwilowa-ulga-na-stacjach-minela-Ropa-znow-drozeje-9207954.html",
-      "source": "bankier.pl",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-482ffcc98344",
-      "title": "Diwali Price Shock ! Pulses , Rice , Jowar & Wheat Turn Costlier Across Maharashtra",
-      "url": "https://www.freepressjournal.in/mumbai/diwali-price-shock-pulses-rice-jowar-wheat-turn-costlier-across-maharashtra",
-      "source": "freepressjournal.in",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-35ba42bdccae",
-      "title": "Markets extend recovery ; Sensex up 140 points , Nifty above 22 , 500 ; bank stocks lead",
-      "url": "http://www.sierraleonetimes.com/news/279354215/markets-extend-recovery-sensex-up-140-points-nifty-above-22500-bank-stocks-lead",
-      "source": "sierraleonetimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-088777b3f45b",
-      "title": "기름값 또 오르나  걱정했는데산업부 , 11월 원유 90 % 이상 확보",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026100614500790836",
-      "source": "newsway.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bd7b1c82b7f2",
-      "title": "Fertilizer Stocks To Follow Now – October 3rd",
-      "url": "https://www.tickerreport.com/banking-finance/13609675/fertilizer-stocks-to-follow-now-october-3rd.html",
-      "source": "tickerreport.com",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-16554e4a040f",
-      "title": "Houthis claim attacks on Riyadh airport , Aramco refinery",
-      "url": "https://www.samaa.tv/2087357988-houthis-claim-attacks-on-saudi-airports-aramco-refinery-military-sites",
-      "source": "samaa.tv",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
