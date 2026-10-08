@@ -3,7 +3,7 @@
 > **작업 시작 전과 끝난 후에 반드시 갱신합니다.** 순서는 `docs/WORKFLOW.md` 참고.
 > 상태 표시: 🟡 진행 중 · 🔵 리뷰 대기 · ✅ 완료 · ⬜ 시작 전
 
-마지막 갱신: 2026-10-08
+마지막 갱신: 2026-10-09
 
 ## 현재 단계
 
@@ -56,6 +56,7 @@
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
 - (이유경, 10-06) PR #9·#10·#12·#13 Merge 완료. **이슈 #2는 PR #13의 `Closes #2`로 자동으로 닫힘** → API 키(Secrets)·Variables 등록과 Actions news 첫 실행 확인은 아직 남아 있음. 리뷰 의견: print.css의 `#pwa-banner` id 불일치(오프라인 PDF에 알림 찍힐 수 있음), DB_DESIGN은 강의계획서상 백엔드+DB 필수라 Supabase로 가는 쪽 + 권한(소유자·RLS) 추가 제안, PWA는 배포 후 휴대폰 설치·비행기 모드로 확인 필요
+- (이유경, 10-09) 🟡 **10월 하우스뷰 실제 입력 PR 작업 중** (`data/house-view-2026-10`): 국내 3곳(하나·신한·신영, 삼성은 중순) + 해외 4곳(JPM·BlackRock·LPL·UBS), 합의 규칙 '섞이면 무조건 중립' 삭제(옥경환 동의). 건드리는 파일: `data/house_view_input.json`, `data/house_view.json`, `scripts/house_view.py`(consensus 한 곳), `tests/test_house_view.py`, `docs/DECISIONS.md`, `docs/HOUSE_VIEW_GUIDE.md`
 - (이유경, 10-08) Eyefeet 테넌트 `aipb` 생성·배포 완료. 확인: 화면 정상, 뉴스 카드 12개, Supabase 저장 ok, 서비스워커(PWA) 등록 정상, 모바일 375px 가로 스크롤 없음, 콘솔 오류 0. 참고: 저장소 전체가 올라가서 `/.git/`·`/docs/`도 열림(공개 저장소라 새로 드러나는 비밀은 없음, 정리하려면 빌드 단계에서 앱 파일만 복사하는 방법 검토)
 - (이유경, 10-08) PR #21·#27·#28 Merge. **배포 계획: 앱은 Eyefeet Cloud 팀 테넌트(static, main 연결)로 추가 배포, DB는 Supabase 유지** (DECISIONS 10-08, 교수님이 DB도 Eyefeet 요구하시면 이전 방법 기록해 둠). 테넌트는 팀당 1개라 **누가 만들지 정하기** — 이유경이 만들 예정(카톡 확인)
 - (옥경환, 10-08) 이유경 PR #24(6주차 저장본)·#25(PDF 알림 숨김)·#26(디자인 유지) 승인·Merge. #21·#27 충돌 해결
