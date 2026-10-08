@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T22:33:55Z",
+  "generated_at": "2026-10-08T23:32:25Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,8 +25,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "한국은행 ECOS",
@@ -205,6 +205,23 @@
         "geopolitics"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-99d49817c895",
+      "title": "Samsung prevê salto de 780 % no lucro graças à demanda por chips de IA",
+      "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/07/samsung-preve-salto-de-780percent-no-lucro-gracas-a-demanda-por-chips-de-ia.ghtml",
+      "source": "oglobo.globo.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -458,23 +475,6 @@
       "published_at": "2026-10-08T05:30:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-99d49817c895",
-      "title": "Samsung prevê salto de 780 % no lucro graças à demanda por chips de IA",
-      "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/07/samsung-preve-salto-de-780percent-no-lucro-gracas-a-demanda-por-chips-de-ia.ghtml",
-      "source": "oglobo.globo.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
