@@ -1,6 +1,6 @@
 """참조 모델(scripts/calc_reference.py)이 app.js 화면 계산과 같은 값을 내는지 대조.
 
-기대값은 2026-10-04에 브라우저에서 app.js(PR #7 + 보완 커밋)를 실행해 기록한 값이다.
+기대값은 2026-10-04에 브라우저에서 app.js(fix/assumptions 적용 후)를 실행해 기록한 값이다.
 app.js 공식을 바꾸면: 참조 모델과 이 기대값, docs/CALC_EXAMPLES.md를 함께 고친다.
 """
 import sys
@@ -18,7 +18,7 @@ APP = {  # app.js 실행 결과 (데모 고객)
     "saa": {"kretf": 2, "globaletf": 4.7, "govbond": 10, "corpbond": 1.9, "alternative": 1.2, "pef": 4, "cash": 1.2},
     "target": {"kretf": 2, "globaletf": 4.7, "govbond": 10, "corpbond": 2, "alternative": 1.2, "pef": 4, "cash": 1.1},
     "turnover": 7.0,
-    "vol_now": 9.197582291015395, "ret_now": 5.312, "vol_target": 7.196904056606564, "ret_target": 4.8728,
+    "vol_now": 10.38778051366123, "ret_now": 5.848, "vol_target": 8.08788752641875, "ret_target": 5.664,
     "income_now": 0.5, "income_target": 0.4425,
 }
 

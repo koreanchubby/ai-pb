@@ -220,4 +220,4 @@ Prefer: resolution=merge-duplicates
 
 - [x] 2단계(Supabase)로 감 (2026-10-07, 이슈 #20)
 - [ ] 하우스뷰 합의에 참여할 증권사 목록 (DECISIONS 2026-09-30)
-- [ ] 설문 점수 구간을 표준 예시 환산값(≤19/≤28/≤36/≤45)으로 바꿀지 (`fix/assumptions`)
+- [x] 설문 점수 구간을 표준 예시 환산값(≤19/≤28/≤36/≤45)으로 교체 (`fix/assumptions`)
