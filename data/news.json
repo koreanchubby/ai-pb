@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T08:36:41Z",
+  "generated_at": "2026-10-08T09:36:07Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 1
+      "count": 5
     },
     {
       "source": "한국은행 ECOS",
@@ -205,6 +205,91 @@
         "geopolitics"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-23aa72ad7d5e",
+      "title": "Stadtwerke Wolfhagen erhöhen Gaspreise zum 1 . Dezember 2026",
+      "url": "http://www.wlz-online.de/nordhessen/stadtwerke-wolfhagen-erhoehen-gaspreise-zum-dezember-2026-94529391.html",
+      "source": "wlz-online.de",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e16b6043b2cd",
+      "title": "Eurogroup - Ecofin : Ξεκινά η « μάχη » για δημοσιονομική ευελιξία",
+      "url": "https://www.naftemporiki.gr/finance/economy/2172241/eurogroup-ecofin-xekina-i-machi-gia-dimosionomiki-eyelixia/",
+      "source": "naftemporiki.gr",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e98aadb9bd87",
+      "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ?",
+      "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
+      "source": "sentinelassam.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4bf3a5115a06",
+      "title": "Tata Steel India Crude Steel Production Rises 10 % YoY In Q2 FY27 To 6 . 21 Million Tonnes",
+      "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
+      "source": "freepressjournal.in",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a863e2e3ba3a",
+      "title": "IEA紧急加码释储 ： 1亿桶石油待投放 ， 柴油危机为何持续发酵 ？_ 期市动态 _ 期货 _ 中金在线",
+      "url": "http://futures.cnfol.com/qishidongtai/20261008/32389720.shtml",
+      "source": "futures.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -658,91 +743,6 @@
       "title": "Nigeria CNG supply to overtake petrol availability soon Ahmed",
       "url": "https://thesun.ng/nigerias-cng-supply-to-overtake-petrol-availability-soon-ahmed/",
       "source": "thesun.ng",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8480242d9f68",
-      "title": "Reuters : Veniturile Rusiei din petrol şi gaze au scăzut cu 17 %",
-      "url": "https://www.bursa.ro/reuters-veniturile-rusiei-din-petrol-si-gaze-au-scazut-cu-17-procente-88415064",
-      "source": "bursa.ro",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e0477e408c05",
-      "title": "Chwilowa ulga na stacjach nie mija . Ropa znów tanieje",
-      "url": "https://www.bankier.pl/wiadomosc/Chwilowa-ulga-na-stacjach-minela-Ropa-znow-drozeje-9207954.html",
-      "source": "bankier.pl",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-482ffcc98344",
-      "title": "Diwali Price Shock ! Pulses , Rice , Jowar & Wheat Turn Costlier Across Maharashtra",
-      "url": "https://www.freepressjournal.in/mumbai/diwali-price-shock-pulses-rice-jowar-wheat-turn-costlier-across-maharashtra",
-      "source": "freepressjournal.in",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-35ba42bdccae",
-      "title": "Markets extend recovery ; Sensex up 140 points , Nifty above 22 , 500 ; bank stocks lead",
-      "url": "http://www.sierraleonetimes.com/news/279354215/markets-extend-recovery-sensex-up-140-points-nifty-above-22500-bank-stocks-lead",
-      "source": "sierraleonetimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-088777b3f45b",
-      "title": "기름값 또 오르나  걱정했는데산업부 , 11월 원유 90 % 이상 확보",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026100614500790836",
-      "source": "newsway.co.kr",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
