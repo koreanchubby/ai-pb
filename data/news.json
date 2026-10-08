@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T07:36:51Z",
+  "generated_at": "2026-10-08T08:36:41Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 0
+      "count": 1
     },
     {
       "source": "한국은행 ECOS",
@@ -205,6 +205,23 @@
         "geopolitics"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-99d49817c895",
+      "title": "Samsung prevê salto de 780 % no lucro graças à demanda por chips de IA",
+      "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/07/samsung-preve-salto-de-780percent-no-lucro-gracas-a-demanda-por-chips-de-ia.ghtml",
+      "source": "oglobo.globo.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -726,23 +743,6 @@
       "title": "기름값 또 오르나  걱정했는데산업부 , 11월 원유 90 % 이상 확보",
       "url": "https://www.newsway.co.kr/news/view?ud=2026100614500790836",
       "source": "newsway.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bd7b1c82b7f2",
-      "title": "Fertilizer Stocks To Follow Now – October 3rd",
-      "url": "https://www.tickerreport.com/banking-finance/13609675/fertilizer-stocks-to-follow-now-october-3rd.html",
-      "source": "tickerreport.com",
       "source_type": "news",
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
