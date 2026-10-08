@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T11:34:31Z",
+  "generated_at": "2026-10-08T12:43:13Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 1
+      "count": 2
     },
     {
       "source": "한국은행 ECOS",
@@ -205,6 +205,40 @@
         "geopolitics"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-06662a822e36",
+      "title": "美30年期房貸利率升至7 . 49 % 創近3年新高",
+      "url": "https://www.epochtimes.com/b5/26/10/7/n14865677.htm",
+      "source": "epochtimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cba9b58a987d",
+      "title": "FxWirePro : EUR / NZD recovers from early dip , upside pressure builds",
+      "url": "http://www.econotimes.com/FxWirePro-EUR-NZD-recovers-from-early-dip-upside-pressure-builds-1754289",
+      "source": "econotimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -713,40 +747,6 @@
       "published_at": "2026-10-06T08:30:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-94c26d40e06e",
-      "title": "G7 to release diesel , oil reserves as fuel prices surge",
-      "url": "http://www.utahindependent.com/news/279348150/g7-to-release-diesel-oil-reserves-as-fuel-prices-surge",
-      "source": "utahindependent.com",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b7b80c86bd03",
-      "title": "Nigeria CNG supply to overtake petrol availability soon Ahmed",
-      "url": "https://thesun.ng/nigerias-cng-supply-to-overtake-petrol-availability-soon-ahmed/",
-      "source": "thesun.ng",
-      "source_type": "news",
-      "published_at": "2026-10-06T08:30:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
