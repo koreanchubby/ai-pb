@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T19:34:19Z",
+  "generated_at": "2026-10-08T20:36:10Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -108,12 +108,12 @@
       }
     },
     {
-      "id": "market-971125c6584a",
-      "title": "미국 10년물 국채금리 5.27% (직전 대비 -0.04%p)",
+      "id": "market-3af0fe7909bf",
+      "title": "미국 10년물 국채금리 5.28% (직전 대비 +0.01%p)",
       "url": "https://fred.stlouisfed.org/series/DGS10",
       "source": "FRED",
       "source_type": "market",
-      "published_at": "2026-10-06T00:00:00Z",
+      "published_at": "2026-10-07T00:00:00Z",
       "categories": [
         "rates"
       ],
@@ -124,11 +124,11 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 5.27,
-        "previous": 5.31,
-        "change": -0.04,
+        "latest": 5.28,
+        "previous": 5.27,
+        "change": 0.01,
         "unit": "%",
-        "date": "2026-10-06",
+        "date": "2026-10-07",
         "alert_threshold": 0.15
       }
     },
