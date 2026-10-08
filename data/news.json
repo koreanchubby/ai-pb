@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T12:43:13Z",
+  "generated_at": "2026-10-08T13:38:05Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 2
+      "count": 7
     },
     {
       "source": "한국은행 ECOS",
@@ -246,23 +246,6 @@
       "change_condition": null
     },
     {
-      "id": "news-99d49817c895",
-      "title": "Samsung prevê salto de 780 % no lucro graças à demanda por chips de IA",
-      "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/07/samsung-preve-salto-de-780percent-no-lucro-gracas-a-demanda-por-chips-de-ia.ghtml",
-      "source": "oglobo.globo.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-23aa72ad7d5e",
       "title": "Stadtwerke Wolfhagen erhöhen Gaspreise zum 1 . Dezember 2026",
       "url": "http://www.wlz-online.de/nordhessen/stadtwerke-wolfhagen-erhoehen-gaspreise-zum-dezember-2026-94529391.html",
@@ -339,6 +322,23 @@
       "published_at": "2026-10-08T05:30:00Z",
       "categories": [
         "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-99d49817c895",
+      "title": "Samsung prevê salto de 780 % no lucro graças à demanda por chips de IA",
+      "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/07/samsung-preve-salto-de-780percent-no-lucro-gracas-a-demanda-por-chips-de-ia.ghtml",
+      "source": "oglobo.globo.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "semis"
       ],
       "importance": 3,
       "facts": null,
