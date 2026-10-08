@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T17:34:05Z",
+  "generated_at": "2026-10-08T18:39:24Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 9
+      "count": 14
     },
     {
       "source": "한국은행 ECOS",
@@ -212,6 +212,91 @@
       "change_condition": null
     },
     {
+      "id": "news-23aa72ad7d5e",
+      "title": "Stadtwerke Wolfhagen erhöhen Gaspreise zum 1 . Dezember 2026",
+      "url": "http://www.wlz-online.de/nordhessen/stadtwerke-wolfhagen-erhoehen-gaspreise-zum-dezember-2026-94529391.html",
+      "source": "wlz-online.de",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e16b6043b2cd",
+      "title": "Eurogroup - Ecofin : Ξεκινά η « μάχη » για δημοσιονομική ευελιξία",
+      "url": "https://www.naftemporiki.gr/finance/economy/2172241/eurogroup-ecofin-xekina-i-machi-gia-dimosionomiki-eyelixia/",
+      "source": "naftemporiki.gr",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e98aadb9bd87",
+      "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ?",
+      "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
+      "source": "sentinelassam.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4bf3a5115a06",
+      "title": "Tata Steel India Crude Steel Production Rises 10 % YoY In Q2 FY27 To 6 . 21 Million Tonnes",
+      "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
+      "source": "freepressjournal.in",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a863e2e3ba3a",
+      "title": "IEA紧急加码释储 ： 1亿桶石油待投放 ， 柴油危机为何持续发酵 ？_ 期市动态 _ 期货 _ 中金在线",
+      "url": "http://futures.cnfol.com/qishidongtai/20261008/32389720.shtml",
+      "source": "futures.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-0d9cea1bb7e1",
       "title": "Doanh nghiệp cần nắm chắc nghiệp vụ xuất nhập khẩu để giảm rủi ro , tối ưu chi phí",
       "url": "https://stockbiz.vn/tin-tuc/doanh-nghiep-can-nam-chac-nghiep-vu-xuat-nhap-khau-de-giam-rui-ro-toi-uu-chi-phi/42168302",
@@ -331,23 +416,6 @@
       "change_condition": null
     },
     {
-      "id": "news-a863e2e3ba3a",
-      "title": "IEA紧急加码释储 ： 1亿桶石油待投放 ， 柴油危机为何持续发酵 ？_ 期市动态 _ 期货 _ 中金在线",
-      "url": "http://futures.cnfol.com/qishidongtai/20261008/32389720.shtml",
-      "source": "futures.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-243ae95c7943",
       "title": "Ультражесткие решения . ЦБ с пессимизмом смотрит на ключевую ставку и поблажек не обещает",
       "url": "https://www.amic.ru/news/ultrazhestkie-resheniya-cb-s-pessimizmom-smotrit-na-klyuchevuyu-stavku-i-poblazhek-ne-obeschaet-594060",
@@ -390,74 +458,6 @@
       "published_at": "2026-10-08T05:30:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-23aa72ad7d5e",
-      "title": "Stadtwerke Wolfhagen erhöhen Gaspreise zum 1 . Dezember 2026",
-      "url": "http://www.wlz-online.de/nordhessen/stadtwerke-wolfhagen-erhoehen-gaspreise-zum-dezember-2026-94529391.html",
-      "source": "wlz-online.de",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e16b6043b2cd",
-      "title": "Eurogroup - Ecofin : Ξεκινά η « μάχη » για δημοσιονομική ευελιξία",
-      "url": "https://www.naftemporiki.gr/finance/economy/2172241/eurogroup-ecofin-xekina-i-machi-gia-dimosionomiki-eyelixia/",
-      "source": "naftemporiki.gr",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e98aadb9bd87",
-      "title": "RBI increases repo rate to 5 . 50 %: How does it impact a consumer ?",
-      "url": "https://www.sentinelassam.com/topheadlines/rbi-increases-repo-rate-to-550-how-does-it-impact-a-consumer",
-      "source": "sentinelassam.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4bf3a5115a06",
-      "title": "Tata Steel India Crude Steel Production Rises 10 % YoY In Q2 FY27 To 6 . 21 Million Tonnes",
-      "url": "https://www.freepressjournal.in/business/tata-steel-india-crude-steel-production-rises-10-yoy-in-q2-fy27-to-621-million-tonnes",
-      "source": "freepressjournal.in",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
