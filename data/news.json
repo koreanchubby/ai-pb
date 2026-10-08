@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T18:39:24Z",
+  "generated_at": "2026-10-08T19:34:19Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 14
+      "count": 2
     },
     {
       "source": "한국은행 ECOS",
@@ -205,6 +205,40 @@
         "geopolitics"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-06662a822e36",
+      "title": "美30年期房貸利率升至7 . 49 % 創近3年新高",
+      "url": "https://www.epochtimes.com/b5/26/10/7/n14865677.htm",
+      "source": "epochtimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cba9b58a987d",
+      "title": "FxWirePro : EUR / NZD recovers from early dip , upside pressure builds",
+      "url": "http://www.econotimes.com/FxWirePro-EUR-NZD-recovers-from-early-dip-upside-pressure-builds-1754289",
+      "source": "econotimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-08T05:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -424,40 +458,6 @@
       "published_at": "2026-10-08T05:30:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06662a822e36",
-      "title": "美30年期房貸利率升至7 . 49 % 創近3年新高",
-      "url": "https://www.epochtimes.com/b5/26/10/7/n14865677.htm",
-      "source": "epochtimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cba9b58a987d",
-      "title": "FxWirePro : EUR / NZD recovers from early dip , upside pressure builds",
-      "url": "http://www.econotimes.com/FxWirePro-EUR-NZD-recovers-from-early-dip-upside-pressure-builds-1754289",
-      "source": "econotimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
