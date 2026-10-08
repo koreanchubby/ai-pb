@@ -1,63 +1,63 @@
 {
   "schema_version": 1,
   "month": "2026-10",
-  "generated_at": "2026-10-03T19:27:33Z",
-  "demo": true,
-  "method": "동일가중 평균(Timmermann, 2006). +1과 -1이 함께 있으면 0(의견 불일치), 그 외 |평균|>0.5면 ±1",
+  "generated_at": "2026-10-08T15:03:20Z",
+  "demo": false,
+  "method": "동일가중 평균(Timmermann, 2006). |평균|>0.5면 ±1, 아니면 0. +1과 -1이 함께 있으면 의견 갈림 표시",
   "sources": [
     {
-      "id": "demo-a",
-      "name": "데모 증권사 A (가상)",
-      "title": "10월 하우스뷰 (데모 예시)",
-      "published": "2026-10-01",
-      "url": null
+      "id": "hana",
+      "name": "하나증권 리서치센터",
+      "title": "2026년 10월 글로벌 자산배분 전략 (자산배분의 창)",
+      "published": "2026-10-08",
+      "url": "https://www.hanaw.com/main/research/research/list.cmd?pid=1&cid=1"
     },
     {
-      "id": "demo-b",
-      "name": "데모 증권사 B (가상)",
-      "title": "10월 자산배분 전략 (데모 예시)",
-      "published": "2026-10-01",
-      "url": null
+      "id": "shinhan",
+      "name": "신한투자증권",
+      "title": "참신한 자산전략 10월호: 긴축이 걷어낸 불확실성",
+      "published": "2026-09-28",
+      "url": "https://www.shinhangroup.com/kr/archive/business/detail/947"
     },
     {
-      "id": "demo-c",
-      "name": "데모 증권사 C (가상)",
-      "title": "10월 투자전략 (데모 예시)",
-      "published": "2026-10-02",
-      "url": null
+      "id": "shinyoung",
+      "name": "신영증권 리서치센터",
+      "title": "10월 자산배분전략: 이익과 할인율의 줄다리기",
+      "published": "2026-10-07",
+      "url": "https://www.shinyoung.com/?page=10025"
+    },
+    {
+      "id": "jpm",
+      "name": "J.P. Morgan Asset Management",
+      "title": "Global Asset Allocation Views 4Q 2026",
+      "published": "2026-10-01",
+      "url": "https://am.jpmorgan.com/gb/en/asset-management/adv/insights/portfolio-insights/asset-class-views/asset-allocation-views/"
+    },
+    {
+      "id": "blackrock",
+      "name": "BlackRock Investment Institute",
+      "title": "Weekly market commentary (October 2026 tactical positioning)",
+      "published": "2026-10-05",
+      "url": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/global-weekly-commentary"
+    },
+    {
+      "id": "lpl",
+      "name": "LPL Research",
+      "title": "Tactical Asset Allocation Guide — September 2026",
+      "published": "2026-09-01",
+      "url": "https://www.lpl.com/research.html"
+    },
+    {
+      "id": "ubs",
+      "name": "UBS Chief Investment Office",
+      "title": "UBS House View — August 2026",
+      "published": "2026-07-17",
+      "url": "https://www.ubs.com/global/en/wealth-management/chief-investment-office/house-view.html"
     }
   ],
   "consensus": {
     "kr_equity": {
       "asset": "국내 주식",
-      "n": 3,
-      "mean": 0.3333,
-      "view": 0,
-      "label": "중립",
-      "tone": "hold",
-      "disagreement": false,
-      "votes": {
-        "demo-a": 0,
-        "demo-b": 1,
-        "demo-c": 0
-      }
-    },
-    "global_equity": {
-      "asset": "해외 주식",
-      "n": 3,
-      "mean": -0.6667,
-      "view": -1,
-      "label": "축소",
-      "tone": "sell",
-      "disagreement": false,
-      "votes": {
-        "demo-a": -1,
-        "demo-b": -1,
-        "demo-c": 0
-      }
-    },
-    "govbond": {
-      "asset": "국채",
       "n": 3,
       "mean": 1.0,
       "view": 1,
@@ -65,51 +65,92 @@
       "tone": "buy",
       "disagreement": false,
       "votes": {
-        "demo-a": 1,
-        "demo-b": 1,
-        "demo-c": 1
+        "hana": 1,
+        "shinhan": 1,
+        "shinyoung": 1
       }
     },
-    "corpbond": {
-      "asset": "회사채",
-      "n": 3,
-      "mean": 0.0,
-      "view": 0,
-      "label": "중립",
-      "tone": "hold",
-      "disagreement": false,
-      "votes": {
-        "demo-a": 0,
-        "demo-b": 0,
-        "demo-c": 0
-      }
-    },
-    "alternative": {
-      "asset": "금·리츠",
-      "n": 3,
-      "mean": 0.3333,
-      "view": 0,
-      "label": "중립",
-      "tone": "hold",
-      "disagreement": false,
-      "votes": {
-        "demo-a": 0,
-        "demo-b": 0,
-        "demo-c": 1
-      }
-    },
-    "cash": {
-      "asset": "현금성",
-      "n": 3,
-      "mean": 0.6667,
+    "global_equity": {
+      "asset": "해외 주식",
+      "n": 7,
+      "mean": 1.0,
       "view": 1,
       "label": "확대",
       "tone": "buy",
       "disagreement": false,
       "votes": {
-        "demo-a": 1,
-        "demo-b": 0,
-        "demo-c": 1
+        "hana": 1,
+        "shinhan": 1,
+        "shinyoung": 1,
+        "jpm": 1,
+        "blackrock": 1,
+        "lpl": 1,
+        "ubs": 1
+      }
+    },
+    "govbond": {
+      "asset": "국채",
+      "n": 6,
+      "mean": -0.6667,
+      "view": -1,
+      "label": "축소",
+      "tone": "sell",
+      "disagreement": false,
+      "votes": {
+        "hana": -1,
+        "shinhan": -1,
+        "jpm": -1,
+        "blackrock": 0,
+        "lpl": 0,
+        "ubs": -1
+      }
+    },
+    "corpbond": {
+      "asset": "회사채",
+      "n": 6,
+      "mean": -0.1667,
+      "view": 0,
+      "label": "중립 · 의견 갈림",
+      "tone": "hold",
+      "disagreement": true,
+      "votes": {
+        "hana": -1,
+        "shinhan": 0,
+        "shinyoung": 1,
+        "blackrock": 0,
+        "lpl": -1,
+        "ubs": 0
+      }
+    },
+    "alternative": {
+      "asset": "금·리츠",
+      "n": 4,
+      "mean": 0.25,
+      "view": 0,
+      "label": "중립",
+      "tone": "hold",
+      "disagreement": false,
+      "votes": {
+        "hana": 0,
+        "shinhan": 0,
+        "shinyoung": 0,
+        "ubs": 1
+      }
+    },
+    "cash": {
+      "asset": "현금성",
+      "n": 5,
+      "mean": -0.4,
+      "view": 0,
+      "label": "중립",
+      "tone": "hold",
+      "disagreement": false,
+      "votes": {
+        "hana": 0,
+        "shinhan": 0,
+        "shinyoung": -1,
+        "lpl": -1,
+        "ubs": 0
       }
     }
   },
