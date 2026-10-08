@@ -19,7 +19,7 @@
 | 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ✅ PR #17 Merge (10-07 합의: 해외 기관 전망 USD 사용·국내주식=신흥국 값·설문 구간 1점 조정. 스트레스 손실·과세 분배율은 아직 데모값) |
 | 이유경 (yukyung16) → 옥경환 합의 | 하우스뷰 참고 증권사 목록 확정, 10월 실제 점수 입력 | — | `data/house-view-sources` | `data/house_view_input.json`, `docs/DECISIONS.md` | 🟡 진행 중 (2026-10-08 시작) — 증권사 후보 고르는 중. 목록은 결과 보기 전에 고정 |
 | 옥경환 (koreanchubby) | Supabase로 DB·REST API 연동 (마일스톤 5) | #20 | `feat/supabase-db` | `supabase/`(새 폴더), `app.js`(저장 부분만, 시작 전 알림), 새 JS 파일 1개, `index.html`(script 1줄), `docs/DB_DESIGN.md` | 🔵 리뷰 대기 (PR #21) — Supabase 프로젝트 `ai-pb`(서울) 생성·테이블 11개·RLS 적용 완료 |
-| 옥경환 (koreanchubby) | AI 예측 파이프라인 초안: 거시지표 → 다음 달 미국 주식 방향 (마일스톤 8, 주제는 이유경과 합의 필요) | #22 | `feat/ai-prediction` | `scripts/ai_predict.py`, `tests/`, `data/ai_signal.json`, `.github/workflows/`, `docs/AI_SPEC.md` (앱 화면 파일은 안 건드림) | 🔵 초안 PR #23 — 주제 합의 필요. 백테스트 결과: 방향 정확도 50.8%로 기준(59.3%)보다 낮음, 최대 낙폭은 작음 |
+| 옥경환 (koreanchubby) | AI 예측 파이프라인 초안: 거시지표 → 다음 달 미국 주식 방향 (마일스톤 8, 주제는 이유경과 합의 필요) | #22 | `feat/ai-prediction` | `scripts/ai_predict.py`, `tests/`, `data/ai_signal.json`, `.github/workflows/`, `docs/AI_SPEC.md` (앱 화면 파일은 안 건드림) | ⏸ **보류 (추후 과제, 2026-10-08)** — 초안 PR #23은 열어 둠. 백테스트 결과 방향 정확도 50.8%로 기준(59.3%)보다 낮아 주제·방향을 다시 정하기로 함. 마일스톤 8(13~14주) 전에 결정 |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | 🔵 리뷰 대기 (10-07) — Stitch 시안과 비교 후 **현재 화면 유지**로 결정, CSS 변경 없음. DECISIONS 기록 PR(`Closes #3`) |
 | 옥경환 (koreanchubby) | `design/stitch-style` PR 리뷰 | #5 | — | — | ⬜ |
 | 이유경 (yukyung16) | 강의계획서 대비 진행 점검표, 주간 보고서 마감·작성 방법 | — | `docs/syllabus-progress` | `docs/SYLLABUS_PROGRESS.md`, `docs/WEEKLY_REPORTS.md` | 🔵 리뷰 대기 (PR #15) |
