@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-08T05:34:01Z",
+  "generated_at": "2026-10-08T06:42:17Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,13 +25,13 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
     },
     {
       "source": "FRED",
