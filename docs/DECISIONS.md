@@ -4,7 +4,7 @@
 
 ---
 
-## 2026-10-08 · 앱 배포는 Eyefeet Cloud, DB는 Supabase 유지 (이유경 리뷰 시 결정, 옥경환 확인 요청)
+## 2026-10-08 · 앱 배포는 Eyefeet Cloud, DB는 Supabase 유지 (이유경 리뷰 시 결정, 옥경환 확인 완료 10-08)
 
 - **결정**: DB·REST API·익명 로그인은 **Supabase 그대로**(PR #21 Merge). 앱 배포는 교수님 클라우드 **Eyefeet Cloud 팀 테넌트 1개**(static, main 연결, push 시 자동 배포)로 추가 예정. GitHub Pages는 테넌트가 동작할 때까지 유지
 - **근거**: Supabase는 익명 로그인 + RLS(내 데이터만)가 이미 구현·검증됨. Eyefeet는 PostgreSQL + PostgREST는 있지만 사용자별 로그인이 기본 제공되지 않아 같은 수준을 다시 만드는 데 시간이 듦. 교수님이 수업에서 Eyefeet를 안내하셨으므로 배포·CI/CD는 Eyefeet로 보여 줌

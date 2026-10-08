@@ -9,7 +9,7 @@
 
 - 가이드 **0~1단계 완료** (v4 업로드, `prototype-v4` 태그, 공개 URL 배포)
 - 배포 주소: https://koreanchubby.github.io/ai-pb/
-- 배포 주소 2 (Eyefeet Cloud, 10-08): https://aipb.eyefeet.com/ — 테넌트 `aipb`(static, main). 지금은 관리 화면에서 🚀 배포를 눌러야 반영됨 → **웹훅 등록(저장소 주인 옥경환)하면 push 때 자동 배포**
+- 배포 주소 2 (Eyefeet Cloud, 10-08): https://aipb.eyefeet.com/ — 테넌트 `aipb`(static, main). **웹훅 등록 완료(10-08, 옥경환) → main에 push하면 자동 배포**
 - 다음: 2단계(디자인) · 3단계(입력 저장) · 4단계 준비(뉴스 출처)
 
 ## 지금 누가 무엇을 하고 있나
