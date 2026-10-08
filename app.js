@@ -1477,6 +1477,8 @@ function saveAppState() {
     window.localStorage.setItem(STORAGE_KEY, JSON.stringify(snapshot));
     const time = new Date().toLocaleTimeString('ko-KR', { hour: '2-digit', minute: '2-digit' });
     document.querySelectorAll('.save-state').forEach(function (el) { el.textContent = '자동 저장됨 · ' + time; });
+    // db-sync.js가 받아 Supabase에도 저장합니다(이슈 #20). 그 파일이 없거나 실패해도 여기 동작은 그대로입니다.
+    window.dispatchEvent(new CustomEvent('aipb:saved', { detail: snapshot }));
   } catch (error) {
     document.querySelectorAll('.save-state').forEach(function (el) { el.textContent = '저장 불가 (브라우저 설정)'; });
   }
@@ -1574,6 +1576,7 @@ function resetAppState() {
   scheduleSave.timer = null;
   storageRestoring = true;
   clearSavedState();
+  window.dispatchEvent(new CustomEvent('aipb:reset'));
   window.location.reload();
 }
 
