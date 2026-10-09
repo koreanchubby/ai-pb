@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-09T19:33:36Z",
+  "generated_at": "2026-10-09T20:33:17Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -58,6 +58,31 @@
       "change_condition": null
     },
     {
+      "id": "market-6a28edc19d0e",
+      "title": "미국 10년물 국채금리 5.22% (직전 대비 -0.06%p)",
+      "url": "https://fred.stlouisfed.org/series/DGS10",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-08T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.22,
+        "previous": 5.28,
+        "change": -0.06,
+        "unit": "%",
+        "date": "2026-10-08",
+        "alert_threshold": 0.15
+      }
+    },
+    {
       "id": "market-a51e8ef385f2",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
@@ -105,31 +130,6 @@
         "unit": "원",
         "date": "20261008",
         "alert_threshold": 15.0
-      }
-    },
-    {
-      "id": "market-3af0fe7909bf",
-      "title": "미국 10년물 국채금리 5.28% (직전 대비 +0.01%p)",
-      "url": "https://fred.stlouisfed.org/series/DGS10",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-10-07T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.28,
-        "previous": 5.27,
-        "change": 0.01,
-        "unit": "%",
-        "date": "2026-10-07",
-        "alert_threshold": 0.15
       }
     },
     {
