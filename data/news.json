@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T13:32:51Z",
+  "generated_at": "2026-10-10T16:32:10Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,8 +25,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -158,6 +158,42 @@
       }
     },
     {
+      "id": "news-1721a183c88b",
+      "title": "Putin says Russian oil supplies to US will",
+      "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
+      "source": "timesofoman.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c92ace652532",
+      "title": "Gold könnte auf 3750 Dollar fallen – dann winken neue Rekorde",
+      "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
+      "source": "focus.de",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-ca59fd305ca3",
       "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
       "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
@@ -176,17 +212,16 @@
       "change_condition": null
     },
     {
-      "id": "news-c92ace652532",
-      "title": "Gold könnte auf 3750 Dollar fallen – dann winken neue Rekorde",
-      "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
-      "source": "focus.de",
+      "id": "news-28ea950a28cc",
+      "title": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
+      "url": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
+      "source": "blog.wenxuecity.com",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
-        "oil",
-        "fx"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -194,17 +229,203 @@
       "change_condition": null
     },
     {
-      "id": "news-1721a183c88b",
-      "title": "Putin says Russian oil supplies to US will",
-      "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
-      "source": "timesofoman.com",
+      "id": "news-86b55c2a599f",
+      "title": "कन्या साप्ताहिक राशिफल ( 11 - 17 अक्टूबर 2026 ): इस वीक क्या चुनौती ? कैसे रहेंगे 7 दिन ?",
+      "url": "https://www.livehindustan.com/astrology/virgo-weekly-horoscope-in-hindi-11-17-october-2026-kanya-saptahik-rashifal-prediction-and-bhavishyafal-201791590611063.html",
+      "source": "livehindustan.com",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
-        "geopolitics",
-        "oil"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e7173f93e624",
+      "title": "The bigger picture -- Beijing Review",
+      "url": "http://www.bjreview.com/World/202610/t20261010_800448450.html",
+      "source": "bjreview.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-64173bfd1cca",
+      "title": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
+      "url": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
+      "source": "cna.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3103bd54d179",
+      "title": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
+      "url": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
+      "source": "chinatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c43e6dacd57c",
+      "title": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
+      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
+      "source": "index.hr",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e404d322dad6",
+      "title": "Zelenski besno o Trumpovem dogovoru z Rusijo : To je darilo Putinu",
+      "url": "https://www.delo.si/novice/svet/zelenski-se-je-besno-odzval-na-trumpov-dogovor-z-rusijo-to-je-darilo-putinu",
+      "source": "delo.si",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7786cf56303b",
+      "title": "Rusi potvrdili : Putin u razgovoru s Trumpom odbio ideju o završetku rata",
+      "url": "https://www.index.hr/vijesti/clanak/rusi-potvrdili-putin-u-razgovoru-s-trumpom-odbio-ideju-o-zavrsetku-rata/2844079.aspx",
+      "source": "index.hr",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1428965fb313",
+      "title": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
+      "url": "http://www.jpost.com/middle-east/article-911021",
+      "source": "jpost.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c8fce6424ed7",
+      "title": "Le casque Bose QuietComfort SC chute sous 200 euros chez Amazon ( 90 euros sous son prix conseillé )",
+      "url": "https://www.bfmtv.com/pratique/le-casque-bose-quiet-comfort-sc-chute-sous-200-euros-chez-amazon-90-euros-sous-son-prix-conseille_AB-202610100028.html",
+      "source": "bfmtv.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a12673c7b4db",
+      "title": "商务部欧洲司负责人解读中欧贸易投资磋商机制第二次例会成果 - 新华网",
+      "url": "https://www.news.cn/fortune/20261010/1c99f3334b42462f99d4036df248f250/c.html",
+      "source": "news.cn",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-83e011ea31b6",
+      "title": "Trump says Russia to supply diesel to global markets",
+      "url": "https://www.canberratimes.com.au/story/9365952/trump-says-russia-to-supply-diesel-to-global-markets/",
+      "source": "canberratimes.com.au",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-403ffc542a4c",
+      "title": "Time . ai",
+      "url": "https://time.mk/ai/854e6a1ac0/mk/",
+      "source": "time.mk",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -250,23 +471,6 @@
       "title": "Nhà đầu tư  thở phào  với giá vàng",
       "url": "https://baomoi.com/nha-dau-tu-tho-phao-voi-gia-vang-c56238753.epi",
       "source": "baomoi.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-64173bfd1cca",
-      "title": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
-      "url": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
-      "source": "cna.com.tw",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
@@ -416,23 +620,6 @@
       "change_condition": null
     },
     {
-      "id": "news-3103bd54d179",
-      "title": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
-      "url": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
-      "source": "chinatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-13ad4b71c345",
       "title": "Gold Price Today : सोना इस हफ्ते हुआ महंगा , चांदी का दाम गिरा ? गोल्ड खरीदने या बेचने से पहले जान लें एक्सपर्ट की बात",
       "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
@@ -492,193 +679,6 @@
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-28ea950a28cc",
-      "title": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
-      "url": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
-      "source": "blog.wenxuecity.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-86b55c2a599f",
-      "title": "कन्या साप्ताहिक राशिफल ( 11 - 17 अक्टूबर 2026 ): इस वीक क्या चुनौती ? कैसे रहेंगे 7 दिन ?",
-      "url": "https://www.livehindustan.com/astrology/virgo-weekly-horoscope-in-hindi-11-17-october-2026-kanya-saptahik-rashifal-prediction-and-bhavishyafal-201791590611063.html",
-      "source": "livehindustan.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e7173f93e624",
-      "title": "The bigger picture -- Beijing Review",
-      "url": "http://www.bjreview.com/World/202610/t20261010_800448450.html",
-      "source": "bjreview.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c43e6dacd57c",
-      "title": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
-      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
-      "source": "index.hr",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e404d322dad6",
-      "title": "Zelenski besno o Trumpovem dogovoru z Rusijo : To je darilo Putinu",
-      "url": "https://www.delo.si/novice/svet/zelenski-se-je-besno-odzval-na-trumpov-dogovor-z-rusijo-to-je-darilo-putinu",
-      "source": "delo.si",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7786cf56303b",
-      "title": "Rusi potvrdili : Putin u razgovoru s Trumpom odbio ideju o završetku rata",
-      "url": "https://www.index.hr/vijesti/clanak/rusi-potvrdili-putin-u-razgovoru-s-trumpom-odbio-ideju-o-zavrsetku-rata/2844079.aspx",
-      "source": "index.hr",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1428965fb313",
-      "title": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
-      "url": "http://www.jpost.com/middle-east/article-911021",
-      "source": "jpost.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c8fce6424ed7",
-      "title": "Le casque Bose QuietComfort SC chute sous 200 euros chez Amazon ( 90 euros sous son prix conseillé )",
-      "url": "https://www.bfmtv.com/pratique/le-casque-bose-quiet-comfort-sc-chute-sous-200-euros-chez-amazon-90-euros-sous-son-prix-conseille_AB-202610100028.html",
-      "source": "bfmtv.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a12673c7b4db",
-      "title": "商务部欧洲司负责人解读中欧贸易投资磋商机制第二次例会成果 - 新华网",
-      "url": "https://www.news.cn/fortune/20261010/1c99f3334b42462f99d4036df248f250/c.html",
-      "source": "news.cn",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-83e011ea31b6",
-      "title": "Trump says Russia to supply diesel to global markets",
-      "url": "https://www.canberratimes.com.au/story/9365952/trump-says-russia-to-supply-diesel-to-global-markets/",
-      "source": "canberratimes.com.au",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-403ffc542a4c",
-      "title": "Time . ai",
-      "url": "https://time.mk/ai/854e6a1ac0/mk/",
-      "source": "time.mk",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
