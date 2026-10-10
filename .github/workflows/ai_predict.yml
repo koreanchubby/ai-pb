@@ -1,0 +1,48 @@
+# 매달 한 번 AI 예측 파이프라인을 돌려 data/ai_signal.json(최신 예측·백테스트)과
+# data/ai_signal_log.json(매달 예측 기록 → 실전 검증)을 갱신합니다. 설명: docs/AI_SPEC.md (이슈 #22)
+# 키가 필요 없는 FRED 공개 CSV를 씁니다. 원자료(data/raw)는 저장소에 올리지 않습니다.
+name: ai-predict
+
+on:
+  schedule:
+    - cron: "40 1 2 * *"   # 매달 2일 01:40 UTC (한국 10:40). 전월 말 데이터가 FRED에 반영된 뒤
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ai-predict
+  cancel-in-progress: false
+
+jobs:
+  predict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 단위 테스트 (AI 예측)
+        run: python -m unittest discover -s tests -p "test_ai_predict.py" -v
+
+      - name: 데이터 받기(요청 간격 5초) → 학습·백테스트 → 예측
+        run: python scripts/ai_predict.py
+
+      - name: 변경 시 커밋
+        run: |
+          if git diff --quiet -- data/ai_signal.json data/ai_signal_log.json && [ -z "$(git status --porcelain data/ai_signal_log.json)" ]; then
+            echo "변경 없음"; exit 0
+          fi
+          git config user.name "ai-pb-ai-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ai_signal.json data/ai_signal_log.json
+          git commit -m "data: AI 예측 월간 갱신 $(date -u +'%Y-%m')"
+          for attempt in 1 2 3; do
+            if git pull --rebase origin main && git push; then exit 0; fi
+            sleep $((attempt * 5))
+          done
+          echo "push 실패(3회)"; exit 1
