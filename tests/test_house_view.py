@@ -28,11 +28,24 @@ class ConsensusTests(unittest.TestCase):
         c = hv.consensus(hv.validate(copy.deepcopy(BASE)))
         self.assertEqual(c["kr_equity"]["view"], 1)          # 평균 0.67 → 확대
         self.assertEqual(c["global_equity"]["view"], -1)     # 평균 -0.67 → 축소
-        self.assertEqual(c["govbond"]["view"], 0)            # +1과 -1 공존 → 0
-        self.assertTrue(c["govbond"]["disagreement"])
-        self.assertEqual(c["govbond"]["label"], "의견 불일치")
+        self.assertEqual(c["govbond"]["view"], 0)            # [1, -1, 1] 평균 0.33 → 중립
+        self.assertTrue(c["govbond"]["disagreement"])        # +1과 -1 공존 → 갈림 표시
+        self.assertEqual(c["govbond"]["label"], "중립 · 의견 갈림")
         self.assertEqual(c["cash"]["n"], 0)                  # 아무도 안 적은 자산
         self.assertEqual(c["cash"]["label"], "자료 없음")
+
+    def test_disagreement_does_not_force_neutral(self):
+        # 2026-10-09: 한 곳만 반대해도 과반이면 결론 유지 (7곳 중 5곳 축소, 1곳 확대)
+        data = copy.deepcopy(BASE)
+        data["sources"] = [
+            {"id": f"s{i}", "name": "N", "title": "t", "published": "2026-10-01", "views": {"govbond": v}}
+            for i, v in enumerate([-1, -1, -1, -1, -1, 0, 1])
+        ]
+        c = hv.consensus(hv.validate(data))
+        self.assertAlmostEqual(c["govbond"]["mean"], round(-4 / 7, 4))
+        self.assertEqual(c["govbond"]["view"], -1)           # 평균 -0.57 → 축소
+        self.assertTrue(c["govbond"]["disagreement"])
+        self.assertEqual(c["govbond"]["label"], "축소 · 의견 갈림")
 
     def test_half_is_neutral(self):
         data = copy.deepcopy(BASE)
