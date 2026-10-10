@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T17:30:26Z",
+  "generated_at": "2026-10-10T19:31:13Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,7 +26,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 5
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -158,6 +158,42 @@
       }
     },
     {
+      "id": "news-ca59fd305ca3",
+      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c92ace652532",
+      "title": "Gold könnte auf 3750 Dollar fallen – dann winken neue Rekorde",
+      "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
+      "source": "focus.de",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-1721a183c88b",
       "title": "Putin says Russian oil supplies to US will",
       "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
@@ -176,17 +212,16 @@
       "change_condition": null
     },
     {
-      "id": "news-c92ace652532",
-      "title": "Gold könnte auf 3750 Dollar fallen – dann winken neue Rekorde",
-      "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
-      "source": "focus.de",
+      "id": "news-1cc041009587",
+      "title": "യുഎഇക്ക് സമീപം എണ്ണക്കപ്പലിന് നേരെ ഡ്രോൺ ആക്രമണം ; 22 ഇന്ത്യൻ നാവികരും സുരക്ഷിതരെന്ന് മന്ത്രി | Indians Safe After Tanker - Attack",
+      "url": "https://www.madhyamam.com/world/indians-safe-after-tanker-attack-1562047",
+      "source": "madhyamam.com",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
-        "geopolitics",
-        "fx"
+        "oil"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -194,17 +229,186 @@
       "change_condition": null
     },
     {
-      "id": "news-ca59fd305ca3",
-      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
-      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
-      "source": "economictimes.indiatimes.com",
+      "id": "news-297c566df64a",
+      "title": "RBI takes steps to choke speculative bets against the rupee in forex market",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-takes-steps-to-choke-speculative-bets-against-the-rupee-in-forex-market/articleshow/134848611.cms",
+      "source": "timesofindia.indiatimes.com",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
+        "oil"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7bc403d9471a",
+      "title": "Nhà đầu tư  thở phào  với giá vàng",
+      "url": "https://baomoi.com/nha-dau-tu-tho-phao-voi-gia-vang-c56238753.epi",
+      "source": "baomoi.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-64173bfd1cca",
+      "title": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
+      "url": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
+      "source": "cna.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-92a950f078fc",
+      "title": "22 ભારતીય ક્રૂ મેમ્બર્સ સવાર ઓઈલ જહાજ પર ડ્રોન હુમલો , કેન્દ્ર સરકારે કર્યો ખુલાસો",
+      "url": "https://www.gujaratsamachar.com/news/international/drone-attack-on-oil-ship-carrying-22-indian-crew-members-central-government-reveals-58239050239",
+      "source": "gujaratsamachar.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-939135408f46",
+      "title": "Bloomberg : Saudi Aramco в ноябре полностью выполнит заявки Европы по поставкам нефти",
+      "url": "https://profile.ru/news/abroad/bloomberg-saudi-aramco-v-noyabre-polnostju-vypolnit-zayavki-evropy-po-postavkam-nefti-a999-1911101/",
+      "source": "profile.ru",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-42461583da60",
+      "title": "Isaias makes landfall as hurricane , hammering US Gulf Coast with powerful winds , dangerous flooding",
+      "url": "https://www.sun-sentinel.com/2026/10/09/isaias-makes-landfall-as-hurricane-hammering-us-gulf-coast-with-powerful-winds-dangerous-flooding/",
+      "source": "sun-sentinel.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-50f916bdebc3",
+      "title": "Isaias makes landfall along the US Gulf Coast as a dangerous Category 2 hurricane",
+      "url": "https://www.asiaone.com/world/isaias-makes-landfall-along-us-gulf-coast-dangerous-category-2-hurricane",
+      "source": "asiaone.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a1de5fdc067a",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
+      "source": "the-star.co.ke",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d91b53fdcacd",
+      "title": "Altında en kritik çarşamba ! Fiyatların yönü için kırılma haftası",
+      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/altinda-en-kritik-carsamba-fiyatlarin-yonu-icin-kirilma-haftasi-1821747",
+      "source": "turkiyegazetesi.com.tr",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1fa2aa4f5cfa",
+      "title": "Stronger BoP outlook to keep Rupee far more stable ; FY27 surplus seen at USD 97 - 100 billion : Report",
+      "url": "http://www.argentinastar.com/news/279363056/stronger-bop-outlook-to-keep-rupee-far-more-stable-fy27-surplus-seen-at-usd-97-100-billion-report",
+      "source": "argentinastar.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a57f25ce5c80",
+      "title": "BSR forecast to post record profit in 2026",
+      "url": "https://vietnamnews.vn/economy/1801682/bsr-forecast-to-post-record-profit-in-2026.html",
+      "source": "vietnamnews.vn",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -233,23 +437,6 @@
       "title": "Gold Price Today : सोना इस हफ्ते हुआ महंगा , चांदी का दाम गिरा ? गोल्ड खरीदने या बेचने से पहले जान लें एक्सपर्ट की बात",
       "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
       "source": "livehindustan.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d91b53fdcacd",
-      "title": "Altında en kritik çarşamba ! Fiyatların yönü için kırılma haftası",
-      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/altinda-en-kritik-carsamba-fiyatlarin-yonu-icin-kirilma-haftasi-1821747",
-      "source": "turkiyegazetesi.com.tr",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
@@ -318,23 +505,6 @@
       "title": "The bigger picture -- Beijing Review",
       "url": "http://www.bjreview.com/World/202610/t20261010_800448450.html",
       "source": "bjreview.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-64173bfd1cca",
-      "title": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
-      "url": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
-      "source": "cna.com.tw",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
@@ -475,176 +645,6 @@
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1cc041009587",
-      "title": "യുഎഇക്ക് സമീപം എണ്ണക്കപ്പലിന് നേരെ ഡ്രോൺ ആക്രമണം ; 22 ഇന്ത്യൻ നാവികരും സുരക്ഷിതരെന്ന് മന്ത്രി | Indians Safe After Tanker - Attack",
-      "url": "https://www.madhyamam.com/world/indians-safe-after-tanker-attack-1562047",
-      "source": "madhyamam.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-297c566df64a",
-      "title": "RBI takes steps to choke speculative bets against the rupee in forex market",
-      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-takes-steps-to-choke-speculative-bets-against-the-rupee-in-forex-market/articleshow/134848611.cms",
-      "source": "timesofindia.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7bc403d9471a",
-      "title": "Nhà đầu tư  thở phào  với giá vàng",
-      "url": "https://baomoi.com/nha-dau-tu-tho-phao-voi-gia-vang-c56238753.epi",
-      "source": "baomoi.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-92a950f078fc",
-      "title": "22 ભારતીય ક્રૂ મેમ્બર્સ સવાર ઓઈલ જહાજ પર ડ્રોન હુમલો , કેન્દ્ર સરકારે કર્યો ખુલાસો",
-      "url": "https://www.gujaratsamachar.com/news/international/drone-attack-on-oil-ship-carrying-22-indian-crew-members-central-government-reveals-58239050239",
-      "source": "gujaratsamachar.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-939135408f46",
-      "title": "Bloomberg : Saudi Aramco в ноябре полностью выполнит заявки Европы по поставкам нефти",
-      "url": "https://profile.ru/news/abroad/bloomberg-saudi-aramco-v-noyabre-polnostju-vypolnit-zayavki-evropy-po-postavkam-nefti-a999-1911101/",
-      "source": "profile.ru",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-42461583da60",
-      "title": "Isaias makes landfall as hurricane , hammering US Gulf Coast with powerful winds , dangerous flooding",
-      "url": "https://www.sun-sentinel.com/2026/10/09/isaias-makes-landfall-as-hurricane-hammering-us-gulf-coast-with-powerful-winds-dangerous-flooding/",
-      "source": "sun-sentinel.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-50f916bdebc3",
-      "title": "Isaias makes landfall along the US Gulf Coast as a dangerous Category 2 hurricane",
-      "url": "https://www.asiaone.com/world/isaias-makes-landfall-along-us-gulf-coast-dangerous-category-2-hurricane",
-      "source": "asiaone.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a1de5fdc067a",
-      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
-      "url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
-      "source": "the-star.co.ke",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1fa2aa4f5cfa",
-      "title": "Stronger BoP outlook to keep Rupee far more stable ; FY27 surplus seen at USD 97 - 100 billion : Report",
-      "url": "http://www.argentinastar.com/news/279363056/stronger-bop-outlook-to-keep-rupee-far-more-stable-fy27-surplus-seen-at-usd-97-100-billion-report",
-      "source": "argentinastar.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a57f25ce5c80",
-      "title": "BSR forecast to post record profit in 2026",
-      "url": "https://vietnamnews.vn/economy/1801682/bsr-forecast-to-post-record-profit-in-2026.html",
-      "source": "vietnamnews.vn",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
