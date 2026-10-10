@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T09:32:51Z",
+  "generated_at": "2026-10-10T10:31:50Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,8 +25,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 39
     },
     {
       "source": "한국은행 ECOS",
@@ -158,6 +158,315 @@
       }
     },
     {
+      "id": "news-ca59fd305ca3",
+      "title": "Brent commands a war premium as Middle East supply risks keep oil on edge",
+      "url": "https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c92ace652532",
+      "title": "Gold könnte auf 3750 Dollar fallen – dann winken neue Rekorde",
+      "url": "https://www.focus.de/finanzen/boerse/gold-koennte-auf-3750-dollar-fallen-dann-winken-neue-rekorde_dffce674-13a5-4744-be9f-40474cc4ef33.html",
+      "source": "focus.de",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1721a183c88b",
+      "title": "Putin says Russian oil supplies to US will",
+      "url": "https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call",
+      "source": "timesofoman.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3103bd54d179",
+      "title": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
+      "url": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
+      "source": "chinatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-13ad4b71c345",
+      "title": "Gold Price Today : सोना इस हफ्ते हुआ महंगा , चांदी का दाम गिरा ? गोल्ड खरीदने या बेचने से पहले जान लें एक्सपर्ट की बात",
+      "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
+      "source": "livehindustan.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d91b53fdcacd",
+      "title": "Altında en kritik çarşamba ! Fiyatların yönü için kırılma haftası",
+      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/altinda-en-kritik-carsamba-fiyatlarin-yonu-icin-kirilma-haftasi-1821747",
+      "source": "turkiyegazetesi.com.tr",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-262bbbd32f9c",
+      "title": "AP News in Brief at 12 : 04 a . m . EDT",
+      "url": "http://www.gazettextra.com/news/nation_world/ap-news-in-brief-at-12-04-a-m-edt/article_f833cdbb-ff2e-5f42-965b-9b371c884967.html",
+      "source": "gazettextra.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1cc041009587",
+      "title": "യുഎഇക്ക് സമീപം എണ്ണക്കപ്പലിന് നേരെ ഡ്രോൺ ആക്രമണം ; 22 ഇന്ത്യൻ നാവികരും സുരക്ഷിതരെന്ന് മന്ത്രി | Indians Safe After Tanker - Attack",
+      "url": "https://www.madhyamam.com/world/indians-safe-after-tanker-attack-1562047",
+      "source": "madhyamam.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-297c566df64a",
+      "title": "RBI takes steps to choke speculative bets against the rupee in forex market",
+      "url": "https://timesofindia.indiatimes.com/business/india-business/rbi-takes-steps-to-choke-speculative-bets-against-the-rupee-in-forex-market/articleshow/134848611.cms",
+      "source": "timesofindia.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7bc403d9471a",
+      "title": "Nhà đầu tư  thở phào  với giá vàng",
+      "url": "https://baomoi.com/nha-dau-tu-tho-phao-voi-gia-vang-c56238753.epi",
+      "source": "baomoi.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-64173bfd1cca",
+      "title": "美媒 ： 6度要烏停轟俄煉油廠未果 川普索性找普丁談 | 國際",
+      "url": "https://www.cna.com.tw/news/aopl/202610100091.aspx",
+      "source": "cna.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-92a950f078fc",
+      "title": "22 ભારતીય ક્રૂ મેમ્બર્સ સવાર ઓઈલ જહાજ પર ડ્રોન હુમલો , કેન્દ્ર સરકારે કર્યો ખુલાસો",
+      "url": "https://www.gujaratsamachar.com/news/international/drone-attack-on-oil-ship-carrying-22-indian-crew-members-central-government-reveals-58239050239",
+      "source": "gujaratsamachar.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-939135408f46",
+      "title": "Bloomberg : Saudi Aramco в ноябре полностью выполнит заявки Европы по поставкам нефти",
+      "url": "https://profile.ru/news/abroad/bloomberg-saudi-aramco-v-noyabre-polnostju-vypolnit-zayavki-evropy-po-postavkam-nefti-a999-1911101/",
+      "source": "profile.ru",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-42461583da60",
+      "title": "Isaias makes landfall as hurricane , hammering US Gulf Coast with powerful winds , dangerous flooding",
+      "url": "https://www.sun-sentinel.com/2026/10/09/isaias-makes-landfall-as-hurricane-hammering-us-gulf-coast-with-powerful-winds-dangerous-flooding/",
+      "source": "sun-sentinel.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-50f916bdebc3",
+      "title": "Isaias makes landfall along the US Gulf Coast as a dangerous Category 2 hurricane",
+      "url": "https://www.asiaone.com/world/isaias-makes-landfall-along-us-gulf-coast-dangerous-category-2-hurricane",
+      "source": "asiaone.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a1de5fdc067a",
+      "title": "Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin",
+      "url": "https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin",
+      "source": "the-star.co.ke",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1fa2aa4f5cfa",
+      "title": "Stronger BoP outlook to keep Rupee far more stable ; FY27 surplus seen at USD 97 - 100 billion : Report",
+      "url": "http://www.argentinastar.com/news/279363056/stronger-bop-outlook-to-keep-rupee-far-more-stable-fy27-surplus-seen-at-usd-97-100-billion-report",
+      "source": "argentinastar.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a57f25ce5c80",
+      "title": "BSR forecast to post record profit in 2026",
+      "url": "https://vietnamnews.vn/economy/1801682/bsr-forecast-to-post-record-profit-in-2026.html",
+      "source": "vietnamnews.vn",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-8b436ca0820e",
       "title": "Microsoft , Nvidia push AI agents onto personal computers",
       "url": "http://www.argentinastar.com/news/279358260/microsoft-nvidia-push-ai-agents-onto-personal-computers",
@@ -183,6 +492,193 @@
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
         "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-28ea950a28cc",
+      "title": "如果两院失控 ， 川普总统如何执政 ？ - 博客",
+      "url": "https://blog.wenxuecity.com/myblog/77500/202610/6354.html",
+      "source": "blog.wenxuecity.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-86b55c2a599f",
+      "title": "कन्या साप्ताहिक राशिफल ( 11 - 17 अक्टूबर 2026 ): इस वीक क्या चुनौती ? कैसे रहेंगे 7 दिन ?",
+      "url": "https://www.livehindustan.com/astrology/virgo-weekly-horoscope-in-hindi-11-17-october-2026-kanya-saptahik-rashifal-prediction-and-bhavishyafal-201791590611063.html",
+      "source": "livehindustan.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e7173f93e624",
+      "title": "The bigger picture -- Beijing Review",
+      "url": "http://www.bjreview.com/World/202610/t20261010_800448450.html",
+      "source": "bjreview.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c43e6dacd57c",
+      "title": "Ovo je ukrajinski odgovor na dogovor Trumpa i Putina",
+      "url": "https://www.index.hr/vijesti/clanak/ovo-je-ukrajinski-odgovor-na-dogovor-trumpa-i-putina/2844072.aspx?index_ref=homepage_comment_box_d&commentId=12210160",
+      "source": "index.hr",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e404d322dad6",
+      "title": "Zelenski besno o Trumpovem dogovoru z Rusijo : To je darilo Putinu",
+      "url": "https://www.delo.si/novice/svet/zelenski-se-je-besno-odzval-na-trumpov-dogovor-z-rusijo-to-je-darilo-putinu",
+      "source": "delo.si",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7786cf56303b",
+      "title": "Rusi potvrdili : Putin u razgovoru s Trumpom odbio ideju o završetku rata",
+      "url": "https://www.index.hr/vijesti/clanak/rusi-potvrdili-putin-u-razgovoru-s-trumpom-odbio-ideju-o-zavrsetku-rata/2844079.aspx",
+      "source": "index.hr",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1428965fb313",
+      "title": "Voices from the Arab Press : US - Iran tensions , AI dangers , and Israel vote",
+      "url": "http://www.jpost.com/middle-east/article-911021",
+      "source": "jpost.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c8fce6424ed7",
+      "title": "Le casque Bose QuietComfort SC chute sous 200 euros chez Amazon ( 90 euros sous son prix conseillé )",
+      "url": "https://www.bfmtv.com/pratique/le-casque-bose-quiet-comfort-sc-chute-sous-200-euros-chez-amazon-90-euros-sous-son-prix-conseille_AB-202610100028.html",
+      "source": "bfmtv.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a12673c7b4db",
+      "title": "商务部欧洲司负责人解读中欧贸易投资磋商机制第二次例会成果 - 新华网",
+      "url": "https://www.news.cn/fortune/20261010/1c99f3334b42462f99d4036df248f250/c.html",
+      "source": "news.cn",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-83e011ea31b6",
+      "title": "Trump says Russia to supply diesel to global markets",
+      "url": "https://www.canberratimes.com.au/story/9365952/trump-says-russia-to-supply-diesel-to-global-markets/",
+      "source": "canberratimes.com.au",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-403ffc542a4c",
+      "title": "Time . ai",
+      "url": "https://time.mk/ai/854e6a1ac0/mk/",
+      "source": "time.mk",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -251,210 +747,6 @@
       "published_at": "2026-10-08T05:30:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a863e2e3ba3a",
-      "title": "IEA紧急加码释储 ： 1亿桶石油待投放 ， 柴油危机为何持续发酵 ？_ 期市动态 _ 期货 _ 中金在线",
-      "url": "http://futures.cnfol.com/qishidongtai/20261008/32389720.shtml",
-      "source": "futures.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06662a822e36",
-      "title": "美30年期房貸利率升至7 . 49 % 創近3年新高",
-      "url": "https://www.epochtimes.com/b5/26/10/7/n14865677.htm",
-      "source": "epochtimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cba9b58a987d",
-      "title": "FxWirePro : EUR / NZD recovers from early dip , upside pressure builds",
-      "url": "http://www.econotimes.com/FxWirePro-EUR-NZD-recovers-from-early-dip-upside-pressure-builds-1754289",
-      "source": "econotimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0d9cea1bb7e1",
-      "title": "Doanh nghiệp cần nắm chắc nghiệp vụ xuất nhập khẩu để giảm rủi ro , tối ưu chi phí",
-      "url": "https://stockbiz.vn/tin-tuc/doanh-nghiep-can-nam-chac-nghiep-vu-xuat-nhap-khau-de-giam-rui-ro-toi-uu-chi-phi/42168302",
-      "source": "stockbiz.vn",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7cbbc6ff97f5",
-      "title": "Πόσα πληρώνονται οι καπετάνιοι για να περάσουν το Ορμούζ",
-      "url": "https://www.in.gr/2026/10/08/economy/diethnis-oikonomia/posa-plironontai-oi-kapetanioi-gia-na-perasoun-to-ormouz/",
-      "source": "in.gr",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4bd4a7e3a1c0",
-      "title": "Lotan Pinian , superviviente del 7 - O :  Netanyahu y el Gobierno son responsables porque no reaccionaron a tiempo , y deben irse »",
-      "url": "https://www.larazon.es/internacional/lotan-pinian-superviviente-netanyahu-gobierno-son-responsables-porque-reaccionaron-tiempo-deben-irse_202610086ac71eaf6e8df44596ac40f6.html",
-      "source": "larazon.es",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-32a62f102d60",
-      "title": "古街新貌 ， 银发族  和  Z世代  齐乐 _ 绵阳新闻网",
-      "url": "http://www.myrb.net/html/2026/news/10/458425.html",
-      "source": "myrb.net",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-86bf868f5dec",
-      "title": "《 國際經濟 》 傳歐盟批准俄羅斯制裁 集中在彈道飛彈供應商 - 財經",
-      "url": "https://www.chinatimes.com/realtimenews/20261008002604-260410",
-      "source": "chinatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1094bcd6fa3f",
-      "title": "UK motorists can now see live fuel prices on Google Maps",
-      "url": "https://www.theguardian.com/money/2026/oct/08/uk-drivers-live-petrol-diesel-prices-google-maps-pump-pricing",
-      "source": "theguardian.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6bc23a8252cc",
-      "title": "US prepares military for possible new Iran strikes , Trump yet to decide",
-      "url": "https://www.business-standard.com/world-news/us-prepares-military-for-possible-new-iran-strikes-trump-yet-to-decide-126100800105_1.html",
-      "source": "business-standard.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-243ae95c7943",
-      "title": "Ультражесткие решения . ЦБ с пессимизмом смотрит на ключевую ставку и поблажек не обещает",
-      "url": "https://www.amic.ru/news/ultrazhestkie-resheniya-cb-s-pessimizmom-smotrit-na-klyuchevuyu-stavku-i-poblazhek-ne-obeschaet-594060",
-      "source": "amic.ru",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-99d49817c895",
-      "title": "Samsung prevê salto de 780 % no lucro graças à demanda por chips de IA",
-      "url": "https://oglobo.globo.com/economia/tecnologia/noticia/2026/10/07/samsung-preve-salto-de-780percent-no-lucro-gracas-a-demanda-por-chips-de-ia.ghtml",
-      "source": "oglobo.globo.com",
-      "source_type": "news",
-      "published_at": "2026-10-08T05:30:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
