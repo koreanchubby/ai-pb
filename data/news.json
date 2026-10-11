@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-11T01:32:48Z",
+  "generated_at": "2026-10-11T03:35:29Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,8 +25,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 5
     },
     {
       "source": "한국은행 ECOS",
@@ -205,6 +205,74 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3103bd54d179",
+      "title": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
+      "url": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
+      "source": "chinatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-13ad4b71c345",
+      "title": "Gold Price Today : सोना इस हफ्ते हुआ महंगा , चांदी का दाम गिरा ? गोल्ड खरीदने या बेचने से पहले जान लें एक्सपर्ट की बात",
+      "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
+      "source": "livehindustan.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d91b53fdcacd",
+      "title": "Altında en kritik çarşamba ! Fiyatların yönü için kırılma haftası",
+      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/altinda-en-kritik-carsamba-fiyatlarin-yonu-icin-kirilma-haftasi-1821747",
+      "source": "turkiyegazetesi.com.tr",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-262bbbd32f9c",
+      "title": "AP News in Brief at 12 : 04 a . m . EDT",
+      "url": "http://www.gazettextra.com/news/nation_world/ap-news-in-brief-at-12-04-a-m-edt/article_f833cdbb-ff2e-5f42-965b-9b371c884967.html",
+      "source": "gazettextra.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -399,23 +467,6 @@
       "change_condition": null
     },
     {
-      "id": "news-d91b53fdcacd",
-      "title": "Altında en kritik çarşamba ! Fiyatların yönü için kırılma haftası",
-      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/altinda-en-kritik-carsamba-fiyatlarin-yonu-icin-kirilma-haftasi-1821747",
-      "source": "turkiyegazetesi.com.tr",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-1fa2aa4f5cfa",
       "title": "Stronger BoP outlook to keep Rupee far more stable ; FY27 surplus seen at USD 97 - 100 billion : Report",
       "url": "http://www.argentinastar.com/news/279363056/stronger-bop-outlook-to-keep-rupee-far-more-stable-fy27-surplus-seen-at-usd-97-100-billion-report",
@@ -488,23 +539,6 @@
       "title": "The bigger picture -- Beijing Review",
       "url": "http://www.bjreview.com/World/202610/t20261010_800448450.html",
       "source": "bjreview.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3103bd54d179",
-      "title": "影 》 韓國瑜突脫稿轟大罷免 、 不副署 「 全文曝光 」 媒體人讚高招 - 政治",
-      "url": "https://www.chinatimes.com/realtimenews/20261010001850-260407",
-      "source": "chinatimes.com",
       "source_type": "news",
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
@@ -645,40 +679,6 @@
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-13ad4b71c345",
-      "title": "Gold Price Today : सोना इस हफ्ते हुआ महंगा , चांदी का दाम गिरा ? गोल्ड खरीदने या बेचने से पहले जान लें एक्सपर्ट की बात",
-      "url": "https://www.livehindustan.com/business/personal-investments/gold-price-today-yellew-metal-rates-jumped-in-last-5-days-silver-get-cheaper-check-201791612624645.html",
-      "source": "livehindustan.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-262bbbd32f9c",
-      "title": "AP News in Brief at 12 : 04 a . m . EDT",
-      "url": "http://www.gazettextra.com/news/nation_world/ap-news-in-brief-at-12-04-a-m-edt/article_f833cdbb-ff2e-5f42-965b-9b371c884967.html",
-      "source": "gazettextra.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
