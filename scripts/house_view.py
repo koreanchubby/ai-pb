@@ -7,8 +7,9 @@
 규칙
 - 동일가중 평균: 여러 기관 전망을 같은 비중으로 결합 (Timmermann, 2006, Handbook of Economic Forecasting Ch.4;
   단순 평균이 정교한 가중보다 자주 낫다는 '예측 결합 퍼즐').
-- 의견 불일치: 같은 자산에 +1과 -1이 함께 있으면 합의는 0(중립)으로 두고 disagreement=true로 표시.
-- 그 외: 평균을 가장 가까운 정수로 (|평균| > 0.5면 ±1, 아니면 0) = 과반 원칙.  ← 실무 규칙(데모 가정)
+- 결론: 평균이 0.5보다 크면 +1(확대), -0.5보다 작으면 -1(축소), 그 사이면 0(중립) = 과반 원칙.  ← 실무 규칙
+- 의견 갈림: 같은 자산에 +1과 -1이 함께 있으면 disagreement=true로 표시만 하고, 결론은 평균대로 낸다
+  (2026-10-09 변경. 이전에는 무조건 0이라 참고 기관이 7~8곳이면 한 곳만 달라도 결론이 사라졌음).
 - 원문·표·차트는 저장하지 않는다. 점수와 출처(기관명·자료명·발간일·링크)만.
 - 참고 기관 목록은 고정(결과 좋은 곳만 고르는 선택 편향 방지): 목록 변경은 DECISIONS에 기록.
 
@@ -96,10 +97,8 @@ def consensus(sources: list[dict]) -> dict:
                            "tone": "hold", "disagreement": False, "votes": {}}
             continue
         mean = sum(votes) / len(votes)
-        disagreement = 1 in votes and -1 in votes
-        if disagreement:
-            view = 0
-        elif mean > 0.5:
+        disagreement = 1 in votes and -1 in votes  # 표시용. 결론은 평균으로만 정함
+        if mean > 0.5:
             view = 1
         elif mean < -0.5:
             view = -1
@@ -110,7 +109,7 @@ def consensus(sources: list[dict]) -> dict:
             "n": len(votes),
             "mean": round(mean, 4),
             "view": view,
-            "label": "의견 불일치" if disagreement else VIEW_LABEL[view],
+            "label": VIEW_LABEL[view] + (" · 의견 갈림" if disagreement else ""),
             "tone": TONE[view],
             "disagreement": disagreement,
             "votes": {s["id"]: s["views"][key] for s in sources if key in s["views"]},
@@ -126,7 +125,7 @@ def build(data: dict, now: dt.datetime | None = None) -> dict:
         "month": data["month"],
         "generated_at": now.replace(microsecond=0).isoformat().replace("+00:00", "Z"),
         "demo": bool(data.get("demo", False)),
-        "method": "동일가중 평균(Timmermann, 2006). +1과 -1이 함께 있으면 0(의견 불일치), 그 외 |평균|>0.5면 ±1",
+        "method": "동일가중 평균(Timmermann, 2006). |평균|>0.5면 ±1, 아니면 0. +1과 -1이 함께 있으면 의견 갈림 표시",
         "sources": [{k: s.get(k) for k in ("id", "name", "title", "published", "url")} for s in sources],
         "consensus": consensus(sources),
         "notice": "증권사 자료의 원문·표·차트는 싣지 않고 자산군별 의견 점수와 출처만 사용합니다. 투자 권유가 아닙니다.",
@@ -146,7 +145,7 @@ def main(argv: list[str] | None = None) -> int:
         print(f"입력 오류: {error}", file=sys.stderr)
         return 1
     for item in result["consensus"].values():
-        flag = " ⚠ 의견 불일치" if item["disagreement"] else ""
+        flag = " ⚠ 의견 갈림" if item["disagreement"] else ""
         print(f"{item['asset']}: {item['label']} (평균 {item['mean']}, {item['n']}곳){flag}")
     if args.check:
         return 0

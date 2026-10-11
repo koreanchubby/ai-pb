@@ -1,31 +1,63 @@
 {
   "month": "2026-10",
-  "demo": true,
-  "_안내": "데모 예시입니다. 실제 사용 시 sources에 참고 증권사(고정 목록)의 월간 하우스뷰를 자산군별 +1(확대)/0(중립)/-1(축소)로 적고 demo를 false로 바꿉니다. 원문 문장·표는 적지 않습니다. 방법: docs/HOUSE_VIEW_GUIDE.md",
+  "demo": false,
+  "_안내": "2026년 10월 실제 입력. 점수 변환 규칙과 기관별 근거 쪽은 docs/DECISIONS.md 2026-10-09 항목. 자료에 없는 자산은 적지 않음(해외 기관은 국내 주식 없음). 삼성증권은 매월 중순 발간 후 추가. 원문 문장·표는 적지 않음. 방법: docs/HOUSE_VIEW_GUIDE.md",
   "sources": [
     {
-      "id": "demo-a",
-      "name": "데모 증권사 A (가상)",
-      "title": "10월 하우스뷰 (데모 예시)",
-      "published": "2026-10-01",
-      "url": null,
-      "views": {"kr_equity": 0, "global_equity": -1, "govbond": 1, "corpbond": 0, "alternative": 0, "cash": 1}
+      "id": "hana",
+      "name": "하나증권 리서치센터",
+      "title": "2026년 10월 글로벌 자산배분 전략 (자산배분의 창)",
+      "published": "2026-10-08",
+      "url": "https://www.hanaw.com/main/research/research/list.cmd?pid=1&cid=1",
+      "views": {"kr_equity": 1, "global_equity": 1, "govbond": -1, "corpbond": -1, "alternative": 0, "cash": 0}
     },
     {
-      "id": "demo-b",
-      "name": "데모 증권사 B (가상)",
-      "title": "10월 자산배분 전략 (데모 예시)",
-      "published": "2026-10-01",
-      "url": null,
-      "views": {"kr_equity": 1, "global_equity": -1, "govbond": 1, "corpbond": 0, "alternative": 0, "cash": 0}
+      "id": "shinhan",
+      "name": "신한투자증권",
+      "title": "참신한 자산전략 10월호: 긴축이 걷어낸 불확실성",
+      "published": "2026-09-28",
+      "url": "https://www.shinhangroup.com/kr/archive/business/detail/947",
+      "views": {"kr_equity": 1, "global_equity": 1, "govbond": -1, "corpbond": 0, "alternative": 0, "cash": 0}
     },
     {
-      "id": "demo-c",
-      "name": "데모 증권사 C (가상)",
-      "title": "10월 투자전략 (데모 예시)",
-      "published": "2026-10-02",
-      "url": null,
-      "views": {"kr_equity": 0, "global_equity": 0, "govbond": 1, "corpbond": 0, "alternative": 1, "cash": 1}
+      "id": "shinyoung",
+      "name": "신영증권 리서치센터",
+      "title": "10월 자산배분전략: 이익과 할인율의 줄다리기",
+      "published": "2026-10-07",
+      "url": "https://www.shinyoung.com/?page=10025",
+      "views": {"kr_equity": 1, "global_equity": 1, "corpbond": 1, "alternative": 0, "cash": -1}
+    },
+    {
+      "id": "jpm",
+      "name": "J.P. Morgan Asset Management",
+      "title": "Global Asset Allocation Views 4Q 2026",
+      "published": "2026-10-01",
+      "url": "https://am.jpmorgan.com/gb/en/asset-management/adv/insights/portfolio-insights/asset-class-views/asset-allocation-views/",
+      "views": {"global_equity": 1, "govbond": -1}
+    },
+    {
+      "id": "blackrock",
+      "name": "BlackRock Investment Institute",
+      "title": "Weekly market commentary (October 2026 tactical positioning)",
+      "published": "2026-10-05",
+      "url": "https://www.blackrock.com/corporate/insights/blackrock-investment-institute/global-weekly-commentary",
+      "views": {"global_equity": 1, "govbond": 0, "corpbond": 0}
+    },
+    {
+      "id": "lpl",
+      "name": "LPL Research",
+      "title": "Tactical Asset Allocation Guide — September 2026",
+      "published": "2026-09-01",
+      "url": "https://www.lpl.com/research.html",
+      "views": {"global_equity": 1, "govbond": 0, "corpbond": -1, "cash": -1}
+    },
+    {
+      "id": "ubs",
+      "name": "UBS Chief Investment Office",
+      "title": "UBS House View — August 2026",
+      "published": "2026-07-17",
+      "url": "https://www.ubs.com/global/en/wealth-management/chief-investment-office/house-view.html",
+      "views": {"global_equity": 1, "govbond": -1, "corpbond": 0, "alternative": 1, "cash": 0}
     }
   ]
 }
