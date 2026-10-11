@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-10T23:30:40Z",
+  "generated_at": "2026-10-11T00:44:26Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,8 +25,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 4
     },
     {
       "source": "한국은행 ECOS",
@@ -205,6 +205,40 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8b436ca0820e",
+      "title": "Microsoft , Nvidia push AI agents onto personal computers",
+      "url": "http://www.argentinastar.com/news/279358260/microsoft-nvidia-push-ai-agents-onto-personal-computers",
+      "source": "argentinastar.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-384e3e0f470d",
+      "title": "光刻机巨头 ， 零部件涨价10 %",
+      "url": "https://tech.ifeng.com/c/8x6cI2WjSnF",
+      "source": "tech.ifeng.com",
+      "source_type": "news",
+      "published_at": "2026-10-10T06:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -611,40 +645,6 @@
       "published_at": "2026-10-10T06:45:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8b436ca0820e",
-      "title": "Microsoft , Nvidia push AI agents onto personal computers",
-      "url": "http://www.argentinastar.com/news/279358260/microsoft-nvidia-push-ai-agents-onto-personal-computers",
-      "source": "argentinastar.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-384e3e0f470d",
-      "title": "光刻机巨头 ， 零部件涨价10 %",
-      "url": "https://tech.ifeng.com/c/8x6cI2WjSnF",
-      "source": "tech.ifeng.com",
-      "source_type": "news",
-      "published_at": "2026-10-10T06:45:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
