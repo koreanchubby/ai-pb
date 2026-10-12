@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AI PB 하우스뷰 시안</title>
+<style>
+/* 레이아웃: 기존 SCR-05 순서 유지 — 헤더 → SAA/TAA 선택 → 이번 달 판단 카드 → TAA 방향 표 → 탭 3개 */
+:root{color-scheme:light;--navy:#07182d;--navy-2:#102a4b;--blue:#4f83f5;--blue-2:#2f6fe8;--sky:#eaf1ff;--bg:#f3f6fb;--surface:#fff;--text:#142039;--muted:#68758c;--line:#dce4ef;--green:#11986f;--green-bg:#e9f8f2;--red:#d6455d;--red-bg:#fdecef;--amber:#8a5a08;--amber-bg:#fff6e5;--shadow:0 14px 40px rgba(35,57,88,.08)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Pretendard,"Noto Sans KR","Apple SD Gothic Neo",Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.note{background:var(--amber-bg);color:var(--amber);font-size:.8rem;padding:10px 16px;border-bottom:1px solid #f1dfb8}
+.page{max-width:900px;margin:0 auto;padding-block:28px 60px;padding-inline:16px}
+.eyebrow{font-size:.7rem;font-weight:800;letter-spacing:.12em;color:var(--blue-2);margin:0}
+h1{margin:4px 0 6px;font-size:1.65rem;text-wrap:balance}
+.desc{margin:0 0 16px;color:var(--muted);font-size:.9rem}
+.seg{display:inline-flex;gap:4px;background:#fff;border:1px solid var(--line);border-radius:14px;padding:4px;margin-bottom:16px}
+.seg span{padding:7px 14px;border-radius:10px;font-size:.82rem;font-weight:700;color:var(--muted)}
+.seg .on{background:var(--sky);color:var(--blue-2)}
+.hero{background:linear-gradient(140deg,#07182d,#163a66);color:#fff;border-radius:24px;padding:22px 22px 18px;margin-bottom:16px}
+.hero .k{font-size:.68rem;font-weight:800;letter-spacing:.14em;color:#91b2f8;margin:0}
+.hero h2{margin:6px 0 4px;font-size:1.5rem}
+.hero p{margin:0 0 14px;color:#c9d6ec;font-size:.88rem}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.stat{background:rgba(255,255,255,.07);border:1px solid rgba(255,255,255,.12);border-radius:14px;padding:10px 12px}
+.stat small{display:block;color:#a9bde0;font-size:.68rem}
+.stat b{font-size:1rem}
+.card{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);padding:18px;margin-bottom:16px}
+.card h3{margin:0 0 4px;font-size:1.02rem}
+.card .sub{margin:0 0 12px;color:var(--muted);font-size:.8rem}
+.scroll{overflow-x:auto}
+table{width:100%;border-collapse:collapse;font-size:.84rem;font-variant-numeric:tabular-nums}
+th,td{padding:9px 8px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+th{color:var(--muted);font-size:.72rem;font-weight:700}
+.pill{display:inline-block;font-size:.72rem;font-weight:800;border-radius:999px;padding:3px 10px}
+.ow{background:var(--green-bg);color:var(--green)}.uw{background:var(--red-bg);color:var(--red)}.nt{background:#eef2f8;color:#475467}
+.split{display:inline-block;margin-left:4px;font-size:.66rem;font-weight:700;color:var(--amber);background:var(--amber-bg);border-radius:6px;padding:1px 6px}
+.wait{color:var(--amber);font-weight:700;font-size:.78rem}
+/* 탭 (스크립트 없이 동작) */
+.tr{position:absolute;opacity:0;pointer-events:none}
+.tabs{display:flex;gap:6px;border-bottom:1px solid var(--line);margin:4px 0 16px;overflow-x:auto}
+.tab{padding:10px 12px;font-size:.88rem;font-weight:800;color:var(--muted);border-bottom:3px solid transparent;cursor:pointer;white-space:nowrap}
+.panel{display:none}
+#t1:checked~.tabs #l1,#t2:checked~.tabs #l2,#t3:checked~.tabs #l3{color:var(--navy);border-color:var(--blue)}
+#t1:checked~#p1,#t2:checked~#p2,#t3:checked~#p3{display:block}
+.dot{display:inline-grid;place-items:center;width:26px;height:22px;border-radius:7px;font-size:.72rem;font-weight:800}
+.d1{background:var(--green-bg);color:var(--green)}.d0{background:#eef2f8;color:#667085}.dm{background:var(--red-bg);color:var(--red)}.dn{color:#b4bcc9}
+.inst a{color:var(--blue-2);font-weight:700;text-decoration:none}
+.inst small{display:block;color:var(--muted);font-size:.68rem;font-weight:400}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font-size:.72rem;color:var(--muted);margin-top:10px}
+.ev{border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px;background:#fff}
+.ev .top{display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.ev .src{font-size:.62rem;font-weight:800;border-radius:7px;padding:3px 7px}
+.official{background:var(--green-bg);color:var(--green)}.market{background:var(--sky);color:var(--blue-2)}.news{background:#eef2f8;color:#475467}
+.ev time{margin-left:auto;font-size:.72rem;color:var(--muted)}
+.ev h4{margin:6px 0 2px;font-size:.92rem}
+.ev p{margin:2px 0;font-size:.82rem;color:#3d4a60}
+.ev .link{font-size:.74rem;color:var(--muted)}.ev .link b{color:var(--blue-2)}
+.ev a{color:var(--blue-2);font-weight:700;text-decoration:none}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:12px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.kpi small{display:block;color:var(--muted);font-size:.68rem}.kpi b{font-size:.98rem}
+.kpi em{display:block;font-style:normal;color:var(--muted);font-size:.64rem}.kpi .stale{color:var(--amber)}
+.log{display:flex;flex-direction:column;gap:12px}
+.entry{display:grid;grid-template-columns:70px 1fr;gap:12px}
+.entry .when{font-weight:800;color:var(--navy-2);font-size:.86rem}
+.entry .when small{display:block;color:var(--muted);font-weight:600;font-size:.68rem}
+.decision{border-left:5px solid var(--blue);background:#fff;border-radius:0 14px 14px 0;padding:12px 14px;box-shadow:0 6px 18px rgba(35,57,88,.06);font-size:.88rem}
+.decision b{display:block;color:var(--navy);margin-bottom:2px}
+.decision .tag{display:inline-block;font-size:.66rem;font-weight:800;border-radius:6px;padding:2px 7px;margin-right:6px}
+.hold{background:#eef2f8;color:#475467}.review{background:var(--amber-bg);color:var(--amber)}.set{background:var(--sky);color:var(--blue-2)}
+.decision .ref{display:block;margin-top:4px;color:var(--muted);font-size:.72rem}
+.client{border:2px dashed var(--blue);background:#fff;border-radius:14px;padding:12px 14px;font-weight:600;font-size:.9rem;margin-top:8px}
+.client small{display:block;color:var(--blue-2);font-weight:800;font-size:.7rem;margin-bottom:4px}
+.rules{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.rule{background:#f7f9fd;border-radius:14px;padding:12px 14px;font-size:.82rem}
+.rule h4{margin:0 0 6px;font-size:.86rem}
+.rule ul{margin:0;padding-left:18px}
+.legal{font-size:.72rem;color:var(--muted);margin-top:12px}
+@media (max-width:640px){.stats{grid-template-columns:1fr 1fr 1fr}.kpis{grid-template-columns:1fr 1fr}.rules{grid-template-columns:1fr}.entry{grid-template-columns:1fr}h1{font-size:1.35rem}}
+</style>
+
+<div class="note">시안 · 기존 화면(SCR-05)의 틀은 그대로, 데모 값을 2026년 10월 실제 하우스뷰(data/house_view.json)와 10/8·10/9 데일리 시황 기록으로 바꾼 안</div>
+<div class="page">
+<p class="eyebrow">HOUSE VIEW &amp; MARKET EVIDENCE</p>
+<h1>하우스뷰·시장 인텔리전스</h1>
+<p class="desc">국내·해외 리서치 기관 7곳의 월간 의견을 같은 비중으로 합친 하우스뷰를 기준으로, 데일리 시황은 보조 근거로 사용합니다.</p>
+
+<div class="seg" aria-label="반영 방식"><span class="on">SAA 유지</span><span>하우스뷰 TAA 반영</span></div>
+
+<section class="hero" aria-label="이번 달 판단">
+<p class="k">2026년 10월 HOUSE VIEW</p>
+<h2>주식 확대 · 국채 축소</h2>
+<p>7개 기관 합의 결과입니다. 반영 여부는 위에서 고르고, 하루 뉴스로 배분을 바꾸지는 않습니다.</p>
+<div class="stats">
+<div class="stat"><small>참여 기관</small><b>7곳</b> <small>삼성증권 중순 추가</small></div>
+<div class="stat"><small>최근 판단</small><b>10/9 유지</b> <small>10/8 임시 점검</small></div>
+<div class="stat"><small>데이터 기준</small><b>10/12</b> <small>합의 입력일</small></div>
+</div>
+</section>
+
+<section class="card">
+<h3>하우스뷰 TAA 방향</h3>
+<p class="sub">장기 SAA 대비 어느 쪽으로 조정할지입니다. 조정 폭(%p)은 팀이 규칙을 정한 뒤 계산합니다.</p>
+<div class="scroll"><table>
+<tr><th>자산</th><th>합의</th><th>평균</th><th>참여</th><th>TAA 방향</th></tr>
+<tr><td>국내 주식</td><td><span class="pill ow">확대</span></td><td>+1.00</td><td>3곳</td><td>↑ 늘림</td></tr>
+<tr><td>해외 주식</td><td><span class="pill ow">확대</span></td><td>+1.00</td><td>7곳</td><td>↑ 늘림</td></tr>
+<tr><td>국채</td><td><span class="pill uw">축소</span></td><td>−0.67</td><td>6곳</td><td>↓ 줄임</td></tr>
+<tr><td>회사채</td><td><span class="pill nt">중립</span><span class="split">의견 갈림</span></td><td>−0.17</td><td>6곳</td><td>유지</td></tr>
+<tr><td>금·리츠</td><td><span class="pill nt">중립</span></td><td>+0.25</td><td>4곳</td><td>유지</td></tr>
+<tr><td>현금성</td><td><span class="pill nt">중립</span></td><td>−0.40</td><td>5곳</td><td>유지</td></tr>
+</table></div>
+<p class="legal"><span class="wait">조정 폭: 결정 대기</span> · 지금 앱은 해외 주식 −2%p 고정 데모라 실제 합의와 반대예요. 자산별 조정 폭 규칙(예: ±2%p 이내)을 정하면 이 표에 금액이 채워져요.</p>
+</section>
+
+<input type="radio" name="tab" id="t1" class="tr" checked>
+<input type="radio" name="tab" id="t2" class="tr">
+<input type="radio" name="tab" id="t3" class="tr">
+<div class="tabs">
+<label class="tab" for="t1" id="l1">상세 리포트</label>
+<label class="tab" for="t2" id="l2">근거 뉴스·지표</label>
+<label class="tab" for="t3" id="l3">판단 기록</label>
+</div>
+
+<section class="panel card" id="p1">
+<h3>기관별 10월 의견</h3>
+<p class="sub">확대 +1 · 중립 0 · 축소 −1. 원문 문장·표는 싣지 않고 점수와 출처만 표시합니다.</p>
+<div class="scroll"><table class="inst">
+<tr><th>기관 · 자료</th><th>국내주식</th><th>해외주식</th><th>국채</th><th>회사채</th><th>금·리츠</th><th>현금</th></tr>
+<tr><td><a href="https://www.hanaw.com/main/research/research/list.cmd?pid=1&amp;cid=1" target="_blank" rel="noopener">하나증권</a><small>자산배분의 창 · 10/8</small></td><td><span class="dot d1">+1</span></td><td><span class="dot d1">+1</span></td><td><span class="dot dm">−1</span></td><td><span class="dot dm">−1</span></td><td><span class="dot d0">0</span></td><td><span class="dot d0">0</span></td></tr>
+<tr><td><a href="https://www.shinhangroup.com/kr/archive/business/detail/947" target="_blank" rel="noopener">신한투자증권</a><small>참신한 자산전략 · 9/28</small></td><td><span class="dot d1">+1</span></td><td><span class="dot d1">+1</span></td><td><span class="dot dm">−1</span></td><td><span class="dot d0">0</span></td><td><span class="dot d0">0</span></td><td><span class="dot d0">0</span></td></tr>
+<tr><td><a href="https://www.shinyoung.com/?page=10025" target="_blank" rel="noopener">신영증권</a><small>이달의 자산배분 전략 · 10/7</small></td><td><span class="dot d1">+1</span></td><td><span class="dot d1">+1</span></td><td><span class="dot dn">—</span></td><td><span class="dot d1">+1</span></td><td><span class="dot d0">0</span></td><td><span class="dot dm">−1</span></td></tr>
+<tr><td><a href="https://am.jpmorgan.com/gb/en/asset-management/adv/insights/portfolio-insights/asset-class-views/asset-allocation-views/" target="_blank" rel="noopener">J.P. Morgan AM</a><small>Asset Allocation Views 4Q · 10/1</small></td><td><span class="dot dn">—</span></td><td><span class="dot d1">+1</span></td><td><span class="dot dm">−1</span></td><td><span class="dot dn">—</span></td><td><span class="dot dn">—</span></td><td><span class="dot dn">—</span></td></tr>
+<tr><td><a href="https://www.blackrock.com/corporate/insights/blackrock-investment-institute/global-weekly-commentary" target="_blank" rel="noopener">BlackRock</a><small>전술 의견 · 10/5</small></td><td><span class="dot dn">—</span></td><td><span class="dot d1">+1</span></td><td><span class="dot d0">0</span></td><td><span class="dot d0">0</span></td><td><span class="dot dn">—</span></td><td><span class="dot dn">—</span></td></tr>
+<tr><td><a href="https://www.lpl.com/research.html" target="_blank" rel="noopener">LPL Research</a><small>Tactical Allocation Guide · 9/1</small></td><td><span class="dot dn">—</span></td><td><span class="dot d1">+1</span></td><td><span class="dot d0">0</span></td><td><span class="dot dm">−1</span></td><td><span class="dot dn">—</span></td><td><span class="dot dm">−1</span></td></tr>
+<tr><td><a href="https://www.ubs.com/global/en/wealth-management/chief-investment-office/house-view.html" target="_blank" rel="noopener">UBS CIO</a><small>House View 8월호 · 7/17</small></td><td><span class="dot dn">—</span></td><td><span class="dot d1">+1</span></td><td><span class="dot dm">−1</span></td><td><span class="dot d0">0</span></td><td><span class="dot d1">+1</span></td><td><span class="dot d0">0</span></td></tr>
+<tr><td>삼성증권<small>월간자산배분 전략 · 10월호 발간 대기</small></td><td colspan="6" class="wait">중순 발간 후 추가</td></tr>
+</table></div>
+<div class="legend"><span>— 해당 자료에 그 자산 의견이 없음 (계산에서 뺌)</span><span>해외 기관은 국내 주식을 평가하지 않음</span></div>
+<p class="legal">근거: 동일가중 평균(Timmermann, 2006) · |평균| &gt; 0.5일 때만 확대·축소 · 기관 목록은 의견을 보기 전에 고정 (DECISIONS 10-08, 10-09)</p>
+</section>
+
+<section class="panel card" id="p2">
+<h3>근거 뉴스·지표</h3>
+<p class="sub">데일리 시황에서 원문과 날짜를 확인한 근거만 연결합니다.</p>
+<div class="kpis">
+<div class="kpi"><small>원/달러</small><b>1,339.2원</b><em>10/8 기준 · 한국은행</em></div>
+<div class="kpi"><small>기준금리</small><b>3.00%</b><em>10/8 기준 · 한국은행</em></div>
+<div class="kpi"><small>미 국채 10년</small><b>5.28%</b><em>10/7 기준 · FRED</em></div>
+<div class="kpi"><small>WTI</small><b>96.24달러</b><em class="stale">10/6 기준 · 최신 시세와 다를 수 있음</em></div>
+</div>
+<div class="ev"><div class="top"><span class="src official">공식</span><time>10/8 03:00</time></div><h4>연준 9월 회의록: 연내 추가 인상 가능성</h4><p>9월 0.25%p 인상(3.75~4.00%), 다수 위원이 한 번 더 올릴 수 있다고 봄</p><p class="link">연결: <b>국채·회사채</b> → 국채 축소 의견과 같은 방향 · <a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm" target="_blank" rel="noopener">원문 ↗</a></p></div>
+<div class="ev"><div class="top"><span class="src news">뉴스</span><time>10/8</time></div><h4>코스피 2.6% 하락, 6,625선</h4><p>삼성전자 사상 최대 실적에도 외국인·기관 동반 매도</p><p class="link">연결: <b>국내주식</b> → 하루 급락으로 임시 점검 · <a href="https://www.mt.co.kr/stock/2026/10/08/2026100815231832416" target="_blank" rel="noopener">원문 ↗</a></p></div>
+<div class="ev"><div class="top"><span class="src news">뉴스</span><time>10/8 미국장</time></div><h4>나스닥 1.3% 하락, 반도체 약세</h4><p>오픈AI 매출 보도로 반도체주 약세</p><p class="link">연결: <b>국내·해외주식</b> → 월간 확대 의견은 유지 · <a href="https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html" target="_blank" rel="noopener">원문 ↗</a></p></div>
+<div class="ev"><div class="top"><span class="src news">뉴스</span><time>10/8</time></div><h4>원/달러 1,338.5원, 원화 강세</h4><p>수출업체 달러 매도 지속</p><p class="link">연결: <b>해외주식·현금</b> → 해외자산 원화 환산 가치에 부담 · <a href="https://www.seoulfn.com/news/articleView.html?idxno=639680" target="_blank" rel="noopener">원문 ↗</a></p></div>
+</section>
+
+<section class="panel card" id="p3">
+<h3>판단 기록</h3>
+<p class="sub">월간 하우스뷰가 방향을 정하고, 데일리 시황은 점검만 합니다.</p>
+<div class="log">
+<div class="entry"><div class="when">10/12<small>하우스뷰 입력</small></div><div class="decision"><span class="tag set">SET</span><b>10월 하우스뷰 확정: 주식 확대 · 국채 축소</b>7개 기관 합의 (삼성증권 중순 추가 예정)<span class="ref">출처: 하나·신한·신영·J.P. Morgan·BlackRock·LPL·UBS</span></div></div>
+<div class="entry"><div class="when">10/9<small>데일리 시황</small></div><div class="decision"><span class="tag hold">HOLD</span><b>유지 · 배분 변경 없음</b>코스피 하락 이어짐, 미국 반도체 약세<span class="ref">근거: 코스피 마감 · 환율 · 나스닥</span></div></div>
+<div class="entry"><div class="when">10/8<small>데일리 시황</small></div><div class="decision"><span class="tag review">⚠ 임시 점검</span><b>배분 변경 없음</b>코스피 −2.6% 급락, 연준 연내 추가 인상 가능성<span class="ref">근거: 연준 회의록(공식) · 코스피 마감</span></div></div>
+</div>
+<div class="client"><small>💬 담당 PB 한마디 (10/9)</small>"어제는 반도체 실적 호조에도 국내외 증시가 함께 쉬어갔습니다. 하루 움직임으로 장기 배분을 바꾸지는 않으며, 점검이 필요하시면 편하게 말씀 주세요."</div>
+</section>
+
+<section class="card">
+<h3>판단 원칙</h3>
+<div class="rules">
+<div class="rule"><h4>방향을 정하는 것</h4><ul><li>월간 하우스뷰 합의 (7~8개 기관)</li><li>PB가 TAA 반영 여부를 선택</li><li>AI는 비중 숫자를 정하지 않음</li></ul></div>
+<div class="rule"><h4>다시 보는 조건</h4><ul><li>새 월간 의견으로 합의가 바뀔 때</li><li>코스피·S&amp;P 500 하루 ±2% 이상 → 임시 점검</li><li>금리 결정 등 큰 공식 발표</li></ul></div>
+</div>
+<p class="legal">투자 권유가 아닙니다. 지표는 표시된 기준일의 값이며, 증권사 자료의 권리는 각 기관에 있습니다.</p>
+</section>
+</div>
+
+</html>
