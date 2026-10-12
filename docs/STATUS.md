@@ -3,7 +3,7 @@
 > **작업 시작 전과 끝난 후에 반드시 갱신합니다.** 순서는 `docs/WORKFLOW.md` 참고.
 > 상태 표시: 🟡 진행 중 · 🔵 리뷰 대기 · ✅ 완료 · ⬜ 시작 전
 
-마지막 갱신: 2026-10-09
+마지막 갱신: 2026-10-12
 
 ## 현재 단계
 
@@ -18,7 +18,7 @@
 |---|---|---|---|---|---|
 | 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ✅ PR #16 채택·Merge (10-07 이유경 리뷰: 로컬에서 카드 12개·필터·원문 링크 확인) |
 | 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ✅ PR #17 Merge (10-07 합의: 해외 기관 전망 USD 사용·국내주식=신흥국 값·설문 구간 1점 조정. 스트레스 손실·과세 분배율은 아직 데모값) |
-| 이유경 (yukyung16) → 옥경환 합의 | 하우스뷰 참고 증권사 목록 확정, 10월 실제 점수 입력 | — | `data/house-view-sources` | `data/house_view_input.json`, `docs/DECISIONS.md` | ✅ PR #27 Merge (10-08) — 하나·신한·삼성 고정. 🔵 **신영증권 추가안(4곳) 리뷰 대기** (옥경환, `data/house-view-shinyoung`). 다음: 10월호 점수 입력(하나·신한·신영 지금, 삼성은 중순) |
+| 이유경 (yukyung16) → 옥경환 합의 | 하우스뷰 참고 증권사 목록 확정, 10월 실제 점수 입력 | — | `data/house-view-sources` | `data/house_view_input.json`, `docs/DECISIONS.md` | ✅ PR #27·#29·#30 Merge — 국내 하나·신한·삼성·신영 + 해외 JPM·BlackRock·LPL·UBS 고정, **10월 실제 점수 입력 완료(10-12 Merge, 삼성 제외 7곳)**. 다음: 삼성 10월호 나오면 추가, 화면·TAA 연결(app.js, 담당 정하기) |
 | 옥경환 (koreanchubby) | Supabase로 DB·REST API 연동 (마일스톤 5) | #20 | `feat/supabase-db` | `supabase/`(새 폴더), `app.js`(저장 부분만, 시작 전 알림), 새 JS 파일 1개, `index.html`(script 1줄), `docs/DB_DESIGN.md` | ✅ PR #21 Merge (10-08 이유경 리뷰·승인), 이슈 #20 닫힘. DB는 Supabase 유지 |
 | 옥경환 (koreanchubby) | AI 예측 파이프라인 초안: 거시지표 → 다음 달 미국 주식 방향 (마일스톤 8, 주제는 이유경과 합의 필요) | #22 | `feat/ai-prediction` | `scripts/ai_predict.py`, `tests/`, `data/ai_signal.json`, `.github/workflows/`, `docs/AI_SPEC.md` (앱 화면 파일은 안 건드림) | ⏸ **보류 (추후 과제, 2026-10-08)** — 초안 PR #23은 열어 둠. 백테스트 결과 방향 정확도 50.8%로 기준(59.3%)보다 낮아 주제·방향을 다시 정하기로 함. 마일스톤 8(13~14주) 전에 결정 |
 | 이유경 (yukyung16) | Stitch 디자인 정리, CSS 반영 | #3 | `design/stitch-style` | `styles.css`, `v3.css` | ✅ PR #26 Merge (10-08) — Stitch 시안과 비교 후 **현재 화면 유지**, CSS 변경 없음. 이슈 #3 닫힘 |
@@ -56,7 +56,7 @@
 - `app.js`는 공유 파일: 입력 저장 작업 중에는 디자인 작업에서 `app.js`를 건드리지 않기
 - 매주 개인 보고서(report.eyefeet.com)에 이 표의 완료 항목을 옮겨 적으면 됨
 - (이유경, 10-06) PR #9·#10·#12·#13 Merge 완료. **이슈 #2는 PR #13의 `Closes #2`로 자동으로 닫힘** → API 키(Secrets)·Variables 등록과 Actions news 첫 실행 확인은 아직 남아 있음. 리뷰 의견: print.css의 `#pwa-banner` id 불일치(오프라인 PDF에 알림 찍힐 수 있음), DB_DESIGN은 강의계획서상 백엔드+DB 필수라 Supabase로 가는 쪽 + 권한(소유자·RLS) 추가 제안, PWA는 배포 후 휴대폰 설치·비행기 모드로 확인 필요
-- (이유경, 10-09) 🔵 **10월 하우스뷰 실제 입력 리뷰 대기** (`data/house-view-2026-10`): 국내 3곳(하나·신한·신영, 삼성은 중순) + 해외 4곳(JPM·BlackRock·LPL·UBS), 합의 규칙 '섞이면 무조건 중립' 삭제(옥경환 동의). 건드리는 파일: `data/house_view_input.json`, `data/house_view.json`, `scripts/house_view.py`(consensus 한 곳), `tests/test_house_view.py`, `docs/DECISIONS.md`, `docs/HOUSE_VIEW_GUIDE.md`
+- (이유경, 10-09→10-12) ✅ **10월 하우스뷰 실제 입력 Merge(PR #30)** (`data/house-view-2026-10`): 국내 3곳(하나·신한·신영, 삼성은 중순) + 해외 4곳(JPM·BlackRock·LPL·UBS), 합의 규칙 '섞이면 무조건 중립' 삭제(옥경환 동의). 건드리는 파일: `data/house_view_input.json`, `data/house_view.json`, `scripts/house_view.py`(consensus 한 곳), `tests/test_house_view.py`, `docs/DECISIONS.md`, `docs/HOUSE_VIEW_GUIDE.md`
 - (이유경, 10-08) Eyefeet 테넌트 `aipb` 생성·배포 완료. 확인: 화면 정상, 뉴스 카드 12개, Supabase 저장 ok, 서비스워커(PWA) 등록 정상, 모바일 375px 가로 스크롤 없음, 콘솔 오류 0. 참고: 저장소 전체가 올라가서 `/.git/`·`/docs/`도 열림(공개 저장소라 새로 드러나는 비밀은 없음, 정리하려면 빌드 단계에서 앱 파일만 복사하는 방법 검토)
 - (이유경, 10-08) PR #21·#27·#28 Merge. **배포 계획: 앱은 Eyefeet Cloud 팀 테넌트(static, main 연결)로 추가 배포, DB는 Supabase 유지** (DECISIONS 10-08, 교수님이 DB도 Eyefeet 요구하시면 이전 방법 기록해 둠). 테넌트는 팀당 1개라 **누가 만들지 정하기** — 이유경이 만들 예정(카톡 확인)
 - (옥경환, 10-08) 이유경 PR #24(6주차 저장본)·#25(PDF 알림 숨김)·#26(디자인 유지) 승인·Merge. #21·#27 충돌 해결
