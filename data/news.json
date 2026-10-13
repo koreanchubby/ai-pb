@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-13T00:49:18Z",
+  "generated_at": "2026-10-13T01:37:54Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -25,8 +25,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 0
     },
     {
       "source": "한국은행 ECOS",
@@ -58,12 +58,12 @@
       "change_condition": null
     },
     {
-      "id": "market-35c953a1f2f1",
-      "title": "원/달러 환율(매매기준율) 1338원 (직전 대비 -1.2원)",
+      "id": "market-d8906f7fc0ec",
+      "title": "원/달러 환율(매매기준율) 1335.8원 (직전 대비 -2.2원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-11T15:00:00Z",
+      "published_at": "2026-10-12T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -74,11 +74,11 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1338.0,
-        "previous": 1339.2,
-        "change": -1.2,
+        "latest": 1335.8,
+        "previous": 1338.0,
+        "change": -2.2,
         "unit": "원",
-        "date": "20261012",
+        "date": "20261013",
         "alert_threshold": 15.0
       }
     },
