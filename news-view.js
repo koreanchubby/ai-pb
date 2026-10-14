@@ -13,6 +13,15 @@
   // news.json을 못 받았을 때 쓰는 분류 이름 (scripts/fetch_news.py CATEGORY_LABELS와 같게)
   var CATEGORY_LABELS = { rates: '금리', fx: '환율', oil: '유가', etf: 'ETF', semis: '반도체', geopolitics: '지정학' };
   var TYPE_LABEL = { official: '공식', market: '시장', news: '뉴스' };
+  // 뉴스 기사는 많은 사람이 신뢰하는 언론사 것만 보여 줍니다 (docs/DECISIONS.md 2026-10-15).
+  // 공식 발표(연준 등)와 시장 지표(ECOS·FRED·한국투자증권)는 기관 자료라 그대로 둡니다.
+  // 주소가 아래 도메인이거나 그 하위 도메인이면 허용 (예: news.kbs.co.kr → kbs.co.kr)
+  var TRUSTED_DOMAINS = [
+    'yna.co.kr', 'einfomax.co.kr',                           // 연합뉴스 (국가기간뉴스통신사)·연합인포맥스(연합뉴스 경제 자회사)
+    'kbs.co.kr', 'imbc.com', 'sbs.co.kr', 'jtbc.co.kr', 'ytn.co.kr', // DNR 한국 신뢰도 상위 5개 방송사
+    'hankyung.com', 'mk.co.kr',                              // 국내 대표 경제 일간지 (팀 판단)
+    'reuters.com', 'apnews.com', 'bloomberg.com', 'ft.com', 'wsj.com', 'cnbc.com', 'bbc.com', 'bbc.co.uk' // 국제 통신사·경제매체 (팀 판단)
+  ];
   var SECTIONS = [
     ['facts', '확인된 사실'],
     ['ai_interpretation', 'AI 해석'],
@@ -48,10 +57,16 @@
 
   function render() {
     var labels = (newsData && newsData.categories) || CATEGORY_LABELS;
-    var curated = curatedData ? curatedData.items.slice().sort(function (a, b) {
+    var curated = curatedData ? curatedData.items.filter(function (item) {
+      // 우리 요약 기사는 출처가 모두 신뢰 언론사(또는 공식 기관 .go.kr·.gov)일 때만
+      return (item.sources || []).length && item.sources.every(function (src) { return isTrusted(src.url, true); });
+    }).sort(function (a, b) {
       return String(b.published_at || '').localeCompare(String(a.published_at || ''));
     }).slice(0, MAX_CURATED) : [];
-    var items = newsData ? newsData.items.slice(0, MAX_CARDS) : [];
+    var items = newsData ? newsData.items.filter(function (item) {
+      return item.source_type !== 'news' || isTrusted(item.url, false);
+    }).slice(0, MAX_CARDS) : [];
+    if (!curated.length && !items.length) return;   // 보여 줄 기사가 없으면 기존 화면 유지
 
     grid.textContent = '';
     curated.forEach(function (item) { grid.appendChild(curatedCard(item, labels)); });
@@ -255,6 +270,14 @@
     if (className) node.className = className;
     if (text !== undefined && text !== null) node.textContent = String(text);
     return node;
+  }
+
+  function isTrusted(url, allowOfficial) {
+    var host;
+    try { host = new URL(url).hostname.toLowerCase(); } catch (error) { return false; }
+    // 공식 기관: 정부(.go.kr·.gov)와 한국은행(bok.or.kr)
+    if (allowOfficial && (/\.(go\.kr|gov)$/.test(host) || host === 'bok.or.kr' || /\.bok\.or\.kr$/.test(host))) return true;
+    return TRUSTED_DOMAINS.some(function (domain) { return host === domain || host.slice(-domain.length - 1) === '.' + domain; });
   }
 
   function safeUrl(url) {

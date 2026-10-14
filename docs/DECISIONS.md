@@ -10,6 +10,10 @@
 - **이유**: 언론사 제목 목록을 그대로 띄우면 재배포 문제(RSS 이용규칙)와 한국투자증권 API '개인 본인용' 조건에 걸림. 사실을 우리 말로 요약하고 링크만 걸면 기사 표현을 복제하지 않음
 - **데이터**: `data/news_curated.json` — 항목마다 `categories`(fetch_news 분류 키), `lang`, `headline`·`summary`·`impact`(우리 글), `published_at`(원문 게시 시각, 확인 못 하면 생략), `sources`(언론사·날짜·링크)
 - **작성·반영**: 이유경 PC의 데일리 시황 예약 작업(평일 8·16시)이 같은 실행에서 주제별 1~2건을 원문 확인 후 작성, 72시간 지난 항목은 빼고, 검증된 이 파일 **하나만** main에 커밋·푸시(이유경 결정 10-15). 이유경 작업 폴더를 건드리지 않게 `C:\devi-pb-publish`(git worktree)에서 올림. 유료 AI API 필요 없음, 대신 PC가 켜져 있어야 갱신
+- **신뢰 언론사만 (이유경 결정 10-15)**: 뉴스 탭의 뉴스 기사(자동 수집 GDELT 카드와 우리 요약 기사 모두)는 아래 목록의 언론사 것만 보여 줌. 공식 발표(연준·정부·한국은행)와 시장 지표는 기관 자료라 그대로
+  - 국내: 연합뉴스(국가기간뉴스통신사)·연합인포맥스(연합뉴스 경제 자회사), **KBS·MBC·SBS·JTBC·YTN** — 로이터저널리즘연구소 「Digital News Report」 한국 신뢰도 상위 5개 방송사(2025: MBC 61%·JTBC 59%·YTN 55%, reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/south-korea / 2026: MBC 60%·JTBC 59%·SBS 56%·YTN 54%·KBS 53%, 한국언론진흥재단 분석 보도 en.nocutnews.co.kr/news/6533916). 한국경제·매일경제(국내 대표 경제 일간지, **팀 판단** — 근거 자료 보강 필요)
+  - 해외: Reuters·AP·Bloomberg·Financial Times·Wall Street Journal·CNBC·BBC (국제 통신사·경제매체, **팀 판단** — DNR 영미권 신뢰도 근거 보강 필요)
+  - 적용: `news-view.js`의 TRUSTED_DOMAINS(주소 도메인으로 판별), 예약 작업 지시문. 기존 우리 요약 3건(머니투데이·Businesskorea·서울파이낸스·아주경제·Yahoo Finance 출처)은 목록 밖이라 제외
 - **처음 '시황 속 주요 뉴스' 별도 칸 안(10-14)은 폐기**: 뉴스 탭 주제와 시황 주제가 겹치지 않을 수 있어 이유경이 고침
 - **영향 파일**: `news-view.js`(우리 요약 카드를 같은 격자·필터에 추가, 기존 카드 로직은 그대로), `data/news_curated.json`(예약 작업이 main에 올림, 첫 값은 10/9 승인 시황 기사 3건)
 
