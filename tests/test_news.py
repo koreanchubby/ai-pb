@@ -319,5 +319,103 @@ class SummaryReviewTests(unittest.TestCase):
         self.assertNotIn("<script>", prompt)
 
 
+class KisTests(unittest.TestCase):
+    """한국투자증권 Open API (미 국채 10년). 네트워크 없이 가짜 응답으로 확인."""
+    KST_7AM = dt.datetime(2026, 10, 13, 22, 17, tzinfo=dt.timezone.utc)   # KST 10/14 07:17
+    KST_NOON = dt.datetime(2026, 10, 14, 3, 17, tzinfo=dt.timezone.utc)   # KST 10/14 12:17
+
+    def setUp(self):
+        import os
+        self.saved = {k: os.environ.get(k) for k in ("KIS_APP_KEY", "KIS_APP_SECRET", "KIS_ENV", "KIS_FORCE")}
+        os.environ.update({"KIS_APP_KEY": "testkey123456", "KIS_APP_SECRET": "testsecret123456", "KIS_ENV": "mock"})
+        os.environ.pop("KIS_FORCE", None)
+
+    def tearDown(self):
+        import os
+        for k, v in self.saved.items():
+            if v is None:
+                os.environ.pop(k, None)
+            else:
+                os.environ[k] = v
+
+    def fake_request(self, calls):
+        def request(method, url, headers, body=None):
+            calls.append((method, url))
+            if url.endswith("/oauth2/tokenP"):
+                return {"access_token": "tok", "access_token_token_expired": "2026-10-15 07:17:00"}
+            return json.loads(read("kis_us10y.json"))
+        return request
+
+    def test_parse_uses_latest_date_and_change(self):
+        [item] = fn.parse_kis_bond(json.loads(read("kis_us10y.json")), "미국 10년물 국채금리", "Y0202",
+                                   "rates", "%", 0.15, "us10y")
+        self.assertEqual(item["value"]["latest"], 5.24)
+        self.assertAlmostEqual(item["value"]["change"], 0.02, places=4)
+        self.assertEqual(item["value"]["date"], "2026-10-09")   # 빈 줄은 무시, 날짜순 정렬
+        self.assertEqual(item["value"]["indicator"], "us10y")
+        self.assertEqual(item["source"], "한국투자증권")
+        self.assertIn("+0.02%p", item["title"])
+
+    def test_fetch_at_kst_7_uses_mock_server_and_one_token(self):
+        calls = []
+        [item] = fn.fetch_kis(self.fake_request(calls), now=self.KST_7AM)
+        self.assertEqual(item["value"]["latest"], 5.24)
+        self.assertEqual(sum(1 for _, u in calls if u.endswith("/oauth2/tokenP")), 1)
+        self.assertTrue(all(u.startswith("https://openapivts.koreainvestment.com:29443") for _, u in calls))
+
+    def test_skips_outside_collection_hours_and_without_keys(self):
+        import os
+        with self.assertRaises(fn.SkipSource):
+            fn.fetch_kis(self.fake_request([]), now=self.KST_NOON)
+        os.environ["KIS_FORCE"] = "1"                       # 수동 실행은 시각과 관계없이 수집
+        self.assertEqual(len(fn.fetch_kis(self.fake_request([]), now=self.KST_NOON)), 1)
+        del os.environ["KIS_APP_SECRET"]
+        with self.assertRaises(fn.SkipSource):
+            fn.fetch_kis(self.fake_request([]), now=self.KST_7AM)
+
+    def test_error_code_is_reported(self):
+        def request(method, url, headers, body=None):
+            if url.endswith("/oauth2/tokenP"):
+                return {"access_token": "tok"}
+            return {"rt_cd": "1", "msg_cd": "EGW00201", "msg1": "초당 거래건수를 초과하였습니다."}
+        with self.assertRaises(RuntimeError):
+            fn.fetch_kis(request, now=self.KST_7AM)
+
+    def test_fred_skips_us10y_when_kis_configured(self):
+        import os
+        saved = os.environ.get("FRED_API_KEY")
+        os.environ["FRED_API_KEY"] = "fredkey123456"
+        try:
+            urls = []
+            def get(url):
+                urls.append(url)
+                return read("fred_wti.json")
+            fn.fetch_fred(get)
+            self.assertEqual(len(urls), 1)
+            self.assertIn("DCOILWTICO", urls[0])
+            self.assertNotIn("DGS10", urls[0])
+        finally:
+            if saved is None:
+                os.environ.pop("FRED_API_KEY", None)
+            else:
+                os.environ["FRED_API_KEY"] = saved
+
+    def test_new_kis_value_replaces_old_fred_us10y(self):
+        old = {"id": "market-oldfred", "title": "미국 10년물 국채금리 5.22% (직전 대비 -0.06%p)",
+               "url": "https://fred.stlouisfed.org/series/DGS10", "source": "FRED", "source_type": "market",
+               "published_at": "2026-10-08T00:00:00Z", "importance": 4, "categories": ["rates"],
+               "value": {"latest": 5.22, "date": "2026-10-08"}}           # 예전 항목: 지표 이름 없음
+        [new] = fn.parse_kis_bond(json.loads(read("kis_us10y.json")), "미국 10년물 국채금리", "Y0202",
+                                  "rates", "%", 0.15, "us10y")
+        merged = fn.merge_with_previous([new], {"items": [old]}, self.KST_7AM)
+        self.assertEqual([i["source"] for i in merged], ["한국투자증권"])
+
+    def test_kis_secret_is_redacted(self):
+        def leaky():
+            raise ValueError("appsecret=testsecret123456 rejected")
+        result = fn.build(sources=[("한국투자증권", leaky)], now=NOW)
+        self.assertNotIn("testsecret123456", json.dumps(result, ensure_ascii=False))
+
+
 if __name__ == "__main__":
     unittest.main()

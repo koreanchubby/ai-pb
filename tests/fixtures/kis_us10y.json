@@ -1,0 +1,12 @@
+{
+  "rt_cd": "0",
+  "msg_cd": "MCA00000",
+  "msg1": "정상처리 되었습니다.",
+  "output1": {"hts_kor_isnm": "미국 10년T-NOTE 수익률", "stck_shrn_iscd": "Y0202", "ovrs_nmix_prpr": "5.2400", "ovrs_nmix_prdy_clpr": "5.2200"},
+  "output2": [
+    {"stck_bsop_date": "20261009", "ovrs_nmix_prpr": "5.2400", "ovrs_nmix_oprc": "5.2400", "ovrs_nmix_hgpr": "5.2400", "ovrs_nmix_lwpr": "5.2400", "acml_vol": "", "mod_yn": "N"},
+    {"stck_bsop_date": "20261007", "ovrs_nmix_prpr": "5.2800", "ovrs_nmix_oprc": "5.2800", "ovrs_nmix_hgpr": "5.2800", "ovrs_nmix_lwpr": "5.2800", "acml_vol": "", "mod_yn": "N"},
+    {"stck_bsop_date": "20261008", "ovrs_nmix_prpr": "5.2200", "ovrs_nmix_oprc": "5.2200", "ovrs_nmix_hgpr": "5.2200", "ovrs_nmix_lwpr": "5.2200", "acml_vol": "", "mod_yn": "N"},
+    {"stck_bsop_date": "", "ovrs_nmix_prpr": "", "ovrs_nmix_oprc": "", "ovrs_nmix_hgpr": "", "ovrs_nmix_lwpr": "", "acml_vol": "", "mod_yn": ""}
+  ]
+}
