@@ -128,7 +128,7 @@ def main(argv: list[str] | None = None) -> int:
     if not fn.kis_configured():
         print(".env에 KIS_APP_KEY·KIS_APP_SECRET이 없습니다.", file=sys.stderr)
         return 1
-    base = fn.KIS_BASE.get(os.environ.get("KIS_ENV", "real"), fn.KIS_BASE["real"])
+    base = fn.kis_base()   # 기본값 mock (fetch_news.KIS_DEFAULT_ENV)
     headers = {"content-type": "application/json; charset=utf-8", "authorization": "Bearer " + token(base),
                "appkey": os.environ["KIS_APP_KEY"], "appsecret": os.environ["KIS_APP_SECRET"],
                "tr_id": "FHKST01011800", "custtype": "P"}
