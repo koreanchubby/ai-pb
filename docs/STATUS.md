@@ -16,7 +16,7 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
-| 이유경 (yukyung16) → 옥경환 확인 | 뉴스 탭에 '시황 속 주요 뉴스' 카드 (데일리 시황에서 원문 확인한 기사만, 우리 제목·요약 + 원문 링크) | PR 만들 예정 | `feat/news-brief-cards` | `news-view.js`(칸 추가, **옥경환 파일 — 확인 요청**), 새 `data/daily_brief.json`, `docs/DECISIONS.md` | 🟡 브랜치 push 완료(10-14), PR 만들기 전. 데이터는 시황 예약 작업(평일 8·16시)이 만들고, 사이트 자동 반영 여부는 결정 대기 |
+| 이유경 (yukyung16) → 옥경환 확인 | 뉴스 탭 주제별 카드(금리·환율·유가·ETF·반도체·지정학)에 우리 말 요약 기사 추가 (원문 확인 후 우리 제목·요약 + 원문 링크, 'AI 요약' 표시) | PR 만들 예정 | `feat/news-brief-cards` | `news-view.js`(카드 추가, **옥경환 파일 — 확인 요청**), `docs/DECISIONS.md` | 🟡 브랜치 push 완료(10-15), PR 만들기 전. 데이터 `data/news_curated.json`은 시황 예약 작업(평일 8·16시)이 원문 확인 후 작성해 이 파일만 main에 자동 반영(첫 값 10/9 기사 3건 반영됨) |
 | 이유경 (yukyung16) → 옥경환 확인 | 한국투자증권 Open API로 미 국채 10년 금리 수집(FRED 대체) + 데일리 시황용 국내 뉴스 후보(로컬 전용) | PR #33 | `feat/kis-api` | `scripts/fetch_news.py`(KIS 부분 추가, **옥경환 파일 — 확인 요청**), 새 `scripts/kis_news_candidates.py`, `tests/test_news.py`, `.github/workflows/news.yml`(env 3줄), `.gitignore`, `docs/DECISIONS.md` | ✅ PR #33 Merge (10-14, 옥경환 리뷰). 후속: PR #35(합의 기록)·#36(FRED 대체·회차 밀림·mock 통일) 리뷰 대기 |
 | 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ✅ PR #16 채택·Merge (10-07 이유경 리뷰: 로컬에서 카드 12개·필터·원문 링크 확인) |
 | 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ✅ PR #17 Merge (10-07 합의: 해외 기관 전망 USD 사용·국내주식=신흥국 값·설문 구간 1점 조정. 스트레스 손실·과세 분배율은 아직 데모값) |
