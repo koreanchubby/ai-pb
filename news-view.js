@@ -7,6 +7,8 @@
   'use strict';
 
   var NEWS_URL = './data/news.json';
+  var BRIEF_URL = './data/daily_brief.json';   // 시황 속 주요 뉴스 (아래 loadBrief)
+  var SESSION_LABEL = { morning: '아침 시황', afternoon: '오후 시황' };
   var MAX_CARDS = 12;
   var TYPE_LABEL = { official: '공식', market: '시장', news: '뉴스' };
   var SECTIONS = [
@@ -24,6 +26,7 @@
 
   injectStyle();
   load();
+  loadBrief();
 
   function load() {
     fetch(NEWS_URL, { cache: 'no-store' })
@@ -121,6 +124,87 @@
     }
     article.appendChild(foot);
     return article;
+  }
+
+  // ---------- 시황 속 주요 뉴스 (data/daily_brief.json, docs/DECISIONS.md 2026-10-14) ----------
+  // 데일리 시황을 쓸 때 원문을 직접 확인한 기사만, 우리가 쓴 제목·요약과 원문 링크로 보여 줍니다.
+  // 언론사 제목 목록을 그대로 띄우지 않습니다(재배포 금지). 파일이 없거나 실패하면 이 칸만 생략합니다.
+  function loadBrief() {
+    fetch(BRIEF_URL, { cache: 'no-store' })
+      .then(function (res) { return res.ok ? res.json() : null; })
+      .then(function (data) {
+        if (!data || !Array.isArray(data.items) || !data.items.length) return;
+        renderBrief(data);
+      })
+      .catch(function () { /* 시황 파일이 없으면 이 칸만 생략 */ });
+  }
+
+  function renderBrief(data) {
+    var old = panel.querySelector('.brief-news');
+    if (old) old.remove();
+    var box = el('section', 'brief-news');
+    box.setAttribute('aria-label', '시황 속 주요 뉴스');
+
+    var head = el('div', 'brief-head');
+    head.appendChild(el('h2', '', '시황 속 주요 뉴스'));
+    var cutoff = data.cutoff ? formatTime(data.cutoff) : '';
+    var meta = formatDay(data.date) + ' ' + (SESSION_LABEL[data.session] || '시황') + (cutoff ? ' · ' + cutoff + ' 기준' : '');
+    var stale = isStale(data.date);
+    head.appendChild(el('span', 'brief-meta' + (stale ? ' brief-stale' : ''), meta + (stale ? ' · 지난 시황' : '')));
+    box.appendChild(head);
+    if (data.notice) box.appendChild(el('p', 'brief-notice', data.notice));
+
+    var list = el('div', 'source-grid brief-grid');
+    data.items.slice(0, 5).forEach(function (item) { list.appendChild(briefCard(item)); });
+    box.appendChild(list);
+    if (data.approval) box.appendChild(el('p', 'brief-approval', 'AI 작성 · 승인: ' + data.approval));
+
+    var heading = panel.querySelector('.section-heading');
+    panel.insertBefore(box, heading ? heading.nextSibling : panel.firstChild);
+  }
+
+  function briefCard(item) {
+    var article = el('article', 'evidence-card news-card brief-card');
+    var head = el('div', 'news-head');
+    head.appendChild(el('span', 'source-type news', '시황'));
+    if (item.category) head.appendChild(el('span', 'news-tag', item.category));
+    article.appendChild(head);
+    article.appendChild(el('h2', '', item.headline || '(제목 없음)'));
+    if (item.summary) article.appendChild(el('p', '', item.summary));
+    if (item.impact) {
+      var impact = el('p', 'news-impact');
+      impact.appendChild(el('strong', '', '영향 자산'));
+      impact.appendChild(document.createTextNode(item.impact));
+      article.appendChild(impact);
+    }
+    var foot = el('div', 'news-foot');
+    (item.sources || []).forEach(function (src) {
+      var link = safeUrl(src.url);
+      var label = (src.name || '출처') + (src.date ? ' · ' + formatDay(src.date) : '');
+      if (link) {
+        var a = el('a', 'news-link', label + ' 원문 ↗');
+        a.href = link;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        foot.appendChild(a);
+      } else {
+        foot.appendChild(el('span', 'news-link', label));
+      }
+    });
+    article.appendChild(foot);
+    return article;
+  }
+
+  // 시황 날짜가 오늘보다 4일 이상 지났으면(주말 포함 여유) '지난 시황'으로 표시
+  function isStale(value) {
+    var m = String(value || '').match(/^(\d{4})-(\d{2})-(\d{2})$/);
+    if (!m) return false;
+    var briefDay = Date.UTC(Number(m[1]), Number(m[2]) - 1, Number(m[3]));
+    var parts = {};
+    new Intl.DateTimeFormat('en-US', { timeZone: 'Asia/Seoul', year: 'numeric', month: 'numeric', day: 'numeric' })
+      .formatToParts(new Date()).forEach(function (part) { parts[part.type] = part.value; });
+    var today = Date.UTC(Number(parts.year), Number(parts.month) - 1, Number(parts.day));
+    return (today - briefDay) / 86400000 >= 4;
   }
 
   function renderFilters(items, labels) {
@@ -248,7 +332,15 @@
       '.news-filter.active{background:#07182d;border-color:#07182d;color:#fff}',
       '.news-attribution{margin-top:14px;font-size:.66rem;color:#667085;line-height:1.6}',
       '.news-attribution ul{margin:4px 0 0;padding-left:16px}',
-      '.news-card[hidden]{display:none!important}'
+      '.news-card[hidden]{display:none!important}',
+      '.brief-news{margin:0 0 20px}',
+      '.brief-head{display:flex;align-items:baseline;justify-content:space-between;gap:8px;flex-wrap:wrap}',
+      '.brief-head h2{margin:0;font-size:1rem;color:#07182d}',
+      '.brief-meta{font-size:.7rem;font-weight:700;color:#2f6fed}',
+      '.brief-meta.brief-stale{color:#b54708}',
+      '.brief-notice,.brief-approval{margin:6px 0 10px;font-size:.68rem;color:#667085;line-height:1.55}',
+      '.brief-approval{margin:8px 0 0}',
+      '.brief-card .news-foot{justify-content:flex-start}'
     ].join('\n');
     document.head.appendChild(style);
   }
