@@ -3,7 +3,7 @@
 > **작업 시작 전과 끝난 후에 반드시 갱신합니다.** 순서는 `docs/WORKFLOW.md` 참고.
 > 상태 표시: 🟡 진행 중 · 🔵 리뷰 대기 · ✅ 완료 · ⬜ 시작 전
 
-마지막 갱신: 2026-10-12
+마지막 갱신: 2026-10-14
 
 ## 현재 단계
 
@@ -16,6 +16,7 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
+| 이유경 (yukyung16) → 옥경환 확인 | 한국투자증권 Open API로 미 국채 10년 금리 수집(FRED 대체) + 데일리 시황용 국내 뉴스 후보(로컬 전용) | (만들 예정) | `feat/kis-api` | `scripts/fetch_news.py`(KIS 부분 추가, **옥경환 파일 — 확인 요청**), 새 `scripts/kis_news_candidates.py`, `tests/test_news.py`, `.github/workflows/news.yml`(env 3줄), `.gitignore`, `docs/DECISIONS.md` | 🟡 진행 중 (10-14). 모의투자 키 시험: 미 국채 10년 ✅, 국내 뉴스 제목 ✅, WTI ❌(NYMEX 시세 신청 필요 → FRED 유지) |
 | 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ✅ PR #16 채택·Merge (10-07 이유경 리뷰: 로컬에서 카드 12개·필터·원문 링크 확인) |
 | 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ✅ PR #17 Merge (10-07 합의: 해외 기관 전망 USD 사용·국내주식=신흥국 값·설문 구간 1점 조정. 스트레스 손실·과세 분배율은 아직 데모값) |
 | 이유경 (yukyung16) → 옥경환 합의 | 하우스뷰 참고 증권사 목록 확정, 10월 실제 점수 입력 | — | `data/house-view-sources` | `data/house_view_input.json`, `docs/DECISIONS.md` | ✅ PR #27·#29·#30 Merge — 국내 하나·신한·삼성·신영 + 해외 JPM·BlackRock·LPL·UBS 고정, **10월 실제 점수 입력 완료(10-12 Merge, 삼성 제외 7곳)**. 다음: 삼성 10월호 나오면 추가, 화면·TAA 연결(app.js, 담당 정하기) |
