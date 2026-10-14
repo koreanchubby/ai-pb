@@ -3,8 +3,10 @@
 #   ECOS_API_KEY  (선택) 한국은행 ECOS 인증키
 #   FRED_API_KEY  (선택) FRED API 키
 #   ANTHROPIC_API_KEY (선택) AI 설명 생성용
+#   KIS_APP_KEY · KIS_APP_SECRET (선택) 한국투자증권 Open API — 미 국채 10년 금리 (KST 7시·15시만 수집)
 # 필요한 Variables:
 #   LLM_MODEL (선택) AI 설명에 쓸 모델 ID
+#   KIS_ENV (선택) real 또는 mock(기본값, 모의투자 키)
 # 키가 없는 출처·단계는 자동으로 건너뜁니다.
 name: news
 
@@ -39,6 +41,10 @@ jobs:
         env:
           ECOS_API_KEY: ${{ secrets.ECOS_API_KEY }}
           FRED_API_KEY: ${{ secrets.FRED_API_KEY }}
+          KIS_APP_KEY: ${{ secrets.KIS_APP_KEY }}
+          KIS_APP_SECRET: ${{ secrets.KIS_APP_SECRET }}
+          KIS_ENV: ${{ vars.KIS_ENV || 'mock' }}
+          KIS_FORCE: ${{ github.event_name == 'workflow_dispatch' && '1' || '' }}   # 수동 실행은 시각과 관계없이 수집
         run: python scripts/fetch_news.py
 
       - name: AI 설명 생성 (키가 있을 때만)

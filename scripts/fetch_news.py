@@ -6,6 +6,7 @@ GitHub Actions가 1시간마다 실행해 data/news.json을 갱신한다.
 - 출처 하나가 실패해도 나머지는 계속 수집한다.
 - 기사 원문은 저장하지 않고 제목·링크·출처·시각만 저장한다 (docs/DECISIONS.md 2026-10-03).
 - API 키는 환경변수(GitHub Actions Secrets)에서만 읽는다. 키가 없으면 그 출처는 건너뛴다.
+- 미 국채 10년 금리는 한국투자증권 Open API에서 받는다(키가 있을 때, KST 7시·15시). 없으면 FRED.
 
 실행:  python scripts/fetch_news.py            # data/news.json 갱신
        python scripts/fetch_news.py --dry-run  # 결과만 출력
@@ -283,6 +284,90 @@ FRED_SERIES = [
     ("미국 10년물 국채금리", "DGS10", "rates", "%", 0.15),
     ("WTI 원유 가격", "DCOILWTICO", "oil", "달러", 3.0),
 ]
+# 같은 지표를 다른 출처로 바꿔도 이전 값이 남지 않도록 지표 이름을 붙인다 (merge_with_previous)
+INDICATOR_BY_FRED = {"DGS10": "us10y", "DCOILWTICO": "wti"}
+
+# ---------------------------------------------------------------------------
+# 한국투자증권 Open API (2026-10-14, 이유경): FRED는 원자료 발표가 늦어 며칠 전 값이 최신이라
+# 미 국채 10년 금리를 한국투자증권 '해외주식 종목/지수/환율 기간별 시세'(시장 구분 I: 국채)로 받는다.
+# - 모의투자 키로 시험 완료: Y0202(미국 10년 T-NOTE 수익률) 일별 값 수신.
+# - WTI는 해외선물 NYMEX 시세 신청 계좌가 필요해(EGW00551) FRED를 그대로 쓴다.
+# - 접근 토큰은 발급 횟수를 줄이려고 하루 두 번(KST 7시·15시, 시황 작성 전)만 수집한다.
+#   그 사이에는 이전 값이 news.json에 남는다(시장 데이터 7일 보관).
+# ---------------------------------------------------------------------------
+KIS_BASE = {"real": "https://openapi.koreainvestment.com:9443", "mock": "https://openapivts.koreainvestment.com:29443"}
+KIS_HOURS_KST = (7, 15)
+KIS_REPLACES_FRED = {"DGS10"}
+KIS_BONDS = [("미국 10년물 국채금리", "Y0202", "rates", "%", 0.15, "us10y")]
+
+
+def kis_configured() -> bool:
+    return bool(os.environ.get("KIS_APP_KEY") and os.environ.get("KIS_APP_SECRET"))
+
+
+def kis_request(method: str, url: str, headers: dict, body: dict | None = None) -> dict:
+    data = json.dumps(body).encode("utf-8") if body is not None else None
+    req = urllib.request.Request(url, data=data, method=method, headers={"User-Agent": USER_AGENT, **headers})
+    try:
+        with urllib.request.urlopen(req, timeout=TIMEOUT) as resp:  # noqa: S310 (한국투자증권 고정 주소)
+            return json.loads(resp.read().decode("utf-8"))
+    except urllib.error.HTTPError as error:
+        # 한국투자증권은 오류도 JSON(msg_cd·msg1 또는 error_description)으로 알려 준다 → 이유를 보여 주기 위해 돌려준다
+        text = error.read().decode("utf-8", "replace")
+        try:
+            payload = json.loads(text)
+        except json.JSONDecodeError:
+            payload = {"msg1": text[:200]}
+        payload.setdefault("rt_cd", "1")
+        payload["http_status"] = error.code
+        return payload
+
+
+def parse_kis_bond(payload: dict, name: str, code: str, category: str, unit: str, threshold: float,
+                   indicator: str) -> list[dict]:
+    rows = [r for r in payload.get("output2") or [] if r.get("stck_bsop_date") and r.get("ovrs_nmix_prpr")]
+    if not rows:
+        return []
+    rows.sort(key=lambda r: r["stck_bsop_date"])
+    last, prev = rows[-1], rows[-2] if len(rows) > 1 else rows[-1]
+    latest, before = float(last["ovrs_nmix_prpr"]), float(prev["ovrs_nmix_prpr"])
+    change = round(latest - before, 4)
+    date = dt.datetime.strptime(last["stck_bsop_date"], "%Y%m%d")
+    sign = "+" if change > 0 else ""
+    title = f"{name} {latest:g}{unit} (직전 대비 {sign}{change:g}%p)"
+    return [make_item(title=title, url=f"https://apiportal.koreainvestment.com/#{code}", source="한국투자증권",
+                      source_type="market", published=date.replace(tzinfo=dt.timezone.utc), categories=[category],
+                      value={"latest": latest, "previous": before, "change": change, "unit": unit,
+                             "date": date.date().isoformat(), "alert_threshold": threshold, "indicator": indicator})]
+
+
+def fetch_kis(request: Callable[..., dict] = kis_request, now: dt.datetime | None = None) -> list[dict]:
+    if not kis_configured():
+        raise SkipSource("KIS_APP_KEY·KIS_APP_SECRET 없음")
+    now = now or now_utc()
+    if now.astimezone(KST).hour not in KIS_HOURS_KST and os.environ.get("KIS_FORCE") != "1":
+        raise SkipSource("수집 시각 아님(KST 7시·15시만, 이전 값 유지)")
+    base = KIS_BASE.get(os.environ.get("KIS_ENV", "real"), KIS_BASE["real"])
+    key, secret = os.environ["KIS_APP_KEY"], os.environ["KIS_APP_SECRET"]
+    got = request("POST", base + "/oauth2/tokenP", {"content-type": "application/json"},
+                  {"grant_type": "client_credentials", "appkey": key, "appsecret": secret})
+    token = got.get("access_token")
+    if not token:
+        reason = got.get("error_description") or got.get("msg1") or ""
+        raise RuntimeError(f"한국투자증권 접근 토큰 발급 실패 {reason}".strip())
+    headers = {"content-type": "application/json; charset=utf-8", "authorization": "Bearer " + token,
+               "appkey": key, "appsecret": secret, "tr_id": "FHKST03030100", "custtype": "P"}
+    end = now.astimezone(KST).date()
+    items: list[dict] = []
+    for name, code, category, unit, threshold, indicator in KIS_BONDS:
+        params = urllib.parse.urlencode({"FID_COND_MRKT_DIV_CODE": "I", "FID_INPUT_ISCD": code,
+                                         "FID_INPUT_DATE_1": (end - dt.timedelta(days=14)).strftime("%Y%m%d"),
+                                         "FID_INPUT_DATE_2": end.strftime("%Y%m%d"), "FID_PERIOD_DIV_CODE": "D"})
+        payload = request("GET", base + "/uapi/overseas-price/v1/quotations/inquire-daily-chartprice?" + params, headers)
+        if payload.get("rt_cd") not in (None, "0"):
+            raise RuntimeError(f"{code}: {payload.get('msg_cd')} {payload.get('msg1')}")
+        items += parse_kis_bond(payload, name, code, category, unit, threshold, indicator)
+    return items
 
 
 def parse_fred(json_bytes: bytes, name: str, series: str, category: str, unit: str, threshold: float) -> list[dict]:
@@ -301,7 +386,8 @@ def parse_fred(json_bytes: bytes, name: str, series: str, category: str, unit: s
     return [make_item(title=title, url=f"https://fred.stlouisfed.org/series/{series}", source="FRED",
                       source_type="market", published=published, categories=[category],
                       value={"latest": latest, "previous": before, "change": change, "unit": unit,
-                             "date": last["date"], "alert_threshold": threshold})]
+                             "date": last["date"], "alert_threshold": threshold,
+                             "indicator": INDICATOR_BY_FRED.get(series, series)})]
 
 
 def fetch_fred(get: Callable[[str], bytes] = http_get) -> list[dict]:
@@ -311,7 +397,9 @@ def fetch_fred(get: Callable[[str], bytes] = http_get) -> list[dict]:
     start = (now_utc() - dt.timedelta(days=14)).date().isoformat()
     items: list[dict] = []
     errors: list[str] = []
-    for name, series, category, unit, threshold in FRED_SERIES:
+    # 한국투자증권 키가 있으면 미 국채 10년은 그쪽(더 빠름)에서 받으므로 FRED에서는 받지 않는다
+    series_list = [s for s in FRED_SERIES if not (kis_configured() and s[1] in KIS_REPLACES_FRED)]
+    for name, series, category, unit, threshold in series_list:
         params = urllib.parse.urlencode({"series_id": series, "api_key": key, "file_type": "json",
                                          "observation_start": start})
         try:
@@ -319,7 +407,7 @@ def fetch_fred(get: Callable[[str], bytes] = http_get) -> list[dict]:
                                 name, series, category, unit, threshold)
         except Exception as error:  # noqa: BLE001
             errors.append(f"{series}: {type(error).__name__}: {error}")
-    if errors and len(errors) == len(FRED_SERIES):
+    if errors and len(errors) == len(series_list):
         raise RuntimeError("FRED 전체 실패 — " + " / ".join(errors))
     if errors:
         print("FRED 일부 실패: " + redact(" / ".join(errors)), file=sys.stderr)
@@ -334,6 +422,7 @@ SOURCES: list[tuple[str, Callable[..., list[dict]]]] = [
     ("Federal Reserve", fetch_fed),
     ("GDELT", fetch_gdelt),
     ("한국은행 ECOS", fetch_ecos),
+    ("한국투자증권", fetch_kis),
     ("FRED", fetch_fred),
 ]
 
@@ -360,6 +449,17 @@ def dedupe(items: list[dict]) -> list[dict]:
     return result
 
 
+def indicator_of(item: dict) -> str | None:
+    """시장 지표 이름. 예전 news.json 항목(지표 이름 없음)은 FRED 주소로 알아낸다."""
+    if item.get("source_type") != "market":
+        return None
+    value = item.get("value") if isinstance(item.get("value"), dict) else {}
+    if value.get("indicator"):
+        return value["indicator"]
+    series = str(item.get("url", "")).rsplit("/", 1)[-1]
+    return INDICATOR_BY_FRED.get(series)
+
+
 def merge_with_previous(new_items: list[dict], previous: dict | None, now: dt.datetime) -> list[dict]:
     """이전 news.json의 AI 요약을 재사용하고, 오래된 기사는 버린다."""
     prev_items = previous.get("items", []) if isinstance(previous, dict) else []
@@ -376,9 +476,11 @@ def merge_with_previous(new_items: list[dict], previous: dict | None, now: dt.da
     # 이번에 못 받은 이전 기사도 보관 시간 안이면 유지 (출처 일시 장애 대비)
     new_ids = {i["id"] for i in merged}
     new_urls = {i["url"] for i in merged}
-    # 시장 데이터는 같은 지표(URL)의 새 값이 있으면 이전 값을 버린다
+    new_indicators = {indicator_of(i) for i in merged} - {None}
+    # 시장 데이터는 같은 지표(URL 또는 지표 이름)의 새 값이 있으면 이전 값을 버린다 (출처를 바꿔도 하나만 남김)
     merged += [old for old in prev_by_id.values()
-               if old["id"] not in new_ids and not (old["source_type"] == "market" and old["url"] in new_urls)]
+               if old["id"] not in new_ids and not (old["source_type"] == "market" and (
+                   old["url"] in new_urls or indicator_of(old) in new_indicators))]
 
     def fresh(item: dict) -> bool:
         # 새로 받은 시장 데이터(일별 최신값)는 날짜와 관계없이 유지
@@ -396,7 +498,7 @@ def merge_with_previous(new_items: list[dict], previous: dict | None, now: dt.da
     return merged[:MAX_ITEMS]
 
 
-SECRET_ENV = ("ECOS_API_KEY", "FRED_API_KEY", "ANTHROPIC_API_KEY")
+SECRET_ENV = ("ECOS_API_KEY", "FRED_API_KEY", "ANTHROPIC_API_KEY", "KIS_APP_KEY", "KIS_APP_SECRET")
 
 
 def redact(text: str) -> str:
@@ -439,6 +541,7 @@ def build(sources=SOURCES, previous: dict | None = None, now: dt.datetime | None
             "미 연준 자료: Board of Governors of the Federal Reserve System",
             "This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.",
             "출처: 한국은행 경제통계시스템(ECOS)",
+            "미 국채 금리: 한국투자증권 Open API",
         ],
         "notice": "기사 원문은 저장하지 않고 제목·링크·출처·시각만 표시합니다. 투자 권유가 아닙니다.",
         "categories": CATEGORY_LABELS,
