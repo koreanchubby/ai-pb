@@ -3,46 +3,5 @@
   "updated_at": "2026-10-15T00:00:00+09:00",
   "approval": "Claude 판단 (이유경 위임)",
   "notice": "'AI 요약' 카드는 원문을 직접 열어 날짜와 내용을 확인한 뒤 우리가 새로 쓴 제목과 요약입니다. 기사 원문은 언론사 링크로 보세요. 투자 권유가 아닙니다.",
-  "items": [
-    {
-      "id": "2026-10-08-kospi-close",
-      "categories": ["semis"],
-      "lang": "ko",
-      "headline": "코스피 2.6% 하락, 6,625선 마감",
-      "summary": "삼성전자가 사상 최대 3분기 영업이익(잠정)을 발표했지만 외국인·기관이 함께 조 원대로 팔면서 코스피는 사흘째 내렸습니다. 삼성전자·SK하이닉스도 2%대 하락했습니다.",
-      "impact": "국내주식",
-      "published_at": "2026-10-08T06:33:00Z",
-      "sources": [
-        {"name": "머니투데이", "date": "2026-10-08", "url": "https://www.mt.co.kr/stock/2026/10/08/2026100815231832416"},
-        {"name": "Businesskorea", "date": "2026-10-08", "url": "https://www.businesskorea.co.kr/news/articleView.html?idxno=278527"}
-      ],
-      "written_at": "2026-10-12T09:39:00+09:00"
-    },
-    {
-      "id": "2026-10-08-usdkrw-close",
-      "categories": ["fx"],
-      "lang": "ko",
-      "headline": "원/달러 1,338.5원 마감, 하락",
-      "summary": "달러가 강세였는데도 수출업체의 달러 매도가 이어지며 원화가 강세를 보였습니다.",
-      "impact": "해외주식·현금",
-      "published_at": "2026-10-08T06:37:00Z",
-      "sources": [
-        {"name": "서울파이낸스", "date": "2026-10-08", "url": "https://www.seoulfn.com/news/articleView.html?idxno=639680"},
-        {"name": "아주경제", "date": "2026-10-08", "url": "https://www.ajunews.com/view/20261008092343665"}
-      ],
-      "written_at": "2026-10-12T09:39:00+09:00"
-    },
-    {
-      "id": "2026-10-08-nasdaq-semis",
-      "categories": ["semis"],
-      "lang": "en",
-      "headline": "뉴욕증시 나스닥 1.3% 하락, 반도체주 약세",
-      "summary": "오픈AI 매출이 예상보다 적다는 보도로 엔비디아·마이크론 등 반도체주가 약세였고, 필라델피아 반도체지수는 장중 4%까지 밀렸습니다. 다우는 소폭 올랐습니다.",
-      "impact": "국내·해외주식",
-      "sources": [
-        {"name": "Yahoo Finance", "date": "2026-10-08", "url": "https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html"}
-      ],
-      "written_at": "2026-10-12T09:39:00+09:00"
-    }
-  ]
+  "items": []
 }
