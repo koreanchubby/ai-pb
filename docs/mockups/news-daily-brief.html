@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>뉴스 분석 · 데일리 시황 시안</title>
+<style>
+:root{--navy:#07182d;--blue:#4f83f5;--blue-2:#2f6fe8;--sky:#eaf1ff;--bg:#f3f6fb;--surface:#fff;--text:#142039;--muted:#68758c;--line:#dce4ef;--green:#11986f;--green-bg:#e9f8f2;--red:#e14f68;--red-bg:#fdecea;--amber-bg:#fff6e5;--shadow:0 14px 40px rgba(35,57,88,.08)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Pretendard,"Noto Sans KR","Apple SD Gothic Neo",Arial,sans-serif;line-height:1.55;-webkit-font-smoothing:antialiased}
+.note{background:#fff8ec;color:#6b4a0c;font-size:.82rem;padding:10px 20px;border-bottom:1px solid #f1dfb8}
+.page{max-width:860px;margin:0 auto;padding:28px 20px 60px}
+.eyebrow{font-size:.7rem;font-weight:800;letter-spacing:.12em;color:var(--blue-2);margin:0}
+h1{margin:4px 0 6px;font-size:1.7rem}
+.desc{margin:0 0 18px;color:var(--muted);font-size:.92rem}
+.tabs{display:flex;gap:8px;border-bottom:1px solid var(--line);margin-bottom:18px}
+.tab{border:0;background:none;padding:10px 14px;font-size:.95rem;font-weight:800;color:var(--muted);border-bottom:3px solid transparent;cursor:pointer}
+
+.tab .new{font-size:.62rem;background:var(--red);color:#fff;border-radius:6px;padding:1px 6px;margin-left:4px;vertical-align:2px}
+.tr{position:absolute;opacity:0;pointer-events:none}
+#p-brief{display:none}
+#t-brief:checked ~ #p-brief{display:block}
+#t-brief:checked ~ #p-news{display:none}
+#t-news:checked ~ .tabs #l-news,#t-brief:checked ~ .tabs #l-brief{color:var(--navy);border-color:var(--blue)}
+.tab{display:inline-block}
+
+.chip{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);background:#fff;border-radius:999px;padding:5px 12px;font-size:.78rem;font-weight:700;margin-bottom:14px}
+.chip i{width:8px;height:8px;border-radius:50%;background:var(--green)}
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:14px}
+.f{border:1px solid #d0d5dd;background:#fff;border-radius:999px;padding:5px 12px;font-size:.78rem;cursor:pointer}
+.f.on{background:var(--navy);border-color:var(--navy);color:#fff}
+.filtered{font-size:.76rem;color:var(--muted);margin:-4px 0 12px}
+.grid{display:flex;flex-direction:column;gap:12px}
+.card{background:#fff;border:1px solid var(--line);border-radius:18px;padding:16px 18px;box-shadow:var(--shadow)}
+.card .head{display:flex;gap:6px;align-items:center}
+.card time{margin-left:auto;font-size:.72rem;color:var(--muted)}
+.type{font-size:.62rem;font-weight:800;border-radius:7px;padding:3px 7px}
+.type.official{background:var(--green-bg);color:var(--green)}.type.market{background:var(--sky);color:var(--blue-2)}.type.news{background:#eef2f8;color:#475467}
+.lang{font-size:.62rem;font-weight:700;border:1px solid var(--line);border-radius:7px;padding:2px 6px;color:var(--muted)}
+.card h3{margin:8px 0 4px;font-size:.98rem}
+.val{font-weight:800;margin:4px 0;font-size:.85rem}
+.muted{color:var(--muted);font-size:.8rem;margin:4px 0}
+.foot{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-top:10px;font-size:.72rem;color:var(--muted)}
+.foot a{color:var(--blue-2);font-weight:700;text-decoration:none}
+.card[hidden]{display:none}
+/* 데일리 시황 */
+.keep{display:flex;flex-direction:column;gap:12px;background:#f7f9fd}
+.keep .decision{margin:0;border-left:5px solid var(--blue);background:#fff;border-radius:0 14px 14px 0;padding:14px 16px;font-size:.92rem;box-shadow:0 6px 18px rgba(35,57,88,.06)}
+.keep .decision b{display:block;font-size:.95rem;margin-bottom:4px;color:var(--navy)}
+.keep .decision b small{color:var(--muted);font-weight:600;font-size:.72rem}
+.keep .client{margin:0;border:2px dashed var(--blue);background:#fff;border-radius:14px;padding:14px 16px;font-size:.95rem;line-height:1.6;font-weight:600}
+.keep .client small{display:block;color:var(--blue-2);font-weight:800;font-size:.74rem;margin-bottom:6px}
+
+.brief{background:#fff;border:1px solid var(--line);border-radius:20px;box-shadow:var(--shadow);overflow:hidden;margin-bottom:12px}
+.bhead{background:var(--navy);color:#fff;padding:16px 20px}
+.bhead h2{margin:0;font-size:1.15rem}.bhead h2 span{color:#91b2f8;font-weight:700}
+.bhead p{margin:4px 0 0;font-size:.74rem;color:#bcd0f5}
+.sec{padding:14px 20px;border-bottom:1px solid var(--line)}.sec.last{border-bottom:0}
+.sec h3{margin:0 0 8px;font-size:.95rem}.sec h3 small{color:var(--muted);font-weight:600;font-size:.72rem}
+.sec p{margin:4px 0;font-size:.86rem;color:#2c3a52}
+.lead{font-weight:700;font-size:.95rem!important;color:var(--text)!important}
+.list{margin:0;padding-left:18px;font-size:.86rem}.list li{margin:4px 0}
+.list em{display:block;font-style:normal;font-size:.7rem;color:var(--muted)}
+.note2{font-size:.72rem!important;color:#8a5a08!important;background:var(--amber-bg);border-radius:8px;padding:6px 10px}
+.nw{padding:8px 0;border-top:1px dashed var(--line)}.nw:first-of-type{border-top:0}
+.nt{font-weight:800!important;color:var(--text)!important}
+.nm{font-size:.74rem!important;color:var(--muted)!important}.nm a{color:var(--blue-2);font-weight:700;text-decoration:none}
+.quote{background:var(--sky);border-radius:12px;padding:10px 12px}
+.muted{color:var(--muted);font-size:.78rem}
+
+.dates{display:flex;gap:8px;overflow-x:auto;margin-bottom:14px}
+.d{border:1px solid var(--line);border-radius:12px;padding:8px 12px;font-size:.78rem;white-space:nowrap;background:#fff;cursor:pointer;text-align:left}
+.d.on{background:var(--navy);color:#fff;border-color:var(--navy)}
+.d small{display:block;font-size:.66rem;opacity:.75}
+.badges{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
+.b{font-size:.7rem;font-weight:700;border-radius:8px;padding:3px 8px;background:#eef2f8;color:#475467}.b.ai{background:var(--sky);color:var(--blue-2)}.b.warn{background:var(--amber-bg);color:#8a5a08}
+.summary{background:var(--sky);border-radius:16px;padding:14px 16px;font-weight:700;margin-bottom:14px}
+.kpis{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin-bottom:14px}
+.kpi{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 12px}
+.kpi small{display:block;color:var(--muted);font-size:.7rem}.kpi b{font-size:1rem}
+.kpi .src{display:block;color:var(--muted);font-size:.64rem;margin-top:2px}.kpi .stale{color:#8a5a08}
+.up{color:var(--red);font-size:.74rem;font-weight:700}.down{color:var(--blue-2);font-size:.74rem;font-weight:700}
+.item{background:#fff;border:1px solid var(--line);border-radius:14px;padding:12px 14px;margin-bottom:10px}
+.item .top{display:flex;justify-content:space-between;gap:8px}.item h3{margin:0;font-size:.92rem}
+.tag{font-size:.66rem;font-weight:800;border-radius:7px;padding:2px 7px;background:var(--green-bg);color:var(--green);white-space:nowrap;align-self:start}
+.item p{margin:6px 0;font-size:.84rem;color:#3d4a60}
+.item .meta{display:flex;justify-content:space-between;font-size:.72rem;color:var(--muted)}
+.item a{color:var(--blue-2);font-weight:700;text-decoration:none}
+details{background:#fff;border:1px solid var(--line);border-radius:14px;padding:10px 14px;margin-bottom:10px;font-size:.84rem}
+summary{cursor:pointer;font-weight:700;color:var(--blue-2)}
+.decision{border-left:4px solid var(--blue);background:#fff;border-radius:0 14px 14px 0;padding:12px 14px;margin-bottom:10px;font-size:.86rem}
+.decision b{display:block}
+.client{border:1px dashed var(--blue);border-radius:14px;padding:12px 14px;font-size:.86rem;margin-bottom:12px;background:#fff}
+.client small{display:block;color:var(--blue-2);font-weight:800;font-size:.68rem}
+.legal{font-size:.72rem;color:var(--muted)}
+@media (max-width:640px){.kpis{grid-template-columns:repeat(2,1fr)}h1{font-size:1.4rem}}
+</style>
+</head>
+<body>
+<div class="note">시안 · 기존 화면은 건드리지 않은 별도 파일 · 뉴스 분석 탭은 실제 수집본(10/12 09:47 기준)에서 영어·한국어 기사만 남긴 결과, 데일리 시황 탭은 10/9 실제 시황</div>
+<div class="page">
+<p class="eyebrow">NEWS ANALYSIS · 투자자용</p>
+<h1>뉴스 분석 · 데일리 시황</h1>
+<p class="desc">상담 흐름과 별개로 투자자가 직접 보는 페이지입니다. 실시간 수집 뉴스와, 매일 아침 정리한 시황을 탭으로 나눠 볼 수 있어요.</p>
+
+<input type="radio" name="tab" id="t-news" class="tr" checked>
+<input type="radio" name="tab" id="t-brief" class="tr">
+<div class="tabs">
+<label class="tab" for="t-news" id="l-news">뉴스 분석</label>
+<label class="tab" for="t-brief" id="l-brief">데일리 시황<span class="new">NEW</span></label>
+</div>
+
+<section class="panel" id="p-news" role="tabpanel">
+<span class="chip"><i></i>10/12 09:47 기준</span>
+<div class="filters"><button class="f on" data-f="all">전체</button><button class='f' data-f='rates'>금리</button><button class='f' data-f='fx'>환율</button><button class='f' data-f='oil'>유가</button><button class='f' data-f='geopolitics'>지정학</button><button class='f' data-f='semis'>반도체</button></div>
+<p class="filtered">영어·한국어 기사만 표시 (이번 수집본에서 다른 언어 기사 17건 제외)</p>
+<div class="grid" id="grid"><article class="card" data-cats="rates"><div class="head"><span class="type official">공식</span><span class="lang">English</span><time>10/8 03:00</time></div><h3>Minutes of the Federal Open Market Committee, September 15-16, 2026</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>금리</span><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm" target="_blank" rel="noopener">Federal Reserve · 원문 보기</a></div></article><article class="card" data-cats="rates"><div class="head"><span class="type market">시장</span><span class="lang">한국어</span><time>10/8 기준</time></div><h3>미국 10년물 국채금리 5.22% (직전 대비 -0.06%p)</h3><p class='val'>5.22% · 직전 대비 -0.06%p</p><div class="foot"><span>금리</span><a href="https://fred.stlouisfed.org/series/DGS10" target="_blank" rel="noopener">FRED · 원문 보기</a></div></article><article class="card" data-cats="rates"><div class="head"><span class="type market">시장</span><span class="lang">한국어</span><time>10/8 기준</time></div><h3>한국은행 기준금리 3% (직전 대비 0%p)</h3><p class='val'>3.0% · 직전 대비 0.0%p</p><div class="foot"><span>금리</span><a href="https://ecos.bok.or.kr/#722Y001" target="_blank" rel="noopener">한국은행 ECOS · 원문 보기</a></div></article><article class="card" data-cats="fx"><div class="head"><span class="type market">시장</span><span class="lang">한국어</span><time>10/8 기준</time></div><h3>원/달러 환율(매매기준율) 1339.2원 (직전 대비 -4.2원)</h3><p class='val'>1339.2원 · 직전 대비 -4.2원</p><div class="foot"><span>환율</span><a href="https://ecos.bok.or.kr/#731Y001" target="_blank" rel="noopener">한국은행 ECOS · 원문 보기</a></div></article><article class="card" data-cats="oil"><div class="head"><span class="type market">시장</span><span class="lang">한국어</span><time>10/6 기준</time></div><h3>WTI 원유 가격 96.24달러 (직전 대비 +0.11달러)</h3><p class='val'>96.24달러 · 직전 대비 +0.11달러</p><div class="foot"><span>유가</span><a href="https://fred.stlouisfed.org/series/DCOILWTICO" target="_blank" rel="noopener">FRED · 원문 보기</a></div></article><article class="card" data-cats="oil geopolitics"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>Brent commands a war premium as Middle East supply risks keep oil on edge</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>유가 · 지정학</span><a href="https://economictimes.indiatimes.com/markets/commodities/news/brent-commands-a-war-premium-as-middle-east-supply-risks-keep-oil-on-edge/articleshow/134848278.cms" target="_blank" rel="noopener">economictimes.indiatimes.com · 원문 보기</a></div></article><article class="card" data-cats="geopolitics oil"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>Putin says Russian oil supplies to US will</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>지정학 · 유가</span><a href="https://timesofoman.com/article/177842-putin-says-russian-oil-supplies-to-us-will-positively-impact-global-economy-after-trump-call" target="_blank" rel="noopener">timesofoman.com · 원문 보기</a></div></article><article class="card" data-cats="rates"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>AP News in Brief at 12 : 04 a . m . EDT</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>금리</span><a href="http://www.gazettextra.com/news/nation_world/ap-news-in-brief-at-12-04-a-m-edt/article_f833cdbb-ff2e-5f42-965b-9b371c884967.html" target="_blank" rel="noopener">gazettextra.com · 원문 보기</a></div></article><article class="card" data-cats="oil"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>RBI takes steps to choke speculative bets against the rupee in forex market</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>유가</span><a href="https://timesofindia.indiatimes.com/business/india-business/rbi-takes-steps-to-choke-speculative-bets-against-the-rupee-in-forex-market/articleshow/134848611.cms" target="_blank" rel="noopener">timesofindia.indiatimes.com · 원문 보기</a></div></article><article class="card" data-cats="oil"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>Isaias makes landfall as hurricane , hammering US Gulf Coast with powerful winds , dangerous flooding</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>유가</span><a href="https://www.sun-sentinel.com/2026/10/09/isaias-makes-landfall-as-hurricane-hammering-us-gulf-coast-with-powerful-winds-dangerous-flooding/" target="_blank" rel="noopener">sun-sentinel.com · 원문 보기</a></div></article><article class="card" data-cats="oil"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>Isaias makes landfall along the US Gulf Coast as a dangerous Category 2 hurricane</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>유가</span><a href="https://www.asiaone.com/world/isaias-makes-landfall-along-us-gulf-coast-dangerous-category-2-hurricane" target="_blank" rel="noopener">asiaone.com · 원문 보기</a></div></article><article class="card" data-cats="oil"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>Trump announces deal for Russian diesel as Zelensky calls it a gift to Putin</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>유가</span><a href="https://www.the-star.co.ke/news/world/2026-10-10-trump-announces-deal-for-russian-diesel-as-zelensky-calls-it-a-gift-to-putin" target="_blank" rel="noopener">the-star.co.ke · 원문 보기</a></div></article><article class="card" data-cats="oil"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>Stronger BoP outlook to keep Rupee far more stable ; FY27 surplus seen at USD 97 - 100 billion : Report</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>유가</span><a href="http://www.argentinastar.com/news/279363056/stronger-bop-outlook-to-keep-rupee-far-more-stable-fy27-surplus-seen-at-usd-97-100-billion-report" target="_blank" rel="noopener">argentinastar.com · 원문 보기</a></div></article><article class="card" data-cats="oil"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>BSR forecast to post record profit in 2026</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>유가</span><a href="https://vietnamnews.vn/economy/1801682/bsr-forecast-to-post-record-profit-in-2026.html" target="_blank" rel="noopener">vietnamnews.vn · 원문 보기</a></div></article><article class="card" data-cats="semis"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>Microsoft , Nvidia push AI agents onto personal computers</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>반도체</span><a href="http://www.argentinastar.com/news/279358260/microsoft-nvidia-push-ai-agents-onto-personal-computers" target="_blank" rel="noopener">argentinastar.com · 원문 보기</a></div></article><article class="card" data-cats="geopolitics"><div class="head"><span class="type news">뉴스</span><span class="lang">English</span><time>10/10 15:45</time></div><h3>The bigger picture -- Beijing Review</h3><p class='muted'>자세한 내용은 아래 원문에서 확인하세요.</p><div class="foot"><span>지정학</span><a href="http://www.bjreview.com/World/202610/t20261010_800448450.html" target="_blank" rel="noopener">bjreview.com · 원문 보기</a></div></article></div>
+</section>
+
+<section class="panel" id="p-brief" role="tabpanel">
+<div class="dates">
+<button class="d on">10/9 목<small>오늘</small></button>
+<button class="d">10/8 수<small>⚠ 임시 점검</small></button>
+<button class="d">이번 주 정리<small>금요일</small></button>
+</div>
+<article class="brief">
+<header class="bhead">
+<h2>📊 AI PB 데일리 시황 <span>| 2026.10.09(목)</span></h2>
+<p>AI 작성 · 검토 완료 · 투자 권유 아님 · 기준 10/9 08:00</p>
+</header>
+
+<div class="sec"><h3>📝 오늘 한 줄 요약</h3>
+<p class="lead">삼성전자 사상 최대 실적에도 코스피 2.6% 하락, 밤사이 미국도 AI·반도체주 약세. 원화는 강세.</p></div>
+
+<div class="sec"><h3>📌 핵심 지표 <small>(AI PB 앱 수집값)</small></h3>
+<ul class="list">
+<li><b>원/달러(매매기준율)</b> 1,339.2원 <span class="down">▼4.2원</span> <em>기준일 10/8 · 한국은행 ECOS</em></li>
+<li><b>한국은행 기준금리</b> 3.00% (변동 없음) <em>기준일 10/8 · 한국은행 ECOS</em></li>
+<li><b>미 국채 10년물</b> 5.28% <span class="up">▲0.01%p</span> <em>기준일 10/7 · FRED</em></li>
+<li><b>WTI</b> 96.24달러 <span class="up">▲0.11달러</span> <em>기준일 10/6 · FRED</em></li>
+</ul>
+<p class="note2">※ FRED 값은 며칠 늦게 올라와요. 특히 WTI는 기준일이 이틀 전이라 최신 시세와 다를 수 있어요.</p></div>
+
+<div class="sec"><h3>📰 주요 뉴스</h3>
+<div class="nw"><p class="nt">① [국내 증시·반도체] 코스피 2.6% 하락, 6,625선 마감</p>
+<p>삼성전자가 사상 최대 3분기 영업이익(잠정)을 발표했지만, 외국인·기관이 함께 조 원대로 팔면서 코스피는 사흘째 내렸어요. 삼성전자·SK하이닉스도 2%대 하락했어요.</p>
+<p class="nm">→ 영향: 국내주식 · <a href="https://www.mt.co.kr/stock/2026/10/08/2026100815231832416" target="_blank" rel="noopener">머니투데이</a>·Businesskorea, 10/8</p></div>
+<div class="nw"><p class="nt">② [환율] 원/달러 1,338.5원 마감, 하락</p>
+<p>달러가 강세였는데도 수출업체의 달러 매도가 이어지며 원화가 강세를 보였어요.</p>
+<p class="nm">→ 영향: 해외주식·현금 · <a href="https://www.seoulfn.com/news/articleView.html?idxno=639680" target="_blank" rel="noopener">서울파이낸스</a>·아주경제, 10/8</p></div>
+<div class="nw"><p class="nt">③ [반도체·해외 증시] 뉴욕증시 나스닥 1.3% 하락</p>
+<p>오픈AI 매출이 예상보다 적다는 보도로 엔비디아·마이크론 등 반도체주가 약세였고, 필라델피아 반도체지수는 장중 4%까지 밀렸어요. 다우는 소폭 올랐어요.</p>
+<p class="nm">→ 영향: 국내·해외주식 · <a href="https://finance.yahoo.com/markets/live/stock-market-today-thursday-october-8-dow-sp-500-nasdaq-080537884.html" target="_blank" rel="noopener">Yahoo Finance</a>, 10/8 미국장</p></div>
+</div>
+
+<div class="sec"><h3>💡 자산군별 시사점 <small>(참고 · 일반론)</small></h3>
+<ul class="list">
+<li><b>금리</b> 미 금리가 높은 수준에 머무르면 이미 가진 채권의 가격에는 부담, 새로 사는 채권의 이자는 높아지는 경향이 있어요.</li>
+<li><b>환율</b> 원화가 강해지면 해외자산을 원화로 환산한 가치는 줄어드는 경향이 있어요.</li>
+</ul></div>
+
+<div class="sec last keep">
+<div class="decision"><b>🗂 우리 판단 <small>#2026-10-09</small></b>10월 하우스뷰(국내·해외 주식 확대, 국채 축소) 유지 · 하루 움직임으로 배분을 바꾸지 않아요 <span class="muted">(임시 점검은 10/8에 표시)</span></div>
+<div class="client"><small>💬 담당 PB 한마디</small>"어제는 반도체 실적 호조에도 국내외 증시가 함께 쉬어갔습니다. 하루 움직임으로 장기 배분을 바꾸지는 않으며, 점검이 필요하시면 편하게 말씀 주세요."</div>
+</div>
+</article>
+<p class="legal">AI가 기사 원문을 확인해 요약하고 규칙에 따라 검토했어요. 투자 권유가 아니며, 지표는 표시된 기준일의 값이에요.</p>
+</section>
+</div>
+<script>
+document.querySelectorAll('.f').forEach(function(b){b.addEventListener('click',function(){
+document.querySelectorAll('.f').forEach(function(x){x.classList.toggle('on',x===b)});
+var k=b.dataset.f;document.querySelectorAll('#grid .card').forEach(function(c){c.hidden=k!=='all'&&(' '+c.dataset.cats+' ').indexOf(' '+k+' ')<0});});});
+document.querySelectorAll('.d').forEach(function(b){b.addEventListener('click',function(){document.querySelectorAll('.d').forEach(function(x){x.classList.toggle('on',x===b)});});});
+</script>
+</body>
+</html>
