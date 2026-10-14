@@ -9,7 +9,7 @@
   var NEWS_URL = './data/news.json';
   var CURATED_URL = './data/news_curated.json';
   var MAX_CARDS = 12;
-  var MAX_CURATED = 12;
+  var MAX_CURATED = 36;   // 주제 6개 × 최소 5건을 넉넉히 보여 줄 수 있게
   // news.json을 못 받았을 때 쓰는 분류 이름 (scripts/fetch_news.py CATEGORY_LABELS와 같게)
   var CATEGORY_LABELS = { rates: '금리', fx: '환율', oil: '유가', etf: 'ETF', semis: '반도체', geopolitics: '지정학' };
   var TYPE_LABEL = { official: '공식', market: '시장', news: '뉴스' };
@@ -19,7 +19,9 @@
   var TRUSTED_DOMAINS = [
     'yna.co.kr', 'einfomax.co.kr',                           // 연합뉴스 (국가기간뉴스통신사)·연합인포맥스(연합뉴스 경제 자회사)
     'kbs.co.kr', 'imbc.com', 'sbs.co.kr', 'jtbc.co.kr', 'ytn.co.kr', // DNR 한국 신뢰도 상위 5개 방송사
-    'hankyung.com', 'mk.co.kr',                              // 국내 대표 경제 일간지 (팀 판단)
+    'hankyung.com', 'mk.co.kr', 'sedaily.com', 'mt.co.kr', 'edaily.co.kr', 'asiae.co.kr',
+    'heraldcorp.com', 'fnnews.com', 'biz.chosun.com',        // 국내 주요 경제 일간지 (팀 판단)
+    'news1.kr', 'newsis.com', 'yonhapnewstv.co.kr',          // 국내 뉴스통신사·보도채널 (팀 판단)
     'reuters.com', 'apnews.com', 'bloomberg.com', 'ft.com', 'wsj.com', 'cnbc.com', 'bbc.com', 'bbc.co.uk' // 국제 통신사·경제매체 (팀 판단)
   ];
   var SECTIONS = [

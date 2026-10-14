@@ -11,8 +11,10 @@
 - **데이터**: `data/news_curated.json` — 항목마다 `categories`(fetch_news 분류 키), `lang`, `headline`·`summary`·`impact`(우리 글), `published_at`(원문 게시 시각, 확인 못 하면 생략), `sources`(언론사·날짜·링크)
 - **작성·반영**: 이유경 PC의 데일리 시황 예약 작업(평일 8·16시)이 같은 실행에서 주제별 1~2건을 원문 확인 후 작성, 72시간 지난 항목은 빼고, 검증된 이 파일 **하나만** main에 커밋·푸시(이유경 결정 10-15). 이유경 작업 폴더를 건드리지 않게 `C:\devi-pb-publish`(git worktree)에서 올림. 유료 AI API 필요 없음, 대신 PC가 켜져 있어야 갱신
 - **신뢰 언론사만 (이유경 결정 10-15)**: 뉴스 탭의 뉴스 기사(자동 수집 GDELT 카드와 우리 요약 기사 모두)는 아래 목록의 언론사 것만 보여 줌. 공식 발표(연준·정부·한국은행)와 시장 지표는 기관 자료라 그대로
-  - 국내: 연합뉴스(국가기간뉴스통신사)·연합인포맥스(연합뉴스 경제 자회사), **KBS·MBC·SBS·JTBC·YTN** — 로이터저널리즘연구소 「Digital News Report」 한국 신뢰도 상위 5개 방송사(2025: MBC 61%·JTBC 59%·YTN 55%, reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/south-korea / 2026: MBC 60%·JTBC 59%·SBS 56%·YTN 54%·KBS 53%, 한국언론진흥재단 분석 보도 en.nocutnews.co.kr/news/6533916). 한국경제·매일경제(국내 대표 경제 일간지, **팀 판단** — 근거 자료 보강 필요)
+  - 국내: 연합뉴스(국가기간뉴스통신사)·연합인포맥스(연합뉴스 경제 자회사), **KBS·MBC·SBS·JTBC·YTN** — 로이터저널리즘연구소 「Digital News Report」 한국 신뢰도 상위 5개 방송사(2025: MBC 61%·JTBC 59%·YTN 55%, reutersinstitute.politics.ox.ac.uk/digital-news-report/2025/south-korea / 2026: MBC 60%·JTBC 59%·SBS 56%·YTN 54%·KBS 53%, 한국언론진흥재단 분석 보도 en.nocutnews.co.kr/news/6533916). 국내 주요 경제 일간지 한국경제·매일경제·서울경제·머니투데이·이데일리·아시아경제·헤럴드경제·파이낸셜뉴스·조선비즈, 뉴스통신사·보도채널 뉴스1·뉴시스·연합뉴스TV (**팀 판단**, 이유경 승인 10-15. 네이버 뉴스 콘텐츠제휴 언론사 여부로 보강하려 했으나 공식 목록 원문은 확인 못 함 — 콘텐츠제휴는 정량 30%·정성 70%, 최소 9명 심사, 80점 이상 통과인 최상위 등급(기자협회보 보도))
   - 해외: Reuters·AP·Bloomberg·Financial Times·Wall Street Journal·CNBC·BBC (국제 통신사·경제매체, **팀 판단** — DNR 영미권 신뢰도 근거 보강 필요)
+  - 실제로 원문을 열 수 있는지(10-15 확인): 국내 목록은 대부분 열림. Reuters·AP·Bloomberg·FT·WSJ는 자동 접속을 막아(401·403) 원문 확인이 어려움 → 열리는 CNBC·BBC 위주
+  - **주제별 최소 5건 (이유경 결정 10-15)**: 뉴스 탭 주제 6개(금리·환율·유가·ETF·반도체·지정학) 각각 우리 요약 기사를 5건 이상 유지. 기본 보관은 72시간, 5건이 안 되는 주제는 7일까지 이전 기사 유지. 네이버 뉴스 자동 수집은 이용약관·접근 규칙상 하지 않음
   - 적용: `news-view.js`의 TRUSTED_DOMAINS(주소 도메인으로 판별), 예약 작업 지시문. 기존 우리 요약 3건(머니투데이·Businesskorea·서울파이낸스·아주경제·Yahoo Finance 출처)은 목록 밖이라 제외
 - **처음 '시황 속 주요 뉴스' 별도 칸 안(10-14)은 폐기**: 뉴스 탭 주제와 시황 주제가 겹치지 않을 수 있어 이유경이 고침
 - **영향 파일**: `news-view.js`(우리 요약 카드를 같은 격자·필터에 추가, 기존 카드 로직은 그대로), `data/news_curated.json`(예약 작업이 main에 올림, 첫 값은 10/9 승인 시황 기사 3건)
