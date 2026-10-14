@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-14T07:02:58Z",
+  "generated_at": "2026-10-14T07:53:05Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
     "미 연준 자료: Board of Governors of the Federal Reserve System",
     "This product uses the FRED® API but is not endorsed or certified by the Federal Reserve Bank of St. Louis.",
-    "출처: 한국은행 경제통계시스템(ECOS)"
+    "출처: 한국은행 경제통계시스템(ECOS)",
+    "미 국채 금리: 한국투자증권 Open API"
   ],
   "notice": "기사 원문은 저장하지 않고 제목·링크·출처·시각만 표시합니다. 투자 권유가 아닙니다.",
   "categories": {
@@ -34,9 +35,15 @@
       "count": 2
     },
     {
+      "source": "한국투자증권",
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+    },
+    {
       "source": "FRED",
       "ok": true,
-      "count": 2
+      "count": 1
     }
   ],
   "items": [
@@ -171,7 +178,8 @@
         "change": 0.11,
         "unit": "달러",
         "date": "2026-10-06",
-        "alert_threshold": 3.0
+        "alert_threshold": 3.0,
+        "indicator": "wti"
       }
     }
   ]
