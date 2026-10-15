@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T17:46:29Z",
+  "generated_at": "2026-10-15T19:45:23Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,13 +26,13 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
     },
     {
       "source": "한국투자증권",
@@ -133,31 +133,6 @@
       }
     },
     {
-      "id": "market-a51e8ef385f2",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-07T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261008",
-        "alert_threshold": 0.25
-      }
-    },
-    {
       "id": "market-5312c358265a",
       "title": "WTI 원유 가격 96.24달러 (직전 대비 +0.11달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
@@ -249,6 +224,227 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-beb8b3e8ebd4",
+      "title": "國際能源署 ： 將加快釋出一億桶石油",
+      "url": "https://www.epochtimes.com/b5/26/10/15/n14870706.htm",
+      "source": "epochtimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a320ec5b83a5",
+      "title": "NRF Predicts 4 . 2 % Holiday Sales Growth Despite Inflation and Rising Gas Prices",
+      "url": "https://www.jckonline.com/editorial-article/nrf-predicts-holiday-sales-growth/",
+      "source": "jckonline.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-298bfb240081",
+      "title": "Senate passes bill for Federal College of Agriculture in Bor",
+      "url": "https://punchng.com/senate-passes-bill-to-establish-federal-college-of-agriculture-in-borno/",
+      "source": "punchng.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aa8ed68f9298",
+      "title": "The Latest : AP - NORC poll : Strong majority of voters believes Trump is failing at home and abroad",
+      "url": "https://www.whec.com/ap-top-news/the-latest-ap-norc-poll-strong-majority-of-voters-believes-trump-is-failing-at-home-and-abroad/",
+      "source": "whec.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ddcb48f90039",
+      "title": "Κ . Πιερρακάκης στο Atlantic Council : Η δημοσιονομική αξιοπιστία είναι ...",
+      "url": "https://www.capital.gr/epikairotita/4023835/k-pierrakakis-sto-atlantic-council-i-dimosionomiki-axiopistia-einai-ethniki-isxus-kai-apotelei-stratigiko-poro/",
+      "source": "capital.gr",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b60b70c9f1b6",
+      "title": "Cosa c  è dietro al limite al prezzo dei carburanti di Eni , IP e Q8",
+      "url": "https://www.ilpost.it/2026/09/29/limite-prezzo-carburanti-aziende-energetiche-eni-ip-q8/?homepagePosition=3.1&referrerPost=3705467",
+      "source": "ilpost.it",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-13abdc149d0a",
+      "title": "Gas Prices Not Budging Much as Crude Oil Remains High – Western Kansas News",
+      "url": "https://www.westernkansasnews.com/gas-prices-not-budging-much-as-crude-oil-remains-high/",
+      "source": "westernkansasnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-250324a752ef",
+      "title": "Baku hosted 7th CICA Summit , President Ilham Aliyev addressed the event",
+      "url": "https://en.apa.az/official-news/baku-hosted-7th-cica-summit-president-ilham-aliyev-addressed-the-event-updated-5-530173",
+      "source": "en.apa.az",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9f5767739ac6",
+      "title": "Making every barrel count in a volatile commodity environment",
+      "url": "https://oilreviewmiddleeast.com/industry/making-every-barrel-count-in-a-volatile-commodity-environment",
+      "source": "oilreviewmiddleeast.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4f1985075597",
+      "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
+      "url": "http://www.mainemirror.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
+      "source": "mainemirror.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-beb473b2501e",
+      "title": "Saudi Arabia and Egypt forge strategic oil storage pact",
+      "url": "https://oilreviewmiddleeast.com/industry/saudi-arabia-and-egypt-forge-strategic-oil-storage-pact",
+      "source": "oilreviewmiddleeast.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c4ac4f76711a",
+      "title": "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump",
+      "url": "https://www.wellandtribune.ca/news/world/europe/ukraine-abandons-truce-and-attacks-russian-oil-refinery-as-zelenskyy-says-he-feels-betrayed-by-trump/article_0aa9a291-7bea-5b4d-a60d-3e80f151d9b3.html",
+      "source": "wellandtribune.ca",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b21ec52c99a8",
+      "title": "Ölversorgung vor der Wende ?: Nach dem Öl - Schock : Saudi - Arabien schickt wieder Tanker nach Europa | wallstreetONLINE",
+      "url": "https://www.wallstreet-online.de/nachricht/21530779-oelversorgung-wende-oel-schock-saudi-arabien-schickt-tanker-europa",
+      "source": "wallstreet-online.de",
+      "source_type": "news",
+      "published_at": "2026-10-15T19:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -553,210 +749,6 @@
       "published_at": "2026-10-15T15:30:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-73249339d8a1",
-      "title": "Euro scende ai nuovi minimi contro dollaro e sterlina nonostante rialzi BCE",
-      "url": "https://it.euronews.com/2026/10/15/euro-scende-ai-nuovi-minimi-contro-dollaro-e-sterlina-nonostante-rialzi-bce",
-      "source": "it.euronews.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0d2e3307fe1f",
-      "title": "8 món đồ gia dụng đang bán rất chạy trên mạng nhưng mua về mới thấy phí tiền : Có món nhìn tiện đến mức ai cũng dễ xuống tiền",
-      "url": "https://afamily.vn/8-mon-do-gia-dung-dang-ban-rat-chay-tren-mang-nhung-mua-ve-moi-thay-phi-tien-co-mon-nhin-tien-den-muc-ai-cung-de-xuong-tien-236261012095811131.chn",
-      "source": "afamily.vn",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-30ff6a8ee154",
-      "title": "Bank of America : Χωρίς εύκολη λύση η κρίση στο ντίζελ - Κίνδυνος νέων αυξήσεων ενόψει του χειμώνα",
-      "url": "https://www.iefimerida.gr/oikonomia/bank-america-horis-eykoli-lysi-i-krisi-sto-ntizel-kindynos-neon-ayxiseon-enopsei-toy",
-      "source": "iefimerida.gr",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b7b8bf9815be",
-      "title": "Dólar hoy amaneció más cerca de $ 3 . 100 : explican por qué tuvo otra caída",
-      "url": "https://www.pulzo.com/economia/dolar-hoy-amanecio-mas-cerca--3100-explican-que-tuvo-otra-caida-PP5330800A",
-      "source": "pulzo.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-93143cc42ad7",
-      "title": "Ukraine resumes attacks on Russian oil refineries , officials say",
-      "url": "https://www.sandiegouniontribune.com/2026/10/15/ukraine-resumes-attacks-russian-oil-refineries/",
-      "source": "sandiegouniontribune.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d4d90ed57984",
-      "title": "The global economy and the art of living dangerously",
-      "url": "https://www.irishtimes.com/business/economy/2026/10/15/the-global-economy-and-the-art-of-living-dangerously/",
-      "source": "irishtimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-637d87605788",
-      "title": "Washington : Trump stoppt Livestream einer Hinrichtung",
-      "url": "https://www.bbv-net.de/ueberregionales/keine-liveuebertragung-einer-hinrichtung-trump-sagt-geplanten-livestream-in-texas-ab-15-oktober-2026-w1246014-6000624223/",
-      "source": "bbv-net.de",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-81f2c7252a60",
-      "title": "Fitch Ratings prevé que el crudo Brent termine el año en US$87",
-      "url": "https://www.elnuevosiglo.com.co/economia/fitch-ratings-preve-que-el-crudo-brent-termine-el-ano-en-us87",
-      "source": "elnuevosiglo.com.co",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7e2ef8a953a6",
-      "title": "IEA will Ölreserven schneller freigeben",
-      "url": "https://www.wallstreet-online.de/nachricht/21531340-iea-oelreserven-schneller-freigeben",
-      "source": "wallstreet-online.de",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1208c722821c",
-      "title": "美联储加息预期升温 ， 难改A股中长期运行趋势 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610153897191777.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:30:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-41d5aa5815c2",
-      "title": "سعر الجنيه الذهب اليوم في مصر .. 49600 جنيه وعيار 18 يسجل 5314 جنيهًا",
-      "url": "https://www.dostor.org/5740703",
-      "source": "dostor.org",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-433eabdc9100",
-      "title": "Gold price today : Gold rate recovers after consecutive losses but there is a concern . Details here",
-      "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-recovers-after-consecutive-losses-but-there-is-a-concern-details-here/articleshow/134969502.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:30:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
