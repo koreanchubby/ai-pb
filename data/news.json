@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T21:48:03Z",
+  "generated_at": "2026-10-15T22:45:42Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -80,6 +79,32 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-249b07697a35",
+      "title": "미국 10년물 국채금리 5.1% (직전 대비 -0.09%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-10-15T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.1,
+        "previous": 5.19,
+        "change": -0.09,
+        "unit": "%",
+        "date": "2026-10-15",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
     },
     {
       "id": "market-ddffd3503720",
@@ -133,32 +158,6 @@
       }
     },
     {
-      "id": "market-4a47ac87e46e",
-      "title": "미국 10년물 국채금리 5.19% (직전 대비 -0.02%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-10-14T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.19,
-        "previous": 5.21,
-        "change": -0.02,
-        "unit": "%",
-        "date": "2026-10-14",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
-      }
-    },
-    {
       "id": "market-a51e8ef385f2",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
@@ -182,6 +181,60 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-7e758cabfa47",
+      "title": "뉴욕증시 , 국채금리 하락에 일제히 상승 마감 … 기술주는  주춤",
+      "url": "https://www.heraldk.com/article/2026101514071485136",
+      "source": "heraldk.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "semis",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e0dc60d587ab",
+      "title": "Oct 15 : Sensex Soars 1 , 500 Pts as Global Yield Relief , Jio IPO Buzz , Banking Rally Lift Markets – The Indian Awaaz",
+      "url": "https://theindianawaaz.com/oct-15-sensex-soars-1500-pts-as-global-yield-relief-jio-ipo-buzz-banking-rally-lift-markets/",
+      "source": "theindianawaaz.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "semis",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e3c617f7d60d",
+      "title": "뉴욕증시 , 국채금리 하락에 일제히 상승 마감 … 다우 1 % 대 강세",
+      "url": "https://biz.heraldcorp.com/article/10904297",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:30:00Z",
+      "categories": [
+        "semis",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-a55a546e07ab",
@@ -267,6 +320,193 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8b98b103e049",
+      "title": "[ 미국 특징주 ] 메타  뮤즈  돌풍에도 월가  진짜 승자는 반도체주",
+      "url": "https://www.newspim.com/news/view/20261008001404",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-77512c156966",
+      "title": "삼전 · 닉스 PER  역사적 저점 … 역대급 실적에도 外人 왜 파나",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/10/16/QERUJ5DH7BD6ZNKW2YBTCP5MNY/",
+      "source": "biz.chosun.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e985f0b5ea6f",
+      "title": "Dow leads US stock rebound . Indices snatch victory from the jaws of defeat .",
+      "url": "https://investinglive.com/stocks/dow-leads-us-stock-rebound-indices-snatch-victory-from-the-jaws-of-defeat/",
+      "source": "investinglive.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-eeea92f1d26c",
+      "title": "뉴욕증시 , 헬스케어 강세 속 반등 … 다우 1 . 08 % ↑",
+      "url": "https://www.newspim.com/news/view/20261016000030",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d49618afa42e",
+      "title": "Do This Before You Buy Another  Trump Stock …",
+      "url": "https://investorplace.com/dailylive/2026/10/do-this-before-you-buy-another-trump-stock/",
+      "source": "investorplace.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7dbaf491b285",
+      "title": "TSMC Q3 FY26 posts sixth consecutive record profits quarter , beating expectations",
+      "url": "https://www.shacknews.com/article/151022/tsmc-q3-fy26-earnings-results",
+      "source": "shacknews.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fbf4cefff32d",
+      "title": "Nikkei Plunges 3 , 318 Points as AI Selloff Shakes Tokyo",
+      "url": "https://newsonjapan.com/article/151072.php",
+      "source": "newsonjapan.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-649e785cbe04",
+      "title": "What SpaceX $40 Billion Nvidia Chip Plan Says About the AI Boom",
+      "url": "https://investorplace.com/hypergrowthinvesting/2026/10/what-spacexs-40-billion-nvidia-chip-plan-says-about-the-ai-boom/",
+      "source": "investorplace.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8938840ab5b8",
+      "title": "Wall Street muscles higher despite more swings for AI stocks",
+      "url": "http://www.postregister.com/businessreport/business/wall-street-muscles-higher-despite-more-swings-for-ai-stocks/article_28ee648d-7a69-582a-bcd3-8416294c56f3.html",
+      "source": "postregister.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b587f3aff4b0",
+      "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
+      "url": "https://www.fool.com/investing/2026/10/15/3-chip-stocks-to-buy-before-big-tech-reports-its-spending-plans/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-54950b556836",
+      "title": "New DRAM Demand Source Could Surge 20 - Fold By 2030",
+      "url": "https://www.zerohedge.com/technology/new-dram-demand-source-could-surge-20-fold-2030",
+      "source": "zerohedge.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -520,244 +760,6 @@
       "published_at": "2026-10-15T19:00:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ddcb48f90039",
-      "title": "Κ . Πιερρακάκης στο Atlantic Council : Η δημοσιονομική αξιοπιστία είναι ...",
-      "url": "https://www.capital.gr/epikairotita/4023835/k-pierrakakis-sto-atlantic-council-i-dimosionomiki-axiopistia-einai-ethniki-isxus-kai-apotelei-stratigiko-poro/",
-      "source": "capital.gr",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b60b70c9f1b6",
-      "title": "Cosa c  è dietro al limite al prezzo dei carburanti di Eni , IP e Q8",
-      "url": "https://www.ilpost.it/2026/09/29/limite-prezzo-carburanti-aziende-energetiche-eni-ip-q8/?homepagePosition=3.1&referrerPost=3705467",
-      "source": "ilpost.it",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-13abdc149d0a",
-      "title": "Gas Prices Not Budging Much as Crude Oil Remains High – Western Kansas News",
-      "url": "https://www.westernkansasnews.com/gas-prices-not-budging-much-as-crude-oil-remains-high/",
-      "source": "westernkansasnews.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-250324a752ef",
-      "title": "Baku hosted 7th CICA Summit , President Ilham Aliyev addressed the event",
-      "url": "https://en.apa.az/official-news/baku-hosted-7th-cica-summit-president-ilham-aliyev-addressed-the-event-updated-5-530173",
-      "source": "en.apa.az",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9f5767739ac6",
-      "title": "Making every barrel count in a volatile commodity environment",
-      "url": "https://oilreviewmiddleeast.com/industry/making-every-barrel-count-in-a-volatile-commodity-environment",
-      "source": "oilreviewmiddleeast.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4f1985075597",
-      "title": "Saudis Accuse Iran Of Encouraging Houthi Attacks On Riyadh",
-      "url": "http://www.mainemirror.com/news/279376768/saudis-accuse-iran-of-encouraging-houthi-attacks-on-riyadh",
-      "source": "mainemirror.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-beb473b2501e",
-      "title": "Saudi Arabia and Egypt forge strategic oil storage pact",
-      "url": "https://oilreviewmiddleeast.com/industry/saudi-arabia-and-egypt-forge-strategic-oil-storage-pact",
-      "source": "oilreviewmiddleeast.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c4ac4f76711a",
-      "title": "Ukraine abandons truce and attacks Russian oil refinery as Zelenskyy says he feels betrayed by Trump",
-      "url": "https://www.wellandtribune.ca/news/world/europe/ukraine-abandons-truce-and-attacks-russian-oil-refinery-as-zelenskyy-says-he-feels-betrayed-by-trump/article_0aa9a291-7bea-5b4d-a60d-3e80f151d9b3.html",
-      "source": "wellandtribune.ca",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b21ec52c99a8",
-      "title": "Ölversorgung vor der Wende ?: Nach dem Öl - Schock : Saudi - Arabien schickt wieder Tanker nach Europa | wallstreetONLINE",
-      "url": "https://www.wallstreet-online.de/nachricht/21530779-oelversorgung-wende-oel-schock-saudi-arabien-schickt-tanker-europa",
-      "source": "wallstreet-online.de",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2395e19601b6",
-      "title": "Sipeed reveals Chinese - made DGX Spark and Ryzen AI Halo rival , expected to cost $3 , 999 MaixStation pairs Axera AX8860P with 128GB of LPDDR5X at 273 GB / s , with promising local AI performance claims",
-      "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
-      "source": "tomshardware.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bb7978b12574",
-      "title": "Googlebooks from Dell , Lenovo , and HP tested : Nice hardware , but the OS isnt ready yet",
-      "url": "https://www.tomshardware.com/laptops/googlebooks-from-dell-lenovo-and-hp-tested-nice-hardware-but-the-os-isnt-ready-yet",
-      "source": "tomshardware.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c62fbe7a89cc",
-      "title": "Chip Stock Selloff Deepens in Asia , Extends to Europe and US",
-      "url": "https://www.morningstar.com/stocks/chip-stock-selloff-deepens-asia-extends-europe-us",
-      "source": "morningstar.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-38e029b32fe3",
-      "title": "Micron ( MU ): Can Data Center Storage Become Another Durable Profit Engine ?",
-      "url": "https://www.insidermonkey.com/news/micron-mu-can-data-center-storage-become-another-durable-profit-engine-1854620/",
-      "source": "insidermonkey.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-13e3a0cf555b",
-      "title": "10 Most Active Blue Chip Stocks to Buy Right Now",
-      "url": "https://www.insidermonkey.com/news/10-most-active-blue-chip-stocks-to-buy-right-now-1854755/",
-      "source": "insidermonkey.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
