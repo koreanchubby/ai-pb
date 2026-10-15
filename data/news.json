@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T13:56:46Z",
+  "generated_at": "2026-10-15T14:50:44Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -184,6 +184,24 @@
       }
     },
     {
+      "id": "news-eb728bb5096f",
+      "title": "Les actions et le dollar reculent alors que la chute du secteur technologique saccentue - 15 / 10 / 2026 à 15 : 46",
+      "url": "https://www.boursorama.com/bourse/actualites/les-actions-et-le-dollar-reculent-alors-que-la-chute-du-secteur-technologique-s-accentue-8cb651b2f6da4ec1863e87f37fb2f041",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:15:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-b2c50a38249d",
       "title": "Samsung Stock Plunges Nearly 10 % as Kospi Triggers Circuit Breaker on China Chip Threat and Hot US Inflation",
       "url": "https://www.ibtimes.com.au/samsung-shares-south-korea-chip-selloff-circuit-breakers-1876747",
@@ -195,6 +213,142 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-41d5aa5815c2",
+      "title": "سعر الجنيه الذهب اليوم في مصر .. 49600 جنيه وعيار 18 يسجل 5314 جنيهًا",
+      "url": "https://www.dostor.org/5740703",
+      "source": "dostor.org",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-433eabdc9100",
+      "title": "Gold price today : Gold rate recovers after consecutive losses but there is a concern . Details here",
+      "url": "https://economictimes.indiatimes.com/news/international/us/gold-price-today-gold-rate-recovers-after-consecutive-losses-but-there-is-a-concern-details-here/articleshow/134969502.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1208c722821c",
+      "title": "美联储加息预期升温 ， 难改A股中长期运行趋势 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610153897191777.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a3ee38fa300a",
+      "title": "Les régulateurs bancaires sinquiètent des prédictions apocalyptiques liées à lIA",
+      "url": "https://www.fredzone.org/les-regulateurs-bancaires-sinquietent-des-predictions-apocalyptiques-liees-a-lia/",
+      "source": "fredzone.org",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-153380e9549d",
+      "title": "Why Is Crypto Down Today ? Nearly $1 Billion in Leveraged Positions Just Got Wiped Out .",
+      "url": "https://247wallst.com/investing/cryptocurrency/2026/10/15/why-is-crypto-down-today-nearly-1-billion-in-leveraged-positions-just-got-wiped-out/",
+      "source": "247wallst.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-41cbf7db688d",
+      "title": "IMF Bank : จับตา เควิน วอร์ช ขึ้นเวที IMF พรุ่งนี้",
+      "url": "https://www.ryt9.com/s/iq/12850446",
+      "source": "ryt9.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bab9f8d166bb",
+      "title": "Drops in AI stocks hit Wall Street after dragging other markets lower",
+      "url": "https://www.timescall.com/2026/10/15/inflation-anxiety-wall-street/",
+      "source": "timescall.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-026b67868c0b",
+      "title": "Wholesale inflation jumped last month by most in four years",
+      "url": "https://www.timescall.com/2026/10/15/wholesale-inflation-september/",
+      "source": "timescall.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -599,159 +753,6 @@
       "source": "theglobeandmail.com",
       "source_type": "news",
       "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-89843e62bc9c",
-      "title": "每天净赚4亿 ， 阿斯麦仍有烦恼",
-      "url": "https://www.163.com/dy/article/L9A7P0030531MRZO.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T11:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cb02be2f27df",
-      "title": "2026年旗舰手机性能排行榜怎么选 ： 四款新机按芯片 、 屏幕 、 续航 、 影像对照+FAQ - 热点资讯 - ITBear科技资讯",
-      "url": "https://www.itbear.com.cn/html/2026-10/1574586.html",
-      "source": "itbear.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-15T11:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d9425a70cd81",
-      "title": "Taiwan chipmaker TSMC explores Texas investment to expand production in the US",
-      "url": "http://www.sitkasentinel.com/stories/taiwan-chipmaker-tsmc-explores-texas-investment-to-expand-production-in-the-us,178788",
-      "source": "sitkasentinel.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T11:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-254afe1ad8ee",
-      "title": "光刻机巨头业绩爆发 ， 订单已谈到2030年",
-      "url": "https://www.163.com/dy/article/L9A98N0805199NPP.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T11:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f243da635c9e",
-      "title": "《 匯市 》 外資大逃殺 ！ 台幣重貶1 . 92角 爆70億美元天量 - 財經",
-      "url": "https://www.chinatimes.com/realtimenews/20261015003774-260410",
-      "source": "chinatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9652ee95e1a4",
-      "title": "뜨거웠던 코스피 , 5500까지 폭락 … 전문가들도  하단 예측 어려워",
-      "url": "https://www.newspim.com/news/view/20261015001234",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-552c3a220e6f",
-      "title": "This AI Chip Stock Has Been Billionaire Philippe Laffont Largest Holding Throughout 2026 . Here What $10 , 000 Invested Today Could Be Worth by 2030 .",
-      "url": "https://www.aol.com/articles/ai-chip-stock-billionaire-philippe-085000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-564090d13a32",
-      "title": "A tech sell - off drags Asian stocks lower as markets in South Korea and Japan sink",
-      "url": "https://www.mankatofreepress.com/news/business/a-tech-sell-off-drags-asian-stocks-lower-as-markets-in-south-korea-and-japan/article_beb2bcee-7d21-543d-a9e3-e8451a39d41c.html",
-      "source": "mankatofreepress.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c455277205ba",
-      "title": "2 Glorious Growth Stocks to Buy Hand Over Fist If the Stock Market Crashes",
-      "url": "https://www.aol.com/articles/2-glorious-growth-stocks-buy-092200000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
       "categories": [
         "semis"
       ],
