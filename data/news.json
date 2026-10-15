@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T19:45:23Z",
+  "generated_at": "2026-10-15T20:49:29Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -31,8 +31,8 @@
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "한국투자증권",
@@ -107,6 +107,32 @@
       }
     },
     {
+      "id": "market-3c7a10536f9c",
+      "title": "WTI 원유 가격 101.91달러 (직전 대비 +1.05달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-14T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 101.91,
+        "previous": 100.86,
+        "change": 1.05,
+        "unit": "달러",
+        "date": "2026-10-14",
+        "alert_threshold": 3.0,
+        "indicator": "wti"
+      }
+    },
+    {
       "id": "market-4a47ac87e46e",
       "title": "미국 10년물 국채금리 5.19% (직전 대비 -0.02%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -133,14 +159,14 @@
       }
     },
     {
-      "id": "market-5312c358265a",
-      "title": "WTI 원유 가격 96.24달러 (직전 대비 +0.11달러)",
-      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "source": "FRED",
+      "id": "market-a51e8ef385f2",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-06T00:00:00Z",
+      "published_at": "2026-10-07T15:00:00Z",
       "categories": [
-        "oil"
+        "rates"
       ],
       "importance": 5,
       "facts": null,
@@ -149,14 +175,31 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 96.24,
-        "previous": 96.13,
-        "change": 0.11,
-        "unit": "달러",
-        "date": "2026-10-06",
-        "alert_threshold": 3.0,
-        "indicator": "wti"
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261008",
+        "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-a55a546e07ab",
+      "title": "Iran War Day 230 : U . S . Considering Use of  Mother of All Bomb on Iran , Per Report",
+      "url": "https://www.theamericanconservative.com/iran-war-day-230-u-s-considering-use-of-mother-of-all-bombs-on-iran-per-report/",
+      "source": "theamericanconservative.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-49f2d2d34dd3",
@@ -224,6 +267,193 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-647a92f6e419",
+      "title": "Sono arrivati gli  mpanicati della benzina",
+      "url": "https://www.strettoweb.com/2026/10/sono-arrivati-gli-mpanicati-della-benzina/2161375/",
+      "source": "strettoweb.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-74aa0d6d4a46",
+      "title": "Peso hits record - low 63 . 06 vs greenback",
+      "url": "https://tribune.net.ph/2026/10/15/peso-hits-record-low-6306-vs-greenback",
+      "source": "tribune.net.ph",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4a0db46ba9d7",
+      "title": "Κυριάκος Πιερρακάκης στο Atlantic Council : « Η δημοσιονομική αξιοπιστία είναι εθνική ισχύς . Και αποτελεί στρατηγικό πόρο »",
+      "url": "https://newpost.gr/eidiseis/kyriakos-pierrakakis-sto-atlantic-council-i-dimosionomiki-axiopistia-einai-ethniki-ischys-kai-apotelei-stratigiko-poro/",
+      "source": "newpost.gr",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-795b5e7dd11c",
+      "title": "investingLive Americas market news wrap : Yields continue to fall even after hot PPI data",
+      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-yields-continue-to-fall-even-after-hot-ppi-data/",
+      "source": "investinglive.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-89b867bf0916",
+      "title": "Orlen zapłaci ekstra podatek w kolejnym kraju ?  To zagrożenie dla stosunków z Polską",
+      "url": "https://www.wnp.pl/energia/orlen-zaplaci-dodatkowy-podatek-w-kolejnym-kraju-to-zagrozenie-dla-stosunkow-z-polska,1109552.html",
+      "source": "wnp.pl",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-25370844a6e7",
+      "title": "ConocoPhillips $COP Stock Sold by Ninety One SA Pty Ltd",
+      "url": "https://www.dailypolitical.com/2026/10/15/conocophillips-cop-stock-sold-by-ninety-one-sa-pty-ltd.html",
+      "source": "dailypolitical.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c3b5b94d90f2",
+      "title": "How Aramco learned to keep pumping oil under fire",
+      "url": "https://arynews.tv/how-aramco-learned-to-keep-pumping-oil-under-fire",
+      "source": "arynews.tv",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bec8fdfdbf7b",
+      "title": "Crude oil futures settle at $97 . 97 . Highest level since mid - September .",
+      "url": "https://investinglive.com/commodities/crude-oil-futures-settle-at-97-97/",
+      "source": "investinglive.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3b15a5734634",
+      "title": "Con cosa sostituiscono il prosciutto Italia caos nelle mense",
+      "url": "https://www.zazoom.it/2026-10-15/con-cosa-sostituiscono-il-prosciutto-italia-caos-nelle-mense-e-successo/19805531/",
+      "source": "zazoom.it",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dc475147b53e",
+      "title": "Nigeria September Inflation Falls to 14 . 63 %",
+      "url": "https://www.riotimesonline.com/nigeria-september-inflation-14-63-2026/",
+      "source": "riotimesonline.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e7c1642e3d6b",
+      "title": "La industria cayó en agosto y usó apenas el 58 , 5 % de su capacidad instalada , según INDEC",
+      "url": "https://www.cronica.com.ar/politica/la-industria-cayo-en-agosto-y-uso-apenas-el-58-5-de-su-capacidad-instalada/",
+      "source": "cronica.com.ar",
+      "source_type": "news",
+      "published_at": "2026-10-15T20:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -528,227 +758,6 @@
       "published_at": "2026-10-15T16:15:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-39bf0d03049d",
-      "title": "法国人工智能专家郝睿德点赞成都脑机接口产业 ： 在成都 ， 我们看见了可能",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-10-15/doc-iniviqxx7245609.shtml",
-      "source": "finance.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-63eddab18821",
-      "title": "Apple ( AAPL ): Can Longer iPhone Ownership Still Produce More Profit per Customer ?",
-      "url": "https://www.insidermonkey.com/news/apple-aapl-can-longer-iphone-ownership-still-produce-more-profit-per-customer-1854608/",
-      "source": "insidermonkey.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2affb8044000",
-      "title": "Intel Shares Slide Amid Israel Plant Explosion and Sector Sell - Off",
-      "url": "https://www.ibtimes.com.au/intel-shares-fall-after-israel-plant-explosion-1876781",
-      "source": "ibtimes.com.au",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8ae178395570",
-      "title": "Markets today : AI stocks keep falling , but U . S . indexes stay records",
-      "url": "https://www.bnnbloomberg.ca/markets/2026/10/15/more-drops-for-ai-stocks-drag-wall-street-lower-after-whipping-around-the-world/",
-      "source": "bnnbloomberg.ca",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cdd3f4be42fa",
-      "title": "Micron Stock Has Some Eye - Popping Analyst Targets . Here My Price Prediction",
-      "url": "https://www.aol.com/articles/micron-stock-eye-popping-analyst-153043000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-97f937c79b80",
-      "title": "AI stocks keep falling , but the rest of the market is supporting Wall Street",
-      "url": "http://www.idahopress.com/ap_news/us/ai-stocks-keep-falling-but-the-rest-of-the-market-is-supporting-wall-street/article_9c38bca6-d81a-5f95-8dd7-d4345dd7be44.html",
-      "source": "idahopress.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e92aadf9e093",
-      "title": "Taiwan chipmaker TSMC explores Texas investment to expand US production",
-      "url": "https://www.capitalgazette.com/2026/10/15/taiwan-chipmaker-tsmc-texas/",
-      "source": "capitalgazette.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6a0bd549eb19",
-      "title": "Chipraset är redan här – men hur djupt blir det denna gång ?",
-      "url": "https://www.dagensps.se/bors-finans/chipraset-ar-redan-har-men-hur-djupt-blir-det-denna-gang/",
-      "source": "dagensps.se",
-      "source_type": "news",
-      "published_at": "2026-10-15T16:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c1541aa20ad2",
-      "title": "How Windows is being optimized for Nvidia RTX Spark laptops",
-      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
-      "source": "theverge.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3e5ab4d609fa",
-      "title": "Sensex closes 1 , 534 points higher , Nifty gains 1 . 66 % as global sell - off in AI heavy markets improves India relative appeal",
-      "url": "http://www.mexicostar.com/news/279376269/sensex-closes-1534-points-higher-nifty-gains-166-as-global-sell-off-in-ai-heavy-markets-improves-india-relative-appeal",
-      "source": "mexicostar.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3a2cb8885779",
-      "title": "Ukraine resumes attacks on Russian oil refineries , officials say , as US relations teeter",
-      "url": "https://bendbulletin.com/2026/10/15/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-as-us-relations-teeter/",
-      "source": "bendbulletin.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9145f862829e",
-      "title": "Aramco CEO Warns Oil Squeeze is Serious",
-      "url": "https://www.rigzone.com/news/aramco_ceo_warns_oil_squeeze_is_serious-15-oct-2026-184859-article/",
-      "source": "rigzone.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06bf8e357bdd",
-      "title": "New Lithium Operation Opens In America For The First Time Since The  60s",
-      "url": "https://www.slashgear.com/2286481/america-new-lithium-mining-operation-element3/",
-      "source": "slashgear.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T15:30:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
