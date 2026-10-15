@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T15:51:46Z",
+  "generated_at": "2026-10-15T16:51:49Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 21
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -249,6 +249,244 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2395e19601b6",
+      "title": "Sipeed reveals Chinese - made DGX Spark and Ryzen AI Halo rival , expected to cost $3 , 999 MaixStation pairs Axera AX8860P with 128GB of LPDDR5X at 273 GB / s , with promising local AI performance claims",
+      "url": "https://www.tomshardware.com/desktops/mini-pcs/sipeed-reveals-chinese-made-dgx-spark-and-ryzen-ai-halo-rival-expected-to-cost-usd3-999-maixstation-pairs-axeras-ax8860p-with-128gb-of-lpddr5x-at-273-gb-s-with-promising-local-ai-performance-claims",
+      "source": "tomshardware.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bb7978b12574",
+      "title": "Googlebooks from Dell , Lenovo , and HP tested : Nice hardware , but the OS isnt ready yet",
+      "url": "https://www.tomshardware.com/laptops/googlebooks-from-dell-lenovo-and-hp-tested-nice-hardware-but-the-os-isnt-ready-yet",
+      "source": "tomshardware.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c62fbe7a89cc",
+      "title": "Chip Stock Selloff Deepens in Asia , Extends to Europe and US",
+      "url": "https://www.morningstar.com/stocks/chip-stock-selloff-deepens-asia-extends-europe-us",
+      "source": "morningstar.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-38e029b32fe3",
+      "title": "Micron ( MU ): Can Data Center Storage Become Another Durable Profit Engine ?",
+      "url": "https://www.insidermonkey.com/news/micron-mu-can-data-center-storage-become-another-durable-profit-engine-1854620/",
+      "source": "insidermonkey.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-13e3a0cf555b",
+      "title": "10 Most Active Blue Chip Stocks to Buy Right Now",
+      "url": "https://www.insidermonkey.com/news/10-most-active-blue-chip-stocks-to-buy-right-now-1854755/",
+      "source": "insidermonkey.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-39bf0d03049d",
+      "title": "法国人工智能专家郝睿德点赞成都脑机接口产业 ： 在成都 ， 我们看见了可能",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-15/doc-iniviqxx7245609.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-63eddab18821",
+      "title": "Apple ( AAPL ): Can Longer iPhone Ownership Still Produce More Profit per Customer ?",
+      "url": "https://www.insidermonkey.com/news/apple-aapl-can-longer-iphone-ownership-still-produce-more-profit-per-customer-1854608/",
+      "source": "insidermonkey.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2affb8044000",
+      "title": "Intel Shares Slide Amid Israel Plant Explosion and Sector Sell - Off",
+      "url": "https://www.ibtimes.com.au/intel-shares-fall-after-israel-plant-explosion-1876781",
+      "source": "ibtimes.com.au",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8ae178395570",
+      "title": "Markets today : AI stocks keep falling , but U . S . indexes stay records",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/10/15/more-drops-for-ai-stocks-drag-wall-street-lower-after-whipping-around-the-world/",
+      "source": "bnnbloomberg.ca",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cdd3f4be42fa",
+      "title": "Micron Stock Has Some Eye - Popping Analyst Targets . Here My Price Prediction",
+      "url": "https://www.aol.com/articles/micron-stock-eye-popping-analyst-153043000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-97f937c79b80",
+      "title": "AI stocks keep falling , but the rest of the market is supporting Wall Street",
+      "url": "http://www.idahopress.com/ap_news/us/ai-stocks-keep-falling-but-the-rest-of-the-market-is-supporting-wall-street/article_9c38bca6-d81a-5f95-8dd7-d4345dd7be44.html",
+      "source": "idahopress.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e92aadf9e093",
+      "title": "Taiwan chipmaker TSMC explores Texas investment to expand US production",
+      "url": "https://www.capitalgazette.com/2026/10/15/taiwan-chipmaker-tsmc-texas/",
+      "source": "capitalgazette.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6a0bd549eb19",
+      "title": "Chipraset är redan här – men hur djupt blir det denna gång ?",
+      "url": "https://www.dagensps.se/bors-finans/chipraset-ar-redan-har-men-hur-djupt-blir-det-denna-gang/",
+      "source": "dagensps.se",
+      "source_type": "news",
+      "published_at": "2026-10-15T16:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c1541aa20ad2",
+      "title": "How Windows is being optimized for Nvidia RTX Spark laptops",
+      "url": "https://www.theverge.com/tech/1011996/microsoft-windows-rtx-spark-platform-changes-notepad",
+      "source": "theverge.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -519,244 +757,6 @@
       "published_at": "2026-10-15T14:30:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-33971f53d34f",
-      "title": "美联储加息预期升温 ， 难改A股中长期运行趋势",
-      "url": "https://www.stcn.com/article/detail/4221185.html",
-      "source": "stcn.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a3ee38fa300a",
-      "title": "Les régulateurs bancaires sinquiètent des prédictions apocalyptiques liées à lIA",
-      "url": "https://www.fredzone.org/les-regulateurs-bancaires-sinquietent-des-predictions-apocalyptiques-liees-a-lia/",
-      "source": "fredzone.org",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-153380e9549d",
-      "title": "Why Is Crypto Down Today ? Nearly $1 Billion in Leveraged Positions Just Got Wiped Out .",
-      "url": "https://247wallst.com/investing/cryptocurrency/2026/10/15/why-is-crypto-down-today-nearly-1-billion-in-leveraged-positions-just-got-wiped-out/",
-      "source": "247wallst.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-41cbf7db688d",
-      "title": "IMF Bank : จับตา เควิน วอร์ช ขึ้นเวที IMF พรุ่งนี้",
-      "url": "https://www.ryt9.com/s/iq/12850446",
-      "source": "ryt9.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bab9f8d166bb",
-      "title": "Drops in AI stocks hit Wall Street after dragging other markets lower",
-      "url": "https://www.timescall.com/2026/10/15/inflation-anxiety-wall-street/",
-      "source": "timescall.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-026b67868c0b",
-      "title": "Wholesale inflation jumped last month by most in four years",
-      "url": "https://www.timescall.com/2026/10/15/wholesale-inflation-september/",
-      "source": "timescall.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8abbf9632154",
-      "title": "Adobe Rebuilt Photoshop And Premiere For NVIDIA RTX Spark Platform",
-      "url": "https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark/",
-      "source": "engadget.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-902b712245f2",
-      "title": "Futures Pointing To Continued Weakness On Wall Street",
-      "url": "https://www.rttnews.com/3699411/futures-pointing-to-continued-weakness-on-wall-street.aspx",
-      "source": "rttnews.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3906cf4e0466",
-      "title": "Google Pixel 11 Pro Review : Cool Camera , but Is That Still Enough for the Price ?",
-      "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-pro-review",
-      "source": "businessinsider.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-35951a8a5195",
-      "title": "Jim Cramer top 10 things to watch in the stock market Thursday",
-      "url": "https://www.cnbc.com/investingclub/2026/10/15/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
-      "source": "cnbc.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d06f05c69670",
-      "title": "Inflation anxiety drags on AI stocks as markets point to a mixed open",
-      "url": "https://www.canoncitydailyrecord.com/2026/10/15/inflation-anxiety-wall-street/",
-      "source": "canoncitydailyrecord.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7754f73b8bda",
-      "title": "Memory stocks get hit . China and oversupply are the big worries",
-      "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
-      "source": "cnbc.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-53bf235dc7e7",
-      "title": "Advanced Micro Devices vs . Arm : Which Tech Stock Is a Better Buy in 2026 ?",
-      "url": "https://www.fool.com/coverage/better-buy/2026/10/15/advanced-micro-devices-vs-arm-which-tech-stock-is-a-better-buy-in-2026/",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-66b44dae4417",
-      "title": "Elon Musk Just Gave Investors Another Reason to Buy Micron Stock",
-      "url": "https://www.fool.com/investing/2026/10/15/elon-musk-just-gave-investors-another-reason-to-bu/",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
