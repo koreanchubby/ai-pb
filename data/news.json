@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T13:03:23Z",
+  "generated_at": "2026-10-15T13:56:46Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 18
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -195,6 +195,244 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8abbf9632154",
+      "title": "Adobe Rebuilt Photoshop And Premiere For NVIDIA RTX Spark Platform",
+      "url": "https://www.engadget.com/2287388/adobe-rebuilt-photoshop-and-premiere-for-nvidia-rtx-spark/",
+      "source": "engadget.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-902b712245f2",
+      "title": "Futures Pointing To Continued Weakness On Wall Street",
+      "url": "https://www.rttnews.com/3699411/futures-pointing-to-continued-weakness-on-wall-street.aspx",
+      "source": "rttnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3906cf4e0466",
+      "title": "Google Pixel 11 Pro Review : Cool Camera , but Is That Still Enough for the Price ?",
+      "url": "https://www.businessinsider.com/guides/tech/google-pixel-11-pro-review",
+      "source": "businessinsider.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-35951a8a5195",
+      "title": "Jim Cramer top 10 things to watch in the stock market Thursday",
+      "url": "https://www.cnbc.com/investingclub/2026/10/15/jim-cramers-top-10-things-to-watch-in-the-stock-market-thursday.html",
+      "source": "cnbc.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d06f05c69670",
+      "title": "Inflation anxiety drags on AI stocks as markets point to a mixed open",
+      "url": "https://www.canoncitydailyrecord.com/2026/10/15/inflation-anxiety-wall-street/",
+      "source": "canoncitydailyrecord.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7754f73b8bda",
+      "title": "Memory stocks get hit . China and oversupply are the big worries",
+      "url": "https://www.cnbc.com/2026/10/15/memory-stocks-micron-sk-hynix-samsung-china.html",
+      "source": "cnbc.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-53bf235dc7e7",
+      "title": "Advanced Micro Devices vs . Arm : Which Tech Stock Is a Better Buy in 2026 ?",
+      "url": "https://www.fool.com/coverage/better-buy/2026/10/15/advanced-micro-devices-vs-arm-which-tech-stock-is-a-better-buy-in-2026/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-66b44dae4417",
+      "title": "Elon Musk Just Gave Investors Another Reason to Buy Micron Stock",
+      "url": "https://www.fool.com/investing/2026/10/15/elon-musk-just-gave-investors-another-reason-to-bu/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aca827d8a8ab",
+      "title": "Thursday big Wall Street analyst calls like CoreWeave",
+      "url": "https://www.cnbc.com/2026/10/15/thursday-big-wall-street-analyst-calls-like-coreweave.html",
+      "source": "cnbc.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2a6f5c5b6945",
+      "title": "3 AI Infrastructure Stocks to Buy Right Now and Hold for 10 Years",
+      "url": "https://www.fool.com/investing/2026/10/15/ai-infrastructure-stocks-buy-now-hold-amd-tsmc/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0fd95c0b83d4",
+      "title": "Intel vs . Qualcomm : Which Tech Stock Is a Better Buy in 2026 ?",
+      "url": "https://www.fool.com/coverage/better-buy/2026/10/15/intel-vs-qualcomm-which-tech-stock-is-a-better-buy-in-2026/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-91e6929fb481",
+      "title": "护盘资金今天买了啥板块 ？",
+      "url": "https://stock.jrj.com.cn/2026/10/15203358734622.shtml",
+      "source": "stock.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a71c6872b00e",
+      "title": "Stock market today : S & P 500 , Nasdaq futures slip as semiconductor sell - off continues",
+      "url": "https://www.aol.com/articles/stock-market-today-p-500-122056000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3c3dfcce2400",
+      "title": "Korea Stock Market Is in Free Fall , and Hot U . S . Inflation Just Made It Worse",
+      "url": "https://www.aol.com/articles/korea-stock-market-free-fall-120017000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -512,91 +750,6 @@
       "title": "2 Glorious Growth Stocks to Buy Hand Over Fist If the Stock Market Crashes",
       "url": "https://www.aol.com/articles/2-glorious-growth-stocks-buy-092200000.html",
       "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6daea2d40e17",
-      "title": "History Suggests Micron Stock Will Crash and Take Decades to Recover . Is This Time Different ?",
-      "url": "https://www.aol.com/articles/history-suggests-micron-stock-crash-092000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5eab6fdea851",
-      "title": "The Stock Market Is Echoing a Warning From the Dot - Com Bubble , and History Says Investors Should Make This 1 Move",
-      "url": "https://www.aol.com/articles/stock-market-echoing-warning-dot-083000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a00de33ad6a4",
-      "title": "Warren Buffett and Broadcom CEO Issue a Similar Blunt Warning to Wall Street . Here What Investors Should Do Next , According to a Key Buffett Investing Principle .",
-      "url": "https://www.aol.com/articles/warren-buffett-broadcom-ceo-issue-081802000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-84d93158b783",
-      "title": "KOSPIde tarihi satış dalgası : Devre kesici uygulandı",
-      "url": "https://www.dunya.com/ekonomi/kospide-tarihi-satis-dalgasi-devre-kesici-uygulandi-haberi-843973",
-      "source": "dunya.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T10:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ff7b487f64eb",
-      "title": "韩国股市7天蒸发5 . 8万亿 中国长鑫新技术引发的惨剧 ？ _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610153896984814.html",
-      "source": "finance.eastmoney.com",
       "source_type": "news",
       "published_at": "2026-10-15T10:00:00Z",
       "categories": [
