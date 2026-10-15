@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T22:45:42Z",
+  "generated_at": "2026-10-15T23:42:04Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -183,6 +184,42 @@
       }
     },
     {
+      "id": "news-6ce1411c1138",
+      "title": "Dollar Wraps Its Worst Day in Over a Month on AI Risk Concerns",
+      "url": "https://www.livemint.com/market/dollar-wraps-its-worst-day-in-over-a-month-on-ai-risk-concerns-11792096933892.html",
+      "source": "livemint.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T23:00:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6ddc3aed4730",
+      "title": "USD rate : Why is US Dollar down from 18 - month peak ?",
+      "url": "https://economictimes.indiatimes.com/news/international/us/usd-rate-why-is-us-dollar-down-from-18-month-peak/articleshow/134976970.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T23:00:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-7e758cabfa47",
       "title": "뉴욕증시 , 국채금리 하락에 일제히 상승 마감 … 기술주는  주춤",
       "url": "https://www.heraldk.com/article/2026101514071485136",
@@ -320,6 +357,142 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7e8253233d55",
+      "title": "Average long - term mortgage rate holds at 7 . 4 %, remaining at high level",
+      "url": "https://www.pottsmerc.com/2026/10/15/mortgage-rates-oct-15/",
+      "source": "pottsmerc.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-24ab1d3b080b",
+      "title": "جريدة النهار الكويتية | المرزوق : دول الخليج وآسيا نحو آفاق اقتصادية أقوى",
+      "url": "https://www.annaharkw.com/annahar/Article.aspx?id=1056852",
+      "source": "annaharkw.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d67392bdae1a",
+      "title": "جريدة النهار الكويتية | الفيدرالي يوازن بين التضخم ومخاطر التشدد",
+      "url": "https://www.annaharkw.com/annahar/Article.aspx?id=1056838",
+      "source": "annaharkw.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-af5f74ebe40b",
+      "title": "Gold Rallies With Treasuries as AI Selloff Boosts Haven Assets",
+      "url": "https://www.livemint.com/market/gold-rallies-with-treasuries-as-ai-selloff-boosts-haven-assets-11792099256123.html",
+      "source": "livemint.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-412137c7a995",
+      "title": "Fed Officials Say Theyre Troubled By Hot Inflation Data",
+      "url": "https://www.aol.com/articles/fed-officials-troubled-hot-inflation-214237000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-37bf567ce184",
+      "title": "US consumers are muscling through higher prices , but for how long ?",
+      "url": "https://www.lowellsun.com/2026/10/15/economy-gas-prices/",
+      "source": "lowellsun.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ef4bac93028a",
+      "title": "Banking regulators target AI risks amid financial stability fears",
+      "url": "http://www.australiannews.net/news/279372387/banking-regulators-target-ai-risks-amid-financial-stability-fears",
+      "source": "australiannews.net",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9896d9d81eb0",
+      "title": "US , European watchdogs intensify scrutiny of AI risks at banks",
+      "url": "http://www.neworleanssun.com/news/279372387/us-european-watchdogs-intensify-scrutiny-of-ai-risks-at-banks",
+      "source": "neworleanssun.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -588,176 +761,6 @@
       "source": "wnp.pl",
       "source_type": "news",
       "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-25370844a6e7",
-      "title": "ConocoPhillips $COP Stock Sold by Ninety One SA Pty Ltd",
-      "url": "https://www.dailypolitical.com/2026/10/15/conocophillips-cop-stock-sold-by-ninety-one-sa-pty-ltd.html",
-      "source": "dailypolitical.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c3b5b94d90f2",
-      "title": "How Aramco learned to keep pumping oil under fire",
-      "url": "https://arynews.tv/how-aramco-learned-to-keep-pumping-oil-under-fire",
-      "source": "arynews.tv",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bec8fdfdbf7b",
-      "title": "Crude oil futures settle at $97 . 97 . Highest level since mid - September .",
-      "url": "https://investinglive.com/commodities/crude-oil-futures-settle-at-97-97/",
-      "source": "investinglive.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3b15a5734634",
-      "title": "Con cosa sostituiscono il prosciutto Italia caos nelle mense",
-      "url": "https://www.zazoom.it/2026-10-15/con-cosa-sostituiscono-il-prosciutto-italia-caos-nelle-mense-e-successo/19805531/",
-      "source": "zazoom.it",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dc475147b53e",
-      "title": "Nigeria September Inflation Falls to 14 . 63 %",
-      "url": "https://www.riotimesonline.com/nigeria-september-inflation-14-63-2026/",
-      "source": "riotimesonline.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e7c1642e3d6b",
-      "title": "La industria cayó en agosto y usó apenas el 58 , 5 % de su capacidad instalada , según INDEC",
-      "url": "https://www.cronica.com.ar/politica/la-industria-cayo-en-agosto-y-uso-apenas-el-58-5-de-su-capacidad-instalada/",
-      "source": "cronica.com.ar",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-beb8b3e8ebd4",
-      "title": "國際能源署 ： 將加快釋出一億桶石油",
-      "url": "https://www.epochtimes.com/b5/26/10/15/n14870706.htm",
-      "source": "epochtimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a320ec5b83a5",
-      "title": "NRF Predicts 4 . 2 % Holiday Sales Growth Despite Inflation and Rising Gas Prices",
-      "url": "https://www.jckonline.com/editorial-article/nrf-predicts-holiday-sales-growth/",
-      "source": "jckonline.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-298bfb240081",
-      "title": "Senate passes bill for Federal College of Agriculture in Bor",
-      "url": "https://punchng.com/senate-passes-bill-to-establish-federal-college-of-agriculture-in-borno/",
-      "source": "punchng.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aa8ed68f9298",
-      "title": "The Latest : AP - NORC poll : Strong majority of voters believes Trump is failing at home and abroad",
-      "url": "https://www.whec.com/ap-top-news/the-latest-ap-norc-poll-strong-majority-of-voters-believes-trump-is-failing-at-home-and-abroad/",
-      "source": "whec.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T19:00:00Z",
       "categories": [
         "oil"
       ],
