@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T14:50:44Z",
+  "generated_at": "2026-10-15T15:51:46Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 21
     },
     {
       "source": "한국은행 ECOS",
@@ -184,6 +184,42 @@
       }
     },
     {
+      "id": "news-49f2d2d34dd3",
+      "title": "China CXMT Claims Next - Gen DRAM Lead ; Seoul Plunges , Korea Keeps HBM Moat",
+      "url": "https://www.techtimes.com/articles/328974/20261014/chinas-cxmt-claims-next-gen-dram-lead-seoul-plunges-korea-keeps-hbm-moat.htm",
+      "source": "techtimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cc141877ca8f",
+      "title": "Euro slides to fresh lows against US dollar and British pound despite ECB rate hikes",
+      "url": "https://www.euronews.com/2026/10/15/euro-slides-to-fresh-lows-against-us-dollar-and-british-pound-despite-ecb-rate-hikes",
+      "source": "euronews.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-eb728bb5096f",
       "title": "Les actions et le dollar reculent alors que la chute du secteur technologique saccentue - 15 / 10 / 2026 à 15 : 46",
       "url": "https://www.boursorama.com/bourse/actualites/les-actions-et-le-dollar-reculent-alors-que-la-chute-du-secteur-technologique-s-accentue-8cb651b2f6da4ec1863e87f37fb2f041",
@@ -213,6 +249,244 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3e5ab4d609fa",
+      "title": "Sensex closes 1 , 534 points higher , Nifty gains 1 . 66 % as global sell - off in AI heavy markets improves India relative appeal",
+      "url": "http://www.mexicostar.com/news/279376269/sensex-closes-1534-points-higher-nifty-gains-166-as-global-sell-off-in-ai-heavy-markets-improves-india-relative-appeal",
+      "source": "mexicostar.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3a2cb8885779",
+      "title": "Ukraine resumes attacks on Russian oil refineries , officials say , as US relations teeter",
+      "url": "https://bendbulletin.com/2026/10/15/ukraine-resumes-attacks-on-russian-oil-refineries-officials-say-as-us-relations-teeter/",
+      "source": "bendbulletin.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9145f862829e",
+      "title": "Aramco CEO Warns Oil Squeeze is Serious",
+      "url": "https://www.rigzone.com/news/aramco_ceo_warns_oil_squeeze_is_serious-15-oct-2026-184859-article/",
+      "source": "rigzone.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-06bf8e357bdd",
+      "title": "New Lithium Operation Opens In America For The First Time Since The  60s",
+      "url": "https://www.slashgear.com/2286481/america-new-lithium-mining-operation-element3/",
+      "source": "slashgear.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-73249339d8a1",
+      "title": "Euro scende ai nuovi minimi contro dollaro e sterlina nonostante rialzi BCE",
+      "url": "https://it.euronews.com/2026/10/15/euro-scende-ai-nuovi-minimi-contro-dollaro-e-sterlina-nonostante-rialzi-bce",
+      "source": "it.euronews.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0d2e3307fe1f",
+      "title": "8 món đồ gia dụng đang bán rất chạy trên mạng nhưng mua về mới thấy phí tiền : Có món nhìn tiện đến mức ai cũng dễ xuống tiền",
+      "url": "https://afamily.vn/8-mon-do-gia-dung-dang-ban-rat-chay-tren-mang-nhung-mua-ve-moi-thay-phi-tien-co-mon-nhin-tien-den-muc-ai-cung-de-xuong-tien-236261012095811131.chn",
+      "source": "afamily.vn",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-30ff6a8ee154",
+      "title": "Bank of America : Χωρίς εύκολη λύση η κρίση στο ντίζελ - Κίνδυνος νέων αυξήσεων ενόψει του χειμώνα",
+      "url": "https://www.iefimerida.gr/oikonomia/bank-america-horis-eykoli-lysi-i-krisi-sto-ntizel-kindynos-neon-ayxiseon-enopsei-toy",
+      "source": "iefimerida.gr",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b7b8bf9815be",
+      "title": "Dólar hoy amaneció más cerca de $ 3 . 100 : explican por qué tuvo otra caída",
+      "url": "https://www.pulzo.com/economia/dolar-hoy-amanecio-mas-cerca--3100-explican-que-tuvo-otra-caida-PP5330800A",
+      "source": "pulzo.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-93143cc42ad7",
+      "title": "Ukraine resumes attacks on Russian oil refineries , officials say",
+      "url": "https://www.sandiegouniontribune.com/2026/10/15/ukraine-resumes-attacks-russian-oil-refineries/",
+      "source": "sandiegouniontribune.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d4d90ed57984",
+      "title": "The global economy and the art of living dangerously",
+      "url": "https://www.irishtimes.com/business/economy/2026/10/15/the-global-economy-and-the-art-of-living-dangerously/",
+      "source": "irishtimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-637d87605788",
+      "title": "Washington : Trump stoppt Livestream einer Hinrichtung",
+      "url": "https://www.bbv-net.de/ueberregionales/keine-liveuebertragung-einer-hinrichtung-trump-sagt-geplanten-livestream-in-texas-ab-15-oktober-2026-w1246014-6000624223/",
+      "source": "bbv-net.de",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-81f2c7252a60",
+      "title": "Fitch Ratings prevé que el crudo Brent termine el año en US$87",
+      "url": "https://www.elnuevosiglo.com.co/economia/fitch-ratings-preve-que-el-crudo-brent-termine-el-ano-en-us87",
+      "source": "elnuevosiglo.com.co",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7e2ef8a953a6",
+      "title": "IEA will Ölreserven schneller freigeben",
+      "url": "https://www.wallstreet-online.de/nachricht/21531340-iea-oelreserven-schneller-freigeben",
+      "source": "wallstreet-online.de",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1208c722821c",
+      "title": "美联储加息预期升温 ， 难改A股中长期运行趋势 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610153897191777.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T14:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -254,14 +528,14 @@
       "change_condition": null
     },
     {
-      "id": "news-1208c722821c",
-      "title": "美联储加息预期升温 ， 难改A股中长期运行趋势 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610153897191777.html",
-      "source": "finance.eastmoney.com",
+      "id": "news-33971f53d34f",
+      "title": "美联储加息预期升温 ， 难改A股中长期运行趋势",
+      "url": "https://www.stcn.com/article/detail/4221185.html",
+      "source": "stcn.com",
       "source_type": "news",
-      "published_at": "2026-10-15T14:30:00Z",
+      "published_at": "2026-10-15T14:15:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -481,278 +755,6 @@
       "source": "fool.com",
       "source_type": "news",
       "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aca827d8a8ab",
-      "title": "Thursday big Wall Street analyst calls like CoreWeave",
-      "url": "https://www.cnbc.com/2026/10/15/thursday-big-wall-street-analyst-calls-like-coreweave.html",
-      "source": "cnbc.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2a6f5c5b6945",
-      "title": "3 AI Infrastructure Stocks to Buy Right Now and Hold for 10 Years",
-      "url": "https://www.fool.com/investing/2026/10/15/ai-infrastructure-stocks-buy-now-hold-amd-tsmc/",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0fd95c0b83d4",
-      "title": "Intel vs . Qualcomm : Which Tech Stock Is a Better Buy in 2026 ?",
-      "url": "https://www.fool.com/coverage/better-buy/2026/10/15/intel-vs-qualcomm-which-tech-stock-is-a-better-buy-in-2026/",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-91e6929fb481",
-      "title": "护盘资金今天买了啥板块 ？",
-      "url": "https://stock.jrj.com.cn/2026/10/15203358734622.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a71c6872b00e",
-      "title": "Stock market today : S & P 500 , Nasdaq futures slip as semiconductor sell - off continues",
-      "url": "https://www.aol.com/articles/stock-market-today-p-500-122056000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3c3dfcce2400",
-      "title": "Korea Stock Market Is in Free Fall , and Hot U . S . Inflation Just Made It Worse",
-      "url": "https://www.aol.com/articles/korea-stock-market-free-fall-120017000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T13:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-41e726c88483",
-      "title": "NVIDIA RTX Spark : All you need to know",
-      "url": "https://www.creativebloq.com/features/nvidia-rtx-spark-all-you-need-to-know-as-a-creative",
-      "source": "creativebloq.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3ac00254ecc4",
-      "title": "A股晚间突发利好 ， 10余家上市公司批量公告 ， 增持 、 回购潮来了 ！ 科技龙头集体出手 ， 金额最高超过28亿元",
-      "url": "https://stock.jrj.com.cn/2026/10/15195458734422.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8c337f53359e",
-      "title": "Melexis dissonant in groene Bel20",
-      "url": "https://www.beursduivel.be/Nieuws/881468/Melexis-dissonant-in-groene-Bel20.aspx",
-      "source": "beursduivel.be",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-984b971b6888",
-      "title": "Halfgeleiders duwen AEX in het rood",
-      "url": "https://www.belegger.nl/Nieuws/881464/Halfgeleiders-duwen-AEX-in-het-rood.aspx",
-      "source": "belegger.nl",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0177c6f6cf57",
-      "title": "Beursupdate : Melexis doet flinke stap terug in groene Bel20",
-      "url": "https://www.beursduivel.be/Nieuws/881505/Beursupdate-Melexis-doet-flinke-stap-terug-in-groene-Bel20.aspx",
-      "source": "beursduivel.be",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d39144580257",
-      "title": "클루닉스 , 네오에이아이클라우드와 포항 AI 데이터센터 통합 운영 협력",
-      "url": "https://www.wikitree.co.kr/articles/1166496",
-      "source": "wikitree.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8a4e0e135745",
-      "title": "TSMC strikes cautious tone on 2027 after posting sixth straight quarter of record profit",
-      "url": "https://www.theglobeandmail.com/investing/article-tsmc-results-outlook-for-2027/",
-      "source": "theglobeandmail.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e97d5931393a",
-      "title": "5일 만에 완판되더니 무슨 일 ?… 2차 국민참여성장펀드 , 목표액 미달",
-      "url": "https://biz.heraldcorp.com/article/10904251",
-      "source": "biz.heraldcorp.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-19c762b4e4cc",
-      "title": "Futures Wall Street wijzen omlaag",
-      "url": "https://www.belegger.nl/Nieuws/881499/Futures-Wall-Street-wijzen-omlaag.aspx",
-      "source": "belegger.nl",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a6120c684997",
-      "title": "CoreWeave shares , bonds slide further as AI debt fears mount",
-      "url": "https://www.theglobeandmail.com/investing/article-coreweave-shares-bonds-slide-further-as-ai-debt-fears-mount/",
-      "source": "theglobeandmail.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T12:30:00Z",
       "categories": [
         "semis"
       ],
