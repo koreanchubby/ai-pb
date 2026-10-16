@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T15:49:43Z",
+  "generated_at": "2026-10-16T16:50:11Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -247,6 +247,42 @@
       "categories": [
         "oil",
         "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0cc4bdfd4def",
+      "title": "A股冲高回落 高开必砸  魔咒  再上演 ？ 20分钟成交125亿 ！ 宽基ETF尾盘突袭放量 - 股票 - 金融界",
+      "url": "https://stock.jrj.com.cn/2026/10/16160558747446.shtml",
+      "source": "stock.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-16T09:00:00Z",
+      "categories": [
+        "fx",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-87480bddd9b9",
+      "title": "大跌次日 ， A股再度冲高回落 ！ 这只宽基ETF尾盘爆量 ， 20分钟成交超125亿元",
+      "url": "https://www.nbd.com.cn/articles/2026-10-16/4606627.html",
+      "source": "nbd.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-16T08:45:00Z",
+      "categories": [
+        "fx",
+        "etf"
       ],
       "importance": 4,
       "facts": null,
@@ -706,14 +742,14 @@
       "change_condition": null
     },
     {
-      "id": "news-aa2aa597db4a",
-      "title": "Rätselhafter Vorfall am Grab von Adolf Hitlers Schwester am Königsee",
-      "url": "https://www.abendzeitung-muenchen.de/bayern/raetselhafter-vorfall-am-grab-von-adolf-hitlers-schwester-am-koenigsee-art-1166232",
-      "source": "abendzeitung-muenchen.de",
+      "id": "news-c6619d23e8e3",
+      "title": "한미 재무 · 통화당국 첫  2+2 회담  경제 · 금융 협력 강화 논의",
+      "url": "https://newsway.co.kr/news/view?ud=2026101620353000146",
+      "source": "newsway.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-16T15:30:00Z",
+      "published_at": "2026-10-16T16:30:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -723,14 +759,14 @@
       "change_condition": null
     },
     {
-      "id": "news-5f2a7fd624a6",
-      "title": "Democrats hope a rematch can dislodge Trump loyalist Perry in PA",
-      "url": "https://www.dailybreeze.com/2026/10/16/democrats-scott-perry-pennsylvania/",
-      "source": "dailybreeze.com",
+      "id": "news-a14f709bba57",
+      "title": "World economy  resilience  surprising , says Fed Warsh",
+      "url": "https://www.manilatimes.net/2026/10/17/business/top-business/world-economys-resilience-surprising-says-feds-warsh/2447697",
+      "source": "manilatimes.net",
       "source_type": "news",
-      "published_at": "2026-10-16T15:30:00Z",
+      "published_at": "2026-10-16T16:30:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -740,48 +776,14 @@
       "change_condition": null
     },
     {
-      "id": "news-9cbdad9c4be7",
-      "title": "Xinhua Headlines : Chinese toy , gift makers eye new growth from reciprocal China - U . S . tariff cuts",
-      "url": "http://www.caribbeanherald.com/news/279378889/xinhua-headlines-chinese-toy-gift-makers-eye-new-growth-from-reciprocal-china-us-tariff-cuts",
-      "source": "caribbeanherald.com",
+      "id": "news-715a2bb1510c",
+      "title": "US - Eröffnung : Techwerte wieder unter Druck - Dow legt weiter zu",
+      "url": "https://www.moneycab.com/maerkte/us-eroeffnung-techwerte-wieder-unter-druck-dow-legt-weiter-zu-2/",
+      "source": "moneycab.com",
       "source_type": "news",
-      "published_at": "2026-10-16T15:30:00Z",
+      "published_at": "2026-10-16T16:30:00Z",
       "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4a77ec3dc66e",
-      "title": "Il governo potrà spendere 29 miliardi in più per energia e difesa , ma non dice come",
-      "url": "https://www.ilpost.it/2026/10/13/scostamento-bilancio-giorgetti-clausola-salvaguardia-energia-difesa/?homepagePosition=26.1&referrerPost=3705541",
-      "source": "ilpost.it",
-      "source_type": "news",
-      "published_at": "2026-10-16T15:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-27fdf7e79c42",
-      "title": "Lula defende reduo da maioridade penal para crimes hediondos",
-      "url": "https://www.alagoas24horas.com.br/1768546/lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos/",
-      "source": "alagoas24horas.com.br",
-      "source_type": "news",
-      "published_at": "2026-10-16T15:30:00Z",
-      "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
