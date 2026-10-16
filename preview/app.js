@@ -1026,6 +1026,12 @@ function renderMarket(plan) {
   status.textContent = state.useTaa ? '반영 · 실행 계획에 적용' : '미반영 · SAA 유지';
   status.className = 'pill ' + (state.useTaa ? 'success' : 'info');
   const summary = houseViewSummary(plan) + (plan.taa.scaled ? ' — 필수 안정자산·보유액 때문에 규칙보다 작게 조정' : '');
+  // 고객 선택 카드(5단계)와 현재 선택 표시(6단계)
+  $('#taa-choice-taa').textContent = plan.taa.loaded ? summary : '하우스뷰를 불러오는 중';
+  $('#taa-choice-saa').textContent = '장기 SAA 그대로 · 조정 없음';
+  $('#taa-current').classList.toggle('is-taa', state.useTaa);
+  $('#taa-current-label').textContent = state.useTaa ? '장기 SAA + 하우스뷰 TAA 반영' : '장기 SAA (하우스뷰 미반영)';
+  $('#taa-current-detail').textContent = state.useTaa ? summary : '하우스뷰 조정 없이 장기 목표 비중 그대로';
   $('#decision-copy').textContent = !plan.taa.loaded
     ? '하우스뷰를 불러오는 중입니다. 불러오지 못하면 장기 SAA를 그대로 사용합니다.'
     : state.useTaa
@@ -1372,8 +1378,9 @@ document.querySelectorAll('[data-counter]').forEach(function (button) {
 document.querySelectorAll('[data-analysis-mode]').forEach(function (button) {
   button.addEventListener('click', function () {
     state.useTaa = button.dataset.analysisMode === 'taa';
+    // 미리보기: 같은 선택 버튼이 두 곳(제목 옆·고객 선택 카드)에 있어 모드 기준으로 함께 표시
     document.querySelectorAll('[data-analysis-mode]').forEach(function (candidate) {
-      candidate.classList.toggle('active', candidate === button);
+      candidate.classList.toggle('active', candidate.dataset.analysisMode === button.dataset.analysisMode);
     });
     updateAll();
     showToast(state.useTaa ? '하우스뷰 TAA를 실행 계획의 목표에 반영했습니다.' : '실행 계획의 목표를 장기 SAA로 되돌렸습니다.');

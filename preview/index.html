@@ -198,11 +198,12 @@
           <div class="part-title"><span>1</span><div><h2>목표 설계</h2><p>고객에게 설명하는 장기 목표 배분입니다.</p></div></div>
           <div class="analysis-grid">
             <article class="panel allocation-compare target-allocation"><div class="panel-title simple"><div><h2>목표 배분 (SAA)</h2><p id="compare-base">금융자산 25억원 기준 (부동산 제외)</p></div></div><div id="saa-rows"></div></article>
-            <aside class="risk-card"><span>HOW THE TARGET IS BUILT</span><h2>목표 배분 산출 3단계</h2><ol class="build-steps" id="build-steps"></ol><p class="build-note">하우스뷰 조정(±2%p)은 목표 설계에 넣지 않고, 아래 실행 계획의 목표에만 반영합니다.</p></aside>
+            <aside class="risk-card"><span>HOW THE TARGET IS BUILT</span><h2>목표 배분 산출 3단계</h2><ol class="build-steps" id="build-steps"></ol><p class="build-note">하우스뷰 조정(자산당 ±2%p 이내, 주식 합계 ±3%p 이내)은 목표 설계에 넣지 않고, 고객이 반영을 고른 경우에만 아래 실행 계획의 목표에 반영합니다.</p></aside>
             <article class="panel metrics-card"><h2>목표안 위험·수익</h2><div id="metrics-rows"></div><p>현재 보유 대비 목표 SAA의 추정치입니다. 자산군별 장기 가정치(변동성·스트레스 손실)를 적용한 범위 추정이며 수익을 보장하지 않습니다.</p></article>
           </div>
           <article class="panel etf-table-card"><div class="panel-title simple"><div><h2>주식 ETF Core-Satellite 설계</h2><p>코어는 광범위 지수 ETF, 테마·섹터 ETF는 주식의 20% 이내로 제한합니다.</p></div><span class="pill info" id="satellite-pill">위성 한도 20%</span></div><div class="table-scroll"><table><thead><tr><th>구분</th><th>ETF 버킷</th><th>목표 금액</th><th>주식 내 비중</th><th>변동성</th><th>역할</th></tr></thead><tbody id="etf-body"></tbody></table></div></article>
           <div class="part-title"><span>2</span><div><h2>실행 계획</h2><p id="execution-part-copy">목표와 현재 보유의 차이를 거래로 바꿉니다. 부동산·사모펀드는 그대로 두고 금융자산만 조정합니다.</p></div></div>
+          <div class="taa-current" id="taa-current"><span>고객이 고른 실행 목표</span><strong id="taa-current-label">장기 SAA (하우스뷰 미반영)</strong><small id="taa-current-detail">조정 없음</small><button type="button" class="secondary" data-view="market">5단계에서 바꾸기</button></div>
           <article class="market-strip" id="rebalance-strip"><span>적용 제약</span><strong>필요 안정자산 8.8억원</strong><i></i><strong>거주부동산 매각금지</strong><i></i><strong>사모펀드 환매제한</strong><em>SAA 기준</em></article>
           <article class="panel table-panel"><div class="table-scroll"><table><thead><tr><th>조정 대상</th><th>현재</th><th>목표</th><th>변화</th><th>제안</th><th>근거</th></tr></thead><tbody id="rebalance-body"></tbody></table></div></article>
           <article class="panel execution-card"><div class="panel-title simple"><div><h2>분할 실행 순서</h2><p>가격 위험이 없는 거래부터 실행하고, 주식 매도는 나눠서 진행합니다.</p></div><span class="pill info" id="execution-pill">3회 분할</span></div><ol class="execution-steps" id="execution-steps"></ol></article>
@@ -216,6 +217,14 @@
           <article class="evidence-hero">
             <div><span class="decision-label">TODAY'S AI DECISION</span><div class="decision-line"><strong>HOLD</strong><i>＋</i><b>제한적 리밸런싱 검토</b></div><p id="decision-copy">하우스뷰를 불러오는 중입니다.</p></div>
             <div class="decision-meta"><span>참여 기관<strong id="hv-count">—</strong></span><span>하우스뷰 월<strong id="hv-month">—</strong></span><span>합의 계산일<strong id="hv-date">—</strong></span></div>
+          </article>
+          <article class="panel taa-choice" id="taa-choice">
+            <div class="taa-choice-head"><span class="taa-choice-kicker">고객 선택</span><h2>이번 달 하우스뷰를 내 목표 비중에 반영할까요?</h2><p>고른 쪽이 6단계 실행 계획의 목표가 됩니다. 언제든 다시 바꿀 수 있고, 사람 PB가 대신 고르지 않습니다.</p></div>
+            <div class="taa-choice-options" role="group" aria-label="하우스뷰 반영 선택">
+              <button type="button" class="taa-option active" data-analysis-mode="saa"><b>SAA 유지</b><span>시장 전망과 관계없이, 내 투자성향·목표로 정한 장기 비중 그대로 갑니다.</span><small id="taa-choice-saa">조정 없음</small></button>
+              <button type="button" class="taa-option" data-analysis-mode="taa"><b>하우스뷰 TAA 반영</b><span>국내·해외 기관의 이번 달 합의를 정해진 규칙 범위 안에서 반영합니다.</span><small id="taa-choice-taa">하우스뷰를 불러오는 중</small></button>
+            </div>
+            <p class="taa-choice-note">어느 쪽을 골라도, 실제 비중이 목표에서 2%p 넘게 벗어날 때만 사고팝니다. 매일 나오는 데일리 시황으로는 비중을 바꾸지 않습니다.</p>
           </article>
           <article class="panel taa-card"><div class="panel-title simple"><div><h2>하우스뷰 TAA 조정안</h2><p>장기 SAA 대비 조정 폭입니다. 폭은 AI가 아니라 정해진 규칙으로 계산합니다: 합의 강도 |평균| 0.9 이상 ±2%p, 0.5~0.9 ±1%p, 0.5 미만 0 · 주식 합계 ±3%p 상한 · 모자라거나 남는 만큼 현금성에서 맞춤 · 금액은 0.1억원 단위 반올림 (제안 규칙, 팀 합의 전). 반영 여부는 고객이 상단에서 선택하며, 선택 결과가 다음 단계 실행 계획의 목표가 됩니다.</p></div><span class="pill info" id="taa-status">미반영 · SAA 유지</span></div><div class="table-scroll"><table><thead><tr><th>자산</th><th>장기 SAA</th><th>하우스뷰 조정</th><th>반영 시 목표</th></tr></thead><tbody id="taa-body"></tbody></table></div></article>
           <div class="evidence-tabs" role="tablist" aria-label="시장 리포트 보기"><button class="active" data-evidence-tab="report">상세 리포트</button><button data-evidence-tab="sources">근거 뉴스·지표</button><button data-evidence-tab="history">판단 기록</button></div>

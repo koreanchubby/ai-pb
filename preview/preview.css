@@ -109,3 +109,26 @@
 .legal-note.tax-basis { border-color: #e7b04a; }
 .legal-note.tax-basis b { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 6px; background: #8a5a08; color: #fff; font-size: .72rem; vertical-align: 1px; }
 .legal-note.tax-basis strong { color: #6b4405; }
+
+/* 5단계: 하우스뷰 반영 여부 고객 선택 카드 · 6단계: 현재 선택 표시 */
+.taa-choice { padding: 22px; margin-bottom: 18px; border: 2px solid #c9d9fb; }
+.taa-choice-kicker { display: inline-block; padding: 2px 10px; border-radius: 999px; background: #2f6fe8; color: #fff; font-size: .7rem; font-weight: 800; }
+.taa-choice-head h2 { margin: 8px 0 4px; font-size: 1.15rem; }
+.taa-choice-head p { margin: 0; color: #68758c; font-size: .84rem; }
+.taa-choice-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.taa-option { display: flex; flex-direction: column; gap: 6px; text-align: left; border: 2px solid #dce4ef; border-radius: 16px; background: #fff; padding: 14px 16px; cursor: pointer; font: inherit; color: #142039; }
+.taa-option b { font-size: 1rem; }
+.taa-option span { color: #4a5870; font-size: .82rem; line-height: 1.5; }
+.taa-option small { color: #2f6fe8; font-size: .78rem; font-weight: 700; line-height: 1.5; }
+.taa-option:hover { border-color: #9dbaf3; }
+.taa-option:focus-visible { outline: 3px solid #4f83f5; outline-offset: 2px; }
+.taa-option.active { border-color: #2f6fe8; background: #f3f7ff; box-shadow: 0 0 0 3px rgba(47, 111, 232, .12); }
+.taa-option.active b::before { content: '✓ '; color: #2f6fe8; }
+.taa-choice-note { margin: 12px 0 0; color: #68758c; font-size: .78rem; }
+.taa-current { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 0 0 14px; padding: 12px 16px; border: 1px solid #dce4ef; border-left: 5px solid #68758c; border-radius: 12px; background: #fff; }
+.taa-current.is-taa { border-left-color: #2f6fe8; }
+.taa-current > span { color: #68758c; font-size: .74rem; font-weight: 700; }
+.taa-current strong { font-size: .92rem; }
+.taa-current small { flex: 1 1 260px; min-width: 0; color: #4a5870; font-size: .78rem; }
+.taa-current button { margin-left: auto; }
+@media (max-width: 760px) { .taa-choice-options { grid-template-columns: 1fr; } .taa-current button { margin-left: 0; } }
