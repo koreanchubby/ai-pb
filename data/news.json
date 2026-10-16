@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T14:50:59Z",
+  "generated_at": "2026-10-16T15:49:43Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: URLError: <urlopen error _ssl.c:999: The handshake operation timed out> / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,42 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-763f60214401",
+      "title": "미국 물가 뛰는데 국채금리 급락 … AI투자 공포  에 안전자산 쏠린다 [ 디브리핑 ]",
+      "url": "https://www.heraldk.com/article/2026101600002486689",
+      "source": "heraldk.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T15:30:00Z",
+      "categories": [
+        "geopolitics",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-10cecfe8d2b8",
+      "title": "This Unstoppable Vanguard ETF Could Turn $500 Per Month Into $1 Million Over the Long Term",
+      "url": "https://www.aol.com/articles/unstoppable-vanguard-etf-could-turn-132400000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T14:00:00Z",
+      "categories": [
+        "semis",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-fe994e6f906f",
@@ -670,14 +706,14 @@
       "change_condition": null
     },
     {
-      "id": "news-f30cb462cd23",
-      "title": "WOCHENVORSCHAU / 26 . Oktober bis 1 . November ( 44 . KW )",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69858898-wochenvorschau-26-oktober-bis-1-november-44-kw-015.htm",
-      "source": "finanznachrichten.de",
+      "id": "news-aa2aa597db4a",
+      "title": "Rätselhafter Vorfall am Grab von Adolf Hitlers Schwester am Königsee",
+      "url": "https://www.abendzeitung-muenchen.de/bayern/raetselhafter-vorfall-am-grab-von-adolf-hitlers-schwester-am-koenigsee-art-1166232",
+      "source": "abendzeitung-muenchen.de",
       "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
+      "published_at": "2026-10-16T15:30:00Z",
       "categories": [
-        "oil"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -687,14 +723,14 @@
       "change_condition": null
     },
     {
-      "id": "news-bffdef0f8ea8",
-      "title": "Giá xăng dầu tối 16 / 10 : E10 RON 95 và RON 92  rơi tự do  về gần đáy , dầu diesel giảm liền 3 kỳ , giá đầy bình xe ga 125cc",
-      "url": "https://www.techz.vn/192-1026-5-gia-xang-dau-toi-16-10-e10-ron-95-va-ron-92-roi-tu-do-ve-gan-day-dau-diesel-giam-lien-3-ky-gia-day-binh-xe-ga-125cc-ylt713648.html",
-      "source": "techz.vn",
+      "id": "news-5f2a7fd624a6",
+      "title": "Democrats hope a rematch can dislodge Trump loyalist Perry in PA",
+      "url": "https://www.dailybreeze.com/2026/10/16/democrats-scott-perry-pennsylvania/",
+      "source": "dailybreeze.com",
       "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
+      "published_at": "2026-10-16T15:30:00Z",
       "categories": [
-        "oil"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -704,14 +740,14 @@
       "change_condition": null
     },
     {
-      "id": "news-392dff133dc5",
-      "title": "Bait bomb made in neighbouring Deogarh with goat skin",
-      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/bait-bomb-made-in-neighbouring-deogarh-with-goat-skin/articleshow/134995750.cms",
-      "source": "timesofindia.indiatimes.com",
+      "id": "news-9cbdad9c4be7",
+      "title": "Xinhua Headlines : Chinese toy , gift makers eye new growth from reciprocal China - U . S . tariff cuts",
+      "url": "http://www.caribbeanherald.com/news/279378889/xinhua-headlines-chinese-toy-gift-makers-eye-new-growth-from-reciprocal-china-us-tariff-cuts",
+      "source": "caribbeanherald.com",
       "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
+      "published_at": "2026-10-16T15:30:00Z",
       "categories": [
-        "oil"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -721,14 +757,14 @@
       "change_condition": null
     },
     {
-      "id": "news-a44889505ad7",
-      "title": "今日晚间重要公告抢先看 继续炸场 ！ 亨通光电净利润环比最高增长61 %； 德明利扭亏为盈 ， 净利润预计最高89 . 5亿元 ； 生益科技净利润同比预增最高181 %； 胜宏科技 、 卓胜微 、 罗博特科等均提议回购",
-      "url": "https://stock.jrj.com.cn/2026/10/16204258754601.shtml",
-      "source": "stock.jrj.com.cn",
+      "id": "news-4a77ec3dc66e",
+      "title": "Il governo potrà spendere 29 miliardi in più per energia e difesa , ma non dice come",
+      "url": "https://www.ilpost.it/2026/10/13/scostamento-bilancio-giorgetti-clausola-salvaguardia-energia-difesa/?homepagePosition=26.1&referrerPost=3705541",
+      "source": "ilpost.it",
       "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
+      "published_at": "2026-10-16T15:30:00Z",
       "categories": [
-        "oil"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -738,48 +774,14 @@
       "change_condition": null
     },
     {
-      "id": "news-545c2ee65e93",
-      "title": "EU leaders back Zelenskiy , Trump blasts Russia strikes",
-      "url": "https://www.edenmagnet.com.au/story/9369587/eu-leaders-back-zelenskiy-trump-blasts-russia-strikes/",
-      "source": "edenmagnet.com.au",
+      "id": "news-27fdf7e79c42",
+      "title": "Lula defende reduo da maioridade penal para crimes hediondos",
+      "url": "https://www.alagoas24horas.com.br/1768546/lula-defende-reducao-da-maioridade-penal-para-crimes-hediondos/",
+      "source": "alagoas24horas.com.br",
       "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
+      "published_at": "2026-10-16T15:30:00Z",
       "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-828ebed8b3a7",
-      "title": "Ceny paliw się rozjeżdżają . Benzyna będzie tańsza , ale właściciele diesli ucieszą się mniej",
-      "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/ceny-paliw-sie-rozjezdzaja-benzyna-bedzie-tansza-ale-wlasciciele-diesli-uciesza-sie-mniej,680455.html",
-      "source": "portalsamorzadowy.pl",
-      "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2868a6192034",
-      "title": "Így közelített Zelenszkij Magyar Péterhez brüsszeli megbeszélésük előtt",
-      "url": "https://www.blikk.hu/politika/magyar-politika/magyar-peter-zelenszkij-brusszel-talakozo-testbeszed/b8eg3dn",
-      "source": "blikk.hu",
-      "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
-      "categories": [
-        "oil"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
