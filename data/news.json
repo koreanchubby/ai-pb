@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T20:48:31Z",
+  "generated_at": "2026-10-16T21:46:51Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 45
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,60 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-38daa2bb26f6",
+      "title": "Trump declines to blame Putin for Ukraine war , amid transatlantic tensions",
+      "url": "https://www.burnhamandhighbridgeweeklynews.co.uk/news/national/26645617.trump-declines-blame-putin-ukraine-war-amid-transatlantic-tensions/",
+      "source": "burnhamandhighbridgeweeklynews.co.uk",
+      "source_type": "news",
+      "published_at": "2026-10-16T21:15:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-64213cd00a21",
+      "title": "US stocks : US market ends down sharply ; worries about AI trade and high oil prices weigh",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-down-sharply-worries-about-ai-trade-and-high-oil-prices-weigh/articleshow/135003266.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T20:30:00Z",
+      "categories": [
+        "semis",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4e1874a0f74e",
+      "title": "From AI to Oil : US Import , Export Prices Rise Sharply in September",
+      "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
+      "source": "theepochtimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T20:00:00Z",
+      "categories": [
+        "rates",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-bfd2187e61f7",
@@ -735,59 +789,6 @@
         "fx"
       ],
       "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eb728bb5096f",
-      "title": "Les actions et le dollar reculent alors que la chute du secteur technologique saccentue - 15 / 10 / 2026 à 15 : 46",
-      "url": "https://www.boursorama.com/bourse/actualites/les-actions-et-le-dollar-reculent-alors-que-la-chute-du-secteur-technologique-s-accentue-8cb651b2f6da4ec1863e87f37fb2f041",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T14:15:00Z",
-      "categories": [
-        "rates",
-        "fx"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b2c50a38249d",
-      "title": "Samsung Stock Plunges Nearly 10 % as Kospi Triggers Circuit Breaker on China Chip Threat and Hot US Inflation",
-      "url": "https://www.ibtimes.com.au/samsung-shares-south-korea-chip-selloff-circuit-breakers-1876747",
-      "source": "ibtimes.com.au",
-      "source_type": "news",
-      "published_at": "2026-10-15T11:45:00Z",
-      "categories": [
-        "fx",
-        "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7f8439dba0f7",
-      "title": "إنتاج الجزائر من النفط يتجاوز المليون برميل يوميا للشهر الثاني تباعا – الشروق أونلاين",
-      "url": "https://www.echoroukonline.com/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%8A%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D9%85%D9%84%D9%8A%D9%88%D9%86",
-      "source": "echoroukonline.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T20:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
