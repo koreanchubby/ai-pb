@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T09:49:27Z",
+  "generated_at": "2026-10-16T10:50:23Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -634,14 +634,14 @@
       "change_condition": null
     },
     {
-      "id": "news-a75145d06e50",
-      "title": "加元获油价与鹰派基调支撑 ， 美元兑加元逼近两周低点 _ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261016/32399323.shtml",
-      "source": "forex.cnfol.com",
+      "id": "news-cb74729f942a",
+      "title": "Googlebook хорошие ноутбуки с сырой ОС : первые тесты выявили проблемы новой платформы Google",
+      "url": "https://3dnews.ru/1150022/googlebook-horoshie-noutbuki-s-siroy-os-pervie-testi-viyavili-problemi-novoy-platformi-google",
+      "source": "3dnews.ru",
       "source_type": "news",
-      "published_at": "2026-10-16T08:15:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -651,14 +651,14 @@
       "change_condition": null
     },
     {
-      "id": "news-a03529918610",
-      "title": "얼마 만에 보는 빨간불 … 코스피 ,  외국인 귀환  에 2 % 대 상승 마감 [ 투자360 ]",
-      "url": "https://biz.heraldcorp.com/article/10905365",
-      "source": "biz.heraldcorp.com",
+      "id": "news-9a55b77e39f4",
+      "title": "高市首相 「 モニター準備間に合わず 」 Ｇ７首脳会議欠席で釈明 ： 時事ドットコム",
+      "url": "https://www.jiji.com/jc/article?k=2026101600953&g=pol",
+      "source": "jiji.com",
       "source_type": "news",
-      "published_at": "2026-10-16T08:00:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -668,14 +668,14 @@
       "change_condition": null
     },
     {
-      "id": "news-f6444befdce0",
-      "title": "원 · 달러 환율 , 13 . 2원 내린 1331 . 4원",
-      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/16/KPDOI4DQ2FEG7BNB6CHJEZUSYE/",
-      "source": "biz.chosun.com",
+      "id": "news-b0634b38c402",
+      "title": "Rupiah melemah dipengaruhi potensi suku bunga AS bertahan lebih lama",
+      "url": "https://www.antaranews.com/berita/5791497/rupiah-melemah-dipengaruhi-potensi-suku-bunga-as-bertahan-lebih-lama",
+      "source": "antaranews.com",
       "source_type": "news",
-      "published_at": "2026-10-16T08:00:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -685,14 +685,14 @@
       "change_condition": null
     },
     {
-      "id": "news-922762304867",
-      "title": "코스피 , 급락후 반발매수에 2 . 1 % ↑ … 8거래일만에 반등 ( 종합 )",
-      "url": "https://www.fnnews.com/news/202610161607368611",
-      "source": "fnnews.com",
+      "id": "news-003c2b071e41",
+      "title": "KDF to Boost Security Around Dangote Refinery and LAPSSET Corridor as Court Clears Project",
+      "url": "https://kenya-today.com/report-kdf-to-boost-security-around-dangote-refinery-and-lapsset-corridor-as-court-clears-project-12097/",
+      "source": "kenya-today.com",
       "source_type": "news",
-      "published_at": "2026-10-16T07:45:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -702,14 +702,14 @@
       "change_condition": null
     },
     {
-      "id": "news-fc6ccfe9577a",
-      "title": "2 . 05 % 반등한 코스피 , 5660선 마감 … 7거래일 연속 하락  브레이크",
-      "url": "https://www.hani.co.kr/arti/economy/finance/1282768.html",
-      "source": "hani.co.kr",
+      "id": "news-ca22f655a4e0",
+      "title": "Benzina e diesel , i prezzi tornano a salire : più 5 centesimi al litro",
+      "url": "https://www.cdt.ch/news/benzina-e-diesel-i-prezzi-tornano-a-salire-piu-5-centesimi-al-litro-441990",
+      "source": "cdt.ch",
       "source_type": "news",
-      "published_at": "2026-10-16T07:45:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -719,14 +719,14 @@
       "change_condition": null
     },
     {
-      "id": "news-9ef7f9298156",
-      "title": "[ 환율마감 ] 원 · 달러 1331 . 4원  2년만 최저 , 수급+비둘기 워시",
-      "url": "https://www.etoday.co.kr/news/view/2636773",
-      "source": "etoday.co.kr",
+      "id": "news-6657da72fdd3",
+      "title": "உக்ரேன் மீண்டும் ரஷ்ய ஆலைகளைத் தாக்குவது அவமதிப்பான செயல் : டிரம்ப் , உல‌க‌ம் செய்திகள் - தமிழ் முரசு World News in Tamil , Tamil Murasu",
+      "url": "https://www.tamilmurasu.com.sg/world/ukraine-again-attacking-russian-plants-disgraceful-act-trump",
+      "source": "tamilmurasu.com.sg",
       "source_type": "news",
-      "published_at": "2026-10-16T07:30:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -736,14 +736,14 @@
       "change_condition": null
     },
     {
-      "id": "news-4fa6b4387eca",
-      "title": "Brazil Rises to Eighth Largest Economy",
-      "url": "https://www.riotimesonline.com/brazil-eighth-largest-economy-2026/",
-      "source": "riotimesonline.com",
+      "id": "news-6a1401f81577",
+      "title": "Stocks rebound after tech sell - off and Indonesia shares sink on market downgrade warning",
+      "url": "https://kdhnews.com/news/world/stocks-rebound-after-tech-sell-off-and-indonesia-shares-sink-on-market-downgrade-warning/article_5e54b028-6139-5641-9135-3693cd98296d.html",
+      "source": "kdhnews.com",
       "source_type": "news",
-      "published_at": "2026-10-16T07:30:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -753,14 +753,14 @@
       "change_condition": null
     },
     {
-      "id": "news-bdb37e7ea810",
-      "title": "코스피 , 급락 하루 만에 2 % 대 반등 … 낙폭 일부 만회",
-      "url": "http://www.newstomato.com/ReadNews.aspx?no=1316937",
-      "source": "newstomato.com",
+      "id": "news-c883c2bf3fea",
+      "title": "Tổng Giám đốc PETROVIETNAM đối thoại với lãnh đạo các tập đoàn năng lượng hàng đầu thế giới ở London",
+      "url": "https://giaoduc.net.vn/tong-giam-doc-petrovietnam-doi-thoai-voi-lanh-dao-cac-tap-doan-nang-luong-hang-dau-the-gioi-o-london-post263426.gd",
+      "source": "giaoduc.net.vn",
       "source_type": "news",
-      "published_at": "2026-10-16T07:15:00Z",
+      "published_at": "2026-10-16T10:30:00Z",
       "categories": [
-        "fx"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -770,14 +770,14 @@
       "change_condition": null
     },
     {
-      "id": "news-c0c21aa97392",
-      "title": "华泰证券 ： 美国中选结果或对前期极致演绎的市场主线产生阶段性扰动",
-      "url": "https://stock.jrj.com.cn/2026/10/16132658743564.shtml",
-      "source": "stock.jrj.com.cn",
+      "id": "news-8695543d9149",
+      "title": "人民幣存款餘額終止連3升 央行 ： 關注美元磁吸效應 | 產經",
+      "url": "https://www.cna.com.tw/news/afe/202610160257.aspx",
+      "source": "cna.com.tw",
       "source_type": "news",
-      "published_at": "2026-10-16T07:15:00Z",
+      "published_at": "2026-10-16T10:15:00Z",
       "categories": [
-        "fx"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
