@@ -268,7 +268,7 @@
     var note = panel.querySelector('.legal-note');
     panel.insertBefore(box, note || null);
     if (note) {
-      note.textContent = '이 페이지는 이해를 돕기 위한 뉴스 요약이며 투자 권유가 아닙니다. 실제 투자 결정은 담당 PB와 상담 후 진행하세요.' +
+      note.textContent = '이 페이지는 이해를 돕기 위한 뉴스 요약이며 투자 권유가 아닙니다.' +
         (data.demo ? ' 현재 화면의 뉴스는 데모 데이터입니다.' : ' 뉴스는 매시간 자동 수집되며, AI 문장은 "AI 작성"으로 표시합니다.');
     }
   }
