@@ -3,7 +3,7 @@
 > **작업 시작 전과 끝난 후에 반드시 갱신합니다.** 순서는 `docs/WORKFLOW.md` 참고.
 > 상태 표시: 🟡 진행 중 · 🔵 리뷰 대기 · ✅ 완료 · ⬜ 시작 전
 
-마지막 갱신: 2026-10-14
+마지막 갱신: 2026-10-16
 
 ## 현재 단계
 
@@ -16,7 +16,9 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
-| 이유경 (yukyung16) → 옥경환 확인 | 한국투자증권 Open API로 미 국채 10년 금리 수집(FRED 대체) + 데일리 시황용 국내 뉴스 후보(로컬 전용) | PR #33 | `feat/kis-api` | `scripts/fetch_news.py`(KIS 부분 추가, **옥경환 파일 — 확인 요청**), 새 `scripts/kis_news_candidates.py`, `tests/test_news.py`, `.github/workflows/news.yml`(env 3줄), `.gitignore`, `docs/DECISIONS.md` | 🔵 리뷰 대기 (10-14, PR #33 — 옥경환 리뷰 요청). 테스트 55개 통과. Secrets `KIS_APP_KEY`·`KIS_APP_SECRET` 등록(이유경). 모의투자 키 시험: 미 국채 10년 ✅, 국내 뉴스 제목 ✅, WTI ❌(NYMEX 시세 신청 필요 → FRED 유지) |
+| 이유경 (yukyung16) → 옥경환 확인 | 뉴스 탭 주제별 카드(금리·환율·유가·ETF·반도체·지정학)에 우리 말 요약 기사 추가 (원문 확인 후 우리 제목·요약 + 원문 링크, 'AI 요약' 표시) | PR #37 | `feat/news-brief-cards` | `news-view.js`(카드 추가, **옥경환 파일 — 확인 요청**), `docs/DECISIONS.md` | 🔵 리뷰 대기 (10-15, PR #37 — 옥경환 리뷰 요청). 신뢰 언론사 목록만 표시, 주제별 최소 5건. 데이터 `data/news_curated.json`은 시황 예약 작업(평일 8·16시)이 원문 확인 후 작성해 이 파일만 main에 자동 반영(첫 값 10/9 기사 3건 반영됨) |
+| 이유경 (yukyung16) → 옥경환 확인 | 미리보기 페이지 `/preview/`: 지금 사이트는 그대로 두고 뉴스 탭 변경안(PR #37)과 10월 실제 하우스뷰(7개 기관 합의, TAA 제안 규칙)를 넣은 화면 | PR #38 | `feat/preview-site` | 새 폴더 `preview/`(화면 복사본 — 원본 `index.html`·`app.js`는 안 건드림), `docs/DECISIONS.md` | 🔵 리뷰 대기 (10-16, PR #38 — 옥경환 리뷰 요청). TAA 제안 규칙(계단식 ±2/±1%p, 주식 합계 +3%p 상한) 합의 필요 |
+| 이유경 (yukyung16) → 옥경환 확인 | 한국투자증권 Open API로 미 국채 10년 금리 수집(FRED 대체) + 데일리 시황용 국내 뉴스 후보(로컬 전용) | PR #33 | `feat/kis-api` | `scripts/fetch_news.py`(KIS 부분 추가, **옥경환 파일 — 확인 요청**), 새 `scripts/kis_news_candidates.py`, `tests/test_news.py`, `.github/workflows/news.yml`(env 3줄), `.gitignore`, `docs/DECISIONS.md` | ✅ PR #33 Merge (10-14, 옥경환 리뷰). 후속: PR #35(합의 기록)·#36(FRED 대체·회차 밀림·mock 통일) 리뷰 대기 |
 | 옥경환 → 이유경 검토 | 뉴스 화면 news.json 연결 시안 | — | `feat/news-view` | `news-view.js`, `sw.js`, `index.html`(1줄) | ✅ PR #16 채택·Merge (10-07 이유경 리뷰: 로컬에서 카드 12개·필터·원문 링크 확인) |
 | 둘 다 | 가정 수치 교체안 (기대수익·변동성·설문 구간) | — | `fix/assumptions` | `app.js`, `scripts/calc_reference.py`, `tests/`, `docs/` | ✅ PR #17 Merge (10-07 합의: 해외 기관 전망 USD 사용·국내주식=신흥국 값·설문 구간 1점 조정. 스트레스 손실·과세 분배율은 아직 데모값) |
 | 이유경 (yukyung16) → 옥경환 합의 | 하우스뷰 참고 증권사 목록 확정, 10월 실제 점수 입력 | — | `data/house-view-sources` | `data/house_view_input.json`, `docs/DECISIONS.md` | ✅ PR #27·#29·#30 Merge — 국내 하나·신한·삼성·신영 + 해외 JPM·BlackRock·LPL·UBS 고정, **10월 실제 점수 입력 완료(10-12 Merge, 삼성 제외 7곳)**. 다음: 삼성 10월호 나오면 추가, 화면·TAA 연결(app.js, 담당 정하기) |
@@ -49,6 +51,7 @@
 
 ## 이번 주 메모
 
+- (이유경, 10-15) 데일리 시황 예약 작업이 10/13·10/14 실행에서 첫 명령 허용을 기다리다 멈춰 시황이 만들어지지 않음 → 예약 작업 "Run now"로 도구 허용 필요. 작업은 평일 8·16시로 바꾸고 뉴스 탭용 daily_brief.json도 함께 만들게 수정
 - 화면에 "자동 저장됨"이 표시되지만 실제 저장은 안 됨 → PR #7로 해결(2026-10-05 병합). 리뷰 지적(검토 완료 직후 새로고침)은 PR #9에서 수정
 - `index.html`에 추가된 줄: PWA 5줄(manifest·아이콘 링크·iOS meta, `pwa.js`), 리포트 PDF 1줄(`print.css`). 디자인 작업과 겹치면 이 줄들만 살려서 합치기
 - 코드 메모: 회사채 입력칸 id가 `asset-corpat`(오타로 보임). 저장 키로도 쓰이므로 고칠 때는 `STORAGE_VERSION`도 함께 올리기
