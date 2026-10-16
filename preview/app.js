@@ -832,6 +832,10 @@ function analyzeDistribution(showMessage) {
   const a = getAssets();
   const realEstateHeavy = a.realestate > (a.realestate + a.kretf + a.globaletf + a.govbond + a.corpbond + a.pef + a.alternative + a.cash) * 0.5;
   const realEstateNote = realEstateHeavy ? ' 부동산 비중이 절반 이상이라 현물 분할·공동소유 문제도 함께 검토해야 합니다.' : '';
+  // 미리보기: 고객이 직접 체크한 분쟁 요인(preview/dispute-check.js). 판정 없이 검토 우선순위와 문구에만 반영합니다.
+  const dispute = window.AIPB_DISPUTE ? window.AIPB_DISPUTE.summary() : null;
+  const disputeNames = dispute ? dispute.yes.map(function (item) { return item.short; }).join('·') : '';
+  const disputeNote = disputeNames ? ' 고객이 체크한 분쟁 요인(' + disputeNames + ')도 전문가가 먼저 확인해야 합니다.' : '';
 
   if (!state.allocationValid) {
     riskCard.classList.add('high');
@@ -841,12 +845,16 @@ function analyzeDistribution(showMessage) {
   } else if (belowReserve.length) {
     riskCard.classList.add('high');
     title.textContent = '법률 검토 우선순위: 높음';
-    copy.textContent = belowReserve.map(function (heir) { return heir.label; }).join('·') + '의 배분이 유류분(법정상속분의 1/2)에 못 미칩니다. 유류분 반환청구 가능성을 변호사가 우선 검토해야 합니다.' + realEstateNote;
+    copy.textContent = belowReserve.map(function (heir) { return heir.label; }).join('·') + '의 배분이 유류분(법정상속분의 1/2)에 못 미칩니다. 유류분 반환청구 가능성을 변호사가 우선 검토해야 합니다.' + realEstateNote + disputeNote;
     legalFlag.textContent = '유류분 미달';
   } else if (belowLegal.length) {
     title.textContent = '법률 검토 우선순위: 보통';
-    copy.textContent = belowLegal.map(function (heir) { return heir.label; }).join('·') + '의 배분이 법정상속분보다 크게 낮습니다. 유류분은 넘지만 생전증여 합산 시 달라질 수 있습니다.' + realEstateNote;
+    copy.textContent = belowLegal.map(function (heir) { return heir.label; }).join('·') + '의 배분이 법정상속분보다 크게 낮습니다. 유류분은 넘지만 생전증여 합산 시 달라질 수 있습니다.' + realEstateNote + disputeNote;
     legalFlag.textContent = '확인 필요';
+  } else if (disputeNames) {
+    title.textContent = '법률 검토 우선순위: 보통';
+    copy.textContent = '배분은 법정상속분과 큰 차이가 없지만, 고객이 체크한 분쟁 요인(' + disputeNames + ')이 있어 전문가 확인이 필요합니다.' + realEstateNote;
+    legalFlag.textContent = '분쟁 요인 ' + dispute.yes.length + '개';
   } else {
     riskCard.classList.add('low');
     title.textContent = '법률 검토 우선순위: 낮음';
@@ -886,6 +894,12 @@ function renderDashboard(plan) {
   const realPct = pct(a.realestate, plan.total);
   if (realPct >= 50) {
     alerts.push(alertItem('warning', '집중도', '부동산 ' + Math.round(realPct) + '% 집중', '상속 시 현금화·분할 제약 · 즉시 조정 불가', 'assets'));
+  }
+  const dispute = includesTransfer() && window.AIPB_DISPUTE ? window.AIPB_DISPUTE.summary() : null;
+  if (dispute && dispute.yes.length) {
+    alerts.push(alertItem('warning', '승계', '분쟁 요인 ' + dispute.yes.length + '개 체크 · 전문가 확인 필요', dispute.yes.map(function (item) { return item.short; }).join(' · '), 'transfer'));
+  } else if (dispute && dispute.unanswered === dispute.total) {
+    alerts.push(alertItem('info', '승계', '분쟁 요인 자가 점검 전', '4단계에서 8개 항목을 예·아니오로 체크', 'transfer'));
   }
   alerts.push(alertItem('info', '근거', '하우스뷰 + 시장 근거 12건 연결', '출처·시각·반대 근거 공개', 'market'));
   $('#alert-list').innerHTML = alerts.join('');
