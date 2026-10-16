@@ -1,0 +1,134 @@
+/* 미리보기 전용 스타일. 실제 사이트의 styles.css·v3.css는 그대로 두고, 미리보기에서 새로 생긴 부분만 꾸밉니다. */
+.preview-banner {
+  padding: 8px 16px;
+  background: #fff6e5;
+  border-bottom: 1px solid #f1dfb8;
+  color: #8a5a08;
+  font-size: .8rem;
+  line-height: 1.5;
+}
+.preview-banner b {
+  margin-right: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #8a5a08;
+  color: #fff;
+  font-size: .72rem;
+}
+.preview-banner a { color: #8a5a08; font-weight: 700; }
+
+.hv-subtitle { margin: 18px 0 8px; font-size: .95rem; }
+.hv-inst { width: 100%; border-collapse: collapse; font-size: .84rem; font-variant-numeric: tabular-nums; }
+.hv-inst th, .hv-inst td { padding: 9px 8px; border-bottom: 1px solid #dce4ef; text-align: left; white-space: nowrap; }
+.hv-inst th { color: #68758c; font-size: .74rem; font-weight: 700; }
+.hv-inst a { color: #2f6fe8; font-weight: 700; text-decoration: none; }
+.hv-inst small { display: block; color: #68758c; font-size: .72rem; font-weight: 400; white-space: normal; min-width: 180px; }
+.hv-dot { display: inline-grid; place-items: center; min-width: 30px; height: 24px; border-radius: 7px; font-size: .76rem; font-weight: 800; }
+.hv-dot.up { background: #e9f8f2; color: #11986f; }
+.hv-dot.down { background: #fdecef; color: #d6455d; }
+.hv-dot.flat { background: #eef2f8; color: #667085; }
+.hv-dot.none { color: #b4bcc9; }
+.hv-ref { color: #68758c; font-size: .78rem; font-weight: 700; white-space: nowrap; }
+
+/* 뉴스 분석 · 데일리 시황 탭 */
+.news-tabs { display: flex; gap: 8px; border-bottom: 1px solid #dce4ef; margin: 0 0 16px; }
+.news-tab { border: 0; background: none; padding: 10px 14px; font-size: .95rem; font-weight: 800; color: #68758c; border-bottom: 3px solid transparent; cursor: pointer; }
+.news-tab.active { color: #07182d; border-bottom-color: #4f83f5; }
+.news-tab-new { margin-left: 4px; padding: 1px 6px; border-radius: 6px; background: #d6455d; color: #fff; font-size: .62rem; vertical-align: 2px; }
+.showing-brief > .news-filters,
+.showing-brief > .source-grid,
+.showing-brief > .news-attribution,
+.showing-brief > .legal-note { display: none; }
+.brief-panel { max-width: 860px; }
+.brief-empty { color: #68758c; }
+.brief-dates { display: flex; gap: 8px; overflow-x: auto; margin-bottom: 14px; }
+.brief-date { border: 1px solid #dce4ef; border-radius: 12px; padding: 8px 12px; font-size: .8rem; font-weight: 700; white-space: nowrap; background: #fff; cursor: pointer; text-align: left; }
+.brief-date.active { background: #07182d; border-color: #07182d; color: #fff; }
+.brief-date small { display: block; font-size: .68rem; font-weight: 500; opacity: .75; }
+.brief-card { background: #fff; border: 1px solid #dce4ef; border-radius: 20px; box-shadow: 0 14px 40px rgba(35, 57, 88, .08); overflow: hidden; margin-bottom: 12px; }
+.brief-head { background: #07182d; color: #fff; padding: 16px 20px; }
+.brief-head h2 { margin: 0; font-size: 1.15rem; }
+.brief-head h2 span { color: #91b2f8; font-weight: 700; }
+.brief-head p { margin: 4px 0 0; font-size: .76rem; color: #bcd0f5; }
+.brief-sec { padding: 14px 20px; border-bottom: 1px solid #dce4ef; }
+.brief-sec:last-child { border-bottom: 0; }
+.brief-sec h3 { margin: 0 0 8px; font-size: .98rem; }
+.brief-sec h3 small { color: #68758c; font-weight: 600; font-size: .74rem; }
+.brief-sec p { margin: 4px 0; font-size: .9rem; color: #2c3a52; line-height: 1.6; }
+.brief-lead { font-weight: 700; font-size: .98rem !important; color: #142039 !important; }
+.brief-list { margin: 0; padding-left: 18px; font-size: .9rem; line-height: 1.6; }
+.brief-list li { margin: 4px 0; }
+.brief-list em { display: block; font-style: normal; font-size: .74rem; color: #68758c; }
+.brief-change { font-size: .78rem; font-weight: 700; }
+.brief-change.up { color: #d6455d; }
+.brief-change.down { color: #2f6fe8; }
+.brief-change.flat { color: #68758c; }
+.brief-note { font-size: .76rem !important; color: #8a5a08 !important; background: #fff6e5; border-radius: 8px; padding: 6px 10px; }
+.brief-news { padding: 8px 0; border-top: 1px dashed #dce4ef; }
+.brief-news:first-of-type { border-top: 0; }
+.brief-news-title { font-weight: 800 !important; color: #142039 !important; }
+.brief-meta { font-size: .78rem !important; color: #68758c !important; }
+.brief-meta a { color: #2f6fe8; font-weight: 700; text-decoration: none; }
+.brief-keep { display: flex; flex-direction: column; gap: 12px; background: #f7f9fd; }
+.brief-decision { border-left: 5px solid #4f83f5; background: #fff; border-radius: 0 14px 14px 0; padding: 14px 16px; font-size: .92rem; line-height: 1.6; }
+.brief-decision b { display: block; margin-bottom: 4px; color: #07182d; }
+.brief-decision b small { color: #68758c; font-weight: 600; font-size: .74rem; }
+.brief-muted { color: #68758c; font-size: .82rem; }
+.brief-client { border: 2px dashed #4f83f5; background: #fff; border-radius: 14px; padding: 14px 16px; font-size: .95rem; line-height: 1.6; font-weight: 600; }
+.brief-client small { display: block; color: #2f6fe8; font-weight: 800; font-size: .76rem; margin-bottom: 6px; }
+
+/* 4단계 분쟁 요인 자가 점검 */
+.dispute-check { margin: 0 0 18px; padding: 22px; }
+.dispute-badge { align-self: start; white-space: nowrap; border-radius: 999px; padding: 4px 12px; font-size: .74rem; font-weight: 800; }
+.dispute-badge.warn { background: #fff6e5; color: #8a5a08; }
+.dispute-badge.info { background: #eaf1ff; color: #2f6fe8; }
+.dispute-badge.ok { background: #e9f8f2; color: #11986f; }
+.dispute-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.dispute-item { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 6px 12px; align-items: start; border: 1px solid #dce4ef; border-radius: 14px; padding: 12px 14px; background: #fff; }
+.dispute-item.is-yes { border-color: #f1c97a; background: #fffaf0; }
+.dispute-item.is-unknown { border-color: #b9cdf6; background: #f6f9ff; }
+.dispute-text { min-width: 0; }
+.dispute-text strong { display: block; font-size: .84rem; line-height: 1.5; }
+.dispute-why { display: block; margin-top: 4px; color: #4a5870; font-size: .74rem; line-height: 1.5; }
+.dispute-basis { display: block; margin-top: 2px; color: #8a96aa; font-size: .68rem; }
+.dispute-choices { display: flex; gap: 4px; }
+.dispute-choice { position: relative; cursor: pointer; }
+.dispute-choice input { position: absolute; opacity: 0; pointer-events: none; }
+.dispute-choice span { display: inline-block; border: 1px solid #d0d5dd; border-radius: 999px; padding: 4px 10px; font-size: .74rem; font-weight: 700; color: #475467; background: #fff; white-space: nowrap; }
+.dispute-choice input:focus-visible + span { outline: 2px solid #4f83f5; outline-offset: 2px; }
+.dispute-choice.yes input:checked + span { background: #8a5a08; border-color: #8a5a08; color: #fff; }
+.dispute-choice.no input:checked + span { background: #07182d; border-color: #07182d; color: #fff; }
+.dispute-choice.unknown input:checked + span { background: #2f6fe8; border-color: #2f6fe8; color: #fff; }
+.dispute-route { grid-column: 1 / -1; justify-self: start; border-radius: 8px; padding: 2px 8px; background: #fff0d6; color: #8a5a08; font-size: .7rem; font-weight: 800; }
+.dispute-item.is-unknown .dispute-route { background: #eaf1ff; color: #2f6fe8; }
+.dispute-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 12px; }
+.dispute-foot .legal-note { margin: 0; }
+@media (max-width: 900px) { .dispute-list { grid-template-columns: 1fr; } .dispute-item { grid-template-columns: 1fr; } }
+
+/* 세법 기준일 안내 (4단계·7단계) */
+.legal-note.tax-basis { border-color: #e7b04a; }
+.legal-note.tax-basis b { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 6px; background: #8a5a08; color: #fff; font-size: .72rem; vertical-align: 1px; }
+.legal-note.tax-basis strong { color: #6b4405; }
+
+/* 5단계: 하우스뷰 반영 여부 고객 선택 카드 · 6단계: 현재 선택 표시 */
+.taa-choice { padding: 22px; margin: 20px 0 18px; border: 2px solid #c9d9fb; }
+.taa-choice-kicker { display: inline-block; padding: 2px 10px; border-radius: 999px; background: #2f6fe8; color: #fff; font-size: .7rem; font-weight: 800; }
+.taa-choice-head h2 { margin: 8px 0 4px; font-size: 1.15rem; }
+.taa-choice-head p { margin: 0; color: #68758c; font-size: .84rem; }
+.taa-choice-options { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 12px; margin-top: 14px; }
+.taa-option { display: flex; flex-direction: column; gap: 6px; text-align: left; border: 2px solid #dce4ef; border-radius: 16px; background: #fff; padding: 14px 16px; cursor: pointer; font: inherit; color: #142039; }
+.taa-option b { font-size: 1rem; }
+.taa-option span { color: #4a5870; font-size: .82rem; line-height: 1.5; }
+.taa-option small { color: #2f6fe8; font-size: .78rem; font-weight: 700; line-height: 1.5; }
+.taa-option:hover { border-color: #9dbaf3; }
+.taa-option:focus-visible { outline: 3px solid #4f83f5; outline-offset: 2px; }
+.taa-option.active { border-color: #2f6fe8; background: #f3f7ff; box-shadow: 0 0 0 3px rgba(47, 111, 232, .12); }
+.taa-option.active b::before { content: '✓ '; color: #2f6fe8; }
+.taa-choice-note { margin: 12px 0 0; color: #68758c; font-size: .78rem; }
+.taa-current { display: flex; flex-wrap: wrap; align-items: center; gap: 6px 12px; margin: 0 0 14px; padding: 12px 16px; border: 1px solid #dce4ef; border-left: 5px solid #68758c; border-radius: 12px; background: #fff; }
+.taa-current.is-taa { border-left-color: #2f6fe8; }
+.taa-current > span { color: #68758c; font-size: .74rem; font-weight: 700; }
+.taa-current strong { font-size: .92rem; }
+.taa-current small { flex: 1 1 260px; min-width: 0; color: #4a5870; font-size: .78rem; }
+.taa-current button { margin-left: auto; }
+@media (max-width: 760px) { .taa-choice-options { grid-template-columns: 1fr; } .taa-current button { margin-left: 0; } }
