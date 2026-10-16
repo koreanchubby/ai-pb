@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T02:49:08Z",
+  "generated_at": "2026-10-16T03:50:14Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 45
     },
     {
       "source": "한국은행 ECOS",
@@ -184,15 +184,15 @@
       }
     },
     {
-      "id": "news-cb9afd498003",
-      "title": "급락 딛고 반등하는 반도체 투톱코스피 5600선 회복",
-      "url": "https://newsway.co.kr/news/view?ud=2026101609212212899",
+      "id": "news-698b229dc4be",
+      "title": "AI 부채 우려에도 뉴욕증시 일제히 반등국채금리 하락에 안도",
+      "url": "https://newsway.co.kr/news/view?ud=2026101607322267975",
       "source": "newsway.co.kr",
       "source_type": "news",
       "published_at": "2026-10-16T02:15:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "semis",
+        "rates"
       ],
       "importance": 4,
       "facts": null,
@@ -508,14 +508,82 @@
       "change_condition": null
     },
     {
-      "id": "news-fa3b8d536a93",
-      "title": "타히티 크루즈냐 , 이탈리아 일주냐 … 홈앤쇼핑 주말 여행상품 방송  주목",
-      "url": "https://biz.heraldcorp.com/article/10904771",
+      "id": "news-53dda4116289",
+      "title": "Moravskoslezské novinky - Domácí - Kdo nahradí Zelenského ?",
+      "url": "https://www.moravskoslezskenovinky.cz/zpravy/zpravy/kdo-nahradi-zelenskeho/",
+      "source": "moravskoslezskenovinky.cz",
+      "source_type": "news",
+      "published_at": "2026-10-16T03:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f76598050551",
+      "title": "Moravskoslezské novinky - Domácí - Evropě hrozí drahá nafta . Mezinárodní energetická agentura varuje",
+      "url": "https://www.moravskoslezskenovinky.cz/zpravy/byznys/evrope-hrozi-draha-nafta-mezinarodni-energeticka-agentura-varuje/",
+      "source": "moravskoslezskenovinky.cz",
+      "source_type": "news",
+      "published_at": "2026-10-16T03:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-854319608a77",
+      "title": "Moravskoslezské novinky - Domácí - Ukrajinci jsou odváděni s bílými páskami na rukávech , tvrdí expert",
+      "url": "https://www.moravskoslezskenovinky.cz/zpravy/zpravy/ukrajinci-jsou-odvadeni-s-bilymi-paskami-na-rukavech-tvrdi-expert/",
+      "source": "moravskoslezskenovinky.cz",
+      "source_type": "news",
+      "published_at": "2026-10-16T03:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0999ba7e96fc",
+      "title": "코스피 떠나는 외국인 , 언제 돌아올까",
+      "url": "https://news.mtn.co.kr/article/2026101516264383381",
+      "source": "news.mtn.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-16T03:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-24633deab103",
+      "title": "외국인 , 너무 높은 변동성에 한국 주식 팔았다  [ 이슈 _ xBDF0 _]",
+      "url": "https://biz.heraldcorp.com/article/10904925",
       "source": "biz.heraldcorp.com",
       "source_type": "news",
-      "published_at": "2026-10-16T02:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "fx"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -525,14 +593,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3c913d94e330",
-      "title": "Seoul stocks open higher after 7 - day losing streak",
-      "url": "https://www.koreaherald.com/article/10904600",
-      "source": "koreaherald.com",
+      "id": "news-3f2aee2aab94",
+      "title": "Україна вперше від початку війни передала насіння до сховища за Полярним колом",
+      "url": "https://glavcom.ua/world/observe/ukrajina-vpershe-vid-pochatku-vijni-peredala-nasinnja-do-skhovishcha-za-poljarnim-kolom-1149481.html",
+      "source": "glavcom.ua",
       "source_type": "news",
-      "published_at": "2026-10-16T01:15:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "fx"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -542,14 +610,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3a906f7acb1d",
-      "title": "A股头条 ： 深夜突发利好 ， 增持 、 回购潮来了 ！ 10余家上市公司批量公告 ； 三部门成立联合调查组 ， 核查  刹车踏板支架  事件 - A股头条 - 金融界",
-      "url": "https://stock.jrj.com.cn/2026/10/16074358736008.shtml",
-      "source": "stock.jrj.com.cn",
+      "id": "news-3216ba0d5580",
+      "title": "Уряд змінює правила бронювання . Депутатка звернулась до барберів , кур  єрів та інших фахівців з « бронею »",
+      "url": "https://glavcom.ua/country/society/urjad-zminjuje-pravila-bronjuvannja-deputatka-zvernulas-do-barberiv-kurjeriv-ta-inshikh-fakhivtsiv-z-broneju-1149475.html",
+      "source": "glavcom.ua",
       "source_type": "news",
-      "published_at": "2026-10-16T01:15:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "fx"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -559,14 +627,14 @@
       "change_condition": null
     },
     {
-      "id": "news-28a7559ecb93",
-      "title": "盘前必读丨日韩股市集体高开 ； 多只科技龙头股官宣回购计划",
-      "url": "https://www.yicai.com/news/103395798.html",
-      "source": "yicai.com",
+      "id": "news-185279e488ea",
+      "title": "Provinces warn health services still face funding cliff",
+      "url": "https://www.niagarafallsreview.ca/politics/federal/provinces-warn-health-services-still-face-funding-cliff-despite-ottawa-extension/article_997c0c0b-974b-5691-9ab0-6baf71543fa7.html",
+      "source": "niagarafallsreview.ca",
       "source_type": "news",
-      "published_at": "2026-10-16T01:15:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "fx"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -576,14 +644,14 @@
       "change_condition": null
     },
     {
-      "id": "news-5a78a4ff06af",
-      "title": "국산 건초로 전량 대체 땐 年 5876억 아껴  [ 농어촌이 미래다 - 그린 라이프 ]",
-      "url": "https://www.segye.com:443/newsView/20261014527241",
-      "source": "segye.com",
+      "id": "news-201bfc6515ad",
+      "title": "A la caza de profesores : así funciona la  guerra  de los colegios por encontrar los mejores docentes",
+      "url": "https://www.elconfidencial.com/espana/2026-10-16/guerra-colegios-mejores-docentes_4445005/",
+      "source": "elconfidencial.com",
       "source_type": "news",
-      "published_at": "2026-10-16T01:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "fx"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -593,14 +661,14 @@
       "change_condition": null
     },
     {
-      "id": "news-7edace1c2571",
-      "title": "7거래일 폭락 끝에 반등 … 코스피 5600선 회복 , 외국인은 순매도",
-      "url": "https://www.ddaily.co.kr:443/page/view/2026101609223448141",
-      "source": "ddaily.co.kr",
+      "id": "news-a17c354e09b9",
+      "title": "天猫 、 京东发布会隔空对垒 ， 抖音发券到红果 ， 今年双11各家都打什么牌 ？- CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261016000219.html",
+      "source": "cfi.net.cn",
       "source_type": "news",
-      "published_at": "2026-10-16T01:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "fx"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -610,14 +678,14 @@
       "change_condition": null
     },
     {
-      "id": "news-a1a713e3a351",
-      "title": "전날 7 % 대 급락  코스피 , 1 % 내외 강세 … 코스닥 2 % 대↑",
-      "url": "https://www.segye.com:443/newsView/20261016505674",
-      "source": "segye.com",
+      "id": "news-2b03e96147e2",
+      "title": "John Healey urged to hike taxes on bank  bumper profit in Budget",
+      "url": "https://www.herefordtimes.com/news/national/26641794.john-healey-urged-hike-taxes-banks-bumper-profits-budget/",
+      "source": "herefordtimes.com",
       "source_type": "news",
-      "published_at": "2026-10-16T01:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "fx"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -627,14 +695,14 @@
       "change_condition": null
     },
     {
-      "id": "news-7e8253233d55",
-      "title": "Average long - term mortgage rate holds at 7 . 4 %, remaining at high level",
-      "url": "https://www.pottsmerc.com/2026/10/15/mortgage-rates-oct-15/",
-      "source": "pottsmerc.com",
+      "id": "news-5c47adc47a6f",
+      "title": "美国财长新顾问炮轰IMF ， 反击其主席关于美债不可持续的警告 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261016000224.html",
+      "source": "cfi.net.cn",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -644,14 +712,14 @@
       "change_condition": null
     },
     {
-      "id": "news-24ab1d3b080b",
-      "title": "جريدة النهار الكويتية | المرزوق : دول الخليج وآسيا نحو آفاق اقتصادية أقوى",
-      "url": "https://www.annaharkw.com/annahar/Article.aspx?id=1056852",
-      "source": "annaharkw.com",
+      "id": "news-bb89eb6bc735",
+      "title": "日本有识之士警示 ： 谨防日本重回  战前状态  - 环球新闻",
+      "url": "http://news.fjsen.com/2026-10/16/content_32267858.htm",
+      "source": "news.fjsen.com",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -661,14 +729,14 @@
       "change_condition": null
     },
     {
-      "id": "news-d67392bdae1a",
-      "title": "جريدة النهار الكويتية | الفيدرالي يوازن بين التضخم ومخاطر التشدد",
-      "url": "https://www.annaharkw.com/annahar/Article.aspx?id=1056838",
-      "source": "annaharkw.com",
+      "id": "news-b0461ab93d16",
+      "title": "22 US Lawmakers Urge Trump to Enforce Russia Sanctions by Oct . 18",
+      "url": "https://www.kyivpost.com/post/87218",
+      "source": "kyivpost.com",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -678,14 +746,14 @@
       "change_condition": null
     },
     {
-      "id": "news-af5f74ebe40b",
-      "title": "Gold Rallies With Treasuries as AI Selloff Boosts Haven Assets",
-      "url": "https://www.livemint.com/market/gold-rallies-with-treasuries-as-ai-selloff-boosts-haven-assets-11792099256123.html",
-      "source": "livemint.com",
+      "id": "news-fa5333e48ba0",
+      "title": "Доллар может упасть до 60 рублей в течение года",
+      "url": "https://www.teleport2001.ru/news/2026-10-16/220169-dollar-mozhet-upast-do-60-rubley-v-techenie-goda.html",
+      "source": "teleport2001.ru",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -695,82 +763,14 @@
       "change_condition": null
     },
     {
-      "id": "news-412137c7a995",
-      "title": "Fed Officials Say Theyre Troubled By Hot Inflation Data",
-      "url": "https://www.aol.com/articles/fed-officials-troubled-hot-inflation-214237000.html",
-      "source": "aol.com",
+      "id": "news-d08acfe61ba7",
+      "title": "被 「 內捲 」 壓力逼出海 ： 當中國電動車駛向歐美 ， 全球汽車供應鏈會重組嗎 ？ | 政經角力",
+      "url": "https://global.udn.com/global_vision/story/8663/9818329",
+      "source": "global.udn.com",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T03:30:00Z",
       "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-37bf567ce184",
-      "title": "US consumers are muscling through higher prices , but for how long ?",
-      "url": "https://www.lowellsun.com/2026/10/15/economy-gas-prices/",
-      "source": "lowellsun.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ef4bac93028a",
-      "title": "Banking regulators target AI risks amid financial stability fears",
-      "url": "http://www.australiannews.net/news/279372387/banking-regulators-target-ai-risks-amid-financial-stability-fears",
-      "source": "australiannews.net",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9896d9d81eb0",
-      "title": "US , European watchdogs intensify scrutiny of AI risks at banks",
-      "url": "http://www.neworleanssun.com/news/279372387/us-european-watchdogs-intensify-scrutiny-of-ai-risks-at-banks",
-      "source": "neworleanssun.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b75e185969ae",
-      "title": "黑偉機械鼓風機 拓展節能市場 - 產業特刊",
-      "url": "https://www.chinatimes.com/newspapers/20261016000515-260210",
-      "source": "chinatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
-      "categories": [
-        "fx"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
