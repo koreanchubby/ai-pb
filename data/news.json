@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T07:52:29Z",
+  "generated_at": "2026-10-16T08:52:09Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,60 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-7a7eff095559",
+      "title": "단일종목 ETF 막자 지수 · 빚투로 쏠렸다 … 폭락 키우는  레버리지 풍선효과",
+      "url": "https://biz.chosun.com/stock/stock_general/2026/10/16/4TNDB6RZSRFVPIZ6PHFWSF2OB4/",
+      "source": "biz.chosun.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T08:00:00Z",
+      "categories": [
+        "fx",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-460d437e5e5a",
+      "title": "Seoul stocks rebound over 2 % on eased chip rout , Fed bets",
+      "url": "https://www.koreaherald.com/article/10905334",
+      "source": "koreaherald.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T07:45:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-914f84979bc1",
+      "title": "증권가  코스피 1만  낙관론 깨진 변수는 … 美 고금리와 AI 수익 우려",
+      "url": "https://www.newspim.com/news/view/20261016001168",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T07:15:00Z",
+      "categories": [
+        "fx",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-c7b2a8ef371a",
@@ -580,14 +634,99 @@
       "change_condition": null
     },
     {
-      "id": "news-91559fb3ab2a",
-      "title": "신동국 , 한미사이언스 주식 가압류 · 자본시장법 위반 논란 … 대주단도  촉각",
-      "url": "https://www.etoday.co.kr/news/view/2636718",
+      "id": "news-a75145d06e50",
+      "title": "加元获油价与鹰派基调支撑 ， 美元兑加元逼近两周低点 _ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261016/32399323.shtml",
+      "source": "forex.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T08:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a03529918610",
+      "title": "얼마 만에 보는 빨간불 … 코스피 ,  외국인 귀환  에 2 % 대 상승 마감 [ 투자360 ]",
+      "url": "https://biz.heraldcorp.com/article/10905365",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T08:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f6444befdce0",
+      "title": "원 · 달러 환율 , 13 . 2원 내린 1331 . 4원",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/16/KPDOI4DQ2FEG7BNB6CHJEZUSYE/",
+      "source": "biz.chosun.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T08:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-922762304867",
+      "title": "코스피 , 급락후 반발매수에 2 . 1 % ↑ … 8거래일만에 반등 ( 종합 )",
+      "url": "https://www.fnnews.com/news/202610161607368611",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T07:45:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fc6ccfe9577a",
+      "title": "2 . 05 % 반등한 코스피 , 5660선 마감 … 7거래일 연속 하락  브레이크",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1282768.html",
+      "source": "hani.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-16T07:45:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9ef7f9298156",
+      "title": "[ 환율마감 ] 원 · 달러 1331 . 4원  2년만 최저 , 수급+비둘기 워시",
+      "url": "https://www.etoday.co.kr/news/view/2636773",
       "source": "etoday.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-16T06:30:00Z",
+      "published_at": "2026-10-16T07:30:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -597,14 +736,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3ee3a7684b26",
-      "title": "BÖRSE ONLINE – Seit 1987 unterstützt BÖRSE ONLINE jede Woche Anleger bei ihren Investment - Entscheidungen . Zentrale Themen der Berichterstattung sind fundamentale Markt - und Aktienanalysen , Charttechnik , Handelsstrategien sowie verschiedene Trad...",
-      "url": "https://www.boerse-online.de/dpa-afx/devisen-euro-bleibt-klar-ueber-112-us-dollar-558757.html",
-      "source": "boerse-online.de",
+      "id": "news-4fa6b4387eca",
+      "title": "Brazil Rises to Eighth Largest Economy",
+      "url": "https://www.riotimesonline.com/brazil-eighth-largest-economy-2026/",
+      "source": "riotimesonline.com",
       "source_type": "news",
-      "published_at": "2026-10-16T06:30:00Z",
+      "published_at": "2026-10-16T07:30:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -614,14 +753,14 @@
       "change_condition": null
     },
     {
-      "id": "news-9edde683bfb9",
-      "title": "Fed Warsh sees US economic tailwinds , mum on rate - path view",
-      "url": "https://www.aol.com/articles/feds-warsh-gives-no-hint-035710000.html",
-      "source": "aol.com",
+      "id": "news-bdb37e7ea810",
+      "title": "코스피 , 급락 하루 만에 2 % 대 반등 … 낙폭 일부 만회",
+      "url": "http://www.newstomato.com/ReadNews.aspx?no=1316937",
+      "source": "newstomato.com",
       "source_type": "news",
-      "published_at": "2026-10-16T06:30:00Z",
+      "published_at": "2026-10-16T07:15:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -631,150 +770,14 @@
       "change_condition": null
     },
     {
-      "id": "news-8b3862295a90",
-      "title": "MORNING BRIEFING - united states / Asien",
-      "url": "https://www.finanzen.net/nachricht/aktien/morning-briefing-usa-asien-15988754",
-      "source": "finanzen.net",
+      "id": "news-c0c21aa97392",
+      "title": "华泰证券 ： 美国中选结果或对前期极致演绎的市场主线产生阶段性扰动",
+      "url": "https://stock.jrj.com.cn/2026/10/16132658743564.shtml",
+      "source": "stock.jrj.com.cn",
       "source_type": "news",
-      "published_at": "2026-10-16T06:15:00Z",
+      "published_at": "2026-10-16T07:15:00Z",
       "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0ff8bdcb1af6",
-      "title": "市場期待落空 ！ 華許拒絕透露利率決策方向 ， 全球央行同步緊縮 「 沒人搭便車 」 | 林彥呈 | 財經",
-      "url": "https://www.storm.mg/article/11173029",
-      "source": "storm.mg",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-60001a5ceb1c",
-      "title": "Asian markets rebound after CoreWeave stock shock",
-      "url": "https://www.northerndailyleader.com.au/story/9369932/asian-markets-rebound-after-coreweave-stock-shock/",
-      "source": "northerndailyleader.com.au",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e11360ad1082",
-      "title": "MORNING BRIEFING - Deutschland / Europa",
-      "url": "https://www.finanzen.ch/nachrichten/aktien/morning-briefing-deutschland-europa-1036633303",
-      "source": "finanzen.ch",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-669065467a10",
-      "title": "MORNING BRIEFING - Deutschland / Europa - 2 -",
-      "url": "https://www.finanzen.net/nachricht/aktien/morning-briefing-deutschland-europa-2-15988739",
-      "source": "finanzen.net",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-17ee588337f6",
-      "title": "文匯專訪 | 梁頴宇 ： 香港可成藥物監管協調橋樑 助內地創新藥走向全球 - 香港",
-      "url": "https://www.wenweipo.com/a/202610/16/AP6ad17e1ee4b01d54a2875bb4.html",
-      "source": "wenweipo.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-58ba93c59373",
-      "title": "Altın , tahvil getirilerindeki düşüşle kazançlarını korudu",
-      "url": "https://www.bloomberght.com/altin-tahvil-getirilerindeki-dususle-kazanclarini-korudu-3791530",
-      "source": "bloomberght.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ee91342d41c9",
-      "title": "Asian stocks rise as tech bounces from rout , eyes on Warsh",
-      "url": "https://www.enca.com/business/asian-stocks-rise-tech-bounces-rout-eyes-warsh",
-      "source": "enca.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-94dddc31bdb6",
-      "title": "S & P 500 ends higher as traders shift from AI to healthcare",
-      "url": "https://www.spokesman.com/stories/2026/oct/15/sp-500-ends-higher-as-traders-shift-from-ai-to-hea/",
-      "source": "spokesman.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:00:00Z",
-      "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
