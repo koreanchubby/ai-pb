@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-15T23:42:04Z",
+  "generated_at": "2026-10-16T05:47:17Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -82,6 +82,31 @@
       "change_condition": null
     },
     {
+      "id": "market-09f4c855e896",
+      "title": "원/달러 환율(매매기준율) 1348.5원 (직전 대비 +9.9원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-15T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1348.5,
+        "previous": 1338.6,
+        "change": 9.9,
+        "unit": "원",
+        "date": "20261016",
+        "alert_threshold": 15.0
+      }
+    },
+    {
       "id": "market-249b07697a35",
       "title": "미국 10년물 국채금리 5.1% (직전 대비 -0.09%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -105,31 +130,6 @@
         "date": "2026-10-15",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-ddffd3503720",
-      "title": "원/달러 환율(매매기준율) 1338.6원 (직전 대비 -1.9원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-14T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1338.6,
-        "previous": 1340.5,
-        "change": -1.9,
-        "unit": "원",
-        "date": "20261015",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -184,6 +184,78 @@
       }
     },
     {
+      "id": "news-b74a0a59fd69",
+      "title": "[ 단독 ]  中 반도체 때문 아니다 … 외국인 큰손에게 한국 주식 왜 파는지 물었더니 [ 투자360 ]",
+      "url": "https://biz.heraldcorp.com/article/10904762",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:15:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cb9afd498003",
+      "title": "급락 딛고 반등하는 반도체 투톱코스피 5600선 회복",
+      "url": "https://newsway.co.kr/news/view?ud=2026101609212212899",
+      "source": "newsway.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-16T02:15:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-698b229dc4be",
+      "title": "AI 부채 우려에도 뉴욕증시 일제히 반등국채금리 하락에 안도",
+      "url": "https://newsway.co.kr/news/view?ud=2026101607322267975",
+      "source": "newsway.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-16T02:15:00Z",
+      "categories": [
+        "semis",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-73af78090212",
+      "title": "[ 채권 / 외환 ] 美 국채금리 9월 이후 최저 · 달러도 급락 … AI 부채 우려에 안전자산 쏠림",
+      "url": "https://www.newspim.com/news/view/20261016000040",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T00:15:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-6ce1411c1138",
       "title": "Dollar Wraps Its Worst Day in Over a Month on AI Risk Concerns",
       "url": "https://www.livemint.com/market/dollar-wraps-its-worst-day-in-over-a-month-on-ai-risk-concerns-11792096933892.html",
@@ -211,6 +283,60 @@
       "categories": [
         "rates",
         "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0733ff61ce1b",
+      "title": "9월 수입물가 전월比 1 . 7 % 상승 …  국제 유가 큰 폭 상승 영향",
+      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/16/NIYNJZBUQRF6RMLTM4RVOYWTCY/",
+      "source": "biz.chosun.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:45:00Z",
+      "categories": [
+        "fx",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-119bcc171c8c",
+      "title": "국제유가 급등에 … 9월 수입물가 넉달만에  반등  - 헤럴드경제 미주판",
+      "url": "https://www.heraldk.com/article/2026101514002458215",
+      "source": "heraldk.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "fx",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b92713719830",
+      "title": "9월 수출물량 16년 8개월 만에 최대 증가 … 유가 급등에 수입물가 반등",
+      "url": "https://www.newspim.com/news/view/20261015001186",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T22:15:00Z",
+      "categories": [
+        "fx",
+        "oil"
       ],
       "importance": 4,
       "facts": null,
@@ -274,6 +400,24 @@
       "change_condition": null
     },
     {
+      "id": "news-e0f364cdd2bc",
+      "title": "국제유가 급등에 … 9월 수입물가 넉달만에  반등",
+      "url": "https://biz.heraldcorp.com/article/10904157",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T21:15:00Z",
+      "categories": [
+        "fx",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-a55a546e07ab",
       "title": "Iran War Day 230 : U . S . Considering Use of  Mother of All Bomb on Iran , Per Report",
       "url": "https://www.theamericanconservative.com/iran-war-day-230-u-s-considering-use-of-mother-of-all-bombs-on-iran-per-report/",
@@ -283,6 +427,42 @@
       "categories": [
         "oil",
         "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3d1f39070d13",
+      "title": "대북제재는 실패했다  - 미주 한국일보",
+      "url": "http://www.koreatimes.com/article/20261015/1633957",
+      "source": "koreatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-15T17:00:00Z",
+      "categories": [
+        "fx",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2236b88f8e74",
+      "title": "내년 채권시장 반등 기대 … 기준금리 정점은 3 . 25 % ~3 . 5 %",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01102086645613576&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-15T15:45:00Z",
+      "categories": [
+        "fx",
+        "rates"
       ],
       "importance": 4,
       "facts": null,
@@ -364,14 +544,14 @@
       "change_condition": null
     },
     {
-      "id": "news-7e8253233d55",
-      "title": "Average long - term mortgage rate holds at 7 . 4 %, remaining at high level",
-      "url": "https://www.pottsmerc.com/2026/10/15/mortgage-rates-oct-15/",
-      "source": "pottsmerc.com",
+      "id": "news-2764616268b6",
+      "title": "Baystreet . ca - Taiwan Semiconductor Posts Record Profit",
+      "url": "https://baystreet.ca/articles/techinsider/124604/Taiwan-Semiconductor-Posts-Record-Profit",
+      "source": "baystreet.ca",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -381,14 +561,14 @@
       "change_condition": null
     },
     {
-      "id": "news-24ab1d3b080b",
-      "title": "جريدة النهار الكويتية | المرزوق : دول الخليج وآسيا نحو آفاق اقتصادية أقوى",
-      "url": "https://www.annaharkw.com/annahar/Article.aspx?id=1056852",
-      "source": "annaharkw.com",
+      "id": "news-8ab64e68e3fa",
+      "title": "১ বছরে স্মার্টফোনের বিক্রি নেমে গেল ১৪ বছরের তলানিতে",
+      "url": "https://bangla.bdnews24.com/tech/iismmnslkm",
+      "source": "bangla.bdnews24.com",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -398,14 +578,14 @@
       "change_condition": null
     },
     {
-      "id": "news-d67392bdae1a",
-      "title": "جريدة النهار الكويتية | الفيدرالي يوازن بين التضخم ومخاطر التشدد",
-      "url": "https://www.annaharkw.com/annahar/Article.aspx?id=1056838",
-      "source": "annaharkw.com",
+      "id": "news-ba91eaa1f0c8",
+      "title": "7000선이 꼭지였나 ? 코스피 반등에도 개미들 절규 … 곡소리 이어져",
+      "url": "https://www.fnnews.com/news/202610161012511847",
+      "source": "fnnews.com",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -415,14 +595,14 @@
       "change_condition": null
     },
     {
-      "id": "news-af5f74ebe40b",
-      "title": "Gold Rallies With Treasuries as AI Selloff Boosts Haven Assets",
-      "url": "https://www.livemint.com/market/gold-rallies-with-treasuries-as-ai-selloff-boosts-haven-assets-11792099256123.html",
-      "source": "livemint.com",
+      "id": "news-bb297ff120ca",
+      "title": "李 재판 중단 , 이재용 · 최태원 증인 채택 … 국감장 곳곳 여야 충돌",
+      "url": "https://www.fnnews.com/news/202610161334400893",
+      "source": "fnnews.com",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -432,80 +612,63 @@
       "change_condition": null
     },
     {
-      "id": "news-412137c7a995",
-      "title": "Fed Officials Say Theyre Troubled By Hot Inflation Data",
-      "url": "https://www.aol.com/articles/fed-officials-troubled-hot-inflation-214237000.html",
+      "id": "news-e89bc9470346",
+      "title": "热点精选 ： 光通信+创新药+固态电池+半导体 _ 中金在线财经号",
+      "url": "http://mp.cnfol.com/26828/article/1792112657-142766682",
+      "source": "mp.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T05:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-26e28b9796d9",
+      "title": "SEMI美洲總裁 ： 美最先進半導體占比至2030年代末上看4成 | 產經",
+      "url": "https://www.cna.com.tw/news/afe/202610160048.aspx",
+      "source": "cna.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-16T05:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1a07e477a293",
+      "title": "Bitcoin buyers snap up a brief drop below $80 , 000 as Asian stocks rebound",
+      "url": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
+      "source": "coindesk.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6e51ad8c7b6b",
+      "title": "TSMC Just Posted Record Profit for the Sixth Straight Quarter . Why Did the Stock Fall ?",
+      "url": "https://www.aol.com/articles/tsmc-just-posted-record-profit-025002000.html",
       "source": "aol.com",
       "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-37bf567ce184",
-      "title": "US consumers are muscling through higher prices , but for how long ?",
-      "url": "https://www.lowellsun.com/2026/10/15/economy-gas-prices/",
-      "source": "lowellsun.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ef4bac93028a",
-      "title": "Banking regulators target AI risks amid financial stability fears",
-      "url": "http://www.australiannews.net/news/279372387/banking-regulators-target-ai-risks-amid-financial-stability-fears",
-      "source": "australiannews.net",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9896d9d81eb0",
-      "title": "US , European watchdogs intensify scrutiny of AI risks at banks",
-      "url": "http://www.neworleanssun.com/news/279372387/us-european-watchdogs-intensify-scrutiny-of-ai-risks-at-banks",
-      "source": "neworleanssun.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8b98b103e049",
-      "title": "[ 미국 특징주 ] 메타  뮤즈  돌풍에도 월가  진짜 승자는 반도체주",
-      "url": "https://www.newspim.com/news/view/20261008001404",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
+      "published_at": "2026-10-16T04:45:00Z",
       "categories": [
         "semis"
       ],
@@ -517,12 +680,12 @@
       "change_condition": null
     },
     {
-      "id": "news-77512c156966",
-      "title": "삼전 · 닉스 PER  역사적 저점 … 역대급 실적에도 外人 왜 파나",
-      "url": "https://biz.chosun.com/stock/stock_general/2026/10/16/QERUJ5DH7BD6ZNKW2YBTCP5MNY/",
-      "source": "biz.chosun.com",
+      "id": "news-e72153b60f5a",
+      "title": "手机厂商的麻烦 ， AI背不了锅 - 钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8170793.html",
+      "source": "tmtpost.com",
       "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
+      "published_at": "2026-10-16T04:45:00Z",
       "categories": [
         "semis"
       ],
@@ -534,12 +697,12 @@
       "change_condition": null
     },
     {
-      "id": "news-e985f0b5ea6f",
-      "title": "Dow leads US stock rebound . Indices snatch victory from the jaws of defeat .",
-      "url": "https://investinglive.com/stocks/dow-leads-us-stock-rebound-indices-snatch-victory-from-the-jaws-of-defeat/",
-      "source": "investinglive.com",
+      "id": "news-c7147b17d4a0",
+      "title": "港股午评 ： 恒指涨1 . 21 % 科指涨2 . 09 % 科网股普涨 生物技术板块大涨",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtm7719021.shtml",
+      "source": "finance.sina.com.cn",
       "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
+      "published_at": "2026-10-16T04:45:00Z",
       "categories": [
         "semis"
       ],
@@ -551,12 +714,12 @@
       "change_condition": null
     },
     {
-      "id": "news-eeea92f1d26c",
-      "title": "뉴욕증시 , 헬스케어 강세 속 반등 … 다우 1 . 08 % ↑",
-      "url": "https://www.newspim.com/news/view/20261016000030",
-      "source": "newspim.com",
+      "id": "news-e1c33f4b4b7f",
+      "title": "iPhone Duo entra em pré - venda nesta sexta ; veja preços do dobrável",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/10/16/iphone-duo-entra-em-pre-venda-nesta-sexta-veja-precos-do-celular-dobravel-da-apple.ghtml",
+      "source": "g1.globo.com",
       "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
+      "published_at": "2026-10-16T04:45:00Z",
       "categories": [
         "semis"
       ],
@@ -568,12 +731,12 @@
       "change_condition": null
     },
     {
-      "id": "news-d49618afa42e",
-      "title": "Do This Before You Buy Another  Trump Stock …",
-      "url": "https://investorplace.com/dailylive/2026/10/do-this-before-you-buy-another-trump-stock/",
-      "source": "investorplace.com",
+      "id": "news-6dfad33f1d1d",
+      "title": "Galaxy Z Fold8缺芯 ， 三星拟引格芯打破联电独供",
+      "url": "https://tech.ifeng.com/c/8xGTwQs8Mue",
+      "source": "tech.ifeng.com",
       "source_type": "news",
-      "published_at": "2026-10-15T21:45:00Z",
+      "published_at": "2026-10-16T04:30:00Z",
       "categories": [
         "semis"
       ],
@@ -585,12 +748,12 @@
       "change_condition": null
     },
     {
-      "id": "news-7dbaf491b285",
-      "title": "TSMC Q3 FY26 posts sixth consecutive record profits quarter , beating expectations",
-      "url": "https://www.shacknews.com/article/151022/tsmc-q3-fy26-earnings-results",
-      "source": "shacknews.com",
+      "id": "news-8ea5f7ed6779",
+      "title": "Explainer : Why CoreWeave troubles are rattling the AI boom",
+      "url": "https://www.thehindubusinessline.com/info-tech/explainer-why-coreweaves-troubles-are-rattling-the-ai-boom/article71591011.ece",
+      "source": "thehindubusinessline.com",
       "source_type": "news",
-      "published_at": "2026-10-15T21:45:00Z",
+      "published_at": "2026-10-16T04:30:00Z",
       "categories": [
         "semis"
       ],
@@ -602,167 +765,14 @@
       "change_condition": null
     },
     {
-      "id": "news-fbf4cefff32d",
-      "title": "Nikkei Plunges 3 , 318 Points as AI Selloff Shakes Tokyo",
-      "url": "https://newsonjapan.com/article/151072.php",
-      "source": "newsonjapan.com",
+      "id": "news-f676afdd4f2a",
+      "title": "US stocks end higher as AI shares stabilize",
+      "url": "https://www.manilatimes.net/2026/10/16/world/americas-emea/us-stocks-end-higher-as-ai-shares-stabilize/2447186",
+      "source": "manilatimes.net",
       "source_type": "news",
-      "published_at": "2026-10-15T21:45:00Z",
+      "published_at": "2026-10-16T04:30:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-649e785cbe04",
-      "title": "What SpaceX $40 Billion Nvidia Chip Plan Says About the AI Boom",
-      "url": "https://investorplace.com/hypergrowthinvesting/2026/10/what-spacexs-40-billion-nvidia-chip-plan-says-about-the-ai-boom/",
-      "source": "investorplace.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8938840ab5b8",
-      "title": "Wall Street muscles higher despite more swings for AI stocks",
-      "url": "http://www.postregister.com/businessreport/business/wall-street-muscles-higher-despite-more-swings-for-ai-stocks/article_28ee648d-7a69-582a-bcd3-8416294c56f3.html",
-      "source": "postregister.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b587f3aff4b0",
-      "title": "3 Chip Stocks to Buy Before Big Tech Reports Its Spending Plans",
-      "url": "https://www.fool.com/investing/2026/10/15/3-chip-stocks-to-buy-before-big-tech-reports-its-spending-plans/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-54950b556836",
-      "title": "New DRAM Demand Source Could Surge 20 - Fold By 2030",
-      "url": "https://www.zerohedge.com/technology/new-dram-demand-source-could-surge-20-fold-2030",
-      "source": "zerohedge.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-647a92f6e419",
-      "title": "Sono arrivati gli  mpanicati della benzina",
-      "url": "https://www.strettoweb.com/2026/10/sono-arrivati-gli-mpanicati-della-benzina/2161375/",
-      "source": "strettoweb.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-74aa0d6d4a46",
-      "title": "Peso hits record - low 63 . 06 vs greenback",
-      "url": "https://tribune.net.ph/2026/10/15/peso-hits-record-low-6306-vs-greenback",
-      "source": "tribune.net.ph",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4a0db46ba9d7",
-      "title": "Κυριάκος Πιερρακάκης στο Atlantic Council : « Η δημοσιονομική αξιοπιστία είναι εθνική ισχύς . Και αποτελεί στρατηγικό πόρο »",
-      "url": "https://newpost.gr/eidiseis/kyriakos-pierrakakis-sto-atlantic-council-i-dimosionomiki-axiopistia-einai-ethniki-ischys-kai-apotelei-stratigiko-poro/",
-      "source": "newpost.gr",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-795b5e7dd11c",
-      "title": "investingLive Americas market news wrap : Yields continue to fall even after hot PPI data",
-      "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-yields-continue-to-fall-even-after-hot-ppi-data/",
-      "source": "investinglive.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-89b867bf0916",
-      "title": "Orlen zapłaci ekstra podatek w kolejnym kraju ?  To zagrożenie dla stosunków z Polską",
-      "url": "https://www.wnp.pl/energia/orlen-zaplaci-dodatkowy-podatek-w-kolejnym-kraju-to-zagrozenie-dla-stosunkow-z-polska,1109552.html",
-      "source": "wnp.pl",
-      "source_type": "news",
-      "published_at": "2026-10-15T20:15:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,

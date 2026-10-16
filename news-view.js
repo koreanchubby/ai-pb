@@ -7,8 +7,23 @@
   'use strict';
 
   var NEWS_URL = './data/news.json';
+  var CURATED_URL = './data/news_curated.json';
   var MAX_CARDS = 12;
+  var MAX_CURATED = 36;   // 주제 6개 × 최소 5건을 넉넉히 보여 줄 수 있게
+  // news.json을 못 받았을 때 쓰는 분류 이름 (scripts/fetch_news.py CATEGORY_LABELS와 같게)
+  var CATEGORY_LABELS = { rates: '금리', fx: '환율', oil: '유가', etf: 'ETF', semis: '반도체', geopolitics: '지정학' };
   var TYPE_LABEL = { official: '공식', market: '시장', news: '뉴스' };
+  // 뉴스 기사는 많은 사람이 신뢰하는 언론사 것만 보여 줍니다 (docs/DECISIONS.md 2026-10-15).
+  // 공식 발표(연준 등)와 시장 지표(ECOS·FRED·한국투자증권)는 기관 자료라 그대로 둡니다.
+  // 주소가 아래 도메인이거나 그 하위 도메인이면 허용 (예: news.kbs.co.kr → kbs.co.kr)
+  var TRUSTED_DOMAINS = [
+    'yna.co.kr', 'einfomax.co.kr',                           // 연합뉴스 (국가기간뉴스통신사)·연합인포맥스(연합뉴스 경제 자회사)
+    'kbs.co.kr', 'imbc.com', 'sbs.co.kr', 'jtbc.co.kr', 'ytn.co.kr', // DNR 한국 신뢰도 상위 5개 방송사
+    'hankyung.com', 'mk.co.kr', 'sedaily.com', 'mt.co.kr', 'edaily.co.kr', 'asiae.co.kr',
+    'heraldcorp.com', 'fnnews.com', 'biz.chosun.com',        // 국내 주요 경제 일간지 (팀 판단)
+    'news1.kr', 'newsis.com', 'yonhapnewstv.co.kr',          // 국내 뉴스통신사·보도채널 (팀 판단)
+    'reuters.com', 'apnews.com', 'bloomberg.com', 'ft.com', 'wsj.com', 'cnbc.com', 'bbc.com', 'bbc.co.uk' // 국제 통신사·경제매체 (팀 판단)
+  ];
   var SECTIONS = [
     ['facts', '확인된 사실'],
     ['ai_interpretation', 'AI 해석'],
@@ -23,29 +38,105 @@
   if (!grid) return;
 
   injectStyle();
-  load();
+  // 우리가 원문을 확인하고 우리 말로 쓴 뉴스 (data/news_curated.json, docs/DECISIONS.md 2026-10-15).
+  // 데일리 시황과 같은 방식(원문 확인 → 우리 제목·요약 + 원문 링크)으로 주제마다 따로 고른 기사다.
+  var newsData = null;
+  var curatedData = null;
 
-  function load() {
-    fetch(NEWS_URL, { cache: 'no-store' })
+  load(NEWS_URL, function (data) { newsData = data; });
+  load(CURATED_URL, function (data) { curatedData = data; });
+
+  function load(url, keep) {
+    fetch(url, { cache: 'no-store' })
       .then(function (res) { return res.ok ? res.json() : null; })
       .then(function (data) {
         if (!data || !Array.isArray(data.items) || !data.items.length) return;
-        render(data);
+        keep(data);
+        render();
       })
-      .catch(function () { /* 실패하면 기존 데모 카드 유지 */ });
+      .catch(function () { /* 실패하면 그 파일만 빼고 표시 (둘 다 실패하면 기존 데모 카드 유지) */ });
   }
 
-  function render(data) {
-    var labels = data.categories || {};
-    var items = data.items.slice(0, MAX_CARDS);
+  function render() {
+    var labels = (newsData && newsData.categories) || CATEGORY_LABELS;
+    var curated = curatedData ? curatedData.items.filter(function (item) {
+      // 우리 요약 기사는 출처가 모두 신뢰 언론사(또는 공식 기관 .go.kr·.gov)일 때만
+      return (item.sources || []).length && item.sources.every(function (src) { return isTrusted(src.url, true); });
+    }).sort(function (a, b) {
+      return String(b.published_at || '').localeCompare(String(a.published_at || ''));
+    }).slice(0, MAX_CURATED) : [];
+    var items = newsData ? newsData.items.filter(function (item) {
+      return item.source_type !== 'news' || isTrusted(item.url, false);
+    }).slice(0, MAX_CARDS) : [];
+    if (!curated.length && !items.length) return;   // 보여 줄 기사가 없으면 기존 화면 유지
 
+    // 중요한 순서: 공식 발표 → 시장 지표 → 뉴스(우리 요약 기사 포함). 같은 종류 안에서는 중요도 → 최신순.
+    // 카드 순서가 정해지면 주제 필터(금리·환율 등)를 눌러도 이 순서가 그대로 유지됩니다.
+    var entries = items.map(function (item) { return { item: item, curated: false }; })
+      .concat(curated.map(function (item) { return { item: item, curated: true }; }));
+    entries.sort(function (a, b) {
+      return typeRank(a) - typeRank(b) ||
+        (Number(b.item.importance) || 0) - (Number(a.item.importance) || 0) ||
+        String(b.item.published_at || '').localeCompare(String(a.item.published_at || ''));
+    });
     grid.textContent = '';
-    items.forEach(function (item) { grid.appendChild(card(item, labels)); });
-    grid.dataset.source = 'news-json';
+    entries.forEach(function (e) { grid.appendChild(e.curated ? curatedCard(e.item, labels) : card(e.item, labels)); });
+    grid.dataset.source = curated.length ? 'news-json+curated' : 'news-json';
 
-    renderFilters(items, labels);
-    updateChip(data);
-    renderFooter(data);
+    renderFilters(curated.concat(items), labels);
+    if (newsData) {
+      updateChip(newsData);
+      renderFooter(newsData);
+    }
+    if (curatedData && curatedData.notice) {
+      var box = panel.querySelector('.news-attribution');
+      if (box && !box.querySelector('.curated-notice')) {
+        box.insertBefore(el('p', 'curated-notice', curatedData.notice), box.firstChild);
+      }
+    }
+  }
+
+  function curatedCard(item, labels) {
+    var article = el('article', 'evidence-card news-card curated-card');
+    article.dataset.categories = (item.categories || []).join(' ');
+
+    var head = el('div', 'news-head');
+    head.appendChild(el('span', 'source-type news', '뉴스'));
+    head.appendChild(el('span', 'news-tag news-tag-ours', 'AI 요약'));
+    if (item.lang) head.appendChild(el('span', 'news-tag', item.lang === 'ko' ? '한국어' : 'English'));
+    // 게시 시각을 확인 못 한 기사는 원문 날짜만 보여 줍니다
+    var firstDate = (item.sources || [])[0] && item.sources[0].date;
+    var time = el('time', '', item.published_at ? formatTime(item.published_at) : formatDay(firstDate || ''));
+    if (item.published_at) time.setAttribute('datetime', item.published_at);
+    head.appendChild(time);
+    article.appendChild(head);
+
+    article.appendChild(el('h2', '', item.headline || '(제목 없음)'));
+    if (item.summary) article.appendChild(el('p', '', item.summary));
+    if (item.impact) {
+      var impact = el('p', 'news-impact');
+      impact.appendChild(el('strong', '', '내 자산 영향'));
+      impact.appendChild(document.createTextNode(item.impact));
+      article.appendChild(impact);
+    }
+
+    var foot = el('div', 'news-foot');
+    foot.appendChild(el('span', 'news-cats', (item.categories || []).map(function (key) { return labels[key] || key; }).join(' · ')));
+    (item.sources || []).forEach(function (src) {
+      var link = safeUrl(src.url);
+      var label = (src.name || '출처') + ' · 원문 보기';
+      if (link) {
+        var a = el('a', 'news-link', label);
+        a.href = link;
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+        foot.appendChild(a);
+      } else if (src.name) {
+        foot.appendChild(el('span', 'news-link', src.name));
+      }
+    });
+    article.appendChild(foot);
+    return article;
   }
 
   function card(item, labels) {
@@ -191,6 +282,19 @@
     return node;
   }
 
+  function typeRank(entry) {
+    var rank = { official: 0, market: 1, news: 2 }[entry.item.source_type];
+    return entry.curated || rank === undefined ? 2 : rank;
+  }
+
+  function isTrusted(url, allowOfficial) {
+    var host;
+    try { host = new URL(url).hostname.toLowerCase(); } catch (error) { return false; }
+    // 공식 기관: 정부(.go.kr·.gov)와 한국은행(bok.or.kr)
+    if (allowOfficial && (/\.(go\.kr|gov)$/.test(host) || host === 'bok.or.kr' || /\.bok\.or\.kr$/.test(host))) return true;
+    return TRUSTED_DOMAINS.some(function (domain) { return host === domain || host.slice(-domain.length - 1) === '.' + domain; });
+  }
+
   function safeUrl(url) {
     try {
       var parsed = new URL(url, window.location.href);
@@ -248,7 +352,10 @@
       '.news-filter.active{background:#07182d;border-color:#07182d;color:#fff}',
       '.news-attribution{margin-top:14px;font-size:.66rem;color:#667085;line-height:1.6}',
       '.news-attribution ul{margin:4px 0 0;padding-left:16px}',
-      '.news-card[hidden]{display:none!important}'
+      '.news-card[hidden]{display:none!important}',
+      '.news-tag-ours{background:#eaf1ff;color:#2f6fed}',
+      '.curated-card .news-foot a+a{margin-left:8px}',
+      '.news-attribution .curated-notice{margin:0 0 4px}'
     ].join('\n');
     document.head.appendChild(style);
   }
