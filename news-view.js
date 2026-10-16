@@ -70,9 +70,17 @@
     }).slice(0, MAX_CARDS) : [];
     if (!curated.length && !items.length) return;   // 보여 줄 기사가 없으면 기존 화면 유지
 
+    // 중요한 순서: 공식 발표 → 시장 지표 → 뉴스(우리 요약 기사 포함). 같은 종류 안에서는 중요도 → 최신순.
+    // 카드 순서가 정해지면 주제 필터(금리·환율 등)를 눌러도 이 순서가 그대로 유지됩니다.
+    var entries = items.map(function (item) { return { item: item, curated: false }; })
+      .concat(curated.map(function (item) { return { item: item, curated: true }; }));
+    entries.sort(function (a, b) {
+      return typeRank(a) - typeRank(b) ||
+        (Number(b.item.importance) || 0) - (Number(a.item.importance) || 0) ||
+        String(b.item.published_at || '').localeCompare(String(a.item.published_at || ''));
+    });
     grid.textContent = '';
-    curated.forEach(function (item) { grid.appendChild(curatedCard(item, labels)); });
-    items.forEach(function (item) { grid.appendChild(card(item, labels)); });
+    entries.forEach(function (e) { grid.appendChild(e.curated ? curatedCard(e.item, labels) : card(e.item, labels)); });
     grid.dataset.source = curated.length ? 'news-json+curated' : 'news-json';
 
     renderFilters(curated.concat(items), labels);
@@ -272,6 +280,11 @@
     if (className) node.className = className;
     if (text !== undefined && text !== null) node.textContent = String(text);
     return node;
+  }
+
+  function typeRank(entry) {
+    var rank = { official: 0, market: 1, news: 2 }[entry.item.source_type];
+    return entry.curated || rank === undefined ? 2 : rank;
   }
 
   function isTrusted(url, allowOfficial) {
