@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T19:44:18Z",
+  "generated_at": "2026-10-16T20:48:31Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,24 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-bfd2187e61f7",
+      "title": "Franken steigt vor dem Wochenende zum US - Dollar und Euro",
+      "url": "https://www.finanzen.ch/nachrichten/devisen/franken-steigt-vor-dem-wochenende-zum-us-dollar-und-euro-1036633344",
+      "source": "finanzen.ch",
+      "source_type": "news",
+      "published_at": "2026-10-16T20:00:00Z",
+      "categories": [
+        "oil",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-c925ca2805ee",
@@ -760,31 +778,14 @@
       "change_condition": null
     },
     {
-      "id": "news-464df6b09ffc",
-      "title": "Anthony Albanese and Jim Chalmers : Inside the growing rift at the heart of the Labor government",
-      "url": "https://www.smh.com.au/politics/federal/in-a-funk-how-economic-pain-is-straining-the-pm-and-treasurer-s-relationship-20261017-p615u2.html",
-      "source": "smh.com.au",
+      "id": "news-7f8439dba0f7",
+      "title": "إنتاج الجزائر من النفط يتجاوز المليون برميل يوميا للشهر الثاني تباعا – الشروق أونلاين",
+      "url": "https://www.echoroukonline.com/%D8%A5%D9%86%D8%AA%D8%A7%D8%AC-%D8%A7%D9%84%D8%AC%D8%B2%D8%A7%D8%A6%D8%B1-%D9%85%D9%86-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%8A%D8%AA%D8%AC%D8%A7%D9%88%D8%B2-%D8%A7%D9%84%D9%85%D9%84%D9%8A%D9%88%D9%86",
+      "source": "echoroukonline.com",
       "source_type": "news",
-      "published_at": "2026-10-16T19:15:00Z",
+      "published_at": "2026-10-16T20:00:00Z",
       "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fdaa595e15a4",
-      "title": "Fed Chair Warsh Avoids Speculation On Rate Hikes | Talk Radio 105 . 9",
-      "url": "https://knrs.iheart.com/content/2026-10-16-fed-chair-warsh-avoids-speculation-on-rate-hikes/",
-      "source": "knrs.iheart.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T19:15:00Z",
-      "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
