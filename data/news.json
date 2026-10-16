@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T16:50:11Z",
+  "generated_at": "2026-10-16T17:46:36Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -742,14 +742,14 @@
       "change_condition": null
     },
     {
-      "id": "news-c6619d23e8e3",
-      "title": "한미 재무 · 통화당국 첫  2+2 회담  경제 · 금융 협력 강화 논의",
-      "url": "https://newsway.co.kr/news/view?ud=2026101620353000146",
-      "source": "newsway.co.kr",
+      "id": "news-eaff19058f43",
+      "title": "Early Edition : October 16 , 2026",
+      "url": "https://www.justsecurity.org/161058/early-edition-october-16-2026/",
+      "source": "justsecurity.org",
       "source_type": "news",
-      "published_at": "2026-10-16T16:30:00Z",
+      "published_at": "2026-10-16T17:15:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -759,14 +759,14 @@
       "change_condition": null
     },
     {
-      "id": "news-a14f709bba57",
-      "title": "World economy  resilience  surprising , says Fed Warsh",
-      "url": "https://www.manilatimes.net/2026/10/17/business/top-business/world-economys-resilience-surprising-says-feds-warsh/2447697",
-      "source": "manilatimes.net",
+      "id": "news-d3af8000424d",
+      "title": "I stopped chasing Wi - Fi 7 once I saw what my Wi - Fi 6 gateway actually delivers",
+      "url": "https://www.makeuseof.com/i-stopped-chasing-wi-fi-7-after-discovering-my-wi-fi-6-setup-was-misconfigured/",
+      "source": "makeuseof.com",
       "source_type": "news",
-      "published_at": "2026-10-16T16:30:00Z",
+      "published_at": "2026-10-16T16:45:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -776,14 +776,14 @@
       "change_condition": null
     },
     {
-      "id": "news-715a2bb1510c",
-      "title": "US - Eröffnung : Techwerte wieder unter Druck - Dow legt weiter zu",
-      "url": "https://www.moneycab.com/maerkte/us-eroeffnung-techwerte-wieder-unter-druck-dow-legt-weiter-zu-2/",
-      "source": "moneycab.com",
+      "id": "news-fc8b6fa88074",
+      "title": "RTX Spark im Test : Nvidias erster Notebook - Chip für lokale KI",
+      "url": "https://www.heise.de/news/RTX-Spark-im-Test-Nvidias-erster-Notebook-Chip-fuer-lokale-KI-11490664.html",
+      "source": "heise.de",
       "source_type": "news",
-      "published_at": "2026-10-16T16:30:00Z",
+      "published_at": "2026-10-16T16:45:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
