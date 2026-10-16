@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T17:46:36Z",
+  "generated_at": "2026-10-16T18:54:56Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,24 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-c925ca2805ee",
+      "title": "Chip selloff deepens Wall Street losses as doubts grew over AI returns",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/chip-selloff-deepens-wall-street-losses-as-doubts-grew-over-ai-returns/articleshow/135001236.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T18:30:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-763f60214401",
@@ -742,14 +760,14 @@
       "change_condition": null
     },
     {
-      "id": "news-eaff19058f43",
-      "title": "Early Edition : October 16 , 2026",
-      "url": "https://www.justsecurity.org/161058/early-edition-october-16-2026/",
-      "source": "justsecurity.org",
+      "id": "news-0c56462a941f",
+      "title": "Ouro fecha em alta com ponderaes sobre rumo de juros pelo Fed - 16 / 10 / 2026",
+      "url": "https://www.dgabc.com.br/Noticia/4353155/ouro-fecha-em-alta-com-ponderacoes-sobre-rumo-de-juros-pelo-fed",
+      "source": "dgabc.com.br",
       "source_type": "news",
-      "published_at": "2026-10-16T17:15:00Z",
+      "published_at": "2026-10-16T18:30:00Z",
       "categories": [
-        "semis"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -759,31 +777,14 @@
       "change_condition": null
     },
     {
-      "id": "news-d3af8000424d",
-      "title": "I stopped chasing Wi - Fi 7 once I saw what my Wi - Fi 6 gateway actually delivers",
-      "url": "https://www.makeuseof.com/i-stopped-chasing-wi-fi-7-after-discovering-my-wi-fi-6-setup-was-misconfigured/",
-      "source": "makeuseof.com",
+      "id": "news-f8000f51f0c8",
+      "title": "Fed Chair Warsh Avoids Speculation On Rate Hikes | WJBO Newsradio 1150 AM & 98 . 7 FM",
+      "url": "https://wjbo.iheart.com/content/2026-10-16-fed-chair-warsh-avoids-speculation-on-rate-hikes/",
+      "source": "wjbo.iheart.com",
       "source_type": "news",
-      "published_at": "2026-10-16T16:45:00Z",
+      "published_at": "2026-10-16T18:30:00Z",
       "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fc8b6fa88074",
-      "title": "RTX Spark im Test : Nvidias erster Notebook - Chip für lokale KI",
-      "url": "https://www.heise.de/news/RTX-Spark-im-Test-Nvidias-erster-Notebook-Chip-fuer-lokale-KI-11490664.html",
-      "source": "heise.de",
-      "source_type": "news",
-      "published_at": "2026-10-16T16:45:00Z",
-      "categories": [
-        "semis"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
