@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T13:02:20Z",
+  "generated_at": "2026-10-16T13:54:27Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,24 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-fe994e6f906f",
+      "title": "Iraq says lost 60 bln USD during U . S .- Iran conflict - Xinhua",
+      "url": "https://english.news.cn/20261016/b9f73b2bc25b40ccae7f86c1dd67820f/c.html",
+      "source": "english.news.cn",
+      "source_type": "news",
+      "published_at": "2026-10-16T13:30:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-c4af8a888033",
@@ -652,12 +670,12 @@
       "change_condition": null
     },
     {
-      "id": "news-8beda17cf219",
-      "title": "A Surfacing Strategy : Chinese Unconventional Oceanic Warfare | Center for International Maritime Security",
-      "url": "https://cimsec.org/a-surfacing-strategy-chinese-unconventional-oceanic-warfare/",
-      "source": "cimsec.org",
+      "id": "news-f30cb462cd23",
+      "title": "WOCHENVORSCHAU / 26 . Oktober bis 1 . November ( 44 . KW )",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69858898-wochenvorschau-26-oktober-bis-1-november-44-kw-015.htm",
+      "source": "finanznachrichten.de",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-16T13:30:00Z",
       "categories": [
         "oil"
       ],
@@ -669,12 +687,12 @@
       "change_condition": null
     },
     {
-      "id": "news-9fb4e21afe5c",
-      "title": "« O mercado português faz autênticos milagres » – Entrevista Bola na Rede a Diogo Boa Alma",
-      "url": "https://sapo.pt/artigo/o-mercado-portugues-faz-autenticos-milagres-entrevista-bola-na-rede-a-diogo-boa-alma-6ad1fd28936fde01556d7e69",
-      "source": "sapo.pt",
+      "id": "news-bffdef0f8ea8",
+      "title": "Giá xăng dầu tối 16 / 10 : E10 RON 95 và RON 92  rơi tự do  về gần đáy , dầu diesel giảm liền 3 kỳ , giá đầy bình xe ga 125cc",
+      "url": "https://www.techz.vn/192-1026-5-gia-xang-dau-toi-16-10-e10-ron-95-va-ron-92-roi-tu-do-ve-gan-day-dau-diesel-giam-lien-3-ky-gia-day-binh-xe-ga-125cc-ylt713648.html",
+      "source": "techz.vn",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-16T13:30:00Z",
       "categories": [
         "oil"
       ],
@@ -686,12 +704,12 @@
       "change_condition": null
     },
     {
-      "id": "news-7583ade41502",
-      "title": "Родители недооценивают , сколько овощей и фруктов должны есть дети : исследование",
-      "url": "https://medicalinsider.ru/dietologiya/roditeli-nedootsenivayut-skolko-ovoschey-i-fruktov-dolzhny-est-deti-issledovanie/",
-      "source": "medicalinsider.ru",
+      "id": "news-392dff133dc5",
+      "title": "Bait bomb made in neighbouring Deogarh with goat skin",
+      "url": "https://timesofindia.indiatimes.com/city/bhubaneswar/bait-bomb-made-in-neighbouring-deogarh-with-goat-skin/articleshow/134995750.cms",
+      "source": "timesofindia.indiatimes.com",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-16T13:30:00Z",
       "categories": [
         "oil"
       ],
@@ -703,12 +721,12 @@
       "change_condition": null
     },
     {
-      "id": "news-0861b7b4e146",
-      "title": "荣盛石化前三季度归母净利润预增超777 %， 上半年近3000亿元固定资产被抵押",
-      "url": "https://finance.jrj.com.cn/2026/10/15150658730605.shtml",
-      "source": "finance.jrj.com.cn",
+      "id": "news-a44889505ad7",
+      "title": "今日晚间重要公告抢先看 继续炸场 ！ 亨通光电净利润环比最高增长61 %； 德明利扭亏为盈 ， 净利润预计最高89 . 5亿元 ； 生益科技净利润同比预增最高181 %； 胜宏科技 、 卓胜微 、 罗博特科等均提议回购",
+      "url": "https://stock.jrj.com.cn/2026/10/16204258754601.shtml",
+      "source": "stock.jrj.com.cn",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-16T13:30:00Z",
       "categories": [
         "oil"
       ],
@@ -720,12 +738,12 @@
       "change_condition": null
     },
     {
-      "id": "news-41f2b43bb26c",
-      "title": "Los futuros de Wall Street ensayan un rebote tras nuevas señales del titular de la Fed",
-      "url": "https://www.ambito.com/finanzas/los-futuros-wall-street-ensayan-un-rebote-nuevas-senales-del-titular-la-fed-n6334436",
-      "source": "ambito.com",
+      "id": "news-545c2ee65e93",
+      "title": "EU leaders back Zelenskiy , Trump blasts Russia strikes",
+      "url": "https://www.edenmagnet.com.au/story/9369587/eu-leaders-back-zelenskiy-trump-blasts-russia-strikes/",
+      "source": "edenmagnet.com.au",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-16T13:30:00Z",
       "categories": [
         "oil"
       ],
@@ -737,12 +755,12 @@
       "change_condition": null
     },
     {
-      "id": "news-b51589ededac",
-      "title": "« Դա խայտառակություն է »․ Դոնալդ Թրամփը քննադատել է ռուսական ՆՎԶ - ների ուղղությամբ Ուկրաինայի հարվածները",
-      "url": "https://times.am/1026918/",
-      "source": "times.am",
+      "id": "news-828ebed8b3a7",
+      "title": "Ceny paliw się rozjeżdżają . Benzyna będzie tańsza , ale właściciele diesli ucieszą się mniej",
+      "url": "https://www.portalsamorzadowy.pl/gospodarka-komunalna/ceny-paliw-sie-rozjezdzaja-benzyna-bedzie-tansza-ale-wlasciciele-diesli-uciesza-sie-mniej,680455.html",
+      "source": "portalsamorzadowy.pl",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-16T13:30:00Z",
       "categories": [
         "oil"
       ],
@@ -754,29 +772,12 @@
       "change_condition": null
     },
     {
-      "id": "news-d1a83319b38d",
-      "title": "AB liderleri , yükselen enerji fiyatlarına karşı ortak eylem çağrısı yaptı",
-      "url": "https://tr.euronews.com/2026/10/16/ab-liderleri-yukselen-enerji-fiyatlarina-karsi-ortak-eylem-cagrisi-yapti",
-      "source": "tr.euronews.com",
+      "id": "news-2868a6192034",
+      "title": "Így közelített Zelenszkij Magyar Péterhez brüsszeli megbeszélésük előtt",
+      "url": "https://www.blikk.hu/politika/magyar-politika/magyar-peter-zelenszkij-brusszel-talakozo-testbeszed/b8eg3dn",
+      "source": "blikk.hu",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9e523d5295ee",
-      "title": "Права есть , а за руль больше нельзя : с 2027 года водителей начнут проверять по новой схеме",
-      "url": "https://www.pravda.ru/news/auto/2427380-driver-license-medical-revocation-2027/",
-      "source": "pravda.ru",
-      "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-16T13:30:00Z",
       "categories": [
         "oil"
       ],
