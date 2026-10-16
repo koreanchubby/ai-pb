@@ -1,0 +1,34 @@
+/* 미리보기 전용 스타일. 실제 사이트의 styles.css·v3.css는 그대로 두고, 미리보기에서 새로 생긴 부분만 꾸밉니다. */
+.preview-banner {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  padding: 8px 16px;
+  background: #fff6e5;
+  border-bottom: 1px solid #f1dfb8;
+  color: #8a5a08;
+  font-size: .8rem;
+  line-height: 1.5;
+}
+.preview-banner b {
+  margin-right: 6px;
+  padding: 1px 8px;
+  border-radius: 999px;
+  background: #8a5a08;
+  color: #fff;
+  font-size: .72rem;
+}
+.preview-banner a { color: #8a5a08; font-weight: 700; }
+
+.hv-subtitle { margin: 18px 0 8px; font-size: .95rem; }
+.hv-inst { width: 100%; border-collapse: collapse; font-size: .84rem; font-variant-numeric: tabular-nums; }
+.hv-inst th, .hv-inst td { padding: 9px 8px; border-bottom: 1px solid #dce4ef; text-align: left; white-space: nowrap; }
+.hv-inst th { color: #68758c; font-size: .74rem; font-weight: 700; }
+.hv-inst a { color: #2f6fe8; font-weight: 700; text-decoration: none; }
+.hv-inst small { display: block; color: #68758c; font-size: .72rem; font-weight: 400; white-space: normal; min-width: 180px; }
+.hv-dot { display: inline-grid; place-items: center; min-width: 30px; height: 24px; border-radius: 7px; font-size: .76rem; font-weight: 800; }
+.hv-dot.up { background: #e9f8f2; color: #11986f; }
+.hv-dot.down { background: #fdecef; color: #d6455d; }
+.hv-dot.flat { background: #eef2f8; color: #667085; }
+.hv-dot.none { color: #b4bcc9; }
+.hv-ref { color: #68758c; font-size: .78rem; font-weight: 700; white-space: nowrap; }
