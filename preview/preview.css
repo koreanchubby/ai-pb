@@ -111,7 +111,7 @@
 .legal-note.tax-basis strong { color: #6b4405; }
 
 /* 5단계: 하우스뷰 반영 여부 고객 선택 카드 · 6단계: 현재 선택 표시 */
-.taa-choice { padding: 22px; margin-bottom: 18px; border: 2px solid #c9d9fb; }
+.taa-choice { padding: 22px; margin: 20px 0 18px; border: 2px solid #c9d9fb; }
 .taa-choice-kicker { display: inline-block; padding: 2px 10px; border-radius: 999px; background: #2f6fe8; color: #fff; font-size: .7rem; font-weight: 800; }
 .taa-choice-head h2 { margin: 8px 0 4px; font-size: 1.15rem; }
 .taa-choice-head p { margin: 0; color: #68758c; font-size: .84rem; }

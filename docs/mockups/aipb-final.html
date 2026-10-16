@@ -514,7 +514,7 @@ dialog{border:0;padding:0;background:transparent;max-width:460px;width:calc(100%
 .legal-note.tax-basis strong { color: #6b4405; }
 
 /* 5단계: 하우스뷰 반영 여부 고객 선택 카드 · 6단계: 현재 선택 표시 */
-.taa-choice { padding: 22px; margin-bottom: 18px; border: 2px solid #c9d9fb; }
+.taa-choice { padding: 22px; margin: 20px 0 18px; border: 2px solid #c9d9fb; }
 .taa-choice-kicker { display: inline-block; padding: 2px 10px; border-radius: 999px; background: #2f6fe8; color: #fff; font-size: .7rem; font-weight: 800; }
 .taa-choice-head h2 { margin: 8px 0 4px; font-size: 1.15rem; }
 .taa-choice-head p { margin: 0; color: #68758c; font-size: .84rem; }
@@ -1902,7 +1902,7 @@ function renderMarket(plan) {
     ? '하우스뷰를 불러오는 중입니다. 불러오지 못하면 장기 SAA를 그대로 사용합니다.'
     : state.useTaa
       ? '하우스뷰를 반영해 장기 SAA에서 ' + summary + ' 조정한 안을 실행 계획의 목표로 사용합니다.'
-      : '장기 SAA를 그대로 실행 목표로 사용합니다. 하우스뷰 조정안(' + summary + ')은 고객이 상단에서 반영을 선택할 때만 적용됩니다.';
+      : '장기 SAA를 그대로 실행 목표로 사용합니다. 하우스뷰 조정안(' + summary + ')은 고객이 아래 '고객 선택'에서 반영을 고를 때만 적용됩니다.';
 }
 
 function reasonFor(key, diff, plan) {
