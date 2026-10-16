@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T18:54:56Z",
+  "generated_at": "2026-10-16T19:44:18Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -760,12 +760,12 @@
       "change_condition": null
     },
     {
-      "id": "news-0c56462a941f",
-      "title": "Ouro fecha em alta com ponderaes sobre rumo de juros pelo Fed - 16 / 10 / 2026",
-      "url": "https://www.dgabc.com.br/Noticia/4353155/ouro-fecha-em-alta-com-ponderacoes-sobre-rumo-de-juros-pelo-fed",
-      "source": "dgabc.com.br",
+      "id": "news-464df6b09ffc",
+      "title": "Anthony Albanese and Jim Chalmers : Inside the growing rift at the heart of the Labor government",
+      "url": "https://www.smh.com.au/politics/federal/in-a-funk-how-economic-pain-is-straining-the-pm-and-treasurer-s-relationship-20261017-p615u2.html",
+      "source": "smh.com.au",
       "source_type": "news",
-      "published_at": "2026-10-16T18:30:00Z",
+      "published_at": "2026-10-16T19:15:00Z",
       "categories": [
         "rates"
       ],
@@ -777,12 +777,12 @@
       "change_condition": null
     },
     {
-      "id": "news-f8000f51f0c8",
-      "title": "Fed Chair Warsh Avoids Speculation On Rate Hikes | WJBO Newsradio 1150 AM & 98 . 7 FM",
-      "url": "https://wjbo.iheart.com/content/2026-10-16-fed-chair-warsh-avoids-speculation-on-rate-hikes/",
-      "source": "wjbo.iheart.com",
+      "id": "news-fdaa595e15a4",
+      "title": "Fed Chair Warsh Avoids Speculation On Rate Hikes | Talk Radio 105 . 9",
+      "url": "https://knrs.iheart.com/content/2026-10-16-fed-chair-warsh-avoids-speculation-on-rate-hikes/",
+      "source": "knrs.iheart.com",
       "source_type": "news",
-      "published_at": "2026-10-16T18:30:00Z",
+      "published_at": "2026-10-16T19:15:00Z",
       "categories": [
         "rates"
       ],
