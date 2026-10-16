@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T03:50:14Z",
+  "generated_at": "2026-10-16T04:50:44Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 45
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,42 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-b74a0a59fd69",
+      "title": "[ 단독 ]  中 반도체 때문 아니다 … 외국인 큰손에게 한국 주식 왜 파는지 물었더니 [ 투자360 ]",
+      "url": "https://biz.heraldcorp.com/article/10904762",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:15:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cb9afd498003",
+      "title": "급락 딛고 반등하는 반도체 투톱코스피 5600선 회복",
+      "url": "https://newsway.co.kr/news/view?ud=2026101609212212899",
+      "source": "newsway.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-16T02:15:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-698b229dc4be",
@@ -508,6 +544,74 @@
       "change_condition": null
     },
     {
+      "id": "news-1f2a44ac0d80",
+      "title": "한국 경제  포트폴리오  다시 짤 때다 [ 포럼 ]",
+      "url": "https://www.munhwa.com:443/article/11623986",
+      "source": "munhwa.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2af24aa0c01a",
+      "title": "央行連十季凍息 賴總統 ：「 央行是獨立性的 」 沒有置喙餘地 | 金融要聞 | 產經",
+      "url": "https://udn.com/news/story/7239/9818711",
+      "source": "udn.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3698da08f360",
+      "title": "3분기 은행간 외환거래 556억달러 .. 선물환 순매도는 급감",
+      "url": "https://www.fnnews.com/news/202610160956253649",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f96f43cc508d",
+      "title": "외국인 국내 증권자금 200억달러 순유출 … 9월 주식 · 채권 동반 이탈",
+      "url": "https://www.newspim.com/news/view/20261016000246",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-53dda4116289",
       "title": "Moravskoslezské novinky - Domácí - Kdo nahradí Zelenského ?",
       "url": "https://www.moravskoslezskenovinky.cz/zpravy/zpravy/kdo-nahradi-zelenskeho/",
@@ -665,108 +769,6 @@
       "title": "天猫 、 京东发布会隔空对垒 ， 抖音发券到红果 ， 今年双11各家都打什么牌 ？- CFi . CN 中财网",
       "url": "http://www.cfi.net.cn/p20261016000219.html",
       "source": "cfi.net.cn",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2b03e96147e2",
-      "title": "John Healey urged to hike taxes on bank  bumper profit in Budget",
-      "url": "https://www.herefordtimes.com/news/national/26641794.john-healey-urged-hike-taxes-banks-bumper-profits-budget/",
-      "source": "herefordtimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5c47adc47a6f",
-      "title": "美国财长新顾问炮轰IMF ， 反击其主席关于美债不可持续的警告 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261016000224.html",
-      "source": "cfi.net.cn",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bb89eb6bc735",
-      "title": "日本有识之士警示 ： 谨防日本重回  战前状态  - 环球新闻",
-      "url": "http://news.fjsen.com/2026-10/16/content_32267858.htm",
-      "source": "news.fjsen.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b0461ab93d16",
-      "title": "22 US Lawmakers Urge Trump to Enforce Russia Sanctions by Oct . 18",
-      "url": "https://www.kyivpost.com/post/87218",
-      "source": "kyivpost.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fa5333e48ba0",
-      "title": "Доллар может упасть до 60 рублей в течение года",
-      "url": "https://www.teleport2001.ru/news/2026-10-16/220169-dollar-mozhet-upast-do-60-rubley-v-techenie-goda.html",
-      "source": "teleport2001.ru",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d08acfe61ba7",
-      "title": "被 「 內捲 」 壓力逼出海 ： 當中國電動車駛向歐美 ， 全球汽車供應鏈會重組嗎 ？ | 政經角力",
-      "url": "https://global.udn.com/global_vision/story/8663/9818329",
-      "source": "global.udn.com",
       "source_type": "news",
       "published_at": "2026-10-16T03:30:00Z",
       "categories": [
