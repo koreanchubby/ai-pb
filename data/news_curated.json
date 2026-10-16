@@ -1,7 +1,578 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-10-15T00:00:00+09:00",
+  "updated_at": "2026-10-16T10:30:00+09:00",
   "approval": "Claude 판단 (이유경 위임)",
   "notice": "'AI 요약' 카드는 원문을 직접 열어 날짜와 내용을 확인한 뒤 우리가 새로 쓴 제목과 요약입니다. 기사 원문은 언론사 링크로 보세요. 투자 권유가 아닙니다.",
-  "items": []
+  "items": [
+    {
+      "id": "2026-10-16-us-yield-reverse",
+      "categories": [
+        "rates"
+      ],
+      "lang": "ko",
+      "headline": "美 국채금리, 물가 충격에 올랐다가 기술주 급락에 되레 하락",
+      "summary": "예상보다 높은 미국 물가로 장 초반 크게 올랐던 국채금리가 AI 관련주 투매가 커지자 안전자산 수요가 몰리며 하락 마감했습니다.",
+      "impact": "국채·회사채",
+      "published_at": "2026-10-15T10:58:24Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827931"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-ai-credit-spread",
+      "categories": [
+        "rates"
+      ],
+      "lang": "ko",
+      "headline": "AI 기업 회사채 약세에 美 신용시장 경계 커져",
+      "summary": "AI 인프라에 큰돈을 빌린 기업들의 회사채 가격이 떨어지고, 신용등급이 낮은 회사채와 국채의 금리차도 벌어지며 투자자 경계가 높아졌습니다.",
+      "impact": "회사채",
+      "published_at": "2026-10-15T10:44:23Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827907"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-cofix-up",
+      "categories": [
+        "rates"
+      ],
+      "lang": "ko",
+      "headline": "코픽스 큰 폭 상승…주담대 변동금리 또 오른다",
+      "summary": "은행 자금조달 비용을 보여 주는 9월 코픽스가 2년여 만에 가장 높은 수준으로 올라, 이를 따르는 주택담보대출 변동금리도 오를 전망입니다.",
+      "impact": "국채·회사채",
+      "published_at": "2026-10-15T07:25:35Z",
+      "sources": [
+        {
+          "name": "SBS",
+          "date": "2026-10-15",
+          "url": "https://news.sbs.co.kr/news/endPage.do?news_id=N1008799672"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-ms-bok-hike",
+      "categories": [
+        "rates"
+      ],
+      "lang": "ko",
+      "headline": "모건스탠리 \"한은, 10월 동결 뒤 11월 인상\" 전망",
+      "summary": "모건스탠리는 한국은행이 이달에는 기준금리를 동결하고 11월에 올릴 것으로 내다봤습니다.",
+      "impact": "국채·회사채",
+      "published_at": "2026-10-14T06:10:20Z",
+      "sources": [
+        {
+          "name": "헤럴드경제",
+          "date": "2026-10-14",
+          "url": "https://biz.heraldcorp.com/article/10902492"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-boj-hike-talk",
+      "categories": [
+        "rates"
+      ],
+      "lang": "ko",
+      "headline": "일본은행 심의위원 \"금리 인상에 지나치게 신중할 필요 없어\"",
+      "summary": "일본은행 금리 결정 회의를 2주 앞두고 한 심의위원이 인상에 과도하게 신중할 필요가 없다고 밝혔습니다. 다만 시기는 언급하지 않았습니다.",
+      "impact": "국채·회사채",
+      "published_at": "2026-10-15T08:20:50Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827839"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-usdkrw-1015",
+      "categories": [
+        "fx"
+      ],
+      "lang": "ko",
+      "headline": "원/달러 환율 6.3원 오른 1,344.6원 마감",
+      "summary": "미국 물가가 예상보다 높게 나오며 추가 금리 인상 경계가 커졌고, 외국인 주식 매도까지 겹쳐 환율이 올랐습니다.",
+      "impact": "해외주식·현금",
+      "published_at": "2026-10-15T06:42:04Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827722"
+        },
+        {
+          "name": "머니투데이",
+          "date": "2026-10-15",
+          "url": "https://www.mt.co.kr/economy/2026/10/15/2026101515353819138"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-usdkrw-open-1015",
+      "categories": [
+        "fx"
+      ],
+      "lang": "ko",
+      "headline": "증시 급락·외국인 매도에 환율 장 초반 1,340원대로",
+      "summary": "코스피가 장 초반 6% 넘게 빠지자 외국인 매도가 몰리며 원/달러 환율이 1,340원대로 올라섰습니다.",
+      "impact": "해외주식·현금",
+      "published_at": "2026-10-15T00:31:21Z",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "date": "2026-10-15",
+          "url": "https://www.news1.kr/finance/market-exr/6320729"
+        },
+        {
+          "name": "이데일리",
+          "date": "2026-10-15",
+          "url": "https://www.edaily.co.kr/News/Read?newsId=02561686645613248"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-usdkrw-1014",
+      "categories": [
+        "fx"
+      ],
+      "lang": "ko",
+      "headline": "외국인 매도 줄며 환율 1,330원대 후반으로 소폭 하락 (10/14)",
+      "summary": "외국인 주식 순매도가 줄고 미국 금리 인상 우려가 다소 누그러지며 환율이 하락세로 돌아섰습니다.",
+      "impact": "해외주식·현금",
+      "published_at": "2026-10-14T06:58:08Z",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "date": "2026-10-14",
+          "url": "https://www.news1.kr/finance/market-exr/6320017"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-kr-jp-swap",
+      "categories": [
+        "fx"
+      ],
+      "lang": "ko",
+      "headline": "한·일 통화스와프, 기존 규모 그대로 3년 연장",
+      "summary": "한국과 일본이 다음 달 끝나는 통화스와프를 같은 규모로 2029년 11월까지 연장하기로 했습니다. 외화 유동성 안전판이 유지됩니다.",
+      "impact": "현금",
+      "published_at": "2026-10-15T08:00:00Z",
+      "sources": [
+        {
+          "name": "헤럴드경제",
+          "date": "2026-10-15",
+          "url": "https://biz.heraldcorp.com/article/10904111"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-cny-fix",
+      "categories": [
+        "fx"
+      ],
+      "lang": "ko",
+      "headline": "中 위안화 기준치 5거래일 만에 소폭 절하",
+      "summary": "중국 인민은행이 달러 대비 위안화 기준치를 소폭 낮춰 고시했습니다. 전날에는 3년여 만에 가장 높은 수준이었습니다.",
+      "impact": "해외주식·현금",
+      "published_at": "2026-10-15T02:00:49Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827091"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-oil-5days",
+      "categories": [
+        "oil"
+      ],
+      "lang": "ko",
+      "headline": "중동 불안·공급 부족 전망에 WTI 5거래일 연속 상승",
+      "summary": "사우디와 후티 반군의 충돌, 호르무즈 해협 긴장에 국제에너지기구(IEA)의 경유 공급 부족 전망까지 겹치며 유가가 올랐습니다.",
+      "impact": "금·리츠(대체)·물가",
+      "published_at": "2026-10-15T09:10:50Z",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "date": "2026-10-15",
+          "url": "https://www.fnnews.com/news/202610151810058766"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-diesel-deal",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "lang": "ko",
+      "headline": "\"美·러 경유 거래, 중동발 공급 차질 메우기엔 역부족\"",
+      "summary": "미국이 러시아산 석유 제재를 완화해 경유 공급을 늘렸지만, 이란 전쟁 이후 줄어든 중동 물량에 비하면 효과가 작다는 분석이 나왔습니다.",
+      "impact": "금·리츠(대체)·물가",
+      "published_at": "2026-10-15T07:42:24Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827205"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-oil-majors",
+      "categories": [
+        "oil"
+      ],
+      "lang": "ko",
+      "headline": "글로벌 석유 대기업, 전쟁 특수에 순이익 크게 늘어",
+      "summary": "중동 전쟁으로 에너지 가격이 뛰면서 대형 석유회사들의 상반기 이익이 크게 늘었고, 남는 돈을 어디에 쓸지에 투자자 관심이 쏠립니다.",
+      "impact": "금·리츠(대체)·물가",
+      "published_at": "2026-10-15T05:52:03Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827405"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-import-price",
+      "categories": [
+        "oil",
+        "semis"
+      ],
+      "lang": "ko",
+      "headline": "9월 수입물가 넉 달 만에 상승…수출물량은 반도체 덕에 크게 늘어",
+      "summary": "국제유가가 오르며 수입물가가 다시 올랐지만, 반도체 호황으로 수출물량과 가격이 함께 오르며 교역조건은 개선됐습니다.",
+      "impact": "금·리츠(대체)·물가 / 국내주식",
+      "published_at": "2026-10-15T21:00:00Z",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "date": "2026-10-16",
+          "url": "https://www.mt.co.kr/economy/2026/10/16/2026101516262736193"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-kodex-ndx-10t",
+      "categories": [
+        "etf"
+      ],
+      "lang": "ko",
+      "headline": "개인 자금 몰린 'KODEX 미국나스닥100', 순자산 10조원 넘어",
+      "summary": "개인 투자자 순매수가 이어지며 국내 나스닥100 추종 ETF 가운데 처음으로 순자산 10조원을 넘었습니다.",
+      "impact": "해외주식",
+      "published_at": "2026-10-15T01:47:55Z",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "date": "2026-10-15",
+          "url": "https://www.fnnews.com/news/202610151045039412"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-inverse-flow",
+      "categories": [
+        "etf",
+        "semis"
+      ],
+      "lang": "ko",
+      "headline": "폭락장에 인버스 ETF로 돈 몰리고, 단일종목 레버리지는 급락",
+      "summary": "삼성전자·SK하이닉스가 급락하자 이 종목들의 2배 레버리지 ETF는 크게 떨어지고, 하락에 베팅하는 인버스 상품으로 자금이 쏠렸습니다.",
+      "impact": "국내주식",
+      "published_at": "2026-10-15T01:31:07Z",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스(뉴시스 기사)",
+          "date": "2026-10-15",
+          "url": "https://www.fnnews.com/news/202610151030412327"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-foreign-etf",
+      "categories": [
+        "etf"
+      ],
+      "lang": "ko",
+      "headline": "외국인, 국내 주식은 팔고 ETF는 샀다",
+      "summary": "최근 석 달 외국인이 국내 주식을 대규모로 순매도하는 동안 ETF는 순매수했습니다. 지수 레버리지와 미국 지수형, 인버스 상품이 함께 상위에 올랐습니다.",
+      "impact": "국내·해외주식",
+      "published_at": "2026-10-14T09:07:45Z",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "date": "2026-10-14",
+          "url": "https://www.fnnews.com/news/202610141807438019"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-us-index-etf",
+      "categories": [
+        "etf"
+      ],
+      "lang": "ko",
+      "headline": "코스피 부진 속 美 지수 ETF로 한 달 새 자금 몰려",
+      "summary": "미국 증시가 강세를 보이는 사이 코스피가 뒷걸음질치면서 미국 대표지수 ETF로 자금 유입이 두드러졌습니다.",
+      "impact": "해외주식",
+      "published_at": "2026-10-12T09:19:42Z",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "date": "2026-10-12",
+          "url": "https://www.fnnews.com/news/202610121819403651"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-lev-etf-audit",
+      "categories": [
+        "etf"
+      ],
+      "lang": "ko",
+      "headline": "단일종목 레버리지 ETF 도입 때 통계 검토 부실 지적",
+      "summary": "국정감사에서 단일종목 레버리지 ETF 도입 과정의 통계 검토가 부족했다는 지적이 나왔습니다. 상장 뒤 개인 투자자 손실이 커진 상품입니다.",
+      "impact": "국내주식",
+      "published_at": "2026-10-15T12:29:43Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827756"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-kospi-cb",
+      "categories": [
+        "semis"
+      ],
+      "lang": "ko",
+      "headline": "'반도체 쇼크' 코스피·코스닥 장중 8% 폭락, 동반 서킷브레이커",
+      "summary": "미국발 AI 투자 수익성 우려로 반도체주가 급락하며 두 시장에 매도 사이드카에 이어 1단계 서킷브레이커가 잇따라 발동됐습니다.",
+      "impact": "국내주식",
+      "published_at": "2026-10-15T03:57:33Z",
+      "sources": [
+        {
+          "name": "뉴스1",
+          "date": "2026-10-15",
+          "url": "https://www.news1.kr/finance/general-stock/6321116"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-kospi-close",
+      "categories": [
+        "semis"
+      ],
+      "lang": "ko",
+      "headline": "'검은 목요일' 코스피 7% 넘게 하락 마감…당국 긴급 점검",
+      "summary": "코스피가 5,500선까지 밀리며 7% 넘게 떨어졌고, 금융당국은 긴급 점검회의를 열어 시장 안정에 대응하겠다고 밝혔습니다.",
+      "impact": "국내주식",
+      "published_at": "2026-10-15T09:19:06Z",
+      "sources": [
+        {
+          "name": "파이낸셜뉴스",
+          "date": "2026-10-15",
+          "url": "https://www.fnnews.com/news/202610151818169515"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-chip-bubble",
+      "categories": [
+        "semis"
+      ],
+      "lang": "ko",
+      "headline": "삼성전자·SK하이닉스 하루 새 급락…반도체 거품론 다시 고개",
+      "summary": "두 반도체 대형주가 하루에 10% 안팎 떨어지자, 일주일 전 낮은 적정 주가를 제시했던 분석이 다시 주목받고 있습니다.",
+      "impact": "국내주식",
+      "published_at": "2026-10-15T06:45:26Z",
+      "sources": [
+        {
+          "name": "헤럴드경제",
+          "date": "2026-10-15",
+          "url": "https://biz.heraldcorp.com/article/10904013"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-tsmc-q3",
+      "categories": [
+        "semis"
+      ],
+      "lang": "ko",
+      "headline": "TSMC 3분기 순이익 시장 예상 웃돌아",
+      "summary": "세계 최대 파운드리 TSMC의 3분기 순이익이 예상을 웃돌며 1년 전보다 크게 늘었습니다. 다만 AI 투자 우려로 반도체주 경계는 이어졌습니다.",
+      "impact": "해외주식",
+      "published_at": "2026-10-15T12:26:24Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003828137"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-taiex-drop",
+      "categories": [
+        "semis"
+      ],
+      "lang": "ko",
+      "headline": "대만 증시도 美 반도체 약세 여파로 3% 넘게 하락",
+      "summary": "미국 물가 우려와 반도체주 약세가 번지며 대만 자취안 지수가 크게 반락했습니다. 전자기기주 하락 폭이 컸습니다.",
+      "impact": "해외주식",
+      "published_at": "2026-10-15T12:28:24Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003828146"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-saudi-iran",
+      "categories": [
+        "geopolitics"
+      ],
+      "lang": "ko",
+      "headline": "사우디 \"후티 공격 격화 뒤에 이란 있다\"",
+      "summary": "사우디 외무부 고위 당국자가 친이란 후티 반군의 공격이 거세지는 배후로 이란을 지목하며 비판 수위를 높였습니다.",
+      "impact": "전체 위험(현금·금)",
+      "published_at": "2026-10-15T22:40:24Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-16",
+          "url": "https://www.newsis.com/view/NISX20261016_0003828236"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-houthi-aden",
+      "categories": [
+        "geopolitics"
+      ],
+      "lang": "ko",
+      "headline": "후티 반군, 예멘 아덴 대통령궁 미사일 공격…사상자 발생",
+      "summary": "후티 반군이 예멘 남부 아덴의 대통령궁을 미사일로 공격해 사상자가 나왔습니다. 예멘 정부는 총리와 각료는 무사하다고 밝혔습니다.",
+      "impact": "전체 위험(현금·금)",
+      "published_at": "2026-10-15T21:28:05Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-16",
+          "url": "https://www.newsis.com/view/NISX20261016_0003828228"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-moab-iran",
+      "categories": [
+        "geopolitics"
+      ],
+      "lang": "ko",
+      "headline": "美, 이란 공습 재개 때 초대형 폭탄 사용 검토",
+      "summary": "미국이 이란 공습을 다시 할 경우 초강력 벙커버스터 폭탄을 쓰는 방안을 계획에 넣은 것으로 알려졌습니다.",
+      "impact": "전체 위험(현금·금)",
+      "published_at": "2026-10-15T21:34:06Z",
+      "sources": [
+        {
+          "name": "머니투데이",
+          "date": "2026-10-16",
+          "url": "https://www.mt.co.kr/world/2026/10/16/2026101605545596402"
+        },
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827598"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-iran-funds",
+      "categories": [
+        "geopolitics"
+      ],
+      "lang": "ko",
+      "headline": "美, 이란 종교 기부금 흐름까지 겨냥해 자금줄 압박",
+      "summary": "미 재무부가 금융기관들에 이란 정권의 종교 기부금 악용 가능성을 신고하라고 요청하는 등 이란 자금줄 압박을 강화했습니다.",
+      "impact": "전체 위험(현금·금)",
+      "published_at": "2026-10-15T18:52:24Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-16",
+          "url": "https://www.newsis.com/view/NISX20261016_0003828221"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    },
+    {
+      "id": "2026-10-16-trump-approval",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "lang": "ko",
+      "headline": "트럼프 지지율 재임 중 최저…물가·이란 전쟁 영향",
+      "summary": "이란 전쟁에 따른 유가 상승과 생활비 부담으로 트럼프 대통령의 국정 지지율이 재임 중 가장 낮은 수준으로 떨어졌다는 조사가 나왔습니다.",
+      "impact": "전체 위험(현금·금)",
+      "published_at": "2026-10-15T06:42:24Z",
+      "sources": [
+        {
+          "name": "뉴시스",
+          "date": "2026-10-15",
+          "url": "https://www.newsis.com/view/NISX20261015_0003827357"
+        }
+      ],
+      "written_at": "2026-10-16T10:30:00+09:00"
+    }
+  ]
 }
