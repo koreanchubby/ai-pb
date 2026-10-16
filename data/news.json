@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-16T04:50:44Z",
+  "generated_at": "2026-10-16T05:47:17Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -544,14 +544,14 @@
       "change_condition": null
     },
     {
-      "id": "news-1f2a44ac0d80",
-      "title": "한국 경제  포트폴리오  다시 짤 때다 [ 포럼 ]",
-      "url": "https://www.munhwa.com:443/article/11623986",
-      "source": "munhwa.com",
+      "id": "news-2764616268b6",
+      "title": "Baystreet . ca - Taiwan Semiconductor Posts Record Profit",
+      "url": "https://baystreet.ca/articles/techinsider/124604/Taiwan-Semiconductor-Posts-Record-Profit",
+      "source": "baystreet.ca",
       "source_type": "news",
-      "published_at": "2026-10-16T04:15:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "fx"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -561,14 +561,14 @@
       "change_condition": null
     },
     {
-      "id": "news-2af24aa0c01a",
-      "title": "央行連十季凍息 賴總統 ：「 央行是獨立性的 」 沒有置喙餘地 | 金融要聞 | 產經",
-      "url": "https://udn.com/news/story/7239/9818711",
-      "source": "udn.com",
+      "id": "news-8ab64e68e3fa",
+      "title": "১ বছরে স্মার্টফোনের বিক্রি নেমে গেল ১৪ বছরের তলানিতে",
+      "url": "https://bangla.bdnews24.com/tech/iismmnslkm",
+      "source": "bangla.bdnews24.com",
       "source_type": "news",
-      "published_at": "2026-10-16T04:15:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "fx"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -578,97 +578,12 @@
       "change_condition": null
     },
     {
-      "id": "news-3698da08f360",
-      "title": "3분기 은행간 외환거래 556억달러 .. 선물환 순매도는 급감",
-      "url": "https://www.fnnews.com/news/202610160956253649",
+      "id": "news-ba91eaa1f0c8",
+      "title": "7000선이 꼭지였나 ? 코스피 반등에도 개미들 절규 … 곡소리 이어져",
+      "url": "https://www.fnnews.com/news/202610161012511847",
       "source": "fnnews.com",
       "source_type": "news",
-      "published_at": "2026-10-16T04:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f96f43cc508d",
-      "title": "외국인 국내 증권자금 200억달러 순유출 … 9월 주식 · 채권 동반 이탈",
-      "url": "https://www.newspim.com/news/view/20261016000246",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T04:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-53dda4116289",
-      "title": "Moravskoslezské novinky - Domácí - Kdo nahradí Zelenského ?",
-      "url": "https://www.moravskoslezskenovinky.cz/zpravy/zpravy/kdo-nahradi-zelenskeho/",
-      "source": "moravskoslezskenovinky.cz",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f76598050551",
-      "title": "Moravskoslezské novinky - Domácí - Evropě hrozí drahá nafta . Mezinárodní energetická agentura varuje",
-      "url": "https://www.moravskoslezskenovinky.cz/zpravy/byznys/evrope-hrozi-draha-nafta-mezinarodni-energeticka-agentura-varuje/",
-      "source": "moravskoslezskenovinky.cz",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-854319608a77",
-      "title": "Moravskoslezské novinky - Domácí - Ukrajinci jsou odváděni s bílými páskami na rukávech , tvrdí expert",
-      "url": "https://www.moravskoslezskenovinky.cz/zpravy/zpravy/ukrajinci-jsou-odvadeni-s-bilymi-paskami-na-rukavech-tvrdi-expert/",
-      "source": "moravskoslezskenovinky.cz",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0999ba7e96fc",
-      "title": "코스피 떠나는 외국인 , 언제 돌아올까",
-      "url": "https://news.mtn.co.kr/article/2026101516264383381",
-      "source": "news.mtn.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
         "semis"
       ],
@@ -680,12 +595,12 @@
       "change_condition": null
     },
     {
-      "id": "news-24633deab103",
-      "title": "외국인 , 너무 높은 변동성에 한국 주식 팔았다  [ 이슈 _ xBDF0 _]",
-      "url": "https://biz.heraldcorp.com/article/10904925",
-      "source": "biz.heraldcorp.com",
+      "id": "news-bb297ff120ca",
+      "title": "李 재판 중단 , 이재용 · 최태원 증인 채택 … 국감장 곳곳 여야 충돌",
+      "url": "https://www.fnnews.com/news/202610161334400893",
+      "source": "fnnews.com",
       "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
         "semis"
       ],
@@ -697,14 +612,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3f2aee2aab94",
-      "title": "Україна вперше від початку війни передала насіння до сховища за Полярним колом",
-      "url": "https://glavcom.ua/world/observe/ukrajina-vpershe-vid-pochatku-vijni-peredala-nasinnja-do-skhovishcha-za-poljarnim-kolom-1149481.html",
-      "source": "glavcom.ua",
+      "id": "news-e89bc9470346",
+      "title": "热点精选 ： 光通信+创新药+固态电池+半导体 _ 中金在线财经号",
+      "url": "http://mp.cnfol.com/26828/article/1792112657-142766682",
+      "source": "mp.cnfol.com",
       "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "geopolitics"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -714,14 +629,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3216ba0d5580",
-      "title": "Уряд змінює правила бронювання . Депутатка звернулась до барберів , кур  єрів та інших фахівців з « бронею »",
-      "url": "https://glavcom.ua/country/society/urjad-zminjuje-pravila-bronjuvannja-deputatka-zvernulas-do-barberiv-kurjeriv-ta-inshikh-fakhivtsiv-z-broneju-1149475.html",
-      "source": "glavcom.ua",
+      "id": "news-26e28b9796d9",
+      "title": "SEMI美洲總裁 ： 美最先進半導體占比至2030年代末上看4成 | 產經",
+      "url": "https://www.cna.com.tw/news/afe/202610160048.aspx",
+      "source": "cna.com.tw",
       "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
+      "published_at": "2026-10-16T05:15:00Z",
       "categories": [
-        "geopolitics"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -731,14 +646,14 @@
       "change_condition": null
     },
     {
-      "id": "news-185279e488ea",
-      "title": "Provinces warn health services still face funding cliff",
-      "url": "https://www.niagarafallsreview.ca/politics/federal/provinces-warn-health-services-still-face-funding-cliff-despite-ottawa-extension/article_997c0c0b-974b-5691-9ab0-6baf71543fa7.html",
-      "source": "niagarafallsreview.ca",
+      "id": "news-1a07e477a293",
+      "title": "Bitcoin buyers snap up a brief drop below $80 , 000 as Asian stocks rebound",
+      "url": "https://www.coindesk.com/markets/2026/10/16/bitcoin-buyers-snap-up-a-brief-drop-below-usd80-000-as-asian-stocks-rebound",
+      "source": "coindesk.com",
       "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
+      "published_at": "2026-10-16T04:45:00Z",
       "categories": [
-        "geopolitics"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -748,14 +663,14 @@
       "change_condition": null
     },
     {
-      "id": "news-201bfc6515ad",
-      "title": "A la caza de profesores : así funciona la  guerra  de los colegios por encontrar los mejores docentes",
-      "url": "https://www.elconfidencial.com/espana/2026-10-16/guerra-colegios-mejores-docentes_4445005/",
-      "source": "elconfidencial.com",
+      "id": "news-6e51ad8c7b6b",
+      "title": "TSMC Just Posted Record Profit for the Sixth Straight Quarter . Why Did the Stock Fall ?",
+      "url": "https://www.aol.com/articles/tsmc-just-posted-record-profit-025002000.html",
+      "source": "aol.com",
       "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
+      "published_at": "2026-10-16T04:45:00Z",
       "categories": [
-        "geopolitics"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -765,14 +680,99 @@
       "change_condition": null
     },
     {
-      "id": "news-a17c354e09b9",
-      "title": "天猫 、 京东发布会隔空对垒 ， 抖音发券到红果 ， 今年双11各家都打什么牌 ？- CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261016000219.html",
-      "source": "cfi.net.cn",
+      "id": "news-e72153b60f5a",
+      "title": "手机厂商的麻烦 ， AI背不了锅 - 钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8170793.html",
+      "source": "tmtpost.com",
       "source_type": "news",
-      "published_at": "2026-10-16T03:30:00Z",
+      "published_at": "2026-10-16T04:45:00Z",
       "categories": [
-        "geopolitics"
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c7147b17d4a0",
+      "title": "港股午评 ： 恒指涨1 . 21 % 科指涨2 . 09 % 科网股普涨 生物技术板块大涨",
+      "url": "https://finance.sina.com.cn/stock/hkstock/marketalerts/2026-10-16/doc-inivkwtm7719021.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e1c33f4b4b7f",
+      "title": "iPhone Duo entra em pré - venda nesta sexta ; veja preços do dobrável",
+      "url": "https://g1.globo.com/tecnologia/noticia/2026/10/16/iphone-duo-entra-em-pre-venda-nesta-sexta-veja-precos-do-celular-dobravel-da-apple.ghtml",
+      "source": "g1.globo.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6dfad33f1d1d",
+      "title": "Galaxy Z Fold8缺芯 ， 三星拟引格芯打破联电独供",
+      "url": "https://tech.ifeng.com/c/8xGTwQs8Mue",
+      "source": "tech.ifeng.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8ea5f7ed6779",
+      "title": "Explainer : Why CoreWeave troubles are rattling the AI boom",
+      "url": "https://www.thehindubusinessline.com/info-tech/explainer-why-coreweaves-troubles-are-rattling-the-ai-boom/article71591011.ece",
+      "source": "thehindubusinessline.com",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f676afdd4f2a",
+      "title": "US stocks end higher as AI shares stabilize",
+      "url": "https://www.manilatimes.net/2026/10/16/world/americas-emea/us-stocks-end-higher-as-ai-shares-stabilize/2447186",
+      "source": "manilatimes.net",
+      "source_type": "news",
+      "published_at": "2026-10-16T04:30:00Z",
+      "categories": [
+        "semis"
       ],
       "importance": 3,
       "facts": null,
