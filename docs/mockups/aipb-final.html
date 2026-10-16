@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<!-- 최종 시안(한 파일): 뉴스 분석(공식·시장 먼저, 우리 말 요약 기사) · 데일리 시황 탭 · 10월 실제 하우스뷰 · 승계 분쟁 요인 점검. preview/ 화면을 묶은 것이며 실제 사이트와 무관. 데이터는 2026-10-16 오전 값으로 고정 -->
+<!-- 최종 시안(한 파일): 뉴스 분석(공식·시장 먼저, 우리 말 요약 기사) · 데일리 시황 탭 · 10월 실제 하우스뷰 · 승계 분쟁 요인 점검 · 세법 기준일 표시. preview/ 화면을 묶은 것이며 실제 사이트와 무관. 데이터는 2026-10-16 오전 값으로 고정 -->
 <title>AI PB 최종 시안</title>
 <style>
 :root{--navy:#07182d;--navy-2:#102a4b;--blue:#4f83f5;--blue-2:#2f6fe8;--sky:#eaf1ff;--bg:#f3f6fb;--surface:#fff;--text:#142039;--muted:#68758c;--line:#dce4ef;--green:#11986f;--green-bg:#e9f8f2;--red:#e14f68;--red-bg:#fff0f3;--amber:#d88b13;--amber-bg:#fff6e5;--violet:#7356c8;--shadow:0 14px 40px rgba(35,57,88,.08);--radius:22px}
@@ -508,6 +508,11 @@ dialog{border:0;padding:0;background:transparent;max-width:460px;width:calc(100%
 .dispute-foot .legal-note { margin: 0; }
 @media (max-width: 900px) { .dispute-list { grid-template-columns: 1fr; } .dispute-item { grid-template-columns: 1fr; } }
 
+/* 세법 기준일 안내 (4단계·7단계) */
+.legal-note.tax-basis { border-color: #e7b04a; }
+.legal-note.tax-basis b { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 6px; background: #8a5a08; color: #fff; font-size: .72rem; vertical-align: 1px; }
+.legal-note.tax-basis strong { color: #6b4405; }
+
 :root{color-scheme:light}
 html,body{background:#f3f6fb}
 
@@ -647,6 +652,7 @@ html,body{background:#f3f6fb}
               <button class="scenario-choice" data-transfer-scenario="installment"><span>C</span><div><strong>연부연납 활용안</strong><small>최대 10년 분할납부 · 초기 30%만 준비</small></div><b>비교</b></button>
             </article>
           </div>
+          <p class="legal-note tax-basis"><b>적용 세법 기준일</b>상속세및증여세법 <strong>[시행 2026. 1. 2.] 법률 제21065호</strong> 기준으로 계산합니다. 2026년 10월 16일 국가법령정보센터 원문과 공제액·세율·신고세액공제를 대조했습니다. 이후 바뀐 법이나 국회에서 논의 중인 개정안은 반영하지 않았으며, 세법이 바뀌면 이 기준일부터 갱신합니다.</p>
           <p class="legal-note">상속세는 일괄공제 5억원, 배우자공제(실제 상속분·법정상속분·30억원 중 작은 금액, 최소 5억원), 금융재산공제(최대 2억원), 누진세율 10~50%, 신고세액공제 3%로 단순 추정합니다. 사전증여 합산(10년), 동거주택공제, 부동산 평가방법(시가·감정가·기준시가), 세법 개정 여부는 반영하지 않았습니다.</p>
           <div class="bottom-action"><p><strong>다음 단계</strong><span id="transfer-next-copy">필요 안정자산과 매각 제한을 자산진단·리밸런싱의 제약조건으로 전달합니다.</span></p><button class="primary" data-view="market">하우스뷰·시장근거 확인</button></div>
         </section>
@@ -754,6 +760,7 @@ html,body{background:#f3f6fb}
             </article>
             <aside class="panel tax-impact"><span class="card-label">검토 우선순위</span><strong id="tax-headline">종합과세<br><b>기준 초과</b></strong><div><span>리밸런싱 후 금융소득</span><b id="tax-after-side">0만원</b></div><div><span>상속세 추정</span><b data-kpi="estate-tax">6.7억원</b></div><div><span>필요 안정자산</span><b data-kpi="liquidity">8.8억원</b></div><p>세법·계좌 한도·실제 분배율은 매년 바뀔 수 있어 세무사 검토 후 확정합니다.</p></aside>
           </div>
+          <p class="legal-note tax-basis"><b>적용 세법 기준일</b>소득세법 <strong>[시행 2026. 7. 1.]</strong> · 조세특례제한법 <strong>[시행 2026. 9. 18.]</strong> · 상속세및증여세법 <strong>[시행 2026. 1. 2.]</strong> 기준입니다. 2026년 10월 16일 국가법령정보센터 원문과 대조한 항목: 금융소득 종합과세 기준 2,000만원, 연금계좌 세액공제 한도 900만원, ISA 한도 초과분 9% 분리과세, 해외주식 양도세 20%·기본공제 250만원, 배우자 증여공제 6억원. 연금 수령 시 세율표, 지방소득세, 건강보험 피부양자 기준은 이번에 대조하지 않았습니다. 이후 개정이나 논의 중인 개정안은 반영하지 않았습니다.</p>
         </section>
 
         <section class="view" data-view-panel="experts">

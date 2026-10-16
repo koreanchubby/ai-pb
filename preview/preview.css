@@ -104,3 +104,8 @@
 .dispute-foot { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin-top: 12px; }
 .dispute-foot .legal-note { margin: 0; }
 @media (max-width: 900px) { .dispute-list { grid-template-columns: 1fr; } .dispute-item { grid-template-columns: 1fr; } }
+
+/* 세법 기준일 안내 (4단계·7단계) */
+.legal-note.tax-basis { border-color: #e7b04a; }
+.legal-note.tax-basis b { display: inline-block; margin-right: 8px; padding: 1px 8px; border-radius: 6px; background: #8a5a08; color: #fff; font-size: .72rem; vertical-align: 1px; }
+.legal-note.tax-basis strong { color: #6b4405; }
