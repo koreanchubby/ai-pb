@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T01:45:09Z",
+  "generated_at": "2026-10-17T02:47:41Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -31,8 +31,8 @@
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "한국투자증권",
@@ -156,6 +156,31 @@
         "date": "2026-10-14",
         "alert_threshold": 3.0,
         "indicator": "wti"
+      }
+    },
+    {
+      "id": "market-a51e8ef385f2",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-07T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261008",
+        "alert_threshold": 0.25
       }
     },
     {
@@ -764,23 +789,6 @@
         "fx"
       ],
       "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6550b0946b96",
-      "title": "徐勉生觀點 ： 烏克蘭處境尷尬前途堪慮 | 徐勉生 | 評論",
-      "url": "https://www.storm.mg/article/11172572",
-      "source": "storm.mg",
-      "source_type": "news",
-      "published_at": "2026-10-17T01:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
