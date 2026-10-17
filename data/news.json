@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T06:57:57Z",
+  "generated_at": "2026-10-17T07:44:59Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 45
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -181,6 +182,24 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-39ffbff6460d",
+      "title": "석달 뒤 흥행을 맞혀라 … ETF 운용사의  천기 읽기 [ 여의도는 지금 ]",
+      "url": "https://www.fnnews.com/news/202610161440533254",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-17T05:15:00Z",
+      "categories": [
+        "fx",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-ca416d780a75",
@@ -765,24 +784,6 @@
       "source": "theindianawaaz.com",
       "source_type": "news",
       "published_at": "2026-10-15T22:15:00Z",
-      "categories": [
-        "semis",
-        "rates"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e3c617f7d60d",
-      "title": "뉴욕증시 , 국채금리 하락에 일제히 상승 마감 … 다우 1 % 대 강세",
-      "url": "https://biz.heraldcorp.com/article/10904297",
-      "source": "biz.heraldcorp.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T21:30:00Z",
       "categories": [
         "semis",
         "rates"
