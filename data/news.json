@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T13:43:33Z",
+  "generated_at": "2026-10-17T14:43:40Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,60 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-b4aa878903e0",
+      "title": "US tariff waiver on Russian crude a comforting relief , but trade uncertainties persist : CareEdge Chief Economist Rajani Sinha",
+      "url": "http://www.middleeaststar.com/news/279380865/us-tariff-waiver-on-russian-crude-a-comforting-relief-but-trade-uncertainties-persist-careedge-chief-economist-rajani-sinha",
+      "source": "middleeaststar.com",
+      "source_type": "news",
+      "published_at": "2026-10-17T13:45:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1037ec1db387",
+      "title": "CoreWeave / ヘッジファンド / VIX / NVIDIA 米国金融市場2026 / 10 / 16金深夜～2026 / 10 / 17土夜にかけてXを流れた投稿数本に関するGrokの解説をサマライズ ： 経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔 ： オルタナティブ ・ ブログ",
+      "url": "https://blogs.itmedia.co.jp/serial/2026/10/2026101620261017xgrok.html",
+      "source": "blogs.itmedia.co.jp",
+      "source_type": "news",
+      "published_at": "2026-10-17T13:30:00Z",
+      "categories": [
+        "oil",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-52a449229920",
+      "title": "The Dividend ETF Quietly Delivering Double - Digit Returns While Most Investors Arent Paying Attention",
+      "url": "https://www.aol.com/articles/dividend-etf-quietly-delivering-double-121000000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-17T13:00:00Z",
+      "categories": [
+        "semis",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-48f33a0d8558",
@@ -733,60 +787,6 @@
       "categories": [
         "rates",
         "fx"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6ddc3aed4730",
-      "title": "USD rate : Why is US Dollar down from 18 - month peak ?",
-      "url": "https://economictimes.indiatimes.com/news/international/us/usd-rate-why-is-us-dollar-down-from-18-month-peak/articleshow/134976970.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
-      "categories": [
-        "rates",
-        "fx"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0733ff61ce1b",
-      "title": "9월 수입물가 전월比 1 . 7 % 상승 …  국제 유가 큰 폭 상승 영향",
-      "url": "https://biz.chosun.com/policy/policy_sub/2026/10/16/NIYNJZBUQRF6RMLTM4RVOYWTCY/",
-      "source": "biz.chosun.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:45:00Z",
-      "categories": [
-        "fx",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-119bcc171c8c",
-      "title": "국제유가 급등에 … 9월 수입물가 넉달만에  반등  - 헤럴드경제 미주판",
-      "url": "https://www.heraldk.com/article/2026101514002458215",
-      "source": "heraldk.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
-      "categories": [
-        "fx",
-        "oil"
       ],
       "importance": 4,
       "facts": null,
