@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T14:43:40Z",
+  "generated_at": "2026-10-17T15:43:30Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 45
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,24 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-f2043c6f79f1",
+      "title": "Trump eases Russia oil sanctions , but is Europe still buying Moscow gas ? | Russia - Ukraine war News",
+      "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas",
+      "source": "aljazeera.com",
+      "source_type": "news",
+      "published_at": "2026-10-17T15:00:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-b4aa878903e0",
@@ -766,24 +784,6 @@
       "source": "newspim.com",
       "source_type": "news",
       "published_at": "2026-10-16T00:15:00Z",
-      "categories": [
-        "rates",
-        "fx"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6ce1411c1138",
-      "title": "Dollar Wraps Its Worst Day in Over a Month on AI Risk Concerns",
-      "url": "https://www.livemint.com/market/dollar-wraps-its-worst-day-in-over-a-month-on-ai-risk-concerns-11792096933892.html",
-      "source": "livemint.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T23:00:00Z",
       "categories": [
         "rates",
         "fx"
