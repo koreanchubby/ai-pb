@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T08:46:34Z",
+  "generated_at": "2026-10-17T09:45:27Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,42 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-1a8e20575400",
+      "title": "Silber Preis : Zinssorgen drücken Kurs unter 58 Dollar",
+      "url": "https://www.boerse-express.com/news/articles/silber-preis-zinssorgen-druecken-kurs-unter-58-dollar-953860",
+      "source": "boerse-express.com",
+      "source_type": "news",
+      "published_at": "2026-10-17T08:00:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7433d7ab0ed9",
+      "title": "출렁이는 비트코인8만달러선 붕괴 후 반등",
+      "url": "https://newsway.co.kr/news/view?ud=2026101714442994267",
+      "source": "newsway.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-17T07:15:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-39ffbff6460d",
@@ -751,42 +787,6 @@
       "categories": [
         "fx",
         "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7e758cabfa47",
-      "title": "뉴욕증시 , 국채금리 하락에 일제히 상승 마감 … 기술주는  주춤",
-      "url": "https://www.heraldk.com/article/2026101514071485136",
-      "source": "heraldk.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
-      "categories": [
-        "semis",
-        "rates"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e0dc60d587ab",
-      "title": "Oct 15 : Sensex Soars 1 , 500 Pts as Global Yield Relief , Jio IPO Buzz , Banking Rally Lift Markets – The Indian Awaaz",
-      "url": "https://theindianawaaz.com/oct-15-sensex-soars-1500-pts-as-global-yield-relief-jio-ipo-buzz-banking-rally-lift-markets/",
-      "source": "theindianawaaz.com",
-      "source_type": "news",
-      "published_at": "2026-10-15T22:15:00Z",
-      "categories": [
-        "semis",
-        "rates"
       ],
       "importance": 4,
       "facts": null,
