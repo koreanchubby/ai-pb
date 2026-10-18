@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T13:20:58Z",
+  "generated_at": "2026-10-18T17:25:02Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -31,8 +31,8 @@
     },
     {
       "source": "한국은행 ECOS",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
     },
     {
       "source": "한국투자증권",
@@ -156,31 +156,6 @@
         "date": "2026-10-14",
         "alert_threshold": 3.0,
         "indicator": "wti"
-      }
-    },
-    {
-      "id": "market-a51e8ef385f2",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-07T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261008",
-        "alert_threshold": 0.25
       }
     },
     {
@@ -789,6 +764,23 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0b0f7947de99",
+      "title": "Taiwan Semiconductor ( TSM ) Profit Rose 69 % Last Quarter . Is the Stock Still Cheap ?",
+      "url": "https://www.insidermonkey.com/news/taiwan-semiconductors-tsm-profit-rose-69-last-quarter-is-the-stock-still-cheap-1855487/",
+      "source": "insidermonkey.com",
+      "source_type": "news",
+      "published_at": "2026-10-18T16:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
