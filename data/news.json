@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T08:46:37Z",
+  "generated_at": "2026-10-18T13:20:58Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,13 +26,13 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "한국투자증권",
@@ -157,6 +157,103 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "market-a51e8ef385f2",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-07T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261008",
+        "alert_threshold": 0.25
+      }
+    },
+    {
+      "id": "news-ec32c79caed5",
+      "title": "금리 고민 커진 한은 … 10월 동결 , 11월 인상  힘실린다",
+      "url": "https://www.fnnews.com/news/202610181834184677",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-18T12:45:00Z",
+      "categories": [
+        "fx",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e6510a3abe67",
+      "title": "선제적 긴축에 환율 · 국채금리 선방 … 한은 , 매파적 동결 전망",
+      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000023425&code=61141111&sid1=eco",
+      "source": "kmib.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-18T06:45:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5c01e96b709b",
+      "title": "반도체 수출 호조에 원화 강세⋯원 · 달러 환율 2년 1개월 만에 최저",
+      "url": "http://inews24.com/view/2016169",
+      "source": "inews24.com",
+      "source_type": "news",
+      "published_at": "2026-10-18T06:45:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5f04fffd91a2",
+      "title": "반도체 수출이 끌어내린 원화값원 · 엔 환율도 19년 만에 최저",
+      "url": "https://newsway.co.kr/news/view?ud=2026101814210952520",
+      "source": "newsway.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-18T06:30:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-69417e26d2e7",
@@ -687,78 +784,6 @@
       "source": "koreaherald.com",
       "source_type": "news",
       "published_at": "2026-10-16T07:45:00Z",
-      "categories": [
-        "fx",
-        "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-914f84979bc1",
-      "title": "증권가  코스피 1만  낙관론 깨진 변수는 … 美 고금리와 AI 수익 우려",
-      "url": "https://www.newspim.com/news/view/20261016001168",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T07:15:00Z",
-      "categories": [
-        "fx",
-        "rates"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c7b2a8ef371a",
-      "title": "美 물가 쇼크에 고금리 전망 … 10월 금리는  매파적 동결  무게",
-      "url": "https://www.newspim.com/news/view/20261016001084",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:30:00Z",
-      "categories": [
-        "fx",
-        "rates"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d8d5f5bc7b3b",
-      "title": "Devisen : Euro bleibt klar über 1 , 12 US - Dollar",
-      "url": "https://www.finanzen.net/nachricht/devisen/devisen-euro-bleibt-klar-ueber-1-12-us-dollar-15988758",
-      "source": "finanzen.net",
-      "source_type": "news",
-      "published_at": "2026-10-16T06:15:00Z",
-      "categories": [
-        "rates",
-        "fx"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b74a0a59fd69",
-      "title": "[ 단독 ]  中 반도체 때문 아니다 … 외국인 큰손에게 한국 주식 왜 파는지 물었더니 [ 투자360 ]",
-      "url": "https://biz.heraldcorp.com/article/10904762",
-      "source": "biz.heraldcorp.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T04:15:00Z",
       "categories": [
         "fx",
         "semis"
