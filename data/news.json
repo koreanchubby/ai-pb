@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-17T23:37:17Z",
+  "generated_at": "2026-10-18T00:59:47Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 44
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -211,6 +211,24 @@
       "categories": [
         "semis",
         "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5bbd95c2ce8c",
+      "title": "South Korea minister sees chip boom lasting through 2027",
+      "url": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
+      "source": "cnbc.com",
+      "source_type": "news",
+      "published_at": "2026-10-17T17:00:00Z",
+      "categories": [
+        "rates",
+        "semis"
       ],
       "importance": 4,
       "facts": null,
@@ -766,24 +784,6 @@
       "source": "biz.heraldcorp.com",
       "source_type": "news",
       "published_at": "2026-10-16T04:15:00Z",
-      "categories": [
-        "fx",
-        "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cb9afd498003",
-      "title": "급락 딛고 반등하는 반도체 투톱코스피 5600선 회복",
-      "url": "https://newsway.co.kr/news/view?ud=2026101609212212899",
-      "source": "newsway.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-16T02:15:00Z",
       "categories": [
         "fx",
         "semis"
