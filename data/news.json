@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-18T20:50:35Z",
+  "generated_at": "2026-10-19T04:49:12Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -82,6 +82,31 @@
       "change_condition": null
     },
     {
+      "id": "market-9b4e30b73dc6",
+      "title": "원/달러 환율(매매기준율) 1342.4원 (직전 대비 -6.1원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-18T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1342.4,
+        "previous": 1348.5,
+        "change": -6.1,
+        "unit": "원",
+        "date": "20261019",
+        "alert_threshold": 15.0
+      }
+    },
+    {
       "id": "market-83095fd246c6",
       "title": "미국 10년물 국채금리 5.09% (직전 대비 -0.01%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -105,31 +130,6 @@
         "date": "2026-10-16",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-09f4c855e896",
-      "title": "원/달러 환율(매매기준율) 1348.5원 (직전 대비 +9.9원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-15T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1348.5,
-        "previous": 1338.6,
-        "change": 9.9,
-        "unit": "원",
-        "date": "20261016",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -182,6 +182,24 @@
         "date": "20261008",
         "alert_threshold": 0.25
       }
+    },
+    {
+      "id": "news-e6181b6cffe3",
+      "title": "Oil tumbles as Trump Russia sanctions waiver may lead to more fuel supplies",
+      "url": "https://dunyanews.tv/en/Business/978465-oil-tumbles-as-trumps-russia-sanctions-waiver-may-lead-to-more-fuel-s",
+      "source": "dunyanews.tv",
+      "source_type": "news",
+      "published_at": "2026-10-19T04:30:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-ec32c79caed5",
@@ -769,24 +787,6 @@
       "categories": [
         "fx",
         "etf"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-460d437e5e5a",
-      "title": "Seoul stocks rebound over 2 % on eased chip rout , Fed bets",
-      "url": "https://www.koreaherald.com/article/10905334",
-      "source": "koreaherald.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T07:45:00Z",
-      "categories": [
-        "fx",
-        "semis"
       ],
       "importance": 4,
       "facts": null,
