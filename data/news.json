@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T10:50:42Z",
+  "generated_at": "2026-10-19T17:31:35Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -670,53 +670,16 @@
       "change_condition": null
     },
     {
-      "id": "news-763f60214401",
-      "title": "미국 물가 뛰는데 국채금리 급락 … AI투자 공포  에 안전자산 쏠린다 [ 디브리핑 ]",
-      "url": "https://www.heraldk.com/article/2026101600002486689",
-      "source": "heraldk.com",
+      "id": "news-eeca6773024e",
+      "title": "What the New China - North Korea Bridge Really Means",
+      "url": "https://thediplomat.com/2026/10/what-the-new-china-north-korea-bridge-really-means/",
+      "source": "thediplomat.com",
       "source_type": "news",
-      "published_at": "2026-10-16T15:30:00Z",
+      "published_at": "2026-10-19T17:00:00Z",
       "categories": [
-        "geopolitics",
-        "rates"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-10cecfe8d2b8",
-      "title": "This Unstoppable Vanguard ETF Could Turn $500 Per Month Into $1 Million Over the Long Term",
-      "url": "https://www.aol.com/articles/unstoppable-vanguard-etf-could-turn-132400000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T14:00:00Z",
-      "categories": [
-        "semis",
-        "etf"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fe994e6f906f",
-      "title": "Iraq says lost 60 bln USD during U . S .- Iran conflict - Xinhua",
-      "url": "https://english.news.cn/20261016/b9f73b2bc25b40ccae7f86c1dd67820f/c.html",
-      "source": "english.news.cn",
-      "source_type": "news",
-      "published_at": "2026-10-16T13:30:00Z",
-      "categories": [
-        "oil",
         "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -724,17 +687,101 @@
       "change_condition": null
     },
     {
-      "id": "news-c4af8a888033",
-      "title": "IMF flags energy price risks for India , warns prolonged Middle East conflict could fuel inflation",
-      "url": "http://www.europesun.com/news/279378101/imf-flags-energy-price-risks-for-india-warns-prolonged-middle-east-conflict-could-fuel-inflation",
-      "source": "europesun.com",
+      "id": "news-088f6cad8ede",
+      "title": "China September refined fuel exports surge amid Iran war , diesel exports more than triple",
+      "url": "https://www.hydrocarbonprocessing.com/news/2026/10/chinas-september-refined-fuel-exports-surge-amid-iran-war-diesel-exports-more-than-triple/",
+      "source": "hydrocarbonprocessing.com",
       "source_type": "news",
-      "published_at": "2026-10-16T11:15:00Z",
+      "published_at": "2026-10-19T17:00:00Z",
       "categories": [
-        "oil",
         "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-533c2bff553f",
+      "title": "Canada : légère accélération de linflation en septembre - 19 / 10 / 2026 à 16 : 29",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/canada-legere-acceleration-de-l-inflation-en-septembre-6ae6c4e7f295d7d62cff73cdeb11f3ef",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-10-19T17:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1e8bedb56db4",
+      "title": "Μακελειό στο Σουδάν με 80 νεκρούς : Drone χτύπησε πολίτες που περίμεναν να γυρίσουν στα σπίτια τους",
+      "url": "https://www.inewsgr.com/97/makeleio-sto-soudan-me-80-nekrous-Drone-chtypise-polites-pou-perimenan-na-gyrisoun-sta-spitia-tous.htm",
+      "source": "inewsgr.com",
+      "source_type": "news",
+      "published_at": "2026-10-19T17:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-22ecdf7e3635",
+      "title": "Small businesses are set to capture a record $118 billion this holiday season",
+      "url": "https://www.wsbtv.com/news/small-businesses-are/V4MYKOHZDA56DNIJLT7WTH4NQA/",
+      "source": "wsbtv.com",
+      "source_type": "news",
+      "published_at": "2026-10-19T17:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b88420b917c9",
+      "title": "ЕС ограничил квоты на украинскую сталь , но покупает металл РФ",
+      "url": "https://world.comments.ua/news/eu/ukraine-totalnye-ogranicheniya-rossii---massovoe-finansirovanie-stalo-izvestno-o-shokiruyuschem-shage-es-818915.html",
+      "source": "world.comments.ua",
+      "source_type": "news",
+      "published_at": "2026-10-19T17:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-18b54dbda3db",
+      "title": "Обвал трафіку Yandex на 94 %: удари по дата - центрах оголили цифрову вразливість Кремля",
+      "url": "https://www.bagnet.org/news/world/1404727/obval-trafiku-yandex-na-94-udari-po-data-tsentrah-ogolili-tsifrovu-vrazlivist-kremlya",
+      "source": "bagnet.org",
+      "source_type": "news",
+      "published_at": "2026-10-19T17:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
