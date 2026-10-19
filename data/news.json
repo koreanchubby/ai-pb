@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T04:49:12Z",
+  "generated_at": "2026-10-19T10:50:42Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 30
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -80,6 +80,31 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-9868c94d3e48",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-18T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261019",
+        "alert_threshold": 0.25
+      }
     },
     {
       "id": "market-9b4e30b73dc6",
@@ -156,31 +181,6 @@
         "date": "2026-10-14",
         "alert_threshold": 3.0,
         "indicator": "wti"
-      }
-    },
-    {
-      "id": "market-a51e8ef385f2",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-07T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261008",
-        "alert_threshold": 0.25
       }
     },
     {
@@ -733,60 +733,6 @@
       "categories": [
         "oil",
         "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0cc4bdfd4def",
-      "title": "A股冲高回落 高开必砸  魔咒  再上演 ？ 20分钟成交125亿 ！ 宽基ETF尾盘突袭放量 - 股票 - 金融界",
-      "url": "https://stock.jrj.com.cn/2026/10/16160558747446.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-16T09:00:00Z",
-      "categories": [
-        "fx",
-        "etf"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-87480bddd9b9",
-      "title": "大跌次日 ， A股再度冲高回落 ！ 这只宽基ETF尾盘爆量 ， 20分钟成交超125亿元",
-      "url": "https://www.nbd.com.cn/articles/2026-10-16/4606627.html",
-      "source": "nbd.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-16T08:45:00Z",
-      "categories": [
-        "fx",
-        "etf"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7a7eff095559",
-      "title": "단일종목 ETF 막자 지수 · 빚투로 쏠렸다 … 폭락 키우는  레버리지 풍선효과",
-      "url": "https://biz.chosun.com/stock/stock_general/2026/10/16/4TNDB6RZSRFVPIZ6PHFWSF2OB4/",
-      "source": "biz.chosun.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T08:00:00Z",
-      "categories": [
-        "fx",
-        "etf"
       ],
       "importance": 4,
       "facts": null,
