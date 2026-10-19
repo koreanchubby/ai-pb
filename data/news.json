@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T17:31:35Z",
+  "generated_at": "2026-10-19T22:25:19Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -80,6 +79,32 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-3e75b5af1a16",
+      "title": "미국 10년물 국채금리 5.15% (직전 대비 +0.06%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-10-19T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.15,
+        "previous": 5.09,
+        "change": 0.06,
+        "unit": "%",
+        "date": "2026-10-19",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
     },
     {
       "id": "market-9868c94d3e48",
@@ -132,32 +157,6 @@
       }
     },
     {
-      "id": "market-83095fd246c6",
-      "title": "미국 10년물 국채금리 5.09% (직전 대비 -0.01%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-10-16T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.09,
-        "previous": 5.1,
-        "change": -0.01,
-        "unit": "%",
-        "date": "2026-10-16",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
-      }
-    },
-    {
       "id": "market-3c7a10536f9c",
       "title": "WTI 원유 가격 101.91달러 (직전 대비 +1.05달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
@@ -182,6 +181,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-7a823fcdaa5c",
+      "title": "Gold and silver prices pressured by hot inflation , but gold ETF holdings buck trend to hit 2026 highs – Heraeus",
+      "url": "http://www.kitco.com/news/article/2026-10-19/gold-and-silver-prices-pressured-hot-inflation-gold-etf-holdings-buck-trend",
+      "source": "kitco.com",
+      "source_type": "news",
+      "published_at": "2026-10-19T17:45:00Z",
+      "categories": [
+        "rates",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-e6181b6cffe3",
@@ -580,104 +597,14 @@
       "change_condition": null
     },
     {
-      "id": "news-38daa2bb26f6",
-      "title": "Trump declines to blame Putin for Ukraine war , amid transatlantic tensions",
-      "url": "https://www.burnhamandhighbridgeweeklynews.co.uk/news/national/26645617.trump-declines-blame-putin-ukraine-war-amid-transatlantic-tensions/",
-      "source": "burnhamandhighbridgeweeklynews.co.uk",
+      "id": "news-1d9ddd1d9978",
+      "title": "海外研选日报1019｜大摩详细拆解AI资金流 ： 明年投资规模或达1 . 6万亿美元",
+      "url": "https://baijiahao.baidu.com/s?id=1879463434694490590",
+      "source": "baijiahao.baidu.com",
       "source_type": "news",
-      "published_at": "2026-10-16T21:15:00Z",
+      "published_at": "2026-10-19T22:00:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-64213cd00a21",
-      "title": "US stocks : US market ends down sharply ; worries about AI trade and high oil prices weigh",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/us-stocks-us-market-ends-down-sharply-worries-about-ai-trade-and-high-oil-prices-weigh/articleshow/135003266.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T20:30:00Z",
-      "categories": [
-        "semis",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4e1874a0f74e",
-      "title": "From AI to Oil : US Import , Export Prices Rise Sharply in September",
-      "url": "https://www.theepochtimes.com/business/from-ai-to-oil-us-import-export-prices-rise-sharply-in-september-6104948",
-      "source": "theepochtimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T20:00:00Z",
-      "categories": [
-        "rates",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bfd2187e61f7",
-      "title": "Franken steigt vor dem Wochenende zum US - Dollar und Euro",
-      "url": "https://www.finanzen.ch/nachrichten/devisen/franken-steigt-vor-dem-wochenende-zum-us-dollar-und-euro-1036633344",
-      "source": "finanzen.ch",
-      "source_type": "news",
-      "published_at": "2026-10-16T20:00:00Z",
-      "categories": [
-        "oil",
-        "fx"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c925ca2805ee",
-      "title": "Chip selloff deepens Wall Street losses as doubts grew over AI returns",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/chip-selloff-deepens-wall-street-losses-as-doubts-grew-over-ai-returns/articleshow/135001236.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-16T18:30:00Z",
-      "categories": [
-        "rates",
-        "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eeca6773024e",
-      "title": "What the New China - North Korea Bridge Really Means",
-      "url": "https://thediplomat.com/2026/10/what-the-new-china-north-korea-bridge-really-means/",
-      "source": "thediplomat.com",
-      "source_type": "news",
-      "published_at": "2026-10-19T17:00:00Z",
-      "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -687,14 +614,14 @@
       "change_condition": null
     },
     {
-      "id": "news-088f6cad8ede",
-      "title": "China September refined fuel exports surge amid Iran war , diesel exports more than triple",
-      "url": "https://www.hydrocarbonprocessing.com/news/2026/10/chinas-september-refined-fuel-exports-surge-amid-iran-war-diesel-exports-more-than-triple/",
-      "source": "hydrocarbonprocessing.com",
+      "id": "news-275a7a0a9970",
+      "title": "Tech helpt Wall Street herstellen",
+      "url": "https://www.beurs.nl/Nieuws/881865/Tech-helpt-Wall-Street-herstellen.aspx",
+      "source": "beurs.nl",
       "source_type": "news",
-      "published_at": "2026-10-19T17:00:00Z",
+      "published_at": "2026-10-19T21:45:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -704,14 +631,14 @@
       "change_condition": null
     },
     {
-      "id": "news-533c2bff553f",
-      "title": "Canada : légère accélération de linflation en septembre - 19 / 10 / 2026 à 16 : 29",
-      "url": "https://www.boursorama.com/actualite-economique/actualites/canada-legere-acceleration-de-l-inflation-en-septembre-6ae6c4e7f295d7d62cff73cdeb11f3ef",
-      "source": "boursorama.com",
+      "id": "news-5834e413f1f7",
+      "title": "Inflation Just Spooked the Market -- But There Still Good News for Patient Investors",
+      "url": "https://www.aol.com/articles/inflation-just-spooked-market-theres-205300000.html",
+      "source": "aol.com",
       "source_type": "news",
-      "published_at": "2026-10-19T17:00:00Z",
+      "published_at": "2026-10-19T21:30:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -721,14 +648,14 @@
       "change_condition": null
     },
     {
-      "id": "news-1e8bedb56db4",
-      "title": "Μακελειό στο Σουδάν με 80 νεκρούς : Drone χτύπησε πολίτες που περίμεναν να γυρίσουν στα σπίτια τους",
-      "url": "https://www.inewsgr.com/97/makeleio-sto-soudan-me-80-nekrous-Drone-chtypise-polites-pou-perimenan-na-gyrisoun-sta-spitia-tous.htm",
-      "source": "inewsgr.com",
+      "id": "news-1b4616c884af",
+      "title": "熱錢翻滾 五萬不卡關 - 財經",
+      "url": "https://www.chinatimes.com/realtimenews/20261020000006-260410",
+      "source": "chinatimes.com",
       "source_type": "news",
-      "published_at": "2026-10-19T17:00:00Z",
+      "published_at": "2026-10-19T21:30:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -738,14 +665,14 @@
       "change_condition": null
     },
     {
-      "id": "news-22ecdf7e3635",
-      "title": "Small businesses are set to capture a record $118 billion this holiday season",
-      "url": "https://www.wsbtv.com/news/small-businesses-are/V4MYKOHZDA56DNIJLT7WTH4NQA/",
-      "source": "wsbtv.com",
+      "id": "news-f3db0a221e12",
+      "title": "الذهب يرتفع مع تراجع النفط",
+      "url": "https://www.alanba.com.kw/1381397/",
+      "source": "alanba.com.kw",
       "source_type": "news",
-      "published_at": "2026-10-19T17:00:00Z",
+      "published_at": "2026-10-19T20:45:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -755,14 +682,14 @@
       "change_condition": null
     },
     {
-      "id": "news-b88420b917c9",
-      "title": "ЕС ограничил квоты на украинскую сталь , но покупает металл РФ",
-      "url": "https://world.comments.ua/news/eu/ukraine-totalnye-ogranicheniya-rossii---massovoe-finansirovanie-stalo-izvestno-o-shokiruyuschem-shage-es-818915.html",
-      "source": "world.comments.ua",
+      "id": "news-63226361f39e",
+      "title": "Dynex ( DX ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/19/dynex-dx-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
       "source_type": "news",
-      "published_at": "2026-10-19T17:00:00Z",
+      "published_at": "2026-10-19T20:15:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -772,14 +699,82 @@
       "change_condition": null
     },
     {
-      "id": "news-18b54dbda3db",
-      "title": "Обвал трафіку Yandex на 94 %: удари по дата - центрах оголили цифрову вразливість Кремля",
-      "url": "https://www.bagnet.org/news/world/1404727/obval-trafiku-yandex-na-94-udari-po-data-tsentrah-ogolili-tsifrovu-vrazlivist-kremlya",
-      "source": "bagnet.org",
+      "id": "news-edb59b8693f5",
+      "title": "เฟดกุมขมับ ! AI บูมดันเงินเฟ้อพุ่ง หวั่นขึ้นดอกเบี้ยสกัดไม่อยู่",
+      "url": "https://www.posttoday.com/business/financial/750650",
+      "source": "posttoday.com",
       "source_type": "news",
-      "published_at": "2026-10-19T17:00:00Z",
+      "published_at": "2026-10-19T20:15:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6cc67351314a",
+      "title": "Fifth Third ( FITB ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/19/fifth-third-fitb-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-19T20:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c401f41e6aa8",
+      "title": "VOL REPORT : Scramble for Downside Hedges Fuels VIX Surge Ahead of MegaCap Earnings",
+      "url": "https://www.tradersmagazine.com/departments/vol-report/vol-report-scramble-for-downside-hedges-fuels-vix-surge-ahead-of-megacap-earnings/",
+      "source": "tradersmagazine.com",
+      "source_type": "news",
+      "published_at": "2026-10-19T19:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6318bd259431",
+      "title": "CIBC cuts gold forecasts but still sees $5 , 500 in 2028",
+      "url": "https://investinglive.com/commodities/cibc-cuts-gold-forecasts-but-still-sees-5-500-in-2028/",
+      "source": "investinglive.com",
+      "source_type": "news",
+      "published_at": "2026-10-19T19:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bab75b2ab187",
+      "title": "The cost of your new car loan has hit a record high",
+      "url": "https://www.independent.co.uk/us/money/car-loan-payments-record-high-b3069375.html",
+      "source": "independent.co.uk",
+      "source_type": "news",
+      "published_at": "2026-10-19T19:15:00Z",
+      "categories": [
+        "rates"
       ],
       "importance": 3,
       "facts": null,
