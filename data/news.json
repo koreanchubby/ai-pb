@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-19T22:25:19Z",
+  "generated_at": "2026-10-20T01:52:40Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 45
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -79,6 +80,31 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-8fb989f2a176",
+      "title": "원/달러 환율(매매기준율) 1332.1원 (직전 대비 -10.3원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-19T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1332.1,
+        "previous": 1342.4,
+        "change": -10.3,
+        "unit": "원",
+        "date": "20261020",
+        "alert_threshold": 15.0
+      }
     },
     {
       "id": "market-3e75b5af1a16",
@@ -132,31 +158,6 @@
       }
     },
     {
-      "id": "market-9b4e30b73dc6",
-      "title": "원/달러 환율(매매기준율) 1342.4원 (직전 대비 -6.1원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-18T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1342.4,
-        "previous": 1348.5,
-        "change": -6.1,
-        "unit": "원",
-        "date": "20261019",
-        "alert_threshold": 15.0
-      }
-    },
-    {
       "id": "market-3c7a10536f9c",
       "title": "WTI 원유 가격 101.91달러 (직전 대비 +1.05달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
@@ -181,6 +182,114 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-db4e116527c8",
+      "title": "유가 · 달러 · 외국인 압박에도 1300원대 원화 강세 … 환율  3대 공식  깨졌다",
+      "url": "https://biz.heraldcorp.com/article/10908254",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T01:30:00Z",
+      "categories": [
+        "fx",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-04a64ed50bce",
+      "title": "盘前必读丨美股存储 、 半导体股大反攻 ； 境内首批18只主动ETF获批",
+      "url": "https://www.yicai.com/news/103399843.html",
+      "source": "yicai.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T01:30:00Z",
+      "categories": [
+        "fx",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8b52a86cc256",
+      "title": "이란 , 美중간선거 겨냥 호르무즈 공격 확대 … 유가 끌어올리려는 의도",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03102886645614888&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-20T01:30:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d44f466a8550",
+      "title": "4대 은행 · SK하이닉스 , 반도체 협력사에 2조원 금융지원",
+      "url": "https://biz.heraldcorp.com/article/10908159",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T01:00:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a3a8e2b40d72",
+      "title": "美반도체주 반등에 원화 강세 탄력 … 환율 1320원대 안착 시도 [ 외환브리핑 ]",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02663366645614888&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-20T00:30:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ab087a763600",
+      "title": "[ 채권 / 외환 ] 美 국채 금리 · 달러 동반 상승 … AI주 반등에 시장 분위기 반전",
+      "url": "https://www.newspim.com/news/view/20261020000029",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T00:15:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-7a823fcdaa5c",
@@ -579,32 +688,14 @@
       "change_condition": null
     },
     {
-      "id": "news-7ad746f66531",
-      "title": "[ 금리 리셋 ] ⑤  10 % 배당  사모대출 · 커버드콜 ETF의 두 얼굴",
-      "url": "https://www.newspim.com/news/view/20261016000905",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-17T01:00:00Z",
-      "categories": [
-        "rates",
-        "etf"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1d9ddd1d9978",
-      "title": "海外研选日报1019｜大摩详细拆解AI资金流 ： 明年投资规模或达1 . 6万亿美元",
-      "url": "https://baijiahao.baidu.com/s?id=1879463434694490590",
+      "id": "news-d6b5f1d806a5",
+      "title": "观智潮｜金丝雀叫了 ， 算力股换锚",
+      "url": "https://baijiahao.baidu.com/s?id=1879528616008800755",
       "source": "baijiahao.baidu.com",
       "source_type": "news",
-      "published_at": "2026-10-19T22:00:00Z",
+      "published_at": "2026-10-20T01:30:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -614,14 +705,14 @@
       "change_condition": null
     },
     {
-      "id": "news-275a7a0a9970",
-      "title": "Tech helpt Wall Street herstellen",
-      "url": "https://www.beurs.nl/Nieuws/881865/Tech-helpt-Wall-Street-herstellen.aspx",
-      "source": "beurs.nl",
+      "id": "news-335a801c5332",
+      "title": "机器人公司到底该怎么算估值 高成长预期下的挑战与机遇 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20261020/49804474.html",
+      "source": "news.china.com",
       "source_type": "news",
-      "published_at": "2026-10-19T21:45:00Z",
+      "published_at": "2026-10-20T01:30:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -631,14 +722,14 @@
       "change_condition": null
     },
     {
-      "id": "news-5834e413f1f7",
-      "title": "Inflation Just Spooked the Market -- But There Still Good News for Patient Investors",
-      "url": "https://www.aol.com/articles/inflation-just-spooked-market-theres-205300000.html",
-      "source": "aol.com",
+      "id": "news-4d20d6bf38d1",
+      "title": "美禁外國製機器人恐卡晶片產能 英特爾求豁免 、 台積電也可能需要 | 全球財經 | 全球",
+      "url": "https://udn.com/news/story/6811/9825255",
+      "source": "udn.com",
       "source_type": "news",
-      "published_at": "2026-10-19T21:30:00Z",
+      "published_at": "2026-10-20T01:30:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -648,14 +739,14 @@
       "change_condition": null
     },
     {
-      "id": "news-1b4616c884af",
-      "title": "熱錢翻滾 五萬不卡關 - 財經",
-      "url": "https://www.chinatimes.com/realtimenews/20261020000006-260410",
-      "source": "chinatimes.com",
+      "id": "news-72863a6c9746",
+      "title": "业内人士称定制基底裸片已成趋势 新供应关系形成 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20261020/49804402.html",
+      "source": "news.china.com",
       "source_type": "news",
-      "published_at": "2026-10-19T21:30:00Z",
+      "published_at": "2026-10-20T01:30:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -665,14 +756,14 @@
       "change_condition": null
     },
     {
-      "id": "news-f3db0a221e12",
-      "title": "الذهب يرتفع مع تراجع النفط",
-      "url": "https://www.alanba.com.kw/1381397/",
-      "source": "alanba.com.kw",
+      "id": "news-e8b297336c7a",
+      "title": "三路齐发 科技利好堆积 今天怎么走 _ 财富号 _ 东方财富网",
+      "url": "https://caifuhao.eastmoney.com/news/20261020065020898882850",
+      "source": "caifuhao.eastmoney.com",
       "source_type": "news",
-      "published_at": "2026-10-19T20:45:00Z",
+      "published_at": "2026-10-20T01:30:00Z",
       "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -682,99 +773,14 @@
       "change_condition": null
     },
     {
-      "id": "news-63226361f39e",
-      "title": "Dynex ( DX ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/19/dynex-dx-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "source": "fool.com",
+      "id": "news-babc01403a90",
+      "title": "그야말로 날개 없는 추락 … 美 반도체 반등에도 코스피 2 % 대 급락 [ 투자360 ]",
+      "url": "https://biz.heraldcorp.com/article/10908212",
+      "source": "biz.heraldcorp.com",
       "source_type": "news",
-      "published_at": "2026-10-19T20:15:00Z",
+      "published_at": "2026-10-20T01:30:00Z",
       "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-edb59b8693f5",
-      "title": "เฟดกุมขมับ ! AI บูมดันเงินเฟ้อพุ่ง หวั่นขึ้นดอกเบี้ยสกัดไม่อยู่",
-      "url": "https://www.posttoday.com/business/financial/750650",
-      "source": "posttoday.com",
-      "source_type": "news",
-      "published_at": "2026-10-19T20:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6cc67351314a",
-      "title": "Fifth Third ( FITB ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/19/fifth-third-fitb-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-19T20:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c401f41e6aa8",
-      "title": "VOL REPORT : Scramble for Downside Hedges Fuels VIX Surge Ahead of MegaCap Earnings",
-      "url": "https://www.tradersmagazine.com/departments/vol-report/vol-report-scramble-for-downside-hedges-fuels-vix-surge-ahead-of-megacap-earnings/",
-      "source": "tradersmagazine.com",
-      "source_type": "news",
-      "published_at": "2026-10-19T19:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6318bd259431",
-      "title": "CIBC cuts gold forecasts but still sees $5 , 500 in 2028",
-      "url": "https://investinglive.com/commodities/cibc-cuts-gold-forecasts-but-still-sees-5-500-in-2028/",
-      "source": "investinglive.com",
-      "source_type": "news",
-      "published_at": "2026-10-19T19:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bab75b2ab187",
-      "title": "The cost of your new car loan has hit a record high",
-      "url": "https://www.independent.co.uk/us/money/car-loan-payments-record-high-b3069375.html",
-      "source": "independent.co.uk",
-      "source_type": "news",
-      "published_at": "2026-10-19T19:15:00Z",
-      "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
