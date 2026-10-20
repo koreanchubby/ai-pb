@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T13:36:24Z",
+  "generated_at": "2026-10-20T18:30:04Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -418,17 +418,33 @@
       "change_condition": null
     },
     {
-      "id": "news-276672fd73d2",
-      "title": "Tech Stock Sell - Off : 1 Unstoppable ETF to Buy on the Dip in 2026",
-      "url": "https://www.fool.com/investing/2026/10/17/tech-stock-sell-off-1-unstoppable-etf-to-buy-on-th/?source=iedfolrf0000001",
+      "id": "news-90d4d79f2d7c",
+      "title": "Palm Coast Approves Costly Loan to Settle Town Center Lawsuit",
+      "url": "https://flaglerlive.com/town-center-loan/",
+      "source": "flaglerlive.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T18:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f1e2c1250148",
+      "title": "Atlantic Union ( AUB ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/20/atlantic-union-aub-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
       "source": "fool.com",
       "source_type": "news",
-      "published_at": "2026-10-17T17:30:00Z",
+      "published_at": "2026-10-20T17:45:00Z",
       "categories": [
-        "semis",
-        "etf"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -436,17 +452,16 @@
       "change_condition": null
     },
     {
-      "id": "news-5bbd95c2ce8c",
-      "title": "South Korea minister sees chip boom lasting through 2027",
-      "url": "https://www.cnbc.com/2026/10/17/south-korea-semiconductor-outlook-lee-hyoung-il.html",
-      "source": "cnbc.com",
+      "id": "news-004dd78981e1",
+      "title": "Washington Trust ( WASH ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.aol.com/articles/washington-trust-wash-q3-2026-171547000.html",
+      "source": "aol.com",
       "source_type": "news",
-      "published_at": "2026-10-17T17:00:00Z",
+      "published_at": "2026-10-20T17:45:00Z",
       "categories": [
-        "rates",
-        "semis"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -454,17 +469,16 @@
       "change_condition": null
     },
     {
-      "id": "news-f2043c6f79f1",
-      "title": "Trump eases Russia oil sanctions , but is Europe still buying Moscow gas ? | Russia - Ukraine war News",
-      "url": "https://www.aljazeera.com/news/2026/10/17/trump-eases-russia-oil-sanctions-but-is-europe-still-buying-moscows-gas",
-      "source": "aljazeera.com",
+      "id": "news-65dfe4dab999",
+      "title": "MARKETS LIVE : Wall Street rebounds , FTSE loses ground ahead of Netflix earnings tonight",
+      "url": "https://www.proactiveinvestors.com/companies/news/1100357/markets-live-wall-street-rebounds-ftse-loses-ground-ahead-of-netflix-earnings-tonight-1100357.html",
+      "source": "proactiveinvestors.com",
       "source_type": "news",
-      "published_at": "2026-10-17T15:00:00Z",
+      "published_at": "2026-10-20T17:30:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -472,17 +486,186 @@
       "change_condition": null
     },
     {
-      "id": "news-b4aa878903e0",
-      "title": "US tariff waiver on Russian crude a comforting relief , but trade uncertainties persist : CareEdge Chief Economist Rajani Sinha",
-      "url": "http://www.middleeaststar.com/news/279380865/us-tariff-waiver-on-russian-crude-a-comforting-relief-but-trade-uncertainties-persist-careedge-chief-economist-rajani-sinha",
-      "source": "middleeaststar.com",
+      "id": "news-767b1e48dd1b",
+      "title": "欧元面临油价与财政双重压力 ， 1 . 12关口能否守住 ？_ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261020/32402965.shtml",
+      "source": "forex.cnfol.com",
       "source_type": "news",
-      "published_at": "2026-10-17T13:45:00Z",
+      "published_at": "2026-10-20T17:30:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c4798a6703a1",
+      "title": "AI firmy roztáčejí inflaci v united states . Doplatí na to ostatní",
+      "url": "https://www.idnes.cz/ekonomika/zahranicni/americka-centralni-banka-fed-inflace-umela-inteligence.A261020_111326_eko-zahranicni_jla",
+      "source": "idnes.cz",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ca5598ae1a36",
+      "title": "AGNC ( AGNC ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.aol.com/articles/agnc-agnc-q3-2026-earnings-164943000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bb6c21351dd6",
+      "title": "欧洲天然气库存创纪录低位 ， 德国电力合约会否持续承压 ？_ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261020/32402995.shtml",
+      "source": "forex.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-536fc6d623e1",
+      "title": "中东地缘事件大幅推升风险溢价 ， 美原油上破100美元 _ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261020/32402964.shtml",
+      "source": "forex.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1a76249b4100",
+      "title": "Young Americans Lead Credit Card Spending Surge As Cost Of Living Squeezes Paychecks",
+      "url": "https://www.aol.com/articles/young-americans-lead-credit-card-164550000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-77601c8cc6dd",
+      "title": "當美國的借據愈來愈貴 ： 美債風險下 ， 美中台日誰來承擔代價 ？",
+      "url": "https://n.yam.com/Article/20261021440829",
+      "source": "n.yam.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e89e56e586c5",
+      "title": "Fed sneezes , but emerging markets arent catching a cold yet",
+      "url": "https://www.theglobeandmail.com/investing/article-fed-sneezes-but-emerging-markets-arent-catching-a-cold-yet/",
+      "source": "theglobeandmail.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d14df6c8f460",
+      "title": "ดอลลาร์อ่อนค่า สอดคล้องบอนด์ยีลด์อ่อนตัว",
+      "url": "https://www.ryt9.com/s/iq/12851277",
+      "source": "ryt9.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2546601f4686",
+      "title": "ราคาทองดีดตัว ขานรับดอลล์อ่อน , บอนด์ยีลด์ร่วง",
+      "url": "https://www.ryt9.com/s/iq/12851276",
+      "source": "ryt9.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5aa878151112",
+      "title": "El Niño fecha atraes turísticas e deixa gado a morrer à fome no mundo",
+      "url": "https://pt.euronews.com/2026/10/20/el-nino-fecha-atracoes-turisticas-e-deixa-gado-a-morrer-a-fome-no-mundo",
+      "source": "pt.euronews.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T17:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -581,125 +764,6 @@
       "source": "cfi.net.cn",
       "source_type": "news",
       "published_at": "2026-10-20T06:45:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3b2f0d2484e8",
-      "title": "旺赛夫倡关闭养猪埸改进口 社青团轰暗藏种族歧视 | 国内",
-      "url": "https://www.orientaldaily.com.my/news/nation/2026/10/20/856585",
-      "source": "orientaldaily.com.my",
-      "source_type": "news",
-      "published_at": "2026-10-20T06:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5e16cfef64e6",
-      "title": "Bitmine Menambah 12 . 535 ETH , Kepemilikan Ethereum Sentuh 6 , 04 Juta Token",
-      "url": "https://www.liputan6.com/crypto/read/8317075/bitmine-menambah-12535-eth-kepemilikan-ethereum-sentuh-604-juta-token",
-      "source": "liputan6.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T05:45:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cc0ea1af84a5",
-      "title": "亚股普跌韩股挫4 . 3 % 马股逆势回升未守1600点",
-      "url": "https://www.enanyang.my/news/20261020/Finance/1420679",
-      "source": "enanyang.my",
-      "source_type": "news",
-      "published_at": "2026-10-20T05:45:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ce98a165b213",
-      "title": "永福股份 ( 300712 ): 2026年10月19日投资者关系活动记录表 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261020000396.html",
-      "source": "cfi.net.cn",
-      "source_type": "news",
-      "published_at": "2026-10-20T05:45:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d019ee886fd8",
-      "title": "Seoul stocks extend losses amid AI concerns",
-      "url": "https://www.prokerala.com/news/articles/a1826534.html",
-      "source": "prokerala.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T05:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-354238da528f",
-      "title": "게살 버거 값 또 올랐네 … 웃자고 만든  스폰지밥 마을  에 들썩인 이집트 ?- 국제ㅣ한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026101701420001388",
-      "source": "hankookilbo.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T05:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-99982e67b1b5",
-      "title": "코스피 , 3 % 대 급락하며 5600선 공방 … 한때 5500선 깨지기도",
-      "url": "https://www.segye.com:443/newsView/20261020510131",
-      "source": "segye.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T04:45:00Z",
       "categories": [
         "fx"
       ],
