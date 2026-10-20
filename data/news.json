@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T01:52:40Z",
+  "generated_at": "2026-10-20T07:40:09Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 45
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -562,17 +562,16 @@
       "change_condition": null
     },
     {
-      "id": "news-7433d7ab0ed9",
-      "title": "출렁이는 비트코인8만달러선 붕괴 후 반등",
-      "url": "https://newsway.co.kr/news/view?ud=2026101714442994267",
-      "source": "newsway.co.kr",
+      "id": "news-f2a1d34de445",
+      "title": "코스피 · 코스닥 3 % 대 하락 마감⋯외인 · 기관 2 . 5조  팔자",
+      "url": "https://www.etoday.co.kr/news/view/2637976",
+      "source": "etoday.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-17T07:15:00Z",
+      "published_at": "2026-10-20T07:15:00Z",
       "categories": [
-        "rates",
         "fx"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -580,17 +579,16 @@
       "change_condition": null
     },
     {
-      "id": "news-39ffbff6460d",
-      "title": "석달 뒤 흥행을 맞혀라 … ETF 운용사의  천기 읽기 [ 여의도는 지금 ]",
-      "url": "https://www.fnnews.com/news/202610161440533254",
-      "source": "fnnews.com",
+      "id": "news-7771e6821181",
+      "title": "한국인들 유니클로 즐겨입는데 어쩌나 … 일본서 가격 오른다",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=04096726645614888&mediaCodeNo=257",
+      "source": "edaily.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-17T05:15:00Z",
+      "published_at": "2026-10-20T07:15:00Z",
       "categories": [
-        "fx",
-        "etf"
+        "fx"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -598,104 +596,14 @@
       "change_condition": null
     },
     {
-      "id": "news-ca416d780a75",
-      "title": "S & P 500 logs biggest weekly loss since June as oil at $110 , AI trade fears rattle Wall Street",
-      "url": "https://www.moneycontrol.com/news/business/markets/s-p-500-logs-biggest-weekly-loss-since-june-as-oil-at-110-ai-trade-fears-rattle-wall-street-14054225.html",
-      "source": "moneycontrol.com",
-      "source_type": "news",
-      "published_at": "2026-10-17T03:00:00Z",
-      "categories": [
-        "rates",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-69bbfbbcdc7c",
-      "title": "트럼프 ,  그레이엄법  대러 제재 면제 발표 … 유류가 안정 포석",
-      "url": "https://biz.heraldcorp.com/article/10905731",
+      "id": "news-f80e6872d888",
+      "title": "노무라증권 ,  삼전 67만원 · 하닉 470만원 간다 … 주목할 종목  에 삼전닉스 선정",
+      "url": "https://biz.heraldcorp.com/article/10908818",
       "source": "biz.heraldcorp.com",
       "source_type": "news",
-      "published_at": "2026-10-17T03:00:00Z",
+      "published_at": "2026-10-20T06:45:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-61e4a8f8710b",
-      "title": "Brent crude hits $110 for first time since May as Middle East conflict , Russia supply risks fuel rally",
-      "url": "https://www.moneycontrol.com/news/commodities/crude-oil/brent-crude-hits-110-for-first-time-since-may-as-middle-east-conflict-russia-supply-risks-fuel-rally-14054210.html",
-      "source": "moneycontrol.com",
-      "source_type": "news",
-      "published_at": "2026-10-17T03:00:00Z",
-      "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-65b7d59efded",
-      "title": "Nvidia CEO on AI market turmoil :  All of this is going to pass",
-      "url": "https://www.moneycontrol.com/news/business/s-p-500-suffers-worst-week-since-june-as-ai-fears-hit-chipmakers-14054242.html",
-      "source": "moneycontrol.com",
-      "source_type": "news",
-      "published_at": "2026-10-17T03:00:00Z",
-      "categories": [
-        "oil",
-        "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8cf202870c97",
-      "title": "Wall Street tumbles as worries about AI trade and high oil prices weigh",
-      "url": "https://www.moneycontrol.com/news/business/markets/wall-street-tumbles-as-worries-about-ai-trade-and-high-oil-prices-weigh-14054246.html",
-      "source": "moneycontrol.com",
-      "source_type": "news",
-      "published_at": "2026-10-17T03:00:00Z",
-      "categories": [
-        "semis",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d6b5f1d806a5",
-      "title": "观智潮｜金丝雀叫了 ， 算力股换锚",
-      "url": "https://baijiahao.baidu.com/s?id=1879528616008800755",
-      "source": "baijiahao.baidu.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
-      "categories": [
-        "semis"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -705,14 +613,14 @@
       "change_condition": null
     },
     {
-      "id": "news-335a801c5332",
-      "title": "机器人公司到底该怎么算估值 高成长预期下的挑战与机遇 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20261020/49804474.html",
-      "source": "news.china.com",
+      "id": "news-8338d4f39a0f",
+      "title": "수도권 주택사업 기대감 회복⋯서울 집값 상승세에 건설업계  숨통",
+      "url": "https://www.etoday.co.kr/news/view/2637914",
+      "source": "etoday.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-20T06:45:00Z",
       "categories": [
-        "semis"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -722,14 +630,14 @@
       "change_condition": null
     },
     {
-      "id": "news-4d20d6bf38d1",
-      "title": "美禁外國製機器人恐卡晶片產能 英特爾求豁免 、 台積電也可能需要 | 全球財經 | 全球",
-      "url": "https://udn.com/news/story/6811/9825255",
-      "source": "udn.com",
+      "id": "news-f80471b17d05",
+      "title": "国家广电总局 ： 中国微短剧正成为继美国电影 、 日本动画 、 韩国电视剧之后的第四大全球性视听产品新业态",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-10-20/doc-inivwcmp5769423.shtml",
+      "source": "finance.sina.com.cn",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-20T06:45:00Z",
       "categories": [
-        "semis"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -739,14 +647,14 @@
       "change_condition": null
     },
     {
-      "id": "news-72863a6c9746",
-      "title": "业内人士称定制基底裸片已成趋势 新供应关系形成 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20261020/49804402.html",
-      "source": "news.china.com",
+      "id": "news-cbee32646915",
+      "title": "[ HK ] 闽信集团 ( 00222 ): 潜在须予披露交易 - 通过公开挂牌程序出售股权 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261020000425.html",
+      "source": "cfi.net.cn",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-20T06:45:00Z",
       "categories": [
-        "semis"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -756,14 +664,14 @@
       "change_condition": null
     },
     {
-      "id": "news-e8b297336c7a",
-      "title": "三路齐发 科技利好堆积 今天怎么走 _ 财富号 _ 东方财富网",
-      "url": "https://caifuhao.eastmoney.com/news/20261020065020898882850",
-      "source": "caifuhao.eastmoney.com",
+      "id": "news-3b2f0d2484e8",
+      "title": "旺赛夫倡关闭养猪埸改进口 社青团轰暗藏种族歧视 | 国内",
+      "url": "https://www.orientaldaily.com.my/news/nation/2026/10/20/856585",
+      "source": "orientaldaily.com.my",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-20T06:00:00Z",
       "categories": [
-        "semis"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -773,14 +681,99 @@
       "change_condition": null
     },
     {
-      "id": "news-babc01403a90",
-      "title": "그야말로 날개 없는 추락 … 美 반도체 반등에도 코스피 2 % 대 급락 [ 투자360 ]",
-      "url": "https://biz.heraldcorp.com/article/10908212",
-      "source": "biz.heraldcorp.com",
+      "id": "news-5e16cfef64e6",
+      "title": "Bitmine Menambah 12 . 535 ETH , Kepemilikan Ethereum Sentuh 6 , 04 Juta Token",
+      "url": "https://www.liputan6.com/crypto/read/8317075/bitmine-menambah-12535-eth-kepemilikan-ethereum-sentuh-604-juta-token",
+      "source": "liputan6.com",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-20T05:45:00Z",
       "categories": [
-        "semis"
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cc0ea1af84a5",
+      "title": "亚股普跌韩股挫4 . 3 % 马股逆势回升未守1600点",
+      "url": "https://www.enanyang.my/news/20261020/Finance/1420679",
+      "source": "enanyang.my",
+      "source_type": "news",
+      "published_at": "2026-10-20T05:45:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ce98a165b213",
+      "title": "永福股份 ( 300712 ): 2026年10月19日投资者关系活动记录表 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261020000396.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-10-20T05:45:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d019ee886fd8",
+      "title": "Seoul stocks extend losses amid AI concerns",
+      "url": "https://www.prokerala.com/news/articles/a1826534.html",
+      "source": "prokerala.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T05:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-354238da528f",
+      "title": "게살 버거 값 또 올랐네 … 웃자고 만든  스폰지밥 마을  에 들썩인 이집트 ?- 국제ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026101701420001388",
+      "source": "hankookilbo.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T05:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-99982e67b1b5",
+      "title": "코스피 , 3 % 대 급락하며 5600선 공방 … 한때 5500선 깨지기도",
+      "url": "https://www.segye.com:443/newsView/20261020510131",
+      "source": "segye.com",
+      "source_type": "news",
+      "published_at": "2026-10-20T04:45:00Z",
+      "categories": [
+        "fx"
       ],
       "importance": 3,
       "facts": null,
