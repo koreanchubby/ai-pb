@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T07:40:09Z",
+  "generated_at": "2026-10-20T13:36:24Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -481,78 +481,6 @@
       "categories": [
         "oil",
         "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1037ec1db387",
-      "title": "CoreWeave / ヘッジファンド / VIX / NVIDIA 米国金融市場2026 / 10 / 16金深夜～2026 / 10 / 17土夜にかけてXを流れた投稿数本に関するGrokの解説をサマライズ ： 経営者が読むNVIDIAのフィジカルAI / ADAS業界日報 by 今泉大輔 ： オルタナティブ ・ ブログ",
-      "url": "https://blogs.itmedia.co.jp/serial/2026/10/2026101620261017xgrok.html",
-      "source": "blogs.itmedia.co.jp",
-      "source_type": "news",
-      "published_at": "2026-10-17T13:30:00Z",
-      "categories": [
-        "oil",
-        "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-52a449229920",
-      "title": "The Dividend ETF Quietly Delivering Double - Digit Returns While Most Investors Arent Paying Attention",
-      "url": "https://www.aol.com/articles/dividend-etf-quietly-delivering-double-121000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-17T13:00:00Z",
-      "categories": [
-        "semis",
-        "etf"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-48f33a0d8558",
-      "title": "रूसी तेल खरीद में राहत का रूस ने क‍िया स्‍वागत | Russia welcomes relief in Russian oil purchases",
-      "url": "https://www.deshbandhu.co.in/world/russia-welcomes-relief-in-russian-oil-purchases-326492",
-      "source": "deshbandhu.co.in",
-      "source_type": "news",
-      "published_at": "2026-10-17T10:00:00Z",
-      "categories": [
-        "geopolitics",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1a8e20575400",
-      "title": "Silber Preis : Zinssorgen drücken Kurs unter 58 Dollar",
-      "url": "https://www.boerse-express.com/news/articles/silber-preis-zinssorgen-druecken-kurs-unter-58-dollar-953860",
-      "source": "boerse-express.com",
-      "source_type": "news",
-      "published_at": "2026-10-17T08:00:00Z",
-      "categories": [
-        "rates",
-        "fx"
       ],
       "importance": 4,
       "facts": null,
