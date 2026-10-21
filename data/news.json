@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-20T22:21:18Z",
+  "generated_at": "2026-10-21T01:39:26Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -81,6 +82,31 @@
       "change_condition": null
     },
     {
+      "id": "market-dc5dc650d2da",
+      "title": "원/달러 환율(매매기준율) 1328원 (직전 대비 -4.1원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-20T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1328.0,
+        "previous": 1332.1,
+        "change": -4.1,
+        "unit": "원",
+        "date": "20261021",
+        "alert_threshold": 15.0
+      }
+    },
+    {
       "id": "market-4d6c57fb7d66",
       "title": "미국 10년물 국채금리 5.12% (직전 대비 -0.03%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -104,31 +130,6 @@
         "date": "2026-10-20",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-8fb989f2a176",
-      "title": "원/달러 환율(매매기준율) 1332.1원 (직전 대비 -10.3원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-19T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1332.1,
-        "previous": 1342.4,
-        "change": -10.3,
-        "unit": "원",
-        "date": "20261020",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -181,6 +182,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-649ba4fb85f9",
+      "title": "스페이스X , 우주기업에서 AI 기업으로 … 머스크는 1조달러 꿈꾼다 ( 종합 )",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02837206645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-db4e116527c8",
@@ -399,32 +418,14 @@
       "change_condition": null
     },
     {
-      "id": "news-69417e26d2e7",
-      "title": "Neighboring Georgia gas stations get into an all - out price war , dropping prices as low as 97 cents :  Feels like Christmas",
-      "url": "https://www.aol.com/articles/neighboring-georgia-gas-stations-price-220000000.html",
-      "source": "aol.com",
+      "id": "news-f42d7f056a4c",
+      "title": "요즘 누가 의대가려고 여길 그만둬 … 과기원 중도탈락 , 6년 만 최저",
+      "url": "https://www.munhwa.com:443/article/11624940",
+      "source": "munhwa.com",
       "source_type": "news",
-      "published_at": "2026-10-17T23:30:00Z",
+      "published_at": "2026-10-21T01:15:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-90d4d79f2d7c",
-      "title": "Palm Coast Approves Costly Loan to Settle Town Center Lawsuit",
-      "url": "https://flaglerlive.com/town-center-loan/",
-      "source": "flaglerlive.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T18:00:00Z",
-      "categories": [
-        "rates"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -434,269 +435,14 @@
       "change_condition": null
     },
     {
-      "id": "news-f1e2c1250148",
-      "title": "Atlantic Union ( AUB ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/20/atlantic-union-aub-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-004dd78981e1",
-      "title": "Washington Trust ( WASH ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.aol.com/articles/washington-trust-wash-q3-2026-171547000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-65dfe4dab999",
-      "title": "MARKETS LIVE : Wall Street rebounds , FTSE loses ground ahead of Netflix earnings tonight",
-      "url": "https://www.proactiveinvestors.com/companies/news/1100357/markets-live-wall-street-rebounds-ftse-loses-ground-ahead-of-netflix-earnings-tonight-1100357.html",
-      "source": "proactiveinvestors.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-767b1e48dd1b",
-      "title": "欧元面临油价与财政双重压力 ， 1 . 12关口能否守住 ？_ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261020/32402965.shtml",
-      "source": "forex.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c4798a6703a1",
-      "title": "AI firmy roztáčejí inflaci v united states . Doplatí na to ostatní",
-      "url": "https://www.idnes.cz/ekonomika/zahranicni/americka-centralni-banka-fed-inflace-umela-inteligence.A261020_111326_eko-zahranicni_jla",
-      "source": "idnes.cz",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ca5598ae1a36",
-      "title": "AGNC ( AGNC ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.aol.com/articles/agnc-agnc-q3-2026-earnings-164943000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bb6c21351dd6",
-      "title": "欧洲天然气库存创纪录低位 ， 德国电力合约会否持续承压 ？_ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261020/32402995.shtml",
-      "source": "forex.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-536fc6d623e1",
-      "title": "中东地缘事件大幅推升风险溢价 ， 美原油上破100美元 _ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261020/32402964.shtml",
-      "source": "forex.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1a76249b4100",
-      "title": "Young Americans Lead Credit Card Spending Surge As Cost Of Living Squeezes Paychecks",
-      "url": "https://www.aol.com/articles/young-americans-lead-credit-card-164550000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-77601c8cc6dd",
-      "title": "當美國的借據愈來愈貴 ： 美債風險下 ， 美中台日誰來承擔代價 ？",
-      "url": "https://n.yam.com/Article/20261021440829",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e89e56e586c5",
-      "title": "Fed sneezes , but emerging markets arent catching a cold yet",
-      "url": "https://www.theglobeandmail.com/investing/article-fed-sneezes-but-emerging-markets-arent-catching-a-cold-yet/",
-      "source": "theglobeandmail.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d14df6c8f460",
-      "title": "ดอลลาร์อ่อนค่า สอดคล้องบอนด์ยีลด์อ่อนตัว",
-      "url": "https://www.ryt9.com/s/iq/12851277",
-      "source": "ryt9.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2546601f4686",
-      "title": "ราคาทองดีดตัว ขานรับดอลล์อ่อน , บอนด์ยีลด์ร่วง",
-      "url": "https://www.ryt9.com/s/iq/12851276",
-      "source": "ryt9.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5aa878151112",
-      "title": "El Niño fecha atraes turísticas e deixa gado a morrer à fome no mundo",
-      "url": "https://pt.euronews.com/2026/10/20/el-nino-fecha-atracoes-turisticas-e-deixa-gado-a-morrer-a-fome-no-mundo",
-      "source": "pt.euronews.com",
-      "source_type": "news",
-      "published_at": "2026-10-20T17:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f2a1d34de445",
-      "title": "코스피 · 코스닥 3 % 대 하락 마감⋯외인 · 기관 2 . 5조  팔자",
-      "url": "https://www.etoday.co.kr/news/view/2637976",
-      "source": "etoday.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-20T07:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7771e6821181",
-      "title": "한국인들 유니클로 즐겨입는데 어쩌나 … 일본서 가격 오른다",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=04096726645614888&mediaCodeNo=257",
+      "id": "news-cb899621a7f0",
+      "title": "AI 수요 아직 탄탄 … 슈퍼마이크로 깜짝 전망에 AI주 들썩",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02774886645615216&mediaCodeNo=257",
       "source": "edaily.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-20T07:15:00Z",
+      "published_at": "2026-10-21T01:15:00Z",
       "categories": [
-        "fx"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -706,14 +452,14 @@
       "change_condition": null
     },
     {
-      "id": "news-f80e6872d888",
-      "title": "노무라증권 ,  삼전 67만원 · 하닉 470만원 간다 … 주목할 종목  에 삼전닉스 선정",
-      "url": "https://biz.heraldcorp.com/article/10908818",
-      "source": "biz.heraldcorp.com",
+      "id": "news-abcd2530ccfa",
+      "title": "中西部首个万亿外贸城市 ， 要来了",
+      "url": "https://news.pedaily.cn/202610/570570.shtml",
+      "source": "news.pedaily.cn",
       "source_type": "news",
-      "published_at": "2026-10-20T06:45:00Z",
+      "published_at": "2026-10-21T01:15:00Z",
       "categories": [
-        "fx"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -723,14 +469,14 @@
       "change_condition": null
     },
     {
-      "id": "news-8338d4f39a0f",
-      "title": "수도권 주택사업 기대감 회복⋯서울 집값 상승세에 건설업계  숨통",
-      "url": "https://www.etoday.co.kr/news/view/2637914",
-      "source": "etoday.co.kr",
+      "id": "news-3ac5830e34c3",
+      "title": "앤스로픽 , 매출 15배 뛰었지만 … AI 인프라 비용  1000조원  육박",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02814246645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-20T06:45:00Z",
+      "published_at": "2026-10-21T01:15:00Z",
       "categories": [
-        "fx"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -740,14 +486,48 @@
       "change_condition": null
     },
     {
-      "id": "news-f80471b17d05",
-      "title": "国家广电总局 ： 中国微短剧正成为继美国电影 、 日本动画 、 韩国电视剧之后的第四大全球性视听产品新业态",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-10-20/doc-inivwcmp5769423.shtml",
+      "id": "news-1ebf77af8e6f",
+      "title": "Can Micron Stock Keep Climbing After a 10 - Fold Run ? Here What Its Past Booms Say .",
+      "url": "https://www.aol.com/articles/micron-stock-keep-climbing-10-235702000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-adb5cf2e5c37",
+      "title": "Super Micro sees quarterly revenue soaring on AI server boom",
+      "url": "https://www.ksl.com:443/article/51638848/super-micro-expects-first-quarter-revenue-above-estimates",
+      "source": "ksl.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3d3d371216ab",
+      "title": "三星 8 纳米工艺  再活一届 ： 性能提升 12 %、 功耗降低 15 %、 芯片面积缩小 8 %_ 新浪科技 _ 新浪网",
+      "url": "https://finance.sina.com.cn/tech/digi/2026-10-21/doc-inivxvuy4698977.shtml",
       "source": "finance.sina.com.cn",
       "source_type": "news",
-      "published_at": "2026-10-20T06:45:00Z",
+      "published_at": "2026-10-21T01:15:00Z",
       "categories": [
-        "fx"
+        "semis"
       ],
       "importance": 3,
       "facts": null,
@@ -757,14 +537,235 @@
       "change_condition": null
     },
     {
-      "id": "news-cbee32646915",
-      "title": "[ HK ] 闽信集团 ( 00222 ): 潜在须予披露交易 - 通过公开挂牌程序出售股权 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261020000425.html",
-      "source": "cfi.net.cn",
+      "id": "news-e13fe06c3d50",
+      "title": "D램 22 % 마이크론이 멈춘다 … 삼전닉스 웃을까 , 개미들 주목",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02751926645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-20T06:45:00Z",
+      "published_at": "2026-10-21T01:15:00Z",
       "categories": [
-        "fx"
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a7f47308a021",
+      "title": "삼전닉스 어제 급락했는데 … 월가 AI주도 주춤 [ 뉴스새벽배송 ]",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02630566645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1743ab367bd8",
+      "title": "의자 뺏기 이제 시작 … 삼전닉스 성과급에 20만 명 상급지 이동할 것",
+      "url": "https://www.munhwa.com:443/article/11624930",
+      "source": "munhwa.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-64a89680a426",
+      "title": "마이크론 대만 노조 22일 파업 … 삼전닉스처럼 성과급 달라",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02909366645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8681ecde274c",
+      "title": "삼성 · 하이닉스  돈벼락  에 강남까지 들썩 ?… 20만명 움직이나",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02817526645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-08a905d2b852",
+      "title": "[ 속보 ] 삼전하닉 2~3 % 대 반등 … 개인  사자  속 코스피 5600선 회복",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02778166645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ef1ad4f30655",
+      "title": "Growing Up Filipino in San Francisco South of Market Positively Filipino | Online Magazine for Filipinos in the Diaspora",
+      "url": "https://www.positivelyfilipino.com/magazine/growing-up-filipino-in-san-franciscos-south-of-market",
+      "source": "positivelyfilipino.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-082f3f72320c",
+      "title": "蔣萬安避答若連任做好 「 做滿 」 遭洗臉 學者揭最大敗筆 ： 心 「 浮動 」 了 - 政治",
+      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5613066",
+      "source": "news.ltn.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e116febd6d7a",
+      "title": "The Latest : Trump campaigns in North Carolina as part of final GOP push before midterms",
+      "url": "https://www.idahostatejournal.com/news/national/the-latest-trump-campaigns-in-north-carolina-as-part-of-final-gop-push-before-midterms/article_db14958a-53f1-59b9-81fe-f52cc8f79fe8.html",
+      "source": "idahostatejournal.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-95c07218bf65",
+      "title": "East West Bancorp ( EWBC ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/20/east-west-bancorp-ewbc-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3fafc01738f5",
+      "title": "Wisconsin 7th Congressional District 2026 : Clark vs . Alfonso |",
+      "url": "https://www.hudsonstarobserver.com/star-observer-election-guide-clark-vs-alfonso-compete-in-7th-congressional-district/article_fdebc223-e0e6-4af4-94da-6073fbe4d20f.html",
+      "source": "hudsonstarobserver.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-345936782be2",
+      "title": "Bugarska odbila učestvovati u novoj pomoći EU za Ukrajinu",
+      "url": "http://www.avaz.ba/vijesti/globus/1081744/bugarska-odbila-ucestvovati-u-novoj-pomoci-eu-za-ukrajinu",
+      "source": "avaz.ba",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ee07285b4b0b",
+      "title": "New Jersey food importer files lawsuit challenging Trump 50 % tariffs on Canadian goods",
+      "url": "https://www.greeleytribune.com/2026/10/20/canada-tariffs-legality/",
+      "source": "greeleytribune.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fe0a10ab9c8d",
+      "title": "GAP ( PAC ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.aol.com/articles/gap-pac-q3-2026-earnings-003148000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T01:15:00Z",
+      "categories": [
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
