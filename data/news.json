@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T13:52:28Z",
+  "generated_at": "2026-10-21T18:42:21Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -42,8 +42,8 @@
     },
     {
       "source": "FRED",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "reason": "RuntimeError: FRED 전체 실패 — DCOILWTICO: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
     }
   ],
   "items": [
@@ -54,23 +54,6 @@
       "source": "Federal Reserve",
       "source_type": "official",
       "published_at": "2026-10-13T18:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 7,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "official-ec910a0cc438",
-      "title": "Minutes of the Federal Open Market Committee, September 15-16, 2026",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261007a.htm",
-      "source": "Federal Reserve",
-      "source_type": "official",
-      "published_at": "2026-10-07T18:00:00Z",
       "categories": [
         "rates"
       ],
@@ -158,30 +141,22 @@
       }
     },
     {
-      "id": "market-3c7a10536f9c",
-      "title": "WTI 원유 가격 101.91달러 (직전 대비 +1.05달러)",
-      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-10-14T00:00:00Z",
+      "id": "news-5cbc42ac0c0f",
+      "title": "[ 채권마감 ] 2년~10년금리 2개월 최저 … 외인 선물매수+바이백발 수급",
+      "url": "https://www.etoday.co.kr/news/view/2638543",
+      "source": "etoday.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T09:45:00Z",
       "categories": [
-        "oil"
+        "fx",
+        "rates"
       ],
-      "importance": 5,
+      "importance": 4,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 101.91,
-        "previous": 100.86,
-        "change": 1.05,
-        "unit": "달러",
-        "date": "2026-10-14",
-        "alert_threshold": 3.0,
-        "indicator": "wti"
-      }
+      "change_condition": null
     },
     {
       "id": "news-d0bb5ba40f19",
@@ -357,6 +332,57 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fd8e83b685cc",
+      "title": "Les actions progressent grâce à des résultats encourageants ; le rendement des obligations françaises à 10 ans franchit la barre des 5 % - 21 / 10 / 2026 à 18 : 02",
+      "url": "https://www.boursorama.com/bourse/actualites/les-actions-progressent-grace-a-des-resultats-encourageants-le-rendement-des-obligations-francaises-a-10-ans-franchit-la-barre-des-5-99689f038c6a959c482e1f34d357b2d0",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T16:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-70a577a9bd1c",
+      "title": "国机重装 ( 601399 ): 国机重型装备集团股份有限公司2026年度向特定对象发行A股股票预案 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261021002049.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-10-21T14:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7e1c5ddada8e",
+      "title": "强劲季报提振AI交易 ， 美股开盘走高 ， SpaceX涨约8 %， 英伟达涨约2 %， 油价再度走高",
+      "url": "https://www.163.com/dy/article/L9PCU3DS05198NMR.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T14:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -602,14 +628,14 @@
       "change_condition": null
     },
     {
-      "id": "news-319c6b1dd12e",
-      "title": "AI技术繁荣 ， 也要算一算资金成本",
-      "url": "https://www.163.com/dy/article/L9P71GVH05199DKK.html",
+      "id": "news-e6a1ce0f50c3",
+      "title": "英伟达成三星电机封装基板核心客户 ， 供应量年均增长将超10 %",
+      "url": "https://www.163.com/dy/article/L9PQNNGT0550WHYR.html",
       "source": "163.com",
       "source_type": "news",
-      "published_at": "2026-10-21T07:00:00Z",
+      "published_at": "2026-10-21T12:45:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -619,14 +645,14 @@
       "change_condition": null
     },
     {
-      "id": "news-bd4b81b4d5b8",
-      "title": "오스템임플란트 부채비율 낮춘다 … 1200억 원 영구채 발행",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026102115012636875",
-      "source": "busan.com",
+      "id": "news-39738bf995d0",
+      "title": "62세냐 , 70세냐 … 소셜연금 , 부부가 정해야 하는 이유",
+      "url": "http://www.koreatimes.com/article/20261020/1634611",
+      "source": "koreatimes.com",
       "source_type": "news",
-      "published_at": "2026-10-21T07:00:00Z",
+      "published_at": "2026-10-21T12:00:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -636,82 +662,14 @@
       "change_condition": null
     },
     {
-      "id": "news-07a2ded089d5",
-      "title": "Index - Külföld - Nullaösszegű játék : így írták le a nyugati cégek az orosz piacot",
-      "url": "https://index.hu/kulfold/2026/10/21/oroszorszag-nyugat-gazdasag-uzlet-putyin-trump/",
-      "source": "index.hu",
-      "source_type": "news",
-      "published_at": "2026-10-21T06:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ffa7de7d5254",
-      "title": "Gold : Iran - Hoffnungen verpuffen",
-      "url": "https://www.boerse-express.com/news/articles/gold-iran-hoffnungen-verpuffen-954953",
-      "source": "boerse-express.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T06:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fb1c3f35adf3",
-      "title": "Beursagenda : macro - economisch",
-      "url": "https://www.belegger.nl/Nieuws/882064/Beursagenda-macro-economisch.aspx",
-      "source": "belegger.nl",
-      "source_type": "news",
-      "published_at": "2026-10-21T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-02189c6408f6",
-      "title": "Europese beurzen openen hoger",
-      "url": "https://www.belegger.nl/Nieuws/882065/Europese-beurzen-openen-hoger.aspx",
-      "source": "belegger.nl",
-      "source_type": "news",
-      "published_at": "2026-10-21T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bdbd7620df53",
-      "title": "A股四季度怎么走 ？ 博时基金四季度策略会内容曝光 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610213902492762.html",
+      "id": "news-3f889e4135ab",
+      "title": "海外研选日报1021 | 花旗称市场低估月底地缘风险 德银上调亚马逊资本开支预测 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610213902671660.html",
       "source": "finance.eastmoney.com",
       "source_type": "news",
-      "published_at": "2026-10-21T06:00:00Z",
+      "published_at": "2026-10-21T12:00:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -721,14 +679,14 @@
       "change_condition": null
     },
     {
-      "id": "news-acbec8a43133",
-      "title": "Gold may trade up to USD 5 , 000 / oz over next two years as central banks sustain demand : Report",
-      "url": "http://www.israelherald.com/news/279388842/gold-may-trade-up-to-usd-5000oz-over-next-two-years-as-central-banks-sustain-demand-report",
-      "source": "israelherald.com",
+      "id": "news-a1a491222332",
+      "title": "取消吃饭  的日本年轻人 ， 正替日本扛下GDP排名下滑的代价",
+      "url": "https://baijiahao.baidu.com/s?id=1879458142249589394",
+      "source": "baijiahao.baidu.com",
       "source_type": "news",
-      "published_at": "2026-10-21T06:00:00Z",
+      "published_at": "2026-10-21T11:00:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -738,14 +696,14 @@
       "change_condition": null
     },
     {
-      "id": "news-a113a7319d49",
-      "title": "Gold Silver Price Today : विदेश में सस्ता सोना - चांदी , क्या त्योहारों की डिमांड घरेलू कीमतों को करेगी सपोर्ट",
-      "url": "https://hindi.moneycontrol.com/news/your-money/gold-price-silver-price-today-21-october-2026-comex-gold-comex-silver-18k-22k-24k-price-2449246.html",
-      "source": "hindi.moneycontrol.com",
+      "id": "news-25210e9333b7",
+      "title": "삼성바이오 , 3분기 매출 18 . 5 % ↑ 파죽지세 … 가이던스 20 % 로 상향",
+      "url": "https://www.etnews.com/20261021000403",
+      "source": "etnews.com",
       "source_type": "news",
-      "published_at": "2026-10-21T06:00:00Z",
+      "published_at": "2026-10-21T10:45:00Z",
       "categories": [
-        "rates"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -755,14 +713,48 @@
       "change_condition": null
     },
     {
-      "id": "news-f42d7f056a4c",
-      "title": "요즘 누가 의대가려고 여길 그만둬 … 과기원 중도탈락 , 6년 만 최저",
-      "url": "https://www.munhwa.com:443/article/11624940",
-      "source": "munhwa.com",
+      "id": "news-a91493da51a7",
+      "title": "BI kembali naikkan insentif biaya  hedging  untuk instrumen DNDF",
+      "url": "https://www.antaranews.com/berita/5801989/bi-kembali-naikkan-insentif-biaya-hedging-untuk-instrumen-dndf",
+      "source": "antaranews.com",
       "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
+      "published_at": "2026-10-21T09:45:00Z",
       "categories": [
-        "semis"
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b2541e3b5c14",
+      "title": "역대급 수출  에 환율 1325원으로 하락 … 4거래일 연속 연저점",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=04670726645615216&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T09:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4a713972375e",
+      "title": "매수 사이드카 울린 코스피 , 5700선 탈환 … 엘리스도 상한가 반전 - 경제ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026102115010002889",
+      "source": "hankookilbo.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T08:45:00Z",
+      "categories": [
+        "fx"
       ],
       "importance": 3,
       "facts": null,
