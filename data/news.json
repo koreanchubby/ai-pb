@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T01:39:26Z",
+  "generated_at": "2026-10-21T07:44:17Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -182,6 +182,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-d0bb5ba40f19",
+      "title": "野  레버리지 ETF , 김용범 특검 세울 것 … 이찬진  송구  [ 국감 ]",
+      "url": "https://www.etoday.co.kr/news/view/2637331",
+      "source": "etoday.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-21T06:30:00Z",
+      "categories": [
+        "rates",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-649ba4fb85f9",
@@ -364,17 +382,16 @@
       "change_condition": null
     },
     {
-      "id": "news-e6510a3abe67",
-      "title": "선제적 긴축에 환율 · 국채금리 선방 … 한은 , 매파적 동결 전망",
-      "url": "https://www.kmib.co.kr/article/view.asp?arcid=9000023425&code=61141111&sid1=eco",
-      "source": "kmib.co.kr",
+      "id": "news-319c6b1dd12e",
+      "title": "AI技术繁荣 ， 也要算一算资金成本",
+      "url": "https://www.163.com/dy/article/L9P71GVH05199DKK.html",
+      "source": "163.com",
       "source_type": "news",
-      "published_at": "2026-10-18T06:45:00Z",
+      "published_at": "2026-10-21T07:00:00Z",
       "categories": [
-        "rates",
-        "fx"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -382,17 +399,16 @@
       "change_condition": null
     },
     {
-      "id": "news-5c01e96b709b",
-      "title": "반도체 수출 호조에 원화 강세⋯원 · 달러 환율 2년 1개월 만에 최저",
-      "url": "http://inews24.com/view/2016169",
-      "source": "inews24.com",
+      "id": "news-bd4b81b4d5b8",
+      "title": "오스템임플란트 부채비율 낮춘다 … 1200억 원 영구채 발행",
+      "url": "https://www.busan.com/view/busan/view.php?code=2026102115012636875",
+      "source": "busan.com",
       "source_type": "news",
-      "published_at": "2026-10-18T06:45:00Z",
+      "published_at": "2026-10-21T07:00:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -400,17 +416,118 @@
       "change_condition": null
     },
     {
-      "id": "news-5f04fffd91a2",
-      "title": "반도체 수출이 끌어내린 원화값원 · 엔 환율도 19년 만에 최저",
-      "url": "https://newsway.co.kr/news/view?ud=2026101814210952520",
-      "source": "newsway.co.kr",
+      "id": "news-07a2ded089d5",
+      "title": "Index - Külföld - Nullaösszegű játék : így írták le a nyugati cégek az orosz piacot",
+      "url": "https://index.hu/kulfold/2026/10/21/oroszorszag-nyugat-gazdasag-uzlet-putyin-trump/",
+      "source": "index.hu",
       "source_type": "news",
-      "published_at": "2026-10-18T06:30:00Z",
+      "published_at": "2026-10-21T06:30:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ffa7de7d5254",
+      "title": "Gold : Iran - Hoffnungen verpuffen",
+      "url": "https://www.boerse-express.com/news/articles/gold-iran-hoffnungen-verpuffen-954953",
+      "source": "boerse-express.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fb1c3f35adf3",
+      "title": "Beursagenda : macro - economisch",
+      "url": "https://www.belegger.nl/Nieuws/882064/Beursagenda-macro-economisch.aspx",
+      "source": "belegger.nl",
+      "source_type": "news",
+      "published_at": "2026-10-21T06:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-02189c6408f6",
+      "title": "Europese beurzen openen hoger",
+      "url": "https://www.belegger.nl/Nieuws/882065/Europese-beurzen-openen-hoger.aspx",
+      "source": "belegger.nl",
+      "source_type": "news",
+      "published_at": "2026-10-21T06:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bdbd7620df53",
+      "title": "A股四季度怎么走 ？ 博时基金四季度策略会内容曝光 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610213902492762.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T06:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-acbec8a43133",
+      "title": "Gold may trade up to USD 5 , 000 / oz over next two years as central banks sustain demand : Report",
+      "url": "http://www.israelherald.com/news/279388842/gold-may-trade-up-to-usd-5000oz-over-next-two-years-as-central-banks-sustain-demand-report",
+      "source": "israelherald.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T06:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a113a7319d49",
+      "title": "Gold Silver Price Today : विदेश में सस्ता सोना - चांदी , क्या त्योहारों की डिमांड घरेलू कीमतों को करेगी सपोर्ट",
+      "url": "https://hindi.moneycontrol.com/news/your-money/gold-price-silver-price-today-21-october-2026-comex-gold-comex-silver-18k-22k-24k-price-2449246.html",
+      "source": "hindi.moneycontrol.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T06:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -643,125 +760,6 @@
       "title": "Growing Up Filipino in San Francisco South of Market Positively Filipino | Online Magazine for Filipinos in the Diaspora",
       "url": "https://www.positivelyfilipino.com/magazine/growing-up-filipino-in-san-franciscos-south-of-market",
       "source": "positivelyfilipino.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-082f3f72320c",
-      "title": "蔣萬安避答若連任做好 「 做滿 」 遭洗臉 學者揭最大敗筆 ： 心 「 浮動 」 了 - 政治",
-      "url": "https://news.ltn.com.tw/news/politics/breakingnews/5613066",
-      "source": "news.ltn.com.tw",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e116febd6d7a",
-      "title": "The Latest : Trump campaigns in North Carolina as part of final GOP push before midterms",
-      "url": "https://www.idahostatejournal.com/news/national/the-latest-trump-campaigns-in-north-carolina-as-part-of-final-gop-push-before-midterms/article_db14958a-53f1-59b9-81fe-f52cc8f79fe8.html",
-      "source": "idahostatejournal.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-95c07218bf65",
-      "title": "East West Bancorp ( EWBC ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/20/east-west-bancorp-ewbc-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3fafc01738f5",
-      "title": "Wisconsin 7th Congressional District 2026 : Clark vs . Alfonso |",
-      "url": "https://www.hudsonstarobserver.com/star-observer-election-guide-clark-vs-alfonso-compete-in-7th-congressional-district/article_fdebc223-e0e6-4af4-94da-6073fbe4d20f.html",
-      "source": "hudsonstarobserver.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-345936782be2",
-      "title": "Bugarska odbila učestvovati u novoj pomoći EU za Ukrajinu",
-      "url": "http://www.avaz.ba/vijesti/globus/1081744/bugarska-odbila-ucestvovati-u-novoj-pomoci-eu-za-ukrajinu",
-      "source": "avaz.ba",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ee07285b4b0b",
-      "title": "New Jersey food importer files lawsuit challenging Trump 50 % tariffs on Canadian goods",
-      "url": "https://www.greeleytribune.com/2026/10/20/canada-tariffs-legality/",
-      "source": "greeleytribune.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fe0a10ab9c8d",
-      "title": "GAP ( PAC ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.aol.com/articles/gap-pac-q3-2026-earnings-003148000.html",
-      "source": "aol.com",
       "source_type": "news",
       "published_at": "2026-10-21T01:15:00Z",
       "categories": [
