@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T07:44:17Z",
+  "generated_at": "2026-10-21T13:52:28Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -364,17 +364,237 @@
       "change_condition": null
     },
     {
-      "id": "news-ec32c79caed5",
-      "title": "금리 고민 커진 한은 … 10월 동결 , 11월 인상  힘실린다",
-      "url": "https://www.fnnews.com/news/202610181834184677",
-      "source": "fnnews.com",
+      "id": "news-43f96d0e5fad",
+      "title": "Unitree reveals its H2 - X bodyguard robot a  Kung Fu  humanoid with an 8 - hour battery life and some serious martial arts skills",
+      "url": "https://www.techradar.com/ai-platforms-assistants/unitree-reveals-its-h2-x-bodyguard-robot-a-kung-fu-humanoid-with-an-8-hour-battery-life-and-some-serious-martial-arts-skills",
+      "source": "techradar.com",
       "source_type": "news",
-      "published_at": "2026-10-18T12:45:00Z",
+      "published_at": "2026-10-21T13:30:00Z",
       "categories": [
-        "fx",
-        "rates"
+        "semis"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ce1c8748586e",
+      "title": "Nvidia CEO Huang pitches Europe to adopt AI in all industries",
+      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/nvidia-ceo-huang-pitches-europe-adopt-ai-all-industries",
+      "source": "businesstimes.com.sg",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f3bc11d003da",
+      "title": "Apple iPhone Duo review : this is the foldable Apple fans have been waiting for",
+      "url": "https://www.techradar.com/phones/iphone/apple-iphone-duo-review",
+      "source": "techradar.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dd7dbf7a1fb8",
+      "title": "阿斯麦三季报 ， 如何回应全球芯片期待",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-10-21/doc-inivyxhf5399252.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ed92982f36ab",
+      "title": "韩国芯片出口额飙升222 . 5 % 半导体成经济增长引擎 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20261021/49808452.html",
+      "source": "news.china.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fdd5c13e9586",
+      "title": "Broadcom ( NASDAQ : AVGO ) Stock Jumps 1 . 8 % – Here What Happened",
+      "url": "https://www.dailypolitical.com/2026/10/21/broadcom-nasdaqavgo-stock-jumps-1-8-heres-what-happened.html",
+      "source": "dailypolitical.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a2b89354d78b",
+      "title": "Five things to know about Chinese AI startup DeepSeek | The Peninsula Qatar",
+      "url": "http://thepeninsulaqatar.com/article/21/10/2026/five-things-to-know-about-chinese-ai-startup-deepseek",
+      "source": "thepeninsulaqatar.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e772922e7dda",
+      "title": "輝達攜手矽品擴CPO光學引擎產能 明年中前大增至目前的15倍",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5614211",
+      "source": "ec.ltn.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2e2b0a7bca2d",
+      "title": "삼성전기 , 엔비디아 전용 반도체 기판 라인 만든다",
+      "url": "https://biz.heraldcorp.com/article/10910533",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b376dd4c26ae",
+      "title": "PFN and Tenstorrent Selected for NEDO Project on",
+      "url": "http://www.irishsun.com/news/279389761/pfn-and-tenstorrent-selected-for-nedo-project-on-xpu-design-and-development-incorporating-photonics-electronics-integration-technology",
+      "source": "irishsun.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c319741c0962",
+      "title": "Bitmine Tom Lee Warns of a Potential Sell - Off in Ethereum . Here the Most Likely Scenario for ETH .",
+      "url": "https://www.aol.com/articles/bitmines-tom-lee-warns-potential-122800000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7445f07f04aa",
+      "title": "5 things to know about Chinese AI startup DeepSeek",
+      "url": "https://www.vanguardngr.com/2026/10/5-things-to-know-about-chinese-ai-startup-deepseek/",
+      "source": "vanguardngr.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-469e349347dc",
+      "title": "从14天部署到智能体全面落地 ！ 英伟达 ( NVDA . US ) 柏林GTC打通AI变现链条 ， 能否点燃新一轮科技牛市 ？",
+      "url": "https://stock.jrj.com.cn/2026/10/21203958813561.shtml",
+      "source": "stock.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c7213da4f00d",
+      "title": "Micron and Nvidia Are the 2 Biggest Drivers of S & P 500 Earnings Growth . Are Their Stocks Buys ?",
+      "url": "https://www.fool.com/investing/2026/10/21/micron-and-nvidia-are-the-2-biggest-drivers-of-s-and-p-500-earnings-growth-are-their-stocks-buys/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -543,227 +763,6 @@
       "published_at": "2026-10-21T01:15:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cb899621a7f0",
-      "title": "AI 수요 아직 탄탄 … 슈퍼마이크로 깜짝 전망에 AI주 들썩",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02774886645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-abcd2530ccfa",
-      "title": "中西部首个万亿外贸城市 ， 要来了",
-      "url": "https://news.pedaily.cn/202610/570570.shtml",
-      "source": "news.pedaily.cn",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3ac5830e34c3",
-      "title": "앤스로픽 , 매출 15배 뛰었지만 … AI 인프라 비용  1000조원  육박",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02814246645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1ebf77af8e6f",
-      "title": "Can Micron Stock Keep Climbing After a 10 - Fold Run ? Here What Its Past Booms Say .",
-      "url": "https://www.aol.com/articles/micron-stock-keep-climbing-10-235702000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-adb5cf2e5c37",
-      "title": "Super Micro sees quarterly revenue soaring on AI server boom",
-      "url": "https://www.ksl.com:443/article/51638848/super-micro-expects-first-quarter-revenue-above-estimates",
-      "source": "ksl.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3d3d371216ab",
-      "title": "三星 8 纳米工艺  再活一届 ： 性能提升 12 %、 功耗降低 15 %、 芯片面积缩小 8 %_ 新浪科技 _ 新浪网",
-      "url": "https://finance.sina.com.cn/tech/digi/2026-10-21/doc-inivxvuy4698977.shtml",
-      "source": "finance.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e13fe06c3d50",
-      "title": "D램 22 % 마이크론이 멈춘다 … 삼전닉스 웃을까 , 개미들 주목",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02751926645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a7f47308a021",
-      "title": "삼전닉스 어제 급락했는데 … 월가 AI주도 주춤 [ 뉴스새벽배송 ]",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02630566645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1743ab367bd8",
-      "title": "의자 뺏기 이제 시작 … 삼전닉스 성과급에 20만 명 상급지 이동할 것",
-      "url": "https://www.munhwa.com:443/article/11624930",
-      "source": "munhwa.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-64a89680a426",
-      "title": "마이크론 대만 노조 22일 파업 … 삼전닉스처럼 성과급 달라",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02909366645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8681ecde274c",
-      "title": "삼성 · 하이닉스  돈벼락  에 강남까지 들썩 ?… 20만명 움직이나",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02817526645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-08a905d2b852",
-      "title": "[ 속보 ] 삼전하닉 2~3 % 대 반등 … 개인  사자  속 코스피 5600선 회복",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02778166645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ef1ad4f30655",
-      "title": "Growing Up Filipino in San Francisco South of Market Positively Filipino | Online Magazine for Filipinos in the Diaspora",
-      "url": "https://www.positivelyfilipino.com/magazine/growing-up-filipino-in-san-franciscos-south-of-market",
-      "source": "positivelyfilipino.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
