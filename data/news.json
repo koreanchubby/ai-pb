@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T18:42:21Z",
+  "generated_at": "2026-10-21T22:24:36Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -65,6 +64,32 @@
       "change_condition": null
     },
     {
+      "id": "market-b8e6c605980f",
+      "title": "미국 10년물 국채금리 5.13% (직전 대비 +0.01%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-10-21T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.13,
+        "previous": 5.12,
+        "change": 0.01,
+        "unit": "%",
+        "date": "2026-10-21",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
+    },
+    {
       "id": "market-dc5dc650d2da",
       "title": "원/달러 환율(매매기준율) 1328원 (직전 대비 -4.1원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
@@ -87,32 +112,6 @@
         "unit": "원",
         "date": "20261021",
         "alert_threshold": 15.0
-      }
-    },
-    {
-      "id": "market-4d6c57fb7d66",
-      "title": "미국 10년물 국채금리 5.12% (직전 대비 -0.03%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-10-20T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.12,
-        "previous": 5.15,
-        "change": -0.03,
-        "unit": "%",
-        "date": "2026-10-20",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
       }
     },
     {
@@ -339,6 +338,261 @@
       "change_condition": null
     },
     {
+      "id": "news-06efc9dbf5c8",
+      "title": "Year - old AI lab Flapping Airplanes raises $1B at a $6B valuation",
+      "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
+      "source": "techcrunch.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fa3d385292f1",
+      "title": "Recursive launches Flint , a laptop coding model it says was largely built by AI",
+      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
+      "source": "techcrunch.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5ac9aa199f11",
+      "title": "Dell Technologies ( NYSE : DELL ) Shares Up 5 . 4 % – What Next ?",
+      "url": "https://www.tickerreport.com/banking-finance/13629374/dell-technologies-nysedell-shares-up-5-4-whats-next.html",
+      "source": "tickerreport.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-31c3e913400d",
+      "title": "Update on Intel plant in Ohio 5 years behind schedule .",
+      "url": "https://www.investmentwatchblog.com/update-on-intel-plant-in-ohio-5-years-behind-schedule/",
+      "source": "investmentwatchblog.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-86d2795dc8eb",
+      "title": "FinancialContent - Fulton Financial ( NASDAQ : FULT ) Q3 2026 sales beat estimates",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-fulton-financials-nasdaqfult-q3-2026-sales-beat-estimates",
+      "source": "markets.financialcontent.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a55ffa556f5c",
+      "title": "SK hynix ( NASDAQ : SKHY ) Shares Up 2 . 5 % – Here Why",
+      "url": "https://www.tickerreport.com/banking-finance/13629370/sk-hynix-nasdaqskhy-shares-up-2-5-heres-why.html",
+      "source": "tickerreport.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6347beb8e994",
+      "title": "CoreWeave market confidence erodes as bond yields spike , stock sinks",
+      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
+      "source": "cnbc.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3fa233b12ecd",
+      "title": "A SpaceX - Tesla megamerger could benefit both companies and Elon Musk personal fortune",
+      "url": "https://www.news4jax.com/business/2026/10/21/a-spacex-tesla-megamerger-could-benefit-both-companies-and-elon-musks-personal-fortune/",
+      "source": "news4jax.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d0976c59790c",
+      "title": "AI lab Flapping Airplanes is now worth $6B , four times its January value",
+      "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation",
+      "source": "thenextweb.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e4a749e1eabc",
+      "title": "NVIDIA ( NASDAQ : NVDA ) Shares Climb 2 . 5 % – Should You Buy ?",
+      "url": "https://www.tickerreport.com/banking-finance/13629369/nvidia-nasdaqnvda-shares-climb-2-5-should-you-buy.html",
+      "source": "tickerreport.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2e8245935d80",
+      "title": "FinancialContent - Pathward Financial ( NASDAQ : CASH ) posts better - than - expected sales in Q3 CY2026",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-pathward-financial-nasdaqcash-posts-better-than-expected-sales-in-q3-cy2026",
+      "source": "markets.financialcontent.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c63254eb58b2",
+      "title": "Advanced Micro Devices ( NASDAQ : AMD ) Shares Up 3 . 4 % Following Analyst Upgrade",
+      "url": "https://www.dailypolitical.com/2026/10/21/advanced-micro-devices-nasdaqamd-shares-up-3-4-following-analyst-upgrade.html",
+      "source": "dailypolitical.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f5dde6dd3080",
+      "title": "[ GAM ]  M7 수익률 1위  애플 ② 10년 만의 최고 몸값 , 메모리  대홍수  에 흔들린다",
+      "url": "https://www.newspim.com/news/view/20261022000006",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-87a870f7921e",
+      "title": "Era4 ties financial sovereignty to Britain AI infrastructure",
+      "url": "https://siliconangle.com/2026/10/21/era4-ties-financial-sovereignty-britains-ai-infrastructure-hpesovereignai/",
+      "source": "siliconangle.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7895f9610f8d",
+      "title": "FinancialContent - CSX ( NASDAQ : CSX ) surprises with Q3 2026 sales",
+      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-csx-nasdaqcsx-surprises-with-q3-2026-sales",
+      "source": "markets.financialcontent.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T21:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-fd8e83b685cc",
       "title": "Les actions progressent grâce à des résultats encourageants ; le rendement des obligations françaises à 10 ans franchit la barre des 5 % - 21 / 10 / 2026 à 18 : 02",
       "url": "https://www.boursorama.com/bourse/actualites/les-actions-progressent-grace-a-des-resultats-encourageants-le-rendement-des-obligations-francaises-a-10-ans-franchit-la-barre-des-5-99689f038c6a959c482e1f34d357b2d0",
@@ -500,261 +754,6 @@
       "published_at": "2026-10-21T13:30:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e772922e7dda",
-      "title": "輝達攜手矽品擴CPO光學引擎產能 明年中前大增至目前的15倍",
-      "url": "https://ec.ltn.com.tw/article/breakingnews/5614211",
-      "source": "ec.ltn.com.tw",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2e2b0a7bca2d",
-      "title": "삼성전기 , 엔비디아 전용 반도체 기판 라인 만든다",
-      "url": "https://biz.heraldcorp.com/article/10910533",
-      "source": "biz.heraldcorp.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b376dd4c26ae",
-      "title": "PFN and Tenstorrent Selected for NEDO Project on",
-      "url": "http://www.irishsun.com/news/279389761/pfn-and-tenstorrent-selected-for-nedo-project-on-xpu-design-and-development-incorporating-photonics-electronics-integration-technology",
-      "source": "irishsun.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c319741c0962",
-      "title": "Bitmine Tom Lee Warns of a Potential Sell - Off in Ethereum . Here the Most Likely Scenario for ETH .",
-      "url": "https://www.aol.com/articles/bitmines-tom-lee-warns-potential-122800000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7445f07f04aa",
-      "title": "5 things to know about Chinese AI startup DeepSeek",
-      "url": "https://www.vanguardngr.com/2026/10/5-things-to-know-about-chinese-ai-startup-deepseek/",
-      "source": "vanguardngr.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-469e349347dc",
-      "title": "从14天部署到智能体全面落地 ！ 英伟达 ( NVDA . US ) 柏林GTC打通AI变现链条 ， 能否点燃新一轮科技牛市 ？",
-      "url": "https://stock.jrj.com.cn/2026/10/21203958813561.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c7213da4f00d",
-      "title": "Micron and Nvidia Are the 2 Biggest Drivers of S & P 500 Earnings Growth . Are Their Stocks Buys ?",
-      "url": "https://www.fool.com/investing/2026/10/21/micron-and-nvidia-are-the-2-biggest-drivers-of-s-and-p-500-earnings-growth-are-their-stocks-buys/",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e6a1ce0f50c3",
-      "title": "英伟达成三星电机封装基板核心客户 ， 供应量年均增长将超10 %",
-      "url": "https://www.163.com/dy/article/L9PQNNGT0550WHYR.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T12:45:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-39738bf995d0",
-      "title": "62세냐 , 70세냐 … 소셜연금 , 부부가 정해야 하는 이유",
-      "url": "http://www.koreatimes.com/article/20261020/1634611",
-      "source": "koreatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T12:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3f889e4135ab",
-      "title": "海外研选日报1021 | 花旗称市场低估月底地缘风险 德银上调亚马逊资本开支预测 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610213902671660.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T12:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a1a491222332",
-      "title": "取消吃饭  的日本年轻人 ， 正替日本扛下GDP排名下滑的代价",
-      "url": "https://baijiahao.baidu.com/s?id=1879458142249589394",
-      "source": "baijiahao.baidu.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T11:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-25210e9333b7",
-      "title": "삼성바이오 , 3분기 매출 18 . 5 % ↑ 파죽지세 … 가이던스 20 % 로 상향",
-      "url": "https://www.etnews.com/20261021000403",
-      "source": "etnews.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T10:45:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a91493da51a7",
-      "title": "BI kembali naikkan insentif biaya  hedging  untuk instrumen DNDF",
-      "url": "https://www.antaranews.com/berita/5801989/bi-kembali-naikkan-insentif-biaya-hedging-untuk-instrumen-dndf",
-      "source": "antaranews.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T09:45:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b2541e3b5c14",
-      "title": "역대급 수출  에 환율 1325원으로 하락 … 4거래일 연속 연저점",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=04670726645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-21T09:30:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4a713972375e",
-      "title": "매수 사이드카 울린 코스피 , 5700선 탈환 … 엘리스도 상한가 반전 - 경제ㅣ한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026102115010002889",
-      "source": "hankookilbo.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T08:45:00Z",
-      "categories": [
-        "fx"
       ],
       "importance": 3,
       "facts": null,
