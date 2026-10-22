@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T13:51:04Z",
+  "generated_at": "2026-10-22T18:35:21Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,13 +26,13 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
     },
     {
       "source": "한국투자증권",
@@ -165,6 +165,42 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-badca9162568",
+      "title": "AI stocks weigh on markets Thursday as oil rises to highest price since May - National",
+      "url": "https://globalnews.ca/news/12113517/stock-markets-oil-ai/",
+      "source": "globalnews.ca",
+      "source_type": "news",
+      "published_at": "2026-10-22T18:15:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a8a7771080f0",
+      "title": "Sinking AI stocks undercut markets worldwide as oil climbs to its highest price since May",
+      "url": "http://www.goskagit.com/news/nation/sinking-ai-stocks-undercut-markets-worldwide-as-oil-climbs-to-its-highest-price-since-may/article_133c676f-b039-5015-93fa-f0599624a819.html",
+      "source": "goskagit.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T17:45:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-8a07af775d09",
@@ -365,17 +401,203 @@
       "change_condition": null
     },
     {
-      "id": "news-7a823fcdaa5c",
-      "title": "Gold and silver prices pressured by hot inflation , but gold ETF holdings buck trend to hit 2026 highs – Heraeus",
-      "url": "http://www.kitco.com/news/article/2026-10-19/gold-and-silver-prices-pressured-hot-inflation-gold-etf-holdings-buck-trend",
-      "source": "kitco.com",
+      "id": "news-798add88c653",
+      "title": "Graham Republican runoff opponent gives little support for incumbent campaign",
+      "url": "https://fox23.com/news/nation-world/grahams-republican-runoff-opponent-gives-little-support-for-incumbents-campaign-rrt",
+      "source": "fox23.com",
       "source_type": "news",
-      "published_at": "2026-10-19T17:45:00Z",
+      "published_at": "2026-10-22T18:15:00Z",
       "categories": [
-        "rates",
-        "etf"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1893ac175044",
+      "title": "Šéf ÚOHS sám rozhoduje o miliardách . Vláda o jeho výběru ale zatím mlčí",
+      "url": "https://www.denik.cz/ekonomika/novy-sef-uohs-vlada-vyber/",
+      "source": "denik.cz",
+      "source_type": "news",
+      "published_at": "2026-10-22T18:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-047d876b56bd",
+      "title": "Трамп послабив санкційний тиск на росію : що стоїть за дизельною угодою з путіним",
+      "url": "https://podrobnosti.ua/2521605-tramp-poslabiv-sanktsjnij-tisk-na-rosju-scho-stot-za-dizelnoju-ugodoju-z-putnim.html",
+      "source": "podrobnosti.ua",
+      "source_type": "news",
+      "published_at": "2026-10-22T18:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1fa4a035e483",
+      "title": "Кабмін змінив правила митного контролю та підтримки бізнесу",
+      "url": "https://lb.ua/economics/2026/10/22/775410_uryad_uhvaliv_novi_pravila.html",
+      "source": "lb.ua",
+      "source_type": "news",
+      "published_at": "2026-10-22T18:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-74af8fb086f6",
+      "title": "Egoístas , acampadas e encochadas constitucionais",
+      "url": "https://observador.pt/programas/vichyssoise/egoistas-acampadas-e-encochadas-constitucionais/",
+      "source": "observador.pt",
+      "source_type": "news",
+      "published_at": "2026-10-22T18:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aec05ffdf9aa",
+      "title": "Kanada Başbakanı Carney Ankarada ... Cumhurbaşkanı Erdoğan : İlişkilerimizi stratejik ortaklığa yükseltiyoruz",
+      "url": "https://www.bursahakimiyet.com.tr/gundem/kanada-basbakani-carney-ankara-da-cumhurbaskani-erdogan-iliskilerimizi-stratejik-ortakliga-yukseltiyoruz-1735193",
+      "source": "bursahakimiyet.com.tr",
+      "source_type": "news",
+      "published_at": "2026-10-22T18:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2c49d1e8d64c",
+      "title": "LO Performance , AI Governance , ARM , Non - QM Execution , U / W Tools ; In - Person Events Into 2027",
+      "url": "https://www.mortgagenewsdaily.com:443/opinion/pipelinepress-10222026",
+      "source": "mortgagenewsdaily.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T18:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-eec95449ca56",
+      "title": "Kuehne+Nagel Lifts 2026 Outlook After A Robust Third Quarter",
+      "url": "https://www.esmmagazine.com/supply-chain/kuehnenagel-lifts-2026-outlook-after-a-robust-third-quarter-324299",
+      "source": "esmmagazine.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T17:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f21bb8e52c51",
+      "title": "Депутаты и Правительство Абхазии не пришли к единому мнению по расширению списка льготников",
+      "url": "https://apsnypress.info/ru/item/22308-deputaty-i-pravitelstvo-abkhazii-ne-prishli-k-edinomu-mneniyu-po-rasshireniyu-spiska-lgotnikov",
+      "source": "apsnypress.info",
+      "source_type": "news",
+      "published_at": "2026-10-22T17:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-90e86c0dee52",
+      "title": "На рынке « Джунхай » произошел пожар » Gazeta . kg новости Кыргызстана и Бишкека сегодня",
+      "url": "https://gazeta.kg/incidents/229169-na-rynke-dzhunhaj-proizoshel-pozhar.html",
+      "source": "gazeta.kg",
+      "source_type": "news",
+      "published_at": "2026-10-22T17:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ab7dd9b90e02",
+      "title": "Toyama kiến tạo bản sắc văn hóa  Thành phố thủy tinh  để phát triển du lịch",
+      "url": "https://dulich.thethaovanhoa.vn/toyama-kien-tao-ban-sac-van-hoa-thanh-pho-thuy-tinh-de-phat-trien-du-lich-20261022141624704.htm",
+      "source": "dulich.thethaovanhoa.vn",
+      "source_type": "news",
+      "published_at": "2026-10-22T17:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4818b838c133",
+      "title": "Pakistan  wrong country  to turn US pressure on Iran : Report",
+      "url": "https://ianslive.in/pakistan-wrong-country-to-turn-us-pressure-on-iran-report--20261022161055",
+      "source": "ianslive.in",
+      "source_type": "news",
+      "published_at": "2026-10-22T17:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -542,227 +764,6 @@
       "source": "chinatimes.com",
       "source_type": "news",
       "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9100f5340a41",
-      "title": "MORNING BRIEFING - Deutschland / Europa",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69902633-morning-briefing-deutschland-europa-015.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-999b894b2c64",
-      "title": "Doların Değerinde Dalgalanma Yaşanıyor",
-      "url": "https://www.haberaktuel.com/dolarin-degerinde-dalgalanma-yasaniyor-3513045",
-      "source": "haberaktuel.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a7387cb19d01",
-      "title": "高晓峰 : 10 . 22黄金急跌之后 ， 高空低吸怎么布局 _ 中金在线财经号",
-      "url": "http://mp.cnfol.com/58985/article/1792649585-142770134",
-      "source": "mp.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bbacef5b4cc2",
-      "title": "美元霸權正在走下坡 ， 台灣該如何因應 ？ 美國經濟學大師揭台灣央行應對的 「 3大解方 」 | 劉煥彥 | 新聞",
-      "url": "https://www.storm.mg/article/11174634",
-      "source": "storm.mg",
-      "source_type": "news",
-      "published_at": "2026-10-22T01:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6bd845dd2e34",
-      "title": "史上最大泡沫  即将破裂 ？ 知名经济学家卖掉自住房 ： 美股恐暴跌90 %， 黄金或崩70 %_ 金市直播 _ 黄金网 _ 中金在线",
-      "url": "http://gold.cnfol.com/jinshizhibo/20261022/32404638.shtml",
-      "source": "gold.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T01:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-29d36ae72f83",
-      "title": "LH , 745억 유로화 채권 발행 … 15년 만기 장기자금 확보",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02942166645615544&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-22T00:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-04a74b0ddadf",
-      "title": "Bank of Korea expected to hold rates today after two hikes , tightening cycle seen intact",
-      "url": "https://investinglive.com/central-banks/bank-of-korea-expected-to-hold-rates-today-after-two-hikes-tightening-cycle-seen-intact/",
-      "source": "investinglive.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T00:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d1c771059e4a",
-      "title": "두 번 연속 금리 올린 한은 … 오늘 금통위는 동결 택할 듯",
-      "url": "https://www.fnnews.com/news/202610220601595795",
-      "source": "fnnews.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bb9fbc7b997c",
-      "title": "Cest parti pour la technologie ! - 21 / 10 / 2026 à 23 : 01",
-      "url": "https://www.boursorama.com/bourse/actualites/c-est-parti-pour-la-technologie-c03c13998e6aad24232906750d7117a2",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-71301e1f0522",
-      "title": "뉴욕증시 3대 지수 일제히 상승 마감 … 스페이스X 깜짝 실적에 AI 열기 깨어나",
-      "url": "https://biz.chosun.com/international/international_economy/2026/10/22/FVC3HPJINFG5LK45RUE3SQPGFU/",
-      "source": "biz.chosun.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c77970c06862",
-      "title": "Altın fiyatlarında kritik seviyeler gündemde",
-      "url": "https://www.malatyaguncel.com/altin-fiyatlarinda-kritik-seviyeler-gundemde-3118096h.htm",
-      "source": "malatyaguncel.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-31795592ce4d",
-      "title": "A股盘前速览 ： 美股三大指数集体收涨 ， SpaceX涨超7 %； 油价跳水 ， 黄金涨白银跌 ； 通则康威今日上市 ； 温氏股份前三季度净亏近50亿 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610223903072552.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5cff74b6c6c2",
-      "title": "BlackRock Rieder sees historic opportunity in high - grade bonds , including hyperscalers",
-      "url": "https://investinglive.com/stock-market-update/blackrock-s-rieder-sees-historic-opportunity-in-high-grade-bonds-including-hyperscalers/",
-      "source": "investinglive.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:00:00Z",
       "categories": [
         "rates"
       ],
