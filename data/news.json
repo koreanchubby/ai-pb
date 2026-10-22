@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T01:34:14Z",
+  "generated_at": "2026-10-22T07:40:06Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -42,8 +42,8 @@
     },
     {
       "source": "FRED",
-      "ok": false,
-      "reason": "RuntimeError: FRED 전체 실패 — DCOILWTICO: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
+      "ok": true,
+      "count": 1
     }
   ],
   "items": [
@@ -139,6 +139,50 @@
         "alert_threshold": 0.15,
         "indicator": "us10y"
       }
+    },
+    {
+      "id": "market-87ec22b5e104",
+      "title": "WTI 원유 가격 107.89달러 (직전 대비 -2.12달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-20T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 107.89,
+        "previous": 110.01,
+        "change": -2.12,
+        "unit": "달러",
+        "date": "2026-10-20",
+        "alert_threshold": 3.0,
+        "indicator": "wti"
+      }
+    },
+    {
+      "id": "news-8a07af775d09",
+      "title": "Gold drops over 1 % as oil rally reinforces higher - for - longer rate outlook",
+      "url": "https://www.thehindubusinessline.com/markets/gold/gold-drops-over-1-as-oil-rally-reinforces-higher-for-longer-rate-outlook/article71610042.ece",
+      "source": "thehindubusinessline.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-7ec75314ad3b",
@@ -339,17 +383,220 @@
       "change_condition": null
     },
     {
-      "id": "news-e6181b6cffe3",
-      "title": "Oil tumbles as Trump Russia sanctions waiver may lead to more fuel supplies",
-      "url": "https://dunyanews.tv/en/Business/978465-oil-tumbles-as-trumps-russia-sanctions-waiver-may-lead-to-more-fuel-s",
-      "source": "dunyanews.tv",
+      "id": "news-92ffa7b0054f",
+      "title": "오건영  AI 혁명이 국가부채 해결의 열쇠  [ 2027 테크퀘스트 ]",
+      "url": "https://www.etoday.co.kr/news/view/2639029",
+      "source": "etoday.co.kr",
       "source_type": "news",
-      "published_at": "2026-10-19T04:30:00Z",
+      "published_at": "2026-10-22T07:15:00Z",
       "categories": [
-        "geopolitics",
-        "oil"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d7dfcc42afae",
+      "title": "Bank of Korea holds rates ; upbeat outlook points to future hikes",
+      "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bank-korea-holds-rates-upbeat-outlook-points-future-hikes",
+      "source": "businesstimes.com.sg",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-77660dffe3ce",
+      "title": "Küresel piyasalarda petrol baskısı",
+      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-petrol-baskisi-7684974",
+      "source": "uzmanpara.milliyet.com.tr",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6e59bb6961b1",
+      "title": "Στο περίμενε για το « Σπίτι μου III », στο φουλ τα σταθερά στεγαστικά",
+      "url": "https://sofokleous10.gr/2026/10/22/%CF%83%CF%84%CE%BF-%CF%80%CE%B5%CF%81%CE%AF%CE%BC%CE%B5%CE%BD%CE%B5-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF-%CF%83%CF%80%CE%AF%CF%84%CE%B9-%CE%BC%CE%BF%CF%85-iii-%CF%83%CF%84%CE%BF-%CF%86%CE%BF/",
+      "source": "sofokleous10.gr",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-296d1a1f9577",
+      "title": "韩国央行 ： 芯片热潮持续提振经济 ， 芯片价格有望进一步增长",
+      "url": "https://finance.ifeng.com/c/8xQcrnzmFgs",
+      "source": "finance.ifeng.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-09a161b587ad",
+      "title": "小幅跳水 ， 现货黄金跌破4100美元大关",
+      "url": "https://baijiahao.baidu.com/s?id=1879723044103302404",
+      "source": "baijiahao.baidu.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4c13108a69e8",
+      "title": "BOK pauses rate hikes , but signals more may come",
+      "url": "https://www.koreaherald.com/article/10911589",
+      "source": "koreaherald.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-374489c5f55e",
+      "title": "布鲁金斯学会支招 ： 美联储可以将资产负债表砍到4 . 5万亿",
+      "url": "https://stock.jrj.com.cn/2026/10/22143858820486.shtml",
+      "source": "stock.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-784e29d0b49c",
+      "title": "MORNING BRIEFING - united states / Asien",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69903175-morning-briefing-usa-asien-015.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-29f524f7a48b",
+      "title": "韓央行連2升後喘口氣 ！ 通膨房價壓不住 下次恐重啟升息 - 財經",
+      "url": "https://www.chinatimes.com/realtimenews/20261022002698-260410",
+      "source": "chinatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9100f5340a41",
+      "title": "MORNING BRIEFING - Deutschland / Europa",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69902633-morning-briefing-deutschland-europa-015.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-999b894b2c64",
+      "title": "Doların Değerinde Dalgalanma Yaşanıyor",
+      "url": "https://www.haberaktuel.com/dolarin-degerinde-dalgalanma-yasaniyor-3513045",
+      "source": "haberaktuel.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a7387cb19d01",
+      "title": "高晓峰 : 10 . 22黄金急跌之后 ， 高空低吸怎么布局 _ 中金在线财经号",
+      "url": "http://mp.cnfol.com/58985/article/1792649585-142770134",
+      "source": "mp.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -518,244 +765,6 @@
       "published_at": "2026-10-21T23:00:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-62109f93cf73",
-      "title": "Gold gains as Treasury yields stabilize , Nasdaq surges despite Fed tightening concerns - Kitco PM Report",
-      "url": "http://www.kitco.com/news/article/2026-10-21/gold-gains-treasury-yields-stabilize-nasdaq-surges-despite-fed-tightening",
-      "source": "kitco.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-14256330c472",
-      "title": "Not going to happen : Fox News has bad news for Trump",
-      "url": "https://www.alternet.org/trump-oil-prices-fox/",
-      "source": "alternet.org",
-      "source_type": "news",
-      "published_at": "2026-10-21T23:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0e77afd7b876",
-      "title": "New Zealand Q3 inflation rises 0 . 7 % from previous quarter , lower than forecast",
-      "url": "https://www.933thedrive.com/2026/10/21/new-zealand-q3-inflation-rises-0-7-from-previous-quarter/",
-      "source": "933thedrive.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T22:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3cc7fe82133a",
-      "title": "Accountants feeling more cautious in Q3",
-      "url": "https://www.accountingtoday.com/news/accountants-feeling-more-cautious-in-q3",
-      "source": "accountingtoday.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T22:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06efc9dbf5c8",
-      "title": "Year - old AI lab Flapping Airplanes raises $1B at a $6B valuation",
-      "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
-      "source": "techcrunch.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fa3d385292f1",
-      "title": "Recursive launches Flint , a laptop coding model it says was largely built by AI",
-      "url": "https://techcrunch.com/2026/10/21/recursive-launches-flint-a-laptop-coding-model-it-says-was-largely-built-by-ai/",
-      "source": "techcrunch.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5ac9aa199f11",
-      "title": "Dell Technologies ( NYSE : DELL ) Shares Up 5 . 4 % – What Next ?",
-      "url": "https://www.tickerreport.com/banking-finance/13629374/dell-technologies-nysedell-shares-up-5-4-whats-next.html",
-      "source": "tickerreport.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-31c3e913400d",
-      "title": "Update on Intel plant in Ohio 5 years behind schedule .",
-      "url": "https://www.investmentwatchblog.com/update-on-intel-plant-in-ohio-5-years-behind-schedule/",
-      "source": "investmentwatchblog.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-86d2795dc8eb",
-      "title": "FinancialContent - Fulton Financial ( NASDAQ : FULT ) Q3 2026 sales beat estimates",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-fulton-financials-nasdaqfult-q3-2026-sales-beat-estimates",
-      "source": "markets.financialcontent.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a55ffa556f5c",
-      "title": "SK hynix ( NASDAQ : SKHY ) Shares Up 2 . 5 % – Here Why",
-      "url": "https://www.tickerreport.com/banking-finance/13629370/sk-hynix-nasdaqskhy-shares-up-2-5-heres-why.html",
-      "source": "tickerreport.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6347beb8e994",
-      "title": "CoreWeave market confidence erodes as bond yields spike , stock sinks",
-      "url": "https://www.cnbc.com/2026/10/21/coreweaves-market-confidence-erodes-as-bond-yields-spike-stock-sinks.html",
-      "source": "cnbc.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3fa233b12ecd",
-      "title": "A SpaceX - Tesla megamerger could benefit both companies and Elon Musk personal fortune",
-      "url": "https://www.news4jax.com/business/2026/10/21/a-spacex-tesla-megamerger-could-benefit-both-companies-and-elon-musks-personal-fortune/",
-      "source": "news4jax.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d0976c59790c",
-      "title": "AI lab Flapping Airplanes is now worth $6B , four times its January value",
-      "url": "https://thenextweb.com/news/flapping-airplanes-1b-6b-valuation",
-      "source": "thenextweb.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e4a749e1eabc",
-      "title": "NVIDIA ( NASDAQ : NVDA ) Shares Climb 2 . 5 % – Should You Buy ?",
-      "url": "https://www.tickerreport.com/banking-finance/13629369/nvidia-nasdaqnvda-shares-climb-2-5-should-you-buy.html",
-      "source": "tickerreport.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
