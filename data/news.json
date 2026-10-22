@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T18:35:21Z",
+  "generated_at": "2026-10-22T22:23:44Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,19 +26,18 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -47,6 +46,32 @@
     }
   ],
   "items": [
+    {
+      "id": "market-0518232b47e6",
+      "title": "미국 10년물 국채금리 4.96% (직전 대비 -0.17%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-10-22T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 4.96,
+        "previous": 5.13,
+        "change": -0.17,
+        "unit": "%",
+        "date": "2026-10-22",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
+    },
     {
       "id": "official-648633b98025",
       "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
@@ -112,32 +137,6 @@
         "unit": "원",
         "date": "20261022",
         "alert_threshold": 15.0
-      }
-    },
-    {
-      "id": "market-b8e6c605980f",
-      "title": "미국 10년물 국채금리 5.13% (직전 대비 +0.01%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-10-21T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.13,
-        "previous": 5.12,
-        "change": 0.01,
-        "unit": "%",
-        "date": "2026-10-21",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
       }
     },
     {
