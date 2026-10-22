@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-21T22:24:36Z",
+  "generated_at": "2026-10-22T01:34:14Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -62,6 +63,56 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-4538c6fca731",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-21T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261022",
+        "alert_threshold": 0.25
+      }
+    },
+    {
+      "id": "market-e0598ddb5ff7",
+      "title": "원/달러 환율(매매기준율) 1325.5원 (직전 대비 -2.5원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-21T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1325.5,
+        "previous": 1328.0,
+        "change": -2.5,
+        "unit": "원",
+        "date": "20261022",
+        "alert_threshold": 15.0
+      }
     },
     {
       "id": "market-b8e6c605980f",
@@ -90,54 +141,22 @@
       }
     },
     {
-      "id": "market-dc5dc650d2da",
-      "title": "원/달러 환율(매매기준율) 1328원 (직전 대비 -4.1원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-20T15:00:00Z",
+      "id": "news-7ec75314ad3b",
+      "title": "Reserve Bank and interest rates : Food inflation is a bigger issue than oil and the RBA knows it",
+      "url": "https://www.watoday.com.au/politics/federal/food-inflation-is-a-bigger-issue-than-oil-and-the-reserve-bank-knows-it-20261022-p6177i.html",
+      "source": "watoday.com.au",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:15:00Z",
       "categories": [
-        "fx"
+        "rates",
+        "oil"
       ],
-      "importance": 5,
+      "importance": 4,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1328.0,
-        "previous": 1332.1,
-        "change": -4.1,
-        "unit": "원",
-        "date": "20261021",
-        "alert_threshold": 15.0
-      }
-    },
-    {
-      "id": "market-9868c94d3e48",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-18T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261019",
-        "alert_threshold": 0.25
-      }
+      "change_condition": null
     },
     {
       "id": "news-5cbc42ac0c0f",
@@ -338,6 +357,244 @@
       "change_condition": null
     },
     {
+      "id": "news-bbacef5b4cc2",
+      "title": "美元霸權正在走下坡 ， 台灣該如何因應 ？ 美國經濟學大師揭台灣央行應對的 「 3大解方 」 | 劉煥彥 | 新聞",
+      "url": "https://www.storm.mg/article/11174634",
+      "source": "storm.mg",
+      "source_type": "news",
+      "published_at": "2026-10-22T01:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6bd845dd2e34",
+      "title": "史上最大泡沫  即将破裂 ？ 知名经济学家卖掉自住房 ： 美股恐暴跌90 %， 黄金或崩70 %_ 金市直播 _ 黄金网 _ 中金在线",
+      "url": "http://gold.cnfol.com/jinshizhibo/20261022/32404638.shtml",
+      "source": "gold.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T01:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-29d36ae72f83",
+      "title": "LH , 745억 유로화 채권 발행 … 15년 만기 장기자금 확보",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02942166645615544&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-22T00:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-04a74b0ddadf",
+      "title": "Bank of Korea expected to hold rates today after two hikes , tightening cycle seen intact",
+      "url": "https://investinglive.com/central-banks/bank-of-korea-expected-to-hold-rates-today-after-two-hikes-tightening-cycle-seen-intact/",
+      "source": "investinglive.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T00:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d1c771059e4a",
+      "title": "두 번 연속 금리 올린 한은 … 오늘 금통위는 동결 택할 듯",
+      "url": "https://www.fnnews.com/news/202610220601595795",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bb9fbc7b997c",
+      "title": "Cest parti pour la technologie ! - 21 / 10 / 2026 à 23 : 01",
+      "url": "https://www.boursorama.com/bourse/actualites/c-est-parti-pour-la-technologie-c03c13998e6aad24232906750d7117a2",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-71301e1f0522",
+      "title": "뉴욕증시 3대 지수 일제히 상승 마감 … 스페이스X 깜짝 실적에 AI 열기 깨어나",
+      "url": "https://biz.chosun.com/international/international_economy/2026/10/22/FVC3HPJINFG5LK45RUE3SQPGFU/",
+      "source": "biz.chosun.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c77970c06862",
+      "title": "Altın fiyatlarında kritik seviyeler gündemde",
+      "url": "https://www.malatyaguncel.com/altin-fiyatlarinda-kritik-seviyeler-gundemde-3118096h.htm",
+      "source": "malatyaguncel.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-31795592ce4d",
+      "title": "A股盘前速览 ： 美股三大指数集体收涨 ， SpaceX涨超7 %； 油价跳水 ， 黄金涨白银跌 ； 通则康威今日上市 ； 温氏股份前三季度净亏近50亿 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610223903072552.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5cff74b6c6c2",
+      "title": "BlackRock Rieder sees historic opportunity in high - grade bonds , including hyperscalers",
+      "url": "https://investinglive.com/stock-market-update/blackrock-s-rieder-sees-historic-opportunity-in-high-grade-bonds-including-hyperscalers/",
+      "source": "investinglive.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-62109f93cf73",
+      "title": "Gold gains as Treasury yields stabilize , Nasdaq surges despite Fed tightening concerns - Kitco PM Report",
+      "url": "http://www.kitco.com/news/article/2026-10-21/gold-gains-treasury-yields-stabilize-nasdaq-surges-despite-fed-tightening",
+      "source": "kitco.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-14256330c472",
+      "title": "Not going to happen : Fox News has bad news for Trump",
+      "url": "https://www.alternet.org/trump-oil-prices-fox/",
+      "source": "alternet.org",
+      "source_type": "news",
+      "published_at": "2026-10-21T23:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0e77afd7b876",
+      "title": "New Zealand Q3 inflation rises 0 . 7 % from previous quarter , lower than forecast",
+      "url": "https://www.933thedrive.com/2026/10/21/new-zealand-q3-inflation-rises-0-7-from-previous-quarter/",
+      "source": "933thedrive.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T22:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3cc7fe82133a",
+      "title": "Accountants feeling more cautious in Q3",
+      "url": "https://www.accountingtoday.com/news/accountants-feeling-more-cautious-in-q3",
+      "source": "accountingtoday.com",
+      "source_type": "news",
+      "published_at": "2026-10-21T22:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-06efc9dbf5c8",
       "title": "Year - old AI lab Flapping Airplanes raises $1B at a $6B valuation",
       "url": "https://techcrunch.com/2026/10/21/year-old-ai-lab-flapping-airplanes-raises-1b-at-a-6b-valuation/",
@@ -497,261 +754,6 @@
       "source": "tickerreport.com",
       "source_type": "news",
       "published_at": "2026-10-21T21:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2e8245935d80",
-      "title": "FinancialContent - Pathward Financial ( NASDAQ : CASH ) posts better - than - expected sales in Q3 CY2026",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-pathward-financial-nasdaqcash-posts-better-than-expected-sales-in-q3-cy2026",
-      "source": "markets.financialcontent.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c63254eb58b2",
-      "title": "Advanced Micro Devices ( NASDAQ : AMD ) Shares Up 3 . 4 % Following Analyst Upgrade",
-      "url": "https://www.dailypolitical.com/2026/10/21/advanced-micro-devices-nasdaqamd-shares-up-3-4-following-analyst-upgrade.html",
-      "source": "dailypolitical.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f5dde6dd3080",
-      "title": "[ GAM ]  M7 수익률 1위  애플 ② 10년 만의 최고 몸값 , 메모리  대홍수  에 흔들린다",
-      "url": "https://www.newspim.com/news/view/20261022000006",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-87a870f7921e",
-      "title": "Era4 ties financial sovereignty to Britain AI infrastructure",
-      "url": "https://siliconangle.com/2026/10/21/era4-ties-financial-sovereignty-britains-ai-infrastructure-hpesovereignai/",
-      "source": "siliconangle.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7895f9610f8d",
-      "title": "FinancialContent - CSX ( NASDAQ : CSX ) surprises with Q3 2026 sales",
-      "url": "https://markets.financialcontent.com/stocks/article/stockstory-2026-10-21-csx-nasdaqcsx-surprises-with-q3-2026-sales",
-      "source": "markets.financialcontent.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T21:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fd8e83b685cc",
-      "title": "Les actions progressent grâce à des résultats encourageants ; le rendement des obligations françaises à 10 ans franchit la barre des 5 % - 21 / 10 / 2026 à 18 : 02",
-      "url": "https://www.boursorama.com/bourse/actualites/les-actions-progressent-grace-a-des-resultats-encourageants-le-rendement-des-obligations-francaises-a-10-ans-franchit-la-barre-des-5-99689f038c6a959c482e1f34d357b2d0",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T16:30:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-70a577a9bd1c",
-      "title": "国机重装 ( 601399 ): 国机重型装备集团股份有限公司2026年度向特定对象发行A股股票预案 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261021002049.html",
-      "source": "cfi.net.cn",
-      "source_type": "news",
-      "published_at": "2026-10-21T14:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7e1c5ddada8e",
-      "title": "强劲季报提振AI交易 ， 美股开盘走高 ， SpaceX涨约8 %， 英伟达涨约2 %， 油价再度走高",
-      "url": "https://www.163.com/dy/article/L9PCU3DS05198NMR.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T14:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-43f96d0e5fad",
-      "title": "Unitree reveals its H2 - X bodyguard robot a  Kung Fu  humanoid with an 8 - hour battery life and some serious martial arts skills",
-      "url": "https://www.techradar.com/ai-platforms-assistants/unitree-reveals-its-h2-x-bodyguard-robot-a-kung-fu-humanoid-with-an-8-hour-battery-life-and-some-serious-martial-arts-skills",
-      "source": "techradar.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ce1c8748586e",
-      "title": "Nvidia CEO Huang pitches Europe to adopt AI in all industries",
-      "url": "https://www.businesstimes.com.sg/companies-markets/telcos-media-tech/nvidia-ceo-huang-pitches-europe-adopt-ai-all-industries",
-      "source": "businesstimes.com.sg",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f3bc11d003da",
-      "title": "Apple iPhone Duo review : this is the foldable Apple fans have been waiting for",
-      "url": "https://www.techradar.com/phones/iphone/apple-iphone-duo-review",
-      "source": "techradar.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dd7dbf7a1fb8",
-      "title": "阿斯麦三季报 ， 如何回应全球芯片期待",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-10-21/doc-inivyxhf5399252.shtml",
-      "source": "finance.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ed92982f36ab",
-      "title": "韩国芯片出口额飙升222 . 5 % 半导体成经济增长引擎 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20261021/49808452.html",
-      "source": "news.china.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fdd5c13e9586",
-      "title": "Broadcom ( NASDAQ : AVGO ) Stock Jumps 1 . 8 % – Here What Happened",
-      "url": "https://www.dailypolitical.com/2026/10/21/broadcom-nasdaqavgo-stock-jumps-1-8-heres-what-happened.html",
-      "source": "dailypolitical.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a2b89354d78b",
-      "title": "Five things to know about Chinese AI startup DeepSeek | The Peninsula Qatar",
-      "url": "http://thepeninsulaqatar.com/article/21/10/2026/five-things-to-know-about-chinese-ai-startup-deepseek",
-      "source": "thepeninsulaqatar.com",
-      "source_type": "news",
-      "published_at": "2026-10-21T13:30:00Z",
       "categories": [
         "semis"
       ],
