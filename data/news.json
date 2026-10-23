@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T07:37:28Z",
+  "generated_at": "2026-10-23T13:31:11Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -311,6 +311,244 @@
       "change_condition": null
     },
     {
+      "id": "news-06f34442f35a",
+      "title": "Austria expels 4 Russian diplomats linked to espionage , official says",
+      "url": "http://www.stardem.com/ap/world/austria-expels-4-russian-diplomats-linked-to-espionage-official-says/article_353a29d9-72a4-5055-8869-d7df828ba7b3.html",
+      "source": "stardem.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-00b6d3273327",
+      "title": "The secret terms of Trump Venezuelan oil deal",
+      "url": "https://www.salon.com/2026/10/23/the-secret-terms-of-trumps-venezuelan-oil-deal-partner/",
+      "source": "salon.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b96937963f94",
+      "title": "Saudi Arabia Postpones UN Forum Until 2027 Amid Regional Tensions",
+      "url": "http://www.pakistantelegraph.com/news/279394261/saudi-arabia-postpones-un-forum-until-2027-amid-regional-tensions",
+      "source": "pakistantelegraph.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ac86e6803307",
+      "title": "El oro ve peligrar los 4 . 000 dólares por el repunte del crudo y de la deuda francesa",
+      "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261023143747/oro-ve-peligrar-4000-dolares-repunte-crudo-deuda-francesa",
+      "source": "diariosigloxxi.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-eb4afb6e5bf7",
+      "title": "Fears about kid online safety unite Democrats and Republicans – The Press Democrat",
+      "url": "https://www.pressdemocrat.com/2026/10/23/kids-online-safety-democrats-republicans/",
+      "source": "pressdemocrat.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6e2a6d695cde",
+      "title": "চার মাসের মধ্যে সর্বনিম্ন স্বর্ণের বাজার",
+      "url": "https://www.ntvbd.com/world/news-1823949",
+      "source": "ntvbd.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-577641afe7d6",
+      "title": "Borsa : Europa debole a metà giornata , Milano (- 0 , 5 %) limita danni con balzo Eni",
+      "url": "https://www.ilsole24ore.com/art/borsa-europa-debole-meta-giornata-milano-05percento-limita-danni-balzo-eni-AJBmQVsB",
+      "source": "ilsole24ore.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-462217507b98",
+      "title": "Росія пообіцяла відповісти Австрії на висилку чотирьох дипломатів",
+      "url": "https://24tv.ua/rosiya-poobitsyala-vidpovisti-avstriyi-visilku-chotiroh-diplomativ_n3166294",
+      "source": "24tv.ua",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d0f2af38de1c",
+      "title": "Benzyna może jeszcze potanieć . Nowe prognozy cen paliw",
+      "url": "https://www.dlahandlu.pl/nonfood/benzyna-moze-jeszcze-potaniec-nowe-prognozy-cen-paliw,176978.html",
+      "source": "dlahandlu.pl",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4ef6d31697d5",
+      "title": "ANALYSE - FLASH : RBC hebt Sartorius auf  Outperform  - Ziel hoch auf 330 Euro",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69920963-analyse-flash-rbc-hebt-sartorius-auf-outperform-ziel-hoch-auf-330-euro-016.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-48068b033ca4",
+      "title": "Sensex , Nifty extend losses as crude surges to USD 114 , all sectors close in red",
+      "url": "http://www.hongkongherald.com/news/279394370/sensex-nifty-extend-losses-as-crude-surges-to-usd-114-all-sectors-close-in-red",
+      "source": "hongkongherald.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-79e58331984a",
+      "title": "AKTIEN IM FOKUS 2 : Safran nach Quartalsbericht unter Druck - Auch Rolls - Royce , MTU und Melrose im Keller",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69920051-aktien-im-fokus-2-safran-nach-quartalsbericht-unter-druck-auch-rolls-royce-mtu-und-melrose-im-keller-016.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ededd93a34a5",
+      "title": "JEFFERIES stuft ROCHE HOLDINGS AG auf  Underperform",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69920984-jefferies-stuft-roche-holdings-ag-auf-underperform-322.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cfa7d69e9d11",
+      "title": "DN Direkt – Pojke begärd häktad efter knivlarm vid skola",
+      "url": "https://www.dn.se/direkt/2026-10-23/pojke-begard-haktad-efter-knivlarm-vid-skola/",
+      "source": "dn.se",
+      "source_type": "news",
+      "published_at": "2026-10-23T12:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-ab3671d47d6c",
       "title": "全球央行正悄然以逾常态四倍的速度购金 ， 高盛 ： 储备多元化趋势或将持续 - CFi . CN 中财网",
       "url": "http://www.cfi.net.cn/p20261023000022.html",
@@ -523,244 +761,6 @@
       "published_at": "2026-10-22T18:15:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1893ac175044",
-      "title": "Šéf ÚOHS sám rozhoduje o miliardách . Vláda o jeho výběru ale zatím mlčí",
-      "url": "https://www.denik.cz/ekonomika/novy-sef-uohs-vlada-vyber/",
-      "source": "denik.cz",
-      "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-047d876b56bd",
-      "title": "Трамп послабив санкційний тиск на росію : що стоїть за дизельною угодою з путіним",
-      "url": "https://podrobnosti.ua/2521605-tramp-poslabiv-sanktsjnij-tisk-na-rosju-scho-stot-za-dizelnoju-ugodoju-z-putnim.html",
-      "source": "podrobnosti.ua",
-      "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1fa4a035e483",
-      "title": "Кабмін змінив правила митного контролю та підтримки бізнесу",
-      "url": "https://lb.ua/economics/2026/10/22/775410_uryad_uhvaliv_novi_pravila.html",
-      "source": "lb.ua",
-      "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-74af8fb086f6",
-      "title": "Egoístas , acampadas e encochadas constitucionais",
-      "url": "https://observador.pt/programas/vichyssoise/egoistas-acampadas-e-encochadas-constitucionais/",
-      "source": "observador.pt",
-      "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aec05ffdf9aa",
-      "title": "Kanada Başbakanı Carney Ankarada ... Cumhurbaşkanı Erdoğan : İlişkilerimizi stratejik ortaklığa yükseltiyoruz",
-      "url": "https://www.bursahakimiyet.com.tr/gundem/kanada-basbakani-carney-ankara-da-cumhurbaskani-erdogan-iliskilerimizi-stratejik-ortakliga-yukseltiyoruz-1735193",
-      "source": "bursahakimiyet.com.tr",
-      "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2c49d1e8d64c",
-      "title": "LO Performance , AI Governance , ARM , Non - QM Execution , U / W Tools ; In - Person Events Into 2027",
-      "url": "https://www.mortgagenewsdaily.com:443/opinion/pipelinepress-10222026",
-      "source": "mortgagenewsdaily.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eec95449ca56",
-      "title": "Kuehne+Nagel Lifts 2026 Outlook After A Robust Third Quarter",
-      "url": "https://www.esmmagazine.com/supply-chain/kuehnenagel-lifts-2026-outlook-after-a-robust-third-quarter-324299",
-      "source": "esmmagazine.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T17:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f21bb8e52c51",
-      "title": "Депутаты и Правительство Абхазии не пришли к единому мнению по расширению списка льготников",
-      "url": "https://apsnypress.info/ru/item/22308-deputaty-i-pravitelstvo-abkhazii-ne-prishli-k-edinomu-mneniyu-po-rasshireniyu-spiska-lgotnikov",
-      "source": "apsnypress.info",
-      "source_type": "news",
-      "published_at": "2026-10-22T17:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-90e86c0dee52",
-      "title": "На рынке « Джунхай » произошел пожар » Gazeta . kg новости Кыргызстана и Бишкека сегодня",
-      "url": "https://gazeta.kg/incidents/229169-na-rynke-dzhunhaj-proizoshel-pozhar.html",
-      "source": "gazeta.kg",
-      "source_type": "news",
-      "published_at": "2026-10-22T17:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ab7dd9b90e02",
-      "title": "Toyama kiến tạo bản sắc văn hóa  Thành phố thủy tinh  để phát triển du lịch",
-      "url": "https://dulich.thethaovanhoa.vn/toyama-kien-tao-ban-sac-van-hoa-thanh-pho-thuy-tinh-de-phat-trien-du-lich-20261022141624704.htm",
-      "source": "dulich.thethaovanhoa.vn",
-      "source_type": "news",
-      "published_at": "2026-10-22T17:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4818b838c133",
-      "title": "Pakistan  wrong country  to turn US pressure on Iran : Report",
-      "url": "https://ianslive.in/pakistan-wrong-country-to-turn-us-pressure-on-iran-report--20261022161055",
-      "source": "ianslive.in",
-      "source_type": "news",
-      "published_at": "2026-10-22T17:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-92ffa7b0054f",
-      "title": "오건영  AI 혁명이 국가부채 해결의 열쇠  [ 2027 테크퀘스트 ]",
-      "url": "https://www.etoday.co.kr/news/view/2639029",
-      "source": "etoday.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d7dfcc42afae",
-      "title": "Bank of Korea holds rates ; upbeat outlook points to future hikes",
-      "url": "https://www.businesstimes.com.sg/companies-markets/banking-finance/bank-korea-holds-rates-upbeat-outlook-points-future-hikes",
-      "source": "businesstimes.com.sg",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-77660dffe3ce",
-      "title": "Küresel piyasalarda petrol baskısı",
-      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-petrol-baskisi-7684974",
-      "source": "uzmanpara.milliyet.com.tr",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
