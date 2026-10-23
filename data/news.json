@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-23T18:25:19Z",
+  "generated_at": "2026-10-23T22:16:00Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -47,32 +46,6 @@
     }
   ],
   "items": [
-    {
-      "id": "market-0518232b47e6",
-      "title": "미국 10년물 국채금리 4.96% (직전 대비 -0.17%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-10-22T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 7,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 4.96,
-        "previous": 5.13,
-        "change": -0.17,
-        "unit": "%",
-        "date": "2026-10-22",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
-      }
-    },
     {
       "id": "official-648633b98025",
       "title": "Minutes of the Board's discount rate meetings on August 17, September 9, and September 16, 2026",
@@ -89,6 +62,32 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-364c2dea8555",
+      "title": "미국 10년물 국채금리 5% (직전 대비 +0.04%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-10-23T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.0,
+        "previous": 4.96,
+        "change": 0.04,
+        "unit": "%",
+        "date": "2026-10-23",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
     },
     {
       "id": "market-bede90510ae8",
@@ -165,6 +164,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-3eacae9e8ba5",
+      "title": "Crude benchmarks firmer amidst ongoing tensions in the Middle East ; EUR digests poor PMI metrics - Newsquawk US Market Open",
+      "url": "http://www.zerohedge.com/markets/crude-benchmarks-firmer-amidst-ongoing-tensions-middle-east-eur-digests-poor-pmi-metrics",
+      "source": "zerohedge.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T14:30:00Z",
+      "categories": [
+        "rates",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-4bfa8035877a",
@@ -304,6 +321,125 @@
         "fx"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f9521bbe9ae3",
+      "title": "Cuentas con liquidez que rinden hasta el 5 %",
+      "url": "https://www.expansion.com/inversion/2026/10/23/6adb6fc3468aeb06278b45ad.html",
+      "source": "expansion.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dc71ca924ac7",
+      "title": "الذهب يتراجع ويتجه لتسجيل أكبر خسارة أسبوعية",
+      "url": "https://www.alanba.com.kw/1381948/",
+      "source": "alanba.com.kw",
+      "source_type": "news",
+      "published_at": "2026-10-23T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d28de048dfc8",
+      "title": "Banca dItalia - The two - tier system in transition : public foundations , private innovation",
+      "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261023-scotti/",
+      "source": "bancaditalia.it",
+      "source_type": "news",
+      "published_at": "2026-10-23T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7b97eb80ed33",
+      "title": "Precio del oro se aleja de mínimo de tres meses ; repunte del crudo aviva temores de inflación",
+      "url": "https://www.eleconomista.com.mx/mercados/precio-oro-aleja-minimo-tres-meses-repunte-crudo-aviva-temores-inflacion-20261023-840163.html",
+      "source": "eleconomista.com.mx",
+      "source_type": "news",
+      "published_at": "2026-10-23T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-28e1c6eb6f51",
+      "title": "U . S . Stocks May See Further Downside Following Yesterday Sell - Off",
+      "url": "https://www.rttnews.com/3702448/u-s-stocks-may-see-further-downside-following-yesterday-s-sell-off.aspx",
+      "source": "rttnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T14:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bf029c0504d1",
+      "title": "Sept ans après leur  bromance , Trump toque à nouveau à la porte de Kim - 23 / 10 / 2026 à 16 : 05",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/sept-ans-apres-leur-bromance-trump-toque-a-nouveau-a-la-porte-de-kim-25824c31dcbc59e343b70979ef369215",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T14:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2fd101e9d6c6",
+      "title": "डिजिटल करेन्सीको तयारीमा कहाँ पुग्यो राष्ट्र बैंक ? | Nepal first 24 - hour updated news portal",
+      "url": "https://www.ratopati.com/story/600944/where-is-the-national-bank-in-preparing-for-digital-currency",
+      "source": "ratopati.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T13:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -532,6 +668,74 @@
       "change_condition": null
     },
     {
+      "id": "news-3d8720585bfa",
+      "title": "Trump fait des avances à Kim Jong - un , qui continue de lignorer",
+      "url": "https://www.lessentiel.lu/fr/story/diplomatie-trump-fait-des-avances-a-kim-jong-un-qui-continue-de-l-ignorer-103654418",
+      "source": "lessentiel.lu",
+      "source_type": "news",
+      "published_at": "2026-10-23T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-441d0bf446aa",
+      "title": "Telur dómarann van­hæfan vegna starfa í slitastjórn",
+      "url": "https://www.visir.is/g/20262952618d/telur-domarann-van-haefan-vegna-starfa-i-slitastjorn",
+      "source": "visir.is",
+      "source_type": "news",
+      "published_at": "2026-10-23T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9705a2458486",
+      "title": "[ 三季报 ] 广东建工 ( 002060 ): 2026年三季度报告 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261023002552.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-10-23T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f54b9557100b",
+      "title": "Why Bonds Stumbled and Stocks ( Mostly ) Stood Strong in Q3 , and What Lies Ahead for Investors",
+      "url": "https://www.morningstar.com/markets/why-bonds-stumbled-stocks-mostly-stood-strong-q3-what-lies-ahead-investors",
+      "source": "morningstar.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-cfa7d69e9d11",
       "title": "DN Direkt – Pojke begärd häktad efter knivlarm vid skola",
       "url": "https://www.dn.se/direkt/2026-10-23/pojke-begard-haktad-efter-knivlarm-vid-skola/",
@@ -549,218 +753,14 @@
       "change_condition": null
     },
     {
-      "id": "news-ab3671d47d6c",
-      "title": "全球央行正悄然以逾常态四倍的速度购金 ， 高盛 ： 储备多元化趋势或将持续 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261023000022.html",
-      "source": "cfi.net.cn",
+      "id": "news-30a3dbbbc249",
+      "title": "黄金上演深V行情 ： 流动性挤兑下后市如何演绎 _ 金市直播 _ 黄金网 _ 中金在线",
+      "url": "http://gold.cnfol.com/jinshizhibo/20261023/32406805.shtml",
+      "source": "gold.cnfol.com",
       "source_type": "news",
-      "published_at": "2026-10-23T00:15:00Z",
+      "published_at": "2026-10-23T12:00:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bc2e2d4cc877",
-      "title": "沙特遇袭推油价破110美元 ， 黄金失守4050美元进入  投降阶段  |金价|加息|美联储|原油价格",
-      "url": "https://www.163.com/dy/article/L9TEG32I05198NMR.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4c59886577bb",
-      "title": "东方财富期货早餐 10月23日 周五 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610223904492980.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-74f3c75e3735",
-      "title": "日本10年債殖利率漲勢恐終結 聯準會政策奏效日銀大幅升息壓力減",
-      "url": "https://n.yam.com/Article/20261023756125",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aa59305969de",
-      "title": "分析人士 ： 两大利空驱动金银价格下跌 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610233904792694.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e7aad6ac9b8f",
-      "title": "国际金融要情 | （ 周五 2026 . 10 . 23 ） _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610233904688253.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-74e720bfa1bf",
-      "title": "Nasdaq plunges 2 . 6 % as AI spending fears spark tech selloff | Honolulu Star - Advertiser",
-      "url": "https://www.staradvertiser.com/2026/10/22/breaking-news/nasdaq-plunges-2-6-as-ai-spending-fears-spark-tech-selloff/",
-      "source": "staradvertiser.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fdadb6b231bb",
-      "title": "With an Over 16 % Yield , Is Now the Time to Buy AGNC Stock ?",
-      "url": "https://www.fool.com/investing/2026/10/22/with-an-over-16-yield-is-now-the-time-to-buy-agnc/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-026b51642acf",
-      "title": "Civista Bancshares ( CIVB ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/civista-bancshares-civb-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d18483ef45f2",
-      "title": "WesBanco ( WSBC ) Q3 2026 Earnings Call Transcript",
-      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/wesbanco-wsbc-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2cf996ffd4b5",
-      "title": "S & P 500 , Nasdaq end sharply lower as revived AI doubts ignite tech sell - off",
-      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/sp-500-nasdaq-end-sharply-lower-revived-ai-doubts-ignite-tech-sell",
-      "source": "businesstimes.com.sg",
-      "source_type": "news",
-      "published_at": "2026-10-22T23:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9c0322d1ec5f",
-      "title": "央行购金提速 ！ 黄金配置价值凸显 3股业绩倍增可期 ( 名单 ) _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610233904674853.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T23:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-798add88c653",
-      "title": "Graham Republican runoff opponent gives little support for incumbent campaign",
-      "url": "https://fox23.com/news/nation-world/grahams-republican-runoff-opponent-gives-little-support-for-incumbents-campaign-rrt",
-      "source": "fox23.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
