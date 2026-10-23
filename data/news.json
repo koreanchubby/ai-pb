@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-22T22:23:44Z",
+  "generated_at": "2026-10-23T01:34:42Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -90,6 +91,31 @@
       "change_condition": null
     },
     {
+      "id": "market-bede90510ae8",
+      "title": "원/달러 환율(매매기준율) 1324.6원 (직전 대비 -0.9원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-22T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1324.6,
+        "previous": 1325.5,
+        "change": -0.9,
+        "unit": "원",
+        "date": "20261023",
+        "alert_threshold": 15.0
+      }
+    },
+    {
       "id": "market-4538c6fca731",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
@@ -112,31 +138,6 @@
         "unit": "%",
         "date": "20261022",
         "alert_threshold": 0.25
-      }
-    },
-    {
-      "id": "market-e0598ddb5ff7",
-      "title": "원/달러 환율(매매기준율) 1325.5원 (직전 대비 -2.5원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-21T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1325.5,
-        "previous": 1328.0,
-        "change": -2.5,
-        "unit": "원",
-        "date": "20261022",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -164,6 +165,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-4bfa8035877a",
+      "title": "AI 투자비 우려에 나스닥 2 . 6 % ↓ … 반도체주 또  와르르 [ 뉴스새벽배송 ]",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02830646645615872&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-22T23:45:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-badca9162568",
@@ -292,17 +311,16 @@
       "change_condition": null
     },
     {
-      "id": "news-db4e116527c8",
-      "title": "유가 · 달러 · 외국인 압박에도 1300원대 원화 강세 … 환율  3대 공식  깨졌다",
-      "url": "https://biz.heraldcorp.com/article/10908254",
-      "source": "biz.heraldcorp.com",
+      "id": "news-ab3671d47d6c",
+      "title": "全球央行正悄然以逾常态四倍的速度购金 ， 高盛 ： 储备多元化趋势或将持续 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261023000022.html",
+      "source": "cfi.net.cn",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-23T00:15:00Z",
       "categories": [
-        "fx",
-        "oil"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -310,17 +328,16 @@
       "change_condition": null
     },
     {
-      "id": "news-04a64ed50bce",
-      "title": "盘前必读丨美股存储 、 半导体股大反攻 ； 境内首批18只主动ETF获批",
-      "url": "https://www.yicai.com/news/103399843.html",
-      "source": "yicai.com",
+      "id": "news-bc2e2d4cc877",
+      "title": "沙特遇袭推油价破110美元 ， 黄金失守4050美元进入  投降阶段  |金价|加息|美联储|原油价格",
+      "url": "https://www.163.com/dy/article/L9TEG32I05198NMR.html",
+      "source": "163.com",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-23T00:15:00Z",
       "categories": [
-        "fx",
-        "etf"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -328,17 +345,16 @@
       "change_condition": null
     },
     {
-      "id": "news-8b52a86cc256",
-      "title": "이란 , 美중간선거 겨냥 호르무즈 공격 확대 … 유가 끌어올리려는 의도",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03102886645614888&mediaCodeNo=257",
-      "source": "edaily.co.kr",
+      "id": "news-4c59886577bb",
+      "title": "东方财富期货早餐 10月23日 周五 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610223904492980.html",
+      "source": "finance.eastmoney.com",
       "source_type": "news",
-      "published_at": "2026-10-20T01:30:00Z",
+      "published_at": "2026-10-23T00:15:00Z",
       "categories": [
-        "geopolitics",
-        "oil"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -346,17 +362,16 @@
       "change_condition": null
     },
     {
-      "id": "news-d44f466a8550",
-      "title": "4대 은행 · SK하이닉스 , 반도체 협력사에 2조원 금융지원",
-      "url": "https://biz.heraldcorp.com/article/10908159",
-      "source": "biz.heraldcorp.com",
+      "id": "news-74f3c75e3735",
+      "title": "日本10年債殖利率漲勢恐終結 聯準會政策奏效日銀大幅升息壓力減",
+      "url": "https://n.yam.com/Article/20261023756125",
+      "source": "n.yam.com",
       "source_type": "news",
-      "published_at": "2026-10-20T01:00:00Z",
+      "published_at": "2026-10-23T00:15:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -364,17 +379,16 @@
       "change_condition": null
     },
     {
-      "id": "news-a3a8e2b40d72",
-      "title": "美반도체주 반등에 원화 강세 탄력 … 환율 1320원대 안착 시도 [ 외환브리핑 ]",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02663366645614888&mediaCodeNo=257",
-      "source": "edaily.co.kr",
+      "id": "news-aa59305969de",
+      "title": "分析人士 ： 两大利空驱动金银价格下跌 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610233904792694.html",
+      "source": "finance.eastmoney.com",
       "source_type": "news",
-      "published_at": "2026-10-20T00:30:00Z",
+      "published_at": "2026-10-23T00:15:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -382,17 +396,118 @@
       "change_condition": null
     },
     {
-      "id": "news-ab087a763600",
-      "title": "[ 채권 / 외환 ] 美 국채 금리 · 달러 동반 상승 … AI주 반등에 시장 분위기 반전",
-      "url": "https://www.newspim.com/news/view/20261020000029",
-      "source": "newspim.com",
+      "id": "news-e7aad6ac9b8f",
+      "title": "国际金融要情 | （ 周五 2026 . 10 . 23 ） _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610233904688253.html",
+      "source": "finance.eastmoney.com",
       "source_type": "news",
-      "published_at": "2026-10-20T00:15:00Z",
+      "published_at": "2026-10-23T00:15:00Z",
       "categories": [
-        "rates",
-        "fx"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-74e720bfa1bf",
+      "title": "Nasdaq plunges 2 . 6 % as AI spending fears spark tech selloff | Honolulu Star - Advertiser",
+      "url": "https://www.staradvertiser.com/2026/10/22/breaking-news/nasdaq-plunges-2-6-as-ai-spending-fears-spark-tech-selloff/",
+      "source": "staradvertiser.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fdadb6b231bb",
+      "title": "With an Over 16 % Yield , Is Now the Time to Buy AGNC Stock ?",
+      "url": "https://www.fool.com/investing/2026/10/22/with-an-over-16-yield-is-now-the-time-to-buy-agnc/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-026b51642acf",
+      "title": "Civista Bancshares ( CIVB ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/civista-bancshares-civb-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d18483ef45f2",
+      "title": "WesBanco ( WSBC ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/10/22/wesbanco-wsbc-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-23T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2cf996ffd4b5",
+      "title": "S & P 500 , Nasdaq end sharply lower as revived AI doubts ignite tech sell - off",
+      "url": "https://www.businesstimes.com.sg/companies-markets/capital-markets-currencies/sp-500-nasdaq-end-sharply-lower-revived-ai-doubts-ignite-tech-sell",
+      "source": "businesstimes.com.sg",
+      "source_type": "news",
+      "published_at": "2026-10-22T23:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9c0322d1ec5f",
+      "title": "央行购金提速 ！ 黄金配置价值凸显 3股业绩倍增可期 ( 名单 ) _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610233904674853.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-22T23:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -642,125 +757,6 @@
       "title": "Küresel piyasalarda petrol baskısı",
       "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-petrol-baskisi-7684974",
       "source": "uzmanpara.milliyet.com.tr",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6e59bb6961b1",
-      "title": "Στο περίμενε για το « Σπίτι μου III », στο φουλ τα σταθερά στεγαστικά",
-      "url": "https://sofokleous10.gr/2026/10/22/%CF%83%CF%84%CE%BF-%CF%80%CE%B5%CF%81%CE%AF%CE%BC%CE%B5%CE%BD%CE%B5-%CE%B3%CE%B9%CE%B1-%CF%84%CE%BF-%CF%83%CF%80%CE%AF%CF%84%CE%B9-%CE%BC%CE%BF%CF%85-iii-%CF%83%CF%84%CE%BF-%CF%86%CE%BF/",
-      "source": "sofokleous10.gr",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-296d1a1f9577",
-      "title": "韩国央行 ： 芯片热潮持续提振经济 ， 芯片价格有望进一步增长",
-      "url": "https://finance.ifeng.com/c/8xQcrnzmFgs",
-      "source": "finance.ifeng.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-09a161b587ad",
-      "title": "小幅跳水 ， 现货黄金跌破4100美元大关",
-      "url": "https://baijiahao.baidu.com/s?id=1879723044103302404",
-      "source": "baijiahao.baidu.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4c13108a69e8",
-      "title": "BOK pauses rate hikes , but signals more may come",
-      "url": "https://www.koreaherald.com/article/10911589",
-      "source": "koreaherald.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-374489c5f55e",
-      "title": "布鲁金斯学会支招 ： 美联储可以将资产负债表砍到4 . 5万亿",
-      "url": "https://stock.jrj.com.cn/2026/10/22143858820486.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-784e29d0b49c",
-      "title": "MORNING BRIEFING - united states / Asien",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69903175-morning-briefing-usa-asien-015.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-29f524f7a48b",
-      "title": "韓央行連2升後喘口氣 ！ 通膨房價壓不住 下次恐重啟升息 - 財經",
-      "url": "https://www.chinatimes.com/realtimenews/20261022002698-260410",
-      "source": "chinatimes.com",
       "source_type": "news",
       "published_at": "2026-10-22T07:00:00Z",
       "categories": [
