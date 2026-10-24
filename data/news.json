@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T05:58:13Z",
+  "generated_at": "2026-10-24T11:10:03Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -293,17 +293,16 @@
       "change_condition": null
     },
     {
-      "id": "news-5cbc42ac0c0f",
-      "title": "[ 채권마감 ] 2년~10년금리 2개월 최저 … 외인 선물매수+바이백발 수급",
-      "url": "https://www.etoday.co.kr/news/view/2638543",
-      "source": "etoday.co.kr",
+      "id": "news-d9abae0a22f1",
+      "title": "Incerteza sobre propostas de candidatos freia euforia do mercado",
+      "url": "https://oglobo.globo.com/economia/financas/noticia/2026/10/24/incerteza-sobre-propostas-de-candidatos-freia-euforia-do-mercado.ghtml",
+      "source": "oglobo.globo.com",
       "source_type": "news",
-      "published_at": "2026-10-21T09:45:00Z",
+      "published_at": "2026-10-24T10:30:00Z",
       "categories": [
-        "fx",
         "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -311,17 +310,169 @@
       "change_condition": null
     },
     {
-      "id": "news-d0bb5ba40f19",
-      "title": "野  레버리지 ETF , 김용범 특검 세울 것 … 이찬진  송구  [ 국감 ]",
-      "url": "https://www.etoday.co.kr/news/view/2637331",
-      "source": "etoday.co.kr",
+      "id": "news-edd38bcd1386",
+      "title": "Gelecek hafta piyasalar , merkez bankalarının faiz kararlarına odaklandı",
+      "url": "https://www.bloomberght.com/gelecek-hafta-piyasalar-merkez-bankalarinin-faiz-kararlarina-odaklandi-3792461",
+      "source": "bloomberght.com",
       "source_type": "news",
-      "published_at": "2026-10-21T06:30:00Z",
+      "published_at": "2026-10-24T10:30:00Z",
       "categories": [
-        "rates",
-        "etf"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1ea8967f279f",
+      "title": "투명한 정책 · 소통이 투자 · 소비 바꾼다 … 포퓰리즘 경제에 일침",
+      "url": "https://biz.chosun.com/it-science/general_policy/2026/10/24/T3TKEWR7WRDGRB6YMD2ZZWUXTI/",
+      "source": "biz.chosun.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T10:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-345555b57ceb",
+      "title": "Piyasalar haftayı kayıpla tamamladı : Gözler merkez bankalarında",
+      "url": "https://finans.sabah.com.tr/ekonomi/piyasalar-haftayi-kayipla-tamamladi-gozler-merkez-bankalarinda-7687358",
+      "source": "finans.sabah.com.tr",
+      "source_type": "news",
+      "published_at": "2026-10-24T09:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2c8a7f66f41c",
+      "title": "美股下跌Fed開會在即 學者看連假過後新台幣短線貶勢居多 | 產經",
+      "url": "https://www.cna.com.tw:443/news/afe/202610240131.aspx",
+      "source": "cna.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-24T09:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2318a3ddebc8",
+      "title": "Euro sinks on French debt worries , yen gains for week on AI rout",
+      "url": "https://www.asiaone.com/money/euro-sinks-french-debt-worries-yen-gains-week-ai-rout",
+      "source": "asiaone.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f4b0777a5d97",
+      "title": "Küresel piyasalar , merkez bankalarının faiz kararlarına odaklandı",
+      "url": "https://www.aa.com.tr/tr/ekonomi/kuresel-piyasalar-merkez-bankalarinin-faiz-kararlarina-odaklandi/4099260",
+      "source": "aa.com.tr",
+      "source_type": "news",
+      "published_at": "2026-10-24T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-700047f2dd00",
+      "title": "Küresel borsalar yapay zeka endişesiyle 1 trilyon doları aşan kayıp yaşadı",
+      "url": "https://www.haberler.com/ekonomi/kuresel-borsalar-yapay-zeka-endisesiyle-1-trilyon-20361389-haberi/",
+      "source": "haberler.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-449a7d6b2ecb",
+      "title": "Gram altın için 6800 lira sürprizi ! Necmettin Batırel çakılan fiyatlar için uyardı ve yükseliş tarihi verdi",
+      "url": "https://www.tgrthaber.com/ekonomi/gram-altin-icin-6800-lira-surprizi-necmettin-batirel-cakilan-fiyatlar-icin-uyardi-v-3367221",
+      "source": "tgrthaber.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a72bb65a3b42",
+      "title": "Inflation , earnings reports and the mood of consumers and the Federal Reserve fill out a busy week",
+      "url": "http://www.goskagit.com/news/ap_business/inflation-earnings-reports-and-the-mood-of-consumers-and-the-federal-reserve-fill-out-a/article_2a5364a6-9875-5a70-8630-6c2cb3180d90.html",
+      "source": "goskagit.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ffcb3f079355",
+      "title": "24 Ekim 2026 altın fiyatları | Altın enflasyon ve faiz baskısıyla düşüşte",
+      "url": "https://www.tgrthaber.com/ekonomi/24-ekim-2026-altin-fiyatlari-altin-enflasyon-ve-faiz-baskisiyla-dususte-3367188",
+      "source": "tgrthaber.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T08:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -609,159 +760,6 @@
       "published_at": "2026-10-23T15:00:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7b97eb80ed33",
-      "title": "Precio del oro se aleja de mínimo de tres meses ; repunte del crudo aviva temores de inflación",
-      "url": "https://www.eleconomista.com.mx/mercados/precio-oro-aleja-minimo-tres-meses-repunte-crudo-aviva-temores-inflacion-20261023-840163.html",
-      "source": "eleconomista.com.mx",
-      "source_type": "news",
-      "published_at": "2026-10-23T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-28e1c6eb6f51",
-      "title": "U . S . Stocks May See Further Downside Following Yesterday Sell - Off",
-      "url": "https://www.rttnews.com/3702448/u-s-stocks-may-see-further-downside-following-yesterday-s-sell-off.aspx",
-      "source": "rttnews.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T14:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bf029c0504d1",
-      "title": "Sept ans après leur  bromance , Trump toque à nouveau à la porte de Kim - 23 / 10 / 2026 à 16 : 05",
-      "url": "https://www.boursorama.com/actualite-economique/actualites/sept-ans-apres-leur-bromance-trump-toque-a-nouveau-a-la-porte-de-kim-25824c31dcbc59e343b70979ef369215",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T14:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2fd101e9d6c6",
-      "title": "डिजिटल करेन्सीको तयारीमा कहाँ पुग्यो राष्ट्र बैंक ? | Nepal first 24 - hour updated news portal",
-      "url": "https://www.ratopati.com/story/600944/where-is-the-national-bank-in-preparing-for-digital-currency",
-      "source": "ratopati.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06f34442f35a",
-      "title": "Austria expels 4 Russian diplomats linked to espionage , official says",
-      "url": "http://www.stardem.com/ap/world/austria-expels-4-russian-diplomats-linked-to-espionage-official-says/article_353a29d9-72a4-5055-8869-d7df828ba7b3.html",
-      "source": "stardem.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-00b6d3273327",
-      "title": "The secret terms of Trump Venezuelan oil deal",
-      "url": "https://www.salon.com/2026/10/23/the-secret-terms-of-trumps-venezuelan-oil-deal-partner/",
-      "source": "salon.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b96937963f94",
-      "title": "Saudi Arabia Postpones UN Forum Until 2027 Amid Regional Tensions",
-      "url": "http://www.pakistantelegraph.com/news/279394261/saudi-arabia-postpones-un-forum-until-2027-amid-regional-tensions",
-      "source": "pakistantelegraph.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ac86e6803307",
-      "title": "El oro ve peligrar los 4 . 000 dólares por el repunte del crudo y de la deuda francesa",
-      "url": "https://www.diariosigloxxi.com/texto-ep/mostrar/20261023143747/oro-ve-peligrar-4000-dolares-repunte-crudo-deuda-francesa",
-      "source": "diariosigloxxi.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eb4afb6e5bf7",
-      "title": "Fears about kid online safety unite Democrats and Republicans – The Press Democrat",
-      "url": "https://www.pressdemocrat.com/2026/10/23/kids-online-safety-democrats-republicans/",
-      "source": "pressdemocrat.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
