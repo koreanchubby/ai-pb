@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T00:49:08Z",
+  "generated_at": "2026-10-24T05:58:13Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -165,6 +165,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-0cedd9165e12",
+      "title": "Oil Kept Congo From Starving - Western Academics Dont Seem To Like That",
+      "url": "https://science20.com/hank_campbell/oil_kept_congo_from_starving_western_academics_dont_seem_to_like_that-257039",
+      "source": "science20.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-3eacae9e8ba5",
@@ -311,17 +329,237 @@
       "change_condition": null
     },
     {
-      "id": "news-649ba4fb85f9",
-      "title": "스페이스X , 우주기업에서 AI 기업으로 … 머스크는 1조달러 꿈꾼다 ( 종합 )",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02837206645615216&mediaCodeNo=257",
-      "source": "edaily.co.kr",
+      "id": "news-bb6153f690d4",
+      "title": "Γιατί χτυπούν τα τύμπανα του « Τρίτου πολέμου » στον Κόλπο",
+      "url": "https://www.naftemporiki.gr/kosmos/2179406/giati-chtypoyn-ta-tympana-toy-tritoy-polemoy-ston-kolpo/",
+      "source": "naftemporiki.gr",
       "source_type": "news",
-      "published_at": "2026-10-21T01:15:00Z",
+      "published_at": "2026-10-24T05:30:00Z",
       "categories": [
-        "semis",
-        "fx"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7a65044722fe",
+      "title": "Alice Schwarzer stellt « Emma » nach 50 Jahren ein",
+      "url": "https://www.nordschleswiger.dk/deutschland/alice-schwarzer-stellt-emma-nach-50-jahren-ein/3476598",
+      "source": "nordschleswiger.dk",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cdbb41a6deae",
+      "title": "Trump revives threat of US intervention in Cuba at Florida rally",
+      "url": "https://komonews.com/news/nation-world/trump-revives-threat-of-us-intervention-in-cuba-at-florida-rally",
+      "source": "komonews.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a930f92cc9d4",
+      "title": "Κομμωτήρια : Έρχονται αυξήσεις 5 % στις τιμές - Πότε θα γίνουν , γιατί και για ποιες υπηρεσίες θα βάλουμε πιο βαθιά το χέρι στην τσέπη",
+      "url": "https://www.enikonomia.gr/economy/gia-avrio-kommotiria-erchontai-afxise/721729/",
+      "source": "enikonomia.gr",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f1b23df308df",
+      "title": "From Wildwood to John Legend : your complete entertainment guide to the week ahead",
+      "url": "https://www.theguardian.com/culture/2026/oct/24/entertainment-week-ahead-wildwood-john-legend-suede-lives-of-others",
+      "source": "theguardian.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f407e190b860",
+      "title": "Consumer sentiment nears historic low , University of Michigan study finds",
+      "url": "https://www.wilx.com/2026/10/24/consumer-sentiment-nears-historic-low-university-michigan-study-finds/",
+      "source": "wilx.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-82996151b6ac",
+      "title": "Analysis - Trump foreign policy hits voters in the pocketbook , imperiling Republicans in midterms",
+      "url": "https://wtvbam.com/2026/10/24/analysis-trump-foreign-policy-hits-voters-in-the-pocketbook-imperiling-republicans-in-midterms/",
+      "source": "wtvbam.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5a16e4ef2c53",
+      "title": "Mỹ sẽ tấn công Iran ngay cuối tuần này hay chờ sau bầu cử ?",
+      "url": "https://tuoitre.vn/my-se-tan-cong-iran-ngay-cuoi-tuan-nay-hay-cho-sau-bau-cu-100261024091744867.htm",
+      "source": "tuoitre.vn",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-312101f97855",
+      "title": "Moneycontrol Pro Weekender | Dont panic",
+      "url": "https://www.moneycontrol.com/news/business/markets/moneycontrol-pro-weekender-don-t-panic-14058734.html",
+      "source": "moneycontrol.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aacdc21d3296",
+      "title": "Docenti e studenti uniti Letture biglietti valigie La lezione si fa in strada I prof",
+      "url": "https://www.zazoom.it/2026-10-24/docenti-e-studenti-uniti-letture-biglietti-valigie-la-lezione-si-fa-in-strada-i-prof-siamo-con-loro/19840944/",
+      "source": "zazoom.it",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f1aea636cad4",
+      "title": "Instacart in talks for sale : The Information - The Economic Times",
+      "url": "https://economictimes.indiatimes.com/tech/startups/instacart-in-talks-for-sale-the-information/articleshow/135162186.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2311ff609c7e",
+      "title": "Israel se prepara para una guerra más allá de la Tierra",
+      "url": "https://www.larazon.es/internacional/israel-prepara-guerra-mas-alla-tierra_202610246adc2d5f658beb674b2592ab.html",
+      "source": "larazon.es",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cd69d30086e1",
+      "title": "Las claves económicas de la semana 19 al 23 de octubre ): De actividad económica , empleo e inflación",
+      "url": "https://www.eleconomista.com.mx/economia/claves-economicas-semana-19-23-octubre-actividad-economica-empleo-e-inflacion-20261023-840276.html",
+      "source": "eleconomista.com.mx",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2f5e306aadc8",
+      "title": "David Crowley for governor means Black Milwaukee is in charge",
+      "url": "https://whsm.com/news/2026/10/23/david-crowley-for-governor-means-black-milwaukee-is-in-charge",
+      "source": "whsm.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T05:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -524,244 +762,6 @@
       "published_at": "2026-10-23T13:00:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6e2a6d695cde",
-      "title": "চার মাসের মধ্যে সর্বনিম্ন স্বর্ণের বাজার",
-      "url": "https://www.ntvbd.com/world/news-1823949",
-      "source": "ntvbd.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-577641afe7d6",
-      "title": "Borsa : Europa debole a metà giornata , Milano (- 0 , 5 %) limita danni con balzo Eni",
-      "url": "https://www.ilsole24ore.com/art/borsa-europa-debole-meta-giornata-milano-05percento-limita-danni-balzo-eni-AJBmQVsB",
-      "source": "ilsole24ore.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-462217507b98",
-      "title": "Росія пообіцяла відповісти Австрії на висилку чотирьох дипломатів",
-      "url": "https://24tv.ua/rosiya-poobitsyala-vidpovisti-avstriyi-visilku-chotiroh-diplomativ_n3166294",
-      "source": "24tv.ua",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d0f2af38de1c",
-      "title": "Benzyna może jeszcze potanieć . Nowe prognozy cen paliw",
-      "url": "https://www.dlahandlu.pl/nonfood/benzyna-moze-jeszcze-potaniec-nowe-prognozy-cen-paliw,176978.html",
-      "source": "dlahandlu.pl",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4ef6d31697d5",
-      "title": "ANALYSE - FLASH : RBC hebt Sartorius auf  Outperform  - Ziel hoch auf 330 Euro",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69920963-analyse-flash-rbc-hebt-sartorius-auf-outperform-ziel-hoch-auf-330-euro-016.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-48068b033ca4",
-      "title": "Sensex , Nifty extend losses as crude surges to USD 114 , all sectors close in red",
-      "url": "http://www.hongkongherald.com/news/279394370/sensex-nifty-extend-losses-as-crude-surges-to-usd-114-all-sectors-close-in-red",
-      "source": "hongkongherald.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-79e58331984a",
-      "title": "AKTIEN IM FOKUS 2 : Safran nach Quartalsbericht unter Druck - Auch Rolls - Royce , MTU und Melrose im Keller",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69920051-aktien-im-fokus-2-safran-nach-quartalsbericht-unter-druck-auch-rolls-royce-mtu-und-melrose-im-keller-016.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ededd93a34a5",
-      "title": "JEFFERIES stuft ROCHE HOLDINGS AG auf  Underperform",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-10/69920984-jefferies-stuft-roche-holdings-ag-auf-underperform-322.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-10-23T13:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3d8720585bfa",
-      "title": "Trump fait des avances à Kim Jong - un , qui continue de lignorer",
-      "url": "https://www.lessentiel.lu/fr/story/diplomatie-trump-fait-des-avances-a-kim-jong-un-qui-continue-de-l-ignorer-103654418",
-      "source": "lessentiel.lu",
-      "source_type": "news",
-      "published_at": "2026-10-23T12:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-441d0bf446aa",
-      "title": "Telur dómarann van­hæfan vegna starfa í slitastjórn",
-      "url": "https://www.visir.is/g/20262952618d/telur-domarann-van-haefan-vegna-starfa-i-slitastjorn",
-      "source": "visir.is",
-      "source_type": "news",
-      "published_at": "2026-10-23T12:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9705a2458486",
-      "title": "[ 三季报 ] 广东建工 ( 002060 ): 2026年三季度报告 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261023002552.html",
-      "source": "cfi.net.cn",
-      "source_type": "news",
-      "published_at": "2026-10-23T12:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f54b9557100b",
-      "title": "Why Bonds Stumbled and Stocks ( Mostly ) Stood Strong in Q3 , and What Lies Ahead for Investors",
-      "url": "https://www.morningstar.com/markets/why-bonds-stumbled-stocks-mostly-stood-strong-q3-what-lies-ahead-investors",
-      "source": "morningstar.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T12:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cfa7d69e9d11",
-      "title": "DN Direkt – Pojke begärd häktad efter knivlarm vid skola",
-      "url": "https://www.dn.se/direkt/2026-10-23/pojke-begard-haktad-efter-knivlarm-vid-skola/",
-      "source": "dn.se",
-      "source_type": "news",
-      "published_at": "2026-10-23T12:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-30a3dbbbc249",
-      "title": "黄金上演深V行情 ： 流动性挤兑下后市如何演绎 _ 金市直播 _ 黄金网 _ 中金在线",
-      "url": "http://gold.cnfol.com/jinshizhibo/20261023/32406805.shtml",
-      "source": "gold.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T12:00:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
