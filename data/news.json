@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T11:10:03Z",
+  "generated_at": "2026-10-24T14:36:50Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 22
     },
     {
       "source": "한국은행 ECOS",
@@ -293,6 +293,210 @@
       "change_condition": null
     },
     {
+      "id": "news-83b51183f587",
+      "title": "Mercati : settimana tra Fed , Bce e BoJ , fari su Francia , inflazione e big tech",
+      "url": "https://www.borsaitaliana.it/borsa/notizie/radiocor/economia/dettaglio/mercati-settimana-tra-fed-bce-e-boj-fari-su-francia-inflazione-e-big-tech-nRC_24102026_1357_269213024.html",
+      "source": "borsaitaliana.it",
+      "source_type": "news",
+      "published_at": "2026-10-24T13:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e6c6f0ee5396",
+      "title": "Americans have never had more of their money in stocks not even in the dot - com bubble : Chart of the Day",
+      "url": "https://www.aol.com/articles/americans-never-had-more-money-120127000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T13:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0491d0cbfcdd",
+      "title": "Küresel piyasalar , merkez bankalarının faiz kararlarına odaklandı - Kıbrıs Gazetesi - Kıbrıs Haber , KKTC Son Dakika ve Gündem Haberleri",
+      "url": "https://kibrisgazetesi.com/kuresel-piyasalar-merkez-bankalarinin-faiz-kararlarina-odaklandi-2/",
+      "source": "kibrisgazetesi.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T13:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d51126aa5069",
+      "title": "大同证券景剑文 ： A股短期受情绪面影响偏大 ， 利好因素正在酝酿积聚 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610243907113012.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T13:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8c3a6d5d8fa1",
+      "title": "Silver price has broken below ₹2 lakh for the first time since December 2025 : Is this the right time to buy for returns ?",
+      "url": "https://www.livemint.com/market/stock-market-news/silver-price-has-broken-below-2-lakh-for-the-first-time-since-december-2025-is-this-the-right-time-to-buy-for-returns-11792841534411.html",
+      "source": "livemint.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T12:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-24828099b7ae",
+      "title": "金价大幅回调 ！ 市场出现新信号→ _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610243907108549.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T12:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dff1bbb47a69",
+      "title": "President Donald Trump Just Threw Fed Chair Kevin Warsh Under the Bus , and Things Could Get Ugly for Wall Street",
+      "url": "https://www.fool.com/investing/2026/10/24/donald-trump-just-threw-fed-chair-kevin-warsh-under-bus-things-get-ugly-for-wall-street/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b355d83165af",
+      "title": "金价大幅回调 ！ 市场出现新信号",
+      "url": "https://futures.jrj.com.cn/2026/10/24192058858897.shtml",
+      "source": "futures.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-24T12:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4f8f50cf534b",
+      "title": "全球债务危机是什么样子的 _ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261024/32407148.shtml",
+      "source": "forex.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T12:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-04197874c160",
+      "title": "美联储前瞻 ： 10月暂停加息 ， 12月或将再度加息 _ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261024/32407147.shtml",
+      "source": "forex.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T12:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8dabe2184868",
+      "title": "Thailand Tunda Pajak Keberangkatan Rp 500 Ribu bagi Wisatawan , Ini Alasannya",
+      "url": "https://www.liputan6.com/lifestyle/read/8320083/thailand-tunda-pajak-keberangkatan-rp-500-ribu-bagi-wisatawan-ini-alasannya",
+      "source": "liputan6.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T11:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a45fa9f34d03",
+      "title": "Reuniões de outubro da Fed , BCE e Banco do Japão devem manter taxas de juro",
+      "url": "https://executivedigest.sapo.pt/reunioes-de-outubro-da-fed-bce-e-banco-do-japao-devem-manter-taxas-de-juro-analistas/",
+      "source": "executivedigest.sapo.pt",
+      "source_type": "news",
+      "published_at": "2026-10-24T11:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-d9abae0a22f1",
       "title": "Incerteza sobre propostas de candidatos freia euforia do mercado",
       "url": "https://oglobo.globo.com/economia/financas/noticia/2026/10/24/incerteza-sobre-propostas-de-candidatos-freia-euforia-do-mercado.ghtml",
@@ -369,6 +573,23 @@
       "published_at": "2026-10-24T09:00:00Z",
       "categories": [
         "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-35422f675df4",
+      "title": "Investor deposits at Seoul brokerages plunge on stock market volatility",
+      "url": "https://www.prokerala.com/news/articles/a1828240.html",
+      "source": "prokerala.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T08:30:00Z",
+      "categories": [
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -480,6 +701,40 @@
       "change_condition": null
     },
     {
+      "id": "news-a508ff047f0a",
+      "title": "뜬구름 잡는 김정은 사망설 … 장마당 환율과 물가 보면 답 나온다",
+      "url": "https://www.pressian.com/pages/articles/2026102400412357340",
+      "source": "pressian.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T06:45:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8e8fc6e1271d",
+      "title": "サムスン電子とSKハイニックス 財閥系2強が支配する韓国経済 | 週刊エコノミスト Onlineから | 週刊エコノミスト Online",
+      "url": "https://mainichi.jp/premier/business/articles/20261017/biz/00m/020/007000c",
+      "source": "mainichi.jp",
+      "source_type": "news",
+      "published_at": "2026-10-24T06:45:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-bb6153f690d4",
       "title": "Γιατί χτυπούν τα τύμπανα του « Τρίτου πολέμου » στον Κόλπο",
       "url": "https://www.naftemporiki.gr/kosmos/2179406/giati-chtypoyn-ta-tympana-toy-tritoy-polemoy-ston-kolpo/",
@@ -505,261 +760,6 @@
       "published_at": "2026-10-24T05:30:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cdbb41a6deae",
-      "title": "Trump revives threat of US intervention in Cuba at Florida rally",
-      "url": "https://komonews.com/news/nation-world/trump-revives-threat-of-us-intervention-in-cuba-at-florida-rally",
-      "source": "komonews.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a930f92cc9d4",
-      "title": "Κομμωτήρια : Έρχονται αυξήσεις 5 % στις τιμές - Πότε θα γίνουν , γιατί και για ποιες υπηρεσίες θα βάλουμε πιο βαθιά το χέρι στην τσέπη",
-      "url": "https://www.enikonomia.gr/economy/gia-avrio-kommotiria-erchontai-afxise/721729/",
-      "source": "enikonomia.gr",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f1b23df308df",
-      "title": "From Wildwood to John Legend : your complete entertainment guide to the week ahead",
-      "url": "https://www.theguardian.com/culture/2026/oct/24/entertainment-week-ahead-wildwood-john-legend-suede-lives-of-others",
-      "source": "theguardian.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f407e190b860",
-      "title": "Consumer sentiment nears historic low , University of Michigan study finds",
-      "url": "https://www.wilx.com/2026/10/24/consumer-sentiment-nears-historic-low-university-michigan-study-finds/",
-      "source": "wilx.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-82996151b6ac",
-      "title": "Analysis - Trump foreign policy hits voters in the pocketbook , imperiling Republicans in midterms",
-      "url": "https://wtvbam.com/2026/10/24/analysis-trump-foreign-policy-hits-voters-in-the-pocketbook-imperiling-republicans-in-midterms/",
-      "source": "wtvbam.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5a16e4ef2c53",
-      "title": "Mỹ sẽ tấn công Iran ngay cuối tuần này hay chờ sau bầu cử ?",
-      "url": "https://tuoitre.vn/my-se-tan-cong-iran-ngay-cuoi-tuan-nay-hay-cho-sau-bau-cu-100261024091744867.htm",
-      "source": "tuoitre.vn",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-312101f97855",
-      "title": "Moneycontrol Pro Weekender | Dont panic",
-      "url": "https://www.moneycontrol.com/news/business/markets/moneycontrol-pro-weekender-don-t-panic-14058734.html",
-      "source": "moneycontrol.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aacdc21d3296",
-      "title": "Docenti e studenti uniti Letture biglietti valigie La lezione si fa in strada I prof",
-      "url": "https://www.zazoom.it/2026-10-24/docenti-e-studenti-uniti-letture-biglietti-valigie-la-lezione-si-fa-in-strada-i-prof-siamo-con-loro/19840944/",
-      "source": "zazoom.it",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f1aea636cad4",
-      "title": "Instacart in talks for sale : The Information - The Economic Times",
-      "url": "https://economictimes.indiatimes.com/tech/startups/instacart-in-talks-for-sale-the-information/articleshow/135162186.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2311ff609c7e",
-      "title": "Israel se prepara para una guerra más allá de la Tierra",
-      "url": "https://www.larazon.es/internacional/israel-prepara-guerra-mas-alla-tierra_202610246adc2d5f658beb674b2592ab.html",
-      "source": "larazon.es",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cd69d30086e1",
-      "title": "Las claves económicas de la semana 19 al 23 de octubre ): De actividad económica , empleo e inflación",
-      "url": "https://www.eleconomista.com.mx/economia/claves-economicas-semana-19-23-octubre-actividad-economica-empleo-e-inflacion-20261023-840276.html",
-      "source": "eleconomista.com.mx",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2f5e306aadc8",
-      "title": "David Crowley for governor means Black Milwaukee is in charge",
-      "url": "https://whsm.com/news/2026/10/23/david-crowley-for-governor-means-black-milwaukee-is-in-charge",
-      "source": "whsm.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f9521bbe9ae3",
-      "title": "Cuentas con liquidez que rinden hasta el 5 %",
-      "url": "https://www.expansion.com/inversion/2026/10/23/6adb6fc3468aeb06278b45ad.html",
-      "source": "expansion.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dc71ca924ac7",
-      "title": "الذهب يتراجع ويتجه لتسجيل أكبر خسارة أسبوعية",
-      "url": "https://www.alanba.com.kw/1381948/",
-      "source": "alanba.com.kw",
-      "source_type": "news",
-      "published_at": "2026-10-23T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d28de048dfc8",
-      "title": "Banca dItalia - The two - tier system in transition : public foundations , private innovation",
-      "url": "https://www.bancaditalia.it/pubblicazioni/interventi-direttorio/int-dir-2026/20261023-scotti/",
-      "source": "bancaditalia.it",
-      "source_type": "news",
-      "published_at": "2026-10-23T15:00:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
