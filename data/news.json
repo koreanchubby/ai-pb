@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T14:25:42Z",
+  "generated_at": "2026-10-25T18:26:11Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -257,17 +257,16 @@
       "change_condition": null
     },
     {
-      "id": "news-badca9162568",
-      "title": "AI stocks weigh on markets Thursday as oil rises to highest price since May - National",
-      "url": "https://globalnews.ca/news/12113517/stock-markets-oil-ai/",
-      "source": "globalnews.ca",
+      "id": "news-fc4f105509b0",
+      "title": "Igbo must unite , build alliances to produce president Soludo",
+      "url": "https://www.vanguardngr.com/2026/10/igbo-must-unite-build-alliances-to-produce-president-soludo/",
+      "source": "vanguardngr.com",
       "source_type": "news",
-      "published_at": "2026-10-22T18:15:00Z",
+      "published_at": "2026-10-25T18:00:00Z",
       "categories": [
-        "geopolitics",
-        "oil"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -275,17 +274,237 @@
       "change_condition": null
     },
     {
-      "id": "news-a8a7771080f0",
-      "title": "Sinking AI stocks undercut markets worldwide as oil climbs to its highest price since May",
-      "url": "http://www.goskagit.com/news/nation/sinking-ai-stocks-undercut-markets-worldwide-as-oil-climbs-to-its-highest-price-since-may/article_133c676f-b039-5015-93fa-f0599624a819.html",
-      "source": "goskagit.com",
+      "id": "news-f8861bf10c0a",
+      "title": "שיטת נתניהו : הזנחה , הזנחה ועוד הזנחה , ואז מילת קסם באנגלית",
+      "url": "https://www.themarker.com/blogs/2026-10-25/ty-article/000001a1-73a9-d80a-a9bd-7bebc8040000",
+      "source": "themarker.com",
       "source_type": "news",
-      "published_at": "2026-10-22T17:45:00Z",
+      "published_at": "2026-10-25T18:00:00Z",
       "categories": [
-        "geopolitics",
-        "oil"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-96256bbce13a",
+      "title": "Katarzyna Pełczyńska - Nałęcz utworzy nowe stowarzyszenie .  Znowu nas zaskoczyła",
+      "url": "https://www.portalsamorzadowy.pl/polityka-i-spoleczenstwo/katarzyna-pelczynska-nalecz-utworzy-nowe-stowarzyszenie-znowu-nas-zaskoczyla,681549.html",
+      "source": "portalsamorzadowy.pl",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-26e5c04023a3",
+      "title": "阪神 ・ 佐藤輝明 契約規模は4年125億円 米全国紙の重鎮記者が見解 「 11月中に決まるはずだ 」",
+      "url": "https://news.livedoor.com/article/detail/32654690/",
+      "source": "news.livedoor.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5bf8e2fb8951",
+      "title": "Trump midterm swing brings him to Michigan as Republicans aim to undermine El - Sayed in Senate race",
+      "url": "https://www.wdio.com/ap-top-news/ap-top-news-political/trumps-midterm-swing-brings-him-to-michigan-as-republicans-aim-to-undermine-el-sayed-in-senate-race/",
+      "source": "wdio.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c55a73463d3e",
+      "title": "« Путин отправил EC в нокаут »: его ирония про госдолг привела в восторг Китай",
+      "url": "https://abnews.ru/news/2026/10/25/putin-otpravil-ec-v-nokaut-ego-ironiya-pro-gosdolg-privela-v-vostorg-kitaj",
+      "source": "abnews.ru",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-138ed3408182",
+      "title": "USA : Sikorski w CNN o wojnie w Ukrainie : należy zwiększyć presję na agresora , a nie ofiarę agresji",
+      "url": "https://www.wnp.pl/rynki/usa-sikorski-w-cnn-o-wojnie-w-ukrainie-nalezy-zwiekszyc-presje-na-agresora-a-nie-ofiare-agresji,1112768.html",
+      "source": "wnp.pl",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0ead71626988",
+      "title": "Tíz év börtönt kapott Matolcsy György rokona háborús bűntett miatt",
+      "url": "https://www.blikk.hu/aktualis/belfold/matolcsy-csalad-rokon-nyilas-mult-elfogtak-borton/2b9eb5r",
+      "source": "blikk.hu",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8a76bc48f240",
+      "title": "Вибори у США демократи можуть відновити підтримку України",
+      "url": "https://focus.ua/uk/world/772415-vibori-u-ssha-demokrati-mozhut-vidnoviti-pidtrimku-ukrajini",
+      "source": "focus.ua",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2cbebe3e4bb8",
+      "title": "美民主黨若主宰參眾兩院 路透 ： 終結伊朗戰爭 、 重啟援烏抗俄 - 國際",
+      "url": "https://news.ltn.com.tw/news/world/breakingnews/5618639",
+      "source": "news.ltn.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-00957b97112a",
+      "title": "Iranians fear possible return to all - out war as US and Israeli elections loom",
+      "url": "https://www.dorsetecho.co.uk/news/national/26668344.iranians-fear-possible-return-all-out-war-us-israeli-elections-loom/",
+      "source": "dorsetecho.co.uk",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-724330a444d2",
+      "title": "Выборы в США демократы могут возобновить поддержку Украины",
+      "url": "https://focus.ua/world/772415-vybory-v-ssha-demokraty-mogut-vozobnovit-podderzhku-ukrainy",
+      "source": "focus.ua",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d9d7f2593c11",
+      "title": "LPG Price Hike In Pakistan Impact Of united states Iran War ; अमेरिका - इराणच्या भांडणात पाकिस्तानची गळचेपी ! आता नागरिकांच्या दररोजच्या जेवणाचेही हाल",
+      "url": "https://maharashtratimes.com/business/business-news/lpg-price-hike-in-pakistan-impact-of-usa-iran-war/articleshow/135193555.cms",
+      "source": "maharashtratimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0ec2217b5969",
+      "title": "UK - first housing could offer £25 per month electricity bills",
+      "url": "https://www.worcesternews.co.uk/news/26668422.uk-first-housing-offer-25-per-month-electricity-bills/",
+      "source": "worcesternews.co.uk",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5359cd33ae35",
+      "title": "WDH / ROUNDUP 3 / Auftritt bei Trump : Audi will neues Werk in den united states bauen ()",
+      "url": "https://www.aktiencheck.de/analysen/Artikel-WDH_ROUNDUP_3_Auftritt_Trump_Audi_will_neues_Werk_USA_bauen-20198351",
+      "source": "aktiencheck.de",
+      "source_type": "news",
+      "published_at": "2026-10-25T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -539,227 +758,6 @@
       "published_at": "2026-10-25T03:30:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8d5ccd87ff2a",
-      "title": "New Type of Cyberattack Allowed Unauthorized Trades at Japanese Brokerage No User Info Required",
-      "url": "https://www.theepochtimes.com/bright/new-type-of-cyberattack-allowed-unauthorized-trades-at-japanese-brokerage-no-user-info-required-6107858",
-      "source": "theepochtimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T03:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-31c3260c6d89",
-      "title": "Deals : iPhone Duo launches , faces off against Galaxy Z Fold8 , Motorola Razr Fold and others",
-      "url": "https://www.gsmarena.com/deals_iphone_duo_launches_faces_off_against_galaxy_z_fold8_motorola_razr_fold_and_others-news-75184.php",
-      "source": "gsmarena.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-add47eca5ad1",
-      "title": "Changement dheure 2026  : pourquoi lheure dhiver arrive plus tôt cette année , faut - il avancer ou reculer sa montre  ?",
-      "url": "https://www.linternaute.com/actualite/guide-vie-quotidienne/1038385-changement-d-heure-2026-pourquoi-l-heure-d-hiver-arrive-plus-tot-cette-annee-faut-il-avancer-ou-reculer-sa-montre/",
-      "source": "linternaute.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fb728564b32e",
-      "title": "Bomben , Minen , Giftstoffe verrotten im Meer – und werden immer gefährlicher",
-      "url": "https://www.morgenpost.de/wirtschaft/article413427245/millionen-tonnen-munition-liegen-im-meer-und-sie-werden-immer-gefaehrlicher.html",
-      "source": "morgenpost.de",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8b530988cb81",
-      "title": "ضغوط الحرب .. ومستقبل الودائع الخليجية في مصر",
-      "url": "https://alhurra.com/48567",
-      "source": "alhurra.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3fe0fd11cc3b",
-      "title": "全市场 ： 米兰伤兵满营 ， 5名小将被征召",
-      "url": "https://www.163.com/dy/article/LA2GGF5I0549BAP0.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eb695f1fa737",
-      "title": "[ 데스크 칼럼 ] 국산차는 여전히 강한가",
-      "url": "https://biz.chosun.com/opinion/desk_column/2026/10/25/CCU5NZPQXZBU7JQYCBAM5V36TQ/",
-      "source": "biz.chosun.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6445bb2d12b9",
-      "title": "Halloween candy sales are off to a slow start amid high cost of living",
-      "url": "https://www.siliconvalley.com/2026/10/24/halloween-candy-expensive/",
-      "source": "siliconvalley.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-88242f9fdf96",
-      "title": "Over £1m makeover for Ryde and Newport High Streets confirmed",
-      "url": "https://onthewight.com/over-1m-makeover-for-ryde-and-newport-high-streets-confirmed/",
-      "source": "onthewight.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-96cc361ae53d",
-      "title": "הטירוף המוחלט - מאמר מערכת",
-      "url": "https://www.haaretz.co.il/opinions/editorial-articles/2026-10-25/ty-article-opinion/000001a1-6ebf-d29a-a1a5-eebf3e3e0000",
-      "source": "haaretz.co.il",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7e6f8a318be4",
-      "title": "İsrail Merkez Bankası , Netanyahunun yaptırımlara karşı kripto para kullanma önerisini reddetti :  Uygulanmasını önleyin",
-      "url": "https://anlatilaninotesi.com.tr/20261024/israil-merkez-bankasi-netanyahunun-yaptirimlara-karsi-kripto-para-kullanma-onerisini-reddetti-1109831536.html",
-      "source": "anlatilaninotesi.com.tr",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-df0309892f34",
-      "title": "Somali diaspora showcases new literature at Minneapolis International Book Fair",
-      "url": "https://kenya-today.com/report-somali-diaspora-showcases-new-literature-at-minneapolis-international-book-fair-16329/",
-      "source": "kenya-today.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3a34952799d1",
-      "title": "Dnes v noci sa mení čas : Hodiny posunieme dozadu , vyspíme sa o hodinu dlhšie",
-      "url": "https://www.24hod.sk/dnes-v-noci-sa-meni-cas-hodiny-posunieme-dozadu-vyspime-sa-o-hodinu-dlhsie-cl833055.html",
-      "source": "24hod.sk",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
