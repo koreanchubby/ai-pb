@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T04:50:11Z",
+  "generated_at": "2026-10-25T09:52:13Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -91,6 +91,31 @@
       }
     },
     {
+      "id": "market-a0d194e1a1c5",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-22T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261023",
+        "alert_threshold": 0.25
+      }
+    },
+    {
       "id": "market-bede90510ae8",
       "title": "원/달러 환율(매매기준율) 1324.6원 (직전 대비 -0.9원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
@@ -113,31 +138,6 @@
         "unit": "원",
         "date": "20261023",
         "alert_threshold": 15.0
-      }
-    },
-    {
-      "id": "market-4538c6fca731",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-21T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261022",
-        "alert_threshold": 0.25
       }
     },
     {
@@ -283,24 +283,6 @@
       "published_at": "2026-10-22T17:45:00Z",
       "categories": [
         "geopolitics",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8a07af775d09",
-      "title": "Gold drops over 1 % as oil rally reinforces higher - for - longer rate outlook",
-      "url": "https://www.thehindubusinessline.com/markets/gold/gold-drops-over-1-as-oil-rally-reinforces-higher-for-longer-rate-outlook/article71610042.ece",
-      "source": "thehindubusinessline.com",
-      "source_type": "news",
-      "published_at": "2026-10-22T07:00:00Z",
-      "categories": [
-        "rates",
         "oil"
       ],
       "importance": 4,
