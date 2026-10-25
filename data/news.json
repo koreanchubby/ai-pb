@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-24T23:19:44Z",
+  "generated_at": "2026-10-25T04:50:11Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -167,6 +167,24 @@
       }
     },
     {
+      "id": "news-08e9e39a497e",
+      "title": "[ 김남현의 채권썰 ] 주가에서 유가 · FOMC로 관심 한클릭 이동",
+      "url": "https://www.etoday.co.kr/news/view/2639679",
+      "source": "etoday.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-24T17:15:00Z",
+      "categories": [
+        "rates",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-8a71383ffd05",
       "title": "Vanguard Morningstar Growth ETF vs . Vanguard Information Technology ETF : Here Which One I Believe Is the Clear Long - Term Winner .",
       "url": "https://www.fool.com/investing/2026/10/24/vug-vgt-clear-long-term-winner/?source=iedfolrf0000001",
@@ -286,6 +304,40 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-78b2772eb085",
+      "title": "Fed expected to hold rates steady days ahead of U . S . midterms",
+      "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/25/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms/",
+      "source": "bnnbloomberg.ca",
+      "source_type": "news",
+      "published_at": "2026-10-25T03:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8d5ccd87ff2a",
+      "title": "New Type of Cyberattack Allowed Unauthorized Trades at Japanese Brokerage No User Info Required",
+      "url": "https://www.theepochtimes.com/bright/new-type-of-cyberattack-allowed-unauthorized-trades-at-japanese-brokerage-no-user-info-required-6107858",
+      "source": "theepochtimes.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T03:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -565,6 +617,23 @@
       "change_condition": null
     },
     {
+      "id": "news-331546dc09dc",
+      "title": "التقشف وحصص المحافظات والدولار .. ملفات ساخنة تحاصر موازنة 2027",
+      "url": "https://almadapaper.net/458218/",
+      "source": "almadapaper.net",
+      "source_type": "news",
+      "published_at": "2026-10-24T21:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-f7d105844528",
       "title": "Nvidia DSX POD : A 14 - Day AI Data Center , a 4 - Year Power Wait",
       "url": "https://memeburn.com/nvidia-dsx-pod/",
@@ -590,6 +659,57 @@
       "published_at": "2026-10-24T21:00:00Z",
       "categories": [
         "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-04bcd28ad157",
+      "title": "Netanyahu plant Krypto - Einsatz zur Sanktionsumgehung",
+      "url": "https://www.tagesanzeiger.ch/netanyahu-plant-krypto-einsatz-zur-sanktionsumgehung-924232873631",
+      "source": "tagesanzeiger.ch",
+      "source_type": "news",
+      "published_at": "2026-10-24T19:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ec0e9aa62cf6",
+      "title": "Банк Израиля против Нетанияху : криптовалюта не поможет обходить санкции",
+      "url": "https://news.israelinfo.co.il/149148",
+      "source": "news.israelinfo.co.il",
+      "source_type": "news",
+      "published_at": "2026-10-24T19:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-10e970a7bb27",
+      "title": "Americans have never had more of their money in stocks not even in the dot - com bubble : Chart of the Day",
+      "url": "https://finance.yahoo.com/markets/article/americans-have-never-had-more-of-their-money-in-stocks--not-even-in-the-dot-com-bubble-chart-of-the-day-120127109.html",
+      "source": "finance.yahoo.com",
+      "source_type": "news",
+      "published_at": "2026-10-24T19:15:00Z",
+      "categories": [
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -633,133 +753,14 @@
       "change_condition": null
     },
     {
-      "id": "news-26c002e8b25f",
-      "title": "AI funding fears rattle Wall Street . Here how were adjusting our portfolio",
-      "url": "https://www.cnbc.com/investingclub/2026/10/24/ai-funding-fears-rattle-wall-street-heres-how-were-adjusting-our-portfolio.html",
-      "source": "cnbc.com",
+      "id": "news-08facd50d24c",
+      "title": "BMI預計菲央行12月將再次加息",
+      "url": "http://www.shangbao.com.ph/jjxw/2026/10-24/207245.shtml",
+      "source": "shangbao.com.ph",
       "source_type": "news",
-      "published_at": "2026-10-24T17:15:00Z",
+      "published_at": "2026-10-24T18:00:00Z",
       "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d14dee2c000e",
-      "title": "I cant recommend the Nvidia Shield TV Pro , even after an Apple TV 4K price hike",
-      "url": "https://www.howtogeek.com/i-cant-recommend-the-nvidia-shield-tv-pro-after-apple-tv-4k-price-hike/",
-      "source": "howtogeek.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T17:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-16eec889038d",
-      "title": "折叠屏供应链  等来  苹果之后 - 经济观察网 － 专业财经新闻网站",
-      "url": "http://www.eeo.com.cn/2026/1024/1074909.shtml",
-      "source": "eeo.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-24T17:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-efbce25096b8",
-      "title": "Oppo Find X10 and X10 Pro Max go global , OLED MacBook coming on Oct 28",
-      "url": "https://www.gsmarena.com/oppo_find_x10_and_x10_pro_max_go_global_oled_macbook_coming_on_oct_28-news-75191.php",
-      "source": "gsmarena.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T17:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d05b7d0d5337",
-      "title": "6 Samsung features that run smoother and faster on my Google Pixel",
-      "url": "https://www.androidpolice.com/6-samsung-features-that-run-smoother-faster-on-my-google-pixel/",
-      "source": "androidpolice.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T17:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d5cb8be1ec45",
-      "title": "Micron Technology , Inc . $MU Holdings Raised by Lake Street Private Wealth LLC",
-      "url": "https://www.dailypolitical.com/2026/10/24/micron-technology-inc-mu-holdings-raised-by-lake-street-private-wealth-llc.html",
-      "source": "dailypolitical.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d5297f493d57",
-      "title": "The Nasdaq - 100 Had Its Worst Week in 18 Months . History Says the Following Year Has Usually Been Strong .",
-      "url": "https://www.aol.com/articles/nasdaq-100-had-worst-week-152702000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T16:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8ed218fe29ce",
-      "title": "1 , 318 Micron Technology , Inc . $MU Shares Bought by Lake Street Private Wealth LLC",
-      "url": "https://www.tickerreport.com/banking-finance/13635311/1318-micron-technology-inc-mu-shares-bought-by-lake-street-private-wealth-llc.html",
-      "source": "tickerreport.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T16:15:00Z",
-      "categories": [
-        "semis"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
