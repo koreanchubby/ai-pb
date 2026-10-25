@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T09:52:13Z",
+  "generated_at": "2026-10-25T14:25:42Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -293,6 +293,244 @@
       "change_condition": null
     },
     {
+      "id": "news-8e359b16181c",
+      "title": "The Next Palantir ? Why This Under - the - Radar Software Stock Could Be the Biggest Surprise of 2027",
+      "url": "https://www.aol.com/articles/next-palantir-why-under-radar-105000000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T12:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-639bdf484e91",
+      "title": "갤럭시A 20 % 감산 … 삼성 , 칩플레이션 대응",
+      "url": "https://www.etnews.com/20261023000235",
+      "source": "etnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1fea439dc8ef",
+      "title": "주식 열풍 잦아들었는데 코인 여전히 잠잠한 이유는 ?",
+      "url": "https://www.hani.co.kr/arti/economy/finance/1284064.html",
+      "source": "hani.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-47dbf5575738",
+      "title": "Corning Incorporated $GLW Shares Sold by Robeco Schweiz AG",
+      "url": "https://www.themarketsdaily.com/2026/10/25/corning-incorporated-glw-shares-sold-by-robeco-schweiz-ag.html",
+      "source": "themarketsdaily.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9f661cf1f34c",
+      "title": "AI大模型狂飙 ， 面板行业也扛不住了 - 钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8180986.html",
+      "source": "tmtpost.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-33da217a4e11",
+      "title": "[ 증시 예보 ] 결국 열쇠는  삼전닉스 … 28 · 29일이 진짜 중요한 이유",
+      "url": "https://biz.heraldcorp.com/article/10913081",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cd46fb78c220",
+      "title": "Nvidia vs . Micron : The AI Revolution Is Big Enough for Both . Here the Better Buy .",
+      "url": "https://www.aol.com/articles/nvidia-vs-micron-ai-revolution-085000000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a70015573473",
+      "title": "市场过度恐慌 ？ 野村 ： 存储短缺将延续至2028年 AI资本开支韧性仍强 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202610253907252749.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6e8e78113b89",
+      "title": "Where Will Bloom Energy Stock Be in 5 Years ?",
+      "url": "https://www.aol.com/articles/where-bloom-energy-stock-5-100000000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-02d934e78d8e",
+      "title": "삼성 , 하반기 GSAT 실시 … 19개 관계사 신입사원 채용",
+      "url": "https://www.newspim.com/news/view/20261025000085",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-945df74f253d",
+      "title": "AI大模型狂飙 ， 面板行业也扛不住了",
+      "url": "https://www.163.com/dy/article/LA3UNF3C05118O92.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-56d41dd3424f",
+      "title": "4대 그룹 유일 공채 ... 삼성 ,  삼성고시  GSAT 실시",
+      "url": "https://news.mtn.co.kr/article/2026102513323222910",
+      "source": "news.mtn.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-25T10:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4198ce5b2ac0",
+      "title": "Intel Corporation $INTC Stock : Madrona Financial Services LLC Grows Position",
+      "url": "https://www.themarketsdaily.com/2026/10/25/intel-corporation-intc-stock-madrona-financial-services-llc-grows-position.html",
+      "source": "themarketsdaily.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T10:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-657d5f9279fa",
+      "title": "周末影响市场重要资讯回顾 ： 上证指数 、 科创综指明起有新变化 ， 高盛下调韩国股指目标价",
+      "url": "https://finance.sina.com.cn/roll/2026-10-25/doc-iniwmtkq3014174.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-10-25T10:45:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-78b2772eb085",
       "title": "Fed expected to hold rates steady days ahead of U . S . midterms",
       "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/25/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms/",
@@ -522,227 +760,6 @@
       "published_at": "2026-10-24T22:00:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ebe23c2170cf",
-      "title": "A Tel - Aviv , rassemblement massif contre Netanyahu avant les élections",
-      "url": "https://www.linternaute.com/actualite/depeches/11310681-a-tel-aviv-rassemblement-massif-contre-netanyahu-avant-les-elections/",
-      "source": "linternaute.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-99dcb1655367",
-      "title": "« Дорога с двусторонним движением »: Захарова осадила Париж , требующий не вмешиваться в дела Франции",
-      "url": "https://news.mail.ru/politics/72845381/",
-      "source": "news.mail.ru",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-863c6b796acd",
-      "title": "Locuințele de lux din Spania s - au scumpit cu până la 9 , 5 % în ultimul an . Cine sunt cumpărătorii străini care caută un refugiu departe de război",
-      "url": "https://www.cotidianul.ro/locuintele-de-lux-din-spania-s-au-scumpit-cu-pana-la-95-in-ultimul-an-cine-sunt-cumparatorii-straini-care-cauta-un-refugiu-departe-de-razboi/",
-      "source": "cotidianul.ro",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-32802c183ce7",
-      "title": "Jerónimo Páez y José Manuel Cassinello : La parábola del tapón",
-      "url": "https://www.ideal.es/opinion/jeronimo-paez-y-jose-manuel-cassinello-parabola-tapon-20261025224408-nt.html",
-      "source": "ideal.es",
-      "source_type": "news",
-      "published_at": "2026-10-24T22:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-331546dc09dc",
-      "title": "التقشف وحصص المحافظات والدولار .. ملفات ساخنة تحاصر موازنة 2027",
-      "url": "https://almadapaper.net/458218/",
-      "source": "almadapaper.net",
-      "source_type": "news",
-      "published_at": "2026-10-24T21:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f7d105844528",
-      "title": "Nvidia DSX POD : A 14 - Day AI Data Center , a 4 - Year Power Wait",
-      "url": "https://memeburn.com/nvidia-dsx-pod/",
-      "source": "memeburn.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T21:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e846d76c6686",
-      "title": "Apple American Manufacturing Program : ~100 US iPhone Parts",
-      "url": "https://memeburn.com/apple-american-manufacturing/",
-      "source": "memeburn.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T21:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-04bcd28ad157",
-      "title": "Netanyahu plant Krypto - Einsatz zur Sanktionsumgehung",
-      "url": "https://www.tagesanzeiger.ch/netanyahu-plant-krypto-einsatz-zur-sanktionsumgehung-924232873631",
-      "source": "tagesanzeiger.ch",
-      "source_type": "news",
-      "published_at": "2026-10-24T19:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ec0e9aa62cf6",
-      "title": "Банк Израиля против Нетанияху : криптовалюта не поможет обходить санкции",
-      "url": "https://news.israelinfo.co.il/149148",
-      "source": "news.israelinfo.co.il",
-      "source_type": "news",
-      "published_at": "2026-10-24T19:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-10e970a7bb27",
-      "title": "Americans have never had more of their money in stocks not even in the dot - com bubble : Chart of the Day",
-      "url": "https://finance.yahoo.com/markets/article/americans-have-never-had-more-of-their-money-in-stocks--not-even-in-the-dot-com-bubble-chart-of-the-day-120127109.html",
-      "source": "finance.yahoo.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T19:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-816d44d246b6",
-      "title": "Canadian Reviewer - Reviews , News and Opinion with a Canadian Perspective",
-      "url": "https://www.canadianreviewer.com/cr/?currentPage=4920",
-      "source": "canadianreviewer.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T19:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7a904d05c5fa",
-      "title": "Jack Dorsey new voice AI is impressing users and alarming fraud watchers",
-      "url": "https://www.coindesk.com/tech/2026/10/24/block-s-new-voice-ai-sounds-eerily-human-sparking-awe-and-scam-fears",
-      "source": "coindesk.com",
-      "source_type": "news",
-      "published_at": "2026-10-24T19:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-08facd50d24c",
-      "title": "BMI預計菲央行12月將再次加息",
-      "url": "http://www.shangbao.com.ph/jjxw/2026/10-24/207245.shtml",
-      "source": "shangbao.com.ph",
-      "source_type": "news",
-      "published_at": "2026-10-24T18:00:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
