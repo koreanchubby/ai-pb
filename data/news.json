@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-25T21:51:16Z",
+  "generated_at": "2026-10-26T00:26:11Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 5
     },
     {
       "source": "한국은행 ECOS",
@@ -230,24 +230,6 @@
       "categories": [
         "rates",
         "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4bfa8035877a",
-      "title": "AI 투자비 우려에 나스닥 2 . 6 % ↓ … 반도체주 또  와르르 [ 뉴스새벽배송 ]",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02830646645615872&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-22T23:45:00Z",
-      "categories": [
-        "rates",
-        "semis"
       ],
       "importance": 4,
       "facts": null,
@@ -529,6 +511,57 @@
       "change_condition": null
     },
     {
+      "id": "news-d38b4915afd5",
+      "title": "K미용의료 대장 3사 , 3분기 숨고르기 … 환율 · 수요 둔화에 수익성 압박",
+      "url": "https://www.etnews.com/20261023000255",
+      "source": "etnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-27a1cb19a5f0",
+      "title": "국내선 이름값 못한 채 … 출렁이는 스테이블코인",
+      "url": "https://www.hani.co.kr/arti/economy/economy_general/1284063.html",
+      "source": "hani.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6986dad62ec3",
+      "title": "Audi goes united states : Mit diesem deutschen Autobauer will Trump bei den Wahlen punkten",
+      "url": "https://de.euronews.com/2026/10/25/audi-goes-usa-investition-trump-wahlen",
+      "source": "de.euronews.com",
+      "source_type": "news",
+      "published_at": "2026-10-25T11:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-639bdf484e91",
       "title": "갤럭시A 20 % 감산 … 삼성 , 칩플레이션 대응",
       "url": "https://www.etnews.com/20261023000235",
@@ -724,40 +757,6 @@
       "published_at": "2026-10-25T10:45:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-657d5f9279fa",
-      "title": "周末影响市场重要资讯回顾 ： 上证指数 、 科创综指明起有新变化 ， 高盛下调韩国股指目标价",
-      "url": "https://finance.sina.com.cn/roll/2026-10-25/doc-iniwmtkq3014174.shtml",
-      "source": "finance.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-25T10:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-78b2772eb085",
-      "title": "Fed expected to hold rates steady days ahead of U . S . midterms",
-      "url": "https://www.bnnbloomberg.ca/business/economics/2026/10/25/fed-expected-to-hold-rates-steady-days-ahead-of-us-midterms/",
-      "source": "bnnbloomberg.ca",
-      "source_type": "news",
-      "published_at": "2026-10-25T03:30:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
