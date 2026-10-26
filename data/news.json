@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T14:20:46Z",
+  "generated_at": "2026-10-26T20:33:34Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -229,24 +229,6 @@
       "published_at": "2026-10-24T05:30:00Z",
       "categories": [
         "geopolitics",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3eacae9e8ba5",
-      "title": "Crude benchmarks firmer amidst ongoing tensions in the Middle East ; EUR digests poor PMI metrics - Newsquawk US Market Open",
-      "url": "http://www.zerohedge.com/markets/crude-benchmarks-firmer-amidst-ongoing-tensions-middle-east-eur-digests-poor-pmi-metrics",
-      "source": "zerohedge.com",
-      "source_type": "news",
-      "published_at": "2026-10-23T14:30:00Z",
-      "categories": [
-        "rates",
         "oil"
       ],
       "importance": 4,
