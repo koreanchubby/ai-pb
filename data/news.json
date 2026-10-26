@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T06:20:30Z",
+  "generated_at": "2026-10-26T14:20:46Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 6
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -89,6 +90,31 @@
       }
     },
     {
+      "id": "market-a6db17206af5",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-23T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261024",
+        "alert_threshold": 0.25
+      }
+    },
+    {
       "id": "market-364c2dea8555",
       "title": "미국 10년물 국채금리 5% (직전 대비 +0.04%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -112,31 +138,6 @@
         "date": "2026-10-23",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-a0d194e1a1c5",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-22T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261023",
-        "alert_threshold": 0.25
       }
     },
     {
@@ -164,6 +165,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-42292c273c61",
+      "title": "Les Houthis attaquent une nouvelle fois laéroport de Riyad , les forces saoudiennes annoncent avoir intercepté un missile balistique",
+      "url": "https://www.bfmtv.com/international/moyen-orient/les-houthis-attaquent-une-nouvelle-fois-l-aeroport-de-riyad-les-forces-saoudiennes-annoncent-avoir-intercepte-un-missile-balistique_AD-202610260129.html",
+      "source": "bfmtv.com",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-08e9e39a497e",
@@ -231,6 +250,244 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e169c7483fa7",
+      "title": "cooking with toxic plastics .....",
+      "url": "https://yourdemocracy.net/drupal/node/61560",
+      "source": "yourdemocracy.net",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e337bfa1b7fe",
+      "title": "Podeljena azijska tržišta na početku nedelje : Cene nafte pale",
+      "url": "https://www.blic.rs/biznis/vesti/podeljena-azijska-trzista-na-pocetku-nedelje-cene-nafte-pale/1g5ktg1",
+      "source": "blic.rs",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b8458f366161",
+      "title": "TOR to be listed on Ghana Stock Exchange – MD tells visiting IMF team",
+      "url": "https://thechronicle.com.gh/tor-to-be-listed-on-ghana-stock-exchange-md-tells-visiting-imf-team/",
+      "source": "thechronicle.com.gh",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-362d0b57c8bd",
+      "title": "Sensex falls 134 points , Nifty slips below 22 , 600 amid crude oil prices and West Asia tensions",
+      "url": "https://www.ibtimes.co.in/sensex-falls-134-points-nifty-slips-below-22600-amid-crude-oil-prices-west-asia-tensions-907850",
+      "source": "ibtimes.co.in",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3a5b2d55ca67",
+      "title": "Warum der Ausdruck „- maxxing  gerade so beliebt ist",
+      "url": "https://www.swr.de/kultur/gesellschaft/warum-gerade-alle-vom-maxxing-reden-100.html",
+      "source": "swr.de",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-77f7eddfc0b8",
+      "title": "Piyasalarda gözler Fedin faiz kararına çevrildi",
+      "url": "https://www.haberturk.com/ekonomi/piyasalarda-gozler-fed-in-faiz-kararina-cevrildi-3922548",
+      "source": "haberturk.com",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-60a6a66eb1bf",
+      "title": "Tankrabatt : Warum Diesel - Fahrer weniger davon haben als versprochen",
+      "url": "https://www.mdr.de/nachrichten/deutschland/wirtschaft/spritpreise-rabatt-tankstelle-diesel-weitergabe-ifo,tankrabatt-336.html",
+      "source": "mdr.de",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b5cfdf9834e6",
+      "title": "US - Außenminister macht kruden CIA - Vorschlag – Kuba lacht sich schlapp",
+      "url": "https://www.otz.de/politik/article413497745/schraeger-vorschlag-des-us-aussenministers-cia-sucht-kubanische-verraeter.html",
+      "source": "otz.de",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0b04cc10d1c7",
+      "title": "Bài 4 : Đứa bé mồ côi mẹ dưới cánh rừng miền Đông năm ấy",
+      "url": "https://congan.com.vn/tin-chinh/bai-4-dua-be-mo-coi-me-duoi-canh-rung-mien-dong-nam-ay_199176.html",
+      "source": "congan.com.vn",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-443c09a3da01",
+      "title": "KOSPI Slides 1 . 4 % Below 5 , 500 as Foreign Selling Hits Seoul Stocks Ahead of SK Hynix and Samsung Earnings",
+      "url": "https://www.ibtimes.com.au/south-korean-shares-fall-ahead-chip-earnings-1877393",
+      "source": "ibtimes.com.au",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f4822aa636e6",
+      "title": "코스피 , 눈치보기 장세 속 5460선 마감 … 외인 , 오늘도  팔자",
+      "url": "https://www.etoday.co.kr/news/view/2640178",
+      "source": "etoday.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-652b75d0d08d",
+      "title": "特朗普谈高油价 ： 我们正赚得盆满钵满",
+      "url": "https://finance.ifeng.com/c/8xXHHhLmRUw",
+      "source": "finance.ifeng.com",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8a4cd499c3e5",
+      "title": "The 67 Per Cent Moment : India Is Paying More for a New Economic Order",
+      "url": "https://www.ibtimes.co.in/67-per-cent-moment-india-paying-more-new-economic-order-907846",
+      "source": "ibtimes.co.in",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-32c3a8ae5cac",
+      "title": "Obama stichelt gegen Verteidigungsminister Hegseth : „ Diese Leute sind nicht ernst zu nehmen",
+      "url": "http://www.fnp.de/politik/obama-stichelt-gegen-verteidigungsminister-hegseth-diese-leute-sind-nicht-ernst-zu-nehmen-zr-94557943.html",
+      "source": "fnp.de",
+      "source_type": "news",
+      "published_at": "2026-10-26T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -501,261 +758,6 @@
       "published_at": "2026-10-25T18:00:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8e359b16181c",
-      "title": "The Next Palantir ? Why This Under - the - Radar Software Stock Could Be the Biggest Surprise of 2027",
-      "url": "https://www.aol.com/articles/next-palantir-why-under-radar-105000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T12:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d38b4915afd5",
-      "title": "K미용의료 대장 3사 , 3분기 숨고르기 … 환율 · 수요 둔화에 수익성 압박",
-      "url": "https://www.etnews.com/20261023000255",
-      "source": "etnews.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-27a1cb19a5f0",
-      "title": "국내선 이름값 못한 채 … 출렁이는 스테이블코인",
-      "url": "https://www.hani.co.kr/arti/economy/economy_general/1284063.html",
-      "source": "hani.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6986dad62ec3",
-      "title": "Audi goes united states : Mit diesem deutschen Autobauer will Trump bei den Wahlen punkten",
-      "url": "https://de.euronews.com/2026/10/25/audi-goes-usa-investition-trump-wahlen",
-      "source": "de.euronews.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-639bdf484e91",
-      "title": "갤럭시A 20 % 감산 … 삼성 , 칩플레이션 대응",
-      "url": "https://www.etnews.com/20261023000235",
-      "source": "etnews.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1fea439dc8ef",
-      "title": "주식 열풍 잦아들었는데 코인 여전히 잠잠한 이유는 ?",
-      "url": "https://www.hani.co.kr/arti/economy/finance/1284064.html",
-      "source": "hani.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-47dbf5575738",
-      "title": "Corning Incorporated $GLW Shares Sold by Robeco Schweiz AG",
-      "url": "https://www.themarketsdaily.com/2026/10/25/corning-incorporated-glw-shares-sold-by-robeco-schweiz-ag.html",
-      "source": "themarketsdaily.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9f661cf1f34c",
-      "title": "AI大模型狂飙 ， 面板行业也扛不住了 - 钛媒体官方网站",
-      "url": "https://www.tmtpost.com/8180986.html",
-      "source": "tmtpost.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-33da217a4e11",
-      "title": "[ 증시 예보 ] 결국 열쇠는  삼전닉스 … 28 · 29일이 진짜 중요한 이유",
-      "url": "https://biz.heraldcorp.com/article/10913081",
-      "source": "biz.heraldcorp.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cd46fb78c220",
-      "title": "Nvidia vs . Micron : The AI Revolution Is Big Enough for Both . Here the Better Buy .",
-      "url": "https://www.aol.com/articles/nvidia-vs-micron-ai-revolution-085000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a70015573473",
-      "title": "市场过度恐慌 ？ 野村 ： 存储短缺将延续至2028年 AI资本开支韧性仍强 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202610253907252749.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6e8e78113b89",
-      "title": "Where Will Bloom Energy Stock Be in 5 Years ?",
-      "url": "https://www.aol.com/articles/where-bloom-energy-stock-5-100000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-02d934e78d8e",
-      "title": "삼성 , 하반기 GSAT 실시 … 19개 관계사 신입사원 채용",
-      "url": "https://www.newspim.com/news/view/20261025000085",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-945df74f253d",
-      "title": "AI大模型狂飙 ， 面板行业也扛不住了",
-      "url": "https://www.163.com/dy/article/LA3UNF3C05118O92.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-25T11:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-56d41dd3424f",
-      "title": "4대 그룹 유일 공채 ... 삼성 ,  삼성고시  GSAT 실시",
-      "url": "https://news.mtn.co.kr/article/2026102513323222910",
-      "source": "news.mtn.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-25T10:45:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
