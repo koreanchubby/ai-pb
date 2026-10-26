@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-26T00:26:11Z",
+  "generated_at": "2026-10-26T06:20:30Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 5
+      "count": 6
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -63,6 +62,31 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-d95fadae7190",
+      "title": "원/달러 환율(매매기준율) 1324.3원 (직전 대비 -0.3원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-25T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1324.3,
+        "previous": 1324.6,
+        "change": -0.3,
+        "unit": "원",
+        "date": "20261026",
+        "alert_threshold": 15.0
+      }
     },
     {
       "id": "market-364c2dea8555",
@@ -113,31 +137,6 @@
         "unit": "%",
         "date": "20261023",
         "alert_threshold": 0.25
-      }
-    },
-    {
-      "id": "market-bede90510ae8",
-      "title": "원/달러 환율(매매기준율) 1324.6원 (직전 대비 -0.9원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-22T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1324.6,
-        "previous": 1325.5,
-        "change": -0.9,
-        "unit": "원",
-        "date": "20261023",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -232,6 +231,23 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6d22b55330be",
+      "title": "환전 수수료 0원에서 금 · 스테이블코인까지 … 스위치원 , 글로벌 자산 플랫폼 도전",
+      "url": "https://www.etoday.co.kr/news/view/2640068",
+      "source": "etoday.co.kr",
+      "source_type": "news",
+      "published_at": "2026-10-26T05:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -736,23 +752,6 @@
       "title": "4대 그룹 유일 공채 ... 삼성 ,  삼성고시  GSAT 실시",
       "url": "https://news.mtn.co.kr/article/2026102513323222910",
       "source": "news.mtn.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-25T10:45:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4198ce5b2ac0",
-      "title": "Intel Corporation $INTC Stock : Madrona Financial Services LLC Grows Position",
-      "url": "https://www.themarketsdaily.com/2026/10/25/intel-corporation-intc-stock-madrona-financial-services-llc-grows-position.html",
-      "source": "themarketsdaily.com",
       "source_type": "news",
       "published_at": "2026-10-25T10:45:00Z",
       "categories": [
