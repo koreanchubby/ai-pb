@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T06:21:34Z",
+  "generated_at": "2026-10-27T13:17:51Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 5
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -115,12 +116,12 @@
       }
     },
     {
-      "id": "market-a6db17206af5",
+      "id": "market-919fa624f64c",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-23T15:00:00Z",
+      "published_at": "2026-10-24T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -135,7 +136,7 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261024",
+        "date": "20261025",
         "alert_threshold": 0.25
       }
     },
@@ -164,6 +165,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-9a4dc0a0a9f8",
+      "title": "存储芯片巨头财报周来袭 ！ 大摩 、 花旗 、 野村密集看多 ： 存储荒  持续 ， HBM价格或翻倍|三星|海力士|英特尔|hbm|美光科技|野村证券|花旗集团|知名企业",
+      "url": "https://www.163.com/dy/article/LA8EHOVB0550WHYR.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-362d0b57c8bd",
@@ -267,6 +286,74 @@
         "etf"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5dfe91f24bc4",
+      "title": "5 things to watch from the Federal Reserve next meeting",
+      "url": "https://www.thesunchronicle.com/business/5-things-to-watch-from-the-federal-reserves-next-meeting/article_7fe45c06-8782-5837-af1d-665ff6a49949.html",
+      "source": "thesunchronicle.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c870ebfb4600",
+      "title": "Золото тримається вище $4000 за унцію – інвестори чекають на рішення ФРС США",
+      "url": "https://unn.ua/news/zoloto-trymaietsia-vyshche-dollar4000-za-untsiiu-investory-chekaiut-na-rishennia-frs-ssha",
+      "source": "unn.ua",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a004c56ad4a2",
+      "title": "Brazil Stocks Plunge 13 . 9 % as Fed Week Begins | Global Economy , Oct 27",
+      "url": "https://www.riotimesonline.com/global-economy-briefing-october-27-2026/",
+      "source": "riotimesonline.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f4f7ff013034",
+      "title": "熱錢大逃殺 ！ 央行揭露外資今年淨匯出776億美元 新台幣貶逾3 ％",
+      "url": "https://ec.ltn.com.tw/article/breakingnews/5620132",
+      "source": "ec.ltn.com.tw",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -673,91 +760,6 @@
       "published_at": "2026-10-26T07:15:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2223ba5a30d6",
-      "title": "超级央行周  来临 ： 美欧日央行将同步暂缓加息 ？_ 财经评论 ( cjpl ) 股吧 _ 东方财富网股吧",
-      "url": "https://guba.eastmoney.com/o/news,cjpl,1786912130.html",
-      "source": "guba.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-306d3cdda583",
-      "title": "日本央行本周或宣告达成通胀目标 ， 开启12月加息窗口 _ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261026/32407859.shtml",
-      "source": "forex.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-61aa7d52aacb",
-      "title": "一位中国人在2023年写给乌克兰政府与人民的信 ： 支持和敬佩乌克兰抵抗俄罗斯 ， 劝说乌克兰有限妥协早日和平 、 减少伤亡 - 革命军中马前卒发表于 几曾回首 - 论坛",
-      "url": "https://bbs.wenxuecity.com/memory/1943032.html",
-      "source": "bbs.wenxuecity.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7e14aa0d0715",
-      "title": "À deux jours des élections législatives en Israël , Donald Trump appelle les Israéliens à voter pour Benjamin Netanyahu , un  guerrier exceptionnel",
-      "url": "https://www.bfmtv.com/international/amerique-nord/etats-unis/donald-trump/a-deux-jours-des-elections-legislatives-en-israel-donald-trump-appelle-les-israeliens-a-voter-pour-benjamin-netanyahu-un-guerrier-exceptionnel_AD-202610260083.html",
-      "source": "bfmtv.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-87a61040f56f",
-      "title": "启境CEO刘嘉铭 ： 华为参与共创 ， 但决定权留给自己",
-      "url": "https://www.163.com/dy/article/LA62RQE305199NPP.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
