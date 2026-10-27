@@ -16,6 +16,7 @@
 
 | 담당 | 작업 | 이슈 | 브랜치 | 건드리는 파일 | 상태 |
 |---|---|---|---|---|---|
+| 옥경환 (koreanchubby) → 이유경 검토 | 새 팀원을 위한 협업 안내(ONBOARDING) — 팀 합병 대비, WORKFLOW·CLAUDE.md의 2인 기준 표현 정리 | — | `docs/onboarding` | `docs/ONBOARDING.md`(새 파일), `docs/WORKFLOW.md`, `docs/CLAUDE_PROMPTS.md`, `CLAUDE.md`, `.claude/skills/ai-pb-workflow/SKILL.md`, `README.md` | 🔵 리뷰 대기 (PR #42) |
 | 이유경 (yukyung16) → 옥경환 확인 | 뉴스 탭 주제별 카드(금리·환율·유가·ETF·반도체·지정학)에 우리 말 요약 기사 추가 (원문 확인 후 우리 제목·요약 + 원문 링크, 'AI 요약' 표시) | PR #37 | `feat/news-brief-cards` | `news-view.js`(카드 추가, **옥경환 파일 — 확인 요청**), `docs/DECISIONS.md` | 🔵 리뷰 대기 (10-15, PR #37 — 옥경환 리뷰 요청). 신뢰 언론사 목록만 표시, 주제별 최소 5건. 데이터 `data/news_curated.json`은 시황 예약 작업(평일 8·16시)이 원문 확인 후 작성해 이 파일만 main에 자동 반영(첫 값 10/9 기사 3건 반영됨) |
 | 이유경 (yukyung16) → 옥경환 확인 | 미리보기 페이지 `/preview/`: 지금 사이트는 그대로 두고 뉴스 탭 변경안(PR #37)과 10월 실제 하우스뷰(7개 기관 합의, TAA 제안 규칙)를 넣은 화면 | PR #38 | `feat/preview-site` | 새 폴더 `preview/`(화면 복사본 — 원본 `index.html`·`app.js`는 안 건드림), `docs/DECISIONS.md` | 🔵 리뷰 대기 (10-16, PR #38 — 옥경환 리뷰 요청). TAA 제안 규칙(계단식 ±2/±1%p, 주식 합계 +3%p 상한) 합의 필요 |
 | 이유경 (yukyung16) → 옥경환 확인 | 한국투자증권 Open API로 미 국채 10년 금리 수집(FRED 대체) + 데일리 시황용 국내 뉴스 후보(로컬 전용) | PR #33 | `feat/kis-api` | `scripts/fetch_news.py`(KIS 부분 추가, **옥경환 파일 — 확인 요청**), 새 `scripts/kis_news_candidates.py`, `tests/test_news.py`, `.github/workflows/news.yml`(env 3줄), `.gitignore`, `docs/DECISIONS.md` | ✅ PR #33 Merge (10-14, 옥경환 리뷰). 후속: PR #35(합의 기록)·#36(FRED 대체·회차 밀림·mock 통일) 리뷰 대기 |
