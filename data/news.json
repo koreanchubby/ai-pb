@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-27T00:31:04Z",
+  "generated_at": "2026-10-27T06:21:34Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -65,12 +64,12 @@
       "change_condition": null
     },
     {
-      "id": "market-d95fadae7190",
-      "title": "원/달러 환율(매매기준율) 1324.3원 (직전 대비 -0.3원)",
+      "id": "market-e878c102c7a5",
+      "title": "원/달러 환율(매매기준율) 1322.6원 (직전 대비 -1.7원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-25T15:00:00Z",
+      "published_at": "2026-10-26T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -81,12 +80,38 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1324.3,
-        "previous": 1324.6,
-        "change": -0.3,
+        "latest": 1322.6,
+        "previous": 1324.3,
+        "change": -1.7,
         "unit": "원",
-        "date": "20261026",
+        "date": "20261027",
         "alert_threshold": 15.0
+      }
+    },
+    {
+      "id": "market-7a9839eeb101",
+      "title": "미국 10년물 국채금리 5% (직전 대비 0%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-10-26T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.0,
+        "previous": 5.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "2026-10-26",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
       }
     },
     {
@@ -112,32 +137,6 @@
         "unit": "%",
         "date": "20261024",
         "alert_threshold": 0.25
-      }
-    },
-    {
-      "id": "market-364c2dea8555",
-      "title": "미국 10년물 국채금리 5% (직전 대비 +0.04%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-10-23T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.0,
-        "previous": 4.96,
-        "change": 0.04,
-        "unit": "%",
-        "date": "2026-10-23",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
       }
     },
     {
@@ -275,17 +274,254 @@
       "change_condition": null
     },
     {
-      "id": "news-0cedd9165e12",
-      "title": "Oil Kept Congo From Starving - Western Academics Dont Seem To Like That",
-      "url": "https://science20.com/hank_campbell/oil_kept_congo_from_starving_western_academics_dont_seem_to_like_that-257039",
-      "source": "science20.com",
+      "id": "news-14af779b4629",
+      "title": "This time I wont vote for Likud , Netanyahu cousin says , citing October 7",
+      "url": "http://www.jpost.com/israel-election-2026/article-912988",
+      "source": "jpost.com",
       "source_type": "news",
-      "published_at": "2026-10-24T05:30:00Z",
+      "published_at": "2026-10-27T05:15:00Z",
       "categories": [
-        "geopolitics",
-        "oil"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6e810f66b463",
+      "title": "El cierre de la librería Pérgamo no es lo que parece : ni especulación , ni fondos buitres , ni otro  caso Maricarmen  | Noticias de Madrid",
+      "url": "https://elpais.com/espana/madrid/2026-10-27/el-cierre-de-la-libreria-pergamo-no-es-lo-que-parece-ni-especulacion-ni-fondos-buitres-ni-otro-caso-maricarmen.html",
+      "source": "elpais.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d3d97ebb85f3",
+      "title": "Israelis should allow themselves to enjoy Election Day",
+      "url": "http://www.jpost.com/opinion/article-912952",
+      "source": "jpost.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2a176492a104",
+      "title": "동해 송정동 주민들 , LS전선 규탄 … 사원아파트 송정동에 건립하라",
+      "url": "https://www.newspim.com/news/view/20261027000921",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e88a2b3f2bad",
+      "title": "Jacek Łęski dołącza do kanału byłego szefa TVP Info [ NASZ NEWS ]",
+      "url": "https://www.wirtualnemedia.pl/jacek-leski-dolacza-do-kanalu-bylego-szefa-tvp-info-nasz-news,7344328722937952a",
+      "source": "wirtualnemedia.pl",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-008a19f6e496",
+      "title": "전쟁 · 관세 청구서 받아든 유권자 ... 트럼프 외교 심판대 올라 [ 11 · 3 중간선거 … 미국의 선택은 ]( 3 )",
+      "url": "https://www.fnnews.com/news/202610241838147461",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5911a7f8a6f7",
+      "title": "US consumer sentiment near record low as inflation fears persist",
+      "url": "http://www.myanmarnews.net/news/279395118/us-consumer-sentiment-near-record-low-as-inflation-fears-persist",
+      "source": "myanmarnews.net",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-28a08b08643e",
+      "title": "冷冻烘焙卖3块 ， 精品面包卖30块 ， 谁在硬撑 ？",
+      "url": "https://news.pedaily.cn/202610/570901.shtml",
+      "source": "news.pedaily.cn",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e8cc10269394",
+      "title": "HD현대일렉트릭 , 3분기 영업익 2845억원 … AI 배전시장에 1980억 더 푼다",
+      "url": "https://www.newspim.com/news/view/20261027000936",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e02dacb4c0f8",
+      "title": "보령 , 독일우주청과 우주 연구 협력 … 인프라 활용 방안 논의",
+      "url": "https://www.newspim.com/news/view/20261027000906",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9cb8aeb0d097",
+      "title": "신한은행 · 신한투자증권 ,  쓱데이  연계 신한 슈퍼SOL 이벤트 진행",
+      "url": "https://www.newspim.com/news/view/20261027000816",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-633900629f6e",
+      "title": "Конгресс США угрожает санкциями за импорт российского дизеля - 27 октября 2026",
+      "url": "https://www.fontanka.ru/2026/10/27/76725906/",
+      "source": "fontanka.ru",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8ccd64f1cb8a",
+      "title": "이용우  김건희 석방은 사법 참사 … 추가 구속영장 반드시 발부해야",
+      "url": "https://www.newspim.com/news/view/20261027000931",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dbb5a7cdd0e4",
+      "title": "El jadrdín de democracias que se bifurcan",
+      "url": "https://www.lanacion.com.ar/opinion/el-jadrdin-de-democracias-que-se-bifurcan-nid27102026/",
+      "source": "lanacion.com.ar",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-90009f5d65b0",
+      "title": "Εκλογές στο Ισραήλ : Τι διακυβεύεται στις κάλπες και πότε αναμένονται τα πρώτα αποτελέσματα – Ποιοι οι αντίπαλοι Νετανιάχου",
+      "url": "https://www.inewsgr.com/27/ekloges-sto-israil-ti-diakyvevetai-stis-kalpes-kai-pote-anamenontai-ta-prota-apotelesmata--poioi-oi-antipaloi-netaniachou.htm",
+      "source": "inewsgr.com",
+      "source_type": "news",
+      "published_at": "2026-10-27T05:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -522,244 +758,6 @@
       "published_at": "2026-10-26T07:15:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-542d04bdf5c0",
-      "title": "Ukraine , US , Russia expected to hold trilateral talks in November , says Zelensky",
-      "url": "https://www.hindustantimes.com/world-news/ukraine-us-russia-expected-to-hold-trilateral-talks-in-november-says-zelensky-101792982005265.html",
-      "source": "hindustantimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b118d8266c54",
-      "title": "Volvo Cars shares suffer record plunge as crisis deepens",
-      "url": "http://www.afghanistannews.net/news/279395112/volvo-cars-shares-suffer-record-plunge-as-crisis-deepens",
-      "source": "afghanistannews.net",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9a347cb91335",
-      "title": "Volvo Cars hits record low after steep loss , 2 , 500 job cuts",
-      "url": "http://www.philippinetimes.com/news/279395112/volvo-cars-hits-record-low-after-steep-loss-2-500-job-cuts",
-      "source": "philippinetimes.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d6bb449150b1",
-      "title": "Audi plant Werk in den united states :  Beklemmendes Gefühl  in Neckarsulm",
-      "url": "https://www.swr.de/swraktuell/baden-wuerttemberg/heilbronn/audi-plant-werk-in-usa-beklemmendes-gefuehl-in-neckarsulm-100.html",
-      "source": "swr.de",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6cc0b254f55f",
-      "title": "Czy Donald Tusk wyprowadzi Adama Glapińskiego z NBP ? Za kulisami mówi się o kilku scenariuszach",
-      "url": "https://www.newsweek.pl/polska/polityka/czy-donald-tusk-wyprowadzi-adama-glapinskiego-z-nbp-za-kulisami-mowi-sie-o-kilku/6mw3p3x",
-      "source": "newsweek.pl",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f0d6c5fe065a",
-      "title": "天翼视联完成二轮增资引战 重磅资本持续加码",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-10-26/doc-iniwprzs2496999.shtml",
-      "source": "finance.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5e92b0269d62",
-      "title": "전쟁  을 도구로 ... 선거 다가오자  이란  언급 빈도 높이는 트럼프 - 국제ㅣ한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026102611070001196",
-      "source": "hankookilbo.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f4d35b51ad5b",
-      "title": "Marea Neagră a devenit cea mai periculoasă rută maritimă din lume . Peste 570 de nave atacate și cel puțin 40 de marinari uciși . Costul asigurărilor explodează",
-      "url": "https://adevarul.ro/stiri-externe/europa/marea-neagra-a-devenit-cea-mai-periculoasa-ruta-2566485.html",
-      "source": "adevarul.ro",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8b9d8ff13536",
-      "title": "Marine Le Pen nis fushatën presidenciale në Francë , premton rikthimin e rendit dhe sovranitetit kombëtar : Tolerancë zero për krimin",
-      "url": "https://www.balkanweb.com/marine-le-pen-nis-fushaten-presidenciale-ne-france-premton-rikthimin-e-rendit-dhe-sovranitetit-kombetar-tolerance-zero-per-krimin/",
-      "source": "balkanweb.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e169c7483fa7",
-      "title": "cooking with toxic plastics .....",
-      "url": "https://yourdemocracy.net/drupal/node/61560",
-      "source": "yourdemocracy.net",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e337bfa1b7fe",
-      "title": "Podeljena azijska tržišta na početku nedelje : Cene nafte pale",
-      "url": "https://www.blic.rs/biznis/vesti/podeljena-azijska-trzista-na-pocetku-nedelje-cene-nafte-pale/1g5ktg1",
-      "source": "blic.rs",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b8458f366161",
-      "title": "TOR to be listed on Ghana Stock Exchange – MD tells visiting IMF team",
-      "url": "https://thechronicle.com.gh/tor-to-be-listed-on-ghana-stock-exchange-md-tells-visiting-imf-team/",
-      "source": "thechronicle.com.gh",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3a5b2d55ca67",
-      "title": "Warum der Ausdruck „- maxxing  gerade so beliebt ist",
-      "url": "https://www.swr.de/kultur/gesellschaft/warum-gerade-alle-vom-maxxing-reden-100.html",
-      "source": "swr.de",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-60a6a66eb1bf",
-      "title": "Tankrabatt : Warum Diesel - Fahrer weniger davon haben als versprochen",
-      "url": "https://www.mdr.de/nachrichten/deutschland/wirtschaft/spritpreise-rabatt-tankstelle-diesel-weitergabe-ifo,tankrabatt-336.html",
-      "source": "mdr.de",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
