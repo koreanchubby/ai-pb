@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T13:04:26Z",
+  "generated_at": "2026-10-28T18:53:27Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -70,6 +70,32 @@
         "unit": "원",
         "date": "20261028",
         "alert_threshold": 15.0
+      }
+    },
+    {
+      "id": "market-5581868dba64",
+      "title": "WTI 원유 가격 103.37달러 (직전 대비 -1.88달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-10-27T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 103.37,
+        "previous": 105.25,
+        "change": -1.88,
+        "unit": "달러",
+        "date": "2026-10-27",
+        "alert_threshold": 3.0,
+        "indicator": "wti"
       }
     },
     {
@@ -121,32 +147,6 @@
         "unit": "%",
         "date": "20261026",
         "alert_threshold": 0.25
-      }
-    },
-    {
-      "id": "market-87ec22b5e104",
-      "title": "WTI 원유 가격 107.89달러 (직전 대비 -2.12달러)",
-      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-10-20T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 107.89,
-        "previous": 110.01,
-        "change": -2.12,
-        "unit": "달러",
-        "date": "2026-10-20",
-        "alert_threshold": 3.0,
-        "indicator": "wti"
       }
     },
     {
