@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T05:50:40Z",
+  "generated_at": "2026-10-28T13:04:26Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -99,12 +99,12 @@
       }
     },
     {
-      "id": "market-919fa624f64c",
+      "id": "market-b07057126c69",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-24T15:00:00Z",
+      "published_at": "2026-10-25T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -119,7 +119,7 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261025",
+        "date": "20261026",
         "alert_threshold": 0.25
       }
     },
