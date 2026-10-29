@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-28T23:16:09Z",
+  "generated_at": "2026-10-29T02:31:28Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -48,12 +48,12 @@
   ],
   "items": [
     {
-      "id": "market-5343f620704d",
-      "title": "원/달러 환율(매매기준율) 1324.3원 (직전 대비 +1.7원)",
+      "id": "market-37088b4c2a21",
+      "title": "원/달러 환율(매매기준율) 1336.3원 (직전 대비 +12원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-27T15:00:00Z",
+      "published_at": "2026-10-28T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -64,11 +64,11 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1324.3,
-        "previous": 1322.6,
-        "change": 1.7,
+        "latest": 1336.3,
+        "previous": 1324.3,
+        "change": 12.0,
         "unit": "원",
-        "date": "20261028",
+        "date": "20261029",
         "alert_threshold": 15.0
       }
     },
