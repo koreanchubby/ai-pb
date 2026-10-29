@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-10-29T02:31:28Z",
+  "generated_at": "2026-10-29T10:05:46Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 0
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -99,6 +99,31 @@
       }
     },
     {
+      "id": "market-7621a034cce0",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-10-26T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261027",
+        "alert_threshold": 0.25
+      }
+    },
+    {
       "id": "market-7a9839eeb101",
       "title": "미국 10년물 국채금리 5% (직전 대비 0%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -125,31 +150,6 @@
       }
     },
     {
-      "id": "market-b07057126c69",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-10-25T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261026",
-        "alert_threshold": 0.25
-      }
-    },
-    {
       "id": "news-9a4dc0a0a9f8",
       "title": "存储芯片巨头财报周来袭 ！ 大摩 、 花旗 、 野村密集看多 ： 存储荒  持续 ， HBM价格或翻倍|三星|海力士|英特尔|hbm|美光科技|野村证券|花旗集团|知名企业",
       "url": "https://www.163.com/dy/article/LA8EHOVB0550WHYR.html",
@@ -159,78 +159,6 @@
       "categories": [
         "rates",
         "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-362d0b57c8bd",
-      "title": "Sensex falls 134 points , Nifty slips below 22 , 600 amid crude oil prices and West Asia tensions",
-      "url": "https://www.ibtimes.co.in/sensex-falls-134-points-nifty-slips-below-22600-amid-crude-oil-prices-west-asia-tensions-907850",
-      "source": "ibtimes.co.in",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "rates",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4b9656c1580d",
-      "title": "반도체 실적에 美 FOMC까지코스피 반등 불씨 살릴까",
-      "url": "https://www.newsway.co.kr/news/view?ud=2026102613553045690",
-      "source": "newsway.co.kr",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "rates",
-        "semis"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-42292c273c61",
-      "title": "Les Houthis attaquent une nouvelle fois laéroport de Riyad , les forces saoudiennes annoncent avoir intercepté un missile balistique",
-      "url": "https://www.bfmtv.com/international/moyen-orient/les-houthis-attaquent-une-nouvelle-fois-l-aeroport-de-riyad-les-forces-saoudiennes-annoncent-avoir-intercepte-un-missile-balistique_AD-202610260129.html",
-      "source": "bfmtv.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-302512bfea9e",
-      "title": "Shares fall in Asia after a decline on Wall Street , and oil prices fall more than 1 %",
-      "url": "https://www.2news.com/news/national/shares-fall-in-asia-after-a-decline-on-wall-street-and-oil-prices-fall-more/article_ddc4a005-46f8-542f-8eca-7be2223b5dd5.html",
-      "source": "2news.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T05:00:00Z",
-      "categories": [
-        "rates",
-        "oil"
       ],
       "importance": 4,
       "facts": null,
@@ -724,40 +652,6 @@
       "published_at": "2026-10-27T05:15:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a827c598d0a8",
-      "title": "法债与德债之间的利差逼近主权债务危机水平 ， 欧洲央行会出手吗 ？_ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261026/32407848.shtml",
-      "source": "forex.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-77f7eddfc0b8",
-      "title": "Piyasalarda gözler Fedin faiz kararına çevrildi",
-      "url": "https://www.haberturk.com/ekonomi/piyasalarda-gozler-fed-in-faiz-kararina-cevrildi-3922548",
-      "source": "haberturk.com",
-      "source_type": "news",
-      "published_at": "2026-10-26T07:15:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
