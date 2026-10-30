@@ -9,6 +9,7 @@
 
 | 문서 | 내용 |
 |---|---|
+| [docs/ONBOARDING.md](docs/ONBOARDING.md) | **처음 합류했다면 여기부터** — 우리가 일하는 방식, 첫날 할 일, 지켜야 할 규칙, 아직 정할 것 |
 | [docs/WORKFLOW.md](docs/WORKFLOW.md) | **작업 시작 전·후 순서** (Pull → STATUS 갱신 → 브랜치 → PR → 리뷰 → Merge) |
 | [docs/STATUS.md](docs/STATUS.md) | **지금 누가 무엇을 하고 있나** — 매번 작업 전·후 갱신 |
 | [Issues](../../issues) | 각자 할 일과 완료 기준 |

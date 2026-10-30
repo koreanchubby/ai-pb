@@ -1,6 +1,6 @@
 # CLAUDE.md — AI PB 저장소 안내 (Claude가 자동으로 읽는 파일)
 
-이 저장소는 개발 경험이 적은 2인 팀(옥경환 koreanchubby, 이유경 yukyung16)의 금융인공지능실습 프로젝트 "범용 AI PB" 웹앱입니다.
+이 저장소는 개발 경험이 적은 팀(기존 옥경환 koreanchubby·이유경 yukyung16, 2026-10 팀 합병으로 새 팀원 합류)의 금융인공지능실습 프로젝트 "범용 AI PB" 웹앱입니다. **지금 말하는 사람이 누구인지 모르면 짐작하지 말고 이름을 물어봅니다**(STATUS 줄·PR·주간 보고서를 다른 사람 이름으로 쓰지 않기 위해). 새 팀원이면 `docs/ONBOARDING.md`를 먼저 안내합니다.
 
 - 앱: https://koreanchubby.github.io/ai-pb/ (GitHub Pages, main 브랜치 루트)
 - 기준 버전: 태그 `prototype-v4`
