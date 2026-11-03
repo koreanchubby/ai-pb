@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T17:52:50Z",
+  "generated_at": "2026-11-03T23:28:05Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 18
+      "count": 22
     },
     {
       "source": "한국은행 ECOS",
@@ -168,6 +168,329 @@
       "change_condition": null
     },
     {
+      "id": "news-2a3470da5390",
+      "title": "中信证券策略会 ： 中国基本面韧性强劲 2027年行情宽度有望进一步拓展 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611033920380286.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-90dbacce1939",
+      "title": "Why AUD / USD Is Facing Its Most Important Test Yet",
+      "url": "https://www.dailyforex.com/forex-technical-analysis/2026/11/audusd-forecast-3-november-2026/251344",
+      "source": "dailyforex.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1375098a7077",
+      "title": "Yapay zeka harcamaları piyasaları baskılıyor",
+      "url": "https://www.hurhaber.com/ekonomi-haberleri/yapay-zeka-harcamalari-piyasalari-baskiliyor-519275",
+      "source": "hurhaber.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2d1fae61d6c4",
+      "title": "方正证券首席经济学家燕翔 ： 关注全球AI资本开支 四季度看好A股两主线 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611033920380321.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e51c97bcc5ca",
+      "title": "Global markets were already fragile . Big AI bets could break them",
+      "url": "https://www.theglobeandmail.com/investing/article-global-markets-were-already-fragile-big-ai-bets-could-break-them/",
+      "source": "theglobeandmail.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-914dbaae69b2",
+      "title": "120억弗  쩐의 전쟁  [ 美 중간선거  운명의 날 ]",
+      "url": "https://www.fnnews.com/news/202611031811136858",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b48eeffc5a71",
+      "title": "Messy ,  divided  and  scary : swing voters rate the country ahead of Election Day",
+      "url": "https://www.ksmu.org/2026-11-03/messy-divided-and-scary-swing-voters-rate-the-country-ahead-of-election-day",
+      "source": "ksmu.org",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a76003b8dec4",
+      "title": "Alza de 23 % en productos básicos plantea retos para la inflación y los subsidios en RD",
+      "url": "https://acento.com.do/economia/alza-de-23-en-productos-basicos-plantea-retos-para-la-inflacion-y-los-subsidios-en-rd-9782313.html",
+      "source": "acento.com.do",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5f9d00f66551",
+      "title": "Gaz : les stocks européens sont au plus bas depuis 2013 - 03 / 11 / 2026 à 10 : 07",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/gaz-les-stocks-europeens-sont-au-plus-bas-depuis-2013-bae5477565b18237fd08d0b6e47a0929",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7f8a32da2683",
+      "title": "In the news today : U . S . midterms today , Carney in Antigua , is AI stealing youth jobs ?",
+      "url": "https://www.stcatharinesstandard.ca/news/canada/in-the-news-today-u-s-midterms-today-carney-in-antigua-is-ai-stealing-youth-jobs/article_67947e99-c468-5e65-bebd-541d4208cbcc.html",
+      "source": "stcatharinesstandard.ca",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f59fcca91ee2",
+      "title": "KEC International Guidance Cut : युद्ध की वजह से लगा ₹600 करोड़ का फटका ! कंपनी ने घटाए टारगेट , 8 % धड़ाम हुआ शेयर",
+      "url": "https://hindi.moneycontrol.com/news/markets/kec-international-cuts-fy27-revenue-growth-guidance-west-asia-conflict-impact-2453392.html",
+      "source": "hindi.moneycontrol.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2a70671d3335",
+      "title": "Un marché noir  de Bérénice Pichat , la France sous lOccupation",
+      "url": "https://www.rts.ch/info/culture/livres/2026/article/un-marche-noir-de-berenice-pichat-la-france-sous-l-occupation-29402858.html",
+      "source": "rts.ch",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4e963e54df65",
+      "title": "민주 , 상하원 장악땐 사법부 인준 제동 … 트럼프  조기 레임덕  [ 美 중간선거  운명의 날 ]",
+      "url": "https://www.fnnews.com/news/202611031811042619",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-46f7854731ce",
+      "title": "Les contrats à terme sur les actions américaines affichent des résultats mitigés alors quApple recule et que les élections de mi - mandat approchent - 03 / 11 / 2026 à 11 : 41",
+      "url": "https://www.boursorama.com/bourse/actualites/les-contrats-a-terme-sur-les-actions-americaines-affichent-des-resultats-mitiges-alors-qu-apple-recule-et-que-les-elections-de-mi-mandat-approchent-8d8595ff63d18412c33df3f799760531",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a273e0b03b66",
+      "title": "沙特阿美三季度净利增34 . 6 %， 首席执行官纳赛尔称地缘政治不确定性放大全球能源供应危机",
+      "url": "https://finance.jrj.com.cn/2026/11/03184658997325.shtml",
+      "source": "finance.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-69955b74225c",
+      "title": "Cumhurbaşkanı Erdoğan : Güney Kore ile ikili ticaretimizi 15 milyar dolar hedefine ulaştıracak adımları görüştük",
+      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-guney-kore-ile-ikili-ticaretimizi-15-milyar-dolar-hedefine-ulastiracak-adimlari-gorustuk/4109382",
+      "source": "aa.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4d7f4c78b531",
+      "title": "康佳退市 ： 同一代彩电巨头 ， 为什么活成了完全不同的样子 - 钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8188443.html",
+      "source": "tmtpost.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ea8fef036e9a",
+      "title": "BPOM Masih Uji Kandungan Beeru Stevia , Ini Sanksi Jika Tak Sesuai Klaim",
+      "url": "https://kesehatan.liputan6.com/info-sehat/read/8327241/bpom-masih-uji-kandungan-beeru-stevia-ini-sanksi-jika-tak-sesuai-klaim",
+      "source": "kesehatan.liputan6.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aa05d560244c",
+      "title": "À un budget de pierre",
+      "url": "https://www.canardpc.com/news/a-un-budget-de-pierre/",
+      "source": "canardpc.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-540f11ca06a6",
       "title": "[ 기자수첩 ] K뷰티의 새로운 복병 C뷰티",
       "url": "https://www.fnnews.com/news/202611031841304700",
@@ -240,40 +563,6 @@
       "title": "Presiden minta belanja K / L pada akhir tahun tetap efisien",
       "url": "https://www.antaranews.com/berita/5829223/presiden-minta-belanja-k-l-pada-akhir-tahun-tetap-efisien",
       "source": "antaranews.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-46f7854731ce",
-      "title": "Les contrats à terme sur les actions américaines affichent des résultats mitigés alors quApple recule et que les élections de mi - mandat approchent - 03 / 11 / 2026 à 11 : 41",
-      "url": "https://www.boursorama.com/bourse/actualites/les-contrats-a-terme-sur-les-actions-americaines-affichent-des-resultats-mitiges-alors-qu-apple-recule-et-que-les-elections-de-mi-mandat-approchent-8d8595ff63d18412c33df3f799760531",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a273e0b03b66",
-      "title": "沙特阿美三季度净利增34 . 6 %， 首席执行官纳赛尔称地缘政治不确定性放大全球能源供应危机",
-      "url": "https://finance.jrj.com.cn/2026/11/03184658997325.shtml",
-      "source": "finance.jrj.com.cn",
       "source_type": "news",
       "published_at": "2026-11-03T11:15:00Z",
       "categories": [
@@ -440,14 +729,14 @@
       "change_condition": null
     },
     {
-      "id": "news-98da3461f1dd",
-      "title": "머스크 vs 베이조스  1 · 2위 갑부  의 우주 대결 … 진짜 로켓 배송  앞당길까",
-      "url": "https://www.hani.co.kr/arti/science/technology/1285458.html",
-      "source": "hani.co.kr",
+      "id": "news-d01f964af285",
+      "title": "【 路博邁投信 】 投資長觀點 － 透過暫緩升息看升息進程",
+      "url": "https://news.cnyes.com/news/id/6621856",
+      "source": "news.cnyes.com",
       "source_type": "news",
       "published_at": "2026-11-03T02:15:00Z",
       "categories": [
-        "semis"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -457,14 +746,14 @@
       "change_condition": null
     },
     {
-      "id": "news-523e752aa695",
-      "title": "배추값 내렸지만 기름값 · 휴대폰값 뛰었다 … 두 달 연속 물가 2 % 대 상승 - 경제ㅣ한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026110309280002594",
-      "source": "hankookilbo.com",
+      "id": "news-40c459c2f35a",
+      "title": "华尔街见闻早餐FM - Radio | 2026年11月3日",
+      "url": "https://wallstreetcn.com/articles/3785026",
+      "source": "wallstreetcn.com",
       "source_type": "news",
       "published_at": "2026-11-03T02:15:00Z",
       "categories": [
-        "semis"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
