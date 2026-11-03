@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T09:38:51Z",
+  "generated_at": "2026-11-03T17:52:50Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 4
+      "count": 18
     },
     {
       "source": "한국은행 ECOS",
@@ -161,6 +161,278 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-540f11ca06a6",
+      "title": "[ 기자수첩 ] K뷰티의 새로운 복병 C뷰티",
+      "url": "https://www.fnnews.com/news/202611031841304700",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9c7f004e29e4",
+      "title": "美중간선거가 코스피 살릴까 … S & P500은  17전 17승",
+      "url": "https://www.fnnews.com/news/202611031814500288",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-263f8117c321",
+      "title": "JEFFERIES stuft Evonik auf  Buy",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70017306-jefferies-stuft-evonik-auf-buy-322.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-638d236aa8ba",
+      "title": "ATX - Trends : AT & S , Palfinger , Erste Group ...",
+      "url": "https://boerse-social.com/2026/11/03/atx-trends_36",
+      "source": "boerse-social.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b511836d144f",
+      "title": "Presiden minta belanja K / L pada akhir tahun tetap efisien",
+      "url": "https://www.antaranews.com/berita/5829223/presiden-minta-belanja-k-l-pada-akhir-tahun-tetap-efisien",
+      "source": "antaranews.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-46f7854731ce",
+      "title": "Les contrats à terme sur les actions américaines affichent des résultats mitigés alors quApple recule et que les élections de mi - mandat approchent - 03 / 11 / 2026 à 11 : 41",
+      "url": "https://www.boursorama.com/bourse/actualites/les-contrats-a-terme-sur-les-actions-americaines-affichent-des-resultats-mitiges-alors-qu-apple-recule-et-que-les-elections-de-mi-mandat-approchent-8d8595ff63d18412c33df3f799760531",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a273e0b03b66",
+      "title": "沙特阿美三季度净利增34 . 6 %， 首席执行官纳赛尔称地缘政治不确定性放大全球能源供应危机",
+      "url": "https://finance.jrj.com.cn/2026/11/03184658997325.shtml",
+      "source": "finance.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-34e6456e900f",
+      "title": "中控技术TPT获人民日报报道 赋能京博石化迈向AI驱动自主运行 - 美通社PR - Newswire",
+      "url": "https://www.prnasia.com/story/554428-1.shtml",
+      "source": "prnasia.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a70c8cae778f",
+      "title": "ชาวนาลพบุรีเฮ ! ราคาข้าวเปลือกพุ่งแตะ 15 , 000 บาท สูงสุดในรอบ 10 ปี เร่งเกี่ยวหนีฝนส่งโรงสีคึกคัก",
+      "url": "https://www.dailynews.co.th/news/6329052/",
+      "source": "dailynews.co.th",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aed88add584f",
+      "title": "Les bénéfices du géant pétrolier saoudien Aramco poursuivent leur envolée sur fond de guerre au Moyen - Orient - 03 / 11 / 2026 à 11 : 25",
+      "url": "https://www.boursorama.com/actualite-economique/actualites/les-benefices-du-geant-petrolier-saoudien-aramco-poursuivent-leur-envolee-sur-fond-de-guerre-au-moyen-orient-4fbc7c7d3ae99b1a5b6c62bd4e230b87",
+      "source": "boursorama.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-87348ed1ff1d",
+      "title": "Pala cena nafte : Zašto je došlo do ovoga ?",
+      "url": "https://www.novosti.rs/ekonomija/vesti/1667334/cena-nafte-naglo-pala-posledica-vaznih-vesti-bliskog-istoka",
+      "source": "novosti.rs",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-da5268af784d",
+      "title": "UBS για Motor Oil : Αναβαθμίζει 12 % την τιμή - στόχο της μετοχής",
+      "url": "https://www.capital.gr/epixeiriseis/4027570/ubs-gia-motor-oil-anabathmizei-12-tin-timi-stoxo-tis-metoxis/",
+      "source": "capital.gr",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-32ddd6b1cf5d",
+      "title": "러시아 석유시설  활활 … 우크라이나 학교에 유도폭탄",
+      "url": "https://ichannela.com/news/detail/000000558248.do",
+      "source": "ichannela.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f28570291ade",
+      "title": "晚报丨港股三连涨 ， 南向爆买234亿港元 ； 美国中期选举今日投票 ； 俄确认俄美乌三方会谈10日至11日在阿布扎比举行 ； AMD财报盘后公布 ； 大摩 ： 未来十年AI资本支出或达15万亿美元 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611033920367270.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e5135c891722",
+      "title": "Not Re - electing Tinubu Will Undermine Nigeria Economic Progress , Says Onuigbo – THISDAYLIVE",
+      "url": "https://www.thisdaylive.com/2026/11/03/not-re-electing-tinubu-will-undermine-nigerias-economic-progress-says-onuigbo/",
+      "source": "thisdaylive.com",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4a9df6c2d925",
+      "title": "Aktien Frankfurt : Dax etwas schwächer - Ölpreis , Tech - Schwäche , Quartalszahlen",
+      "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-dax-etwas-schwaecher-oelpreis-tech-schwaeche-quartalszahlen-16031867",
+      "source": "finanzen.net",
+      "source_type": "news",
+      "published_at": "2026-11-03T11:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
