@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-03T23:28:05Z",
+  "generated_at": "2026-11-04T06:34:21Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 22
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -48,12 +47,12 @@
   ],
   "items": [
     {
-      "id": "market-843e4a11dc35",
-      "title": "원/달러 환율(매매기준율) 1341원 (직전 대비 +3.8원)",
+      "id": "market-50071c9f4ee0",
+      "title": "원/달러 환율(매매기준율) 1341.2원 (직전 대비 +0.2원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-02T15:00:00Z",
+      "published_at": "2026-11-03T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -64,21 +63,47 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1341.0,
-        "previous": 1337.2,
-        "change": 3.8,
+        "latest": 1341.2,
+        "previous": 1341.0,
+        "change": 0.2,
         "unit": "원",
-        "date": "20261103",
+        "date": "20261104",
         "alert_threshold": 15.0
       }
     },
     {
-      "id": "market-4ddfbbe09f62",
+      "id": "market-9b5cb8ee95a4",
+      "title": "미국 10년물 국채금리 4.95% (직전 대비 +0.04%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-11-03T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 4.95,
+        "previous": 4.91,
+        "change": 0.04,
+        "unit": "%",
+        "date": "2026-11-03",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
+    },
+    {
+      "id": "market-4368598d91b7",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-10-31T15:00:00Z",
+      "published_at": "2026-11-01T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -93,34 +118,8 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261101",
+        "date": "20261102",
         "alert_threshold": 0.25
-      }
-    },
-    {
-      "id": "market-bca34f6912b5",
-      "title": "미국 10년물 국채금리 4.94% (직전 대비 -0.04%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-10-30T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 4.94,
-        "previous": 4.98,
-        "change": -0.04,
-        "unit": "%",
-        "date": "2026-10-30",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
       }
     },
     {
@@ -150,6 +149,24 @@
       }
     },
     {
+      "id": "news-a800132a781f",
+      "title": "S & P 500 rises as Nvidia , AI stocks rally despite Apple decline",
+      "url": "https://thebusinessjournal.com/sp-500-rises-nvidia-ai-stocks-apple-wall-street/",
+      "source": "thebusinessjournal.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-71b20ab1b139",
       "title": "유가 하락에도 … AI 투자 과열론에 코스피 하락 출발",
       "url": "https://biz.chosun.com/stock/stock_general/2026/11/03/QQN5I55SRBH6DO2W6QANMUV3GM/",
@@ -161,6 +178,380 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c35260f776a9",
+      "title": "有色 / 贵金属 | 11月份若黄金出现反弹契机 银铂钯价格也将会有所修复 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611043920988388.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-24f8fb74b6a6",
+      "title": "Ivanhoe Mines Issues 2026 Third - Quarter Financial Results , Overview of Operations and Exploration Activities",
+      "url": "https://www.elliotlakestandard.ca/press-releases/newsfile/ivanhoe-mines-issues-2026-third-quarter-financial-results-overview-of-operations-and-exploration-activities/",
+      "source": "elliotlakestandard.ca",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ba49c05cf059",
+      "title": "金价刚经历17年来最惨10月 ！ 德国商业银行发出抄底黄金信号",
+      "url": "https://futures.jrj.com.cn/2026/11/04085059003385.shtml",
+      "source": "futures.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-89712f47ce08",
+      "title": "中信证券 ： 人民币升值趋势未改但斜率放缓",
+      "url": "https://finance.sina.com.cn/stock/stockptd/2026-11-04/doc-inixpmfi8229015.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-60a13c75d9fd",
+      "title": "黄金 、 白银暴跌后现抄底窗口 ？ 专家称或是  十年一遇  机会 - 期货 - 金融界",
+      "url": "https://futures.jrj.com.cn/2026/11/04091059003738.shtml",
+      "source": "futures.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-04839e60738b",
+      "title": "美债利率逼近 5 %： 强劲就业数据引爆美元与黄金的剧烈博弈",
+      "url": "https://finance.jrj.com.cn/2026/11/04081859003173.shtml",
+      "source": "finance.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-96450526e715",
+      "title": "有色 / 贵金属 | 工业硅 _ x591A _ 晶硅 ： 双硅震荡偏弱 持续关注西南地区减产情况 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611043921061859.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6b26e2e919e3",
+      "title": "뛰는 금리에 저축은행  4 % 예금  귀환 … 두 달 새 6배 늘었다",
+      "url": "https://www.fnnews.com/news/202611040601245529",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b506c966696e",
+      "title": "Midterm Elections Live Updates : Ossoff Retains Georgia Senate Seat , as Polls Close in More Battlegrounds",
+      "url": "https://www.nytimes.com/live/2026/11/03/us/midterms-2026-election-day-trump/were-watching-several-areas-in-texas-as-polls-close-there",
+      "source": "nytimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a3a93510e9a7",
+      "title": "Democratic Sen . Jon Ossoff cruises to re - election in Georgia",
+      "url": "https://www.nbcnewyork.com/elections/georgia-senate-race-2026/6567183/",
+      "source": "nbcnewyork.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b29751c1d5f3",
+      "title": "Cost of living , economy and unhappiness with Trump job performance among early voting takeaways",
+      "url": "https://www.wthitv.com:443/2026/11/03/cost-living-economy-unhappiness-with-trumps-job-performance-among-early-voting-takeaways/",
+      "source": "wthitv.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-458e69ebb09b",
+      "title": "Ενδιάμεσες εκλογές ΗΠΑ : Οι κάλπες κλείνουν , βγήκαν τα πρώτα αποτελέσματα - Τι θα σημάνει τυχόν ήττα του Τραμπ",
+      "url": "https://www.efsyn.gr/kosmos/1502405/endiameses-ekloges-ipa-oi-kalpes-kleinoyn-vgikan-ta-prota-apotelesmata-ti-tha-simanei-tyhon-itta-toy-tramp/",
+      "source": "efsyn.gr",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-335b1838fbbe",
+      "title": "CIIE primed for a record ninth edition",
+      "url": "http://europe.chinadaily.com.cn/a/202611/03/WS6aea00a0e4b06d4aa0566db5.html",
+      "source": "europe.chinadaily.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7bdaaf581b4c",
+      "title": "ΗΠΑ : 6 στους 10 ψηφοφόρους διαφωνούν με τον πόλεμο του Τραμπ κατά του Ιράν",
+      "url": "https://www.in.gr/2026/11/04/world/ipa-6-stous-10-psifoforous-diafonoun-me-ton-polemo-tou-tramp-kata-tou-iran/",
+      "source": "in.gr",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6acb05412c0c",
+      "title": "Under - pressure Labor says saving  not simple exercise",
+      "url": "https://www.bluemountainsgazette.com.au/story/9385456/under-pressure-labor-says-saving-not-simple-exercise/",
+      "source": "bluemountainsgazette.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a5d8d627fa54",
+      "title": "هل تفتح حرب إيران أبواب الشرق الأوسط أمام الصين ؟",
+      "url": "https://www.aljazeera.net/politics/2026/11/4/%D9%87%D9%84-%D8%AA%D9%81%D8%AA%D8%AD%D8%AD%D8%B1%D8%A8-%D8%A5%D9%8A%D8%B1%D8%A7%D9%86-%D8%A3%D8%A8%D9%88%D8%A7%D8%A8-%D8%A7%D9%84%D8%B4%D8%B1%D9%82-%D8%A7%D9%84%D8%A3%D9%88%D8%B3%D8%B7",
+      "source": "aljazeera.net",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b2ffe6cefdaf",
+      "title": "Ενδιάμεσες εκλογές στις ΗΠΑ : Πέντε αναμετρήσεις που μπορεί να κρίνουν τον έλεγχο της Γερουσίας",
+      "url": "https://www.lifo.gr/now/world/endiameses-ekloges-stis-ipa-pente-anametriseis-poy-mporei-na-krinoyn-ton-elegho-tis",
+      "source": "lifo.gr",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0a32740b6cc8",
+      "title": "Trump İran kararını açıkladı : Saldırmak için acil bir planım yok",
+      "url": "https://www.sondakika.com/haber/haber-trump-iran-kararini-acikladi-saldirmak-icin-acil-20393254/",
+      "source": "sondakika.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0a9f3f0001ab",
+      "title": "Voters turned out with local races , taxes & bond proposals on the ballot",
+      "url": "https://www.wxyz.com/news/metro-detroit-voters-head-to-the-polls-with-local-races-taxes-and-bond-proposals-on-the-ballot",
+      "source": "wxyz.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cb2ce4bf84d4",
+      "title": "Donald Trump faces nationwide verdict from US voters in midterm elections",
+      "url": "https://www.maldonandburnhamstandard.co.uk/news/national/26696769.donald-trump-faces-nationwide-verdict-us-voters-midterm-elections/",
+      "source": "maldonandburnhamstandard.co.uk",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2ad608190d7f",
+      "title": "Alegeri în SUA . Trump riscă să piardă controlul Congresului . Democrații obțin primele victorii și înregistrează avansuri surprinzătoare . Situația în timp real",
+      "url": "https://www.mediafax.ro/stirile-zilei/alegeri-in-sua-trump-risca-sa-piarda-controlul-congresului-democratii-obtin-primele-victorii-si-inregistreaza-avansuri-surprinzatoare-situatia-in-timp-real-23836554",
+      "source": "mediafax.ro",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-28afbc9edb75",
+      "title": "Tras el día de las elecciones , Trump enfrenta pesquisas demócratas y la carrera por sucederlo",
+      "url": "https://www.latimes.com/espanol/eeuu/articulo/2026-11-03/tras-el-dia-de-las-elecciones-trump-enfrenta-pesquisas-democratas-y-la-carrera-por-sucederlo",
+      "source": "latimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-04T01:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -363,397 +754,6 @@
       "published_at": "2026-11-03T11:15:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4e963e54df65",
-      "title": "민주 , 상하원 장악땐 사법부 인준 제동 … 트럼프  조기 레임덕  [ 美 중간선거  운명의 날 ]",
-      "url": "https://www.fnnews.com/news/202611031811042619",
-      "source": "fnnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-46f7854731ce",
-      "title": "Les contrats à terme sur les actions américaines affichent des résultats mitigés alors quApple recule et que les élections de mi - mandat approchent - 03 / 11 / 2026 à 11 : 41",
-      "url": "https://www.boursorama.com/bourse/actualites/les-contrats-a-terme-sur-les-actions-americaines-affichent-des-resultats-mitiges-alors-qu-apple-recule-et-que-les-elections-de-mi-mandat-approchent-8d8595ff63d18412c33df3f799760531",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a273e0b03b66",
-      "title": "沙特阿美三季度净利增34 . 6 %， 首席执行官纳赛尔称地缘政治不确定性放大全球能源供应危机",
-      "url": "https://finance.jrj.com.cn/2026/11/03184658997325.shtml",
-      "source": "finance.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-69955b74225c",
-      "title": "Cumhurbaşkanı Erdoğan : Güney Kore ile ikili ticaretimizi 15 milyar dolar hedefine ulaştıracak adımları görüştük",
-      "url": "https://www.aa.com.tr/tr/gundem/cumhurbaskani-erdogan-guney-kore-ile-ikili-ticaretimizi-15-milyar-dolar-hedefine-ulastiracak-adimlari-gorustuk/4109382",
-      "source": "aa.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4d7f4c78b531",
-      "title": "康佳退市 ： 同一代彩电巨头 ， 为什么活成了完全不同的样子 - 钛媒体官方网站",
-      "url": "https://www.tmtpost.com/8188443.html",
-      "source": "tmtpost.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ea8fef036e9a",
-      "title": "BPOM Masih Uji Kandungan Beeru Stevia , Ini Sanksi Jika Tak Sesuai Klaim",
-      "url": "https://kesehatan.liputan6.com/info-sehat/read/8327241/bpom-masih-uji-kandungan-beeru-stevia-ini-sanksi-jika-tak-sesuai-klaim",
-      "source": "kesehatan.liputan6.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aa05d560244c",
-      "title": "À un budget de pierre",
-      "url": "https://www.canardpc.com/news/a-un-budget-de-pierre/",
-      "source": "canardpc.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-540f11ca06a6",
-      "title": "[ 기자수첩 ] K뷰티의 새로운 복병 C뷰티",
-      "url": "https://www.fnnews.com/news/202611031841304700",
-      "source": "fnnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9c7f004e29e4",
-      "title": "美중간선거가 코스피 살릴까 … S & P500은  17전 17승",
-      "url": "https://www.fnnews.com/news/202611031814500288",
-      "source": "fnnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-263f8117c321",
-      "title": "JEFFERIES stuft Evonik auf  Buy",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70017306-jefferies-stuft-evonik-auf-buy-322.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-638d236aa8ba",
-      "title": "ATX - Trends : AT & S , Palfinger , Erste Group ...",
-      "url": "https://boerse-social.com/2026/11/03/atx-trends_36",
-      "source": "boerse-social.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b511836d144f",
-      "title": "Presiden minta belanja K / L pada akhir tahun tetap efisien",
-      "url": "https://www.antaranews.com/berita/5829223/presiden-minta-belanja-k-l-pada-akhir-tahun-tetap-efisien",
-      "source": "antaranews.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-34e6456e900f",
-      "title": "中控技术TPT获人民日报报道 赋能京博石化迈向AI驱动自主运行 - 美通社PR - Newswire",
-      "url": "https://www.prnasia.com/story/554428-1.shtml",
-      "source": "prnasia.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a70c8cae778f",
-      "title": "ชาวนาลพบุรีเฮ ! ราคาข้าวเปลือกพุ่งแตะ 15 , 000 บาท สูงสุดในรอบ 10 ปี เร่งเกี่ยวหนีฝนส่งโรงสีคึกคัก",
-      "url": "https://www.dailynews.co.th/news/6329052/",
-      "source": "dailynews.co.th",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aed88add584f",
-      "title": "Les bénéfices du géant pétrolier saoudien Aramco poursuivent leur envolée sur fond de guerre au Moyen - Orient - 03 / 11 / 2026 à 11 : 25",
-      "url": "https://www.boursorama.com/actualite-economique/actualites/les-benefices-du-geant-petrolier-saoudien-aramco-poursuivent-leur-envolee-sur-fond-de-guerre-au-moyen-orient-4fbc7c7d3ae99b1a5b6c62bd4e230b87",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-87348ed1ff1d",
-      "title": "Pala cena nafte : Zašto je došlo do ovoga ?",
-      "url": "https://www.novosti.rs/ekonomija/vesti/1667334/cena-nafte-naglo-pala-posledica-vaznih-vesti-bliskog-istoka",
-      "source": "novosti.rs",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-da5268af784d",
-      "title": "UBS για Motor Oil : Αναβαθμίζει 12 % την τιμή - στόχο της μετοχής",
-      "url": "https://www.capital.gr/epixeiriseis/4027570/ubs-gia-motor-oil-anabathmizei-12-tin-timi-stoxo-tis-metoxis/",
-      "source": "capital.gr",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-32ddd6b1cf5d",
-      "title": "러시아 석유시설  활활 … 우크라이나 학교에 유도폭탄",
-      "url": "https://ichannela.com/news/detail/000000558248.do",
-      "source": "ichannela.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f28570291ade",
-      "title": "晚报丨港股三连涨 ， 南向爆买234亿港元 ； 美国中期选举今日投票 ； 俄确认俄美乌三方会谈10日至11日在阿布扎比举行 ； AMD财报盘后公布 ； 大摩 ： 未来十年AI资本支出或达15万亿美元 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611033920367270.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e5135c891722",
-      "title": "Not Re - electing Tinubu Will Undermine Nigeria Economic Progress , Says Onuigbo – THISDAYLIVE",
-      "url": "https://www.thisdaylive.com/2026/11/03/not-re-electing-tinubu-will-undermine-nigerias-economic-progress-says-onuigbo/",
-      "source": "thisdaylive.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4a9df6c2d925",
-      "title": "Aktien Frankfurt : Dax etwas schwächer - Ölpreis , Tech - Schwäche , Quartalszahlen",
-      "url": "https://www.finanzen.net/nachricht/aktien/aktien-frankfurt-dax-etwas-schwaecher-oelpreis-tech-schwaeche-quartalszahlen-16031867",
-      "source": "finanzen.net",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d01f964af285",
-      "title": "【 路博邁投信 】 投資長觀點 － 透過暫緩升息看升息進程",
-      "url": "https://news.cnyes.com/news/id/6621856",
-      "source": "news.cnyes.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T02:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-40c459c2f35a",
-      "title": "华尔街见闻早餐FM - Radio | 2026年11月3日",
-      "url": "https://wallstreetcn.com/articles/3785026",
-      "source": "wallstreetcn.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T02:15:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
