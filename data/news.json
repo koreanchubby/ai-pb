@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T02:31:16Z",
+  "generated_at": "2026-11-05T11:03:48Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 0
+      "count": 2
     },
     {
       "source": "한국은행 ECOS",
@@ -125,12 +125,12 @@
       }
     },
     {
-      "id": "market-4368598d91b7",
+      "id": "market-bb790d0ad615",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-01T15:00:00Z",
+      "published_at": "2026-11-02T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -145,7 +145,7 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261102",
+        "date": "20261103",
         "alert_threshold": 0.25
       }
     },
@@ -179,6 +179,40 @@
         "oil"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-00fdc4eeadf4",
+      "title": "130 אלף ש  לאישה שהחליקה על כתם שמן בקניון",
+      "url": "https://www.ynet.co.il/economy/article/byecdsdagx",
+      "source": "ynet.co.il",
+      "source_type": "news",
+      "published_at": "2026-11-05T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dfcee0372e32",
+      "title": "Asian shares mostly advance following US midterms , though Kospi falls on selling of chipmakers",
+      "url": "https://www.dailygazette.com/leader_herald/ap/business/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/article_49fd62b6-abc8-54bf-aee9-951a9fa82235.html",
+      "source": "dailygazette.com",
+      "source_type": "news",
+      "published_at": "2026-11-05T07:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -717,40 +751,6 @@
       "title": "Gaz : les stocks européens sont au plus bas depuis 2013 - 03 / 11 / 2026 à 10 : 07",
       "url": "https://www.boursorama.com/actualite-economique/actualites/gaz-les-stocks-europeens-sont-au-plus-bas-depuis-2013-bae5477565b18237fd08d0b6e47a0929",
       "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7f8a32da2683",
-      "title": "In the news today : U . S . midterms today , Carney in Antigua , is AI stealing youth jobs ?",
-      "url": "https://www.stcatharinesstandard.ca/news/canada/in-the-news-today-u-s-midterms-today-carney-in-antigua-is-ai-stealing-youth-jobs/article_67947e99-c468-5e65-bebd-541d4208cbcc.html",
-      "source": "stcatharinesstandard.ca",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f59fcca91ee2",
-      "title": "KEC International Guidance Cut : युद्ध की वजह से लगा ₹600 करोड़ का फटका ! कंपनी ने घटाए टारगेट , 8 % धड़ाम हुआ शेयर",
-      "url": "https://hindi.moneycontrol.com/news/markets/kec-international-cuts-fy27-revenue-growth-guidance-west-asia-conflict-impact-2453392.html",
-      "source": "hindi.moneycontrol.com",
       "source_type": "news",
       "published_at": "2026-11-03T11:15:00Z",
       "categories": [
