@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-05T11:03:48Z",
+  "generated_at": "2026-11-05T18:47:39Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 2
+      "count": 6
     },
     {
       "source": "한국은행 ECOS",
@@ -186,14 +186,48 @@
       "change_condition": null
     },
     {
-      "id": "news-00fdc4eeadf4",
-      "title": "130 אלף ש  לאישה שהחליקה על כתם שמן בקניון",
-      "url": "https://www.ynet.co.il/economy/article/byecdsdagx",
-      "source": "ynet.co.il",
+      "id": "news-c5be533e21cb",
+      "title": "JetBlue sends baggage fees soaring with 2nd hike of the year",
+      "url": "https://www.fox10phoenix.com/news/jetblue-sends-baggage-fees-soaring-2nd-hike-year",
+      "source": "fox10phoenix.com",
       "source_type": "news",
       "published_at": "2026-11-05T07:15:00Z",
       "categories": [
-        "oil"
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-280117c8f8e2",
+      "title": "부담 줄여야  vs  생계 위협 … 배달앱 상한제에 자영업자 · 라이더 갈등 고조",
+      "url": "https://www.newspim.com/news/view/20261105001182",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-11-05T07:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-484336c590f7",
+      "title": "Triumf demokratów nie przestraszył inwestorów . Ropa i gaz mocno tanieją",
+      "url": "https://www.rp.pl/biznes/art45448221-triumf-partii-demokratycznej-nie-przestraszyl-inwestorow-rynek-hipotek-hamuje",
+      "source": "rp.pl",
+      "source_type": "news",
+      "published_at": "2026-11-05T07:15:00Z",
+      "categories": [
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -207,6 +241,57 @@
       "title": "Asian shares mostly advance following US midterms , though Kospi falls on selling of chipmakers",
       "url": "https://www.dailygazette.com/leader_herald/ap/business/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/article_49fd62b6-abc8-54bf-aee9-951a9fa82235.html",
       "source": "dailygazette.com",
+      "source_type": "news",
+      "published_at": "2026-11-05T07:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e6e409c36900",
+      "title": "Estados Unidos : bolsas asiáticas sobem após rally em Wall Street após eleies",
+      "url": "https://pt.euronews.com/2026/11/05/estados-unidos-bolsas-asiaticas-sobem-apos-rally-em-wall-street-apos-eleicoes",
+      "source": "pt.euronews.com",
+      "source_type": "news",
+      "published_at": "2026-11-05T07:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c192f0fe60ae",
+      "title": "Ted Cruz calls midterm election results a  Watergate - level repudiation  of the GOP , warns  Americans will be hurt  by radical Dems",
+      "url": "https://nypost.com/2026/11/05/us-news/ted-cruz-calls-midterm-election-results-a-watergate-level-repudiation-of-the-gop-warns-americans-will-be-hurt-by-radical-dems/",
+      "source": "nypost.com",
+      "source_type": "news",
+      "published_at": "2026-11-05T07:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-00fdc4eeadf4",
+      "title": "130 אלף ש  לאישה שהחליקה על כתם שמן בקניון",
+      "url": "https://www.ynet.co.il/economy/article/byecdsdagx",
+      "source": "ynet.co.il",
       "source_type": "news",
       "published_at": "2026-11-05T07:15:00Z",
       "categories": [
@@ -670,91 +755,6 @@
       "published_at": "2026-11-03T11:15:00Z",
       "categories": [
         "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e51c97bcc5ca",
-      "title": "Global markets were already fragile . Big AI bets could break them",
-      "url": "https://www.theglobeandmail.com/investing/article-global-markets-were-already-fragile-big-ai-bets-could-break-them/",
-      "source": "theglobeandmail.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-914dbaae69b2",
-      "title": "120억弗  쩐의 전쟁  [ 美 중간선거  운명의 날 ]",
-      "url": "https://www.fnnews.com/news/202611031811136858",
-      "source": "fnnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b48eeffc5a71",
-      "title": "Messy ,  divided  and  scary : swing voters rate the country ahead of Election Day",
-      "url": "https://www.ksmu.org/2026-11-03/messy-divided-and-scary-swing-voters-rate-the-country-ahead-of-election-day",
-      "source": "ksmu.org",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a76003b8dec4",
-      "title": "Alza de 23 % en productos básicos plantea retos para la inflación y los subsidios en RD",
-      "url": "https://acento.com.do/economia/alza-de-23-en-productos-basicos-plantea-retos-para-la-inflacion-y-los-subsidios-en-rd-9782313.html",
-      "source": "acento.com.do",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5f9d00f66551",
-      "title": "Gaz : les stocks européens sont au plus bas depuis 2013 - 03 / 11 / 2026 à 10 : 07",
-      "url": "https://www.boursorama.com/actualite-economique/actualites/gaz-les-stocks-europeens-sont-au-plus-bas-depuis-2013-bae5477565b18237fd08d0b6e47a0929",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-11-03T11:15:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
