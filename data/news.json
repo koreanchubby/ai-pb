@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-06T07:57:59Z",
+  "generated_at": "2026-11-06T15:58:17Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 28
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -179,6 +179,227 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-94a909f47071",
+      "title": "Trump chama IA de  ouro  e defende expansão",
+      "url": "https://g1.globo.com/economia/noticia/2026/11/06/trump-chama-ia-de-ouro-e-defende-expansao-apos-queda-de-acoes-de-tecnologia.ghtml",
+      "source": "g1.globo.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T14:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0eb9ac04d4fc",
+      "title": "Democrats Spent Year Demanding Data Center Moratoriums . They Own The Narrative . Will They Own The Fallout ?",
+      "url": "http://www.zerohedge.com/markets/democrats-spent-year-demanding-data-center-moratoriums-they-own-narrative-will-they-own",
+      "source": "zerohedge.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T14:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-64a5d489bd0b",
+      "title": "NVIDIA Jensen Huang Summoned By U . S . Congress For A Closed Door Briefing To Address His Interactions With An Executive That In The Federal Spy Probe Crosshairs",
+      "url": "https://wccftech.com/nvidia-ceo-jensen-huang-congress-closed-door-briefing-china-spying-national-security/",
+      "source": "wccftech.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-041d5e3653b0",
+      "title": "Marvell Agreed to Pay $1 , 132 a Share for Lumentum . The Stock Trades Near $510 . Here Why It Not as Good As It Looks .",
+      "url": "https://www.aol.com/articles/marvell-agreed-pay-1-132-123101000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-077234a3a5c9",
+      "title": "敏芯股份 ( 688286 ): 苏州敏芯微电子技术股份有限公司关于本次募集资金投向属于科技创新领域的说明 （ 修订稿 ）- CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261106002055.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5a99ef456278",
+      "title": "Nvidia H200 chips await China approval in Hong Kong , Reuters reports",
+      "url": "https://finchannel.com/nvidia-h200-chips-await-china-approval-in-hong-kong-reuters-reports/140774/american-business-trends/2026/11/",
+      "source": "finchannel.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-be501649cb51",
+      "title": "Brookfield Asset Management Ltd : Brookfield Asset Management Announces Strong Third Quarter Results",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70059204-brookfield-asset-management-ltd-brookfield-asset-management-announces-strong-third-quarter-results-399.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f35cd00bc457",
+      "title": "Global shares skid after AI worries send Wall Street tumbling",
+      "url": "http://www.dailyadvance.com/news/world/global-shares-skid-after-ai-worries-send-wall-street-tumbling/article_4a8a6755-c7d6-551f-b75c-bb6c6d39a932.html",
+      "source": "dailyadvance.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-45c85c1f43c2",
+      "title": "European stocks join global rout after worst US chip sell - off since 2020",
+      "url": "https://www.euronews.com/2026/11/06/global-stock-rout-deepens-as-ai-data-centre-fears-fuel-worst-us-chip-sell-off-since-2020",
+      "source": "euronews.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d554a2dbc418",
+      "title": "US lawmakers ask Nvidia CEO to brief on alleged ties with Chinese spy : Report",
+      "url": "http://www.heraldglobe.com/news/279415834/us-lawmakers-ask-nvidia-ceo-to-brief-on-alleged-ties-with-chinese-spy-report",
+      "source": "heraldglobe.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ff89b77935f7",
+      "title": "Indian IT stocks emerge as  safe AI trade  amid rising Big Tech spending ; Anand Rathi prefers TechM , LTM , Mphasis",
+      "url": "https://www.livemint.com/market/stock-market-news/indian-it-stocks-emerge-as-safe-ai-trade-amid-rising-big-tech-spending-anand-rathi-prefers-techm-ltm-mphasis-11793962964792.html",
+      "source": "livemint.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-acf9ae69ec2c",
+      "title": "Global market downturn spreads to united kingdom and Europe amid tech sell - off",
+      "url": "https://www.westerntelegraph.co.uk/news/national/26704497.global-market-downturn-spreads-uk-europe-amid-tech-sell-off/",
+      "source": "westerntelegraph.co.uk",
+      "source_type": "news",
+      "published_at": "2026-11-06T11:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e4055d335f20",
+      "title": "2 Reasons Micron Stock Could Be a Buy Right Now ( and 1 Reason for Caution )",
+      "url": "https://www.aol.com/articles/2-reasons-micron-stock-could-104000000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T11:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -532,227 +753,6 @@
       "source": "businessinsider.com",
       "source_type": "news",
       "published_at": "2026-11-06T03:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b4cd1ab8338c",
-      "title": "5000선마저 와르르 … 서킷브레이커 발동 , 멈춰 선 코스피",
-      "url": "https://www.ddaily.co.kr:443/page/view/2026110609145461378",
-      "source": "ddaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-06T03:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c819e32d6488",
-      "title": "코스피 , 5000선 붕괴 … 삼전닉스 동반 10 % 급락",
-      "url": "https://news.mtn.co.kr/article/2026110609314696357",
-      "source": "news.mtn.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-06T03:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3df9c8cf6820",
-      "title": "엔케이젠바이오텍코리아 , 태국 메디즈와 협력 강화",
-      "url": "https://www.newspim.com/news/view/20261106000425",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-11-06T02:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b9f5d4bc0c07",
-      "title": "[ 특징주 ] 고려아연 6 % 급락⋯3분기 실적 쇼크에 목표가 줄하향",
-      "url": "https://www.etoday.co.kr/news/view/2644937",
-      "source": "etoday.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-06T02:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-73c26b8f4f8f",
-      "title": "현대삼호 20대 노동자 사망  2인 1조  위반 … 경찰 중대재해 조사",
-      "url": "https://www.newspim.com/news/view/20261106000348",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-11-06T02:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c5be533e21cb",
-      "title": "JetBlue sends baggage fees soaring with 2nd hike of the year",
-      "url": "https://www.fox10phoenix.com/news/jetblue-sends-baggage-fees-soaring-2nd-hike-year",
-      "source": "fox10phoenix.com",
-      "source_type": "news",
-      "published_at": "2026-11-05T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-280117c8f8e2",
-      "title": "부담 줄여야  vs  생계 위협 … 배달앱 상한제에 자영업자 · 라이더 갈등 고조",
-      "url": "https://www.newspim.com/news/view/20261105001182",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-11-05T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-484336c590f7",
-      "title": "Triumf demokratów nie przestraszył inwestorów . Ropa i gaz mocno tanieją",
-      "url": "https://www.rp.pl/biznes/art45448221-triumf-partii-demokratycznej-nie-przestraszyl-inwestorow-rynek-hipotek-hamuje",
-      "source": "rp.pl",
-      "source_type": "news",
-      "published_at": "2026-11-05T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dfcee0372e32",
-      "title": "Asian shares mostly advance following US midterms , though Kospi falls on selling of chipmakers",
-      "url": "https://www.dailygazette.com/leader_herald/ap/business/asian-shares-mostly-advance-following-us-midterms-though-kospi-falls-on-selling-of-chipmakers/article_49fd62b6-abc8-54bf-aee9-951a9fa82235.html",
-      "source": "dailygazette.com",
-      "source_type": "news",
-      "published_at": "2026-11-05T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e6e409c36900",
-      "title": "Estados Unidos : bolsas asiáticas sobem após rally em Wall Street após eleies",
-      "url": "https://pt.euronews.com/2026/11/05/estados-unidos-bolsas-asiaticas-sobem-apos-rally-em-wall-street-apos-eleicoes",
-      "source": "pt.euronews.com",
-      "source_type": "news",
-      "published_at": "2026-11-05T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c192f0fe60ae",
-      "title": "Ted Cruz calls midterm election results a  Watergate - level repudiation  of the GOP , warns  Americans will be hurt  by radical Dems",
-      "url": "https://nypost.com/2026/11/05/us-news/ted-cruz-calls-midterm-election-results-a-watergate-level-repudiation-of-the-gop-warns-americans-will-be-hurt-by-radical-dems/",
-      "source": "nypost.com",
-      "source_type": "news",
-      "published_at": "2026-11-05T07:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-00fdc4eeadf4",
-      "title": "130 אלף ש  לאישה שהחליקה על כתם שמן בקניון",
-      "url": "https://www.ynet.co.il/economy/article/byecdsdagx",
-      "source": "ynet.co.il",
-      "source_type": "news",
-      "published_at": "2026-11-05T07:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a71171b34f7c",
-      "title": "国际金融要情 | （ 周三 2026 . 11 . 4 ） _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611043920707358.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-11-04T01:30:00Z",
       "categories": [
         "fx"
       ],
