@@ -3,7 +3,7 @@
 #   ECOS_API_KEY  (선택) 한국은행 ECOS 인증키
 #   FRED_API_KEY  (선택) FRED API 키
 #   ANTHROPIC_API_KEY (선택) AI 설명 생성용
-#   KIS_APP_KEY · KIS_APP_SECRET (선택) 한국투자증권 Open API — 미 국채 10년 금리 (KST 7시·15시만 수집)
+#   KIS_APP_KEY · KIS_APP_SECRET (선택) 한국투자증권 Open API — 미 국채 10년 금리 (KST 7~8시·15~16시 회차에 한 번씩, 실패 시 FRED 값 사용)
 # 필요한 Variables:
 #   LLM_MODEL (선택) AI 설명에 쓸 모델 ID
 #   KIS_ENV (선택) real 또는 mock(기본값, 모의투자 키)
