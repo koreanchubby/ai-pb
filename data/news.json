@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T15:42:39Z",
+  "generated_at": "2026-11-07T20:15:49Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 19
     },
     {
       "source": "한국은행 ECOS",
@@ -179,6 +179,261 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7ec6e8643428",
+      "title": "Ко се боји зиме још : Европска унија улази у зиму без гаса али са – ватром на улицама",
+      "url": "https://sputnikportal.rs/20261107/ko-se-boji-zime-jos-evropska-unija-ulazi-u-zimu-bez-gasa-ali-sa--vatrom-na-ulicama-1205226460.html",
+      "source": "sputnikportal.rs",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bcd0e6db99b2",
+      "title": "Phibro Animal ( PAHC ) Q1 2027 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/07/phibro-animal-pahc-q1-2027-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-95385855cef4",
+      "title": "AI Stocks Are Falling ; Bitcoin Is Holding Ground . Here What Could Come Next .",
+      "url": "https://www.fool.com/investing/2026/11/07/ai-stocks-are-falling-bitcoin-is-holding-ground/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8d0551131fc6",
+      "title": "Lifetime Brands ( LCUT ) Q3 2026 Earnings Call Transcript",
+      "url": "https://www.fool.com/earnings/call-transcripts/2026/11/07/lifetime-brands-lcut-q3-2026-earnings-call-transcript/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d0d0ca2fb139",
+      "title": "The midterms were fantasy politics for Democrats . What now for Trump ? - 08 - Nov - 2026",
+      "url": "https://home.nzcity.co.nz/news/article.aspx?id=457528",
+      "source": "home.nzcity.co.nz",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5333ca3b3bc0",
+      "title": "These 5 Consumer Stocks Raised Their Dividends in 2026 . Here What $10 , 000 in Each Pays in 2027 .",
+      "url": "https://www.fool.com/investing/2026/11/07/these-5-consumer-stocks-raised-their-dividends-in/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ff58e574ee2e",
+      "title": "Pad 8 Pro : contre toute attente , Xiaomi vide le stock de sa meilleure tablette (- 40 %)",
+      "url": "https://www.01net.com/bons-plans/pad-8-pro-contre-toute-attente-xiaomi-vide-le-stock-de-sa-meilleure-tablette-40.html",
+      "source": "01net.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1f07ac409f31",
+      "title": "Mnangagwa regime should learn from Smith what  nyika inovakwa nevene vayo  really means !",
+      "url": "https://www.thezimbabwean.co/2026/11/mnangagwa-regime-should-learn-from-smith-what-nyika-inovakwa-nevene-vayo-really-means/",
+      "source": "thezimbabwean.co",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3181a4127edf",
+      "title": "I Dont Want Metal to Be Safe : Season of Mist Founder Reflects on 30 Years of Heavy Music",
+      "url": "https://www.vice.com/en/article/i-dont-want-metal-to-be-safe-season-of-mist-founder-reflects-on-30-years-of-heavy-music/",
+      "source": "vice.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-115e4a1039e4",
+      "title": "All aboard : election cash splash to boost bus services",
+      "url": "https://www.areanews.com.au/story/9387553/all-aboard-election-cash-splash-to-boost-bus-services/",
+      "source": "areanews.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c322826fb2f3",
+      "title": "„ Afrika  von Daniel Kehlmann : Darf man Trump als Arschloch bezeichnen ?",
+      "url": "https://www.profil.at/kultur/roman-buch-afrika-von-daniel-kehlmann-darf-man-trump-als-arschloch-bezeichnen/403203264",
+      "source": "profil.at",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-571b507f974a",
+      "title": "Путин подкидывает Трампу  конфетку : Тышкевич о большой сделке за счет Европы",
+      "url": "https://opinions.glavred.info/putin-podkidyvaet-trampu-konfetku-tyshkevich-o-bolshoy-sdelke-za-schet-evropy-10809908.html",
+      "source": "opinions.glavred.info",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1ada2cfaad30",
+      "title": "В России предложили ввести стоматологическую страховку : новости 7 ноября - 7 ноября 2026",
+      "url": "https://161.ru/text/world/2026/11/07/76751557/",
+      "source": "161.ru",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-051e43b1e686",
+      "title": "Wall Street reordena sus apuestas tras el triunfo demócrata | El Mundo",
+      "url": "https://www.elvocero.com/el-mundo/wall-street-reordena-sus-apuestas-tras-el-triunfo-dem-crata-en-las-elecciones-legislativas/article_52a0d280-d508-525f-b42c-66dccd7256e1.html",
+      "source": "elvocero.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4d40bc3228b0",
+      "title": "개미는 쉬지않아 ... 코스피 폭락에 2조원 쓸어담았는데 , SOXL도  와르르",
+      "url": "https://www.fnnews.com/news/202611071101376017",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T11:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -500,261 +755,6 @@
       "published_at": "2026-11-07T01:00:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5207c7a079fb",
-      "title": "이번 주 국내 기름값 동반 하락 … 휘발유 · 경유 1800원대",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01902406645643424&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-07T01:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a4c321a0db32",
-      "title": "Nuevo proyecto de ley permitirá a camioneros ajustar tarifas según fluctuaciones del precio del diésel",
-      "url": "https://www.vlnradio.cl/noticias/nacional/2026/11/06/nuevo-proyecto-de-ley-permitira-a-camioneros-ajustar-tarifas-segun-fluctuaciones-del-precio-del-diesel/",
-      "source": "vlnradio.cl",
-      "source_type": "news",
-      "published_at": "2026-11-07T01:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f5efab2771f6",
-      "title": "科技股反攻 ！ 资金抄底芯片光通信板块爆发 ， AMD大涨超11 %， 原油创六年最大周跌幅",
-      "url": "https://finance.sina.com.cn/roll/2026-11-07/doc-inixwhsh4924350.shtml",
-      "source": "finance.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-07T01:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8418a5383bf4",
-      "title": "国际金融要情 | （ 周六 2026 . 11 . 7 ） _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611073925273711.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ea2f62545e63",
-      "title": "El petróleo de Texas cierra en 90 , 83 dólares , una caída semanal de más del 12 %",
-      "url": "https://eldia.com.do/el-petroleo-de-texas-cierra-en-9083-dolares-una-caida-semanal-de-mas-del-12/",
-      "source": "eldia.com.do",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ca7d686dfd4c",
-      "title": "Promo JSM Indomaret 6 - 8 November 2026 , Ellips - Clear Men Diskon hingga 40 %",
-      "url": "https://momsmoney.kontan.co.id/news/promo-jsm-indomaret-6-8-november-2026-ellips-clear-men-diskon-hingga-40",
-      "source": "momsmoney.kontan.co.id",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-97dc6ba0fac2",
-      "title": "PO VOLBÁCH : Má viceprezident JD Vance pravdu ?",
-      "url": "https://neviditelnypes.lidovky.cz/zahranici/po-volbach-ma-viceprezident-jd-vance-pravdu.A261106_143131_p_zahranici_nef",
-      "source": "neviditelnypes.lidovky.cz",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1be8cc063c9e",
-      "title": "Giá xăng dầu hôm nay 7 / 11 : Dầu rẻ hơn đỉnh gần 16 . 000 đồng , RON 92 và E10 RON 95 liên tục giảm , giá đầy bình ô tô Honda",
-      "url": "https://www.techz.vn/192-1126-5-gia-xang-dau-hom-nay-7-11-dau-re-hon-dinh-gan-16000-dong-ron-92-va-e10-ron-95-lien-tuc-giam-gia-day-binh-o-to-honda-ylt716025.html",
-      "source": "techz.vn",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-409166498f74",
-      "title": "特朗普称正在与伊朗进行沟通 Anthropic上市估值预期据悉进一步打折",
-      "url": "https://finance.eastmoney.com/a/202611073925273619.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aa1ac1dda19b",
-      "title": "原油高が長期化 、 家計支援縮小 米中間選後も見えぬ収束 ： 時事ドットコム",
-      "url": "https://www.jiji.com/jc/article?k=2026110601033&g=eco",
-      "source": "jiji.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6571c4a12f18",
-      "title": "夏一新觀點 ： 哈米尼 「 無地理限制 」 警告─伊朗要讓川普算清動武代價 | 夏一新 | 評論",
-      "url": "https://www.storm.mg/article/11177548",
-      "source": "storm.mg",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1fc29614e616",
-      "title": "上場企業 、 純利益４３ ％ 増 ＡＩ需要 、 幅広く波及 ― ９月中間 ： 時事ドットコム",
-      "url": "https://www.jiji.com/jc/article?k=2026110601023&g=eco",
-      "source": "jiji.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7390124d0b5f",
-      "title": "Balança comercial tem maior superávit para outubro desde 1989",
-      "url": "https://www.novoeste.com/noticias/84925/balanca-comercial-tem-maior-superavit-para-outubro-desde-1989",
-      "source": "novoeste.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-94a909f47071",
-      "title": "Trump chama IA de  ouro  e defende expansão",
-      "url": "https://g1.globo.com/economia/noticia/2026/11/06/trump-chama-ia-de-ouro-e-defende-expansao-apos-queda-de-acoes-de-tecnologia.ghtml",
-      "source": "g1.globo.com",
-      "source_type": "news",
-      "published_at": "2026-11-06T14:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0eb9ac04d4fc",
-      "title": "Democrats Spent Year Demanding Data Center Moratoriums . They Own The Narrative . Will They Own The Fallout ?",
-      "url": "http://www.zerohedge.com/markets/democrats-spent-year-demanding-data-center-moratoriums-they-own-narrative-will-they-own",
-      "source": "zerohedge.com",
-      "source_type": "news",
-      "published_at": "2026-11-06T14:00:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
