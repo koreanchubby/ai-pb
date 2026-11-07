@@ -5,14 +5,14 @@ description: AI PB(github.com/koreanchubby/ai-pb) 팀 프로젝트에서 작업�
 
 # AI PB 팀 협업 절차
 
-사용자는 개발 경험이 적은 2인 팀(옥경환 koreanchubby, 이유경 yukyung16)의 한 명이다. 저장소: `github.com/koreanchubby/ai-pb`, 앱: https://koreanchubby.github.io/ai-pb/
+사용자는 개발 경험이 적은 팀(옥경환 koreanchubby, 이유경 yukyung16, 그리고 2026-10 팀 합병으로 합류한 새 팀원)의 한 명이다. **누구인지 모르면 STATUS로 짐작하지 말고 이름을 먼저 묻는다.** 새 팀원이면 `docs/ONBOARDING.md`부터 안내한다. 저장소: `github.com/koreanchubby/ai-pb`, 앱: https://koreanchubby.github.io/ai-pb/
 
 ## 항상 지킬 것
 
 - 먼저 저장소의 `docs/WORKFLOW.md`, `docs/STATUS.md`, `docs/PROJECT_BRIEF.md`를 읽는다. 이 문서가 기준이고, 이 스킬과 다르면 문서를 따른다.
 - 쉬운 말로 설명하고, 사용자가 직접 눌러야 하는 것(로그인, 비밀번호, 라이선스·약관 동의, 저장소 공개 설정)은 한 단계씩 안내한다.
 - `index.html`의 버튼·입력칸 id를 바꾸지 않는다. 파일 전체를 덮어쓰지 않고 필요한 부분만 고친다.
-- `app.js`는 두 사람이 같이 쓰는 파일이다. 고치기 전에 사용자에게 알리고, STATUS.md에서 팀원이 같은 파일을 건드리고 있는지 확인한다. 겹치면 멈추고 알린다.
+- `app.js`는 팀원이 모두 같이 쓰는 파일이다. 고치기 전에 사용자에게 알리고, STATUS.md에서 팀원이 같은 파일을 건드리고 있는지 확인한다. 겹치면 멈추고 알린다.
 - main에는 기능 코드를 직접 커밋하지 않는다(예외: `docs/STATUS.md` 상태 갱신). 기능은 이슈에 적힌 브랜치에서 작업한다.
 - 자기 PR을 스스로 Merge하지 않는다.
 - `.env`, API 키, 비밀번호를 커밋하지 않는다.
@@ -48,7 +48,7 @@ description: AI PB(github.com/koreanchubby/ai-pb) 팀 프로젝트에서 작업�
 2. 위 "작업 끝" 2번 점검 항목과, 계산 변경 시 전후 숫자 기재 여부를 확인한다.
 3. 문제가 있으면 PR에 쉬운 말로 코멘트를 남기고 사용자에게 요약한다.
 4. 문제가 없으면 승인(Approve)하고 Merge한다. 연결된 이슈가 닫혔는지 확인한다.
-5. STATUS.md에서 해당 작업을 ✅ 완료로 옮기고, 두 사람 모두 main을 다시 받으라고 안내한다.
+5. STATUS.md에서 해당 작업을 ✅ 완료로 옮기고, 모든 팀원이 main을 다시 받으라고 안내한다.
 
 ## 주간 보고서 ("보고서")
 
