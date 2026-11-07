@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T20:15:49Z",
+  "generated_at": "2026-11-07T23:41:32Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 19
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -150,6 +150,24 @@
       }
     },
     {
+      "id": "news-27632f8e1501",
+      "title": "From high - flying AI stocks to tariff - hit alcohol companies , the midterms shook up Wall Street",
+      "url": "https://www.clickondetroit.com/news/politics/2026/11/07/from-high-flying-ai-stocks-to-tariff-hit-alcohol-companies-the-midterms-shook-up-wall-street/",
+      "source": "clickondetroit.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T17:00:00Z",
+      "categories": [
+        "semis",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-148609b935b9",
       "title": "코스피 , 잔치 끝났나 … 반도체 숨통 죄는 美 민주당에 5000 턱걸이 - 경제ㅣ한국일보",
       "url": "https://www.hankookilbo.com/news/article/A2026110609560003437",
@@ -179,6 +197,74 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c020ad240d50",
+      "title": "The Artificial Intelligence ( AI ) Boom Is Far From Over . Here Are 4 Potential Long - Term Winners",
+      "url": "https://www.fool.com/investing/2026/11/07/the-artificial-intelligence-ai-boom-is-far-from-over-here-are-4-potential-long-term-winners/",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-deeba3041989",
+      "title": "AI sell - off wipes out Wall Street post - election rally ; major Asian markets also plunge up to 8 %",
+      "url": "http://www.zimbabwestar.com/news/279415265/ai-sell-off-wipes-out-wall-street-post-election-rally-major-asian-markets-also-plunge-up-to-8",
+      "source": "zimbabwestar.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-37a59b48eb66",
+      "title": "Rebenta a bolha da IA asiática",
+      "url": "https://www.esquerda.net/artigo/rebenta-bolha-da-ia-asiatica/99415",
+      "source": "esquerda.net",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5c54879f8aad",
+      "title": "Nvidia Stock Has More Than 60 % Upside According to Analyst Average Price Target . Should You Buy While the AI Trade Wobbles ?",
+      "url": "https://www.aol.com/articles/nvidia-stock-more-60-upside-182000000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T19:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -424,6 +510,142 @@
       "change_condition": null
     },
     {
+      "id": "news-0d77b900f736",
+      "title": "Reports Show Chinese Spy Agency Recruited Woman Close to Nvidia CEO",
+      "url": "https://redstate.com/joesquire/2026/11/07/reports-show-chinese-spy-agency-recruited-woman-close-to-nvidias-ceo-n2209143",
+      "source": "redstate.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T18:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-81fc291d9ffa",
+      "title": "Top 5 Camera Phones to Buy This Diwali : iPhone 18 Pro Max , Samsung Galaxy S26 Ultra and More",
+      "url": "https://www.digit.in/features/mobile-phones/top-5-camera-phones-to-buy-this-diwali-iphone-18-pro-max-samsung-galaxy-s26-ultra-and-more.html",
+      "source": "digit.in",
+      "source_type": "news",
+      "published_at": "2026-11-07T18:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2f5c4ce6fbba",
+      "title": "US welcomes Christodoulides investment mission as Cyprus targets new partnerships",
+      "url": "https://cyprus-mail.com/2026/11/07/us-welcomes-christodoulides-investment-mission-as-cyprus-targets-new-partnerships",
+      "source": "cyprus-mail.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4997ab20d8e3",
+      "title": "Dow Jones , S & P 500 , Nasdaq : Last week AI stocks crash is not your garden variety correction",
+      "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
+      "source": "thehindubusinessline.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T17:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c974a4a85384",
+      "title": "US approved Nvidia chip sales to China - linked firms",
+      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914132",
+      "source": "jpost.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T17:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b30d62470349",
+      "title": "The week the midterm elections rattled Wall Street",
+      "url": "https://www.wokv.com/news/business/high-flying-ai/IRXSF6AJIMY6TGNB5FJQEAGFJQ/",
+      "source": "wokv.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T17:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1fd1a98993a3",
+      "title": "SCHD Just Hit a Record High Following Midterm Election Results . Id Still Rather Buy This Dividend King for Passive Income .",
+      "url": "https://www.aol.com/articles/schd-just-hit-record-high-153500000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T16:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-73ecc7bc6cf5",
+      "title": "Advanced Micro Devices , Inc . $AMD Stock Sold by Ashton Thomas Private Wealth LLC",
+      "url": "https://www.tickerreport.com/banking-finance/13653535/advanced-micro-devices-inc-amd-stock-sold-by-ashton-thomas-private-wealth-llc.html",
+      "source": "tickerreport.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T11:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-4d40bc3228b0",
       "title": "개미는 쉬지않아 ... 코스피 폭락에 2조원 쓸어담았는데 , SOXL도  와르르",
       "url": "https://www.fnnews.com/news/202611071101376017",
@@ -532,227 +754,6 @@
       "source": "privatbankar.hu",
       "source_type": "news",
       "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d3c53397b6e3",
-      "title": "Nhà ở xã hội đầu tiên ở đô thị phía Tây tỉnh Gia Lai",
-      "url": "http://vov.vn/kinh-te/khoi-cong-du-an-nha-o-xa-hoi-dau-tien-o-do-thi-phia-tay-tinh-gia-lai-post1348093.vov",
-      "source": "vov.vn",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e7c353e1c435",
-      "title": "Andrés Góngora , agricultor :  La retirada de aceite es una medida que aplaudimos y que llevábamos demandando muchos años",
-      "url": "https://www.marca.com/tiramillas/economia/2026/11/07/andres-gongora-agricultor-retirada-aceite-medida-aplaudimos-llevabamos-demandando-anos.html",
-      "source": "marca.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e5c543ce4d0d",
-      "title": "Hương quế Trà Bồng trong hình hài những sản phẩm mới",
-      "url": "https://baomoi.com/huong-que-tra-bong-trong-hinh-hai-nhung-san-pham-moi-c56455934.epi",
-      "source": "baomoi.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-49fbc8bba7a8",
-      "title": "美企高管 ： 开放的中国与世界共享机遇 、 共同发展 - 水母网",
-      "url": "https://news.shm.com.cn/2026-11/07/content_5513919.htm",
-      "source": "news.shm.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-79f71881c016",
-      "title": "4 stats show just how ugly things got for markets this week",
-      "url": "https://www.aol.com/articles/4-stats-show-just-ugly-101501000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e0d83647a381",
-      "title": "Wochenrückblick - Zwischen Wahlrally und Tech - Ausverkauf",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70065711-wochenrueckblick-zwischen-wahlrally-und-tech-ausverkauf-156.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4332992575e6",
-      "title": "Φυσικό αέριο : Πρόσθετο κόστος 12 δισ . δολάρια για την Ευρώπη το 2026 και 217 , 8 δισ . δολάρια παγκοσμίως",
-      "url": "https://www.newsit.gr/oikonomia/finance/fysiko-aerio-prostheto-kostos-12-dis-dolaria-gia-tin-eyropi-to-2026-kai-217-8-dis-dolaria-pagkosmios/4817115/",
-      "source": "newsit.gr",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e75e8f209a4f",
-      "title": "Balança comercial registra maior superávit para o mês de outubro em 37 anos",
-      "url": "https://regiaonoroeste.com/balanca-comercial-registra-maior-superavit-para-o-mes-de-outubro-em-37-anos/",
-      "source": "regiaonoroeste.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1f6ae83f0756",
-      "title": "Klart råd : Dette blir mye billigere",
-      "url": "https://www.tv2.no/nyheter/klart-rad-dette-blir-mye-billigere/19388178/",
-      "source": "tv2.no",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06b467c874f8",
-      "title": "Vietnam Jadi Magnet Investasi Asing di Kawasan Asia Tenggara , Tembus Rekor Rp985 Triliun",
-      "url": "https://ekbis.sindonews.com/read/1769399/34/vietnam-jadi-magnet-investasi-asing-di-kawasan-asia-tenggara-tembus-rekor-rp985-triliun-1794021104",
-      "source": "ekbis.sindonews.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T05:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d8e49e2ae49a",
-      "title": "[ 韓IT열전 ] ④이해진과 네이버 … AI시대 , 커진 절박함",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02332086645643424&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-07T05:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4dcc91d8fd5b",
-      "title": "D St Lights Up , Ends Diwali Week with a Firecracker of a Friday",
-      "url": "https://economictimes.indiatimes.com/satet-front/d-st-lights-up-ends-diwali-week-with-a-firecracker-of-a-friday/articleshow/135621274.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T01:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-efee6314c391",
-      "title": "Fitch : Αμετάβλητη η αξιολόγηση της Ελλάδας στο ΒΒΒ , σταθερό outlook",
-      "url": "https://sofokleous10.gr/2026/11/07/fitch-%CE%B1%CE%BC%CE%B5%CF%84%CE%AC%CE%B2%CE%BB%CE%B7%CF%84%CE%B7-%CE%B7-%CE%B1%CE%BE%CE%B9%CE%BF%CE%BB%CF%8C%CE%B3%CE%B7%CF%83%CE%B7-%CF%84%CE%B7%CF%82-%CE%B5%CE%BB%CE%BB%CE%AC%CE%B4%CE%B1%CF%82/",
-      "source": "sofokleous10.gr",
-      "source_type": "news",
-      "published_at": "2026-11-07T01:00:00Z",
       "categories": [
         "oil"
       ],
