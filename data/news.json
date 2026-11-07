@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-07T01:58:34Z",
+  "generated_at": "2026-11-07T08:52:12Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 9
     },
     {
       "source": "한국은행 ECOS",
@@ -150,6 +150,24 @@
       }
     },
     {
+      "id": "news-148609b935b9",
+      "title": "코스피 , 잔치 끝났나 … 반도체 숨통 죄는 美 민주당에 5000 턱걸이 - 경제ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026110609560003437",
+      "source": "hankookilbo.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T11:00:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-0fa137f51e03",
       "title": "AI · 반도체주 투매에 코스피 8 % 대 급락",
       "url": "http://www.newstomato.com/ReadNews.aspx?no=1319510",
@@ -161,6 +179,40 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-06b467c874f8",
+      "title": "Vietnam Jadi Magnet Investasi Asing di Kawasan Asia Tenggara , Tembus Rekor Rp985 Triliun",
+      "url": "https://ekbis.sindonews.com/read/1769399/34/vietnam-jadi-magnet-investasi-asing-di-kawasan-asia-tenggara-tembus-rekor-rp985-triliun-1794021104",
+      "source": "ekbis.sindonews.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T05:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d8e49e2ae49a",
+      "title": "[ 韓IT열전 ] ④이해진과 네이버 … AI시대 , 커진 절박함",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=02332086645643424&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-07T05:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -244,6 +296,23 @@
       "published_at": "2026-11-07T01:00:00Z",
       "categories": [
         "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8418a5383bf4",
+      "title": "国际金融要情 | （ 周六 2026 . 11 . 7 ） _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611073925273711.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-07T00:00:00Z",
+      "categories": [
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -406,23 +475,6 @@
       "change_condition": null
     },
     {
-      "id": "news-8418a5383bf4",
-      "title": "国际金融要情 | （ 周六 2026 . 11 . 7 ） _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611073925273711.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-94a909f47071",
       "title": "Trump chama IA de  ouro  e defende expansão",
       "url": "https://g1.globo.com/economia/noticia/2026/11/06/trump-chama-ia-de-ouro-e-defende-expansao-apos-queda-de-acoes-de-tecnologia.ghtml",
@@ -491,6 +543,23 @@
       "change_condition": null
     },
     {
+      "id": "news-be501649cb51",
+      "title": "Brookfield Asset Management Ltd : Brookfield Asset Management Announces Strong Third Quarter Results",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70059204-brookfield-asset-management-ltd-brookfield-asset-management-announces-strong-third-quarter-results-399.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-11-06T12:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-077234a3a5c9",
       "title": "敏芯股份 ( 688286 ): 苏州敏芯微电子技术股份有限公司关于本次募集资金投向属于科技创新领域的说明 （ 修订稿 ）- CFi . CN 中财网",
       "url": "http://www.cfi.net.cn/p20261106002055.html",
@@ -512,23 +581,6 @@
       "title": "Nvidia H200 chips await China approval in Hong Kong , Reuters reports",
       "url": "https://finchannel.com/nvidia-h200-chips-await-china-approval-in-hong-kong-reuters-reports/140774/american-business-trends/2026/11/",
       "source": "finchannel.com",
-      "source_type": "news",
-      "published_at": "2026-11-06T12:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-be501649cb51",
-      "title": "Brookfield Asset Management Ltd : Brookfield Asset Management Announces Strong Third Quarter Results",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70059204-brookfield-asset-management-ltd-brookfield-asset-management-announces-strong-third-quarter-results-399.htm",
-      "source": "finanznachrichten.de",
       "source_type": "news",
       "published_at": "2026-11-06T12:30:00Z",
       "categories": [
@@ -610,6 +662,23 @@
       "change_condition": null
     },
     {
+      "id": "news-2c58044d669f",
+      "title": "Turizmde 50 milyar liralık ara tatil hareketliliği bekleniyor",
+      "url": "https://www.cnnturk.com/ekonomi/turizmde-50-milyar-liralik-ara-tatil-hareketliligi-bekleniyor-3489919",
+      "source": "cnnturk.com",
+      "source_type": "news",
+      "published_at": "2026-11-06T11:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-acf9ae69ec2c",
       "title": "Global market downturn spreads to united kingdom and Europe amid tech sell - off",
       "url": "https://www.westerntelegraph.co.uk/news/national/26704497.global-market-downturn-spreads-uk-europe-amid-tech-sell-off/",
@@ -644,46 +713,12 @@
       "change_condition": null
     },
     {
-      "id": "news-51b0ef14fd7d",
-      "title": "How Democrat US midterm victory triggered a global tech stock rout over fears of AI slowdown",
-      "url": "https://www.hindustantimes.com/business/global-tech-selloff-artificial-intelligence-ai-data-centers-us-midterm-election-results-nasdaq-wall-street-asian-markets-stocks-101793941673026.html",
-      "source": "hindustantimes.com",
+      "id": "news-21e0f79d3de7",
+      "title": "Airlangga Beberkan Aturan Baru DHE SDA , Delapan Negara Dapat Relaksasi",
+      "url": "https://ekonomi.republika.co.id/berita/to2tsc490/airlangga-beberkan-aturan-baru-dhe-sda-delapan-negara-dapat-relaksasi",
+      "source": "ekonomi.republika.co.id",
       "source_type": "news",
-      "published_at": "2026-11-06T07:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-df4fcdc73e6b",
-      "title": "Yapay zekâ küşü !  Muhteşem Yedilide trilyon dolarlık şok",
-      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/yapay-zeka-cokusu-muhtesem-yedilide-trilyon-dolarlik-sok-1827518",
-      "source": "turkiyegazetesi.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-06T07:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b1ba8a8a736a",
-      "title": "Bod Péter Ákos : Amerika és a többiek a demokrata hullám után",
-      "url": "https://privatbankar.hu/cikkek/benchmark/bod-peter-akos-amerika-es-a-tobbiek-a-demokrata-hullam-utan.html",
-      "source": "privatbankar.hu",
-      "source_type": "news",
-      "published_at": "2026-11-06T07:15:00Z",
+      "published_at": "2026-11-06T11:00:00Z",
       "categories": [
         "fx"
       ],
@@ -695,14 +730,14 @@
       "change_condition": null
     },
     {
-      "id": "news-05f0964b834b",
-      "title": "[ 증시 쇼크 ] ① 코스피 5000선 붕괴에 바닥 논쟁 … 증권가  가격은 바닥권",
-      "url": "https://www.newspim.com/news/view/20261106000864",
-      "source": "newspim.com",
+      "id": "news-22a24c06575b",
+      "title": "美国中期选举后亚太面临AI大考 ， 油价回落带来一线曙光",
+      "url": "https://stock.jrj.com.cn/2026/11/06182159047749.shtml",
+      "source": "stock.jrj.com.cn",
       "source_type": "news",
-      "published_at": "2026-11-06T07:15:00Z",
+      "published_at": "2026-11-06T11:00:00Z",
       "categories": [
-        "semis"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -712,48 +747,14 @@
       "change_condition": null
     },
     {
-      "id": "news-17dbc95a88c7",
-      "title": "Yapay zeka düzenleme endişesi küresel borsalarda 4 trilyon dolarlık erimeye yol açtı",
-      "url": "https://www.haberler.com/ekonomi/yapay-zeka-duzenleme-endisesi-kuresel-borsalarda-4-20400497-haberi/",
-      "source": "haberler.com",
+      "id": "news-9c00b643c69a",
+      "title": "Rupiah Lunglai ke Rp18 . 089 per Dolar AS Sore Ini",
+      "url": "https://www.cnnindonesia.com/ekonomi/20261106152742-78-1424161/rupiah-lunglai-ke-rp18089-per-dolar-as-sore-ini",
+      "source": "cnnindonesia.com",
       "source_type": "news",
-      "published_at": "2026-11-06T06:30:00Z",
+      "published_at": "2026-11-06T09:30:00Z",
       "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8b081e12c657",
-      "title": "全球DRAM营收同比暴增369 %： 三星份额第一 ， SK海力士加速追赶",
-      "url": "https://original.ifeng.com/c/8xpXdhVAbEs",
-      "source": "original.ifeng.com",
-      "source_type": "news",
-      "published_at": "2026-11-06T06:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2592ccd525c5",
-      "title": "一夜变天 ， 奥特曼刚改名  Ram ， 芯片股全崩AI基建踩刹车 _ 凤凰网",
-      "url": "https://tech.ifeng.com/c/8xpXQozGuXA",
-      "source": "tech.ifeng.com",
-      "source_type": "news",
-      "published_at": "2026-11-06T06:30:00Z",
-      "categories": [
-        "semis"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
