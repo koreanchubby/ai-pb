@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T13:33:16Z",
+  "generated_at": "2026-11-08T18:52:08Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -197,6 +197,346 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fbe4160ff79e",
+      "title": "삼성 우승 기념 48 % 할인 ?… 개미들 울린  파격 혜택  의 정체",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=01092246645644080&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-08T18:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-598d718a628f",
+      "title": "Jensen Huang reportedly targeted by Beijing - recruited spy",
+      "url": "http://www.jpost.com/business-and-innovation/article-914134",
+      "source": "jpost.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T18:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b4ad25354afd",
+      "title": "JAV rinkėjai pareikalavo sutvarkyti ekonomiką : nei Trumpui , nei demokratams lengva nebus",
+      "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3108094/jav-rinkejai-pareikalavo-sutvarkyti-ekonomika-nei-trumpui-nei-demokratams-lengva-nebus",
+      "source": "lrt.lt",
+      "source_type": "news",
+      "published_at": "2026-11-08T16:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5338e319b59a",
+      "title": "Samsung Electronics to become 1st local firm with cash assets of over $146 . 6 bil .: data",
+      "url": "https://www.koreatimes.co.kr/business/companies/20261108/samsung-electronics-to-become-1st-local-firm-with-cash-assets-of-over-1466-bil-data",
+      "source": "koreatimes.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-08T16:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-70350015d4a4",
+      "title": "Nvidia yongası çalındı : 11 , 4 milyon dolarlık kargo kayıp",
+      "url": "https://shiftdelete.net/nvidia-yongasi-calindi-11-milyon-dolar",
+      "source": "shiftdelete.net",
+      "source_type": "news",
+      "published_at": "2026-11-08T16:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f99c46385d8d",
+      "title": "估值具备吸引力 ！ 下周A股大概率这么走 ？_ 基金动态 _ 基金 _ 中金在线",
+      "url": "http://fund.cnfol.com/jijindongtai/20261108/32418484.shtml",
+      "source": "fund.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T15:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d60f7f5dfbcd",
+      "title": "Trump and Democrats now face voter demand to deliver economic relief",
+      "url": "https://www.wdbo.com/news/business/voters-demanded/ES4CE55RKI2WPBQ7LNETADZRAA/",
+      "source": "wdbo.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T14:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-69ef6f94c91b",
+      "title": "Usuários relatam falhas de Wi - Fi e 5G após atualizao One UI 9 – JORNAL 24 HORAS",
+      "url": "https://jornal24horas.com.br/?p=71943",
+      "source": "jornal24horas.com.br",
+      "source_type": "news",
+      "published_at": "2026-11-08T14:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6470b013cb27",
+      "title": "Voters demanded economic relief . Trump and Democrats face tough choices on how to deliver",
+      "url": "https://www.news4jax.com/news/politics/2026/11/08/voters-demanded-economic-relief-trump-and-democrats-face-tough-choices-on-how-to-deliver/",
+      "source": "news4jax.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ed5e9912d8a9",
+      "title": "Peso may stay at P63 after key US data - BusinessWorld Online",
+      "url": "https://bworldonline.com/banking-finance/2026/11/08/792112/peso-may-stay-at-p63-after-key-us-data/",
+      "source": "bworldonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3cc7a321be15",
+      "title": "Telecom Semiconductor Market 2026 : Qualcomm , Broadcom , Marvell , NVIDIA and Intel Compete for 5G , AI - RAN and Broadband Chip Spending",
+      "url": "https://telecomlead.com/semiconductor/telecom-semiconductor-market-2026-qualcomm-broadcom-marvell-nvidia-and-intel-compete-for-5g-ai-ran-and-broadband-chip-spending-128629",
+      "source": "telecomlead.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-526fbf2e3be8",
+      "title": "[ 증시 예보 ] 5천피 붕괴 · 서킷브레이커 발동 … 더 조심해야 할 게 있어 ?",
+      "url": "https://www.heraldk.com/article/2026110803401492224",
+      "source": "heraldk.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d58b0b8f979a",
+      "title": "Usuários relatam falhas de Wi - Fi e 5G após atualizao One UI 9",
+      "url": "https://www.estadao.com.br/tecmundo/produto-e-review/usuarios-relatam-falhas-de-wi-fi-e-5g-apos-atualizacao-one-ui-9/",
+      "source": "estadao.com.br",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-daf01b066155",
+      "title": "Two Chinese companies cleared to buy banned Nvidia AI chips have empty offices and unknown addresses investigation reveals businesses have ties to sanctioned Chinese military suppliers",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers",
+      "source": "tomshardware.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-165634fda1f4",
+      "title": "QUICK FactSet ： 2026Q3全球五大存储芯片厂商合计营业利润32万亿日元 ， 同比增长10倍",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-11-08/doc-inixztku7123858.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c45bc7320bd1",
+      "title": "Telecom Network Procurement in 2026 : How Ericsson , Nokia , Huawei , Samsung and ZTE Compete on Cost , Energy Savings and 5G Performance",
+      "url": "https://telecomlead.com/telecom-equipment/telecom-network-procurement-in-2026-how-ericsson-nokia-huawei-samsung-and-zte-compete-on-cost-energy-savings-and-5g-performance-128624",
+      "source": "telecomlead.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f3a66156588c",
+      "title": "今日 ， 集体上涨 ！ 华尔街释放  买入  信号 ！ 利空出尽 ？- 股票 - 金融界",
+      "url": "https://stock.jrj.com.cn/2026/11/08193559063539.shtml",
+      "source": "stock.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8544efb9c299",
+      "title": "科技股估值9年来首次比大盘  便宜 ， 多家华尔街机构同步给出加仓判断 ， 是调整而非终结 ？- 股票 - 金融界",
+      "url": "https://stock.jrj.com.cn/2026/11/08200459063561.shtml",
+      "source": "stock.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1e84bf1b3707",
+      "title": "美 , 데이터센터 제동 …  HBM 완판  삼전닉스 , 인수시점 늦추면 차질",
+      "url": "https://www.fnnews.com/news/202611081815385415",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-137bfe48f68c",
+      "title": "상장사 10곳 중 3곳  연중 최저가",
+      "url": "https://www.fnnews.com/news/202611081759585152",
+      "source": "fnnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-08T13:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -416,346 +756,6 @@
       "published_at": "2026-11-07T19:00:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-115e4a1039e4",
-      "title": "All aboard : election cash splash to boost bus services",
-      "url": "https://www.areanews.com.au/story/9387553/all-aboard-election-cash-splash-to-boost-bus-services/",
-      "source": "areanews.com.au",
-      "source_type": "news",
-      "published_at": "2026-11-07T19:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c322826fb2f3",
-      "title": "„ Afrika  von Daniel Kehlmann : Darf man Trump als Arschloch bezeichnen ?",
-      "url": "https://www.profil.at/kultur/roman-buch-afrika-von-daniel-kehlmann-darf-man-trump-als-arschloch-bezeichnen/403203264",
-      "source": "profil.at",
-      "source_type": "news",
-      "published_at": "2026-11-07T19:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-571b507f974a",
-      "title": "Путин подкидывает Трампу  конфетку : Тышкевич о большой сделке за счет Европы",
-      "url": "https://opinions.glavred.info/putin-podkidyvaet-trampu-konfetku-tyshkevich-o-bolshoy-sdelke-za-schet-evropy-10809908.html",
-      "source": "opinions.glavred.info",
-      "source_type": "news",
-      "published_at": "2026-11-07T19:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1ada2cfaad30",
-      "title": "В России предложили ввести стоматологическую страховку : новости 7 ноября - 7 ноября 2026",
-      "url": "https://161.ru/text/world/2026/11/07/76751557/",
-      "source": "161.ru",
-      "source_type": "news",
-      "published_at": "2026-11-07T19:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-051e43b1e686",
-      "title": "Wall Street reordena sus apuestas tras el triunfo demócrata | El Mundo",
-      "url": "https://www.elvocero.com/el-mundo/wall-street-reordena-sus-apuestas-tras-el-triunfo-dem-crata-en-las-elecciones-legislativas/article_52a0d280-d508-525f-b42c-66dccd7256e1.html",
-      "source": "elvocero.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T19:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0d77b900f736",
-      "title": "Reports Show Chinese Spy Agency Recruited Woman Close to Nvidia CEO",
-      "url": "https://redstate.com/joesquire/2026/11/07/reports-show-chinese-spy-agency-recruited-woman-close-to-nvidias-ceo-n2209143",
-      "source": "redstate.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T18:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-81fc291d9ffa",
-      "title": "Top 5 Camera Phones to Buy This Diwali : iPhone 18 Pro Max , Samsung Galaxy S26 Ultra and More",
-      "url": "https://www.digit.in/features/mobile-phones/top-5-camera-phones-to-buy-this-diwali-iphone-18-pro-max-samsung-galaxy-s26-ultra-and-more.html",
-      "source": "digit.in",
-      "source_type": "news",
-      "published_at": "2026-11-07T18:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2f5c4ce6fbba",
-      "title": "US welcomes Christodoulides investment mission as Cyprus targets new partnerships",
-      "url": "https://cyprus-mail.com/2026/11/07/us-welcomes-christodoulides-investment-mission-as-cyprus-targets-new-partnerships",
-      "source": "cyprus-mail.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4997ab20d8e3",
-      "title": "Dow Jones , S & P 500 , Nasdaq : Last week AI stocks crash is not your garden variety correction",
-      "url": "https://www.thehindubusinessline.com/portfolio/stock-fundamental-analysis-india/dow-jones-sampp-500-nasdaq-last-weeks-ai-stocks-crash-is-not-your-garden-variety-correction/article71678849.ece",
-      "source": "thehindubusinessline.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T17:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c974a4a85384",
-      "title": "US approved Nvidia chip sales to China - linked firms",
-      "url": "https://www.jpost.com/business-and-innovation/tech-and-start-ups/article-914132",
-      "source": "jpost.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T17:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b30d62470349",
-      "title": "The week the midterm elections rattled Wall Street",
-      "url": "https://www.wokv.com/news/business/high-flying-ai/IRXSF6AJIMY6TGNB5FJQEAGFJQ/",
-      "source": "wokv.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T17:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1fd1a98993a3",
-      "title": "SCHD Just Hit a Record High Following Midterm Election Results . Id Still Rather Buy This Dividend King for Passive Income .",
-      "url": "https://www.aol.com/articles/schd-just-hit-record-high-153500000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T16:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-73ecc7bc6cf5",
-      "title": "Advanced Micro Devices , Inc . $AMD Stock Sold by Ashton Thomas Private Wealth LLC",
-      "url": "https://www.tickerreport.com/banking-finance/13653535/advanced-micro-devices-inc-amd-stock-sold-by-ashton-thomas-private-wealth-llc.html",
-      "source": "tickerreport.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4d40bc3228b0",
-      "title": "개미는 쉬지않아 ... 코스피 폭락에 2조원 쓸어담았는데 , SOXL도  와르르",
-      "url": "https://www.fnnews.com/news/202611071101376017",
-      "source": "fnnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7344eeeab0e4",
-      "title": "CPC to leave domestic , diesel prices unchanged next week",
-      "url": "https://focustaiwan.tw:443/business/202611070009",
-      "source": "focustaiwan.tw",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8c667959ea3a",
-      "title": "Muhurat trading : Experts favour selective buying , caution against aggressive bets",
-      "url": "https://ianslive.in/muhurat-trading-experts-favour-selective-buying-caution-against-aggressive-bets--20261107152154",
-      "source": "ianslive.in",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4a61ba3501b4",
-      "title": "E20 Petrol Row : Centre Rejects Karnataka Claims Of Excess Ethanol , Says All 56 Samples Met Norms",
-      "url": "https://www.freepressjournal.in/india/e20-petrol-row-centre-rejects-karnatakas-claims-of-excess-ethanol-says-all-56-samples-met-norms",
-      "source": "freepressjournal.in",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e91f899140c0",
-      "title": "Preis von Azeri Light leicht gestiegen",
-      "url": "https://azertag.az/de/xeber/preis_von_azeri_light_leicht_gestiegen-4497783",
-      "source": "azertag.az",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2aca6e24f190",
-      "title": "Hatalmas áresés jöhet a hazai benzinkutakon",
-      "url": "https://privatbankar.hu/cikkek/makro/hatalmas-areses-johet-a-hazai-benzinkutakon.html",
-      "source": "privatbankar.hu",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0a8b56f8e105",
-      "title": "Dráma Zágrábban",
-      "url": "https://privatbankar.hu/cikkek/nemzetkozi/drama-zagrabban.html",
-      "source": "privatbankar.hu",
-      "source_type": "news",
-      "published_at": "2026-11-07T11:30:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
