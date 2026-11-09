@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-08T22:55:47Z",
+  "generated_at": "2026-11-09T02:42:33Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -46,6 +47,31 @@
     }
   ],
   "items": [
+    {
+      "id": "market-946590f4495e",
+      "title": "원/달러 환율(매매기준율) 1357.9원 (직전 대비 +15.9원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-08T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1357.9,
+        "previous": 1342.0,
+        "change": 15.9,
+        "unit": "원",
+        "date": "20261109",
+        "alert_threshold": 15.0
+      }
+    },
     {
       "id": "market-2b1693725507",
       "title": "미국 10년물 국채금리 4.86% (직전 대비 +0.02%p)",
@@ -95,31 +121,6 @@
         "unit": "%",
         "date": "20261106",
         "alert_threshold": 0.25
-      }
-    },
-    {
-      "id": "market-1b5f8b399e6c",
-      "title": "원/달러 환율(매매기준율) 1342원 (직전 대비 +1.3원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-05T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1342.0,
-        "previous": 1340.7,
-        "change": 1.3,
-        "unit": "원",
-        "date": "20261106",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -203,17 +204,237 @@
       "change_condition": null
     },
     {
-      "id": "news-0fa137f51e03",
-      "title": "AI · 반도체주 투매에 코스피 8 % 대 급락",
-      "url": "http://www.newstomato.com/ReadNews.aspx?no=1319510",
-      "source": "newstomato.com",
+      "id": "news-a8d1cba75250",
+      "title": "Houthi missiles hit Riyadh financial district , damage Aramco office as Saudi retaliates",
+      "url": "https://www.hindustantimes.com/world-news/houthi-missiles-hit-riyadh-financial-district-damage-aramco-office-as-saudi-retaliates-101794183754284.html",
+      "source": "hindustantimes.com",
       "source_type": "news",
-      "published_at": "2026-11-06T01:30:00Z",
+      "published_at": "2026-11-09T02:00:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-527a5496e066",
+      "title": "在北京开的这个峰会 ， 很特别",
+      "url": "https://news.ifeng.com/c/8xu74Yn9VWI",
+      "source": "news.ifeng.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b22a9d0348d1",
+      "title": "Lực lượng đặc nhiệm mới của Mỹ có thể thay đổi cục diện chiến tranh với Iran ?",
+      "url": "https://baotintuc.vn/luc-luong-dac-nhiem-moi-cua-my-co-the-thay-doi-cuc-dien-chien-tranh-voi-iran-post1401056.html",
+      "source": "baotintuc.vn",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c7044927f4ed",
+      "title": "Санкции осложняют торги русским искусством на Западе , считает эксперт",
+      "url": "https://ria.ru/20261109/auktsiony-2130195464.html",
+      "source": "ria.ru",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-079f8f473bd7",
+      "title": "朋友圈  化缘  求生之后 ， 百合网联创慕岩讲述失去的十年|马云|田范江|非你莫属",
+      "url": "https://www.163.com/dy/article/LB9IS4VC05148UNS.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-16d71ff36975",
+      "title": "11 / 9國際早報｜黃仁勳認了和中國間諜女主管有染 、 台灣人民共產黨主席涉拿中資選里長遭押 、 波蘭槍手血洗觀光廣場前先滅門 | 國際中心 | 新聞",
+      "url": "https://www.storm.mg/article/11179569",
+      "source": "storm.mg",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ef9ab50621c0",
+      "title": "信用卡  火拼双11 ： 消费立减金 、 分期免息成主流 多家银行抱团营销 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611083925701891.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d4f55bf54368",
+      "title": "Trump Defends Record In  60 Minute Interview | NewsRadio 1170 WWVA",
+      "url": "https://newsradio1170.iheart.com/content/2026-11-09-trump-defends-record-in-60-minutes-interview/",
+      "source": "newsradio1170.iheart.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ac24923ab0c7",
+      "title": "Mexico cartels fire up the migrant caravans after Democrat win",
+      "url": "https://www.americanthinker.com/blog/2026/11/mexico-s-cartels-fire-up-the-migrant-caravans-after-democrat-win/",
+      "source": "americanthinker.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2c5ab33ac87a",
+      "title": "ترامب عن أسباب خسارة الانتخابات : استياء كبير من  إسرائيل  لدى الناخبين – قناة المنار",
+      "url": "https://www.almanar.com.lb/article/1335922/",
+      "source": "almanar.com.lb",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c78b467548e5",
+      "title": "Un gratte - ciel dAramco endommagé dans la capitale saoudienne , selon des témoins",
+      "url": "https://www.lalibre.be/dernieres-depeches/2026/11/08/un-gratte-ciel-daramco-endommage-dans-la-capitale-saoudienne-selon-des-temoins-ZLBXYZSE6RAF7EN5ATJCXIJQRE/",
+      "source": "lalibre.be",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-506027aa2077",
+      "title": "Trump Defends Record In  60 Minute Interview",
+      "url": "https://jetradio1400.iheart.com/content/2026-11-09-trump-defends-record-in-60-minutes-interview/",
+      "source": "jetradio1400.iheart.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8c3c288fd646",
+      "title": "En Turquie , les promesses face à lurgence climatique confrontées aux conflits et aux finances",
+      "url": "https://www.martinique.franceantilles.fr/actualite/international/en-turquie-les-promesses-face-a-lurgence-climatique-confrontees-aux-conflits-et-aux-finances-1098994.php",
+      "source": "martinique.franceantilles.fr",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-69ff7fc8fdc3",
+      "title": "Trump Defends Record In  60 Minute Interview | NewsRadio WHAM 1180",
+      "url": "https://wham1180.iheart.com/content/2026-11-09-trump-defends-record-in-60-minutes-interview/",
+      "source": "wham1180.iheart.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T02:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -535,227 +756,6 @@
       "published_at": "2026-11-08T21:00:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-87f88d945f30",
-      "title": "CPC to freeze fuel prices , despite international drop",
-      "url": "https://www.taipeitimes.com/News/biz/archives/2026/11/09/2003867386",
-      "source": "taipeitimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-22cf699aa8e2",
-      "title": "Promising Streaming Stocks To Follow Today – November 8th",
-      "url": "https://www.themarketsdaily.com/2026/11/08/promising-streaming-stocks-to-follow-today-november-8th.html",
-      "source": "themarketsdaily.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-67fa2a5f6445",
-      "title": "Crude bomb explodes inside CID headquarters in Dhaka",
-      "url": "https://www.thedailystar.net/news/crime-justice/news/crude-bomb-explodes-inside-cid-headquarters-dhaka-4318601",
-      "source": "thedailystar.net",
-      "source_type": "news",
-      "published_at": "2026-11-08T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-54bff6f7d803",
-      "title": "The political economy of Bangladesh energy crisis",
-      "url": "https://www.thedailystar.net/slow-reads/big-picture/news/the-political-economy-bangladeshs-energy-crisis-4318531",
-      "source": "thedailystar.net",
-      "source_type": "news",
-      "published_at": "2026-11-08T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-585e60e367ca",
-      "title": "Jakie wykształcenie ma Dolph Lundgren ? Dlaczego zrezygnował z obiecującej kariery naukowca i został aktorem ?",
-      "url": "https://tvn.pl/gwiazdy/dolph-lundgren-wyksztalcenie-st9319616",
-      "source": "tvn.pl",
-      "source_type": "news",
-      "published_at": "2026-11-08T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-032a7543fe6c",
-      "title": "NNPC pitches investors on Nigeria – Morocco gas pipeline , eyes Trans - Saharan FID talks in 2027",
-      "url": "https://www.zawya.com/en/projects/oil-gas/nnpc-pitches-investors-on-nigeriamorocco-gas-pipeline-eyes-trans-saharan-fid-talks-in-2027-2126344",
-      "source": "zawya.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e35b9346da4b",
-      "title": "Οπισθοχώρηση (;) Τραμπ για Ιράν : Εξαιρετικά απίθανη μια νέα στρατιωτική επέμβαση",
-      "url": "https://www.news247.gr/kosmos/opisthoxorisi-trab-gia-iran-exairetika-apithani-mia-nea-stratiotiki-epemvasi/",
-      "source": "news247.gr",
-      "source_type": "news",
-      "published_at": "2026-11-08T20:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d220bf461af8",
-      "title": "WTI Crude Oil : How Durable Is the Calm Behind the Sell - Off ?",
-      "url": "https://www.dailyforex.com/forex-technical-analysis/2026/11/wti-crude-oil-forecast-8-november-2026/251559",
-      "source": "dailyforex.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T19:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-70a9689df504",
-      "title": "Lower crude , global stability to drive market growth in new Samvat : ANMI President Kamlesh Shroff",
-      "url": "http://www.calcuttanews.net/news/279420518/lower-crude-global-stability-to-drive-market-growth-in-new-samvat-anmi-president-kamlesh-shroff",
-      "source": "calcuttanews.net",
-      "source_type": "news",
-      "published_at": "2026-11-08T19:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fbe4160ff79e",
-      "title": "삼성 우승 기념 48 % 할인 ?… 개미들 울린  파격 혜택  의 정체",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=01092246645644080&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-08T18:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-598d718a628f",
-      "title": "Jensen Huang reportedly targeted by Beijing - recruited spy",
-      "url": "http://www.jpost.com/business-and-innovation/article-914134",
-      "source": "jpost.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T18:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b4ad25354afd",
-      "title": "JAV rinkėjai pareikalavo sutvarkyti ekonomiką : nei Trumpui , nei demokratams lengva nebus",
-      "url": "https://www.lrt.lt/naujienos/pasaulyje/6/3108094/jav-rinkejai-pareikalavo-sutvarkyti-ekonomika-nei-trumpui-nei-demokratams-lengva-nebus",
-      "source": "lrt.lt",
-      "source_type": "news",
-      "published_at": "2026-11-08T16:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5338e319b59a",
-      "title": "Samsung Electronics to become 1st local firm with cash assets of over $146 . 6 bil .: data",
-      "url": "https://www.koreatimes.co.kr/business/companies/20261108/samsung-electronics-to-become-1st-local-firm-with-cash-assets-of-over-1466-bil-data",
-      "source": "koreatimes.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-08T16:00:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
