@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-09T02:42:33Z",
+  "generated_at": "2026-11-09T11:42:28Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -73,6 +73,31 @@
       }
     },
     {
+      "id": "market-c656e2267a67",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-06T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261107",
+        "alert_threshold": 0.25
+      }
+    },
+    {
       "id": "market-2b1693725507",
       "title": "미국 10년물 국채금리 4.86% (직전 대비 +0.02%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -96,31 +121,6 @@
         "date": "2026-11-06",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-2f2f08d4709d",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-05T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261106",
-        "alert_threshold": 0.25
       }
     },
     {
@@ -186,17 +186,237 @@
       "change_condition": null
     },
     {
-      "id": "news-148609b935b9",
-      "title": "코스피 , 잔치 끝났나 … 반도체 숨통 죄는 美 민주당에 5000 턱걸이 - 경제ㅣ한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026110609560003437",
-      "source": "hankookilbo.com",
+      "id": "news-f595b7f65112",
+      "title": "Trump :  Immigratiebeleid van Amerikaanse regering was misschien te hard",
+      "url": "https://www.vrt.be/vrtnws/nl/2026/11/09/trump-immigratiebeleid-van-amerikaanse-regering-was-te-hard/",
+      "source": "vrt.be",
       "source_type": "news",
-      "published_at": "2026-11-06T11:00:00Z",
+      "published_at": "2026-11-09T07:00:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-913998f7586f",
+      "title": "COP31 faces uphill battle as war , AI reshape climate agenda",
+      "url": "https://www.middle-east-online.com/en/cop31-faces-uphill-battle-war-ai-reshape-climate-agenda",
+      "source": "middle-east-online.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T07:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3d751b8ae6cd",
+      "title": "Trump : Ukraine wird « etwas andere Form » haben",
+      "url": "https://www.stimme.de/politik/welt/politik/ausland/trump-ukraine-wird-etwas-andere-form-haben-art-5232713",
+      "source": "stimme.de",
+      "source_type": "news",
+      "published_at": "2026-11-09T07:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bb4274641d62",
+      "title": "Šef najvrjednije korporacije na svijetu prevario ženu s kineskom špijunkom",
+      "url": "https://www.index.hr/vijesti/clanak/sef-najvrjednije-korporacije-na-svijetu-na-prevario-zenu-s-kineskom-spijunkom/2854708.aspx?index_ref=homepage_comment_box_d&commentId=12442862",
+      "source": "index.hr",
+      "source_type": "news",
+      "published_at": "2026-11-09T07:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2721dfdc13ed",
+      "title": "ইরানে অস্ত্র ও অবৈধ পণ্য প্রবেশ ঠেকাতে নতুন টাস্কফোর্স গঠন যুক্তরাষ্ট্রের",
+      "url": "https://www.ntvbd.com/world/news-1833317",
+      "source": "ntvbd.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T07:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6159f5f74c15",
+      "title": "消费入座成潮流 ？ 消费入座趋势是怎么形成的 ？",
+      "url": "https://news.pedaily.cn/202611/571530.shtml",
+      "source": "news.pedaily.cn",
+      "source_type": "news",
+      "published_at": "2026-11-09T07:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e9d882ade519",
+      "title": "Francesca Bria :  En Estados Unidos y Brasil la gente ha dicho no a la agenda de las grandes tecnológicas",
+      "url": "https://www.lavanguardia.com/vida/20261109/11678682/estados-unidos-brasil-gente-dicho-agenda-grandes-tecnologicas.html",
+      "source": "lavanguardia.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T07:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-10f664558504",
+      "title": "Revista presei internaționale , 9 noiembrie 2026 | Agenția de presă Rador",
+      "url": "https://www.rador.ro/2026/11/09/revista-presei-internationale-9-noiembrie-2026/",
+      "source": "rador.ro",
+      "source_type": "news",
+      "published_at": "2026-11-09T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ae0b6595f4dd",
+      "title": "La OCDE alerta del lado oscuro de las subvenciones al campo",
+      "url": "https://www.libertaddigital.com/libremercado/2026-11-09/la-ocde-alerta-del-lado-oscuro-de-las-subvenciones-al-campo-7486458/",
+      "source": "libertaddigital.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ecccf6af5bb5",
+      "title": "AI讓農業副產物變身亮眼綠金 工研院啟動ESG×AI雙軸賦能助小農用AI釀酒及製茶",
+      "url": "https://n.yam.com/Article/20261109799336",
+      "source": "n.yam.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a90fceb474ef",
+      "title": "Những cử tri quay lưng khiến đảng Cộng hòa thảm bại",
+      "url": "https://vnexpress.net/nhung-cu-tri-quay-lung-khien-dang-cong-hoa-tham-bai-5142280.html",
+      "source": "vnexpress.net",
+      "source_type": "news",
+      "published_at": "2026-11-09T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-93e286038a50",
+      "title": "İsrailde esrarengiz hareketlilik ! Rus askeri uçağı iniş yaptı",
+      "url": "https://www.sondakika.com/haber/haber-israilde-esrarengiz-hareketlilik-rus-askeri-ucagi-20408556/",
+      "source": "sondakika.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cc6473a8bc23",
+      "title": "Θεσσαλονίκη : Άγκυρα στο μέλλον με το λιμάνι στο « τιμόνι » της ανάπτυξης",
+      "url": "https://www.emakedonia.gr/thessaloniki-agkyra-sto-mellon-me-to-limani-sto-timoni-tis-anaptyxis",
+      "source": "emakedonia.gr",
+      "source_type": "news",
+      "published_at": "2026-11-09T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-50788d432bc3",
+      "title": "啟動ESG×AI雙軸賦能 工研院助南部小農用AI釀酒 、 製茶",
+      "url": "https://n.yam.com/Article/20261109988965",
+      "source": "n.yam.com",
+      "source_type": "news",
+      "published_at": "2026-11-09T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -531,227 +751,6 @@
       "title": "Democrats plan to push clean energy to lower bills and challenge Trump fossil fuel agenda | National",
       "url": "http://www.thedailytimes.com/ap/national/democrats-plan-to-push-clean-energy-to-lower-bills-and-challenge-trump-s-fossil-fuel/article_87dbe6de-c3b2-54d7-90a3-b5297add1bff.html",
       "source": "thedailytimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b84707fa0c8a",
-      "title": "Estados Unidos crea grupo de trabajo para bloquear rutas terrestres hacia Irán",
-      "url": "https://laopinion.com/2026/11/08/estados-unidos-crea-grupo-de-trabajo-para-bloquear-rutas-terrestres-hacia-iran/",
-      "source": "laopinion.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ec97581e282f",
-      "title": "„ Vydieraniu je koniec . Moldavsko dalo ruskému plynu definitívne zbohom . Prezidentka poslala Moskve ostrý odkaz - Svet - Správy",
-      "url": "https://www.pravda.sk/spravy/svet/clanok/2074849-vydieraniu-je-koniec-moldavsko-dalo-ruskemu-plynu-definitivne-zbohom-prezidentka-poslala-moskve-ostry-odkaz",
-      "source": "pravda.sk",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e583383af322",
-      "title": "Sunday Edition : Behind the Blue Wave",
-      "url": "https://www.whqr.org/local/2026-11-08/sunday-edition-behind-the-blue-wave",
-      "source": "whqr.org",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c802d236f0c9",
-      "title": "Pouvoir dachat . Achats groupés : Ecodigo a déjà allégé la facture d  énergie de 200 000 foyers",
-      "url": "https://www.bienpublic.com/economie/2026/11/08/achats-groupes-ecodigo-a-deja-allege-la-facture-d-energie-de-200-000-foyers",
-      "source": "bienpublic.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-36190a2ca3cf",
-      "title": "Szwedzi o zamachu w Krakowie . Polska straciła status bezpiecznego kraju",
-      "url": "https://wiadomosci.wp.pl/krakow/szwedzi-o-zamachu-w-krakowie-polska-stracila-status-bezpiecznego-kraju-7348916371999200a",
-      "source": "wiadomosci.wp.pl",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eb3d15a35073",
-      "title": "Ο Πιερρακάκης στις Βρυξέλλες : Στην ατζέντα η ευρωπαϊκή άμυνα και η διαδοχή της Λαγκάρντ",
-      "url": "https://www.protagon.gr/epikairotita/o-pierrakakis-stis-vrykselles-stin-atzenta-i-evrwpaiki-amyna-kai-i-diadoxi-tis-lagkarnt-44343470664",
-      "source": "protagon.gr",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0f6674796d58",
-      "title": "Arab News | Trump says he is highly unlikely to order Iran strikes if talks progress",
-      "url": "https://www.arabnews.com/middle-east/trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress-3010577",
-      "source": "arabnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6f0a6937dd8e",
-      "title": "9 . November – Mauerfall : „ Mauer und Schießbefehl waren kein Betriebsunfall",
-      "url": "https://www.morgenpost.de/politik/article413604909/mauer-und-schiessbefehl-waren-kein-betriebsunfall.html",
-      "source": "morgenpost.de",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-968a69786773",
-      "title": "Trump says he is highly unlikely to order Iran strikes if talks progress",
-      "url": "https://www.dailymaverick.co.za/article/2026-11-08-trump-says-he-is-highly-unlikely-to-order-iran-strikes-if-talks-progress/",
-      "source": "dailymaverick.co.za",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d3e8cf2843ba",
-      "title": "El - Sayed blasted killing of Al - Qaeda terrorist US citizen in resurfaced article",
-      "url": "https://nypost.com/2026/11/08/us-news/el-sayed-blasted-killing-of-al-qaeda-terrorist-us-citizen-in-resurfaced-article/",
-      "source": "nypost.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7135d48c29ca",
-      "title": "Manila Tegur Pejabat yang Berkomentar soal Tiongkok",
-      "url": "https://koran-jakarta.com/2026-11-09/manila-tegur-pejabat-yang-berkomentar-soal-tiongkok",
-      "source": "koran-jakarta.com",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1863cb3f4340",
-      "title": "Προφητείες 2027 : Νοστράδαμος , Μπάμπα Βάνγκα και εξωγήινοι",
-      "url": "https://pelop.gr/profiteies-2027-nostradamos-baba-vanga-provlepseis-2/",
-      "source": "pelop.gr",
-      "source_type": "news",
-      "published_at": "2026-11-08T21:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-389e6d8136b7",
-      "title": "民主黨勝選藏憂 內外鬥爭接踵來",
-      "url": "http://orientaldaily.on.cc/content/%E5%85%A9%E5%B2%B8%E5%9C%8B%E9%9A%9B/odn-20261109-1109_00192_001/%E6%B0%91%E4%B8%BB%E9%BB%A8%E5%8B%9D%E9%81%B8%E8%97%8F%E6%86%82--%E5%85%A7%E5%A4%96%E9%AC%A5%E7%88%AD%E6%8E%A5%E8%B8%B5%E4%BE%86",
-      "source": "orientaldaily.on.cc",
       "source_type": "news",
       "published_at": "2026-11-08T21:00:00Z",
       "categories": [
