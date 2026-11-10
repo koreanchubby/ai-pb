@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T13:31:52Z",
+  "generated_at": "2026-11-10T20:51:52Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 29
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -248,24 +248,6 @@
       "published_at": "2026-11-08T20:00:00Z",
       "categories": [
         "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-27632f8e1501",
-      "title": "From high - flying AI stocks to tariff - hit alcohol companies , the midterms shook up Wall Street",
-      "url": "https://www.clickondetroit.com/news/politics/2026/11/07/from-high-flying-ai-stocks-to-tariff-hit-alcohol-companies-the-midterms-shook-up-wall-street/",
-      "source": "clickondetroit.com",
-      "source_type": "news",
-      "published_at": "2026-11-07T17:00:00Z",
-      "categories": [
-        "semis",
         "geopolitics"
       ],
       "importance": 4,
