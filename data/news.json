@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T04:39:16Z",
+  "generated_at": "2026-11-10T13:31:52Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 29
     },
     {
       "source": "한국은행 ECOS",
@@ -99,12 +99,12 @@
       }
     },
     {
-      "id": "market-c656e2267a67",
+      "id": "market-029cf0c56566",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-06T15:00:00Z",
+      "published_at": "2026-11-07T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -119,7 +119,7 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261107",
+        "date": "20261108",
         "alert_threshold": 0.25
       }
     },
@@ -148,6 +148,60 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-622dc869a0b3",
+      "title": "美 반도체 6 % 급등에 삼전 · 하이닉스 날았다 … 양대 증시 매수 사이드카",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026111009175965697",
+      "source": "ddaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-10T04:30:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3a0e17595475",
+      "title": "Seoul shares open sharply higher on US tech rally , falling oil prices",
+      "url": "https://www.koreatimes.co.kr/economy/20261110/seoul-shares-open-sharply-higher-on-us-tech-rally-falling-oil-prices",
+      "source": "koreatimes.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-10T02:00:00Z",
+      "categories": [
+        "fx",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-247296b5661a",
+      "title": "[ 채권 / 외환 ] 미 국채 금리 상승 · 달러 약세 … 이란 확전 우려 완화 속 CPI 주목",
+      "url": "https://www.newspim.com/news/view/20261110000034",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T00:00:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-5a1cd0469276",
@@ -222,6 +276,431 @@
       "change_condition": null
     },
     {
+      "id": "news-b22c15b7f3fb",
+      "title": "豐隆銀行攜手銀聯國際拓展跨境支付服務",
+      "url": "https://www.chinapress.com.my/?p=5206209",
+      "source": "chinapress.com.my",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-26e50d8ca573",
+      "title": "수수료는 나란히 40 % 대 줄었는데 … 증권사 3분기 실적 , 어디서 갈렸나",
+      "url": "http://m.metroseoul.co.kr/article/20261109500418",
+      "source": "m.metroseoul.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cb8ffd05d293",
+      "title": "FIIs Pour $5 Bn Into Indian Stocks In Five Sessions Ahead Of Diwali",
+      "url": "https://www.businessworld.in/article/fiis-pour-5-bn-into-indian-stocks-in-five-sessions-ahead-of-diwali-632864",
+      "source": "businessworld.in",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ce35545123e1",
+      "title": "Nga nói thỏa thuận diesel với Mỹ giúp giảm giá dầu diesel",
+      "url": "https://vnexpress.net/nga-noi-thoa-thuan-diesel-voi-my-giup-giam-gia-dau-diesel-5142726.html",
+      "source": "vnexpress.net",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-85684a794523",
+      "title": "US stocks rally and recover most of last week losses as oil prices swing lower",
+      "url": "https://www.manilatimes.net/2026/11/10/business/foreign-business/us-stocks-rally-and-recover-most-of-last-weeks-losses-as-oil-prices-swing-lower/2465954",
+      "source": "manilatimes.net",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7849dcead99a",
+      "title": "Biggest oil deal in world history : JD Vance claims US control of Venezuelan reserves , energy dominance",
+      "url": "http://www.venezuelastar.com/news/279423115/biggest-oil-deal-in-world-history-jd-vance-claims-us-control-of-venezuelan-reserves-energy-dominance",
+      "source": "venezuelastar.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-14fa1408886b",
+      "title": "Oil Prices Plunge Below $92 as Trump Signals Restraint on Iran",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Oil-Prices-Plunge-Below-92-as-Trump-Signals-Restraint-on-Iran.html",
+      "source": "oilprice.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c36fc79a69f9",
+      "title": "Ціни на пальне 10 листопада 2026 року : скільки коштують бензин , дизель та газ на АЗС",
+      "url": "https://glavcom.ua/economics/personal-money/tsini-na-palne-10-listopada-2026-roku-skilki-koshtujut-benzin-dizel-ta-haz-na-azs-1154523.html",
+      "source": "glavcom.ua",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0c4df1845701",
+      "title": "แนวโน้มราคาทอง 10 พ . ย . 69 Sideways",
+      "url": "https://www.sanook.com/money/961027/",
+      "source": "sanook.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7aad4a0ea736",
+      "title": "Nordrhein - Westfalen : Ses sammeln am Martinstag : Was die Polizei Eltern rät",
+      "url": "https://www.n-tv.de/regionales/nordrhein-westfalen/Suesses-sammeln-am-Martinstag-Was-die-Polizei-Eltern-raet-id31514379.html",
+      "source": "n-tv.de",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b5f9b66330c6",
+      "title": "Der Börsen - Tag Dienstag , 10 . November 2026",
+      "url": "https://www.n-tv.de/wirtschaft/der_boersen_tag/Der-Boersen-Tag-Dienstag-10-November-2026-id31514439.html",
+      "source": "n-tv.de",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2854217c9ba2",
+      "title": "11月10日国际晨讯｜日韩股市集体高开 特朗普称伊朗战事已  事实上结束  _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611103927119357.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-eea78c523e48",
+      "title": "Kuyumcular gram altınları makasla ortadan ikiye kesmeye başladı",
+      "url": "https://www.sozcu.com.tr/kuyumcular-gram-altinlari-makasla-ortadan-ikiye-kesmeye-basladi-p379732",
+      "source": "sozcu.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-673dda989df9",
+      "title": "സ്വർണവില കുറഞ്ഞു | Gold price falls today",
+      "url": "https://www.madhyamam.com/business/market/gold-price-falls-today-1570851",
+      "source": "madhyamam.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0e8510d9972f",
+      "title": "Trotz Klimakrise bleiben die Ölkonzerne auf Expansionskurs",
+      "url": "https://www.t-online.de/nachrichten/ausland/id_101520894/trotz-klimakrise-bleiben-die-oelkonzerne-auf-expansionskurs.html",
+      "source": "t-online.de",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-136da65814e6",
+      "title": "TAGESVORSCHAU / Dienstag , 10 . November",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70081891-tagesvorschau-dienstag-10-november-015.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-11-10T06:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-194edfdb813d",
+      "title": "Пять оставшихся у Трампа способов изменить мир ( Bloomberg , США )",
+      "url": "https://inosmi.ru/20261110/tramp-281098250.html",
+      "source": "inosmi.ru",
+      "source_type": "news",
+      "published_at": "2026-11-10T05:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c8f7061873e7",
+      "title": "체제불안 차단용  vs  치밀한 대남전략 …  北 두 국가론  엇갈린 분석",
+      "url": "https://www.munhwa.com:443/article/11630240",
+      "source": "munhwa.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T05:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-03a859682309",
+      "title": "웹툰엔터테인먼트 , 3분기 매출 4 % 감소 … 영업손실 923만 달러로 적자 지속",
+      "url": "https://www.wikitree.co.kr/articles/1173308",
+      "source": "wikitree.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-10T03:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fce5de72d604",
+      "title": "【 名家指點 】 美政壇變天 利好港股港樓",
+      "url": "https://www.hkcd.com/hkcdweb/content/2026/11/10/content_8784466.html",
+      "source": "hkcd.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T03:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-15f9842c7166",
+      "title": "LNG선 발주 4 . 5배 늘었는데 ... 선가는 왜 내렸나",
+      "url": "https://www.newspim.com/news/view/20261110000598",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-11-10T03:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-67b8053432f8",
+      "title": "하루 68조원  개입에도 … 엔화 전망  147엔 vs 170엔  극명한 엇갈림",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03608006645644408&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-10T02:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2866036923e8",
+      "title": "[ 57TH MODERN KOREAN LITERATURE TRANSLATION AWARDS ] Fiction Commendation Award winner Jude Vandervort",
+      "url": "https://www.koreatimes.co.kr/lifestyle/books/20261110/57th-modern-korean-literature-translation-awards-fiction-commendation-award-winner-jude-vandervort",
+      "source": "koreatimes.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-10T02:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-30d6d0d01c96",
+      "title": "7700多家企业参会 ， 1 . 7万余个展位占比超23 % 广交会里的浙江外贸多元打法",
+      "url": "https://news.hangzhou.com.cn/zjnews/content/2026-11/10/content_9369267.htm",
+      "source": "news.hangzhou.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-10T01:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9b169b337c96",
+      "title": "웹툰엔터 , 3분기 매출 5161억원 … 영업손실 131억원",
+      "url": "https://zdnet.co.kr/view/?no=20261110084000",
+      "source": "zdnet.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-10T00:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-a40d283db307",
       "title": "Trump admite que su política de deportaciones fue  demasiado dura  y perjudicó a los republicanos",
       "url": "https://www.lavanguardia.com/internacional/20261109/11679565/trump-admite-politica-deportaciones-demasiado-dura-perjudico-republicanos.html",
@@ -281,482 +760,6 @@
       "published_at": "2026-11-09T07:00:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-711b53856940",
-      "title": "النفط يتراجع والذهب يرتفع بأكثر من 1 %",
-      "url": "https://www.raya.ps/news/1228466.html",
-      "source": "raya.ps",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f78e1fc109f8",
-      "title": "U . S . military forms new task force to disrupt land routes into Iran",
-      "url": "https://cphpost.dk/2026-11-09/global/u-s-military-forms-new-task-force-to-disrupt-land-routes-into-iran/",
-      "source": "cphpost.dk",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4aaa829fdacf",
-      "title": "Tổng Bí thư , Chủ tịch nước Tô Lâm tọa đàm với lãnh đạo một số tập đoàn lớn của Nhật Bản",
-      "url": "https://dantri.com.vn/thoi-su/tong-bi-thu-chu-tich-nuoc-to-lam-toa-dam-voi-lanh-dao-mot-so-tap-doan-lon-cua-nhat-ban-20261109132019682.htm",
-      "source": "dantri.com.vn",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0afd46568319",
-      "title": "Сергей Собянин рассказал , как Москва поддерживает детей ‑ сирот и приемные семьи",
-      "url": "https://www.m24.ru/news/09112026/961989",
-      "source": "m24.ru",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3ed1d2bee11d",
-      "title": "沙特红海出口路线 ， 会不会成为下一个被瞄准的对象 ？_ 期市动态 _ 期货 _ 中金在线",
-      "url": "http://futures.cnfol.com/qishidongtai/20261109/32418846.shtml",
-      "source": "futures.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f595b7f65112",
-      "title": "Trump :  Immigratiebeleid van Amerikaanse regering was misschien te hard",
-      "url": "https://www.vrt.be/vrtnws/nl/2026/11/09/trump-immigratiebeleid-van-amerikaanse-regering-was-te-hard/",
-      "source": "vrt.be",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-913998f7586f",
-      "title": "COP31 faces uphill battle as war , AI reshape climate agenda",
-      "url": "https://www.middle-east-online.com/en/cop31-faces-uphill-battle-war-ai-reshape-climate-agenda",
-      "source": "middle-east-online.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3d751b8ae6cd",
-      "title": "Trump : Ukraine wird « etwas andere Form » haben",
-      "url": "https://www.stimme.de/politik/welt/politik/ausland/trump-ukraine-wird-etwas-andere-form-haben-art-5232713",
-      "source": "stimme.de",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bb4274641d62",
-      "title": "Šef najvrjednije korporacije na svijetu prevario ženu s kineskom špijunkom",
-      "url": "https://www.index.hr/vijesti/clanak/sef-najvrjednije-korporacije-na-svijetu-na-prevario-zenu-s-kineskom-spijunkom/2854708.aspx?index_ref=homepage_comment_box_d&commentId=12442862",
-      "source": "index.hr",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2721dfdc13ed",
-      "title": "ইরানে অস্ত্র ও অবৈধ পণ্য প্রবেশ ঠেকাতে নতুন টাস্কফোর্স গঠন যুক্তরাষ্ট্রের",
-      "url": "https://www.ntvbd.com/world/news-1833317",
-      "source": "ntvbd.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6159f5f74c15",
-      "title": "消费入座成潮流 ？ 消费入座趋势是怎么形成的 ？",
-      "url": "https://news.pedaily.cn/202611/571530.shtml",
-      "source": "news.pedaily.cn",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e9d882ade519",
-      "title": "Francesca Bria :  En Estados Unidos y Brasil la gente ha dicho no a la agenda de las grandes tecnológicas",
-      "url": "https://www.lavanguardia.com/vida/20261109/11678682/estados-unidos-brasil-gente-dicho-agenda-grandes-tecnologicas.html",
-      "source": "lavanguardia.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T07:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3dd26807b5da",
-      "title": "Citi bullish on Indian equities , sees Nifty at 28 , 000 by end - 2027",
-      "url": "https://www.business-standard.com/markets/stock-market-news/citi-bullish-on-indian-equities-sees-nifty-at-28-000-by-end-2027-126110900222_1.html",
-      "source": "business-standard.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cd46499628e3",
-      "title": "النفط ينخفض بعد استبعاد ترامب شن ضربات جديدة ضد إيران",
-      "url": "https://www.albayan.ae/economy/business/world-economy/1563709",
-      "source": "albayan.ae",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fafc052db7af",
-      "title": "Giá dầu giảm trước diễn biến hạ nhiệt căng thẳng tại Trung Đông",
-      "url": "https://vietstock.vn/2026/11/gia-dau-giam-truoc-dien-bien-ha-nhiet-cang-thang-tai-trung-dong-34-1512907.htm",
-      "source": "vietstock.vn",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-862567287349",
-      "title": "Nifty , Sensex decline in early trade as profit - taking sets in",
-      "url": "https://www.newindianexpress.com/business/2026/Nov/09/nifty-sensex-decline-in-early-trade-as-profit-taking-sets-in",
-      "source": "newindianexpress.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-10f664558504",
-      "title": "Revista presei internaționale , 9 noiembrie 2026 | Agenția de presă Rador",
-      "url": "https://www.rador.ro/2026/11/09/revista-presei-internationale-9-noiembrie-2026/",
-      "source": "rador.ro",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ae0b6595f4dd",
-      "title": "La OCDE alerta del lado oscuro de las subvenciones al campo",
-      "url": "https://www.libertaddigital.com/libremercado/2026-11-09/la-ocde-alerta-del-lado-oscuro-de-las-subvenciones-al-campo-7486458/",
-      "source": "libertaddigital.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ecccf6af5bb5",
-      "title": "AI讓農業副產物變身亮眼綠金 工研院啟動ESG×AI雙軸賦能助小農用AI釀酒及製茶",
-      "url": "https://n.yam.com/Article/20261109799336",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a90fceb474ef",
-      "title": "Những cử tri quay lưng khiến đảng Cộng hòa thảm bại",
-      "url": "https://vnexpress.net/nhung-cu-tri-quay-lung-khien-dang-cong-hoa-tham-bai-5142280.html",
-      "source": "vnexpress.net",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-93e286038a50",
-      "title": "İsrailde esrarengiz hareketlilik ! Rus askeri uçağı iniş yaptı",
-      "url": "https://www.sondakika.com/haber/haber-israilde-esrarengiz-hareketlilik-rus-askeri-ucagi-20408556/",
-      "source": "sondakika.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cc6473a8bc23",
-      "title": "Θεσσαλονίκη : Άγκυρα στο μέλλον με το λιμάνι στο « τιμόνι » της ανάπτυξης",
-      "url": "https://www.emakedonia.gr/thessaloniki-agkyra-sto-mellon-me-to-limani-sto-timoni-tis-anaptyxis",
-      "source": "emakedonia.gr",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-50788d432bc3",
-      "title": "啟動ESG×AI雙軸賦能 工研院助南部小農用AI釀酒 、 製茶",
-      "url": "https://n.yam.com/Article/20261109988965",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a8d1cba75250",
-      "title": "Houthi missiles hit Riyadh financial district , damage Aramco office as Saudi retaliates",
-      "url": "https://www.hindustantimes.com/world-news/houthi-missiles-hit-riyadh-financial-district-damage-aramco-office-as-saudi-retaliates-101794183754284.html",
-      "source": "hindustantimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T02:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-527a5496e066",
-      "title": "在北京开的这个峰会 ， 很特别",
-      "url": "https://news.ifeng.com/c/8xu74Yn9VWI",
-      "source": "news.ifeng.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T02:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b22a9d0348d1",
-      "title": "Lực lượng đặc nhiệm mới của Mỹ có thể thay đổi cục diện chiến tranh với Iran ?",
-      "url": "https://baotintuc.vn/luc-luong-dac-nhiem-moi-cua-my-co-the-thay-doi-cuc-dien-chien-tranh-voi-iran-post1401056.html",
-      "source": "baotintuc.vn",
-      "source_type": "news",
-      "published_at": "2026-11-09T02:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c7044927f4ed",
-      "title": "Санкции осложняют торги русским искусством на Западе , считает эксперт",
-      "url": "https://ria.ru/20261109/auktsiony-2130195464.html",
-      "source": "ria.ru",
-      "source_type": "news",
-      "published_at": "2026-11-09T02:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-079f8f473bd7",
-      "title": "朋友圈  化缘  求生之后 ， 百合网联创慕岩讲述失去的十年|马云|田范江|非你莫属",
-      "url": "https://www.163.com/dy/article/LB9IS4VC05148UNS.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-11-09T02:00:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
