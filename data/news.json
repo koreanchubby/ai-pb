@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T16:14:51Z",
+  "generated_at": "2026-11-11T22:48:43Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -73,12 +72,12 @@
       }
     },
     {
-      "id": "market-8d5c9f63c43d",
-      "title": "미국 10년물 국채금리 4.88% (직전 대비 +0.02%p)",
+      "id": "market-7a204618e61d",
+      "title": "미국 10년물 국채금리 4.98% (직전 대비 +0.1%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
       "source": "한국투자증권",
       "source_type": "market",
-      "published_at": "2026-11-09T00:00:00Z",
+      "published_at": "2026-11-10T00:00:00Z",
       "categories": [
         "rates"
       ],
@@ -89,11 +88,11 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 4.88,
-        "previous": 4.86,
-        "change": 0.02,
+        "latest": 4.98,
+        "previous": 4.88,
+        "change": 0.1,
         "unit": "%",
-        "date": "2026-11-09",
+        "date": "2026-11-10",
         "alert_threshold": 0.15,
         "indicator": "us10y"
       }
@@ -294,17 +293,254 @@
       "change_condition": null
     },
     {
-      "id": "news-054a2bbdf78d",
-      "title": "Trump war in Iran driving shift from fossil fuels",
-      "url": "https://www.abc.net.au/news/2026-11-09/iran-conflict-strengthens-case-or-electrification/107351224",
-      "source": "abc.net.au",
+      "id": "news-2de338cd9a5f",
+      "title": "US - China AI cooperation and competition : Bessent",
+      "url": "https://www.chinatechnews.com/2026/11/11/132538-us-china-ai-cooperation-and-competition-bessent",
+      "source": "chinatechnews.com",
       "source_type": "news",
-      "published_at": "2026-11-08T20:00:00Z",
+      "published_at": "2026-11-11T06:30:00Z",
       "categories": [
-        "oil",
         "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-19e7f32392d7",
+      "title": "Amazon peut - il imposer ses robots patrouilleurs dans les entreprises et les foyers ?",
+      "url": "https://www.generation-nt.com/actualites/amazon-robots-patrouilleurs-entreprises-foyers-2084293",
+      "source": "generation-nt.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2a98e42bcf00",
+      "title": "Shock decline in mortgage numbers stirs up the banks",
+      "url": "https://www.merimbulanewsweekly.com.au/story/9389951/shock-decline-in-mortgage-numbers-stirs-up-the-banks/",
+      "source": "merimbulanewsweekly.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-14cd98d70abd",
+      "title": "[ 미국 특징주 ]  골드만 , 앤스로픽 2030년 매출액 작년 150배 추정",
+      "url": "https://www.newspim.com/news/view/20261111000211",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-56f0a6186b0c",
+      "title": "Förhandlingen en  teater  som gynnar Putin",
+      "url": "https://www.aftonbladet.se/nyheter/a/oMRXlK/forhandlingen-en-teater-som-gynnar-putin",
+      "source": "aftonbladet.se",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bd6de39be216",
+      "title": "Tanker involved in incident in Strait of Hormuz : united kingdom maritime agency",
+      "url": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency",
+      "source": "tribune.com.pk",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9b7b43578eb8",
+      "title": "US beef market leads Australian exports despite softer demand | North Queensland Register",
+      "url": "https://www.northqueenslandregister.com.au/story/9388746/us-beef-market-leads-australian-exports-despite-softer-demand/",
+      "source": "northqueenslandregister.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0e64b46a3e1c",
+      "title": "국제우편물로 필로폰 밀반입 외국인 검거 … 공소청 송치",
+      "url": "https://www.newspim.com/news/view/20261111001116",
+      "source": "newspim.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2d749b93aa35",
+      "title": "В чем секрет успеха Китая ? Репортаж Людмилы Гладкой",
+      "url": "https://www.sb.by/articles/v-chem-sekret-uspekha-kitaya.html",
+      "source": "sb.by",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ff9218e154ee",
+      "title": "أسعار النفط تتعافى مدفوعة بمخاطر مضيق هرمز رغم آمال التهدئة",
+      "url": "https://www.almontasaf.net/news152590.html",
+      "source": "almontasaf.net",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d78e8c4a3e03",
+      "title": "Watch : Melbourne artists rally against Labor government arts funding cuts",
+      "url": "https://www.wsws.org/en/articles/2026/11/11/egem-n11.html",
+      "source": "wsws.org",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-92aa85dc1cb0",
+      "title": "Министр финансов США Бессент переехал жить на военную базу из - за угроз Ирана , NYT",
+      "url": "https://focus.ua/world/774281-ministr-finansov-ssha-bessent-pereehal-zhit-na-voennuyu-bazu-iz-za-ugroz-irana-nyt",
+      "source": "focus.ua",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c6d54a1d8cbf",
+      "title": "Rahul Gandhi to hold fireside chats at Columbia and Chicago universities during US visit",
+      "url": "https://www.moneycontrol.com/news/india/rahul-gandhi-us-visit-agenda-rahul-gandhi-to-hold-fireside-chats-at-columbia-and-chicago-universities-during-us-visit-14076959.html",
+      "source": "moneycontrol.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aaf17626a154",
+      "title": "India garment makers rethink reliance on US after tariff shock",
+      "url": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/",
+      "source": "ksevradio.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f3376377538b",
+      "title": "美财长被曝因伊朗威胁搬入军事基地 经济战升级标志 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20261111/49861440.html",
+      "source": "news.china.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -520,244 +756,6 @@
       "title": "Wiener Börse : ATX mit 1 , 34 % Gewinn",
       "url": "https://www.trend.at/news/wiener-borse-schliesst-mit-guten-gewinnen",
       "source": "trend.at",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9a14c12e6698",
-      "title": "ＦＲＢ理事 、 ２倍利上げ言及 ／ １２月会合 、 インフレ警戒 | 全国ニュース",
-      "url": "http://www.shikoku-np.co.jp/national/economy/article.aspx?id=20261111000081",
-      "source": "shikoku-np.co.jp",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-36b59db64139",
-      "title": "Average gas price drops below $4 per gallon for first time since July : AAA",
-      "url": "https://myfox28columbus.com/news/nation-world/average-gas-price-drops-below-4-per-gallon-for-first-time-since-july-aaa-iran-war-oil-president-trump-strait-of-hormuz-jd-vance-midterm-elections-rrt",
-      "source": "myfox28columbus.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7533aadd2e3a",
-      "title": "Giá xăng dầu hôm nay 11 / 11 / 2026 : Dầu diesel giảm 16 . 092 đồng / lít so với đỉnh , xăng E5 - E10 giảm trên dưới 7 . 000 đồng / lít sau gần 1 tháng",
-      "url": "https://ngoisao.vn/theo-dong-su-kien/tin-nong-trong-ngay/gia-xang-dau-hom-nay-11-11-2026-dau-diesel-giam-16092-dong-lit-so-voi-dinh-xang-e5--e10-giam-tren-duoi-7000-dong-lit-sau-gan-1-thang-d495553.html",
-      "source": "ngoisao.vn",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aea9d9e6ba4e",
-      "title": "Gas Prices Tumble | JAMN 107 . 5",
-      "url": "https://jamn1075.iheart.com/content/2026-11-10-gas-prices-tumble/",
-      "source": "jamn1075.iheart.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-706186a78530",
-      "title": "Giá xăng dầu hôm nay 11 / 11 : E10 RON 95 và RON 92 giảm  vèo vèo , dầu rẻ hơn đỉnh 16 . 000 đồng , giá đầy bình ô tô Toyota",
-      "url": "https://www.techz.vn/192-1126-5-gia-xang-dau-hom-nay-11-11-e10-ron-95-va-ron-92-giam-veo-veo-dau-re-hon-dinh-16000-dong-gia-day-binh-o-to-toyota-ylt716666.html",
-      "source": "techz.vn",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f870b487d01b",
-      "title": "Tras la derrota electoral de los republicanos , el vicepresidente de Trump suspendió su viaje a la Argentina",
-      "url": "https://www.clarin.com/politica/derrota-electoral-republicanos-vicepresidente-trump-suspendio-viaje-argentina_0_ePL4iOqMH5.html",
-      "source": "clarin.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-229aa9cca035",
-      "title": "Orlen zrywa wieloletnią umowę z Katarem . Chodzi o miliardy złotych",
-      "url": "https://niezalezna.pl/gospodarka/orlen-zrywa-wieloletnia-umowe-z-katarem-chodzi-o-miliardy-zlotych/583867",
-      "source": "niezalezna.pl",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8e764ccea9ef",
-      "title": "ليبيا والجزائر ثاني وثالث أكبر منتجين للنفط في إفريقيا",
-      "url": "https://rtarabic.com/business/1852330-/",
-      "source": "rtarabic.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6a012c34fb2b",
-      "title": "Börse - US - Börsen lassen nach - Inflation bremst Anleger aus",
-      "url": "https://unternehmen-heute.de/news.php?newsid=6717577",
-      "source": "unternehmen-heute.de",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b519d6801340",
-      "title": "NetNewsLedger - Barrick Keeps 2026 Output Forecasts as Gold Costs Rise 24 Per Cent",
-      "url": "https://www.netnewsledger.com/2026/11/10/barrick-keeps-2026-output-forecasts-as-gold-costs-rise-24-per-cent/",
-      "source": "netnewsledger.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-264bf4b6b645",
-      "title": "Kilencven dollár alá süllyedt az olaj ára az iráni háború enyhülésének reményében",
-      "url": "http://www.mediatica.ro/hirek/kulfold/kilencven-dollar-ala-sullyedt-az-olaj-ara-az-irani-haboru-enyhulesenek-remenyeben",
-      "source": "mediatica.ro",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-98323f22de07",
-      "title": "Nebul setzt auf NetApp Novus zur Unterstützung seiner souveränen KI - Infrastruktur",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70093866-nebul-setzt-auf-netapp-novus-zur-unterstuetzung-seiner-souveraenen-ki-infrastruktur-004.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9478f99c869f",
-      "title": "THE CLOSING BELL : US stocks fall after a discouraging update on inflation",
-      "url": "https://www.wptf.com/2026/11/10/the-closing-bell-us-stocks-fall-after-a-discouraging-update-on-inflation/",
-      "source": "wptf.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4dc6d915c88b",
-      "title": "Séoul - Ottawa : rencontre des ministres des Affaires étrangères à Paris",
-      "url": "https://world.kbs.co.kr/service/news_view.htm?lang=f&Seq_Code=97047",
-      "source": "world.kbs.co.kr",
       "source_type": "news",
       "published_at": "2026-11-11T00:00:00Z",
       "categories": [
