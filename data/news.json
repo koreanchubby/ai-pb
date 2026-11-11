@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-11T07:49:41Z",
+  "generated_at": "2026-11-11T16:14:51Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -150,6 +150,42 @@
       }
     },
     {
+      "id": "news-14dca82741d4",
+      "title": "Asian shares mostly rise on AI chip demand despite Wall Street retreat on inflation data",
+      "url": "http://www.cecildaily.com/ap/world/asian-shares-mostly-rise-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/article_522e22f1-f96b-5d57-9825-639aa30d192d.html",
+      "source": "cecildaily.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a0c8b941be0e",
+      "title": "Rupee rises 7 paise to 93 . 70 against US dollar in early trade",
+      "url": "https://www.thehindubusinessline.com/markets/forex/rupee-rises-7-paise-to-9370-against-us-dollar-in-early-trade/article71688306.ece",
+      "source": "thehindubusinessline.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-85684a794523",
       "title": "US stocks rally and recover most of last week losses as oil prices swing lower",
       "url": "https://www.manilatimes.net/2026/11/10/business/foreign-business/us-stocks-rally-and-recover-most-of-last-weeks-losses-as-oil-prices-swing-lower/2465954",
@@ -269,6 +305,210 @@
         "geopolitics"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8474e907134a",
+      "title": "Sensex zooms 1 , 100 pts , Nifty crosses 25 , 300 mark on positive global cues",
+      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11",
+      "source": "businesstoday.in",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8c749199c5a9",
+      "title": "美众议院否决弹劾防长草案 政治博弈下的平局 _ 军事频道 _ 中华网",
+      "url": "https://military.china.com/news/13004177/20261111/49861485.html",
+      "source": "military.china.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-85d4a4381d37",
+      "title": "શેરબજારમાં જોરદાર તેજી , સેન્સેક્સ 1 , 321 પોઈન્ટના ઉછાળા સાથે 82 , 400 પાર , નિફ્ટી 25 , 399ને સ્પર્શ્યો",
+      "url": "https://www.gujaratsamachar.com/news/business/strong-rally-in-the-stock-market-sensex-rises-1321-points-to-cross-82400-nifty-touches-25399-88191705004",
+      "source": "gujaratsamachar.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-de7ca33b5c1d",
+      "title": "Hussein Describes Possible Hormuz Route for Iraqi Oil Tankers",
+      "url": "https://econotimes.com/Hussein-Describes-Possible-Hormuz-Route-for-Iraqi-Oil-Tankers-1775002",
+      "source": "econotimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-75b1fd6279b8",
+      "title": "一张图看商品支撑阻力 ： 金银油气+铂钯铜农产品期货 ( 2026年11月11日 )_ 期市动态 _ 期货 _ 中金在线",
+      "url": "http://futures.cnfol.com/qishidongtai/20261111/32420682.shtml",
+      "source": "futures.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e47497478a98",
+      "title": "ING Group  neftin qiymətinin 2027 - ci ildə 77 dollara enəcəyini proqnozlaşdırır",
+      "url": "https://az.trend.az/business/energy/4245033.html",
+      "source": "az.trend.az",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7226615cc829",
+      "title": "Chinese Streamers Film Dhaka Slums , Pass Them Off As Delhi ; MEA Calls Out  False Narrative , Seeks Action",
+      "url": "https://www.freepressjournal.in/india/chinese-streamers-film-dhaka-slums-pass-them-off-as-delhi-mea-calls-out-false-narratives-seeks-action",
+      "source": "freepressjournal.in",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cc9bcb65fad6",
+      "title": "Myanmar Small Oil Fields Become a Prize as Fuel Prices Rise",
+      "url": "https://econotimes.com/Myanmar-s-Small-Oil-Fields-Become-a-Prize-as-Fuel-Prices-Rise-1774996",
+      "source": "econotimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cbebf46e55c1",
+      "title": "Indian Benchmarks Hit Eight - Month Highs as Nifty 50 and Sensex Rise",
+      "url": "https://econotimes.com/Indian-Benchmarks-Hit-Eight-Month-Highs-as-Nifty-50-and-Sensex-Rise-1775003",
+      "source": "econotimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8345090a2882",
+      "title": "Mahama Reports Ghana Oil Output Recovery Above 120 , 000 Barrels – Ghanamma . com",
+      "url": "https://www.ghanamma.com/2026/11/11/mahama-reports-ghana-oil-output-recovery-above-120000-barrels/",
+      "source": "ghanamma.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8d212d624bb1",
+      "title": "Azərbaycan nefti ucuzlaşıb",
+      "url": "https://az.trend.az/business/energy/4245014.html",
+      "source": "az.trend.az",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7087bdad1b51",
+      "title": "Nifty all set to open with 300 points gain - The HinduBusinessLine",
+      "url": "https://www.thehindubusinessline.com/markets/nifty-all-set-to-open-with-300-points-gain/article71688126.ece",
+      "source": "thehindubusinessline.com",
+      "source_type": "news",
+      "published_at": "2026-11-11T06:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -522,244 +762,6 @@
       "published_at": "2026-11-11T00:00:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5f43e0ffb4c9",
-      "title": "US stocks fall on hot inflation report as Nvidia tumbles again",
-      "url": "https://www.channelnewsasia.com/world/stocks-wall-street-inflation-nvidia-anthropic-6540751",
-      "source": "channelnewsasia.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c5803e39bd9f",
-      "title": "西安出口爆发了 - 虎嗅网",
-      "url": "https://www.huxiu.com/article/4904539.html",
-      "source": "huxiu.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7f95743bdc05",
-      "title": "2 scandals , 1 destination Why Nvidia cant shake China smuggling allegations",
-      "url": "https://fortune.com/2026/11/10/2-scandals-1-destination-why-nvidia-cant-shake-china-smuggling-allegations/",
-      "source": "fortune.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ea6f2d5e3188",
-      "title": "물가지표 예상 상회에 나스닥 0 . 74 % ↓ … 12월  빅스텝  가능성 부상 [ 뉴스새벽배송 ]",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03073366645644736&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-607b9af1600f",
-      "title": "Google Fi Super Network Switches Between Two 5G Carriers",
-      "url": "https://techaeris.com/2026/11/10/google-fi-super-network-switch-5g-carrier/",
-      "source": "techaeris.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-84d1159d093c",
-      "title": "Nvidia selloff deepens , adding to AI jitters",
-      "url": "https://www.aol.com/articles/nvidia-selloff-deepens-adding-ai-204456000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-11-10T22:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3fb5417ea8d3",
-      "title": "Anthropic IPO : Here What Betting Markets Are Predicting After the AI Correction",
-      "url": "https://www.fool.com/investing/2026/11/10/anthropic-ipo-heres-what-betting-markets-are-predi/?source=iedfolrf0000001",
-      "source": "fool.com",
-      "source_type": "news",
-      "published_at": "2026-11-10T22:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-72843449c232",
-      "title": "Politics News - 1540 WADK Newport",
-      "url": "https://wadk.com/politics-news/0c7d15a6766c2afcad93209330b087d9",
-      "source": "wadk.com",
-      "source_type": "news",
-      "published_at": "2026-11-10T22:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06d5dd435947",
-      "title": "Nvidia CEO Jensen Huang  spy  affair could spark Congress crackdown on AI export controls :  Massive earthquake",
-      "url": "https://nypost.com/2026/11/10/business/nvidia-ceo-jensen-huangs-spy-affair-could-spark-congress-crackdown-on-ai-export-controls-massive-earthquake/",
-      "source": "nypost.com",
-      "source_type": "news",
-      "published_at": "2026-11-10T22:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-173ab8279e6f",
-      "title": "House Republicans consider issuing subpoena to Nvidia CEO Jensen Huang",
-      "url": "https://abc13.com/story/house-republicans-consider-issuing-subpoena-nvidia-ceo-jensen-huang/20030739/",
-      "source": "abc13.com",
-      "source_type": "news",
-      "published_at": "2026-11-10T22:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cb8ffd05d293",
-      "title": "FIIs Pour $5 Bn Into Indian Stocks In Five Sessions Ahead Of Diwali",
-      "url": "https://www.businessworld.in/article/fiis-pour-5-bn-into-indian-stocks-in-five-sessions-ahead-of-diwali-632864",
-      "source": "businessworld.in",
-      "source_type": "news",
-      "published_at": "2026-11-10T06:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-66826adf1e76",
-      "title": "젠슨 황은 대체 불가 … 머스크 · 월가 거물들 ,  中 스파이 불륜  감싸나",
-      "url": "https://www.fnnews.com/news/202611101429483262",
-      "source": "fnnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-10T06:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d968cadfee0f",
-      "title": "Nvidia Casusluk Skandalının Perde Arkasında Farklı Hesaplaşmalar Var",
-      "url": "https://donanimgunlugu.com/nvidia-casusluk-skandalinin-perde-440727",
-      "source": "donanimgunlugu.com",
-      "source_type": "news",
-      "published_at": "2026-11-10T06:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-91b787e0dc9d",
-      "title": "Could the scandal at Nvidia rattle Korea semiconductor industry ?",
-      "url": "http://english.hani.co.kr/arti/english_edition/e_business/1286584.html",
-      "source": "english.hani.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-10T06:00:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
