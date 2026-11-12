@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T12:50:13Z",
+  "generated_at": "2026-11-12T20:52:30Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,13 +26,13 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
     },
     {
       "source": "한국투자증권",
@@ -47,6 +47,23 @@
     }
   ],
   "items": [
+    {
+      "id": "official-e470c9d0f265",
+      "title": "Federal Reserve announces revised tentative schedule of Federal Open Market Committee meetings in 2027",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm",
+      "source": "Federal Reserve",
+      "source_type": "official",
+      "published_at": "2026-11-12T17:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
     {
       "id": "market-ac0bace7f383",
       "title": "원/달러 환율(매매기준율) 1336.7원 (직전 대비 -6.6원)",
@@ -150,6 +167,60 @@
       }
     },
     {
+      "id": "news-de0d71ee0c9c",
+      "title": "Küresel piyasalarda teknoloji rallisine Nvidia gölgesi düştü",
+      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-teknoloji-rallisine-nvidia-golgesi-dustu-7699163",
+      "source": "uzmanpara.milliyet.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-12T07:00:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5924f92d73e5",
+      "title": "Memory Chips Are Completely Distorting South Korea Economy",
+      "url": "https://foreignpolicy.com/2026/11/11/south-korea-semiconductor-memory-chips-artificial-intelligence-inflation-affordability/?tpcc=recirc_trending062921",
+      "source": "foreignpolicy.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T06:45:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7e39fae12b3a",
+      "title": "金价越跌 ， 欧美投资者越买入黄金ETF",
+      "url": "https://finance.ifeng.com/c/8xzJjU7nkeV",
+      "source": "finance.ifeng.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T05:30:00Z",
+      "categories": [
+        "rates",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-14dca82741d4",
       "title": "Asian shares mostly rise on AI chip demand despite Wall Street retreat on inflation data",
       "url": "http://www.cecildaily.com/ap/world/asian-shares-mostly-rise-on-ai-chip-demand-despite-wall-streets-retreat-on-inflation-data/article_522e22f1-f96b-5d57-9825-639aa30d192d.html",
@@ -251,6 +322,193 @@
         "fx"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2fdac0b484c1",
+      "title": "外資狂賣台股10天不手軟 ！ 台幣貶不停 「 33元防線又拉警報 」 - 財經",
+      "url": "https://www.chinatimes.com/realtimenews/20261112003184-260410",
+      "source": "chinatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8d0b26fb60f1",
+      "title": "美联储鹰声不断 黄金失守4000美元大关 ！ 投行警告进一步下行风险 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261112000383.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-11-12T07:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d54837ef9988",
+      "title": "Dolar / TL güne yükselişle başladı , 50 , 2570 seviyesinden işlem görüyor",
+      "url": "https://www.haberler.com/ekonomi/dolar-tl-gune-yukselisle-basladi-50-2570-20419214-haberi/",
+      "source": "haberler.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dc769789fce2",
+      "title": "자녀 통학 · 교육환경 중요성 커지며 분양시장서  초품아  단지 관심",
+      "url": "https://www.heraldk.com/article/2026111122252493563",
+      "source": "heraldk.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3d73846bf356",
+      "title": "반포현대 2 . 2억 , 은마 4 . 6억 … 재초환 부담금  현실화에 논란 재점화",
+      "url": "https://www.hani.co.kr/arti/economy/property/1287009.html",
+      "source": "hani.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-12T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8977d7863e30",
+      "title": "Gram altın , dolar endeksindeki yükselişin baskısıyla 6 bin 428 liradan işlem görüyor",
+      "url": "https://www.haberler.com/ekonomi/gram-altin-dolar-endeksindeki-yukselisin-20419155-haberi/",
+      "source": "haberler.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-66eb4b8fb247",
+      "title": "Wall Street Rallies 1 . 3 % as US Yields Hover at 5 %",
+      "url": "https://www.riotimesonline.com/global-economy-briefing-november-12-2026/",
+      "source": "riotimesonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T05:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b30d73925124",
+      "title": "Brazil Stocks Rise 0 . 4 % Before Key Inflation Data",
+      "url": "https://www.riotimesonline.com/brazils-financial-morning-call-for-thursday-november-12-2026/",
+      "source": "riotimesonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T05:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f8021461e0a7",
+      "title": "港股黄金概念集体走弱 ， 美国10月CPI超预期强化加息预期打压金价丨港股异动 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611123929324140.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T04:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a5d8c8e14937",
+      "title": "黃金失守4000美元大關只是開始 ？ 關鍵防線曝光",
+      "url": "https://www.ettvamerica.com/News/Article?i=412540",
+      "source": "ettvamerica.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T04:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-73574562f907",
+      "title": "ANZ says RBA hike bets have cooled , but 3 . 7 % core inflation will keep it cautious",
+      "url": "https://investinglive.com/central-banks/anz-says-rba-hike-bets-have-cooled-but-3-7-core-inflation-will-keep-it-cautious/",
+      "source": "investinglive.com",
+      "source_type": "news",
+      "published_at": "2026-11-12T03:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -504,227 +762,6 @@
       "published_at": "2026-11-11T06:30:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8474e907134a",
-      "title": "Sensex zooms 1 , 100 pts , Nifty crosses 25 , 300 mark on positive global cues",
-      "url": "https://www.businesstoday.in/markets/stocks/story/sensex-zooms-1100-pts-nifty-crosses-25300-mark-on-positive-global-cues-566767-2026-11-11",
-      "source": "businesstoday.in",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8c749199c5a9",
-      "title": "美众议院否决弹劾防长草案 政治博弈下的平局 _ 军事频道 _ 中华网",
-      "url": "https://military.china.com/news/13004177/20261111/49861485.html",
-      "source": "military.china.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-85d4a4381d37",
-      "title": "શેરબજારમાં જોરદાર તેજી , સેન્સેક્સ 1 , 321 પોઈન્ટના ઉછાળા સાથે 82 , 400 પાર , નિફ્ટી 25 , 399ને સ્પર્શ્યો",
-      "url": "https://www.gujaratsamachar.com/news/business/strong-rally-in-the-stock-market-sensex-rises-1321-points-to-cross-82400-nifty-touches-25399-88191705004",
-      "source": "gujaratsamachar.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-de7ca33b5c1d",
-      "title": "Hussein Describes Possible Hormuz Route for Iraqi Oil Tankers",
-      "url": "https://econotimes.com/Hussein-Describes-Possible-Hormuz-Route-for-Iraqi-Oil-Tankers-1775002",
-      "source": "econotimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-75b1fd6279b8",
-      "title": "一张图看商品支撑阻力 ： 金银油气+铂钯铜农产品期货 ( 2026年11月11日 )_ 期市动态 _ 期货 _ 中金在线",
-      "url": "http://futures.cnfol.com/qishidongtai/20261111/32420682.shtml",
-      "source": "futures.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e47497478a98",
-      "title": "ING Group  neftin qiymətinin 2027 - ci ildə 77 dollara enəcəyini proqnozlaşdırır",
-      "url": "https://az.trend.az/business/energy/4245033.html",
-      "source": "az.trend.az",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7226615cc829",
-      "title": "Chinese Streamers Film Dhaka Slums , Pass Them Off As Delhi ; MEA Calls Out  False Narrative , Seeks Action",
-      "url": "https://www.freepressjournal.in/india/chinese-streamers-film-dhaka-slums-pass-them-off-as-delhi-mea-calls-out-false-narratives-seeks-action",
-      "source": "freepressjournal.in",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cc9bcb65fad6",
-      "title": "Myanmar Small Oil Fields Become a Prize as Fuel Prices Rise",
-      "url": "https://econotimes.com/Myanmar-s-Small-Oil-Fields-Become-a-Prize-as-Fuel-Prices-Rise-1774996",
-      "source": "econotimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cbebf46e55c1",
-      "title": "Indian Benchmarks Hit Eight - Month Highs as Nifty 50 and Sensex Rise",
-      "url": "https://econotimes.com/Indian-Benchmarks-Hit-Eight-Month-Highs-as-Nifty-50-and-Sensex-Rise-1775003",
-      "source": "econotimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8345090a2882",
-      "title": "Mahama Reports Ghana Oil Output Recovery Above 120 , 000 Barrels – Ghanamma . com",
-      "url": "https://www.ghanamma.com/2026/11/11/mahama-reports-ghana-oil-output-recovery-above-120000-barrels/",
-      "source": "ghanamma.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8d212d624bb1",
-      "title": "Azərbaycan nefti ucuzlaşıb",
-      "url": "https://az.trend.az/business/energy/4245014.html",
-      "source": "az.trend.az",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7087bdad1b51",
-      "title": "Nifty all set to open with 300 points gain - The HinduBusinessLine",
-      "url": "https://www.thehindubusinessline.com/markets/nifty-all-set-to-open-with-300-points-gain/article71688126.ece",
-      "source": "thehindubusinessline.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-892e1d3df5f6",
-      "title": "Wiener Börse : ATX mit 1 , 34 % Gewinn",
-      "url": "https://www.trend.at/news/wiener-borse-schliesst-mit-guten-gewinnen",
-      "source": "trend.at",
-      "source_type": "news",
-      "published_at": "2026-11-11T00:00:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
