@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-13T17:48:39Z",
+  "generated_at": "2026-11-13T23:38:05Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 45
     },
     {
       "source": "한국은행 ECOS",
@@ -167,6 +167,42 @@
       }
     },
     {
+      "id": "news-185aaf2e1650",
+      "title": "US Treasury warns against rate hikes during US - Iran war energy  shock  | US - Israel war on Iran News",
+      "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock",
+      "source": "aljazeera.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "rates",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2111eaa1050c",
+      "title": "Mi folyik a tőzsdéken ? Brutális mélyrepülésben az amerikai papírok az NVIDIA botrány után – közben egy magyar részvény nagyon kilőtt",
+      "url": "https://www.penzcentrum.hu/megtakaritas/20261113/mi-folyik-a-tozsdeken-brutalis-melyrepulesben-az-amerikai-papirok-az-nvidia-botrany-utan-kozben-egy-magyar-reszveny-nagyon-kilott-1209026",
+      "source": "penzcentrum.hu",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-ad7438e56717",
       "title": "U . S . stocks lose steam on Nvidia CEO exit , rising bond yields",
       "url": "http://www.bangladeshsun.com/news/279429293/u-s-stocks-lose-steam-on-nvidia-ceo-exit-rising-bond-yields",
@@ -293,12 +329,12 @@
       "change_condition": null
     },
     {
-      "id": "news-35c35aae99a3",
-      "title": "凌晨V形大反弹 ！ 美联储传出大消息 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611133930099993.html",
-      "source": "finance.eastmoney.com",
+      "id": "news-291a0d2d9d68",
+      "title": "Wholesale inflation declined in October yet remains elevated",
+      "url": "https://www.orlandosentinel.com/2026/11/13/wholesale-inflation-declined-october/",
+      "source": "orlandosentinel.com",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "rates"
       ],
@@ -310,14 +346,31 @@
       "change_condition": null
     },
     {
-      "id": "news-f4fb754e3647",
-      "title": "8点1氪丨英伟达宣布CEO黄仁勋辞职 ， 特朗普 ： 建议库克接任 ； 腾讯  裁员50 %？ 知情人士回应 ； 宣扬错误婚恋观 ， 德芙代运营方被罚80万|知名企业|蒂姆 · 库克|唐纳 · 川普",
-      "url": "https://www.163.com/dy/article/LBJP2QG805118DFD.html",
+      "id": "news-d86bc835ab99",
+      "title": "Wholesale Prices Rise Less Than Expected In October",
+      "url": "https://790waeb.iheart.com/content/2026-11-13-wholesale-prices-rise-less-than-expected-in-october/",
+      "source": "790waeb.iheart.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3908126401ff",
+      "title": "成本推动价格修复 大尺寸面板12月有望小幅涨价",
+      "url": "https://www.163.com/dy/article/LBLE7R4U05198CJN.html",
       "source": "163.com",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -327,14 +380,14 @@
       "change_condition": null
     },
     {
-      "id": "news-61ab7a9d8de9",
-      "title": "昨夜华尔街 : 指数小幅回调 半导体逆势狂飙 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261113000075.html",
-      "source": "cfi.net.cn",
+      "id": "news-f69bf1bb7350",
+      "title": "ΙΕΑ : Ανατροπή στην αγορά πετρελαίου - Τι λέει για το πλεόνασμα",
+      "url": "https://www.enikonomia.gr/international/iea-anatropi-stin-agora-petrelaiou-ti/725076/",
+      "source": "enikonomia.gr",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -344,14 +397,14 @@
       "change_condition": null
     },
     {
-      "id": "news-5d401857566e",
-      "title": "Dólar dispara 1 , 58 % e fecha a R$ 5 , 65 , maior nível em 17 meses",
-      "url": "https://jmonline.com.br/geral/dolar-dispara-1-58-e-fecha-a-r-5-65-maior-nivel-em-17-meses-1.684018",
-      "source": "jmonline.com.br",
+      "id": "news-ae32b4abe40e",
+      "title": "Бесплатное питание в школах Украины – какие случаи недоедания выявляют проверки",
+      "url": "https://24tv.ua/education/ru/besplatnoe-pitanie-v-shkolah-ukrainy-kakie-sluchai-nedoedanija-vyjavljajut-proverki_n3180119",
+      "source": "24tv.ua",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -361,14 +414,14 @@
       "change_condition": null
     },
     {
-      "id": "news-6db118141875",
-      "title": "美元触及19个月新高 美联储加息预期持续升温 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261113000080.html",
-      "source": "cfi.net.cn",
+      "id": "news-9442e361bb96",
+      "title": "Wollen united states Iran - Krieg beenden ? Revolutionsgarden melden Angriff auf US - Radar in Bahrain",
+      "url": "https://de.euronews.com/2026/11/13/wollen-usa-iran-krieg-beenden-revolutionsgarden-melden-angriff-auf-us-radar-in-bahrain",
+      "source": "de.euronews.com",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -378,14 +431,14 @@
       "change_condition": null
     },
     {
-      "id": "news-7506f3165007",
-      "title": "黄仁勋辞职 ， AI央行  大地震 ， 冲击会沿融资链传多远 ？ _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611133930151381.html",
-      "source": "finance.eastmoney.com",
+      "id": "news-97baaa233270",
+      "title": "Olie - export krabbelt op richting niveau van voor Iran - oorlog , benzineprijzen dalen",
+      "url": "https://drimble.nl/buitenlands-nieuws/108589726/olie-export-krabbelt-op-richting-niveau-van-voor-iran-oorlog-benzineprijzen-dalen.html",
+      "source": "drimble.nl",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -395,14 +448,14 @@
       "change_condition": null
     },
     {
-      "id": "news-fb12bf17bd35",
-      "title": "Credit card balances hit record as demand for debt counseling climbs",
-      "url": "https://bakersfieldnow.com/news/nation-world/credit-card-balances-hit-record-as-demand-for-debt-counseling-climbs-economy-personal-finance-advice-household-debt-credit-counseling",
-      "source": "bakersfieldnow.com",
+      "id": "news-5f79158806e7",
+      "title": "Петера Мадяра обвинили в шантаже и насилии – что известно",
+      "url": "https://24tv.ua/ru/petera-madjara-obvinili-v-shantazhe-i-nasilii-chto-izvestno_n3180125",
+      "source": "24tv.ua",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -412,14 +465,14 @@
       "change_condition": null
     },
     {
-      "id": "news-0d5f99ae2016",
-      "title": "日元跌破160后关口快速反弹 分析师推断触发当局干预机制 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261113000035.html",
-      "source": "cfi.net.cn",
+      "id": "news-69ddcbbad848",
+      "title": "MÄRKTE EUROPA / Knapp behauptet - Technologie - Sektor gibt deutlich nach",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70128095-maerkte-europa-knapp-behauptet-technologie-sektor-gibt-deutlich-nach-015.htm",
+      "source": "finanznachrichten.de",
       "source_type": "news",
-      "published_at": "2026-11-13T00:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -429,14 +482,14 @@
       "change_condition": null
     },
     {
-      "id": "news-2fdac0b484c1",
-      "title": "外資狂賣台股10天不手軟 ！ 台幣貶不停 「 33元防線又拉警報 」 - 財經",
-      "url": "https://www.chinatimes.com/realtimenews/20261112003184-260410",
-      "source": "chinatimes.com",
+      "id": "news-63553af7fa53",
+      "title": "Russia Oil Revenues Hit Five - Month High on Crude Rally , IEA Says",
+      "url": "https://gcaptain.com/russia-oil-revenues-hit-five-month-high-on-crude-rally-iea-says/",
+      "source": "gcaptain.com",
       "source_type": "news",
-      "published_at": "2026-11-12T07:00:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -446,14 +499,14 @@
       "change_condition": null
     },
     {
-      "id": "news-8d0b26fb60f1",
-      "title": "美联储鹰声不断 黄金失守4000美元大关 ！ 投行警告进一步下行风险 - CFi . CN 中财网",
-      "url": "http://www.cfi.net.cn/p20261112000383.html",
-      "source": "cfi.net.cn",
+      "id": "news-624de80b853b",
+      "title": "Precio del Dólar hoy 13 de noviembre ( 08 : 45 h )",
+      "url": "https://www.adnsureste.info/precio-del-dolar-hoy-13-de-noviembre-0845-h/",
+      "source": "adnsureste.info",
       "source_type": "news",
-      "published_at": "2026-11-12T07:00:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -463,14 +516,14 @@
       "change_condition": null
     },
     {
-      "id": "news-d54837ef9988",
-      "title": "Dolar / TL güne yükselişle başladı , 50 , 2570 seviyesinden işlem görüyor",
-      "url": "https://www.haberler.com/ekonomi/dolar-tl-gune-yukselisle-basladi-50-2570-20419214-haberi/",
-      "source": "haberler.com",
+      "id": "news-fc0cf328aa82",
+      "title": "World Oil Market is Returning to Surplus as Gulf Exports Recover",
+      "url": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
+      "source": "gcaptain.com",
       "source_type": "news",
-      "published_at": "2026-11-12T06:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -480,14 +533,14 @@
       "change_condition": null
     },
     {
-      "id": "news-dc769789fce2",
-      "title": "자녀 통학 · 교육환경 중요성 커지며 분양시장서  초품아  단지 관심",
-      "url": "https://www.heraldk.com/article/2026111122252493563",
-      "source": "heraldk.com",
+      "id": "news-bbba1ceff71c",
+      "title": "Καρυστιανού από τη Λάρισα : Η δικαιοσύνη απουσιάζει όταν υπόλογοι είναι οι πολιτικοί",
+      "url": "https://www.taxydromos.gr/thessalia/larisa/1390289/karystianoy-apo-ti-larisa-i-dikaiosyni-apoysiazei-otan-ypologoi-einai-oi-politikoi/",
+      "source": "taxydromos.gr",
       "source_type": "news",
-      "published_at": "2026-11-12T06:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -497,14 +550,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3d73846bf356",
-      "title": "반포현대 2 . 2억 , 은마 4 . 6억 … 재초환 부담금  현실화에 논란 재점화",
-      "url": "https://www.hani.co.kr/arti/economy/property/1287009.html",
-      "source": "hani.co.kr",
+      "id": "news-13efecca4c97",
+      "title": "On Wall Street , stocks sway as market aims for a winning week",
+      "url": "https://www.fortmorgantimes.com/2026/11/13/wall-street-futures-nvidia-microsoft/",
+      "source": "fortmorgantimes.com",
       "source_type": "news",
-      "published_at": "2026-11-12T06:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -514,14 +567,14 @@
       "change_condition": null
     },
     {
-      "id": "news-8977d7863e30",
-      "title": "Gram altın , dolar endeksindeki yükselişin baskısıyla 6 bin 428 liradan işlem görüyor",
-      "url": "https://www.haberler.com/ekonomi/gram-altin-dolar-endeksindeki-yukselisin-20419155-haberi/",
-      "source": "haberler.com",
+      "id": "news-c48255c00ace",
+      "title": "Ungarischer Konzern MOL fordert EU - Geld : Chef warnt vor Unruhen bei Ausstieg aus russischem Öl",
+      "url": "https://de.euronews.com/2026/11/13/ungarischer-konzern-mol-fordert-eu-geld-chef-warnt-vor-unruhen-bei-ausstieg-aus-russischem",
+      "source": "de.euronews.com",
       "source_type": "news",
-      "published_at": "2026-11-12T06:45:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -531,14 +584,14 @@
       "change_condition": null
     },
     {
-      "id": "news-66eb4b8fb247",
-      "title": "Wall Street Rallies 1 . 3 % as US Yields Hover at 5 %",
-      "url": "https://www.riotimesonline.com/global-economy-briefing-november-12-2026/",
-      "source": "riotimesonline.com",
+      "id": "news-e590bf80e020",
+      "title": "Ιράκ : Με φορτηγά η εξαγωγή πετρελαίου μέσω Συρίας – Στόχος έως και 14 εκατ . βαρέλια σε τρεις μήνες",
+      "url": "https://www.inewsgr.com/93/irak-me-fortiga-i-exagogi-petrelaiou-meso-syrias--stochos-eos-kai-14-ekat-varelia-se-treis-mines.htm",
+      "source": "inewsgr.com",
       "source_type": "news",
-      "published_at": "2026-11-12T05:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -548,14 +601,14 @@
       "change_condition": null
     },
     {
-      "id": "news-b30d73925124",
-      "title": "Brazil Stocks Rise 0 . 4 % Before Key Inflation Data",
-      "url": "https://www.riotimesonline.com/brazils-financial-morning-call-for-thursday-november-12-2026/",
-      "source": "riotimesonline.com",
+      "id": "news-37165f0e8c2e",
+      "title": "贸易战 · 印度餐 （ 六 ） | www . wenxuecity . com",
+      "url": "https://www.wenxuecity.com/blog/202611/71805/9876.html",
+      "source": "wenxuecity.com",
       "source_type": "news",
-      "published_at": "2026-11-12T05:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -565,63 +618,12 @@
       "change_condition": null
     },
     {
-      "id": "news-f8021461e0a7",
-      "title": "港股黄金概念集体走弱 ， 美国10月CPI超预期强化加息预期打压金价丨港股异动 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611123929324140.html",
-      "source": "finance.eastmoney.com",
+      "id": "news-35bd63692cfe",
+      "title": "Lebanon President Reassures Christians As They Remain Under Pressure",
+      "url": "https://www.ncregister.com/cna/lebanon-s-president-reassures-christians-as-they-remain-under-pressure",
+      "source": "ncregister.com",
       "source_type": "news",
-      "published_at": "2026-11-12T04:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a5d8c8e14937",
-      "title": "黃金失守4000美元大關只是開始 ？ 關鍵防線曝光",
-      "url": "https://www.ettvamerica.com/News/Article?i=412540",
-      "source": "ettvamerica.com",
-      "source_type": "news",
-      "published_at": "2026-11-12T04:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-73574562f907",
-      "title": "ANZ says RBA hike bets have cooled , but 3 . 7 % core inflation will keep it cautious",
-      "url": "https://investinglive.com/central-banks/anz-says-rba-hike-bets-have-cooled-but-3-7-core-inflation-will-keep-it-cautious/",
-      "source": "investinglive.com",
-      "source_type": "news",
-      "published_at": "2026-11-12T03:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2de338cd9a5f",
-      "title": "US - China AI cooperation and competition : Bessent",
-      "url": "https://www.chinatechnews.com/2026/11/11/132538-us-china-ai-cooperation-and-competition-bessent",
-      "source": "chinatechnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "geopolitics"
       ],
@@ -633,12 +635,12 @@
       "change_condition": null
     },
     {
-      "id": "news-19e7f32392d7",
-      "title": "Amazon peut - il imposer ses robots patrouilleurs dans les entreprises et les foyers ?",
-      "url": "https://www.generation-nt.com/actualites/amazon-robots-patrouilleurs-entreprises-foyers-2084293",
-      "source": "generation-nt.com",
+      "id": "news-9b5122c8769c",
+      "title": "Chris Van Hollen eyes Senate Majority Leader post - The Washington Informer",
+      "url": "https://www.washingtoninformer.com/maryland-democrats-congressional-majorities/",
+      "source": "washingtoninformer.com",
       "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "geopolitics"
       ],
@@ -650,12 +652,12 @@
       "change_condition": null
     },
     {
-      "id": "news-2a98e42bcf00",
-      "title": "Shock decline in mortgage numbers stirs up the banks",
-      "url": "https://www.merimbulanewsweekly.com.au/story/9389951/shock-decline-in-mortgage-numbers-stirs-up-the-banks/",
-      "source": "merimbulanewsweekly.com.au",
+      "id": "news-04d7ee7889fe",
+      "title": "The fight over Canadian steelworker jobs",
+      "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs",
+      "source": "aljazeera.com",
       "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "geopolitics"
       ],
@@ -667,12 +669,12 @@
       "change_condition": null
     },
     {
-      "id": "news-14cd98d70abd",
-      "title": "[ 미국 특징주 ]  골드만 , 앤스로픽 2030년 매출액 작년 150배 추정",
-      "url": "https://www.newspim.com/news/view/20261111000211",
-      "source": "newspim.com",
+      "id": "news-d7baef411a25",
+      "title": "La Chine a - t - elle réveillé une industrie qui sendormait ? À lEICMA 2026 , les constructeurs historiques ont été prévenus",
+      "url": "https://www.caradisiac.com/la-chine-a-t-elle-reveille-une-industrie-qui-s-endormait-a-l-eicma-2026-les-constructeurs-historiques-ont-ete-prevenus-225079.htm",
+      "source": "caradisiac.com",
       "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "geopolitics"
       ],
@@ -684,12 +686,12 @@
       "change_condition": null
     },
     {
-      "id": "news-56f0a6186b0c",
-      "title": "Förhandlingen en  teater  som gynnar Putin",
-      "url": "https://www.aftonbladet.se/nyheter/a/oMRXlK/forhandlingen-en-teater-som-gynnar-putin",
-      "source": "aftonbladet.se",
+      "id": "news-89cb3bb66395",
+      "title": "Нові вимоги до бронювання в Україні 2026 році чому держава посилила вимоги , хто ризикує втратити критичність та чи анулюють відстрочки",
+      "url": "https://mignews.com.ua/ekonomika/yak-otrymaty-krytychnist-pidpryyemstva-u-2026-roczi-ta-skilky-chasu-rozglyadatymut-dokumenty.html",
+      "source": "mignews.com.ua",
       "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "geopolitics"
       ],
@@ -701,12 +703,63 @@
       "change_condition": null
     },
     {
-      "id": "news-bd6de39be216",
-      "title": "Tanker involved in incident in Strait of Hormuz : united kingdom maritime agency",
-      "url": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency",
-      "source": "tribune.com.pk",
+      "id": "news-c1235c2bd241",
+      "title": "Sheinbaum anuncia cambios comerciales antes de su viaje a China – Publimetro México",
+      "url": "https://www.publimetro.com.mx/noticias/2026/11/13/sheinbaum-cambios-immex-triangulacion-comercial/",
+      "source": "publimetro.com.mx",
       "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-10a981a5e7bb",
+      "title": "Trump tariffs face a new threat : Republicans",
+      "url": "https://www.rnz.co.nz/news/world/2585339/trump-s-tariffs-face-a-new-threat-republicans",
+      "source": "rnz.co.nz",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cb1f231ffcbc",
+      "title": "Vance midterm autopsy falls flat among Republicans",
+      "url": "https://foxreno.com/news/nation-world/vice-president-vances-midterm-election-autopsy-falls-flat-among-republicans-gop-trump-john-kennedy-economy-rrt",
+      "source": "foxreno.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-60f3ba772286",
+      "title": "What up with … Nokia , NTT , SpaceX , 5G Evolution",
+      "url": "https://www.telecomtv.com/content/5g/what-s-up-with-nokia-ntt-spacex-56689/",
+      "source": "telecomtv.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "geopolitics"
       ],
