@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-12T20:52:30Z",
+  "generated_at": "2026-11-13T01:53:16Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -31,8 +31,8 @@
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "한국투자증권",
@@ -65,12 +65,37 @@
       "change_condition": null
     },
     {
-      "id": "market-ac0bace7f383",
-      "title": "원/달러 환율(매매기준율) 1336.7원 (직전 대비 -6.6원)",
+      "id": "market-bc80e45d4d4e",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-12T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261113",
+        "alert_threshold": 0.25
+      }
+    },
+    {
+      "id": "market-e80646b0bf05",
+      "title": "원/달러 환율(매매기준율) 1332.4원 (직전 대비 -4.3원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-11T15:00:00Z",
+      "published_at": "2026-11-12T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -81,12 +106,38 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1336.7,
-        "previous": 1343.3,
-        "change": -6.6,
+        "latest": 1332.4,
+        "previous": 1336.7,
+        "change": -4.3,
         "unit": "원",
-        "date": "20261112",
+        "date": "20261113",
         "alert_threshold": 15.0
+      }
+    },
+    {
+      "id": "market-74480ed6c088",
+      "title": "WTI 원유 가격 89.62달러 (직전 대비 0달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-11-11T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 89.62,
+        "previous": 89.62,
+        "change": 0.0,
+        "unit": "달러",
+        "date": "2026-11-11",
+        "alert_threshold": 3.0,
+        "indicator": "wti"
       }
     },
     {
@@ -116,55 +167,40 @@
       }
     },
     {
-      "id": "market-2d919671b3cd",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-09T15:00:00Z",
+      "id": "news-ad7438e56717",
+      "title": "U . S . stocks lose steam on Nvidia CEO exit , rising bond yields",
+      "url": "http://www.bangladeshsun.com/news/279429293/u-s-stocks-lose-steam-on-nvidia-ceo-exit-rising-bond-yields",
+      "source": "bangladeshsun.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
       "categories": [
-        "rates"
+        "rates",
+        "semis"
       ],
-      "importance": 5,
+      "importance": 4,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261110",
-        "alert_threshold": 0.25
-      }
+      "change_condition": null
     },
     {
-      "id": "market-9873208b8fcf",
-      "title": "WTI 원유 가격 99.64달러 (직전 대비 -0.42달러)",
-      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-11-03T00:00:00Z",
+      "id": "news-a56b1b349898",
+      "title": "Nasdaq extends losses on Nvidia CEO resignation , Mideast hostilities",
+      "url": "http://www.australiannews.net/news/279429293/nasdaq-extends-losses-on-nvidia-ceo-s-resignation-mideast-hostilities",
+      "source": "australiannews.net",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
       "categories": [
-        "oil"
+        "rates",
+        "semis"
       ],
-      "importance": 5,
+      "importance": 4,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 99.64,
-        "previous": 100.06,
-        "change": -0.42,
-        "unit": "달러",
-        "date": "2026-11-03",
-        "alert_threshold": 3.0,
-        "indicator": "wti"
-      }
+      "change_condition": null
     },
     {
       "id": "news-de0d71ee0c9c",
@@ -311,17 +347,135 @@
       "change_condition": null
     },
     {
-      "id": "news-247296b5661a",
-      "title": "[ 채권 / 외환 ] 미 국채 금리 상승 · 달러 약세 … 이란 확전 우려 완화 속 CPI 주목",
-      "url": "https://www.newspim.com/news/view/20261110000034",
-      "source": "newspim.com",
+      "id": "news-35c35aae99a3",
+      "title": "凌晨V形大反弹 ！ 美联储传出大消息 _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611133930099993.html",
+      "source": "finance.eastmoney.com",
       "source_type": "news",
-      "published_at": "2026-11-10T00:00:00Z",
+      "published_at": "2026-11-13T00:45:00Z",
       "categories": [
-        "rates",
-        "fx"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f4fb754e3647",
+      "title": "8点1氪丨英伟达宣布CEO黄仁勋辞职 ， 特朗普 ： 建议库克接任 ； 腾讯  裁员50 %？ 知情人士回应 ； 宣扬错误婚恋观 ， 德芙代运营方被罚80万|知名企业|蒂姆 · 库克|唐纳 · 川普",
+      "url": "https://www.163.com/dy/article/LBJP2QG805118DFD.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-61ab7a9d8de9",
+      "title": "昨夜华尔街 : 指数小幅回调 半导体逆势狂飙 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261113000075.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5d401857566e",
+      "title": "Dólar dispara 1 , 58 % e fecha a R$ 5 , 65 , maior nível em 17 meses",
+      "url": "https://jmonline.com.br/geral/dolar-dispara-1-58-e-fecha-a-r-5-65-maior-nivel-em-17-meses-1.684018",
+      "source": "jmonline.com.br",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6db118141875",
+      "title": "美元触及19个月新高 美联储加息预期持续升温 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261113000080.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7506f3165007",
+      "title": "黄仁勋辞职 ， AI央行  大地震 ， 冲击会沿融资链传多远 ？ _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611133930151381.html",
+      "source": "finance.eastmoney.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fb12bf17bd35",
+      "title": "Credit card balances hit record as demand for debt counseling climbs",
+      "url": "https://bakersfieldnow.com/news/nation-world/credit-card-balances-hit-record-as-demand-for-debt-counseling-climbs-economy-personal-finance-advice-household-debt-credit-counseling",
+      "source": "bakersfieldnow.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0d5f99ae2016",
+      "title": "日元跌破160后关口快速反弹 分析师推断触发当局干预机制 - CFi . CN 中财网",
+      "url": "http://www.cfi.net.cn/p20261113000035.html",
+      "source": "cfi.net.cn",
+      "source_type": "news",
+      "published_at": "2026-11-13T00:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -605,159 +759,6 @@
       "title": "Tanker involved in incident in Strait of Hormuz : united kingdom maritime agency",
       "url": "https://tribune.com.pk/story/2639736/tanker-involved-in-incident-in-strait-of-hormuz-uk-maritime-agency",
       "source": "tribune.com.pk",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9b7b43578eb8",
-      "title": "US beef market leads Australian exports despite softer demand | North Queensland Register",
-      "url": "https://www.northqueenslandregister.com.au/story/9388746/us-beef-market-leads-australian-exports-despite-softer-demand/",
-      "source": "northqueenslandregister.com.au",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0e64b46a3e1c",
-      "title": "국제우편물로 필로폰 밀반입 외국인 검거 … 공소청 송치",
-      "url": "https://www.newspim.com/news/view/20261111001116",
-      "source": "newspim.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2d749b93aa35",
-      "title": "В чем секрет успеха Китая ? Репортаж Людмилы Гладкой",
-      "url": "https://www.sb.by/articles/v-chem-sekret-uspekha-kitaya.html",
-      "source": "sb.by",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ff9218e154ee",
-      "title": "أسعار النفط تتعافى مدفوعة بمخاطر مضيق هرمز رغم آمال التهدئة",
-      "url": "https://www.almontasaf.net/news152590.html",
-      "source": "almontasaf.net",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d78e8c4a3e03",
-      "title": "Watch : Melbourne artists rally against Labor government arts funding cuts",
-      "url": "https://www.wsws.org/en/articles/2026/11/11/egem-n11.html",
-      "source": "wsws.org",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-92aa85dc1cb0",
-      "title": "Министр финансов США Бессент переехал жить на военную базу из - за угроз Ирана , NYT",
-      "url": "https://focus.ua/world/774281-ministr-finansov-ssha-bessent-pereehal-zhit-na-voennuyu-bazu-iz-za-ugroz-irana-nyt",
-      "source": "focus.ua",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c6d54a1d8cbf",
-      "title": "Rahul Gandhi to hold fireside chats at Columbia and Chicago universities during US visit",
-      "url": "https://www.moneycontrol.com/news/india/rahul-gandhi-us-visit-agenda-rahul-gandhi-to-hold-fireside-chats-at-columbia-and-chicago-universities-during-us-visit-14076959.html",
-      "source": "moneycontrol.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aaf17626a154",
-      "title": "India garment makers rethink reliance on US after tariff shock",
-      "url": "https://ksevradio.com/india-garment-makers-rethink-reliance-on-us-after-tariff-shock/",
-      "source": "ksevradio.com",
-      "source_type": "news",
-      "published_at": "2026-11-11T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f3376377538b",
-      "title": "美财长被曝因伊朗威胁搬入军事基地 经济战升级标志 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20261111/49861440.html",
-      "source": "news.china.com",
       "source_type": "news",
       "published_at": "2026-11-11T06:30:00Z",
       "categories": [
