@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T06:35:21Z",
+  "generated_at": "2026-11-14T14:14:11Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,18 +26,19 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 20
     },
     {
       "source": "한국은행 ECOS",
-      "ok": false,
-      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
+      "ok": true,
+      "count": 2
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -326,6 +327,210 @@
       "change_condition": null
     },
     {
+      "id": "news-d06b70e080ab",
+      "title": "Massachusetts funding bill could boost research",
+      "url": "https://www.bostonglobe.com/2026/11/13/newsletters/massachusetts-drive-economic-development-power-play/",
+      "source": "bostonglobe.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0422ea7e92eb",
+      "title": "My month with the Surface Laptop Ultra : The future of Windows is exclusive",
+      "url": "https://www.zdnet.com/tech/microsoft-surface-laptop-ultra-review/",
+      "source": "zdnet.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5086fa804c17",
+      "title": "Huang China affair may fix Howard Lutnick , the man who wanted to fix India",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/huangs-china-affair-may-fix-howard-lutnick-the-man-who-wanted-to-fix-india/articleshow/135810703.cms",
+      "source": "timesofindia.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ac51163f5d1e",
+      "title": "newsroomamerica . com",
+      "url": "https://newsroomamerica.com/?before=121952",
+      "source": "newsroomamerica.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f8183cdd7ced",
+      "title": "Froma Harrop - The Mining Gazette",
+      "url": "https://www.mininggazette.com/opinion/columns/2026/11/froma-harrop-70/",
+      "source": "mininggazette.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-48e6c78feaa9",
+      "title": "Nvidia reaffirms planned GPU supply to S . Korea despite Huang exit : minister",
+      "url": "https://www.koreatimes.co.kr/business/20261113/nvidia-reaffirms-planned-gpu-supply-to-s-korea-despite-huangs-exit-minister",
+      "source": "koreatimes.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a211130d4ecf",
+      "title": "以史为鉴 ： 苹果 、 谷歌和Uber均挺过创始人交接 ， 英伟达呢 ？",
+      "url": "https://www.163.com/dy/article/LBLB55R705198CJN.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7aaf74a13d4a",
+      "title": "CIA orchestrated Jensen Huang ouster to seize control of Nvidia AI tech",
+      "url": "https://www.bankingnews.gr/diethni/articles/910933/cia-orchestrated-jensen-huang-s-ouster-to-seize-control-of-nvidia-s-ai-tech",
+      "source": "bankingnews.gr",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5ea95c94126b",
+      "title": "Nothing Fold 5G Returns Despite Carl Pei No",
+      "url": "https://www.gizchina.com/nothing/nothing-fold-5g-image-goes-viral-even-though-pei-said-no-to-folds-but-it-is-not-really-a-leak",
+      "source": "gizchina.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b01d70e897e7",
+      "title": "Jensen Huang third alleged affair surfaces : Fans compare ex - Nvidia CEO to Aamir Khan and Pawan Kalyan",
+      "url": "https://www.ibtimes.co.in/jensen-huangs-third-alleged-affair-surfaces-fans-compare-ex-nvidia-ceo-aamir-khan-pawan-kalyan-908336",
+      "source": "ibtimes.co.in",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5a5d0edff2cf",
+      "title": "Advanced Micro Devices ( NASDAQ : AMD ) Stock Price Down 8 . 1 % – Here What Happened",
+      "url": "https://www.themarketsdaily.com/2026/11/13/advanced-micro-devices-nasdaqamd-stock-price-down-8-1-heres-what-happened.html",
+      "source": "themarketsdaily.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-da76f660b86c",
+      "title": "Fallout from the Nvidia scandal may dampen the exuberance around AI",
+      "url": "https://www.bostonglobe.com/2026/11/13/business/nvidia-fallout-jensen-huang/",
+      "source": "bostonglobe.com",
+      "source_type": "news",
+      "published_at": "2026-11-13T18:00:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-3908126401ff",
       "title": "成本推动价格修复 大尺寸面板12月有望小幅涨价",
       "url": "https://www.163.com/dy/article/LBLE7R4U05198CJN.html",
@@ -555,176 +760,6 @@
       "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-37165f0e8c2e",
-      "title": "贸易战 · 印度餐 （ 六 ） | www . wenxuecity . com",
-      "url": "https://www.wenxuecity.com/blog/202611/71805/9876.html",
-      "source": "wenxuecity.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-35bd63692cfe",
-      "title": "Lebanon President Reassures Christians As They Remain Under Pressure",
-      "url": "https://www.ncregister.com/cna/lebanon-s-president-reassures-christians-as-they-remain-under-pressure",
-      "source": "ncregister.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9b5122c8769c",
-      "title": "Chris Van Hollen eyes Senate Majority Leader post - The Washington Informer",
-      "url": "https://www.washingtoninformer.com/maryland-democrats-congressional-majorities/",
-      "source": "washingtoninformer.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-04d7ee7889fe",
-      "title": "The fight over Canadian steelworker jobs",
-      "url": "https://www.aljazeera.com/economy/2026/11/13/the-fight-over-canadian-steelworker-jobs",
-      "source": "aljazeera.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d7baef411a25",
-      "title": "La Chine a - t - elle réveillé une industrie qui sendormait ? À lEICMA 2026 , les constructeurs historiques ont été prévenus",
-      "url": "https://www.caradisiac.com/la-chine-a-t-elle-reveille-une-industrie-qui-s-endormait-a-l-eicma-2026-les-constructeurs-historiques-ont-ete-prevenus-225079.htm",
-      "source": "caradisiac.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-89cb3bb66395",
-      "title": "Нові вимоги до бронювання в Україні 2026 році чому держава посилила вимоги , хто ризикує втратити критичність та чи анулюють відстрочки",
-      "url": "https://mignews.com.ua/ekonomika/yak-otrymaty-krytychnist-pidpryyemstva-u-2026-roczi-ta-skilky-chasu-rozglyadatymut-dokumenty.html",
-      "source": "mignews.com.ua",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c1235c2bd241",
-      "title": "Sheinbaum anuncia cambios comerciales antes de su viaje a China – Publimetro México",
-      "url": "https://www.publimetro.com.mx/noticias/2026/11/13/sheinbaum-cambios-immex-triangulacion-comercial/",
-      "source": "publimetro.com.mx",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-10a981a5e7bb",
-      "title": "Trump tariffs face a new threat : Republicans",
-      "url": "https://www.rnz.co.nz/news/world/2585339/trump-s-tariffs-face-a-new-threat-republicans",
-      "source": "rnz.co.nz",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cb1f231ffcbc",
-      "title": "Vance midterm autopsy falls flat among Republicans",
-      "url": "https://foxreno.com/news/nation-world/vice-president-vances-midterm-election-autopsy-falls-flat-among-republicans-gop-trump-john-kennedy-economy-rrt",
-      "source": "foxreno.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-60f3ba772286",
-      "title": "What up with … Nokia , NTT , SpaceX , 5G Evolution",
-      "url": "https://www.telecomtv.com/content/5g/what-s-up-with-nokia-ntt-spacex-56689/",
-      "source": "telecomtv.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
