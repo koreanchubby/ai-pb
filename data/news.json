@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T17:46:54Z",
+  "generated_at": "2026-11-15T22:54:30Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 4
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -232,6 +231,261 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-866bb681de7a",
+      "title": "Estanflación",
+      "url": "https://www.perfil.com/columnistas/estanflacion-afaJv5z2FkDq",
+      "source": "perfil.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d9d174a3c23a",
+      "title": "Study hard , get a career , get ahead ? It not what it used to be",
+      "url": "https://www.omanobserver.om/article/1199695/world/asia/study-hard-get-a-career-get-ahead-its-not-what-it-used-to-be",
+      "source": "omanobserver.om",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-44ca1a0c79e6",
+      "title": "Las horas más oscuras",
+      "url": "https://www.perfil.com/columnistas/las-horas-mas-oscuras-aDFhL4p4Ze8a",
+      "source": "perfil.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fa691e0c0059",
+      "title": "每经热评 | BLG捧杯点燃热度 ， 电竞经济不能只靠冠军",
+      "url": "https://www.nbd.com.cn/articles/2026-11-15/4647975.html",
+      "source": "nbd.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1f90083a1df1",
+      "title": "From bicycle parts to satellites : Inside Sunil Mittal 50 - year journey",
+      "url": "https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
+      "source": "business-standard.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9ebfa8e8791e",
+      "title": "The world is facing a new credit crunch",
+      "url": "https://www.aol.com/articles/world-facing-credit-crunch-060000000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-038b1b65625b",
+      "title": "Iran đánh giá ra sao việc Mỹ gạt ông JD Vance tham gia đàm phán ?",
+      "url": "https://baomoi.com/iran-danh-gia-ra-sao-viec-my-gat-ong-jd-vance-tham-gia-dam-phan-c56517262.epi",
+      "source": "baomoi.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-db1c4bdffb73",
+      "title": "विश्व सम्बन्धका आयाम",
+      "url": "https://www.gorkhapatraonline.com/news/229105",
+      "source": "gorkhapatraonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-054ef59f904f",
+      "title": "Diese Schweizer Stadt ist die neue Europäische Weihnachtshauptstadt",
+      "url": "https://www.gmx.at/magazine/reise/schweizer-stadt-europaeische-weihnachtshauptstadt-42943032",
+      "source": "gmx.at",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6ba1c58498a0",
+      "title": "Assinatura do Acordo Mercosul - União Europeia é Prioridade para o Governo , Afirma Alckmin",
+      "url": "https://www.investimentosenoticias.com.br/noticias/politica/governo-brasileiro-espera-assinatura-rapida-do-acordo-mercosul-uniao-europeia-afirma-alckmin/",
+      "source": "investimentosenoticias.com.br",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-eac5af5a0381",
+      "title": "Trump  ın İran planında Cumhurbaşkanı Erdoğan detayı ! Mossad harekete geçti",
+      "url": "https://www.bursadabugun.com/haber/trump-in-iran-planinda-cumhurbaskani-erdogan-detayi-mossad-harekete-gecti-1963308.html",
+      "source": "bursadabugun.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9aedd8d768f8",
+      "title": "Autarchie e democrazie a confronto nellepoca dei missili e dei droni",
+      "url": "https://www.blitzquotidiano.it/politica/autarchie-e-democrazie-a-confronto-nellepoca-dei-missili-e-dei-droni-3810417/",
+      "source": "blitzquotidiano.it",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4dda5ed489f0",
+      "title": "日本拟大幅增加未来五年防卫费 扩军将把日本带向何方 ？ - 聚焦",
+      "url": "https://www.fjsen.com/2026-11/15/content_32283662.htm",
+      "source": "fjsen.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1a3f3cbab7eb",
+      "title": "Repeal budget tax changes now to avoid housing supply crash : Coalition",
+      "url": "https://www.brisbanetimes.com.au/politics/federal/repeal-budget-tax-changes-now-to-avoid-housing-supply-crash-coalition-20261115-p61e8c.html",
+      "source": "brisbanetimes.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-14026cf919af",
+      "title": "Buôn bán phân bón không đảm bảo chất lượng Công ty Sao Khuê bị xử phạt",
+      "url": "https://giadinh.suckhoedoisong.vn/cong-ty-sao-khue-bi-xu-phat-30-trieu-dong-vi-ban-phan-bon-khong-dam-bao-chat-luong-172261115103034318.htm",
+      "source": "giadinh.suckhoedoisong.vn",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -502,261 +756,6 @@
       "published_at": "2026-11-14T21:00:00Z",
       "categories": [
         "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b01bb8d48175",
-      "title": "美中俄領袖APEC期間首度三方峰會 核武與伊朗戰爭成焦點",
-      "url": "https://news.tvbs.com.tw/world/4050711",
-      "source": "news.tvbs.com.tw",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8e261567d0b8",
-      "title": "Trump , Xi and Putin plan an unprecedented joint meeting , White House says",
-      "url": "https://www.kcbd.com/2026/11/14/trump-xi-putin-plan-an-unprecedented-joint-meeting-white-house-says/",
-      "source": "kcbd.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T20:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a29aefc0523a",
-      "title": "Un ataque con drones ucranianos contra una refinería rusa dejó cuatro trabajadores muertos y provocó un incendio",
-      "url": "https://itongadol.com/internacionales/un-ataque-con-drones-ucranianos-contra-una-refineria-rusa-dejo-cuatro-trabajadores-muertos-y-provoco-un-incendio",
-      "source": "itongadol.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T20:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-291a0d2d9d68",
-      "title": "Wholesale inflation declined in October yet remains elevated",
-      "url": "https://www.orlandosentinel.com/2026/11/13/wholesale-inflation-declined-october/",
-      "source": "orlandosentinel.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d86bc835ab99",
-      "title": "Wholesale Prices Rise Less Than Expected In October",
-      "url": "https://790waeb.iheart.com/content/2026-11-13-wholesale-prices-rise-less-than-expected-in-october/",
-      "source": "790waeb.iheart.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d06b70e080ab",
-      "title": "Massachusetts funding bill could boost research",
-      "url": "https://www.bostonglobe.com/2026/11/13/newsletters/massachusetts-drive-economic-development-power-play/",
-      "source": "bostonglobe.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0422ea7e92eb",
-      "title": "My month with the Surface Laptop Ultra : The future of Windows is exclusive",
-      "url": "https://www.zdnet.com/tech/microsoft-surface-laptop-ultra-review/",
-      "source": "zdnet.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5086fa804c17",
-      "title": "Huang China affair may fix Howard Lutnick , the man who wanted to fix India",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/huangs-china-affair-may-fix-howard-lutnick-the-man-who-wanted-to-fix-india/articleshow/135810703.cms",
-      "source": "timesofindia.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ac51163f5d1e",
-      "title": "newsroomamerica . com",
-      "url": "https://newsroomamerica.com/?before=121952",
-      "source": "newsroomamerica.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f8183cdd7ced",
-      "title": "Froma Harrop - The Mining Gazette",
-      "url": "https://www.mininggazette.com/opinion/columns/2026/11/froma-harrop-70/",
-      "source": "mininggazette.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-48e6c78feaa9",
-      "title": "Nvidia reaffirms planned GPU supply to S . Korea despite Huang exit : minister",
-      "url": "https://www.koreatimes.co.kr/business/20261113/nvidia-reaffirms-planned-gpu-supply-to-s-korea-despite-huangs-exit-minister",
-      "source": "koreatimes.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a211130d4ecf",
-      "title": "以史为鉴 ： 苹果 、 谷歌和Uber均挺过创始人交接 ， 英伟达呢 ？",
-      "url": "https://www.163.com/dy/article/LBLB55R705198CJN.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7aaf74a13d4a",
-      "title": "CIA orchestrated Jensen Huang ouster to seize control of Nvidia AI tech",
-      "url": "https://www.bankingnews.gr/diethni/articles/910933/cia-orchestrated-jensen-huang-s-ouster-to-seize-control-of-nvidia-s-ai-tech",
-      "source": "bankingnews.gr",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5ea95c94126b",
-      "title": "Nothing Fold 5G Returns Despite Carl Pei No",
-      "url": "https://www.gizchina.com/nothing/nothing-fold-5g-image-goes-viral-even-though-pei-said-no-to-folds-but-it-is-not-really-a-leak",
-      "source": "gizchina.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b01d70e897e7",
-      "title": "Jensen Huang third alleged affair surfaces : Fans compare ex - Nvidia CEO to Aamir Khan and Pawan Kalyan",
-      "url": "https://www.ibtimes.co.in/jensen-huangs-third-alleged-affair-surfaces-fans-compare-ex-nvidia-ceo-aamir-khan-pawan-kalyan-908336",
-      "source": "ibtimes.co.in",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
