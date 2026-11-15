@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-14T23:03:55Z",
+  "generated_at": "2026-11-15T02:44:53Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 3
     },
     {
       "source": "한국은행 ECOS",
@@ -286,6 +286,57 @@
         "etf"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-36a3f281e4a4",
+      "title": "Dramatic drop in US home sales in October",
+      "url": "https://littleapplepost.com/posts/d34492de-e62d-4cff-8a92-69bc4fae244c",
+      "source": "littleapplepost.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c0d0cb5d60a2",
+      "title": "مسؤولة بالفيدرالي : أسعار الفائدة قد ترتفع أكثر مما هو متوقع",
+      "url": "https://www.almontasaf.net/news152832.html",
+      "source": "almontasaf.net",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-88ac95db3e2f",
+      "title": "أخبار الاقتصاد اليوم : ارتفاع أسعار الذهب بالصاغة .. الفيدرالي يدرس رفع الفائدة تدريجيًّا .. و30 % نموًّا في قطاع المنسوجات والملابس خلال 2026",
+      "url": "https://www.vetogate.com/5770546",
+      "source": "vetogate.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -705,57 +756,6 @@
       "title": "Καρυστιανού από τη Λάρισα : Η δικαιοσύνη απουσιάζει όταν υπόλογοι είναι οι πολιτικοί",
       "url": "https://www.taxydromos.gr/thessalia/larisa/1390289/karystianoy-apo-ti-larisa-i-dikaiosyni-apoysiazei-otan-ypologoi-einai-oi-politikoi/",
       "source": "taxydromos.gr",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-13efecca4c97",
-      "title": "On Wall Street , stocks sway as market aims for a winning week",
-      "url": "https://www.fortmorgantimes.com/2026/11/13/wall-street-futures-nvidia-microsoft/",
-      "source": "fortmorgantimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c48255c00ace",
-      "title": "Ungarischer Konzern MOL fordert EU - Geld : Chef warnt vor Unruhen bei Ausstieg aus russischem Öl",
-      "url": "https://de.euronews.com/2026/11/13/ungarischer-konzern-mol-fordert-eu-geld-chef-warnt-vor-unruhen-bei-ausstieg-aus-russischem",
-      "source": "de.euronews.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e590bf80e020",
-      "title": "Ιράκ : Με φορτηγά η εξαγωγή πετρελαίου μέσω Συρίας – Στόχος έως και 14 εκατ . βαρέλια σε τρεις μήνες",
-      "url": "https://www.inewsgr.com/93/irak-me-fortiga-i-exagogi-petrelaiou-meso-syrias--stochos-eos-kai-14-ekat-varelia-se-treis-mines.htm",
-      "source": "inewsgr.com",
       "source_type": "news",
       "published_at": "2026-11-13T18:00:00Z",
       "categories": [
