@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T02:44:53Z",
+  "generated_at": "2026-11-15T11:05:14Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 3
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -239,17 +239,16 @@
       "change_condition": null
     },
     {
-      "id": "news-de0d71ee0c9c",
-      "title": "Küresel piyasalarda teknoloji rallisine Nvidia gölgesi düştü",
-      "url": "https://uzmanpara.milliyet.com.tr/uzmanpara/kuresel-piyasalarda-teknoloji-rallisine-nvidia-golgesi-dustu-7699163",
-      "source": "uzmanpara.milliyet.com.tr",
+      "id": "news-f3d3c8ffd8de",
+      "title": "Global economy to grow 2 . 8 % in 2027 , buoyed by lower oil prices and AI investments : Goldman Sachs",
+      "url": "https://www.thehindubusinessline.com/economy/global-economy-to-grow-28-in-2027-buoyed-by-lower-oil-prices-and-ai-investments-goldman-sachs/article71704111.ece",
+      "source": "thehindubusinessline.com",
       "source_type": "news",
-      "published_at": "2026-11-12T07:00:00Z",
+      "published_at": "2026-11-15T07:45:00Z",
       "categories": [
-        "rates",
-        "semis"
+        "oil"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -257,17 +256,16 @@
       "change_condition": null
     },
     {
-      "id": "news-5924f92d73e5",
-      "title": "Memory Chips Are Completely Distorting South Korea Economy",
-      "url": "https://foreignpolicy.com/2026/11/11/south-korea-semiconductor-memory-chips-artificial-intelligence-inflation-affordability/?tpcc=recirc_trending062921",
-      "source": "foreignpolicy.com",
+      "id": "news-419d4274cc5d",
+      "title": "Το ( Μεσογειακό ) τραπέζι της ζωής",
+      "url": "https://www.protagon.gr/themata/gia-16-11-to-mesogeiako-trapezi-tis-zwis-44343471674",
+      "source": "protagon.gr",
       "source_type": "news",
-      "published_at": "2026-11-12T06:45:00Z",
+      "published_at": "2026-11-15T07:45:00Z",
       "categories": [
-        "rates",
-        "semis"
+        "oil"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -275,17 +273,186 @@
       "change_condition": null
     },
     {
-      "id": "news-7e39fae12b3a",
-      "title": "金价越跌 ， 欧美投资者越买入黄金ETF",
-      "url": "https://finance.ifeng.com/c/8xzJjU7nkeV",
-      "source": "finance.ifeng.com",
+      "id": "news-fc727c191036",
+      "title": "PRD cuestiona congelamiento de combustibles y exige claridad",
+      "url": "https://almomento.net/prd-cuestiona-congelamiento-de-combustibles-y-exige-claridad/",
+      "source": "almomento.net",
       "source_type": "news",
-      "published_at": "2026-11-12T05:30:00Z",
+      "published_at": "2026-11-15T07:45:00Z",
       "categories": [
-        "rates",
-        "etf"
+        "oil"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-378307da5f62",
+      "title": "UZZK Başkanı Tan :  Zeytinde krizi fırsata çevirebiliriz",
+      "url": "https://www.bursadabugun.com/haber/uzzk-baskani-tan-zeytinde-krizi-firsata-cevirebiliriz-1963356.html",
+      "source": "bursadabugun.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-56d8bb81d1fb",
+      "title": "В России разрешена работа детей младше 14 лет в сфере искусства",
+      "url": "https://www.tatar-inform.ru/news/v-rossii-razresena-rabota-detei-mladse-14-let-v-sfere-iskusstva-6049015",
+      "source": "tatar-inform.ru",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-25490921b246",
+      "title": "US diesel below $6 a gallon at 2 - month low on easing tensions , weaker demand",
+      "url": "https://bdnews24.com/business/29lzj7z8ab",
+      "source": "bdnews24.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-79e732169d85",
+      "title": "AI errors spark calls to scrap Scotland school curriculum reforms",
+      "url": "https://www.heraldscotland.com/news/26728286.ai-errors-spark-calls-scrap-scotlands-school-curriculum-reforms/",
+      "source": "heraldscotland.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7441178c310c",
+      "title": "Trump , Xi and Putin plan joint meeting",
+      "url": "https://nagalandpost.com/trump-xi-and-putin-plan-joint-meeting/",
+      "source": "nagalandpost.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-613538bab8bf",
+      "title": "Tata Steel targets NINL amalgamation completion by fiscal - end : CFO",
+      "url": "https://www.thehindubusinessline.com/companies/tata-steel-targets-ninl-amalgamation-completion-by-fiscal-end-cfo/article71704133.ece",
+      "source": "thehindubusinessline.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4104c1ab9899",
+      "title": "FPIs infuse ₹84 , 290 cr into equities in first half of November",
+      "url": "https://www.thehindubusinessline.com/markets/fpis-infuse-84290-cr-into-equities-in-first-half-of-november/article71704298.ece",
+      "source": "thehindubusinessline.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-03320d2aff65",
+      "title": "With shifting Iran rhetoric , Trump leaves Mideast in limbo",
+      "url": "https://www.wisn.com/article/iran-rhetoric-elections-trump-mideast-limbo/74431136",
+      "source": "wisn.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1f8414b6e288",
+      "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+      "source": "theyeshivaworld.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b01bb8d48175",
+      "title": "美中俄領袖APEC期間首度三方峰會 核武與伊朗戰爭成焦點",
+      "url": "https://news.tvbs.com.tw/world/4050711",
+      "source": "news.tvbs.com.tw",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -335,6 +502,40 @@
       "published_at": "2026-11-14T21:00:00Z",
       "categories": [
         "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8e261567d0b8",
+      "title": "Trump , Xi and Putin plan an unprecedented joint meeting , White House says",
+      "url": "https://www.kcbd.com/2026/11/14/trump-xi-putin-plan-an-unprecedented-joint-meeting-white-house-says/",
+      "source": "kcbd.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T20:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a29aefc0523a",
+      "title": "Un ataque con drones ucranianos contra una refinería rusa dejó cuatro trabajadores muertos y provocó un incendio",
+      "url": "https://itongadol.com/internacionales/un-ataque-con-drones-ucranianos-contra-una-refineria-rusa-dejo-cuatro-trabajadores-muertos-y-provoco-un-incendio",
+      "source": "itongadol.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T20:00:00Z",
+      "categories": [
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -556,210 +757,6 @@
       "published_at": "2026-11-13T18:00:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-da76f660b86c",
-      "title": "Fallout from the Nvidia scandal may dampen the exuberance around AI",
-      "url": "https://www.bostonglobe.com/2026/11/13/business/nvidia-fallout-jensen-huang/",
-      "source": "bostonglobe.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3908126401ff",
-      "title": "成本推动价格修复 大尺寸面板12月有望小幅涨价",
-      "url": "https://www.163.com/dy/article/LBLE7R4U05198CJN.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f69bf1bb7350",
-      "title": "ΙΕΑ : Ανατροπή στην αγορά πετρελαίου - Τι λέει για το πλεόνασμα",
-      "url": "https://www.enikonomia.gr/international/iea-anatropi-stin-agora-petrelaiou-ti/725076/",
-      "source": "enikonomia.gr",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ae32b4abe40e",
-      "title": "Бесплатное питание в школах Украины – какие случаи недоедания выявляют проверки",
-      "url": "https://24tv.ua/education/ru/besplatnoe-pitanie-v-shkolah-ukrainy-kakie-sluchai-nedoedanija-vyjavljajut-proverki_n3180119",
-      "source": "24tv.ua",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9442e361bb96",
-      "title": "Wollen united states Iran - Krieg beenden ? Revolutionsgarden melden Angriff auf US - Radar in Bahrain",
-      "url": "https://de.euronews.com/2026/11/13/wollen-usa-iran-krieg-beenden-revolutionsgarden-melden-angriff-auf-us-radar-in-bahrain",
-      "source": "de.euronews.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-97baaa233270",
-      "title": "Olie - export krabbelt op richting niveau van voor Iran - oorlog , benzineprijzen dalen",
-      "url": "https://drimble.nl/buitenlands-nieuws/108589726/olie-export-krabbelt-op-richting-niveau-van-voor-iran-oorlog-benzineprijzen-dalen.html",
-      "source": "drimble.nl",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5f79158806e7",
-      "title": "Петера Мадяра обвинили в шантаже и насилии – что известно",
-      "url": "https://24tv.ua/ru/petera-madjara-obvinili-v-shantazhe-i-nasilii-chto-izvestno_n3180125",
-      "source": "24tv.ua",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-69ddcbbad848",
-      "title": "MÄRKTE EUROPA / Knapp behauptet - Technologie - Sektor gibt deutlich nach",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70128095-maerkte-europa-knapp-behauptet-technologie-sektor-gibt-deutlich-nach-015.htm",
-      "source": "finanznachrichten.de",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-63553af7fa53",
-      "title": "Russia Oil Revenues Hit Five - Month High on Crude Rally , IEA Says",
-      "url": "https://gcaptain.com/russia-oil-revenues-hit-five-month-high-on-crude-rally-iea-says/",
-      "source": "gcaptain.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-624de80b853b",
-      "title": "Precio del Dólar hoy 13 de noviembre ( 08 : 45 h )",
-      "url": "https://www.adnsureste.info/precio-del-dolar-hoy-13-de-noviembre-0845-h/",
-      "source": "adnsureste.info",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fc0cf328aa82",
-      "title": "World Oil Market is Returning to Surplus as Gulf Exports Recover",
-      "url": "https://gcaptain.com/world-oil-market-is-returning-to-surplus-as-gulf-exports-recover/",
-      "source": "gcaptain.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bbba1ceff71c",
-      "title": "Καρυστιανού από τη Λάρισα : Η δικαιοσύνη απουσιάζει όταν υπόλογοι είναι οι πολιτικοί",
-      "url": "https://www.taxydromos.gr/thessalia/larisa/1390289/karystianoy-apo-ti-larisa-i-dikaiosyni-apoysiazei-otan-ypologoi-einai-oi-politikoi/",
-      "source": "taxydromos.gr",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
