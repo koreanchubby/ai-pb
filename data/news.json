@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-15T11:05:14Z",
+  "generated_at": "2026-11-15T17:46:54Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 4
     },
     {
       "source": "한국은행 ECOS",
@@ -239,6 +239,23 @@
       "change_condition": null
     },
     {
+      "id": "news-5f0152375953",
+      "title": "तेस्रो पक्षले किनेको सम्पत्तिबारे गिरिबन्धु टिस्टेटमा यस्तो छ सर्वोच्चको नजिर ! | Nepal first 24 - hour updated news portal",
+      "url": "https://www.ratopati.com/story/605309/this-is-the-supreme-courts-precedent-in-the-giribandhu-estate-regarding-property-purchased-by-a-third-party",
+      "source": "ratopati.com",
+      "source_type": "news",
+      "published_at": "2026-11-15T07:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-f3d3c8ffd8de",
       "title": "Global economy to grow 2 . 8 % in 2027 , buoyed by lower oil prices and AI investments : Goldman Sachs",
       "url": "https://www.thehindubusinessline.com/economy/global-economy-to-grow-28-in-2027-buoyed-by-lower-oil-prices-and-ai-investments-goldman-sachs/article71704111.ece",
@@ -409,57 +426,6 @@
       "change_condition": null
     },
     {
-      "id": "news-03320d2aff65",
-      "title": "With shifting Iran rhetoric , Trump leaves Mideast in limbo",
-      "url": "https://www.wisn.com/article/iran-rhetoric-elections-trump-mideast-limbo/74431136",
-      "source": "wisn.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1f8414b6e288",
-      "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-      "source": "theyeshivaworld.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b01bb8d48175",
-      "title": "美中俄領袖APEC期間首度三方峰會 核武與伊朗戰爭成焦點",
-      "url": "https://news.tvbs.com.tw/world/4050711",
-      "source": "news.tvbs.com.tw",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-36a3f281e4a4",
       "title": "Dramatic drop in US home sales in October",
       "url": "https://littleapplepost.com/posts/d34492de-e62d-4cff-8a92-69bc4fae244c",
@@ -502,6 +468,57 @@
       "published_at": "2026-11-14T21:00:00Z",
       "categories": [
         "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-03320d2aff65",
+      "title": "With shifting Iran rhetoric , Trump leaves Mideast in limbo",
+      "url": "https://www.wisn.com/article/iran-rhetoric-elections-trump-mideast-limbo/74431136",
+      "source": "wisn.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1f8414b6e288",
+      "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
+      "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
+      "source": "theyeshivaworld.com",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b01bb8d48175",
+      "title": "美中俄領袖APEC期間首度三方峰會 核武與伊朗戰爭成焦點",
+      "url": "https://news.tvbs.com.tw/world/4050711",
+      "source": "news.tvbs.com.tw",
+      "source_type": "news",
+      "published_at": "2026-11-14T21:00:00Z",
+      "categories": [
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -736,23 +753,6 @@
       "title": "Jensen Huang third alleged affair surfaces : Fans compare ex - Nvidia CEO to Aamir Khan and Pawan Kalyan",
       "url": "https://www.ibtimes.co.in/jensen-huangs-third-alleged-affair-surfaces-fans-compare-ex-nvidia-ceo-aamir-khan-pawan-kalyan-908336",
       "source": "ibtimes.co.in",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5a5d0edff2cf",
-      "title": "Advanced Micro Devices ( NASDAQ : AMD ) Stock Price Down 8 . 1 % – Here What Happened",
-      "url": "https://www.themarketsdaily.com/2026/11/13/advanced-micro-devices-nasdaqamd-stock-price-down-8-1-heres-what-happened.html",
-      "source": "themarketsdaily.com",
       "source_type": "news",
       "published_at": "2026-11-13T18:00:00Z",
       "categories": [
