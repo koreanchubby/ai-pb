@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T11:34:00Z",
+  "generated_at": "2026-11-16T22:13:21Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -63,6 +62,32 @@
       "asset_impact": null,
       "counter_evidence": null,
       "change_condition": null
+    },
+    {
+      "id": "market-1807804effe7",
+      "title": "미국 10년물 국채금리 5.12% (직전 대비 -0.03%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-11-16T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.12,
+        "previous": 5.15,
+        "change": -0.03,
+        "unit": "%",
+        "date": "2026-11-16",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
     },
     {
       "id": "market-5d169d004967",
@@ -115,32 +140,6 @@
       }
     },
     {
-      "id": "market-53636a058aac",
-      "title": "미국 10년물 국채금리 5.15% (직전 대비 +0.05%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-11-13T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.15,
-        "previous": 5.1,
-        "change": 0.05,
-        "unit": "%",
-        "date": "2026-11-13",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
-      }
-    },
-    {
       "id": "market-74480ed6c088",
       "title": "WTI 원유 가격 89.62달러 (직전 대비 0달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
@@ -176,42 +175,6 @@
       "categories": [
         "geopolitics",
         "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-185aaf2e1650",
-      "title": "US Treasury warns against rate hikes during US - Iran war energy  shock  | US - Israel war on Iran News",
-      "url": "https://www.aljazeera.com/economy/2026/11/13/us-treasury-warns-against-rate-hikes-during-us-iran-war-energy-shock",
-      "source": "aljazeera.com",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "rates",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2111eaa1050c",
-      "title": "Mi folyik a tőzsdéken ? Brutális mélyrepülésben az amerikai papírok az NVIDIA botrány után – közben egy magyar részvény nagyon kilőtt",
-      "url": "https://www.penzcentrum.hu/megtakaritas/20261113/mi-folyik-a-tozsdeken-brutalis-melyrepulesben-az-amerikai-papirok-az-nvidia-botrany-utan-kozben-egy-magyar-reszveny-nagyon-kilott-1209026",
-      "source": "penzcentrum.hu",
-      "source_type": "news",
-      "published_at": "2026-11-13T18:00:00Z",
-      "categories": [
-        "rates",
-        "semis"
       ],
       "importance": 4,
       "facts": null,
