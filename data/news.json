@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T02:47:52Z",
+  "generated_at": "2026-11-16T11:34:00Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -90,6 +90,31 @@
       }
     },
     {
+      "id": "market-b22b2d14d35f",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-13T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261114",
+        "alert_threshold": 0.25
+      }
+    },
+    {
       "id": "market-53636a058aac",
       "title": "미국 10년물 국채금리 5.15% (직전 대비 +0.05%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -113,31 +138,6 @@
         "date": "2026-11-13",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-bc80e45d4d4e",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-12T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261113",
-        "alert_threshold": 0.25
       }
     },
     {
@@ -165,6 +165,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-1315ea9e6ba7",
+      "title": "China Turns to Iraqi Oil as U . S . Blockade Chokes Iranian Supply",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Turns-to-Iraqi-Oil-as-US-Blockade-Chokes-Iranian-Supply.html",
+      "source": "oilprice.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics",
+        "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-185aaf2e1650",
@@ -196,6 +214,244 @@
         "semis"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fbbbda94bc26",
+      "title": "ترامب والسنتان الأخيرتان : إعادة ترتيب الإدارة وحسم الملفات المفتوحة | مقالات مختارة",
+      "url": "https://www.ammonnews.net/article/1045353",
+      "source": "ammonnews.net",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2d491813d297",
+      "title": "駐ロシア大使交代へ 後任は宇山秀樹 ・ 元欧州局長で調整",
+      "url": "https://mainichi.jp/articles/20261116/k00/00m/010/112000c",
+      "source": "mainichi.jp",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7492d5b54bb1",
+      "title": "Je ne suis pas Batman pour tuer trois mecs  : à Aix - en - Provence , le verdict du triple narchomicide qui a coût la vie au frère dAmine Kessaci , rendu ce lundi",
+      "url": "https://www.nicematin.com/societe/justice/je-ne-suis-pas-batman-pour-tuer-trois-mecs-a-aix-en-provence-le-verdict-du-triple-narchomicide-qui-a-coute-la-vie-au-frere-d-amine-kessaci-rendu-ce-lundi-10762173",
+      "source": "nicematin.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6187db9ce911",
+      "title": "U . S . Trade negotiators still insisting on market access in Indian Agri - Foods sector",
+      "url": "https://thenorthlines.com/u-s-trade-negotiators-still-insisting-on-market-access-in-indian-agri-foods-sector/",
+      "source": "thenorthlines.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1947096905bf",
+      "title": "Triple assassinat à Marseille  : L  épilogue dun procès hors normes",
+      "url": "https://www.20minutes.fr/justice/4263157-20261116-triple-assassinat-marseille-epilogue-proces-hors-normes",
+      "source": "20minutes.fr",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-25739b88985e",
+      "title": "Bajeti ya Ujerumani ya 2027 : Euro bilioni 561",
+      "url": "https://www.dw.com/sw/bajeti-ya-ujerumani-ya-2027-euro-bilioni-561-huku-gharama-za-ulinzi-na-pensheni-zikiongezeka/a-79950341",
+      "source": "dw.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0bac8709455d",
+      "title": "Kwa nini ukuaji wa uchumi wa Ujerumani hautoshi ?",
+      "url": "https://www.dw.com/sw/ukuaji-wa-uchumi-wa-ujerumani-warejea-huku-gharama-za-pensheni-na-mzigo-wa-deni-vikiongezeka/a-79953691",
+      "source": "dw.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e9cbb3f0307f",
+      "title": "这个低迷了四年的赛道 ， 正在被大手笔扫货",
+      "url": "https://finance.sina.com.cn/tech/roll/2026-11-16/doc-iniyxirf6002162.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-088202912d7b",
+      "title": "輝達還會當AI新創的金主嗎 ？ 黃仁勳離任 、 財務長暫代 ， 瑞銀估市場資金恐減少500億美元以上 | 中央社 | 新聞",
+      "url": "https://www.storm.mg/article/11181918",
+      "source": "storm.mg",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6d36ed474292",
+      "title": "Tramp , Putin i Si : Šta bi istorijski sastanak mogao da znači za svet",
+      "url": "https://www.blic.rs/bbc/tramp-putin-i-si-sta-bi-istorijski-sastanak-mogao-da-znaci-za-svet/x783xc1",
+      "source": "blic.rs",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ccd0a2c3cb5c",
+      "title": "Trump tariffs cast shadow over Apec talks",
+      "url": "https://www.freemalaysiatoday.com/category/world/2026/11/16/trump-s-tariffs-cast-shadow-over-apec-talks",
+      "source": "freemalaysiatoday.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-99eb6480d2cd",
+      "title": "大國不該替別人決定命運 ？ 高市訪菲 、 中 夾在美中俄之間的外交大考 從雅爾達到APEC看高市的平衡術 | 溫芳瑜 | 新聞",
+      "url": "https://www.storm.mg/article/11181928",
+      "source": "storm.mg",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f2a00d5da675",
+      "title": "南臺科大勇奪國科會 「 智慧雨林 」 6大案獲2128萬元補助 推動技術落地與跨域人才",
+      "url": "https://n.yam.com/Article/20261116641631",
+      "source": "n.yam.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bfee5d9cbb21",
+      "title": "تعافي صادرات الشرق الأوسط يضغط على أسعار النفط | اقتصاد",
+      "url": "https://www.ammonnews.net/article/1045334",
+      "source": "ammonnews.net",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -498,227 +754,6 @@
       "source": "protagon.gr",
       "source_type": "news",
       "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fc727c191036",
-      "title": "PRD cuestiona congelamiento de combustibles y exige claridad",
-      "url": "https://almomento.net/prd-cuestiona-congelamiento-de-combustibles-y-exige-claridad/",
-      "source": "almomento.net",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-378307da5f62",
-      "title": "UZZK Başkanı Tan :  Zeytinde krizi fırsata çevirebiliriz",
-      "url": "https://www.bursadabugun.com/haber/uzzk-baskani-tan-zeytinde-krizi-firsata-cevirebiliriz-1963356.html",
-      "source": "bursadabugun.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-56d8bb81d1fb",
-      "title": "В России разрешена работа детей младше 14 лет в сфере искусства",
-      "url": "https://www.tatar-inform.ru/news/v-rossii-razresena-rabota-detei-mladse-14-let-v-sfere-iskusstva-6049015",
-      "source": "tatar-inform.ru",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-25490921b246",
-      "title": "US diesel below $6 a gallon at 2 - month low on easing tensions , weaker demand",
-      "url": "https://bdnews24.com/business/29lzj7z8ab",
-      "source": "bdnews24.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-79e732169d85",
-      "title": "AI errors spark calls to scrap Scotland school curriculum reforms",
-      "url": "https://www.heraldscotland.com/news/26728286.ai-errors-spark-calls-scrap-scotlands-school-curriculum-reforms/",
-      "source": "heraldscotland.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7441178c310c",
-      "title": "Trump , Xi and Putin plan joint meeting",
-      "url": "https://nagalandpost.com/trump-xi-and-putin-plan-joint-meeting/",
-      "source": "nagalandpost.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-613538bab8bf",
-      "title": "Tata Steel targets NINL amalgamation completion by fiscal - end : CFO",
-      "url": "https://www.thehindubusinessline.com/companies/tata-steel-targets-ninl-amalgamation-completion-by-fiscal-end-cfo/article71704133.ece",
-      "source": "thehindubusinessline.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4104c1ab9899",
-      "title": "FPIs infuse ₹84 , 290 cr into equities in first half of November",
-      "url": "https://www.thehindubusinessline.com/markets/fpis-infuse-84290-cr-into-equities-in-first-half-of-november/article71704298.ece",
-      "source": "thehindubusinessline.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-36a3f281e4a4",
-      "title": "Dramatic drop in US home sales in October",
-      "url": "https://littleapplepost.com/posts/d34492de-e62d-4cff-8a92-69bc4fae244c",
-      "source": "littleapplepost.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c0d0cb5d60a2",
-      "title": "مسؤولة بالفيدرالي : أسعار الفائدة قد ترتفع أكثر مما هو متوقع",
-      "url": "https://www.almontasaf.net/news152832.html",
-      "source": "almontasaf.net",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-88ac95db3e2f",
-      "title": "أخبار الاقتصاد اليوم : ارتفاع أسعار الذهب بالصاغة .. الفيدرالي يدرس رفع الفائدة تدريجيًّا .. و30 % نموًّا في قطاع المنسوجات والملابس خلال 2026",
-      "url": "https://www.vetogate.com/5770546",
-      "source": "vetogate.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-03320d2aff65",
-      "title": "With shifting Iran rhetoric , Trump leaves Mideast in limbo",
-      "url": "https://www.wisn.com/article/iran-rhetoric-elections-trump-mideast-limbo/74431136",
-      "source": "wisn.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1f8414b6e288",
-      "title": "IRAN SHOWDOWN : Trump Weighs Halting New Strikes Despite Israeli Pressure As U . S . Tightens Economic Blockade",
-      "url": "https://www.theyeshivaworld.com/news/israel-news/2623104/iran-showdown-trump-weighs-halting-new-strikes-despite-israeli-pressure-as-u-s-tightens-economic-blockade.html",
-      "source": "theyeshivaworld.com",
-      "source_type": "news",
-      "published_at": "2026-11-14T21:00:00Z",
       "categories": [
         "oil"
       ],
