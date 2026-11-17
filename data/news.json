@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-16T22:13:21Z",
+  "generated_at": "2026-11-17T04:34:41Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 25
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -64,6 +65,31 @@
       "change_condition": null
     },
     {
+      "id": "market-42984b961cb9",
+      "title": "원/달러 환율(매매기준율) 1335원 (직전 대비 +1.3원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-16T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1335.0,
+        "previous": 1333.7,
+        "change": 1.3,
+        "unit": "원",
+        "date": "20261117",
+        "alert_threshold": 15.0
+      }
+    },
+    {
       "id": "market-1807804effe7",
       "title": "미국 10년물 국채금리 5.12% (직전 대비 -0.03%p)",
       "url": "https://apiportal.koreainvestment.com/#Y0202",
@@ -87,31 +113,6 @@
         "date": "2026-11-16",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-5d169d004967",
-      "title": "원/달러 환율(매매기준율) 1333.7원 (직전 대비 +1.3원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-15T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1333.7,
-        "previous": 1332.4,
-        "change": 1.3,
-        "unit": "원",
-        "date": "20261116",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -166,6 +167,23 @@
       }
     },
     {
+      "id": "news-3ade3d44c5bc",
+      "title": "KOSPI Plunges 3 . 6 % as South Korean Stocks Shed 190 Points , Sliding to 5 , 100 in a Brutal Session for Seoul",
+      "url": "https://www.ibtimes.com.au/south-korea-kospi-falls-chip-stocks-asian-selloff-1878668",
+      "source": "ibtimes.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-1315ea9e6ba7",
       "title": "China Turns to Iraqi Oil as U . S . Blockade Chokes Iranian Supply",
       "url": "https://oilprice.com/Latest-Energy-News/World-News/China-Turns-to-Iraqi-Oil-as-US-Blockade-Chokes-Iranian-Supply.html",
@@ -173,10 +191,383 @@
       "source_type": "news",
       "published_at": "2026-11-16T08:15:00Z",
       "categories": [
-        "geopolitics",
         "oil"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6187db9ce911",
+      "title": "U . S . Trade negotiators still insisting on market access in Indian Agri - Foods sector",
+      "url": "https://thenorthlines.com/u-s-trade-negotiators-still-insisting-on-market-access-in-indian-agri-foods-sector/",
+      "source": "thenorthlines.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-54c3b25e3e1c",
+      "title": "Wholesale Inflation : खुदरा के बाद अब थोक महंगाई के मोर्चे पर झटका , अक्टूबर में बढ़कर हुई 12 . 29 %",
+      "url": "https://hindi.moneycontrol.com/economy/wholesale-inflation-rose-to-12-29-per-cent-in-october-on-higher-prices-of-fuel-and-power-food-articles-minerals-non-food-items-article-2468010.html",
+      "source": "hindi.moneycontrol.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ccf41aac80fb",
+      "title": "थोक महंगाई ने किया परेशान , अक्टूबर के महीने में 12 % के पार WPI ; क्या रेपो - रेट में होगा इजाफा",
+      "url": "https://www.livehindustan.com/business/wholesale-price-index-crossed-12-percent-in-october-2026-can-rbi-raise-repo-rate-201794813673615.html",
+      "source": "livehindustan.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cb1397c9148f",
+      "title": "WPI Inflation Rises to 12 . 29 % in October on Costlier Food , Fuel",
+      "url": "https://www.oneindia.com/india/wpi-inflation-rises-to-12-29-in-october-on-costlier-food-fuel-8260795.html",
+      "source": "oneindia.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3c4ee4b95656",
+      "title": "Πόσο κοστίζουν ενεργειακά στην Ευρώπη τα αυτοκίνητα με κινητήρες βενζίνης και diesel",
+      "url": "https://www.inewsgr.com/429/poso-kostizoun-energeiaka-stin-evropi-ta-aftokinita-me-kinitires-venzinis-kai-diesel.htm",
+      "source": "inewsgr.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-174c283c6a7a",
+      "title": "Torna Batman Franco Fiorito , sarà dirigente con Vannacci dopo lo scandalo dei fondi regionali al Pdl spariti allestero",
+      "url": "https://www.ilmessaggero.it/politica/franco_fiorito_dirigente_vannacci-9891945.html",
+      "source": "ilmessaggero.it",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c3c41f6986e6",
+      "title": "سومین ناو هواپیمابر آمریکا وارد خاورمیانه شد",
+      "url": "https://www.radiofarda.com/a/rd-us-aircraft-carrier-arrives-in-middle-east/33899347.html",
+      "source": "radiofarda.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dc5d5533d4b0",
+      "title": "Revista presei internaționale , 16 noiembrie 2026",
+      "url": "https://www.ziuaveche.ro/revista-presei/revista-presei-internationale-16-noiembrie-2026-353537.html",
+      "source": "ziuaveche.ro",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2de895fc3883",
+      "title": "Ρωσία : Μαζική ουκρανική επίθεση με τουλάχιστον 1 . 300 drone , τα 600 εξαπολύθηκαν κατά της Μόσχας – Υλικές ζημιές στο Ροστόφ",
+      "url": "https://www.inewsgr.com/227/rosia-maziki-oukraniki-epithesi-me-toulachiston-1300-drone-ta-600-exapolythikan-kata-tis-moschas--ylikes-zimies-sto-rostof.htm",
+      "source": "inewsgr.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0ec81bb202eb",
+      "title": "Bp Rob Mutsaerts : Zaniedbanie jako droga do utraty życia wiecznego",
+      "url": "https://pch24.pl/wiadomosci/bp-rob-mutsaerts-zaniedbanie-jako-droga-do-utraty-zycia-wiecznego,742902",
+      "source": "pch24.pl",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8282932701f2",
+      "title": "Business confidence says nothing about small business survival",
+      "url": "https://it-online.co.za/2026/11/16/business-confidence-says-nothing-about-small-business-survival/",
+      "source": "it-online.co.za",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ba711cdcabe3",
+      "title": "शेयर बाजार में लौटी तेजी , Sensex 414 अंक उछला ; रुपया भी छह पैसे मजबूत",
+      "url": "https://www.dainiktribuneonline.com/news/nation/the-stock-market-returned-to-a-rally-with-the-sensex-rising-414-points-the-rupee-also-strengthened-by-six-paise/",
+      "source": "dainiktribuneonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8718a1432d8e",
+      "title": "BOJ Takata calls for early rate hikes to curb inflation risks",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/bojs-takata-calls-for-early-rate-hikes-to-curb-inflation-risks/articleshow/135876217.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9f496447bc21",
+      "title": "全球电视最新排名出炉 ！ 三星稳居第一 国产双雄TCL 、 海信紧追",
+      "url": "https://finance.sina.com.cn/tech/discovery/2026-11-16/doc-iniyxirc2426927.shtml",
+      "source": "finance.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b616a676cab2",
+      "title": "SK스퀘어 , 3Q 영업익 7 . 9조  사상 최대 ... 하이닉스 지분법 이익 반",
+      "url": "https://www.edaily.co.kr/News/Read?newsId=03047126645646376&mediaCodeNo=257",
+      "source": "edaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-98b5b8414d02",
+      "title": "Bitcoin 4 ayın dibinden döndü ! Haftalık küş yüzde 12  yi aştı",
+      "url": "https://www.turkiyegazetesi.com.tr/tasarruf-ortagim/bitcoin-4-ayin-dibinden-dondu-haftalik-cokus-yuzde-12yi-asti-1829593",
+      "source": "turkiyegazetesi.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7abf1e9f67a7",
+      "title": "Megaspeed International : Megaspeed Investigates Alice Huang Exit Amid Nvidia Scandal , ETTelecom",
+      "url": "https://telecom.economictimes.indiatimes.com/news/devices/megaspeed-says-alice-huang-left-in-2025-as-company-conducts-internal-probe-over-nvidia-fallout/135871334",
+      "source": "telecom.economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0cce21d7a05e",
+      "title": "Jensen Huang , Nvidia CEO koltuğuna geri dönmek için harekete geçt",
+      "url": "https://www.donanimhaber.com/jensen-huang-nvidia-ceo-koltuguna-geri-donmek-icin-harekete-gect--212951",
+      "source": "donanimhaber.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d6514bec24f4",
+      "title": "Dünyanın teknoloji devinde servetler buhar oldu ! 3 milyarder birden listeden düştü",
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/dunyanin-teknoloji-devinde-servetler-buhar-oldu-3-milyarder-birden-listeden-dustu-1829604",
+      "source": "turkiyegazetesi.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6c9f48a92c60",
+      "title": "Spy scandal and midterm defeat heat up Trump Asia visit",
+      "url": "https://lufkindailynews.com/news_reuters/top_news/spy-scandal-and-midterm-defeat-heat-up-trumps-asia-visit/article_4fc2dfef-ce2f-5565-b01a-d09245e3c16b.html",
+      "source": "lufkindailynews.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ff795cb32351",
+      "title": "SK Hynix Invests $1 Billion to Boost Semiconductor Supply Chain Amid AI Chip Competition , ETTelecom",
+      "url": "https://telecom.economictimes.indiatimes.com/news/devices/sk-hynix-to-spend-1-billion-over-five-years-to-support-chip-suppliers/135871362",
+      "source": "telecom.economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-779628b2386e",
+      "title": "המניה שהפכה למקלט כשהשווקים רועדים",
+      "url": "https://www.globes.co.il/news/article.aspx?did=1001563476",
+      "source": "globes.co.il",
+      "source_type": "news",
+      "published_at": "2026-11-16T08:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -222,23 +613,6 @@
       "title": "Je ne suis pas Batman pour tuer trois mecs  : à Aix - en - Provence , le verdict du triple narchomicide qui a coût la vie au frère dAmine Kessaci , rendu ce lundi",
       "url": "https://www.nicematin.com/societe/justice/je-ne-suis-pas-batman-pour-tuer-trois-mecs-a-aix-en-provence-le-verdict-du-triple-narchomicide-qui-a-coute-la-vie-au-frere-d-amine-kessaci-rendu-ce-lundi-10762173",
       "source": "nicematin.com",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6187db9ce911",
-      "title": "U . S . Trade negotiators still insisting on market access in Indian Agri - Foods sector",
-      "url": "https://thenorthlines.com/u-s-trade-negotiators-still-insisting-on-market-access-in-indian-agri-foods-sector/",
-      "source": "thenorthlines.com",
       "source_type": "news",
       "published_at": "2026-11-16T08:15:00Z",
       "categories": [
@@ -379,346 +753,6 @@
       "published_at": "2026-11-16T08:15:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f2a00d5da675",
-      "title": "南臺科大勇奪國科會 「 智慧雨林 」 6大案獲2128萬元補助 推動技術落地與跨域人才",
-      "url": "https://n.yam.com/Article/20261116641631",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bfee5d9cbb21",
-      "title": "تعافي صادرات الشرق الأوسط يضغط على أسعار النفط | اقتصاد",
-      "url": "https://www.ammonnews.net/article/1045334",
-      "source": "ammonnews.net",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-866bb681de7a",
-      "title": "Estanflación",
-      "url": "https://www.perfil.com/columnistas/estanflacion-afaJv5z2FkDq",
-      "source": "perfil.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d9d174a3c23a",
-      "title": "Study hard , get a career , get ahead ? It not what it used to be",
-      "url": "https://www.omanobserver.om/article/1199695/world/asia/study-hard-get-a-career-get-ahead-its-not-what-it-used-to-be",
-      "source": "omanobserver.om",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-44ca1a0c79e6",
-      "title": "Las horas más oscuras",
-      "url": "https://www.perfil.com/columnistas/las-horas-mas-oscuras-aDFhL4p4Ze8a",
-      "source": "perfil.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fa691e0c0059",
-      "title": "每经热评 | BLG捧杯点燃热度 ， 电竞经济不能只靠冠军",
-      "url": "https://www.nbd.com.cn/articles/2026-11-15/4647975.html",
-      "source": "nbd.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1f90083a1df1",
-      "title": "From bicycle parts to satellites : Inside Sunil Mittal 50 - year journey",
-      "url": "https://www.business-standard.com/companies/people/from-bicycle-parts-to-satellites-inside-sunil-mittal-s-50-year-journey-126111500180_1.html",
-      "source": "business-standard.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9ebfa8e8791e",
-      "title": "The world is facing a new credit crunch",
-      "url": "https://www.aol.com/articles/world-facing-credit-crunch-060000000.html",
-      "source": "aol.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-038b1b65625b",
-      "title": "Iran đánh giá ra sao việc Mỹ gạt ông JD Vance tham gia đàm phán ?",
-      "url": "https://baomoi.com/iran-danh-gia-ra-sao-viec-my-gat-ong-jd-vance-tham-gia-dam-phan-c56517262.epi",
-      "source": "baomoi.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-db1c4bdffb73",
-      "title": "विश्व सम्बन्धका आयाम",
-      "url": "https://www.gorkhapatraonline.com/news/229105",
-      "source": "gorkhapatraonline.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-054ef59f904f",
-      "title": "Diese Schweizer Stadt ist die neue Europäische Weihnachtshauptstadt",
-      "url": "https://www.gmx.at/magazine/reise/schweizer-stadt-europaeische-weihnachtshauptstadt-42943032",
-      "source": "gmx.at",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6ba1c58498a0",
-      "title": "Assinatura do Acordo Mercosul - União Europeia é Prioridade para o Governo , Afirma Alckmin",
-      "url": "https://www.investimentosenoticias.com.br/noticias/politica/governo-brasileiro-espera-assinatura-rapida-do-acordo-mercosul-uniao-europeia-afirma-alckmin/",
-      "source": "investimentosenoticias.com.br",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eac5af5a0381",
-      "title": "Trump  ın İran planında Cumhurbaşkanı Erdoğan detayı ! Mossad harekete geçti",
-      "url": "https://www.bursadabugun.com/haber/trump-in-iran-planinda-cumhurbaskani-erdogan-detayi-mossad-harekete-gecti-1963308.html",
-      "source": "bursadabugun.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9aedd8d768f8",
-      "title": "Autarchie e democrazie a confronto nellepoca dei missili e dei droni",
-      "url": "https://www.blitzquotidiano.it/politica/autarchie-e-democrazie-a-confronto-nellepoca-dei-missili-e-dei-droni-3810417/",
-      "source": "blitzquotidiano.it",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4dda5ed489f0",
-      "title": "日本拟大幅增加未来五年防卫费 扩军将把日本带向何方 ？ - 聚焦",
-      "url": "https://www.fjsen.com/2026-11/15/content_32283662.htm",
-      "source": "fjsen.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1a3f3cbab7eb",
-      "title": "Repeal budget tax changes now to avoid housing supply crash : Coalition",
-      "url": "https://www.brisbanetimes.com.au/politics/federal/repeal-budget-tax-changes-now-to-avoid-housing-supply-crash-coalition-20261115-p61e8c.html",
-      "source": "brisbanetimes.com.au",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-14026cf919af",
-      "title": "Buôn bán phân bón không đảm bảo chất lượng Công ty Sao Khuê bị xử phạt",
-      "url": "https://giadinh.suckhoedoisong.vn/cong-ty-sao-khue-bi-xu-phat-30-trieu-dong-vi-ban-phan-bon-khong-dam-bao-chat-luong-172261115103034318.htm",
-      "source": "giadinh.suckhoedoisong.vn",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5f0152375953",
-      "title": "तेस्रो पक्षले किनेको सम्पत्तिबारे गिरिबन्धु टिस्टेटमा यस्तो छ सर्वोच्चको नजिर ! | Nepal first 24 - hour updated news portal",
-      "url": "https://www.ratopati.com/story/605309/this-is-the-supreme-courts-precedent-in-the-giribandhu-estate-regarding-property-purchased-by-a-third-party",
-      "source": "ratopati.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f3d3c8ffd8de",
-      "title": "Global economy to grow 2 . 8 % in 2027 , buoyed by lower oil prices and AI investments : Goldman Sachs",
-      "url": "https://www.thehindubusinessline.com/economy/global-economy-to-grow-28-in-2027-buoyed-by-lower-oil-prices-and-ai-investments-goldman-sachs/article71704111.ece",
-      "source": "thehindubusinessline.com",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-419d4274cc5d",
-      "title": "Το ( Μεσογειακό ) τραπέζι της ζωής",
-      "url": "https://www.protagon.gr/themata/gia-16-11-to-mesogeiako-trapezi-tis-zwis-44343471674",
-      "source": "protagon.gr",
-      "source_type": "news",
-      "published_at": "2026-11-15T07:45:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
