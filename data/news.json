@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-18T04:28:52Z",
+  "generated_at": "2026-11-18T14:08:26Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 2
+      "count": 17
     },
     {
       "source": "한국은행 ECOS",
@@ -116,12 +116,12 @@
       }
     },
     {
-      "id": "market-34f4ca6aafff",
+      "id": "market-03d59f3c23f3",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-14T15:00:00Z",
+      "published_at": "2026-11-15T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -136,7 +136,7 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261115",
+        "date": "20261116",
         "alert_threshold": 0.25
       }
     },
@@ -192,6 +192,176 @@
       "published_at": "2026-11-18T01:15:00Z",
       "categories": [
         "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b0e1f9bc7f42",
+      "title": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
+      "url": "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
+      "source": "kwit.org",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f761d8b7e01c",
+      "title": "Wiceszef Pentagonu krytykuje ukraińskie ataki na Rosję .  Wzmocniły wolę Kremla do eskalacji",
+      "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33137832,pentagon-krytykuje-ukrainskie-ataki-na-rosje-szef-niemieckiego.html",
+      "source": "wiadomosci.gazeta.pl",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-62c5b12006ce",
+      "title": "Забайкалка выплатила 2 млн рублей , чтобы вернуть второго ребенка домой | ДВ - РОСС новости Дальнего Востока",
+      "url": "http://trud-ost.ru/?p=987216",
+      "source": "trud-ost.ru",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8153b2577e4d",
+      "title": "Россия нарастила экспорт сырой нефти до максимума с конца июля",
+      "url": "https://sia.ru/?section=484&action=show_news&id=16834876",
+      "source": "sia.ru",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f13fbd4eae28",
+      "title": "【 財經100秒 】 全球石油市場恐供過於求 國際油價再下挫 | 華爾街資金流 | 資料中心 | AI自主攻擊",
+      "url": "https://www.ntdtv.com/b5/2026/11/17/a104151444.html",
+      "source": "ntdtv.com",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cf1f6e2562fd",
+      "title": "Bảng giá xăng dầu hôm nay 18 / 11 : E5 giảm 6 . 628 đồng / lít trong 1 tháng , ngày mai 19 / 11 tăng giảm trái",
+      "url": "https://www.techz.vn/187-1126-5-bang-gia-xang-dau-hom-nay-18-11-e5-giam-6628-dong-lit-trong-1-thang-ngay-mai-19-11-tang-giam-trai-chieu-ylt717551.html",
+      "source": "techz.vn",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fb445502c228",
+      "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
+      "url": "https://www.thisiswiltshire.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
+      "source": "thisiswiltshire.co.uk",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b02379da7022",
+      "title": "Не просто карманные деньги : как официальная подработка формирует будущую пенсию",
+      "url": "https://www.pravda.ru/news/economics/2445045-pension-rights-for-teenagers-russia/",
+      "source": "pravda.ru",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b0adea9a5e62",
+      "title": "Фондовый рынок ждёт новостей из Китая",
+      "url": "https://sia.ru/?section=484&action=show_news&id=16834875",
+      "source": "sia.ru",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-205314fcc8aa",
+      "title": "标普 、 纳指四连跌 ， 费城半导体指数尾盘强势翻红",
+      "url": "https://www.163.com/dy/article/LC0MDI2Q0514R9P4.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-18T01:15:00Z",
+      "categories": [
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -583,176 +753,6 @@
       "published_at": "2026-11-16T08:15:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-779628b2386e",
-      "title": "המניה שהפכה למקלט כשהשווקים רועדים",
-      "url": "https://www.globes.co.il/news/article.aspx?did=1001563476",
-      "source": "globes.co.il",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fbbbda94bc26",
-      "title": "ترامب والسنتان الأخيرتان : إعادة ترتيب الإدارة وحسم الملفات المفتوحة | مقالات مختارة",
-      "url": "https://www.ammonnews.net/article/1045353",
-      "source": "ammonnews.net",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2d491813d297",
-      "title": "駐ロシア大使交代へ 後任は宇山秀樹 ・ 元欧州局長で調整",
-      "url": "https://mainichi.jp/articles/20261116/k00/00m/010/112000c",
-      "source": "mainichi.jp",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7492d5b54bb1",
-      "title": "Je ne suis pas Batman pour tuer trois mecs  : à Aix - en - Provence , le verdict du triple narchomicide qui a coût la vie au frère dAmine Kessaci , rendu ce lundi",
-      "url": "https://www.nicematin.com/societe/justice/je-ne-suis-pas-batman-pour-tuer-trois-mecs-a-aix-en-provence-le-verdict-du-triple-narchomicide-qui-a-coute-la-vie-au-frere-d-amine-kessaci-rendu-ce-lundi-10762173",
-      "source": "nicematin.com",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1947096905bf",
-      "title": "Triple assassinat à Marseille  : L  épilogue dun procès hors normes",
-      "url": "https://www.20minutes.fr/justice/4263157-20261116-triple-assassinat-marseille-epilogue-proces-hors-normes",
-      "source": "20minutes.fr",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-25739b88985e",
-      "title": "Bajeti ya Ujerumani ya 2027 : Euro bilioni 561",
-      "url": "https://www.dw.com/sw/bajeti-ya-ujerumani-ya-2027-euro-bilioni-561-huku-gharama-za-ulinzi-na-pensheni-zikiongezeka/a-79950341",
-      "source": "dw.com",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0bac8709455d",
-      "title": "Kwa nini ukuaji wa uchumi wa Ujerumani hautoshi ?",
-      "url": "https://www.dw.com/sw/ukuaji-wa-uchumi-wa-ujerumani-warejea-huku-gharama-za-pensheni-na-mzigo-wa-deni-vikiongezeka/a-79953691",
-      "source": "dw.com",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e9cbb3f0307f",
-      "title": "这个低迷了四年的赛道 ， 正在被大手笔扫货",
-      "url": "https://finance.sina.com.cn/tech/roll/2026-11-16/doc-iniyxirf6002162.shtml",
-      "source": "finance.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-088202912d7b",
-      "title": "輝達還會當AI新創的金主嗎 ？ 黃仁勳離任 、 財務長暫代 ， 瑞銀估市場資金恐減少500億美元以上 | 中央社 | 新聞",
-      "url": "https://www.storm.mg/article/11181918",
-      "source": "storm.mg",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6d36ed474292",
-      "title": "Tramp , Putin i Si : Šta bi istorijski sastanak mogao da znači za svet",
-      "url": "https://www.blic.rs/bbc/tramp-putin-i-si-sta-bi-istorijski-sastanak-mogao-da-znaci-za-svet/x783xc1",
-      "source": "blic.rs",
-      "source_type": "news",
-      "published_at": "2026-11-16T08:15:00Z",
-      "categories": [
-        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
