@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-19T13:21:18Z",
+  "generated_at": "2026-11-19T22:12:39Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 2
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -82,6 +81,32 @@
       "change_condition": null
     },
     {
+      "id": "market-286cea5f5585",
+      "title": "미국 10년물 국채금리 5.04% (직전 대비 -0.03%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-11-19T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 5.04,
+        "previous": 5.07,
+        "change": -0.03,
+        "unit": "%",
+        "date": "2026-11-19",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
+    },
+    {
       "id": "market-71ea7828f8c2",
       "title": "원/달러 환율(매매기준율) 1331.1원 (직전 대비 -7.7원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
@@ -104,32 +129,6 @@
         "unit": "원",
         "date": "20261119",
         "alert_threshold": 15.0
-      }
-    },
-    {
-      "id": "market-72d1faee2c4d",
-      "title": "미국 10년물 국채금리 5.07% (직전 대비 -0.03%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-11-18T00:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.07,
-        "previous": 5.1,
-        "change": -0.03,
-        "unit": "%",
-        "date": "2026-11-18",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
       }
     },
     {
@@ -184,6 +183,60 @@
       }
     },
     {
+      "id": "news-5cf1c4dd0235",
+      "title": "No going back after Iran War energy shock , IEA says",
+      "url": "https://www.gulfcoastnewsnow.com/article/iran-war-energy-shock-long-term-impact-iea/74479995",
+      "source": "gulfcoastnewsnow.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6a137092086a",
+      "title": "There is no going back  to the way it was before  the Iran war energy shock , IEA says",
+      "url": "https://www.ksat.com/business/2026/11/19/there-is-no-going-back-to-the-way-it-was-before-the-iran-wars-energy-shock-iea-says/",
+      "source": "ksat.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-40fb5f318373",
+      "title": "Denmark ratifies Trump deal over Greenland , hoping to end conflict",
+      "url": "https://tribune.com.pk/story/2641239/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict",
+      "source": "tribune.com.pk",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-381e1d4f1269",
       "title": "안전선호 심리에도 네고 물량이 방어⋯  1330원대 중후반 등락  [ 환율전망 ]",
       "url": "https://www.etoday.co.kr/news/view/2649542",
@@ -195,6 +248,176 @@
         "fx"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ce3dbf56d43a",
+      "title": "Bangladesh police raid home of star actress linked to former PM Hasina party",
+      "url": "https://www.independent.co.uk/asia/south-asia/sheikh-hasina-mohammad-yunus-bangladesh-protests-b3087672.html",
+      "source": "independent.co.uk",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-255aac2d88b1",
+      "title": "Exclusive - Canada BMO returning to US oil and gas investment banking , sources say",
+      "url": "https://www.aol.com/articles/exclusive-canadas-bmo-returning-us-185124000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d3dc34414359",
+      "title": "Оперативное окружение российских войск на юге –: какой план готовит Украина , объяснил Свитан",
+      "url": "https://24tv.ua/ru/operativnoe-okruzhenie-rossijskih-vojsk-juge-kakoj-plan-gotovit_n3184021",
+      "source": "24tv.ua",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ce20a5c3aaa1",
+      "title": "Oil prices inch up as tanker disruptions offset surplus supply outlook",
+      "url": "https://www.aol.com/articles/oil-prices-steady-supply-surplus-024044000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-505175640c2f",
+      "title": "How Texas Republican redistricting bet on Latino voters came up short",
+      "url": "https://www.ksat.com/news/texas/2026/11/19/how-texas-republicans-redistricting-bet-on-latino-voters-came-up-short/",
+      "source": "ksat.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aa0edd72a06e",
+      "title": "Цены на АЗС продолжают снижаться : эксперт дал актуальный прогноз на конец осени",
+      "url": "https://www.unian.net/economics/energetics/ceny-na-azs-prodolzhayut-snizhatsya-ekspert-dal-aktualnyy-prognoz-na-konec-oseni-13565310.html",
+      "source": "unian.net",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8f080e2fae6e",
+      "title": "Gift Ideas You Should Avoid For Your Idaho Holiday Work Party",
+      "url": "https://1035kissfmboise.com/ixp/94/p/bad-office-holiday-party-gifts/",
+      "source": "1035kissfmboise.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-90ac0e6a00ad",
+      "title": "Які банани корисніші : зелені чи жовті – пояснення дієтологів",
+      "url": "https://www.unian.ua/curiosities/yaki-banani-korisnishi-zeleni-chi-zhovti-poyasnennya-diyetologiv-13564941.html",
+      "source": "unian.ua",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bed77431ecdd",
+      "title": "APEC - ing Order",
+      "url": "http://www.zerohedge.com/geopolitical/apec-ing-order",
+      "source": "zerohedge.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a14cdb2923bf",
+      "title": "Частина Луцька та кілька прилеглих сіл тимчасово залишаться без водопостачання",
+      "url": "https://www.volynnews.com/news/all/chastyna-lutska-ta-kilka-prylehlykh-sil-tymchasovo-zalyshatsia-bez-vodop/",
+      "source": "volynnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-19T19:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -533,227 +756,6 @@
       "published_at": "2026-11-18T01:15:00Z",
       "categories": [
         "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1db86f8edec8",
-      "title": "Nvidia promises that revenue will keep soaring for now",
-      "url": "https://techcrunch.com/2026/11/17/nvidia-promises-that-revenue-will-keep-soaring-for-now/",
-      "source": "techcrunch.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7b6a1fd79dd1",
-      "title": "Nvidia chair says the board will not rehire Huang as CEO",
-      "url": "https://www.asiaone.com/money/nvidia-chair-says-board-will-not-rehire-huang-ceo",
-      "source": "asiaone.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c0fde6f9e72a",
-      "title": "美당국 , 지난해 앨리스 황 직접 조사했다 … 늑장 대응  도마",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=02368166645647032&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6ce18b7f24e0",
-      "title": "即将打破2007年纪录 ！ 5 % 的10年期美债已  高烧  27天 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611183933578756.html",
-      "source": "finance.eastmoney.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2a5b7a2031fd",
-      "title": "دراسة كورية تؤكد أن الذكاء الاصطناعي يُقلل وقت العمل بـ3 . 7 ساعة أسبوعيا",
-      "url": "https://world.kbs.co.kr/service/news_view.htm?lang=a&Seq_Code=88280",
-      "source": "world.kbs.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b0e1f9bc7f42",
-      "title": "Iran launches a third round of strikes on Bahrain , host of U . S . Navy 5th Fleet",
-      "url": "https://www.kwit.org/2026-11-17/iran-launches-a-third-round-of-strikes-on-bahrain-host-of-u-s-navys-5th-fleet",
-      "source": "kwit.org",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f761d8b7e01c",
-      "title": "Wiceszef Pentagonu krytykuje ukraińskie ataki na Rosję .  Wzmocniły wolę Kremla do eskalacji",
-      "url": "https://wiadomosci.gazeta.pl/polityka/7,198013,33137832,pentagon-krytykuje-ukrainskie-ataki-na-rosje-szef-niemieckiego.html",
-      "source": "wiadomosci.gazeta.pl",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-62c5b12006ce",
-      "title": "Забайкалка выплатила 2 млн рублей , чтобы вернуть второго ребенка домой | ДВ - РОСС новости Дальнего Востока",
-      "url": "http://trud-ost.ru/?p=987216",
-      "source": "trud-ost.ru",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8153b2577e4d",
-      "title": "Россия нарастила экспорт сырой нефти до максимума с конца июля",
-      "url": "https://sia.ru/?section=484&action=show_news&id=16834876",
-      "source": "sia.ru",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f13fbd4eae28",
-      "title": "【 財經100秒 】 全球石油市場恐供過於求 國際油價再下挫 | 華爾街資金流 | 資料中心 | AI自主攻擊",
-      "url": "https://www.ntdtv.com/b5/2026/11/17/a104151444.html",
-      "source": "ntdtv.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cf1f6e2562fd",
-      "title": "Bảng giá xăng dầu hôm nay 18 / 11 : E5 giảm 6 . 628 đồng / lít trong 1 tháng , ngày mai 19 / 11 tăng giảm trái",
-      "url": "https://www.techz.vn/187-1126-5-bang-gia-xang-dau-hom-nay-18-11-e5-giam-6628-dong-lit-trong-1-thang-ngay-mai-19-11-tang-giam-trai-chieu-ylt717551.html",
-      "source": "techz.vn",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fb445502c228",
-      "title": "Two - month lull ends with another Iranian strike in Bahrain , and US retaliation",
-      "url": "https://www.thisiswiltshire.co.uk/news/national/26736144.two-month-lull-ends-another-iranian-strike-bahrain-us-retaliation/",
-      "source": "thisiswiltshire.co.uk",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b02379da7022",
-      "title": "Не просто карманные деньги : как официальная подработка формирует будущую пенсию",
-      "url": "https://www.pravda.ru/news/economics/2445045-pension-rights-for-teenagers-russia/",
-      "source": "pravda.ru",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
