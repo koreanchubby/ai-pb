@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T03:27:03Z",
+  "generated_at": "2026-11-20T13:01:21Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -133,6 +133,31 @@
       }
     },
     {
+      "id": "market-d38fa9d517a1",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-17T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261118",
+        "alert_threshold": 0.25
+      }
+    },
+    {
       "id": "market-cccd008afd13",
       "title": "WTI 원유 가격 89.53달러 (직전 대비 +0.29달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
@@ -159,29 +184,22 @@
       }
     },
     {
-      "id": "market-2a91e98ea70c",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-16T15:00:00Z",
+      "id": "news-0d841aaf2aa4",
+      "title": "Trillion - Dollar Debut # 1887",
+      "url": "https://geeknewscentral.com/2026/11/19/trillion-dollar-debut-1887/",
+      "source": "geeknewscentral.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
       "categories": [
-        "rates"
+        "geopolitics",
+        "fx"
       ],
-      "importance": 5,
+      "importance": 4,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261117",
-        "alert_threshold": 0.25
-      }
+      "change_condition": null
     },
     {
       "id": "news-5cf1c4dd0235",
@@ -249,6 +267,244 @@
         "fx"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aad4e026102b",
+      "title": "川普参加APEC峰会公开离间中俄 | www . wenxuecity . com",
+      "url": "https://www.wenxuecity.com/blog/202611/71920/15502.html",
+      "source": "wenxuecity.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d5d17735ec82",
+      "title": "美出口管制扩及海外AI资料中心 如何影响各国 ？",
+      "url": "https://www.dw.com/zh/%E9%BB%84%E4%BB%81%E5%8B%8B%E5%8D%B7%E5%9B%BD%E5%AE%89%E9%A3%8E%E6%B3%A2-%E5%A6%82%E4%BD%95%E5%BD%B1%E5%93%8D%E7%BE%8E%E5%AF%B9%E4%B8%AD%E5%87%BA%E5%8F%A3%E7%AE%A1%E5%88%B6/a-79998608",
+      "source": "dw.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-28dad3f44714",
+      "title": "53 Years Later , The Greatest Closing Line In Sci - Fi History Is Still The Best Book Quote Of The 1970s",
+      "url": "https://www.polygon.com/best-scifi-book-closing-line-roadside-picnic/",
+      "source": "polygon.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c587b6e650b1",
+      "title": "Putins satvēra Trampu aiz elkoņa , bet pēc brīža pats nonāca neveiklā situācijā : ko atklāja pasaules līderu ķermeņa valoda ?",
+      "url": "https://www.la.lv/putins-satvera-trampu-aiz-elkona-bet-pec-briza-pats-nonaca-neveikla-situacija-ko-atklaja-pasaules-lideru-kermena-valoda",
+      "source": "la.lv",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0880e700fd9a",
+      "title": "El Pentágono le presta u$s 150 millones a Rocket Lab para acelerar el cohete Neutron",
+      "url": "https://mercado.com.ar/economia-del-espacio/el-pentagono-le-presta-us-150-millones-a-rocket-lab-para-acelerar-el-cohete-neutron",
+      "source": "mercado.com.ar",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fc1f38027f23",
+      "title": "Vietnamese scholar highlights President Ilham Aliyev role in strengthening Azerbaijan - Vietnam ties",
+      "url": "https://www.trend.az/azerbaijan/4248635.html",
+      "source": "trend.az",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e6f81bef4d80",
+      "title": "Japan Secures Access to Indian Missile Ranges in Major Indo - Pacific Defence Push",
+      "url": "https://slguardian.org/japan-secures-access-to-indian-missile-ranges-in-major-indo-pacific-defence-push/",
+      "source": "slguardian.org",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-958e1cd40174",
+      "title": "Xi , Putin , and Trump sign joint declaration on security and nuclear risk",
+      "url": "https://www.budapesttimes.hu/world/xi-putin-and-trump-sign-joint-declaration-on-security-and-nuclear-risk/",
+      "source": "budapesttimes.hu",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-da89f5aa8117",
+      "title": "秦声一曲敬先贤 大型秦腔现代剧 《 黄文中 》 首演侧记 _ 中华网",
+      "url": "https://hea.china.com/articles/20261120/202611201981581.html",
+      "source": "hea.china.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-18e722cc55fb",
+      "title": "沙特主权基金大楼遇袭 ， 胡塞逼近亚丁 ： 也门战局走向何方 ？",
+      "url": "https://www.163.com/dy/article/LC5UH6EO0514R9P4.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e8d093dc742e",
+      "title": "Zelenskyj dosiaľ nedostal pozvánku na summit G20 na Floride",
+      "url": "https://www.teraz.sk/zahranicie/zelenskyj-dosial-nedostal-pozvanku-na/1009065-clanok.html",
+      "source": "teraz.sk",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-36fe458daeab",
+      "title": "Dünyada KIZILELMA yankısı !  Türkiye tarihi günü selamladı",
+      "url": "https://www.turkiyegazetesi.com.tr/dunya/dunyada-kizilelma-yankisi-turkiye-tarihi-gunu-selamladi-1830511",
+      "source": "turkiyegazetesi.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6630c11d381f",
+      "title": "Thursday Final Word",
+      "url": "https://hotair.com/ed-morrissey/2026/11/19/thursdays-final-word-n3821167",
+      "source": "hotair.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e724b830b527",
+      "title": "Xi lauds PM for  full turnaround  in China relationship",
+      "url": "https://www.juneesoutherncross.com.au/story/9395015/xi-lauds-pm-for-full-turnaround-in-china-relationship/",
+      "source": "juneesoutherncross.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -502,261 +758,6 @@
       "published_at": "2026-11-18T17:30:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aafc4b5c1e18",
-      "title": "Bank chief says interest rates not  pre - set  amid further potential rise",
-      "url": "https://www.witneygazette.co.uk/news/national/26742400.bank-chief-says-interest-rates-not-pre-set-amid-potential-rise/",
-      "source": "witneygazette.co.uk",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6c24d2fb57e0",
-      "title": "Predoiu critică fostul Guvern pentru lipsa investițiilor americane",
-      "url": "https://www.stiripesurse.ro/catalin-predoiu-critica-fostul-guvern-pentru-lipsa-investitiilor-americane-parteneriatului-strategic-cu-sua-nu-a-constituit-o-prioritate_3937889",
-      "source": "stiripesurse.ro",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1c1ae6b7d55a",
-      "title": "How the US power rivalry with Russia and China is turning outer space into the next battlefront",
-      "url": "http://www.advocateanddemocrat.com/news/national/article_a0b7ad52-4030-5f3f-9ee9-164cf18a9650.html",
-      "source": "advocateanddemocrat.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9b788bfd7727",
-      "title": "〈 專文 〉 普丁克里米亞大橋遭重創 ！ 烏克蘭精準狙擊戳破俄帝國神話",
-      "url": "https://n.yam.com/Article/20261119492061",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8888f7158388",
-      "title": "RIGI : fuertes críticas de los proveedores locales al Decreto 1366 que cambia reglas de competencia",
-      "url": "https://www.ambito.com/energia/rigi-fuertes-criticas-los-proveedores-locales-al-decreto-1366-que-cambia-reglas-competencia-n6346629",
-      "source": "ambito.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0b1df9767b1a",
-      "title": "Xi e Putin a Shenzhen uniti per un messaggio a Trump : noi contro protezionismo e sanzioni",
-      "url": "https://askanews.it/2026/11/18/xi-e-putin-a-shenzhen-uniti-per-un-messaggio-a-trump-noi-contro-protezionismo-e-sanzioni/",
-      "source": "askanews.it",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-72b4b3e8f71d",
-      "title": "Συνάντηση γιγάντων : Τραμπ , Σι και Πούτιν στο ίδιο τραπέζι σε μια ιστορική συνάντηση",
-      "url": "https://www.e-radio.gr/post/337853/synantisi-gigantwn-tramp-si-kai-poytin-sto-idio-trapezi-se-mia-istoriki-synantisi",
-      "source": "e-radio.gr",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f10a8236c609",
-      "title": "Soros György legendás könyve 30 év után tér vissza magyarul - Mit tudott ő , amit más befektetők nem ?",
-      "url": "https://www.portfolio.hu/befektetes/20261118/soros-gyorgy-legendas-konyve-30-ev-utan-ter-vissza-magyarul-mit-tudott-o-amit-mas-befektetok-nem-877000",
-      "source": "portfolio.hu",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-95729510821e",
-      "title": "Landes  : lagenda de vos communes du 18 novembre 2026",
-      "url": "https://www.sudouest.fr/landes/landes-l-agenda-de-vos-communes-du-18-novembre-2026-31574969.php",
-      "source": "sudouest.fr",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-682dc51393cb",
-      "title": "TRT Genel Müdürü Sobacı , kamusal katkı dışı gelirlerin yüzde 154 arttığını açıkladı",
-      "url": "https://www.haberler.com/guncel/trt-genel-muduru-sobaci-kamusal-katki-disi-20440504-haberi/",
-      "source": "haberler.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a9851cb1f5fd",
-      "title": "Diesel : The fuel that affects everything",
-      "url": "https://hpr1.com/diesel-the-fuel-that-affects-everything/",
-      "source": "hpr1.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-52f2db396672",
-      "title": "Los dos récords que dejarán la minería y la energía este año",
-      "url": "https://www.lanacion.com.ar/economia/antes-eran-un-problema-para-el-banco-central-y-ahora-divisas-los-dos-records-que-dejaran-la-mineria-nid18112026/",
-      "source": "lanacion.com.ar",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b7b467c2aeb4",
-      "title": "Nvidia chairman says board does not intend to reinstate Jensen Huang",
-      "url": "https://www.ludlowadvertiser.co.uk/news/national/26738711.nvidia-chairman-says-board-not-intend-reinstate-jensen-huang/",
-      "source": "ludlowadvertiser.co.uk",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dd9c8a337d3d",
-      "title": "Michael Burry Dumps Alphabet Stake And Pivots Put Strategy While Doubling Down On Adobe ( NASDAQ : ADBE ) And MercadoLibre ( NASDAQ : MELI )",
-      "url": "https://www.foreignpolicyjournal.com/2026/11/17/michael-burry-dumps-alphabet-stake-and-pivots-put-strategy-while-doubling-down-on-adobe-nasdaq-adbe-and-mercadolibre-nasdaq-meli/",
-      "source": "foreignpolicyjournal.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-faa4b784b604",
-      "title": "What tech CEOs are saying about the saga around Jensen Huang exit from Nvidia",
-      "url": "https://www.mcall.com/2026/11/17/nvidia-tech-industry-reaction/",
-      "source": "mcall.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
