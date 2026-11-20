@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T13:01:21Z",
+  "generated_at": "2026-11-20T21:12:57Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 40
     },
     {
       "source": "한국은행 ECOS",
@@ -184,6 +184,24 @@
       }
     },
     {
+      "id": "news-7e72574e289e",
+      "title": "The Final Dollar Spike Before the Crack - Up Boom",
+      "url": "http://www.zerohedge.com/news/2026-11-19/final-dollar-spike-crack-boom",
+      "source": "zerohedge.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "rates",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-0d841aaf2aa4",
       "title": "Trillion - Dollar Debut # 1887",
       "url": "https://geeknewscentral.com/2026/11/19/trillion-dollar-debut-1887/",
@@ -193,6 +211,42 @@
       "categories": [
         "geopolitics",
         "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-67210bd9bc8f",
+      "title": "Dow drops below Pam Bondi threshold of 50 , 000 as Nvidia shares slide",
+      "url": "https://www.aol.com/articles/dow-drops-below-pam-bondi-043636000.html",
+      "source": "aol.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T05:30:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f855de9ef2d1",
+      "title": "하루 만에 5000선 와르르 … 코스피 3 % 대 급락 , 삼성전자 18만원대로",
+      "url": "https://www.ddaily.co.kr:443/page/view/2026112009255886986",
+      "source": "ddaily.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-20T02:30:00Z",
+      "categories": [
+        "fx",
+        "semis"
       ],
       "importance": 4,
       "facts": null,
@@ -267,6 +321,91 @@
         "fx"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cad81c07a1a1",
+      "title": "金價失守3600美元 分析料3500美元有支持｜METROHK . com . hk",
+      "url": "https://metrohk.com.hk/%E8%B2%A1%E7%B6%93/%E9%87%91%E5%83%B9%E5%A4%B1%E5%AE%883600%E7%BE%8E%E5%85%83-%E5%88%86%E6%9E%90%E6%96%993500%E7%BE%8E%E5%85%83%E6%9C%89%E6%94%AF%E6%8C%81-0b33c5",
+      "source": "metrohk.com.hk",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-43eff4d861ce",
+      "title": "ตลาดหุ้นเอเชียปิดเช้าร่วง นักลงทุนทุบขายหุ้นกลุ่มเทคฯ วิตกทิศทาง",
+      "url": "https://www.ryt9.com/s/iq/12858249",
+      "source": "ryt9.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8233b6a490c5",
+      "title": "ทองสปอต - ฟิวเจอร์ทรุดต่อเนื่อง เสี่ยงร่วง 9 % รอบสัปดาห์นี้",
+      "url": "https://www.ryt9.com/s/iq/12858258",
+      "source": "ryt9.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0890b3259c89",
+      "title": "全球第四国 出口额破兆美元 ！ | 财经",
+      "url": "https://www.orientaldaily.com.my/news/business/2026/11/20/864497",
+      "source": "orientaldaily.com.my",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fb5a7acd83d9",
+      "title": "HILITE : KGI หั่นเป้า SET ปี 70 มาที่ 1 , 711 จุด",
+      "url": "https://www.ryt9.com/s/iq/12858267",
+      "source": "ryt9.com",
+      "source_type": "news",
+      "published_at": "2026-11-20T06:45:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -512,14 +651,14 @@
       "change_condition": null
     },
     {
-      "id": "news-ce3dbf56d43a",
-      "title": "Bangladesh police raid home of star actress linked to former PM Hasina party",
-      "url": "https://www.independent.co.uk/asia/south-asia/sheikh-hasina-mohammad-yunus-bangladesh-protests-b3087672.html",
-      "source": "independent.co.uk",
+      "id": "news-8ea9322ac805",
+      "title": "Fedin sıkılaşma ve yapay zeka endişeleri küresel piyasalarda satış baskısı yarattı",
+      "url": "https://www.haberler.com/ekonomi/fed-in-sikilasma-ve-yapay-zeka-endiseleri-kuresel-20444703-haberi/",
+      "source": "haberler.com",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-20T06:30:00Z",
       "categories": [
-        "oil"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -529,14 +668,14 @@
       "change_condition": null
     },
     {
-      "id": "news-255aac2d88b1",
-      "title": "Exclusive - Canada BMO returning to US oil and gas investment banking , sources say",
-      "url": "https://www.aol.com/articles/exclusive-canadas-bmo-returning-us-185124000.html",
-      "source": "aol.com",
+      "id": "news-a0cab7cba7f6",
+      "title": "해법 못 찾는 강대국 외교 … 선전 APEC  빈손 회동  이어 마이애미 G20도 안갯속",
+      "url": "https://biz.chosun.com/international/international_general/2026/11/20/DOVPJEZH35FDHCIEDL6HDQQRFI/",
+      "source": "biz.chosun.com",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-20T06:15:00Z",
       "categories": [
-        "oil"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -546,14 +685,14 @@
       "change_condition": null
     },
     {
-      "id": "news-d3dc34414359",
-      "title": "Оперативное окружение российских войск на юге –: какой план готовит Украина , объяснил Свитан",
-      "url": "https://24tv.ua/ru/operativnoe-okruzhenie-rossijskih-vojsk-juge-kakoj-plan-gotovit_n3184021",
-      "source": "24tv.ua",
+      "id": "news-1e4b327ca01c",
+      "title": "Gram altın dibi gördü ! 6 bin liranın altına indi",
+      "url": "https://www.bursahakimiyet.com.tr/ekonomi/gram-altin-dibi-gordu-6-bin-liranin-altina-indi-1755626",
+      "source": "bursahakimiyet.com.tr",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-20T06:15:00Z",
       "categories": [
-        "oil"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -563,14 +702,14 @@
       "change_condition": null
     },
     {
-      "id": "news-ce20a5c3aaa1",
-      "title": "Oil prices inch up as tanker disruptions offset surplus supply outlook",
-      "url": "https://www.aol.com/articles/oil-prices-steady-supply-surplus-024044000.html",
-      "source": "aol.com",
+      "id": "news-feca7ae14c18",
+      "title": "Altın neden düşüyor ? 2025  ten bu yana en düşük seviyede ! Canlı altın fiyatları 20 Kasım 2026",
+      "url": "https://bigpara.hurriyet.com.tr/altin/haber/dolar-ve-fed-mesajlari-altini-vurdu-2025ten-bu-yana-en-dusuk-seviyede_ID102292367/",
+      "source": "bigpara.hurriyet.com.tr",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-20T06:15:00Z",
       "categories": [
-        "oil"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -580,14 +719,14 @@
       "change_condition": null
     },
     {
-      "id": "news-505175640c2f",
-      "title": "How Texas Republican redistricting bet on Latino voters came up short",
-      "url": "https://www.ksat.com/news/texas/2026/11/19/how-texas-republicans-redistricting-bet-on-latino-voters-came-up-short/",
-      "source": "ksat.com",
+      "id": "news-41ea0ea7a455",
+      "title": "Gold Faces Worst Weekly Decline Since March Amid Rate - Hike Speculations , ETRetail",
+      "url": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/jewellery/gold-set-for-worst-week-since-march-as-rate-hike-expectations-grow/136010603",
+      "source": "retail.economictimes.indiatimes.com",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-20T06:15:00Z",
       "categories": [
-        "oil"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -597,14 +736,14 @@
       "change_condition": null
     },
     {
-      "id": "news-aa0edd72a06e",
-      "title": "Цены на АЗС продолжают снижаться : эксперт дал актуальный прогноз на конец осени",
-      "url": "https://www.unian.net/economics/energetics/ceny-na-azs-prodolzhayut-snizhatsya-ekspert-dal-aktualnyy-prognoz-na-konec-oseni-13565310.html",
-      "source": "unian.net",
+      "id": "news-79c037eb3442",
+      "title": "MARCHÉS ÉMERGENTS - Taïwan sachemine vers sa pire semaine depuis 1990 , les marchés boursiers asiatiques tombent à leur plus bas niveau depuis avril - 20 / 11 / 2026 à 04 : 25",
+      "url": "https://www.boursorama.com/bourse/actualites/marches-emergents-taiwan-s-achemine-vers-sa-pire-semaine-depuis-1990-les-marches-boursiers-asiatiques-tombent-a-leur-plus-bas-niveau-depuis-avril-248642ecccf0a9ca632ad156eb81210e",
+      "source": "boursorama.com",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-20T06:15:00Z",
       "categories": [
-        "oil"
+        "fx"
       ],
       "importance": 3,
       "facts": null,
@@ -614,150 +753,14 @@
       "change_condition": null
     },
     {
-      "id": "news-8f080e2fae6e",
-      "title": "Gift Ideas You Should Avoid For Your Idaho Holiday Work Party",
-      "url": "https://1035kissfmboise.com/ixp/94/p/bad-office-holiday-party-gifts/",
-      "source": "1035kissfmboise.com",
+      "id": "news-71488db500e8",
+      "title": "الدولار قرب أعلى مستوى في 19 شهراً",
+      "url": "https://24.ae/article/971684/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%82%D8%B1%D8%A8-%D8%A3%D8%B9%D9%84%D9%89-%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D9%81%D9%8A-19-%D8%B4%D9%87%D8%B1%D8%A7%D9%8B",
+      "source": "24.ae",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-20T05:30:00Z",
       "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-90ac0e6a00ad",
-      "title": "Які банани корисніші : зелені чи жовті – пояснення дієтологів",
-      "url": "https://www.unian.ua/curiosities/yaki-banani-korisnishi-zeleni-chi-zhovti-poyasnennya-diyetologiv-13564941.html",
-      "source": "unian.ua",
-      "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bed77431ecdd",
-      "title": "APEC - ing Order",
-      "url": "http://www.zerohedge.com/geopolitical/apec-ing-order",
-      "source": "zerohedge.com",
-      "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a14cdb2923bf",
-      "title": "Частина Луцька та кілька прилеглих сіл тимчасово залишаться без водопостачання",
-      "url": "https://www.volynnews.com/news/all/chastyna-lutska-ta-kilka-prylehlykh-sil-tymchasovo-zalyshatsia-bez-vodop/",
-      "source": "volynnews.com",
-      "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6272627202f6",
-      "title": "AI stocks rally as Nvidia outlook calms demand fears",
-      "url": "https://www.mvariety.com/business/business_news/ai-stocks-rally-as-nvidia-outlook-calms-demand-fears/article_6c481692-4806-4da6-97aa-0586c00f1639.html",
-      "source": "mvariety.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-be32c431eae8",
-      "title": "Trump lauds defense alliance with Philippines ahead of China talks",
-      "url": "https://www.mvariety.com/news/regional/trump-lauds-defense-alliance-with-philippines-ahead-of-china-talks/article_d1a256d1-76c7-4a99-b622-6806f9b79734.html",
-      "source": "mvariety.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-eb2365dfcc9d",
-      "title": "The Economist : las proyecciones mundiales para 2027",
-      "url": "https://www.vanguardia.com/mundo/2026/11/18/the-economist-anticipa-un-2027-marcado-por-tensiones-internacionales-riesgos-para-la-ia-y-temperaturas-extremas/",
-      "source": "vanguardia.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f5429dcc8c56",
-      "title": "Tesla llega a la Argentina : cómo venderá sus autos y por qué desafía a los concesionarios tradicionales",
-      "url": "https://www.ambito.com/autos/tesla-llega-la-argentina-como-vendera-sus-y-que-desafia-los-concesionarios-tradicionales-n6346632",
-      "source": "ambito.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-70820ecd48f3",
-      "title": "Microsoft desafía a OpenAI : negocia 500 millones con China y desata la polémica",
-      "url": "https://www.negocios.com/tecnologia/microsoft-desafia-openai-negocia-500-millones-china-desata-polemica/20261118172013498304.html",
-      "source": "negocios.com",
-      "source_type": "news",
-      "published_at": "2026-11-18T17:30:00Z",
-      "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
