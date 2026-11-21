@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-20T21:12:57Z",
+  "generated_at": "2026-11-21T02:25:35Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 40
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -184,6 +184,24 @@
       }
     },
     {
+      "id": "news-60de00ed9007",
+      "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
+      "url": "https://www.clickorlando.com/business/2026/11/20/treasury-secretary-says-no-further-restrictions-are-needed-for-nvidia-chip-exports-to-china/",
+      "source": "clickorlando.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-7e72574e289e",
       "title": "The Final Dollar Spike Before the Crack - Up Boom",
       "url": "http://www.zerohedge.com/news/2026-11-19/final-dollar-spike-crack-boom",
@@ -310,17 +328,169 @@
       "change_condition": null
     },
     {
-      "id": "news-381e1d4f1269",
-      "title": "안전선호 심리에도 네고 물량이 방어⋯  1330원대 중후반 등락  [ 환율전망 ]",
-      "url": "https://www.etoday.co.kr/news/view/2649542",
-      "source": "etoday.co.kr",
+      "id": "news-c897dab1611a",
+      "title": "Bessent : No added restrictions needed for Nvidia exports to China",
+      "url": "https://www.wokv.com/news/business/treasury-secretary/TRQRTZSNFE3OJM6X4KLSGWXTXE/",
+      "source": "wokv.com",
       "source_type": "news",
-      "published_at": "2026-11-18T01:15:00Z",
+      "published_at": "2026-11-21T00:30:00Z",
       "categories": [
-        "semis",
-        "fx"
+        "semis"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9bc994892898",
+      "title": "Texas Tech Wins Crucial $19 . 1M Grant Amid Shocking NVIDIA Scandal",
+      "url": "https://1063thebuzz.com/ixp/192/p/texas-tech-19-million-grant/",
+      "source": "1063thebuzz.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a3f4c58ddbd6",
+      "title": "AI sell - off batters Wall Street ; S & P 500 enters correction , Nasdaq turns negative for year",
+      "url": "https://timesofindia.indiatimes.com/business/international-business/ai-sell-off-batters-wall-street-sp-500-enters-correction-nasdaq-turns-negative-for-year/articleshow/136041935.cms",
+      "source": "timesofindia.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-55199c134f1c",
+      "title": "Dow Jones plunges 950 points , Nasdaq loses more than 5 percent",
+      "url": "http://www.sandiegosun.com/news/279446207/dow-jones-plunges-950-points-nasdaq-loses-more-than-5-percent",
+      "source": "sandiegosun.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-996798e7e160",
+      "title": "外資狂倒韓股逾25兆韓元 轉頭湧入南韓公債7 . 4兆",
+      "url": "https://n.yam.com/Article/20261121896196",
+      "source": "n.yam.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3ddff8bdd499",
+      "title": "S & P 500 sinks 3 . 7 % and the Nasdaq composite goes negative for the year",
+      "url": "https://www.wuwf.org/2026-11-20/s-p-500-sinks-3-7-and-the-nasdaq-composite-goes-negative-for-the-year",
+      "source": "wuwf.org",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-97339a2fe8f5",
+      "title": "Prediction : Nvidia Stock Will Do This in the 6 Months After a New CEO Takes Over , According to History",
+      "url": "https://www.fool.com/investing/2026/11/20/prediction-nvidia-stock-will-do-this-in-the-6-months-after-a-new-ceo-takes-over-according-to-history/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8416851b3ced",
+      "title": "Here How Much Nvidia Stock Is Worth Without Jensen Huang , According to Dan Ives",
+      "url": "https://www.fool.com/investing/2026/11/20/here-s-how-much-nvidia-stock-is-worth-without-jensen-huang-according-to-dan-ives/?source=iedfolrf0000001",
+      "source": "fool.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c3175c377d5e",
+      "title": "Bruising sell - off in artificial intelligence stocks continued",
+      "url": "https://greatbendpost.com/posts/97dd86e2-9652-4543-9a75-3f9c0712edfc",
+      "source": "greatbendpost.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fc835b09f24c",
+      "title": "S & P 500 sinks 3 . 7 %, Nasdaq composite goes negative for the year",
+      "url": "https://www.nbclosangeles.com/news/national-international/november-20-stock-market-updates/3973573/",
+      "source": "nbclosangeles.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T00:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -591,176 +761,6 @@
       "published_at": "2026-11-20T06:45:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-36fe458daeab",
-      "title": "Dünyada KIZILELMA yankısı !  Türkiye tarihi günü selamladı",
-      "url": "https://www.turkiyegazetesi.com.tr/dunya/dunyada-kizilelma-yankisi-turkiye-tarihi-gunu-selamladi-1830511",
-      "source": "turkiyegazetesi.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6630c11d381f",
-      "title": "Thursday Final Word",
-      "url": "https://hotair.com/ed-morrissey/2026/11/19/thursdays-final-word-n3821167",
-      "source": "hotair.com",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e724b830b527",
-      "title": "Xi lauds PM for  full turnaround  in China relationship",
-      "url": "https://www.juneesoutherncross.com.au/story/9395015/xi-lauds-pm-for-full-turnaround-in-china-relationship/",
-      "source": "juneesoutherncross.com.au",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8ea9322ac805",
-      "title": "Fedin sıkılaşma ve yapay zeka endişeleri küresel piyasalarda satış baskısı yarattı",
-      "url": "https://www.haberler.com/ekonomi/fed-in-sikilasma-ve-yapay-zeka-endiseleri-kuresel-20444703-haberi/",
-      "source": "haberler.com",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a0cab7cba7f6",
-      "title": "해법 못 찾는 강대국 외교 … 선전 APEC  빈손 회동  이어 마이애미 G20도 안갯속",
-      "url": "https://biz.chosun.com/international/international_general/2026/11/20/DOVPJEZH35FDHCIEDL6HDQQRFI/",
-      "source": "biz.chosun.com",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1e4b327ca01c",
-      "title": "Gram altın dibi gördü ! 6 bin liranın altına indi",
-      "url": "https://www.bursahakimiyet.com.tr/ekonomi/gram-altin-dibi-gordu-6-bin-liranin-altina-indi-1755626",
-      "source": "bursahakimiyet.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-feca7ae14c18",
-      "title": "Altın neden düşüyor ? 2025  ten bu yana en düşük seviyede ! Canlı altın fiyatları 20 Kasım 2026",
-      "url": "https://bigpara.hurriyet.com.tr/altin/haber/dolar-ve-fed-mesajlari-altini-vurdu-2025ten-bu-yana-en-dusuk-seviyede_ID102292367/",
-      "source": "bigpara.hurriyet.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-41ea0ea7a455",
-      "title": "Gold Faces Worst Weekly Decline Since March Amid Rate - Hike Speculations , ETRetail",
-      "url": "https://retail.economictimes.indiatimes.com/news/apparel-fashion/jewellery/gold-set-for-worst-week-since-march-as-rate-hike-expectations-grow/136010603",
-      "source": "retail.economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-79c037eb3442",
-      "title": "MARCHÉS ÉMERGENTS - Taïwan sachemine vers sa pire semaine depuis 1990 , les marchés boursiers asiatiques tombent à leur plus bas niveau depuis avril - 20 / 11 / 2026 à 04 : 25",
-      "url": "https://www.boursorama.com/bourse/actualites/marches-emergents-taiwan-s-achemine-vers-sa-pire-semaine-depuis-1990-les-marches-boursiers-asiatiques-tombent-a-leur-plus-bas-niveau-depuis-avril-248642ecccf0a9ca632ad156eb81210e",
-      "source": "boursorama.com",
-      "source_type": "news",
-      "published_at": "2026-11-20T06:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-71488db500e8",
-      "title": "الدولار قرب أعلى مستوى في 19 شهراً",
-      "url": "https://24.ae/article/971684/%D8%A7%D9%84%D8%AF%D9%88%D9%84%D8%A7%D8%B1-%D9%82%D8%B1%D8%A8-%D8%A3%D8%B9%D9%84%D9%89-%D9%85%D8%B3%D8%AA%D9%88%D9%89-%D9%81%D9%8A-19-%D8%B4%D9%87%D8%B1%D8%A7%D9%8B",
-      "source": "24.ae",
-      "source_type": "news",
-      "published_at": "2026-11-20T05:30:00Z",
-      "categories": [
-        "rates"
       ],
       "importance": 3,
       "facts": null,
