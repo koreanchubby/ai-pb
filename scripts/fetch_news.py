@@ -6,7 +6,8 @@ GitHub Actions가 1시간마다 실행해 data/news.json을 갱신한다.
 - 출처 하나가 실패해도 나머지는 계속 수집한다.
 - 기사 원문은 저장하지 않고 제목·링크·출처·시각만 저장한다 (docs/DECISIONS.md 2026-10-03).
 - API 키는 환경변수(GitHub Actions Secrets)에서만 읽는다. 키가 없으면 그 출처는 건너뛴다.
-- 미 국채 10년 금리는 한국투자증권 Open API에서 받는다(키가 있을 때, KST 7시·15시). 없으면 FRED.
+- 미 국채 10년 금리는 한국투자증권 Open API에서 받는다(키가 있을 때, KST 7시·15시 회차).
+  FRED에서도 받아 두고, 같은 지표는 기준일이 가장 최근인 값 하나만 남긴다(한국투자증권 실패 시 FRED가 대신함).
 
 실행:  python scripts/fetch_news.py            # data/news.json 갱신
        python scripts/fetch_news.py --dry-run  # 결과만 출력
@@ -294,15 +295,51 @@ INDICATOR_BY_FRED = {"DGS10": "us10y", "DCOILWTICO": "wti"}
 # - WTI는 해외선물 NYMEX 시세 신청 계좌가 필요해(EGW00551) FRED를 그대로 쓴다.
 # - 접근 토큰은 발급 횟수를 줄이려고 하루 두 번(KST 7시·15시, 시황 작성 전)만 수집한다.
 #   그 사이에는 이전 값이 news.json에 남는다(시장 데이터 7일 보관).
+# - 2026-10-14 옥경환 보완 (PR #33 리뷰):
+#   ① 한국투자증권이 실패해도 FRED 값이 대신 쓰이도록 FRED DGS10도 계속 받고, 지표별로 기준일이 최신인 값만 남긴다.
+#   ② GitHub 예약 실행은 늦거나 빠질 수 있어, 7시·15시 정각 한 번이 아니라 2시간 회차(7~8시, 15~16시) 안에서
+#      그 회차에 아직 못 받았으면 받는다.
+#   ③ 서버 기본값은 모의투자(mock) — 워크플로·뉴스 후보 스크립트와 같게.
 # ---------------------------------------------------------------------------
 KIS_BASE = {"real": "https://openapi.koreainvestment.com:9443", "mock": "https://openapivts.koreainvestment.com:29443"}
-KIS_HOURS_KST = (7, 15)
-KIS_REPLACES_FRED = {"DGS10"}
+KIS_DEFAULT_ENV = "mock"
+KIS_HOURS_KST = (7, 15)     # 회차 시작 시각
+KIS_WINDOW_HOURS = 2        # 회차 길이: 7~8시대, 15~16시대
+KIS_SOURCE = "한국투자증권"
 KIS_BONDS = [("미국 10년물 국채금리", "Y0202", "rates", "%", 0.15, "us10y")]
 
 
 def kis_configured() -> bool:
     return bool(os.environ.get("KIS_APP_KEY") and os.environ.get("KIS_APP_SECRET"))
+
+
+def kis_base() -> str:
+    env = os.environ.get("KIS_ENV") or KIS_DEFAULT_ENV
+    return KIS_BASE.get(env, KIS_BASE[KIS_DEFAULT_ENV])
+
+
+def kis_slot_start(now: dt.datetime) -> dt.datetime | None:
+    """지금이 수집 회차 안이면 그 회차 시작 시각(KST), 아니면 None."""
+    local = now.astimezone(KST)
+    for hour in KIS_HOURS_KST:
+        start = local.replace(hour=hour, minute=0, second=0, microsecond=0)
+        if start <= local < start + dt.timedelta(hours=KIS_WINDOW_HOURS):
+            return start
+    return None
+
+
+def kis_last_fetch(previous: dict | None) -> dt.datetime | None:
+    """이전 news.json에서 한국투자증권 값을 마지막으로 받은 시각."""
+    items = previous.get("items", []) if isinstance(previous, dict) else []
+    times = []
+    for item in items:
+        value = item.get("value") if isinstance(item, dict) and isinstance(item.get("value"), dict) else {}
+        if item.get("source") == KIS_SOURCE and value.get("fetched_at"):
+            try:
+                times.append(dt.datetime.fromisoformat(value["fetched_at"].replace("Z", "+00:00")))
+            except ValueError:
+                pass
+    return max(times) if times else None
 
 
 def kis_request(method: str, url: str, headers: dict, body: dict | None = None) -> dict:
@@ -335,19 +372,25 @@ def parse_kis_bond(payload: dict, name: str, code: str, category: str, unit: str
     date = dt.datetime.strptime(last["stck_bsop_date"], "%Y%m%d")
     sign = "+" if change > 0 else ""
     title = f"{name} {latest:g}{unit} (직전 대비 {sign}{change:g}%p)"
-    return [make_item(title=title, url=f"https://apiportal.koreainvestment.com/#{code}", source="한국투자증권",
+    return [make_item(title=title, url=f"https://apiportal.koreainvestment.com/#{code}", source=KIS_SOURCE,
                       source_type="market", published=date.replace(tzinfo=dt.timezone.utc), categories=[category],
                       value={"latest": latest, "previous": before, "change": change, "unit": unit,
                              "date": date.date().isoformat(), "alert_threshold": threshold, "indicator": indicator})]
 
 
-def fetch_kis(request: Callable[..., dict] = kis_request, now: dt.datetime | None = None) -> list[dict]:
+def fetch_kis(request: Callable[..., dict] = kis_request, now: dt.datetime | None = None,
+              previous: dict | None = None) -> list[dict]:
     if not kis_configured():
         raise SkipSource("KIS_APP_KEY·KIS_APP_SECRET 없음")
     now = now or now_utc()
-    if now.astimezone(KST).hour not in KIS_HOURS_KST and os.environ.get("KIS_FORCE") != "1":
-        raise SkipSource("수집 시각 아님(KST 7시·15시만, 이전 값 유지)")
-    base = KIS_BASE.get(os.environ.get("KIS_ENV", "real"), KIS_BASE["real"])
+    if os.environ.get("KIS_FORCE") != "1":
+        slot = kis_slot_start(now)
+        if slot is None:
+            raise SkipSource("수집 회차 아님(KST 7~8시·15~16시만, 이전 값 유지)")
+        last = kis_last_fetch(previous)
+        if last is not None and last >= slot:
+            raise SkipSource("이번 회차에 이미 받음(이전 값 유지)")
+    base = kis_base()
     key, secret = os.environ["KIS_APP_KEY"], os.environ["KIS_APP_SECRET"]
     got = request("POST", base + "/oauth2/tokenP", {"content-type": "application/json"},
                   {"grant_type": "client_credentials", "appkey": key, "appsecret": secret})
@@ -367,7 +410,12 @@ def fetch_kis(request: Callable[..., dict] = kis_request, now: dt.datetime | Non
         if payload.get("rt_cd") not in (None, "0"):
             raise RuntimeError(f"{code}: {payload.get('msg_cd')} {payload.get('msg1')}")
         items += parse_kis_bond(payload, name, code, category, unit, threshold, indicator)
+    for item in items:
+        item["value"]["fetched_at"] = iso(now)   # 다음 실행에서 '이번 회차에 이미 받음'을 판단
     return items
+
+
+fetch_kis.wants_previous = True   # build()가 이전 news.json을 넘겨준다
 
 
 def parse_fred(json_bytes: bytes, name: str, series: str, category: str, unit: str, threshold: float) -> list[dict]:
@@ -397,8 +445,8 @@ def fetch_fred(get: Callable[[str], bytes] = http_get) -> list[dict]:
     start = (now_utc() - dt.timedelta(days=14)).date().isoformat()
     items: list[dict] = []
     errors: list[str] = []
-    # 한국투자증권 키가 있으면 미 국채 10년은 그쪽(더 빠름)에서 받으므로 FRED에서는 받지 않는다
-    series_list = [s for s in FRED_SERIES if not (kis_configured() and s[1] in KIS_REPLACES_FRED)]
+    # 미 국채 10년은 한국투자증권에서도 받지만, 실패에 대비해 FRED에서도 받는다 → merge에서 최신 기준일 값만 남김
+    series_list = FRED_SERIES
     for name, series, category, unit, threshold in series_list:
         params = urllib.parse.urlencode({"series_id": series, "api_key": key, "file_type": "json",
                                          "observation_start": start})
@@ -460,6 +508,11 @@ def indicator_of(item: dict) -> str | None:
     return INDICATOR_BY_FRED.get(series)
 
 
+def indicator_rank(item: dict, new_ids: set) -> tuple:
+    value = item.get("value") if isinstance(item.get("value"), dict) else {}
+    return (str(value.get("date", "")), item.get("source") == KIS_SOURCE, item["id"] in new_ids)
+
+
 def merge_with_previous(new_items: list[dict], previous: dict | None, now: dt.datetime) -> list[dict]:
     """이전 news.json의 AI 요약을 재사용하고, 오래된 기사는 버린다."""
     prev_items = previous.get("items", []) if isinstance(previous, dict) else []
@@ -476,11 +529,20 @@ def merge_with_previous(new_items: list[dict], previous: dict | None, now: dt.da
     # 이번에 못 받은 이전 기사도 보관 시간 안이면 유지 (출처 일시 장애 대비)
     new_ids = {i["id"] for i in merged}
     new_urls = {i["url"] for i in merged}
-    new_indicators = {indicator_of(i) for i in merged} - {None}
-    # 시장 데이터는 같은 지표(URL 또는 지표 이름)의 새 값이 있으면 이전 값을 버린다 (출처를 바꿔도 하나만 남김)
+    # 시장 데이터는 같은 지표(URL)의 새 값이 있으면 이전 값을 버린다
     merged += [old for old in prev_by_id.values()
-               if old["id"] not in new_ids and not (old["source_type"] == "market" and (
-                   old["url"] in new_urls or indicator_of(old) in new_indicators))]
+               if old["id"] not in new_ids and not (old["source_type"] == "market" and old["url"] in new_urls)]
+    # 같은 지표 이름(예: us10y)이 여러 출처·회차에 있으면 기준일이 가장 최근인 값 하나만 남긴다.
+    # 기준일이 같으면 한국투자증권 > 이번에 받은 값 > 이전 값 순서. (한투 실패·회차 사이에도 최신 값 유지)
+    best: dict[str, dict] = {}
+    for item in merged:
+        name = indicator_of(item)
+        if name is None:
+            continue
+        if name not in best or indicator_rank(item, new_ids) > indicator_rank(best[name], new_ids):
+            best[name] = item
+    keep = {id(v) for v in best.values()}
+    merged = [i for i in merged if indicator_of(i) is None or id(i) in keep]
 
     def fresh(item: dict) -> bool:
         # 새로 받은 시장 데이터(일별 최신값)는 날짜와 관계없이 유지
@@ -524,7 +586,7 @@ def build(sources=SOURCES, previous: dict | None = None, now: dt.datetime | None
     status = []
     for name, fn in sources:
         try:
-            got = fn()
+            got = fn(previous=previous) if getattr(fn, "wants_previous", False) else fn()
             collected += got
             status.append({"source": name, "ok": True, "count": len(got)})
         except SkipSource as skip:
