@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T18:04:30Z",
+  "generated_at": "2026-11-21T23:24:57Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -184,6 +184,24 @@
       }
     },
     {
+      "id": "news-6eba0c247ec3",
+      "title": "Dangote Group unveils multi ‑ billion ‑ dollar projects across East Africa",
+      "url": "https://kenya-today.com/report-dangote-group-unveils-multibilliondollar-projects-across-east-africa-30996/",
+      "source": "kenya-today.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T20:30:00Z",
+      "categories": [
+        "oil",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-60de00ed9007",
       "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
       "url": "https://www.clickorlando.com/business/2026/11/20/treasury-secretary-says-no-further-restrictions-are-needed-for-nvidia-chip-exports-to-china/",
@@ -328,12 +346,46 @@
       "change_condition": null
     },
     {
-      "id": "news-99a73fba452a",
-      "title": "Indian markets may see reasonable upside over next 12 months ; FPIs unwinding underweight positions : HSBC MF Cheenu Gupta",
-      "url": "http://www.iraqsun.com/news/279446756/indian-markets-may-see-reasonable-upside-over-next-12-months-fpis-unwinding-underweight-positions-hsbc-mf-cheenu-gupta",
-      "source": "iraqsun.com",
+      "id": "news-23ae2496d6e5",
+      "title": "Edir Macedo faz aporte bilionário para tentar salvar o Digimais",
+      "url": "https://www.brasil247.com/economia/edir-macedo-faz-aporte-bilionario-para-tentar-salvar-o-digimais/",
+      "source": "brasil247.com",
       "source_type": "news",
-      "published_at": "2026-11-21T10:30:00Z",
+      "published_at": "2026-11-21T20:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4c0e43475328",
+      "title": "President Donald Trump cites India growth , slams US high interest rates",
+      "url": "https://www.tribuneindia.com/news/india/president-donald-trump-cites-indias-growth-slams-us-high-interest-rates/",
+      "source": "tribuneindia.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T20:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c7c62faa9662",
+      "title": "Το φαινόμενο « Grand Theft Auto »: Πώς ξεπέρασε κάθε προσδοκία - Η Λουσία και το νέο κοινό γυναικών",
+      "url": "https://www.huffingtonpost.gr/diethnes/grand-theft-auto/",
+      "source": "huffingtonpost.gr",
+      "source_type": "news",
+      "published_at": "2026-11-21T20:30:00Z",
       "categories": [
         "oil"
       ],
@@ -345,12 +397,12 @@
       "change_condition": null
     },
     {
-      "id": "news-4fc96b67641a",
-      "title": "Two Tanker Attack Incidents Reported Near Oman Khasab",
-      "url": "https://arynews.tv/two-tanker-attack-incidents-reported-near-omans-khasab-on-saturday-ukmto-says",
-      "source": "arynews.tv",
+      "id": "news-8297dae72584",
+      "title": "Prvi rast referentne kamatne stope nakon više od dve godine",
+      "url": "https://www.nin.rs/ekonomija/vesti/129596/prvi-rast-referentne-kamatne-stope-nakon-vise-od-dve-godine",
+      "source": "nin.rs",
       "source_type": "news",
-      "published_at": "2026-11-21T10:30:00Z",
+      "published_at": "2026-11-21T20:30:00Z",
       "categories": [
         "oil"
       ],
@@ -362,12 +414,12 @@
       "change_condition": null
     },
     {
-      "id": "news-c9c2916d5683",
-      "title": "عراقچی خواستار توافق برای پایان وضعیت « نه جنگ ، نه صلح » شد",
-      "url": "https://www.radiofarda.com/a/33903022.html",
-      "source": "radiofarda.com",
+      "id": "news-1a6b696eb5b8",
+      "title": "EU a ostrovní státy tlačí na ambicióznější závěry klimatické konference",
+      "url": "https://www.ceskenoviny.cz/zpravy/eu-a-ostrovni-staty-tlaci-na-ambicioznejsi-zavery-klimaticke-konference-/2904003",
+      "source": "ceskenoviny.cz",
       "source_type": "news",
-      "published_at": "2026-11-21T10:30:00Z",
+      "published_at": "2026-11-21T20:30:00Z",
       "categories": [
         "oil"
       ],
@@ -379,63 +431,12 @@
       "change_condition": null
     },
     {
-      "id": "news-e326799973dd",
-      "title": "新华社评论员 ： 担当大国责任 ， 共建美好世界 _ 南方网",
-      "url": "https://www.southcn.com/node_07e973c1a3/4a79407df7.shtml",
-      "source": "southcn.com",
+      "id": "news-674930a2ad5c",
+      "title": "Thanksgiving Gas Prices Could Break a Record Despite Recent Plunge",
+      "url": "https://oilprice.com/Latest-Energy-News/World-News/Thanksgiving-Gas-Prices-Could-Break-a-Record-Despite-Recent-Plunge.html",
+      "source": "oilprice.com",
       "source_type": "news",
-      "published_at": "2026-11-21T10:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-644092daf415",
-      "title": "Lexpo à lEspace Félix mérite le détour  ! Découvrez les rendez - vous culturels à Sète et sur le bassin de Thau",
-      "url": "https://www.midilibre.fr/2026/11/21/lexpo-a-lespace-felix-merite-le-detour-decouvrez-les-rendez-vous-culturels-a-sete-et-sur-le-bassin-de-thau-13662763.php",
-      "source": "midilibre.fr",
-      "source_type": "news",
-      "published_at": "2026-11-21T10:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b95c373b7c27",
-      "title": "Asamblea Parlamentaria de OTAN en Berlín",
-      "url": "https://efe.com/mundo/2026-11-21/asamblea-parlamentaria-otan-berlin/",
-      "source": "efe.com",
-      "source_type": "news",
-      "published_at": "2026-11-21T10:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cb4a6b0b1d99",
-      "title": "Agsafe Rural Report | infonews . co . nz New Zealand News",
-      "url": "https://www.infonews.co.nz/news.cfm?id=129392",
-      "source": "infonews.co.nz",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
+      "published_at": "2026-11-21T20:30:00Z",
       "categories": [
         "oil"
       ],
@@ -447,12 +448,12 @@
       "change_condition": null
     },
     {
-      "id": "news-8fefe974ed2d",
-      "title": "Até onde estratégia de Trump contra o Irã depende de China e Rússia",
-      "url": "https://g1.globo.com/mundo/noticia/2026/11/21/ate-onde-estrategia-de-trump-contra-o-ira-depende-de-china-e-russia.ghtml",
-      "source": "g1.globo.com",
+      "id": "news-d4b1c245ee9e",
+      "title": "Il drone di Sigonella e larte di non sbagliare diagnosi . Lanalisi di Pagani",
+      "url": "https://formiche.net/2026/11/il-drone-di-sigonella-e-larte-di-non-sbagliare-diagnosi-lanalisi-di-pagani/",
+      "source": "formiche.net",
       "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
+      "published_at": "2026-11-21T20:30:00Z",
       "categories": [
         "oil"
       ],
@@ -464,12 +465,12 @@
       "change_condition": null
     },
     {
-      "id": "news-97bbe591b879",
-      "title": "Review : The English Opening – An overview",
-      "url": "https://en.chessbase.com/post/review-the-english-opening-an-overview",
-      "source": "en.chessbase.com",
+      "id": "news-fe43bbd3a86c",
+      "title": "Ve Finském zálivu napadly drony ruskou loď , zřejmě útočila Ukrajina",
+      "url": "https://www.ceskenoviny.cz/zpravy/ve-finskem-zalivu-napadly-drony-ruskou-lod-zrejme-utocila-ukrajina/2904722",
+      "source": "ceskenoviny.cz",
       "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
+      "published_at": "2026-11-21T20:30:00Z",
       "categories": [
         "oil"
       ],
@@ -481,201 +482,14 @@
       "change_condition": null
     },
     {
-      "id": "news-160fdf9f5fdc",
-      "title": "Il titolo Anthropic perde oltre il 9 %. Borse giù , lEuropa brucia 370 miliardi · Quotidiano Nazionale",
-      "url": "https://www.quotidiano.net/economia/il-titolo-anthropic-perde-oltre-72c01d91",
-      "source": "quotidiano.net",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7e3528e5b5dd",
-      "title": "Jobban is csökkenhetne a magyar benzinár",
-      "url": "https://mfor.hu/cikkek/makro/jobban-is-csokkenhetne-a-magyar-benzinar.html",
-      "source": "mfor.hu",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0cf5ac2a587b",
-      "title": "Lo Zar bombarda i ponti ma torna a mani vuote dal vertice . E adesso è costretto a trattare",
-      "url": "https://www.lastampa.it/esteri/2026/11/21/news/lo_zar_bombarda_i_ponti_ma_torna_a_mani_vuote_dal_vertice_e_adesso_e_costretto_a_trattare-15804763/",
-      "source": "lastampa.it",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c755bb487be3",
-      "title": "Oro e argento in « ritirata » per colpa ( anche ) del boom dellIA",
-      "url": "https://www.cdt.ch/news/economia/oro-e-argento-in-ritirata-per-colpa-anche-del-boom-dellia-445034",
-      "source": "cdt.ch",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-887473ef137a",
-      "title": "Latest Articles",
-      "url": "https://freerepublic.com/tag/*/index?more=4403808",
-      "source": "freerepublic.com",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-82d60dcd31f8",
-      "title": "【 理响中国 】 答好大国良性互动这道必答题",
-      "url": "https://www.sxdaily.com.cn/2026-11/21/content_20200577.html",
-      "source": "sxdaily.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ab3e27799b58",
-      "title": "唱空中国经济者终会落空",
-      "url": "https://baijiahao.baidu.com/s?id=1882431484512897238",
-      "source": "baijiahao.baidu.com",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c0f6bc910c52",
-      "title": "Vì sao Iran bất ngờ mở rộng tấn công tại vùng Vịnh ?",
-      "url": "https://petrotimes.vn/vi-sao-iran-bat-ngo-mo-rong-tan-cong-tai-vung-vinh-748245.html",
-      "source": "petrotimes.vn",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2cdbbff1d9b6",
-      "title": "جو 24 : ترامب يعرف ثمن الحرب … فهل يعرف طريق الخروج ؟",
-      "url": "https://jo24.net/article/583431",
-      "source": "jo24.net",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7237341c4db3",
-      "title": "Benzine gece yarısı indirim ! Benzin kritik seviyenin altına düştü",
-      "url": "https://ekonomi.haber7.com/ekonomi/haber/3678602-benzine-gece-yarisi-indirim-benzin-kritik-seviyenin-altina-dustu",
-      "source": "ekonomi.haber7.com",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b648cb779d26",
-      "title": "Gaudim , el restaurante del chef Semi que frecuentan los futbolistas del Barça",
-      "url": "https://www.lavanguardia.com/deportes/fc-barcelona/20261121/11684854/gaudim-restaurante-chef-semi-frecuentan-futbolistas-barca.html",
-      "source": "lavanguardia.com",
-      "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-65c2908336f8",
-      "title": "Kiren Rijiju hits back at Rahul Gandhi  compromised PM  jibe , questions Congress on 1962 war , poverty",
-      "url": "https://www.thehindu.com/news/national/kiren-rijiju-hits-back-at-rahul-gandhis-compromised-pm-jibe-questions-congress-on-1962-war-poverty/article71727457.ece",
+      "id": "news-eeefe23129bf",
+      "title": "Gold , copper , aluminium dive to at least 7 - month lows",
+      "url": "https://www.thehindu.com/business/gold-copper-aluminium-dive-to-at-least-7-month-lows/article71729065.ece",
       "source": "thehindu.com",
       "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
+      "published_at": "2026-11-21T16:30:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -685,14 +499,14 @@
       "change_condition": null
     },
     {
-      "id": "news-586c8a389e2e",
-      "title": "El Chapo Isidro : el capo que hizo de Guasave su bastión",
-      "url": "https://www.eldiariodechihuahua.mx/nacional/2026/nov/20/el-chapo-isidro-el-capo-que-hizo-de-guasave-su-bastion-859546.html",
-      "source": "eldiariodechihuahua.mx",
+      "id": "news-08d7a1519fd2",
+      "title": "Bitcoin price crash : ​Falls to lowest level in two years - What behind plunge of world largest cryptocurrency",
+      "url": "https://www.livemint.com/market/cryptocurrency/bitcoin-price-crash-falls-to-lowest-level-in-two-years-what-s-behind-plunge-of-world-s-largest-cryptocurrency-11795267687216.html",
+      "source": "livemint.com",
       "source_type": "news",
-      "published_at": "2026-11-21T06:45:00Z",
+      "published_at": "2026-11-21T16:30:00Z",
       "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -702,12 +516,46 @@
       "change_condition": null
     },
     {
-      "id": "news-a3f4c58ddbd6",
-      "title": "AI sell - off batters Wall Street ; S & P 500 enters correction , Nasdaq turns negative for year",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/ai-sell-off-batters-wall-street-sp-500-enters-correction-nasdaq-turns-negative-for-year/articleshow/136041935.cms",
-      "source": "timesofindia.indiatimes.com",
+      "id": "news-13b9d42ccfda",
+      "title": "Inflation , economic growth and the mood of US consumers in focus this week",
+      "url": "http://www.rockymounttelegram.com/news/national/inflation-economic-growth-and-the-mood-of-us-consumers-in-focus-this-week/article_3bcbe7a7-4499-5f7b-9cca-fe36c6708ee1.html",
+      "source": "rockymounttelegram.com",
       "source_type": "news",
-      "published_at": "2026-11-21T00:30:00Z",
+      "published_at": "2026-11-21T16:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3a65eb263ce8",
+      "title": "Gold Hits 14 - Month Low",
+      "url": "https://www.theepochtimes.com/business/gold-hits-14-month-low-6127794",
+      "source": "theepochtimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T16:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cd80d38ff13a",
+      "title": "Crude Affairs (@ CrudeAffairs )",
+      "url": "https://digg.com/u/x/crudeaffairs",
+      "source": "digg.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T16:30:00Z",
       "categories": [
         "oil"
       ],
@@ -719,12 +567,12 @@
       "change_condition": null
     },
     {
-      "id": "news-3ddff8bdd499",
-      "title": "S & P 500 sinks 3 . 7 % and the Nasdaq composite goes negative for the year",
-      "url": "https://www.wuwf.org/2026-11-20/s-p-500-sinks-3-7-and-the-nasdaq-composite-goes-negative-for-the-year",
-      "source": "wuwf.org",
+      "id": "news-2c88baac031a",
+      "title": "Giá xăng dầu hôm nay 21 / 11 : Dầu trong nước về sát mốc 26 . 000 đồng / lít",
+      "url": "https://eva.vn/tin-tuc/gia-xang-dau-hom-nay-21-11-dau-trong-nuoc-ve-sat-moc-26000-dong-lit-c73a689756.html",
+      "source": "eva.vn",
       "source_type": "news",
-      "published_at": "2026-11-21T00:30:00Z",
+      "published_at": "2026-11-21T16:30:00Z",
       "categories": [
         "oil"
       ],
@@ -736,12 +584,12 @@
       "change_condition": null
     },
     {
-      "id": "news-44796a8582f5",
-      "title": "Stocks Plunge , Marking Five - Day Losing Streak",
-      "url": "https://wccfradio.iheart.com/content/2026-11-20-stocks-plunge-marking-five-day-losing-streak/",
-      "source": "wccfradio.iheart.com",
+      "id": "news-3102cb6be253",
+      "title": "Koh Wai bij Koh Chang : snorkelen , stroom en hoe je er komt",
+      "url": "https://www.thailandblog.nl/eilanden/koh-wai-heeft-koraal-voor-de-deur-maar-pas-s-avonds-stroom/",
+      "source": "thailandblog.nl",
       "source_type": "news",
-      "published_at": "2026-11-21T00:30:00Z",
+      "published_at": "2026-11-21T16:30:00Z",
       "categories": [
         "oil"
       ],
@@ -753,14 +601,167 @@
       "change_condition": null
     },
     {
-      "id": "news-e8ed8203e9d9",
-      "title": "Trump , Xi , Putin Declaration Omits Ukraine ; Moscow Rejects NATO - Style Guarantee",
-      "url": "https://www.hngn.com/articles/273878/20261120/trump-xi-putin-issue-peace-declaration-that-omits-ukraine.htm",
-      "source": "hngn.com",
+      "id": "news-cbae3e3151e6",
+      "title": "امریکا نے ایف 16 طیارے کو نشانہ بنانے کے ایرانی دعوے کی تردید کردی - World",
+      "url": "https://www.aaj.tv/news/30526612/us-denies-iran-f16-claim",
+      "source": "aaj.tv",
       "source_type": "news",
-      "published_at": "2026-11-21T00:30:00Z",
+      "published_at": "2026-11-21T16:30:00Z",
       "categories": [
         "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b2620b91e6b2",
+      "title": "Certains ministres sont déj partis , les tractations se poursuivent , mais toujours pas de terrain dentente  la COP31",
+      "url": "https://www.ledevoir.com/actualites/environnement/1026809/negociations-enlisent-cop31-compromis-vue",
+      "source": "ledevoir.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T16:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-839b97c36293",
+      "title": "Three things that will flip the switch on our economic recovery",
+      "url": "https://www.nzherald.co.nz/business/three-things-that-will-flip-the-switch-on-our-economic-recovery-liam-dann/premium/ASWXILW7P5HMFO53JXAZCAPSW4/",
+      "source": "nzherald.co.nz",
+      "source_type": "news",
+      "published_at": "2026-11-21T16:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9368e43069ef",
+      "title": "Προϋπολογισμός 2027 : Ανάπτυξη 2 , 3 % με « αγκάθι » την ακρίβεια",
+      "url": "https://www.tanea.gr/print/2026/11/21/economy/anaptyksi-23-me-agkathi-tin-akriveia/",
+      "source": "tanea.gr",
+      "source_type": "news",
+      "published_at": "2026-11-21T16:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-30224f63280b",
+      "title": "Podyumlardan tarlaya ! Tuğba Özay Manavgatta üretime başladı",
+      "url": "https://www.ahaber.com.tr/galeri/magazin/tugba-ozay-podyumu-birakti-zeytin-hasadina-cikti",
+      "source": "ahaber.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-21T16:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e02eaa31f1d4",
+      "title": "Look at India : Trump cites India 7 % GDP growth to slam US Fed over high interest rates",
+      "url": "https://www.ibtimes.co.in/look-india-trump-cites-indias-7-gdp-growth-slam-us-fed-over-high-interest-rates-908551",
+      "source": "ibtimes.co.in",
+      "source_type": "news",
+      "published_at": "2026-11-21T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-16a54c51d6bc",
+      "title": "Bitcoini vuran satış Fed beklentisini değiştirdi",
+      "url": "https://www.haberler.com/kripto-para/bitcoini-vuran-satis-fed-beklentisini-degistirdi-20448690-haberi/",
+      "source": "haberler.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0ece5076e569",
+      "title": "Gold Price Crash : 1 हफ्ते में करीब 10 % टूटा सोना , 14 महीने के निचले स्तर पर भाव ; जानें क अभी और होगा सस्ता ?, Business Hindi News",
+      "url": "https://www.livehindustan.com/business/gold-price-crash-10-pc-fall-five-major-reasons-check-all-details-201795259414989.html",
+      "source": "livehindustan.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T12:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d169506c7d56",
+      "title": "Fed January Hike Odds Fall to 47 %",
+      "url": "https://www.riotimesonline.com/fed-january-hike-odds-fall-to-47-percent-2026/",
+      "source": "riotimesonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T11:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-41cdf449a71f",
+      "title": "Земетресение на борсите ! 4 , 28 трилиона се изпариха за часове , Уолстрийт в паника",
+      "url": "https://www.standartnews.com/biznes/zemetresenie-na-borsite-428-triliona-se-izpariha-za-chasove-uolstriyt-v-panika-653956.html",
+      "source": "standartnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-21T11:30:00Z",
+      "categories": [
+        "rates"
       ],
       "importance": 3,
       "facts": null,
