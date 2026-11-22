@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-21T23:24:57Z",
+  "generated_at": "2026-11-22T06:58:47Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 30
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -82,6 +82,31 @@
       "change_condition": null
     },
     {
+      "id": "market-69e62ce8644a",
+      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-19T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.0,
+        "previous": 3.0,
+        "change": 0.0,
+        "unit": "%",
+        "date": "20261120",
+        "alert_threshold": 0.25
+      }
+    },
+    {
       "id": "market-986b4422f906",
       "title": "원/달러 환율(매매기준율) 1330.8원 (직전 대비 -0.3원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
@@ -130,31 +155,6 @@
         "date": "2026-11-19",
         "alert_threshold": 0.15,
         "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-a80f1c3a27e9",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-18T15:00:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261119",
-        "alert_threshold": 0.25
       }
     },
     {
