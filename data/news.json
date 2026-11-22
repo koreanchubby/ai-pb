@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T15:25:13Z",
+  "generated_at": "2026-11-22T21:51:44Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -184,6 +184,42 @@
       }
     },
     {
+      "id": "news-773ecfba6e10",
+      "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
+      "url": "https://peakoil.com/publicpolicy/iranian-attacks-in-the-strait-of-hormuz-are-at-the-highest-levels-since-the-conflict-began",
+      "source": "peakoil.com",
+      "source_type": "news",
+      "published_at": "2026-11-22T20:30:00Z",
+      "categories": [
+        "oil",
+        "geopolitics"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-15323b485006",
+      "title": "Bitcoin News am Wochenende : Houthi - Raketen und der schwerste ETF - Monat seit Februar",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70197665-bitcoin-news-am-wochenende-houthi-raketen-und-der-schwerste-etf-monat-seit-februar-712.htm",
+      "source": "finanznachrichten.de",
+      "source_type": "news",
+      "published_at": "2026-11-22T20:30:00Z",
+      "categories": [
+        "oil",
+        "etf"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-3822edc29059",
       "title": "Peso to move sideways vs dollar as markets eye key US economic data",
       "url": "https://bworldonline.com/banking-finance/2026/11/22/795691/peso-to-move-sideways-vs-dollar-as-markets-eye-key-us-economic-data/",
@@ -310,68 +346,14 @@
       "change_condition": null
     },
     {
-      "id": "news-5cf1c4dd0235",
-      "title": "No going back after Iran War energy shock , IEA says",
-      "url": "https://www.gulfcoastnewsnow.com/article/iran-war-energy-shock-long-term-impact-iea/74479995",
-      "source": "gulfcoastnewsnow.com",
+      "id": "news-4807995e592f",
+      "title": "الدفاعات الجوية السعودية تعترض صاروخاً باليستياً وطائرة مسيرة أطلقهما الحوثيون",
+      "url": "https://alquds.com/ar/posts/277054",
+      "source": "alquds.com",
       "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6a137092086a",
-      "title": "There is no going back  to the way it was before  the Iran war energy shock , IEA says",
-      "url": "https://www.ksat.com/business/2026/11/19/there-is-no-going-back-to-the-way-it-was-before-the-iran-wars-energy-shock-iea-says/",
-      "source": "ksat.com",
-      "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
-      "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-40fb5f318373",
-      "title": "Denmark ratifies Trump deal over Greenland , hoping to end conflict",
-      "url": "https://tribune.com.pk/story/2641239/denmark-ratifies-trump-deal-over-greenland-hoping-to-end-conflict",
-      "source": "tribune.com.pk",
-      "source_type": "news",
-      "published_at": "2026-11-19T19:30:00Z",
-      "categories": [
-        "oil",
-        "geopolitics"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c8460edaf032",
-      "title": "Key Market Events for the Week of November 23 – 27 , 2026",
-      "url": "https://www.riotimesonline.com/key-market-events-for-the-week-of-november-23-27-2026/",
-      "source": "riotimesonline.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T12:30:00Z",
-      "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -381,14 +363,14 @@
       "change_condition": null
     },
     {
-      "id": "news-1f6d6d58e815",
-      "title": "Alice Huang husband , asscoiate Li Ming , accused of running network to divert Nvidia AI Chips To China : Report",
-      "url": "https://www.moneycontrol.com/world/alice-huang-s-husband-asscoiate-li-ming-accused-of-running-network-to-divert-nvidia-ai-chips-to-china-report-article-14086546.html",
-      "source": "moneycontrol.com",
+      "id": "news-83272c35fbef",
+      "title": "台股週一開盤變數多 ！ 李其展曝4大訊號 ： 比特幣先V轉 | 財經 | 三立新聞網 SETN . COM",
+      "url": "https://www.setn.com/news/1943374",
+      "source": "setn.com",
       "source_type": "news",
-      "published_at": "2026-11-22T12:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -398,14 +380,14 @@
       "change_condition": null
     },
     {
-      "id": "news-fe28379f3184",
-      "title": "Nvidia chip case : How Chinese man in Megaspeed built network serving China with Alice Huang",
-      "url": "https://timesofindia.indiatimes.com/business/international-business/nvidia-chip-case-how-chinese-man-in-megaspeed-built-network-serving-china-with-alice-huang/articleshow/136072827.cms",
-      "source": "timesofindia.indiatimes.com",
+      "id": "news-b076e48f1bd0",
+      "title": "Collins Chabane Mayor Hlulani Matshebele Targeted Online",
+      "url": "https://sundayworld.co.za/news/opinion/charmza-of-the-week/charmza-hlulani-matshebele-the-new-mayor-of-collins-chabane-local-municipality/",
+      "source": "sundayworld.co.za",
       "source_type": "news",
-      "published_at": "2026-11-22T12:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -415,14 +397,184 @@
       "change_condition": null
     },
     {
-      "id": "news-88ee16693965",
-      "title": "消费电子内卷下的封装破局 ： 板级封装为音频芯片按下小型化加速键",
-      "url": "https://www.163.com/dy/article/LCC6MOOR0511RIVP.html",
+      "id": "news-87a45c35349a",
+      "title": "US ports face surge in cyberattack attempts , threatening vital trade routes : Report",
+      "url": "https://aa.com.tr/en/americas/us-ports-face-surge-in-cyberattack-attempts-threatening-vital-trade-routes-report/4133812",
+      "source": "aa.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e0bce3ddddbe",
+      "title": "Какой сегодня праздник : 23 ноября 2026 года",
+      "url": "https://news.mail.ru/society/73195612/",
+      "source": "news.mail.ru",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-33dc27a05318",
+      "title": "Two oil tankers explode after hitting naval mines in Strait of Hormuz",
+      "url": "https://en.apa.az/asia/two-oil-tankers-explode-after-hitting-naval-mines-in-strait-of-hormuz-537786",
+      "source": "en.apa.az",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0776a4bb3ecc",
+      "title": "Россия , КНР , Иран и Северная Корея создали неформальный альянс , который уже перекраивает мир",
+      "url": "https://www.unian.net/world/rossiya-knr-iran-i-severnaya-koreya-sozdali-neformalnyy-alyans-kotoryy-uzhe-perekraivaet-mir-analitiki-13567986.html",
+      "source": "unian.net",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-41e4c3f12509",
+      "title": "Deadline",
+      "url": "https://deadline.com/print-article/1237231111/",
+      "source": "deadline.com",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a3d27afe9eb7",
+      "title": "Климатический саммит в Турции закрылся без компромиссов и без соглашения",
+      "url": "https://www.bbc.com/russian/articles/cmwy0q0ld927o",
+      "source": "bbc.com",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cd8f8da6c6ec",
+      "title": "« Нас политически шантажируют »: Словакия заявила об отказе участвовать в выдаче кредита Украине",
+      "url": "https://news.mail.ru/politics/73195663/",
+      "source": "news.mail.ru",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-88c71c7072f3",
+      "title": "Anthropic record IPO raises hopes for a charitable windfall that has nonprofits preparing to scale",
+      "url": "http://www.leadertelegram.com/news/nation-world/anthropics-record-ipo-raises-hopes-for-a-charitable-windfall-that-has-nonprofits-preparing-to-scale/article_c30e283c-726f-51d7-beb6-04e701d0a374.html",
+      "source": "leadertelegram.com",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a3afce201478",
+      "title": "Календарь на 23 ноября : праздники , фаза Луны , знак зодиака , именины и дни рождения знаменитостей",
+      "url": "https://news.mail.ru/society/73195603/",
+      "source": "news.mail.ru",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0479950e40e8",
+      "title": "Estadounidenses en menos de una semana - Tercera Información",
+      "url": "https://www.tercerainformacion.es/opinion/22/11/2026/estadounidenses-en-menos-de-una-semana/",
+      "source": "tercerainformacion.es",
+      "source_type": "news",
+      "published_at": "2026-11-22T21:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6ea77150354f",
+      "title": "每体 ： 佩德里和加维家乡球迷会都以两人名字命名",
+      "url": "https://www.163.com/dy/article/LCD4KT4A0549BAP0.html",
       "source": "163.com",
       "source_type": "news",
-      "published_at": "2026-11-22T12:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -432,14 +584,14 @@
       "change_condition": null
     },
     {
-      "id": "news-021b7378bd3a",
-      "title": "Chinese national facing fraud charges played key role in Megaspeed Nvidia chip trade : Report",
-      "url": "https://www.moneycontrol.com/world/chinese-national-facing-fraud-charges-played-key-role-in-megaspeed-s-nvidia-chip-trade-wsj-article-14086572.html",
-      "source": "moneycontrol.com",
+      "id": "news-d9254af173a8",
+      "title": "Climate deal collapses in chaotic end to COP31 – Ghanamma . com",
+      "url": "https://www.ghanamma.com/2026/11/22/climate-deal-collapses-in-chaotic-end-to-cop31/",
+      "source": "ghanamma.com",
       "source_type": "news",
-      "published_at": "2026-11-22T12:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -449,14 +601,14 @@
       "change_condition": null
     },
     {
-      "id": "news-4ecf7b9e5dc4",
-      "title": "China spy agency used intelligence network to secure advanced AI chips , bypass US curbs : Report",
-      "url": "https://www.moneycontrol.com/world/china-s-spy-agency-used-intelligence-network-to-secure-advanced-ai-chips-bypass-us-curbs-report-article-14086563.html",
-      "source": "moneycontrol.com",
+      "id": "news-944ffc96ef13",
+      "title": "Сколько российских компаний закрылось в Дубае с 2022 года : данные Forbes",
+      "url": "https://iz.ru/2206529/2026-11-22/forbes-soobshchil-o-zakrytii-okolo-21-kompanii-rossiian-v-dubae-s-2022-goda",
+      "source": "iz.ru",
       "source_type": "news",
-      "published_at": "2026-11-22T12:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -466,14 +618,14 @@
       "change_condition": null
     },
     {
-      "id": "news-cff907e6211f",
-      "title": "Nvidia Faces US Accounting Probe amid Deepening Turmoil",
-      "url": "https://english.aawsat.com/technology/5344166-nvidia-faces-us-accounting-probe-amid-deepening-turmoil",
-      "source": "english.aawsat.com",
+      "id": "news-80051df14630",
+      "title": "Что будет с компаниями , занимающимися ИИ ? Комментарий Малека Дудакова",
+      "url": "https://www.bfm.ru/news/624667",
+      "source": "bfm.ru",
       "source_type": "news",
-      "published_at": "2026-11-22T11:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -483,14 +635,14 @@
       "change_condition": null
     },
     {
-      "id": "news-8f764e0df03a",
-      "title": "أسعار الذهب عالميًا .. الأونصة تتراجع إلى 3540 دولارًا",
-      "url": "https://www.elwatannews.com/news/details/8401512",
-      "source": "elwatannews.com",
+      "id": "news-013db2e6317e",
+      "title": "Em  Verônika com K , Roberta Rodrigues é protagonista  com P de preta",
+      "url": "https://www.correiobraziliense.com.br/diversao-e-arte/2026/11/7539389-em-veronika-com-k-roberta-rodrigues-e-protagonista-com-p-de-preta.html",
+      "source": "correiobraziliense.com.br",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -500,48 +652,14 @@
       "change_condition": null
     },
     {
-      "id": "news-71b5af1d8643",
-      "title": "黄金 ， 跌跌不休 ！ 多家银行紧急提醒 ！ 抄底还是再等等 ？",
-      "url": "https://stock.jrj.com.cn/2026/11/22131659226067.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1096402d073c",
-      "title": "瑞银 ： 黄金短期仍面临下行压力 ， 预计2027年底金价升至5000美元",
-      "url": "https://stock.jrj.com.cn/2026/11/22153159226205.shtml",
-      "source": "stock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e677cbe79027",
-      "title": "2027年人民币汇率的三种情景",
-      "url": "https://www.163.com/dy/article/LCBVCJEP0519DDOA.html",
+      "id": "news-5201e745d16e",
+      "title": "两年前曾因注册批文失效饮恨创业板IPO ， 侨龙应急重启A股资本路剑指北交所再遇阻 ： 挂牌新三板仅年余即终止 ， 2027年上市  赌约  败局即定 ！ |ipo|深交所",
+      "url": "https://www.163.com/dy/article/LCD47HMM0519WTTG.html",
       "source": "163.com",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -551,14 +669,14 @@
       "change_condition": null
     },
     {
-      "id": "news-72661b0cac14",
-      "title": "高盛看好黄金跑赢白银 ， 预计2028年底金价升至5600美元",
-      "url": "https://stock.jrj.com.cn/2026/11/22145659226179.shtml",
-      "source": "stock.jrj.com.cn",
+      "id": "news-e7ac2e0c02fa",
+      "title": "Ukraine - Krieg im Liveticker : +++ 22 : 12 Russisches Kriegsschiff sinkt nach Explosion in libyschem Hafen +++",
+      "url": "https://www.n-tv.de/politik/22-12-Russisches-Kriegsschiff-sinkt-nach-Explosion-in-libyschem-Hafen-id30859357.html",
+      "source": "n-tv.de",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -568,14 +686,14 @@
       "change_condition": null
     },
     {
-      "id": "news-fda9e8ac9ec5",
-      "title": "Nvidia supply - chain expansion boosts confidence among Taiwan firms : Analyst",
-      "url": "https://focustaiwan.tw/business/202611220006",
-      "source": "focustaiwan.tw",
+      "id": "news-ed96ba763af3",
+      "title": "Россия и страны Юго - Восточной Азии развивают сотрудничество в атомной энергетике",
+      "url": "https://iz.ru/2205516/vladislav-petrov/vetnam-i-tailand-gotovy-vozvodit-atomnye-obekty-s-pomoschyu-rf",
+      "source": "iz.ru",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -585,14 +703,14 @@
       "change_condition": null
     },
     {
-      "id": "news-159abc620ecb",
-      "title": "기업들이 앞다퉈 돈을 내는 연구소 [ AI 산업 부울경이 이끈다 ]",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026112121401891629",
-      "source": "busan.com",
+      "id": "news-3e665bdf7948",
+      "title": "Ahead of Thanksgiving , Southern Californians feel pinch of high food prices",
+      "url": "https://www.sgvtribune.com/2026/11/22/ahead-of-thanksgiving-southern-californians-feel-pinch-of-high-food-prices/",
+      "source": "sgvtribune.com",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
-        "semis"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -602,14 +720,14 @@
       "change_condition": null
     },
     {
-      "id": "news-19425b0739ce",
-      "title": "증시 급락 우려에  증안펀드  준비 … 시행되면 6년만에 발동",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026112218464998064",
-      "source": "busan.com",
+      "id": "news-11d5756f203a",
+      "title": "Rohstoffe im Fokus : So bewegen sich Goldpreis & Co . am Sonntagabend",
+      "url": "https://www.finanzen.net/nachricht/rohstoffe/rohstoffe-im-fokus-so-bewegen-sich-goldpreis-co-am-sonntagabend-16080628",
+      "source": "finanzen.net",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T20:30:00Z",
       "categories": [
-        "semis"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -619,14 +737,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3107c4d61f6d",
-      "title": "嘉大107週年校慶傳承百年榮光 嘉心嘉力共創新局攜手校友打造創新校園",
-      "url": "https://n.yam.com/Article/20261122592451",
-      "source": "n.yam.com",
+      "id": "news-77e371e37b01",
+      "title": "Nuotare nello Stretto di Hormuz tra esplosioni e chiazze di greggio",
+      "url": "https://www.zazoom.it/2026-11-22/nuotare-nello-stretto-di-hormuz-tra-esplosioni-e-chiazze-di-greggio/19962663/",
+      "source": "zazoom.it",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T20:30:00Z",
       "categories": [
-        "semis"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
@@ -636,133 +754,14 @@
       "change_condition": null
     },
     {
-      "id": "news-3987d8b6978f",
-      "title": "잘 키운 연구소 imec , 1조 매출 내고 거대 생태계 만들었다 [ AI 산업 부울경이 이끈다 ]",
-      "url": "https://www.busan.com/view/busan/view.php?code=2026112121243046618",
-      "source": "busan.com",
+      "id": "news-31d109a776f3",
+      "title": "В Ормузском проливе загорелись два танкера",
+      "url": "https://vesti.az/v-mire/v-ormuzskom-prolive-zagorelis-dva-tankera-629752",
+      "source": "vesti.az",
       "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
+      "published_at": "2026-11-22T20:30:00Z",
       "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9fe68e9c54c2",
-      "title": "Sat , 21st , Nov , 2026 : Dr Joel Scanlan ; , Snr lecturer Uni of Tasmania & cybersecurity expert",
-      "url": "https://joy.org.au/saturdaymagazine/2026/11/sat-21st-nov-2026-dr-joel-scanlan-snr-lecturer-uni-of-tasmania-cybersecurity-expert/",
-      "source": "joy.org.au",
-      "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-22426ae377a3",
-      "title": "젠슨 황과 비트코인 [ 헬로 , 크립토 ]",
-      "url": "https://www.hani.co.kr/arti/opinion/column/1288540.html",
-      "source": "hani.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ab0fe6cd22de",
-      "title": "[ 사설 ] 글로벌 주식시장 급락세 ,  AI 약세장  진입 대비해야",
-      "url": "https://www.hani.co.kr/arti/opinion/editorial/1288538.html",
-      "source": "hani.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-22T10:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-da5d622796d6",
-      "title": "Fiyat düşüşleri fırsat mı ?",
-      "url": "https://www.hurriyet.com.tr/yazarlar/zeynel-balci/fiyat-dususleri-firsat-mi-43386528",
-      "source": "hurriyet.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-22T05:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-02af9b111610",
-      "title": "Jim Cramer Says the Fed  Doesnt Need to Do More Than 25",
-      "url": "https://247wallst.com/investing/2026/11/21/jim-cramer-says-the-fed-doesnt-need-to-do-more-than-25/",
-      "source": "247wallst.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T00:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-23ae2496d6e5",
-      "title": "Edir Macedo faz aporte bilionário para tentar salvar o Digimais",
-      "url": "https://www.brasil247.com/economia/edir-macedo-faz-aporte-bilionario-para-tentar-salvar-o-digimais/",
-      "source": "brasil247.com",
-      "source_type": "news",
-      "published_at": "2026-11-21T20:30:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4c0e43475328",
-      "title": "President Donald Trump cites India growth , slams US high interest rates",
-      "url": "https://www.tribuneindia.com/news/india/president-donald-trump-cites-indias-growth-slams-us-high-interest-rates/",
-      "source": "tribuneindia.com",
-      "source_type": "news",
-      "published_at": "2026-11-21T20:30:00Z",
-      "categories": [
-        "rates"
+        "oil"
       ],
       "importance": 3,
       "facts": null,
