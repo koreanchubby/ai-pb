@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T02:51:58Z",
+  "generated_at": "2026-11-23T12:59:29Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -107,12 +107,12 @@
       }
     },
     {
-      "id": "market-69e62ce8644a",
+      "id": "market-7310ccd4589a",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-19T15:00:00Z",
+      "published_at": "2026-11-20T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -127,7 +127,7 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261120",
+        "date": "20261121",
         "alert_threshold": 0.25
       }
     },
@@ -292,17 +292,16 @@
       "change_condition": null
     },
     {
-      "id": "news-7e72574e289e",
-      "title": "The Final Dollar Spike Before the Crack - Up Boom",
-      "url": "http://www.zerohedge.com/news/2026-11-19/final-dollar-spike-crack-boom",
-      "source": "zerohedge.com",
+      "id": "news-6be9a0441bf4",
+      "title": "How Kim Jong Un gets away with building nukes and ghosting Trump",
+      "url": "https://www.livemint.com/global/how-kim-jong-un-gets-away-with-building-nukes-and-ghosting-trump-11795397191350.html",
+      "source": "livemint.com",
       "source_type": "news",
-      "published_at": "2026-11-20T06:45:00Z",
+      "published_at": "2026-11-23T03:30:00Z",
       "categories": [
-        "rates",
-        "fx"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -310,17 +309,16 @@
       "change_condition": null
     },
     {
-      "id": "news-0d841aaf2aa4",
-      "title": "Trillion - Dollar Debut # 1887",
-      "url": "https://geeknewscentral.com/2026/11/19/trillion-dollar-debut-1887/",
-      "source": "geeknewscentral.com",
+      "id": "news-2557dd8d6477",
+      "title": "Incidencia de la Ley de Rescate Económico en la formalidad y en los costos laborales del mercado de trabajo colombiano",
+      "url": "https://razonpublica.com/incidencia-de-la-ley-de-rescate-economico-en-la-formalidad-y-en-los-costos-laborales-del-mercado-de-trabajo-colombiano/",
+      "source": "razonpublica.com",
       "source_type": "news",
-      "published_at": "2026-11-20T06:45:00Z",
+      "published_at": "2026-11-23T03:30:00Z",
       "categories": [
-        "geopolitics",
-        "fx"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -328,17 +326,220 @@
       "change_condition": null
     },
     {
-      "id": "news-67210bd9bc8f",
-      "title": "Dow drops below Pam Bondi threshold of 50 , 000 as Nvidia shares slide",
-      "url": "https://www.aol.com/articles/dow-drops-below-pam-bondi-043636000.html",
-      "source": "aol.com",
+      "id": "news-59768e06ce0a",
+      "title": "中 배터리 수출 혜택 끊고 EU는 현지 생산 압박⋯K배터리 반격 기회",
+      "url": "http://inews24.com/view/2029020",
+      "source": "inews24.com",
       "source_type": "news",
-      "published_at": "2026-11-20T05:30:00Z",
+      "published_at": "2026-11-23T03:30:00Z",
       "categories": [
-        "rates",
-        "semis"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9b3c3f1721c9",
+      "title": "Is the AI Stock Market Boom Coming to an End ?",
+      "url": "https://newsonjapan.com/article/151486.php",
+      "source": "newsonjapan.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1671897aae8c",
+      "title": "Perfetti Van Melle to close 2026 at ₹4 , 000 crore revenue ; tough year ahead , says MD",
+      "url": "https://www.livemint.com/companies/news/perfetti-van-melle-to-close-2026-with-4-000-crore-revenue-tough-year-ahead-md-fmcg-chocolate-cocoa-confectionery-11795337168596.html",
+      "source": "livemint.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2992eb49691a",
+      "title": "Vietnam economic rise creates a growing middle class , but not everyone is better off – Asia News Network",
+      "url": "https://asianews.network/vietnams-economic-rise-creates-a-growing-middle-class-but-not-everyone-is-better-off/",
+      "source": "asianews.network",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4cfcf5435b88",
+      "title": "India champions Diamond Trade and fairer rules at UN",
+      "url": "https://newsindiatimes.com/india-champions-diamond-trade-and-fairer-rules-at-un/",
+      "source": "newsindiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e176fabf9ee6",
+      "title": "蘋果重組團隊研發自主操作AI代理 傳最快2027年底問世",
+      "url": "https://n.yam.com/Article/20261123875473",
+      "source": "n.yam.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b0435914ee85",
+      "title": "هذا العيار يسجل 6314 جنيهًا ، أسعار الذهب اليوم الإثنين 23 - 11 - 2026",
+      "url": "https://akhbaregy.com/2026/11/23/%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%B9%D9%8A%D8%A7%D8%B1-%D9%8A%D8%B3%D8%AC%D9%84-6314-%D8%AC%D9%86%D9%8A%D9%87%D9%8B%D8%A7%D8%8C-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7/",
+      "source": "akhbaregy.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-da7f77cf014c",
+      "title": "خبير طاقة : أسعار النفط لن تعود لمستويات ما قبل الحرب",
+      "url": "https://akhbaregy.com/2026/11/23/%D8%AE%D8%A8%D9%8A%D8%B1-%D8%B7%D8%A7%D9%82%D8%A9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%84%D9%86-%D8%AA%D8%B9%D9%88%D8%AF-%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%8A%D8%A7%D8%AA/",
+      "source": "akhbaregy.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7c30c8f3612d",
+      "title": "迅策科技被纳入恒生科技指数 ， Token第一股  有望获被动增量资金 _ 产业资讯 _ 行业 _ 中金在线",
+      "url": "http://hy.stock.cnfol.com/hangyejingcui/20261123/32429529.shtml",
+      "source": "hy.stock.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e6a98dc2f180",
+      "title": "Top stocks to watch today : Tata Steel , APL Apollo Tubes , Maruti Suzuki , RVNL , Waaree Energies & 17 others in focus",
+      "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-tata-steel-apl-apollo-tubes-maruti-suzuki-rvnl-waaree-energies-17-others-in-focus-11795399384907.html",
+      "source": "livemint.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a5ba676c1b28",
+      "title": "太平成霹州挡绿潮最后防线 ！ 倪可敏 ： 失守恐让国家倒退 | 国内",
+      "url": "https://www.orientaldaily.com.my/news/nation/2026/11/23/865083",
+      "source": "orientaldaily.com.my",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3763de627ba5",
+      "title": "BT BIG STORY : India growth story faces a twin squeeze from inflation and the rupee",
+      "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-20",
+      "source": "businesstoday.in",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2a642ef14978",
+      "title": "Rusia y China buscan darle forma al mundo multipolar",
+      "url": "http://www.laarena.com.ar/la-pampa/rusia-y-china-buscan-darle-forma-al-mundo-multipolar-202611230130",
+      "source": "laarena.com.ar",
+      "source_type": "news",
+      "published_at": "2026-11-23T03:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -556,210 +757,6 @@
       "source": "focus.ua",
       "source_type": "news",
       "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bc06dfafab62",
-      "title": "S . Korea asks Qatar to prioritize LNG supplies once production , shipping normalize",
-      "url": "https://www.koreaherald.com/article/10945883",
-      "source": "koreaherald.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4807995e592f",
-      "title": "الدفاعات الجوية السعودية تعترض صاروخاً باليستياً وطائرة مسيرة أطلقهما الحوثيون",
-      "url": "https://alquds.com/ar/posts/277054",
-      "source": "alquds.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-83272c35fbef",
-      "title": "台股週一開盤變數多 ！ 李其展曝4大訊號 ： 比特幣先V轉 | 財經 | 三立新聞網 SETN . COM",
-      "url": "https://www.setn.com/news/1943374",
-      "source": "setn.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b076e48f1bd0",
-      "title": "Collins Chabane Mayor Hlulani Matshebele Targeted Online",
-      "url": "https://sundayworld.co.za/news/opinion/charmza-of-the-week/charmza-hlulani-matshebele-the-new-mayor-of-collins-chabane-local-municipality/",
-      "source": "sundayworld.co.za",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-87a45c35349a",
-      "title": "US ports face surge in cyberattack attempts , threatening vital trade routes : Report",
-      "url": "https://aa.com.tr/en/americas/us-ports-face-surge-in-cyberattack-attempts-threatening-vital-trade-routes-report/4133812",
-      "source": "aa.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e0bce3ddddbe",
-      "title": "Какой сегодня праздник : 23 ноября 2026 года",
-      "url": "https://news.mail.ru/society/73195612/",
-      "source": "news.mail.ru",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-33dc27a05318",
-      "title": "Two oil tankers explode after hitting naval mines in Strait of Hormuz",
-      "url": "https://en.apa.az/asia/two-oil-tankers-explode-after-hitting-naval-mines-in-strait-of-hormuz-537786",
-      "source": "en.apa.az",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0776a4bb3ecc",
-      "title": "Россия , КНР , Иран и Северная Корея создали неформальный альянс , который уже перекраивает мир",
-      "url": "https://www.unian.net/world/rossiya-knr-iran-i-severnaya-koreya-sozdali-neformalnyy-alyans-kotoryy-uzhe-perekraivaet-mir-analitiki-13567986.html",
-      "source": "unian.net",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-41e4c3f12509",
-      "title": "Deadline",
-      "url": "https://deadline.com/print-article/1237231111/",
-      "source": "deadline.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a3d27afe9eb7",
-      "title": "Климатический саммит в Турции закрылся без компромиссов и без соглашения",
-      "url": "https://www.bbc.com/russian/articles/cmwy0q0ld927o",
-      "source": "bbc.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cd8f8da6c6ec",
-      "title": "« Нас политически шантажируют »: Словакия заявила об отказе участвовать в выдаче кредита Украине",
-      "url": "https://news.mail.ru/politics/73195663/",
-      "source": "news.mail.ru",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-88c71c7072f3",
-      "title": "Anthropic record IPO raises hopes for a charitable windfall that has nonprofits preparing to scale",
-      "url": "http://www.leadertelegram.com/news/nation-world/anthropics-record-ipo-raises-hopes-for-a-charitable-windfall-that-has-nonprofits-preparing-to-scale/article_c30e283c-726f-51d7-beb6-04e701d0a374.html",
-      "source": "leadertelegram.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
       "categories": [
         "geopolitics"
       ],
