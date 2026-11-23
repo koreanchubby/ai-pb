@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-22T21:51:44Z",
+  "generated_at": "2026-11-23T02:51:58Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -82,6 +82,31 @@
       "change_condition": null
     },
     {
+      "id": "market-b3b801d44ed9",
+      "title": "원/달러 환율(매매기준율) 1337.3원 (직전 대비 +6.5원)",
+      "url": "https://ecos.bok.or.kr/#731Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-22T15:00:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 1337.3,
+        "previous": 1330.8,
+        "change": 6.5,
+        "unit": "원",
+        "date": "20261123",
+        "alert_threshold": 15.0
+      }
+    },
+    {
       "id": "market-69e62ce8644a",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
@@ -104,31 +129,6 @@
         "unit": "%",
         "date": "20261120",
         "alert_threshold": 0.25
-      }
-    },
-    {
-      "id": "market-986b4422f906",
-      "title": "원/달러 환율(매매기준율) 1330.8원 (직전 대비 -0.3원)",
-      "url": "https://ecos.bok.or.kr/#731Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-19T15:00:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 1330.8,
-        "previous": 1331.1,
-        "change": -0.3,
-        "unit": "원",
-        "date": "20261120",
-        "alert_threshold": 15.0
       }
     },
     {
@@ -182,6 +182,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-f9bd9769b396",
+      "title": "트럼프  증시 6조달러 증발은 100 % 민주당 탓 ... 실제 시장 흐름은 달랐다",
+      "url": "https://newsway.co.kr/news/view?ud=2026112308500364947",
+      "source": "newsway.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics",
+        "fx"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-773ecfba6e10",
@@ -328,17 +346,237 @@
       "change_condition": null
     },
     {
-      "id": "news-f855de9ef2d1",
-      "title": "하루 만에 5000선 와르르 … 코스피 3 % 대 급락 , 삼성전자 18만원대로",
-      "url": "https://www.ddaily.co.kr:443/page/view/2026112009255886986",
-      "source": "ddaily.co.kr",
+      "id": "news-a1ad028caf50",
+      "title": "Climate deal collapses in chaotic end to COP31 - Europe",
+      "url": "http://www.thejakartapost.com/world/2026/11/23/climate-deal-collapses-in-chaotic-end-to-cop31",
+      "source": "thejakartapost.com",
       "source_type": "news",
-      "published_at": "2026-11-20T02:30:00Z",
+      "published_at": "2026-11-23T02:30:00Z",
       "categories": [
-        "fx",
-        "semis"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2fce34c42180",
+      "title": "Армия США испытала в Германии робота , запускающего рой ударных дронов",
+      "url": "https://news.mail.ru/politics/73196548/",
+      "source": "news.mail.ru",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-0f59d15c7694",
+      "title": "Cậu bé vàng  của showbiz Hoa ngữ , nổi đình đám cùng Thích Tiểu Long giờ ra sao ?",
+      "url": "https://baomoi.com/cau-be-vang-cua-showbiz-hoa-ngu-noi-dinh-dam-cung-thich-tieu-long-gio-ra-sao-c56578897.epi",
+      "source": "baomoi.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-29bc939e3044",
+      "title": "О чем будут новые переговоры : Кушнер упомянул о безопасности Европы , статье НАТО и плане процветания для Украины",
+      "url": "https://focus.ua/politics/775635-o-chem-poydut-novye-peregovory-kushner-upomyanul-o-bezopasnosti-evropy-state-nato-i-plane-procvetaniya-dlya-ukrainy",
+      "source": "focus.ua",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6749d7e9b9b8",
+      "title": "贝森特公开叫板美联储 ： 别拿美国经济冒险",
+      "url": "https://usstock.jrj.com.cn/2026/11/23075559227204.shtml",
+      "source": "usstock.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-62c98cd789e9",
+      "title": "與野 , 나란히 청년 표심 공략 … 국힘은  정책 , 민주당은  소통",
+      "url": "https://www.segye.com:443/newsView/20261122510956",
+      "source": "segye.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1591c08f0253",
+      "title": "特朗普 ： 普京告诉我 ， 如果我是总统 ， 俄乌战争就不会发生 普京愿外交解决 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20261123/49897235.html",
+      "source": "news.china.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-15223159b05e",
+      "title": "钛7禁售欧盟却不在比亚迪匈牙利工厂投产清单 ， 禁令影响多大 ？",
+      "url": "https://k.sina.com.cn/article_7879996580_1d5af34a402001xxr0.html",
+      "source": "k.sina.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cc910092ea5b",
+      "title": "TS . Võ Trí Thành : Doanh nghiệp cần thay đổi cách nhìn về thị trường khi lập kế hoạch 2027",
+      "url": "https://baodautu.vn/ts-vo-tri-thanh-doanh-nghiep-can-thay-doi-cach-nhin-ve-thi-truong-khi-lap-ke-hoach-2027-d747117.html",
+      "source": "baodautu.vn",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ea03592dd366",
+      "title": "بين عقوبات روسيا وإيران",
+      "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D8%A3%D9%8A/5344463-%D8%A8%D9%8A%D9%86-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%88%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
+      "source": "aawsat.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-78397c25c887",
+      "title": "Къшнър : Гаранциите за сигурност са ключови за мира в Украйна",
+      "url": "https://news.bg/int-politics/kashnar-garantsiite-za-sigurnost-sa-klyuchovi-za-mira-v-ukrayna.html",
+      "source": "news.bg",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-56e039070d28",
+      "title": "突发警告 ， 国际机构提示风险了",
+      "url": "https://finance.ifeng.com/c/8yHMluQ2kLG",
+      "source": "finance.ifeng.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a00d9e0164f8",
+      "title": "Про що будуть нові переговори : Кушнер згадав безпеку Європи , статтю НАТО і план процвітання для України",
+      "url": "https://focus.ua/uk/politics/775635-pro-shcho-budut-novi-peregovori-kushner-zgadav-bezpeku-yevropi-stattyu-nato-i-plan-procvitannya-dlya-ukrajini",
+      "source": "focus.ua",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bc06dfafab62",
+      "title": "S . Korea asks Qatar to prioritize LNG supplies once production , shipping normalize",
+      "url": "https://www.koreaherald.com/article/10945883",
+      "source": "koreaherald.com",
+      "source_type": "news",
+      "published_at": "2026-11-23T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -524,244 +762,6 @@
       "published_at": "2026-11-22T21:30:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a3afce201478",
-      "title": "Календарь на 23 ноября : праздники , фаза Луны , знак зодиака , именины и дни рождения знаменитостей",
-      "url": "https://news.mail.ru/society/73195603/",
-      "source": "news.mail.ru",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0479950e40e8",
-      "title": "Estadounidenses en menos de una semana - Tercera Información",
-      "url": "https://www.tercerainformacion.es/opinion/22/11/2026/estadounidenses-en-menos-de-una-semana/",
-      "source": "tercerainformacion.es",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6ea77150354f",
-      "title": "每体 ： 佩德里和加维家乡球迷会都以两人名字命名",
-      "url": "https://www.163.com/dy/article/LCD4KT4A0549BAP0.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d9254af173a8",
-      "title": "Climate deal collapses in chaotic end to COP31 – Ghanamma . com",
-      "url": "https://www.ghanamma.com/2026/11/22/climate-deal-collapses-in-chaotic-end-to-cop31/",
-      "source": "ghanamma.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-944ffc96ef13",
-      "title": "Сколько российских компаний закрылось в Дубае с 2022 года : данные Forbes",
-      "url": "https://iz.ru/2206529/2026-11-22/forbes-soobshchil-o-zakrytii-okolo-21-kompanii-rossiian-v-dubae-s-2022-goda",
-      "source": "iz.ru",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-80051df14630",
-      "title": "Что будет с компаниями , занимающимися ИИ ? Комментарий Малека Дудакова",
-      "url": "https://www.bfm.ru/news/624667",
-      "source": "bfm.ru",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-013db2e6317e",
-      "title": "Em  Verônika com K , Roberta Rodrigues é protagonista  com P de preta",
-      "url": "https://www.correiobraziliense.com.br/diversao-e-arte/2026/11/7539389-em-veronika-com-k-roberta-rodrigues-e-protagonista-com-p-de-preta.html",
-      "source": "correiobraziliense.com.br",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5201e745d16e",
-      "title": "两年前曾因注册批文失效饮恨创业板IPO ， 侨龙应急重启A股资本路剑指北交所再遇阻 ： 挂牌新三板仅年余即终止 ， 2027年上市  赌约  败局即定 ！ |ipo|深交所",
-      "url": "https://www.163.com/dy/article/LCD47HMM0519WTTG.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e7ac2e0c02fa",
-      "title": "Ukraine - Krieg im Liveticker : +++ 22 : 12 Russisches Kriegsschiff sinkt nach Explosion in libyschem Hafen +++",
-      "url": "https://www.n-tv.de/politik/22-12-Russisches-Kriegsschiff-sinkt-nach-Explosion-in-libyschem-Hafen-id30859357.html",
-      "source": "n-tv.de",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ed96ba763af3",
-      "title": "Россия и страны Юго - Восточной Азии развивают сотрудничество в атомной энергетике",
-      "url": "https://iz.ru/2205516/vladislav-petrov/vetnam-i-tailand-gotovy-vozvodit-atomnye-obekty-s-pomoschyu-rf",
-      "source": "iz.ru",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3e665bdf7948",
-      "title": "Ahead of Thanksgiving , Southern Californians feel pinch of high food prices",
-      "url": "https://www.sgvtribune.com/2026/11/22/ahead-of-thanksgiving-southern-californians-feel-pinch-of-high-food-prices/",
-      "source": "sgvtribune.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T21:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-11d5756f203a",
-      "title": "Rohstoffe im Fokus : So bewegen sich Goldpreis & Co . am Sonntagabend",
-      "url": "https://www.finanzen.net/nachricht/rohstoffe/rohstoffe-im-fokus-so-bewegen-sich-goldpreis-co-am-sonntagabend-16080628",
-      "source": "finanzen.net",
-      "source_type": "news",
-      "published_at": "2026-11-22T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-77e371e37b01",
-      "title": "Nuotare nello Stretto di Hormuz tra esplosioni e chiazze di greggio",
-      "url": "https://www.zazoom.it/2026-11-22/nuotare-nello-stretto-di-hormuz-tra-esplosioni-e-chiazze-di-greggio/19962663/",
-      "source": "zazoom.it",
-      "source_type": "news",
-      "published_at": "2026-11-22T20:30:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-31d109a776f3",
-      "title": "В Ормузском проливе загорелись два танкера",
-      "url": "https://vesti.az/v-mire/v-ormuzskom-prolive-zagorelis-dva-tankera-629752",
-      "source": "vesti.az",
-      "source_type": "news",
-      "published_at": "2026-11-22T20:30:00Z",
-      "categories": [
-        "oil"
       ],
       "importance": 3,
       "facts": null,
