@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-23T12:59:29Z",
+  "generated_at": "2026-11-24T00:58:15Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -31,8 +31,8 @@
     },
     {
       "source": "한국은행 ECOS",
-      "ok": true,
-      "count": 2
+      "ok": false,
+      "reason": "RuntimeError: ECOS 전체 실패 — 722Y001: URLError: <urlopen error timed out> / 731Y001: URLError: <urlopen error timed out>"
     },
     {
       "source": "한국투자증권",
@@ -274,17 +274,237 @@
       "change_condition": null
     },
     {
-      "id": "news-60de00ed9007",
-      "title": "Treasury secretary says no further restrictions are needed for Nvidia chip exports to China",
-      "url": "https://www.clickorlando.com/business/2026/11/20/treasury-secretary-says-no-further-restrictions-are-needed-for-nvidia-chip-exports-to-china/",
-      "source": "clickorlando.com",
+      "id": "news-1d72bf9d807d",
+      "title": "La vivienda centra el choque entre los bloques políticos | Noticias Diario de Burgos",
+      "url": "https://www.diariodeburgos.es/noticia/zff7ce223-0242-479c-b8104cc98c336cca/202611/la-vivienda-centra-el-choque-entre-los-bloques-politicos",
+      "source": "diariodeburgos.es",
       "source_type": "news",
-      "published_at": "2026-11-21T00:30:00Z",
+      "published_at": "2026-11-24T00:30:00Z",
       "categories": [
-        "rates",
-        "semis"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7d15d3ae7d48",
+      "title": "Face the Fight surpasses $58 million in grants to fight veteran suicide",
+      "url": "https://abcnews4.com/news/nation-world/face-the-fight-surpasses-58-million-in-grants-to-fight-veteran-suicide",
+      "source": "abcnews4.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-706fa7015856",
+      "title": "В Пхеньяне могут закрыть посольство Швейцарии : рекомендацию дала сестра Ким Чен Ына",
+      "url": "https://news.mail.ru/society/73209937/",
+      "source": "news.mail.ru",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-81372ea25973",
+      "title": "صاروخ نووي روسي في الفضاء .. 3 تحذيرات من أحمد موسى بشأن قطع الإنترنت عالميا • غربة نيوز",
+      "url": "https://ghorbanews.com/%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%86%D9%88%D9%88%D9%8A-%D8%B1%D9%88%D8%B3%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1-3-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7%D8%AA-%D9%85%D9%86-%D8%A3/",
+      "source": "ghorbanews.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c5a6134738b0",
+      "title": "Sainsbury launches 8p per litre rule for drivers - starts Wednesday | united kingdom | News",
+      "url": "https://www.express.co.uk/news/uk/2268691/sainsburys-8p-per-litre-drivers",
+      "source": "express.co.uk",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-874b4ec9b9b9",
+      "title": "Il fallimento della Cop31 luci e ombre del no europeo",
+      "url": "https://www.zazoom.it/2026-11-24/il-fallimento-della-cop31-luci-e-ombre-del-no-europeo/19967106/",
+      "source": "zazoom.it",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ae5a4d72ee85",
+      "title": "El  Braveheart de Temu , ETA y un amor imposible : los 10 mejores momentos del debate de portavoces",
+      "url": "https://www.elconfidencial.com/espana/2026-11-24/debate-portavoces-rufian-rtve-ester-munoz_4471098/",
+      "source": "elconfidencial.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a488482cce2e",
+      "title": "算力即主權 - 黃仁勳回歸看白宮介入 , 美中AI霸權博弈與21世紀地緣政治新秩序 .",
+      "url": "https://n.yam.com/Article/20261124109533",
+      "source": "n.yam.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a227bb11b84b",
+      "title": "Trump 干预 ， 黄仁勋复位 | www . wenxuecity . com",
+      "url": "https://www.wenxuecity.com/blog/202611/30672/18674.html",
+      "source": "wenxuecity.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-029a147714d2",
+      "title": "To Make Life More Affordable , Democrats Could Begin With Permitting Reform .",
+      "url": "https://foreignpolicy.com/2026/11/23/democrats-affordability-permitting-reform-baaja-energy-policy/?tpcc=recirc_trending062921",
+      "source": "foreignpolicy.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d30f42b55ddc",
+      "title": "Qantas and Virgin flight sales cut regional fares for 2027 | The Area News",
+      "url": "https://www.areanews.com.au/story/9396572/qantas-and-virgin-flight-sales-cut-regional-fares-for-2027/",
+      "source": "areanews.com.au",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-06c36d8206c7",
+      "title": "A Thanksgiving treat in the offing : Lower gas prices",
+      "url": "https://sedaliademocrat.com/2026/11/23/a-thanksgiving-treat-in-the-offing-lower-gas-prices/",
+      "source": "sedaliademocrat.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f47490ba5fc1",
+      "title": "WHO director - general visits Cuba as healthcare system breaks down",
+      "url": "https://japantoday.com/category/world/who-director-general-visits-cuba-as-healthcare-system-breaks-down",
+      "source": "japantoday.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-47fbb0ccbc2e",
+      "title": "Donald Tramp odustaje od promene vlasti u Iranu , traži trajni sporazum o nuklearnom oružju",
+      "url": "https://informer.rs/planeta/vesti/1172143/donald-tramp-iran-vlast-nuklearno-oruzje",
+      "source": "informer.rs",
+      "source_type": "news",
+      "published_at": "2026-11-24T00:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -536,227 +756,6 @@
       "source": "laarena.com.ar",
       "source_type": "news",
       "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a1ad028caf50",
-      "title": "Climate deal collapses in chaotic end to COP31 - Europe",
-      "url": "http://www.thejakartapost.com/world/2026/11/23/climate-deal-collapses-in-chaotic-end-to-cop31",
-      "source": "thejakartapost.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2fce34c42180",
-      "title": "Армия США испытала в Германии робота , запускающего рой ударных дронов",
-      "url": "https://news.mail.ru/politics/73196548/",
-      "source": "news.mail.ru",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-0f59d15c7694",
-      "title": "Cậu bé vàng  của showbiz Hoa ngữ , nổi đình đám cùng Thích Tiểu Long giờ ra sao ?",
-      "url": "https://baomoi.com/cau-be-vang-cua-showbiz-hoa-ngu-noi-dinh-dam-cung-thich-tieu-long-gio-ra-sao-c56578897.epi",
-      "source": "baomoi.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-29bc939e3044",
-      "title": "О чем будут новые переговоры : Кушнер упомянул о безопасности Европы , статье НАТО и плане процветания для Украины",
-      "url": "https://focus.ua/politics/775635-o-chem-poydut-novye-peregovory-kushner-upomyanul-o-bezopasnosti-evropy-state-nato-i-plane-procvetaniya-dlya-ukrainy",
-      "source": "focus.ua",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6749d7e9b9b8",
-      "title": "贝森特公开叫板美联储 ： 别拿美国经济冒险",
-      "url": "https://usstock.jrj.com.cn/2026/11/23075559227204.shtml",
-      "source": "usstock.jrj.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-62c98cd789e9",
-      "title": "與野 , 나란히 청년 표심 공략 … 국힘은  정책 , 민주당은  소통",
-      "url": "https://www.segye.com:443/newsView/20261122510956",
-      "source": "segye.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1591c08f0253",
-      "title": "特朗普 ： 普京告诉我 ， 如果我是总统 ， 俄乌战争就不会发生 普京愿外交解决 _ 新闻频道 _ 中华网",
-      "url": "https://news.china.com/socialgd/10000169/20261123/49897235.html",
-      "source": "news.china.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-15223159b05e",
-      "title": "钛7禁售欧盟却不在比亚迪匈牙利工厂投产清单 ， 禁令影响多大 ？",
-      "url": "https://k.sina.com.cn/article_7879996580_1d5af34a402001xxr0.html",
-      "source": "k.sina.com.cn",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-cc910092ea5b",
-      "title": "TS . Võ Trí Thành : Doanh nghiệp cần thay đổi cách nhìn về thị trường khi lập kế hoạch 2027",
-      "url": "https://baodautu.vn/ts-vo-tri-thanh-doanh-nghiep-can-thay-doi-cach-nhin-ve-thi-truong-khi-lap-ke-hoach-2027-d747117.html",
-      "source": "baodautu.vn",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ea03592dd366",
-      "title": "بين عقوبات روسيا وإيران",
-      "url": "https://aawsat.com/%D8%A7%D9%84%D8%B1%D8%A3%D9%8A/5344463-%D8%A8%D9%8A%D9%86-%D8%B9%D9%82%D9%88%D8%A8%D8%A7%D8%AA-%D8%B1%D9%88%D8%B3%D9%8A%D8%A7-%D9%88%D8%A5%D9%8A%D8%B1%D8%A7%D9%86",
-      "source": "aawsat.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-78397c25c887",
-      "title": "Къшнър : Гаранциите за сигурност са ключови за мира в Украйна",
-      "url": "https://news.bg/int-politics/kashnar-garantsiite-za-sigurnost-sa-klyuchovi-za-mira-v-ukrayna.html",
-      "source": "news.bg",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-56e039070d28",
-      "title": "突发警告 ， 国际机构提示风险了",
-      "url": "https://finance.ifeng.com/c/8yHMluQ2kLG",
-      "source": "finance.ifeng.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a00d9e0164f8",
-      "title": "Про що будуть нові переговори : Кушнер згадав безпеку Європи , статтю НАТО і план процвітання для України",
-      "url": "https://focus.ua/uk/politics/775635-pro-shcho-budut-novi-peregovori-kushner-zgadav-bezpeku-yevropi-stattyu-nato-i-plan-procvitannya-dlya-ukrajini",
-      "source": "focus.ua",
-      "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
       "categories": [
         "geopolitics"
       ],
