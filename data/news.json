@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T11:01:46Z",
+  "generated_at": "2026-11-24T21:18:51Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -47,6 +47,23 @@
     }
   ],
   "items": [
+    {
+      "id": "official-82bce5f1c5cd",
+      "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261124a.htm",
+      "source": "Federal Reserve",
+      "source_type": "official",
+      "published_at": "2026-11-24T19:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
     {
       "id": "official-4412ec6eba73",
       "title": "Minutes of the Federal Open Market Committee, October 27-28, 2026",
@@ -184,6 +201,24 @@
       }
     },
     {
+      "id": "news-358c5ff3b25d",
+      "title": "Fox News red - baiters cheer for Trump Nvidia state capitalism",
+      "url": "https://www.mediamatters.org/fox-news/fox-news-red-baiters-cheer-trumps-nvidia-state-capitalism",
+      "source": "mediamatters.org",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
       "id": "news-f9bd9769b396",
       "title": "트럼프  증시 6조달러 증발은 100 % 민주당 탓 ... 실제 시장 흐름은 달랐다",
       "url": "https://newsway.co.kr/news/view?ud=2026112308500364947",
@@ -256,17 +291,237 @@
       "change_condition": null
     },
     {
-      "id": "news-6eba0c247ec3",
-      "title": "Dangote Group unveils multi ‑ billion ‑ dollar projects across East Africa",
-      "url": "https://kenya-today.com/report-dangote-group-unveils-multibilliondollar-projects-across-east-africa-30996/",
-      "source": "kenya-today.com",
+      "id": "news-322633ba5e2b",
+      "title": "Mossad Chief Reportedly Pushed US To Attack Iran Despite His Own Analyst Objections",
+      "url": "https://dailycaller.com/2026/11/24/mossad-chief-pushed-iran-attack-analyst-objections/",
+      "source": "dailycaller.com",
       "source_type": "news",
-      "published_at": "2026-11-21T20:30:00Z",
+      "published_at": "2026-11-24T20:30:00Z",
       "categories": [
-        "oil",
-        "fx"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-65c57d65dab5",
+      "title": "El Ayuntamiento vende el chalé con mayor catalogación de Villa Paulita por 381 . 382 euros",
+      "url": "https://www.elnortedecastilla.es/vivienda/ayuntamiento-vende-chale-mayor-catalogacion-villa-paulita-20261124191742-nt.html",
+      "source": "elnortedecastilla.es",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3c9cfd8ece81",
+      "title": "Diverse Canadian Writers Struggle to Advance In Shrinking TV Industry",
+      "url": "https://www.hollywoodreporter.com/business/business-news/diverse-canadian-writers-struggling-1236762221/",
+      "source": "hollywoodreporter.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-71b1b549d89b",
+      "title": "Contra la oligarquía internacional . Manifiesto de París - ATTAC España",
+      "url": "https://attac.es/contra-la-oligarquia-internacional-manifiesto-de-paris/",
+      "source": "attac.es",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9a518ca4c7bd",
+      "title": "Colombia ocupa una posición importante para nosotros : nuevo embajador de Suiza en Bogotá",
+      "url": "https://www.elespectador.com/politica/colombia-ocupa-una-posicion-importante-para-nosotros-nuevo-embajador-de-suiza-en-bogota/",
+      "source": "elespectador.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-866c9a5ace3a",
+      "title": "W Polsce marnuje się około 4 , 8 mln ton żywności rocznie . Te produkty wyrzucamy najczęściej",
+      "url": "https://www.farmer.pl/farmer-po-godzinach/w-polsce-marnuje-sie-okolo-4-8-mln-ton-zywnosci-rocznie-te-produkty-wyrzucamy-najczesciej,187615.html",
+      "source": "farmer.pl",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-955fbc669582",
+      "title": "복어를 처음 먹을 생각은 누가 했을까 ? 한국과도 악연 깊은  치명적  맛의 역사 - 문화ㅣ한국일보",
+      "url": "https://www.hankookilbo.com/news/article/A2026112408010000109",
+      "source": "hankookilbo.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-81abca928375",
+      "title": "The U . N . Climate Talks Broke Down . Now What ? - Governor Wind Energy Coalition",
+      "url": "https://governorswindenergycoalition.org/the-u-n-climate-talks-broke-down-now-what/",
+      "source": "governorswindenergycoalition.org",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e014be60e2da",
+      "title": "US Consumer Confidence Surges Most Since COVID Vaccines",
+      "url": "https://www.zerohedge.com/markets/us-consumer-confidence-surges-almost-2-year-highs-labor-market-hopes-pop-inflation-fears",
+      "source": "zerohedge.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aea927e9d151",
+      "title": "Από πού πήρε το όνομά της η Black Friday",
+      "url": "https://www.kathimerini.gr/world/564610660/apo-poy-pire-to-onoma-tis-i-black-friday/",
+      "source": "kathimerini.gr",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-8096e7cd93a3",
+      "title": "Đồng Nai : Sóc Bom Bo vang mãi nhịp chày , lan tỏa bản sắc văn hóa và sức mạnh đại đoàn kết",
+      "url": "https://baoxaydung.vn/dong-nai-soc-bom-bo-vang-mai-nhip-chay-lan-toa-ban-sac-van-hoa-va-suc-manh-dai-doan-ket-1922611242146176.htm",
+      "source": "baoxaydung.vn",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e9c9502af126",
+      "title": "Iraq Al - Zaidi Emerges as Risk - Taker in Showdowns Against Factions and Kurds",
+      "url": "https://english.aawsat.com/features/5345209-iraq%E2%80%99s-al-zaidi-emerges-risk-taker-showdowns-against-factions-and-kurds",
+      "source": "english.aawsat.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dd194f288371",
+      "title": "Κούβα : Το προσδόκιμο ζωής μειώθηκε κατά 4 χρόνια",
+      "url": "https://www.kathimerini.gr/world/564610999/koyva-to-prosdokimo-zois-meiothike-kata-4-chronia/",
+      "source": "kathimerini.gr",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-804c453284c3",
+      "title": "Central Arkansas restaurants serving on Thanksgiving Day | Northwest Arkansas Democrat - Gazette",
+      "url": "https://www.nwaonline.com/news/2026/nov/24/central-arkansas-restaurants-serving-on/",
+      "source": "nwaonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-24T20:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -501,261 +756,6 @@
       "source": "informer.rs",
       "source_type": "news",
       "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-6be9a0441bf4",
-      "title": "How Kim Jong Un gets away with building nukes and ghosting Trump",
-      "url": "https://www.livemint.com/global/how-kim-jong-un-gets-away-with-building-nukes-and-ghosting-trump-11795397191350.html",
-      "source": "livemint.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2557dd8d6477",
-      "title": "Incidencia de la Ley de Rescate Económico en la formalidad y en los costos laborales del mercado de trabajo colombiano",
-      "url": "https://razonpublica.com/incidencia-de-la-ley-de-rescate-economico-en-la-formalidad-y-en-los-costos-laborales-del-mercado-de-trabajo-colombiano/",
-      "source": "razonpublica.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-59768e06ce0a",
-      "title": "中 배터리 수출 혜택 끊고 EU는 현지 생산 압박⋯K배터리 반격 기회",
-      "url": "http://inews24.com/view/2029020",
-      "source": "inews24.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9b3c3f1721c9",
-      "title": "Is the AI Stock Market Boom Coming to an End ?",
-      "url": "https://newsonjapan.com/article/151486.php",
-      "source": "newsonjapan.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1671897aae8c",
-      "title": "Perfetti Van Melle to close 2026 at ₹4 , 000 crore revenue ; tough year ahead , says MD",
-      "url": "https://www.livemint.com/companies/news/perfetti-van-melle-to-close-2026-with-4-000-crore-revenue-tough-year-ahead-md-fmcg-chocolate-cocoa-confectionery-11795337168596.html",
-      "source": "livemint.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2992eb49691a",
-      "title": "Vietnam economic rise creates a growing middle class , but not everyone is better off – Asia News Network",
-      "url": "https://asianews.network/vietnams-economic-rise-creates-a-growing-middle-class-but-not-everyone-is-better-off/",
-      "source": "asianews.network",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4cfcf5435b88",
-      "title": "India champions Diamond Trade and fairer rules at UN",
-      "url": "https://newsindiatimes.com/india-champions-diamond-trade-and-fairer-rules-at-un/",
-      "source": "newsindiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e176fabf9ee6",
-      "title": "蘋果重組團隊研發自主操作AI代理 傳最快2027年底問世",
-      "url": "https://n.yam.com/Article/20261123875473",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b0435914ee85",
-      "title": "هذا العيار يسجل 6314 جنيهًا ، أسعار الذهب اليوم الإثنين 23 - 11 - 2026",
-      "url": "https://akhbaregy.com/2026/11/23/%D9%87%D8%B0%D8%A7-%D8%A7%D9%84%D8%B9%D9%8A%D8%A7%D8%B1-%D9%8A%D8%B3%D8%AC%D9%84-6314-%D8%AC%D9%86%D9%8A%D9%87%D9%8B%D8%A7%D8%8C-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D8%B0%D9%87%D8%A8-%D8%A7/",
-      "source": "akhbaregy.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-da7f77cf014c",
-      "title": "خبير طاقة : أسعار النفط لن تعود لمستويات ما قبل الحرب",
-      "url": "https://akhbaregy.com/2026/11/23/%D8%AE%D8%A8%D9%8A%D8%B1-%D8%B7%D8%A7%D9%82%D8%A9-%D8%A3%D8%B3%D8%B9%D8%A7%D8%B1-%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%84%D9%86-%D8%AA%D8%B9%D9%88%D8%AF-%D9%84%D9%85%D8%B3%D8%AA%D9%88%D9%8A%D8%A7%D8%AA/",
-      "source": "akhbaregy.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7c30c8f3612d",
-      "title": "迅策科技被纳入恒生科技指数 ， Token第一股  有望获被动增量资金 _ 产业资讯 _ 行业 _ 中金在线",
-      "url": "http://hy.stock.cnfol.com/hangyejingcui/20261123/32429529.shtml",
-      "source": "hy.stock.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e6a98dc2f180",
-      "title": "Top stocks to watch today : Tata Steel , APL Apollo Tubes , Maruti Suzuki , RVNL , Waaree Energies & 17 others in focus",
-      "url": "https://www.livemint.com/market/stock-market-news/top-stocks-to-watch-today-tata-steel-apl-apollo-tubes-maruti-suzuki-rvnl-waaree-energies-17-others-in-focus-11795399384907.html",
-      "source": "livemint.com",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a5ba676c1b28",
-      "title": "太平成霹州挡绿潮最后防线 ！ 倪可敏 ： 失守恐让国家倒退 | 国内",
-      "url": "https://www.orientaldaily.com.my/news/nation/2026/11/23/865083",
-      "source": "orientaldaily.com.my",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3763de627ba5",
-      "title": "BT BIG STORY : India growth story faces a twin squeeze from inflation and the rupee",
-      "url": "https://www.businesstoday.in/latest/economy/story/bt-big-story-indias-growth-story-faces-a-twin-squeeze-from-inflation-and-the-rupee-568837-2026-11-20",
-      "source": "businesstoday.in",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2a642ef14978",
-      "title": "Rusia y China buscan darle forma al mundo multipolar",
-      "url": "http://www.laarena.com.ar/la-pampa/rusia-y-china-buscan-darle-forma-al-mundo-multipolar-202611230130",
-      "source": "laarena.com.ar",
-      "source_type": "news",
-      "published_at": "2026-11-23T03:30:00Z",
       "categories": [
         "geopolitics"
       ],
