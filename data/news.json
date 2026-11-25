@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T04:55:21Z",
+  "generated_at": "2026-11-25T15:42:43Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": true,
-      "count": 15
+      "ok": false,
+      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
     },
     {
       "source": "한국은행 ECOS",
@@ -124,12 +124,12 @@
       }
     },
     {
-      "id": "market-787db76cf9f5",
+      "id": "market-f230ef501568",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-21T15:00:00Z",
+      "published_at": "2026-11-22T15:00:00Z",
       "categories": [
         "rates"
       ],
@@ -144,7 +144,7 @@
         "previous": 3.0,
         "change": 0.0,
         "unit": "%",
-        "date": "20261122",
+        "date": "20261123",
         "alert_threshold": 0.25
       }
     },
@@ -264,24 +264,6 @@
       "categories": [
         "oil",
         "etf"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3822edc29059",
-      "title": "Peso to move sideways vs dollar as markets eye key US economic data",
-      "url": "https://bworldonline.com/banking-finance/2026/11/22/795691/peso-to-move-sideways-vs-dollar-as-markets-eye-key-us-economic-data/",
-      "source": "bworldonline.com",
-      "source_type": "news",
-      "published_at": "2026-11-22T12:30:00Z",
-      "categories": [
-        "rates",
-        "fx"
       ],
       "importance": 4,
       "facts": null,
