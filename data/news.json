@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-24T21:18:51Z",
+  "generated_at": "2026-11-25T04:55:21Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -99,12 +99,12 @@
       "change_condition": null
     },
     {
-      "id": "market-4ca9c6ad8a71",
-      "title": "원/달러 환율(매매기준율) 1346.6원 (직전 대비 +9.3원)",
+      "id": "market-81dbf1e9dba7",
+      "title": "원/달러 환율(매매기준율) 1343.6원 (직전 대비 -3원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-23T15:00:00Z",
+      "published_at": "2026-11-24T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -115,11 +115,11 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1346.6,
-        "previous": 1337.3,
-        "change": 9.3,
+        "latest": 1343.6,
+        "previous": 1346.6,
+        "change": -3.0,
         "unit": "원",
-        "date": "20261124",
+        "date": "20261125",
         "alert_threshold": 15.0
       }
     },
@@ -284,6 +284,261 @@
         "fx"
       ],
       "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ce2575b03d02",
+      "title": "World Insights : The U . S . midterms are done , but the political battles are heating up - Xinhua",
+      "url": "https://english.news.cn/20261125/125c85425ac14cc189256ded4b04a0d4/c.html",
+      "source": "english.news.cn",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-abc3909ca738",
+      "title": "Gas Prices Fall Ahead Of Thanksgiving",
+      "url": "https://k103.iheart.com/content/2026-11-24-gas-prices-fall-ahead-of-thanksgiving/",
+      "source": "k103.iheart.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9eb07b95bb16",
+      "title": "newsroomamerica . com",
+      "url": "https://newsroomamerica.com/?before=124530",
+      "source": "newsroomamerica.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2bc0e0dfa6fa",
+      "title": "Le géant chinois Huawei reconnu coupable de vol de secrets industriels aux États - Unis",
+      "url": "https://www.franceguyane.fr/actualite/international/le-geant-chinois-huawei-reconnu-coupable-de-vol-de-secrets-industriels-aux-etats-unis-1100792.php",
+      "source": "franceguyane.fr",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-78b89fd22722",
+      "title": "Rep . Emmer on election results , Iran war :  We did not listen to the American people",
+      "url": "https://www.fox9.com/news/rep-emmer-midterms-iran-war-republican-agenda-nov-24-2026",
+      "source": "fox9.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d87200a1ca56",
+      "title": "매우 중대 위법 ... CJ프레시웨이 , 요양병원 상품권 로비 의혹",
+      "url": "https://zdnet.co.kr/view/?no=20261125091843",
+      "source": "zdnet.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2ed162af8a6b",
+      "title": "一张图看18个直盘外汇支撑阻力 ： 美元+欧系日系+商品货币+新兴货币 ( 2026年11月25日 )_ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261125/32431554.shtml",
+      "source": "forex.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-013a03e0f21f",
+      "title": "美原油期货跌逾1 %， 霍尔木兹油轮起火 ， API库存小幅上行 _ 国际原油市场 _ 黄金网 _ 中金在线",
+      "url": "http://gold.cnfol.com/guojiyuanyousc/20261125/32431712.shtml",
+      "source": "gold.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f8e627c349e0",
+      "title": "Desalojos , negocios inmobiliarios y ajuste : el avance de los countries y la crisis habitacional",
+      "url": "http://www.eldestapeweb.com/politica/desalojos-negocios-inmobiliarios-ajuste-avance-countries-crisis-habitacional-202611250547",
+      "source": "eldestapeweb.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c3fac0852573",
+      "title": "Giá xăng dầu hôm nay 25 / 11 : Giá dầu thế giới giảm",
+      "url": "http://vov.vn/thi-truong/gia-xang-dau-hom-nay-2511-gia-dau-the-gioi-giam-truoc-trien-vong-du-cung-post1352960.vov",
+      "source": "vov.vn",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-92e50f1001ee",
+      "title": "美国11月消费者信心指数升至近两年来最高值 _ 央广网",
+      "url": "https://food.cnr.cn/gstj/20261125/t20261125_527882542.shtml",
+      "source": "food.cnr.cn",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e0a923fcb615",
+      "title": "النفط يتراجع وسط مخاوف إزاء وفرة المعروض",
+      "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D9%88%D8%B3%D8%B7-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D8%A5%D8%B2%D8%A7%D8%A1-%D9%88%D9%81%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D8%B1/",
+      "source": "alquds.co.uk",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fc87cad805dc",
+      "title": "11月25日财经早餐 ： 美联储鹰派预期压制 ， 金价再测3550关口 ， 油价创近三个月新低 ， 供应过剩预期压制反弹 _ 汇市观察 _ 外汇 _ 中金在线",
+      "url": "http://forex.cnfol.com/jingjiyaowen/20261125/32431551.shtml",
+      "source": "forex.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2901dfc54d1d",
+      "title": "Savaşın değişen coğrafyası - Günlük Yazarlar Haberleri",
+      "url": "https://www.yeniasir.com.tr/yazarlar/ismail-hakki-dostoglu/2026/11/25/savasin-degisen-cografyasi",
+      "source": "yeniasir.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-38614d6e2bcf",
+      "title": "Donald Trump का भारत , चीन समेत 16 देशों पर नए टैरिफ लगाने का प्लान , जांच के बाद अमेरिका उठाएगा बड़ा कदम",
+      "url": "https://hindi.oneindia.com/news/international/donald-trump-new-tariffs-india-china-16-countries-us-trade-probe-1691153.html",
+      "source": "hindi.oneindia.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T04:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -501,261 +756,6 @@
       "source": "kathimerini.gr",
       "source_type": "news",
       "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-804c453284c3",
-      "title": "Central Arkansas restaurants serving on Thanksgiving Day | Northwest Arkansas Democrat - Gazette",
-      "url": "https://www.nwaonline.com/news/2026/nov/24/central-arkansas-restaurants-serving-on/",
-      "source": "nwaonline.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1d72bf9d807d",
-      "title": "La vivienda centra el choque entre los bloques políticos | Noticias Diario de Burgos",
-      "url": "https://www.diariodeburgos.es/noticia/zff7ce223-0242-479c-b8104cc98c336cca/202611/la-vivienda-centra-el-choque-entre-los-bloques-politicos",
-      "source": "diariodeburgos.es",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7d15d3ae7d48",
-      "title": "Face the Fight surpasses $58 million in grants to fight veteran suicide",
-      "url": "https://abcnews4.com/news/nation-world/face-the-fight-surpasses-58-million-in-grants-to-fight-veteran-suicide",
-      "source": "abcnews4.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-706fa7015856",
-      "title": "В Пхеньяне могут закрыть посольство Швейцарии : рекомендацию дала сестра Ким Чен Ына",
-      "url": "https://news.mail.ru/society/73209937/",
-      "source": "news.mail.ru",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-81372ea25973",
-      "title": "صاروخ نووي روسي في الفضاء .. 3 تحذيرات من أحمد موسى بشأن قطع الإنترنت عالميا • غربة نيوز",
-      "url": "https://ghorbanews.com/%D8%B5%D8%A7%D8%B1%D9%88%D8%AE-%D9%86%D9%88%D9%88%D9%8A-%D8%B1%D9%88%D8%B3%D9%8A-%D9%81%D9%8A-%D8%A7%D9%84%D9%81%D8%B6%D8%A7%D8%A1-3-%D8%AA%D8%AD%D8%B0%D9%8A%D8%B1%D8%A7%D8%AA-%D9%85%D9%86-%D8%A3/",
-      "source": "ghorbanews.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c5a6134738b0",
-      "title": "Sainsbury launches 8p per litre rule for drivers - starts Wednesday | united kingdom | News",
-      "url": "https://www.express.co.uk/news/uk/2268691/sainsburys-8p-per-litre-drivers",
-      "source": "express.co.uk",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-874b4ec9b9b9",
-      "title": "Il fallimento della Cop31 luci e ombre del no europeo",
-      "url": "https://www.zazoom.it/2026-11-24/il-fallimento-della-cop31-luci-e-ombre-del-no-europeo/19967106/",
-      "source": "zazoom.it",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ae5a4d72ee85",
-      "title": "El  Braveheart de Temu , ETA y un amor imposible : los 10 mejores momentos del debate de portavoces",
-      "url": "https://www.elconfidencial.com/espana/2026-11-24/debate-portavoces-rufian-rtve-ester-munoz_4471098/",
-      "source": "elconfidencial.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a488482cce2e",
-      "title": "算力即主權 - 黃仁勳回歸看白宮介入 , 美中AI霸權博弈與21世紀地緣政治新秩序 .",
-      "url": "https://n.yam.com/Article/20261124109533",
-      "source": "n.yam.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a227bb11b84b",
-      "title": "Trump 干预 ， 黄仁勋复位 | www . wenxuecity . com",
-      "url": "https://www.wenxuecity.com/blog/202611/30672/18674.html",
-      "source": "wenxuecity.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-029a147714d2",
-      "title": "To Make Life More Affordable , Democrats Could Begin With Permitting Reform .",
-      "url": "https://foreignpolicy.com/2026/11/23/democrats-affordability-permitting-reform-baaja-energy-policy/?tpcc=recirc_trending062921",
-      "source": "foreignpolicy.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d30f42b55ddc",
-      "title": "Qantas and Virgin flight sales cut regional fares for 2027 | The Area News",
-      "url": "https://www.areanews.com.au/story/9396572/qantas-and-virgin-flight-sales-cut-regional-fares-for-2027/",
-      "source": "areanews.com.au",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-06c36d8206c7",
-      "title": "A Thanksgiving treat in the offing : Lower gas prices",
-      "url": "https://sedaliademocrat.com/2026/11/23/a-thanksgiving-treat-in-the-offing-lower-gas-prices/",
-      "source": "sedaliademocrat.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f47490ba5fc1",
-      "title": "WHO director - general visits Cuba as healthcare system breaks down",
-      "url": "https://japantoday.com/category/world/who-director-general-visits-cuba-as-healthcare-system-breaks-down",
-      "source": "japantoday.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-47fbb0ccbc2e",
-      "title": "Donald Tramp odustaje od promene vlasti u Iranu , traži trajni sporazum o nuklearnom oružju",
-      "url": "https://informer.rs/planeta/vesti/1172143/donald-tramp-iran-vlast-nuklearno-oruzje",
-      "source": "informer.rs",
-      "source_type": "news",
-      "published_at": "2026-11-24T00:30:00Z",
       "categories": [
         "geopolitics"
       ],
