@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-25T15:42:43Z",
+  "generated_at": "2026-11-26T00:28:05Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -26,8 +26,8 @@
     },
     {
       "source": "GDELT",
-      "ok": false,
-      "reason": "RuntimeError: GDELT 전체 실패 — rates: HTTPError: HTTP Error 429: Too Many Requests / fx: HTTPError: HTTP Error 429: Too Many Requests / oil: HTTPError: HTTP Error 429: Too Many Requests / semis: HTTPErro"
+      "ok": true,
+      "count": 15
     },
     {
       "source": "한국은행 ECOS",
@@ -124,6 +124,32 @@
       }
     },
     {
+      "id": "market-e1cb70289532",
+      "title": "WTI 원유 가격 82.24달러 (직전 대비 +0.82달러)",
+      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
+      "source": "FRED",
+      "source_type": "market",
+      "published_at": "2026-11-24T00:00:00Z",
+      "categories": [
+        "oil"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 82.24,
+        "previous": 81.42,
+        "change": 0.82,
+        "unit": "달러",
+        "date": "2026-11-24",
+        "alert_threshold": 3.0,
+        "indicator": "wti"
+      }
+    },
+    {
       "id": "market-f230ef501568",
       "title": "한국은행 기준금리 3% (직전 대비 0%p)",
       "url": "https://ecos.bok.or.kr/#722Y001",
@@ -149,56 +175,22 @@
       }
     },
     {
-      "id": "market-286cea5f5585",
-      "title": "미국 10년물 국채금리 5.04% (직전 대비 -0.03%p)",
-      "url": "https://apiportal.koreainvestment.com/#Y0202",
-      "source": "한국투자증권",
-      "source_type": "market",
-      "published_at": "2026-11-19T00:00:00Z",
+      "id": "news-488c4f06a49c",
+      "title": "AI rout continues as market exuberance fades over Huang Nvidia return",
+      "url": "https://www.dailylocal.com/2026/11/25/ai-nvidia-wall-street/",
+      "source": "dailylocal.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
       "categories": [
-        "rates"
+        "rates",
+        "semis"
       ],
-      "importance": 5,
+      "importance": 4,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 5.04,
-        "previous": 5.07,
-        "change": -0.03,
-        "unit": "%",
-        "date": "2026-11-19",
-        "alert_threshold": 0.15,
-        "indicator": "us10y"
-      }
-    },
-    {
-      "id": "market-cccd008afd13",
-      "title": "WTI 원유 가격 89.53달러 (직전 대비 +0.29달러)",
-      "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
-      "source": "FRED",
-      "source_type": "market",
-      "published_at": "2026-11-17T00:00:00Z",
-      "categories": [
-        "oil"
-      ],
-      "importance": 5,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 89.53,
-        "previous": 89.24,
-        "change": 0.29,
-        "unit": "달러",
-        "date": "2026-11-17",
-        "alert_threshold": 3.0,
-        "indicator": "wti"
-      }
+      "change_condition": null
     },
     {
       "id": "news-358c5ff3b25d",
@@ -237,17 +229,16 @@
       "change_condition": null
     },
     {
-      "id": "news-773ecfba6e10",
-      "title": "Iranian attacks in the Strait of Hormuz are at the highest levels since the conflict began",
-      "url": "https://peakoil.com/publicpolicy/iranian-attacks-in-the-strait-of-hormuz-are-at-the-highest-levels-since-the-conflict-began",
-      "source": "peakoil.com",
+      "id": "news-8f121a23349a",
+      "title": "5 Things Investors Need to Know About Wednesday Markets",
+      "url": "https://www.aol.com/articles/5-things-investors-know-wednesday-133820000.html",
+      "source": "aol.com",
       "source_type": "news",
-      "published_at": "2026-11-22T20:30:00Z",
+      "published_at": "2026-11-25T14:15:00Z",
       "categories": [
-        "oil",
-        "geopolitics"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -255,17 +246,186 @@
       "change_condition": null
     },
     {
-      "id": "news-15323b485006",
-      "title": "Bitcoin News am Wochenende : Houthi - Raketen und der schwerste ETF - Monat seit Februar",
-      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70197665-bitcoin-news-am-wochenende-houthi-raketen-und-der-schwerste-etf-monat-seit-februar-712.htm",
+      "id": "news-c1bca308b7bb",
+      "title": "USA : Private Einkommen steigen stärker als erwartet",
+      "url": "https://www.finanznachrichten.de/nachrichten-2026-11/70227724-usa-private-einkommen-steigen-staerker-als-erwartet-016.htm",
       "source": "finanznachrichten.de",
       "source_type": "news",
-      "published_at": "2026-11-22T20:30:00Z",
+      "published_at": "2026-11-25T14:15:00Z",
       "categories": [
-        "oil",
-        "etf"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-5dcec0dabd5c",
+      "title": "利空夾擊外資出逃 新台幣收盤貶破33元爆史上第3大量 | 財經",
+      "url": "https://newtalk.tw/news/view/2026-11-25/1073755",
+      "source": "newtalk.tw",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e19f9ef04b39",
+      "title": "USA : Erstanträge auf Arbeitslosenhilfe sinken überraschend deutlich",
+      "url": "https://www.finanzen.net/nachricht/aktien/usa-erstantraege-auf-arbeitslosenhilfe-sinken-ueberraschend-deutlich-16086238",
+      "source": "finanzen.net",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-952c150d4f24",
+      "title": "Trump - Regierung plant neue Zölle gegen die EU , China und weitere Länder",
+      "url": "https://www.morgenpost.de/wirtschaft/article413775488/trump-regierung-plant-neue-zoelle-gegen-die-eu-china-und-weitere-laender.html",
+      "source": "morgenpost.de",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-458e3e1541e0",
+      "title": "October PCE : Inflation gauge moves higher ahead of Fed meeting",
+      "url": "https://www.foxbusiness.com/economy/october-2026-pce-inflation",
+      "source": "foxbusiness.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f87018f3dcda",
+      "title": "美元走强成头号逆风 ！ 黄金四年多头离场 ： 待美元见顶后再归来 金价跌至14个月新低 _ 新闻频道 _ 中华网",
+      "url": "https://news.china.com/socialgd/10000169/20261125/49907644.html",
+      "source": "news.china.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-3d017acfa573",
+      "title": "Stock market news : AI rout continues as market exuberance fades",
+      "url": "https://www.bnnbloomberg.ca/markets/2026/11/25/ai-rout-continues-as-market-exuberance-fades-over-improbable-return-of-nvidias-huang/",
+      "source": "bnnbloomberg.ca",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-76bad42f1306",
+      "title": "高盛 ： 市场已替美联储  加息四次 ， 但沃什12月仍将继续加息",
+      "url": "https://wallstreetcn.com/articles/3786691",
+      "source": "wallstreetcn.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-cba61540f107",
+      "title": "Nem néz ki jól , egyre nagyobb lejtőn a forint",
+      "url": "https://www.economx.hu/tozsde/2026/11/25/eurhuf-deviza-forint-gyengules/",
+      "source": "economx.hu",
+      "source_type": "news",
+      "published_at": "2026-11-25T14:15:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-951557d414a0",
+      "title": "Gold Price Fall Outlook ; सोन्यावर सुधारणांचा रंग ! पिवळसर झळाळी 21 हजारांनी उतरली , पुढे 3 तारखा ठरवतील दिशा ; गुंतवणूकदारांची नजर प्रत्येक हालचालीवर",
+      "url": "https://maharashtratimes.com/business/business-news/gold-price-fall-over-31-percent-from-all-time-high-3-important-dates-what-should-investors-do/articleshow/136154276.cms",
+      "source": "maharashtratimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-25T10:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-f5560e1380ab",
+      "title": "Altın neden düşüyor ? Gram altın 6 bin TL sınırında , gözler saat 16 . 30  daki veride",
+      "url": "https://www.sozcu.com.tr/altin-neden-dusuyor-gram-altin-6-bin-tl-sinirinda-gozler-saat-16-30-daki-veride-p384287",
+      "source": "sozcu.com.tr",
+      "source_type": "news",
+      "published_at": "2026-11-25T10:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -583,159 +743,6 @@
       "title": "Contra la oligarquía internacional . Manifiesto de París - ATTAC España",
       "url": "https://attac.es/contra-la-oligarquia-internacional-manifiesto-de-paris/",
       "source": "attac.es",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9a518ca4c7bd",
-      "title": "Colombia ocupa una posición importante para nosotros : nuevo embajador de Suiza en Bogotá",
-      "url": "https://www.elespectador.com/politica/colombia-ocupa-una-posicion-importante-para-nosotros-nuevo-embajador-de-suiza-en-bogota/",
-      "source": "elespectador.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-866c9a5ace3a",
-      "title": "W Polsce marnuje się około 4 , 8 mln ton żywności rocznie . Te produkty wyrzucamy najczęściej",
-      "url": "https://www.farmer.pl/farmer-po-godzinach/w-polsce-marnuje-sie-okolo-4-8-mln-ton-zywnosci-rocznie-te-produkty-wyrzucamy-najczesciej,187615.html",
-      "source": "farmer.pl",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-955fbc669582",
-      "title": "복어를 처음 먹을 생각은 누가 했을까 ? 한국과도 악연 깊은  치명적  맛의 역사 - 문화ㅣ한국일보",
-      "url": "https://www.hankookilbo.com/news/article/A2026112408010000109",
-      "source": "hankookilbo.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-81abca928375",
-      "title": "The U . N . Climate Talks Broke Down . Now What ? - Governor Wind Energy Coalition",
-      "url": "https://governorswindenergycoalition.org/the-u-n-climate-talks-broke-down-now-what/",
-      "source": "governorswindenergycoalition.org",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e014be60e2da",
-      "title": "US Consumer Confidence Surges Most Since COVID Vaccines",
-      "url": "https://www.zerohedge.com/markets/us-consumer-confidence-surges-almost-2-year-highs-labor-market-hopes-pop-inflation-fears",
-      "source": "zerohedge.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-aea927e9d151",
-      "title": "Από πού πήρε το όνομά της η Black Friday",
-      "url": "https://www.kathimerini.gr/world/564610660/apo-poy-pire-to-onoma-tis-i-black-friday/",
-      "source": "kathimerini.gr",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-8096e7cd93a3",
-      "title": "Đồng Nai : Sóc Bom Bo vang mãi nhịp chày , lan tỏa bản sắc văn hóa và sức mạnh đại đoàn kết",
-      "url": "https://baoxaydung.vn/dong-nai-soc-bom-bo-vang-mai-nhip-chay-lan-toa-ban-sac-van-hoa-va-suc-manh-dai-doan-ket-1922611242146176.htm",
-      "source": "baoxaydung.vn",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e9c9502af126",
-      "title": "Iraq Al - Zaidi Emerges as Risk - Taker in Showdowns Against Factions and Kurds",
-      "url": "https://english.aawsat.com/features/5345209-iraq%E2%80%99s-al-zaidi-emerges-risk-taker-showdowns-against-factions-and-kurds",
-      "source": "english.aawsat.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dd194f288371",
-      "title": "Κούβα : Το προσδόκιμο ζωής μειώθηκε κατά 4 χρόνια",
-      "url": "https://www.kathimerini.gr/world/564610999/koyva-to-prosdokimo-zois-meiothike-kata-4-chronia/",
-      "source": "kathimerini.gr",
       "source_type": "news",
       "published_at": "2026-11-24T20:15:00Z",
       "categories": [
