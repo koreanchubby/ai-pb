@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T00:28:05Z",
+  "generated_at": "2026-11-26T09:37:33Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -47,6 +47,31 @@
     }
   ],
   "items": [
+    {
+      "id": "market-6e709a788859",
+      "title": "한국은행 기준금리 3.25% (직전 대비 +0.25%p)",
+      "url": "https://ecos.bok.or.kr/#722Y001",
+      "source": "한국은행 ECOS",
+      "source_type": "market",
+      "published_at": "2026-11-25T15:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 7,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 3.25,
+        "previous": 3.0,
+        "change": 0.25,
+        "unit": "%",
+        "date": "20261126",
+        "alert_threshold": 0.25
+      }
+    },
     {
       "id": "official-82bce5f1c5cd",
       "title": "Minutes of the Board's discount rate meetings on October 19 and October 28, 2026",
@@ -99,12 +124,12 @@
       "change_condition": null
     },
     {
-      "id": "market-81dbf1e9dba7",
-      "title": "원/달러 환율(매매기준율) 1343.6원 (직전 대비 -3원)",
+      "id": "market-c37cd5fc43a4",
+      "title": "원/달러 환율(매매기준율) 1343.9원 (직전 대비 +0.3원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-24T15:00:00Z",
+      "published_at": "2026-11-25T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -115,11 +140,11 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1343.6,
-        "previous": 1346.6,
-        "change": -3.0,
+        "latest": 1343.9,
+        "previous": 1343.6,
+        "change": 0.3,
         "unit": "원",
-        "date": "20261125",
+        "date": "20261126",
         "alert_threshold": 15.0
       }
     },
@@ -150,29 +175,40 @@
       }
     },
     {
-      "id": "market-f230ef501568",
-      "title": "한국은행 기준금리 3% (직전 대비 0%p)",
-      "url": "https://ecos.bok.or.kr/#722Y001",
-      "source": "한국은행 ECOS",
-      "source_type": "market",
-      "published_at": "2026-11-22T15:00:00Z",
+      "id": "news-80f06a0353d4",
+      "title": "US - led consortium agrees to acquire assets from Russian oil company Lukoil",
+      "url": "https://www.thepeterboroughexaminer.com/business/us-led-consortium-agrees-to-acquire-assets-from-russian-oil-company-lukoil/article_79676cdc-219d-53d7-bfc3-e2062f97cbaa.html",
+      "source": "thepeterboroughexaminer.com",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
       "categories": [
-        "rates"
+        "geopolitics",
+        "oil"
       ],
-      "importance": 5,
+      "importance": 4,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
       "counter_evidence": null,
-      "change_condition": null,
-      "value": {
-        "latest": 3.0,
-        "previous": 3.0,
-        "change": 0.0,
-        "unit": "%",
-        "date": "20261123",
-        "alert_threshold": 0.25
-      }
+      "change_condition": null
+    },
+    {
+      "id": "news-8ca5c431dca1",
+      "title": "South Korea central bank raises key interest rate to fight inflation",
+      "url": "https://abcnews.com/International/wireStory/south-koreas-central-bank-raises-key-interest-rate-138458862",
+      "source": "abcnews.com",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics",
+        "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-488c4f06a49c",
@@ -211,17 +247,203 @@
       "change_condition": null
     },
     {
-      "id": "news-f9bd9769b396",
-      "title": "트럼프  증시 6조달러 증발은 100 % 민주당 탓 ... 실제 시장 흐름은 달랐다",
-      "url": "https://newsway.co.kr/news/view?ud=2026112308500364947",
-      "source": "newsway.co.kr",
+      "id": "news-b218d80385c7",
+      "title": "Asian shares rebound led by AI stocks after Wall Street pares sharp losses – Winnipeg Free Press",
+      "url": "https://www.winnipegfreepress.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses",
+      "source": "winnipegfreepress.com",
       "source_type": "news",
-      "published_at": "2026-11-23T02:30:00Z",
+      "published_at": "2026-11-26T06:15:00Z",
       "categories": [
-        "geopolitics",
-        "fx"
+        "geopolitics"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1d63dc16aba2",
+      "title": "iPhone 18 Pro und AirPods Pro 3 im o2 - Tarifbundle im Check",
+      "url": "https://www.ksta.de:443/shoppingwelt/iphone-18-pro-und-airpods-pro-3-im-o2-tarifbundle-im-check-1-1424705",
+      "source": "ksta.de",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a9aa4a043d7c",
+      "title": "अमेरिका ने 14 देशों पर थोपा टैरिफ : भारत पर लगाया अतिरिक्त 17 प्रतिशत , जानिए क्या होगा असर ?",
+      "url": "https://panchjanya.com/2026/11/26/500253/world/us-imposes-tariffs-on-14-countries-slaps-an-additional-17-percent-on-india-what-will-be-the-impact/",
+      "source": "panchjanya.com",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9dfbabb870b7",
+      "title": "Prăbușire dramatică pentru prețul aurului : A atins cel mai redus nivel din ultimul an și a coborât sub un prag psihologic major",
+      "url": "https://news.yam.md/ro/story/91388615",
+      "source": "news.yam.md",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-dad4025b5283",
+      "title": "( video ) Moment dramatic surprins pe cameră : Un turist se luptă să - și păstreze echilibrul pe un pod suspendat din Chile",
+      "url": "https://news.yam.md/ro/story/91383467",
+      "source": "news.yam.md",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-a4f234e45066",
+      "title": "Euro și dolarul cresc : cursul valutar afișat de BNM pentru astăzi",
+      "url": "https://news.yam.md/ro/story/91396274",
+      "source": "news.yam.md",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4c146c3e9b56",
+      "title": "Letters to the Editor : Nov . 25 , 2026",
+      "url": "https://www.kelownadailycourier.ca/opinion/letters_to_editor/article_7b50b9a7-5d08-4470-9994-d7286134fa66.html",
+      "source": "kelownadailycourier.ca",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-69bc684e9bd3",
+      "title": "India encontró un héroe legendario de un libro legendario y está listo para conquistar el mundo del cine",
+      "url": "https://www.elpais.com.uy/tvshow/cine/india-encontro-un-heroe-legendario-de-un-libro-legendario-y-esta-listo-para-conquistar-el-mundo-del-cine",
+      "source": "elpais.com.uy",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-1a83b26cd3cb",
+      "title": "ट्रंप का नया टैरिफ वारः भारत पर 35 % तक शुल्क लगाने का ऐलान , चीन - यूरोपीय संघ व ब्राजील पर भी लगेगा नया टैक्स - us plans tariff hikes on china eu brazil over subsidised factories",
+      "url": "https://www.punjabkesari.in/national/news/us-plans-tariff-hikes-on-china-eu-brazil-over-subsidised-factories-2403194",
+      "source": "punjabkesari.in",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7ceb42113148",
+      "title": "Major economies balk at new US tariffs over  unfair  trade",
+      "url": "https://www.thedailystar.net/business/news/major-economies-balk-new-us-tariffs-over-unfair-trade-4333651",
+      "source": "thedailystar.net",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-edae9d47dd1a",
+      "title": "Tariff Shock : Trump Targets 14 Economies , Rattling Markets and Global Trade",
+      "url": "https://www.reviewnepal.com/tariff-shock-trump-targets-14-economies-rattling-markets-and-global-trade/",
+      "source": "reviewnepal.com",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-e8fc41406f14",
+      "title": "Global markets rebound as tech shares recover and tariff fears ease",
+      "url": "https://www.aol.co.uk/articles/global-markets-rebound-tech-shares-042539000.html",
+      "source": "aol.co.uk",
+      "source_type": "news",
+      "published_at": "2026-11-26T06:15:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -524,227 +746,6 @@
       "source": "zdnet.co.kr",
       "source_type": "news",
       "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2ed162af8a6b",
-      "title": "一张图看18个直盘外汇支撑阻力 ： 美元+欧系日系+商品货币+新兴货币 ( 2026年11月25日 )_ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261125/32431554.shtml",
-      "source": "forex.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-013a03e0f21f",
-      "title": "美原油期货跌逾1 %， 霍尔木兹油轮起火 ， API库存小幅上行 _ 国际原油市场 _ 黄金网 _ 中金在线",
-      "url": "http://gold.cnfol.com/guojiyuanyousc/20261125/32431712.shtml",
-      "source": "gold.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f8e627c349e0",
-      "title": "Desalojos , negocios inmobiliarios y ajuste : el avance de los countries y la crisis habitacional",
-      "url": "http://www.eldestapeweb.com/politica/desalojos-negocios-inmobiliarios-ajuste-avance-countries-crisis-habitacional-202611250547",
-      "source": "eldestapeweb.com",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c3fac0852573",
-      "title": "Giá xăng dầu hôm nay 25 / 11 : Giá dầu thế giới giảm",
-      "url": "http://vov.vn/thi-truong/gia-xang-dau-hom-nay-2511-gia-dau-the-gioi-giam-truoc-trien-vong-du-cung-post1352960.vov",
-      "source": "vov.vn",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-92e50f1001ee",
-      "title": "美国11月消费者信心指数升至近两年来最高值 _ 央广网",
-      "url": "https://food.cnr.cn/gstj/20261125/t20261125_527882542.shtml",
-      "source": "food.cnr.cn",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-e0a923fcb615",
-      "title": "النفط يتراجع وسط مخاوف إزاء وفرة المعروض",
-      "url": "https://www.alquds.co.uk/%D8%A7%D9%84%D9%86%D9%81%D8%B7-%D9%8A%D8%AA%D8%B1%D8%A7%D8%AC%D8%B9-%D9%88%D8%B3%D8%B7-%D9%85%D8%AE%D8%A7%D9%88%D9%81-%D8%A5%D8%B2%D8%A7%D8%A1-%D9%88%D9%81%D8%B1%D8%A9-%D8%A7%D9%84%D9%85%D8%B9%D8%B1/",
-      "source": "alquds.co.uk",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-fc87cad805dc",
-      "title": "11月25日财经早餐 ： 美联储鹰派预期压制 ， 金价再测3550关口 ， 油价创近三个月新低 ， 供应过剩预期压制反弹 _ 汇市观察 _ 外汇 _ 中金在线",
-      "url": "http://forex.cnfol.com/jingjiyaowen/20261125/32431551.shtml",
-      "source": "forex.cnfol.com",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2901dfc54d1d",
-      "title": "Savaşın değişen coğrafyası - Günlük Yazarlar Haberleri",
-      "url": "https://www.yeniasir.com.tr/yazarlar/ismail-hakki-dostoglu/2026/11/25/savasin-degisen-cografyasi",
-      "source": "yeniasir.com.tr",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-38614d6e2bcf",
-      "title": "Donald Trump का भारत , चीन समेत 16 देशों पर नए टैरिफ लगाने का प्लान , जांच के बाद अमेरिका उठाएगा बड़ा कदम",
-      "url": "https://hindi.oneindia.com/news/international/donald-trump-new-tariffs-india-china-16-countries-us-trade-probe-1691153.html",
-      "source": "hindi.oneindia.com",
-      "source_type": "news",
-      "published_at": "2026-11-25T04:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-322633ba5e2b",
-      "title": "Mossad Chief Reportedly Pushed US To Attack Iran Despite His Own Analyst Objections",
-      "url": "https://dailycaller.com/2026/11/24/mossad-chief-pushed-iran-attack-analyst-objections/",
-      "source": "dailycaller.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-65c57d65dab5",
-      "title": "El Ayuntamiento vende el chalé con mayor catalogación de Villa Paulita por 381 . 382 euros",
-      "url": "https://www.elnortedecastilla.es/vivienda/ayuntamiento-vende-chale-mayor-catalogacion-villa-paulita-20261124191742-nt.html",
-      "source": "elnortedecastilla.es",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3c9cfd8ece81",
-      "title": "Diverse Canadian Writers Struggle to Advance In Shrinking TV Industry",
-      "url": "https://www.hollywoodreporter.com/business/business-news/diverse-canadian-writers-struggling-1236762221/",
-      "source": "hollywoodreporter.com",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-71b1b549d89b",
-      "title": "Contra la oligarquía internacional . Manifiesto de París - ATTAC España",
-      "url": "https://attac.es/contra-la-oligarquia-internacional-manifiesto-de-paris/",
-      "source": "attac.es",
-      "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
       "categories": [
         "geopolitics"
       ],
