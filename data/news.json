@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-26T19:41:07Z",
+  "generated_at": "2026-11-27T02:54:24Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 30
+      "count": 45
     },
     {
       "source": "한국은행 ECOS",
@@ -107,12 +107,12 @@
       "change_condition": null
     },
     {
-      "id": "market-c37cd5fc43a4",
-      "title": "원/달러 환율(매매기준율) 1343.9원 (직전 대비 +0.3원)",
+      "id": "market-de4c30e3abf6",
+      "title": "원/달러 환율(매매기준율) 1342.7원 (직전 대비 -1.2원)",
       "url": "https://ecos.bok.or.kr/#731Y001",
       "source": "한국은행 ECOS",
       "source_type": "market",
-      "published_at": "2026-11-25T15:00:00Z",
+      "published_at": "2026-11-26T15:00:00Z",
       "categories": [
         "fx"
       ],
@@ -123,11 +123,11 @@
       "counter_evidence": null,
       "change_condition": null,
       "value": {
-        "latest": 1343.9,
-        "previous": 1343.6,
-        "change": 0.3,
+        "latest": 1342.7,
+        "previous": 1343.9,
+        "change": -1.2,
         "unit": "원",
-        "date": "20261126",
+        "date": "20261127",
         "alert_threshold": 15.0
       }
     },
@@ -158,15 +158,70 @@
       }
     },
     {
-      "id": "news-141e12fcc553",
-      "title": "Άνοδος στις ευρωπαϊκές αγορές , με ώθηση από τράπεζες και τεχνολογία - Στο +1 , 7 % ο DAX , στα 91 δολ . το Brent",
-      "url": "https://www.bankingnews.gr/diethni/articles/913345/anodos-stis-evropaikes-agores-me-othisi-apo-trapezes-kai-texnologia-sto-1-8-o-dax-sta-90-dol-to-brent%20title=",
-      "source": "bankingnews.gr",
+      "id": "news-781958211812",
+      "title": "Global Market Today : Asian stocks rise for second day , crude oil gains",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-for-second-day-crude-oil-gains/articleshow/136206178.cms",
+      "source": "economictimes.indiatimes.com",
       "source_type": "news",
-      "published_at": "2026-11-26T12:45:00Z",
+      "published_at": "2026-11-27T02:15:00Z",
       "categories": [
         "rates",
         "oil"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7049a39c11ca",
+      "title": "삼성전자 , 오늘 30조원 현금배당 푼다 … 이재용 4488억원",
+      "url": "https://ichannela.com/news/detail/000000561921.do",
+      "source": "ichannela.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-800f08847f99",
+      "title": "반도체 값이 밀어 올린 수출 1조달러⋯  비반도체 산업 경쟁력 키워야",
+      "url": "https://www.etoday.co.kr/news/view/2653683",
+      "source": "etoday.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-26T23:45:00Z",
+      "categories": [
+        "fx",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-b7f07c382371",
+      "title": "[ 사설 ] 반도체 호황 속 금리 인상 , 부작용 관리를",
+      "url": "https://www.mt.co.kr/opinion/2026/11/27/2026112616014643257",
+      "source": "mt.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-26T23:45:00Z",
+      "categories": [
+        "fx",
+        "rates",
+        "semis"
       ],
       "importance": 4,
       "facts": null,
@@ -185,6 +240,24 @@
       "categories": [
         "fx",
         "rates"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-141e12fcc553",
+      "title": "Άνοδος στις ευρωπαϊκές αγορές , με ώθηση από τράπεζες και τεχνολογία - Στο +1 , 7 % ο DAX , στα 91 δολ . το Brent",
+      "url": "https://www.bankingnews.gr/diethni/articles/913345/anodos-stis-evropaikes-agores-me-othisi-apo-trapezes-kai-texnologia-sto-1-8-o-dax-sta-90-dol-to-brent%20title=",
+      "source": "bankingnews.gr",
+      "source_type": "news",
+      "published_at": "2026-11-26T12:45:00Z",
+      "categories": [
+        "rates",
+        "oil"
       ],
       "importance": 4,
       "facts": null,
@@ -375,12 +448,80 @@
       "change_condition": null
     },
     {
-      "id": "news-bd2ff0b7427d",
-      "title": "다시 오른 기준금리 … 경남 부동산시장 위축되나",
-      "url": "http://www.knnews.co.kr/news/articleView.php?idxno=1556035",
-      "source": "knnews.co.kr",
+      "id": "news-b4dd7be0af03",
+      "title": "Trump says Huang excited about his  second term  at Nvidia",
+      "url": "https://www.businesstimes.com.sg/international/trump-says-huang-excited-about-his-second-term-nvidia",
+      "source": "businesstimes.com.sg",
       "source_type": "news",
-      "published_at": "2026-11-26T12:45:00Z",
+      "published_at": "2026-11-27T02:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9548285bb32d",
+      "title": "Budget 2027 : Sri Lanka is running out of time . Trade agreements alone wont save the economy",
+      "url": "https://www.ft.lk/columns/Budget-2027-Sri-Lanka-is-running-out-of-time-Trade-agreements-alone-won-t-save-the-economy/4-800657",
+      "source": "ft.lk",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-4df6fbd915a1",
+      "title": "科技早报｜马云现身阿里平头哥办公区 ； 英伟达据悉暂停向四个东南亚国家出货服务器",
+      "url": "https://www.163.com/dy/article/LCNQMMQ20534A4SC.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-c744cd74924b",
+      "title": "Ex - GOP strategist predicts how long Trump GOP will pay for MAGA",
+      "url": "https://www.alternet.org/trump-maga-movement-2678540113/",
+      "source": "alternet.org",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:30:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-fead499bc69a",
+      "title": "금리오르면 집값 하락 ? 10억 이하엔  전세 대신 매수  몰릴 수 [ 부동산360 ]",
+      "url": "https://biz.heraldcorp.com/article/10951465",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
       "categories": [
         "rates"
       ],
@@ -392,12 +533,12 @@
       "change_condition": null
     },
     {
-      "id": "news-2102f6b34bce",
-      "title": "Stock markets rally for 2nd day on foreign fund inflows , buying in IT shares",
-      "url": "https://www.tribuneindia.com/news/business/stock-markets-rally-for-2nd-day-on-foreign-fund-inflows-buying-in-it-shares/",
-      "source": "tribuneindia.com",
+      "id": "news-e74270d2ad53",
+      "title": "股市重挫難阻升息決心 ？ Fed傳聲筒揭華許兩難 、 AI債務隱憂 | 財經",
+      "url": "https://newtalk.tw/news/view/2026-11-27/1073991",
+      "source": "newtalk.tw",
       "source_type": "news",
-      "published_at": "2026-11-26T12:45:00Z",
+      "published_at": "2026-11-27T02:15:00Z",
       "categories": [
         "rates"
       ],
@@ -409,12 +550,12 @@
       "change_condition": null
     },
     {
-      "id": "news-6789c332174a",
-      "title": "3분기 가계 이자비용 11 % 늘어 … 실질소득 10분기 만에  마이너스  [ 뉴스 투데이 ]",
-      "url": "https://www.segye.com:443/newsView/20261126516771",
-      "source": "segye.com",
+      "id": "news-0c4b9260e656",
+      "title": "韓國救市規模研擬擴大 ！ 韓股漲近1 . 5 % 台股平盤多空拉距 、 台幣續貶近33元 | 財經",
+      "url": "https://newtalk.tw/news/view/2026-11-27/1073994",
+      "source": "newtalk.tw",
       "source_type": "news",
-      "published_at": "2026-11-26T12:45:00Z",
+      "published_at": "2026-11-27T02:15:00Z",
       "categories": [
         "rates"
       ],
@@ -426,12 +567,12 @@
       "change_condition": null
     },
     {
-      "id": "news-47af99e42c2f",
-      "title": "은행 · 저축은행 협업 중 · 저신용자 저리 신용대출",
-      "url": "https://www.segye.com:443/newsView/20261126516720",
-      "source": "segye.com",
+      "id": "news-30726b5e508e",
+      "title": "24hod . sk - Dlhová kríza",
+      "url": "https://www.24hod.sk/2026-11-27/53/dlhova-kriza/",
+      "source": "24hod.sk",
       "source_type": "news",
-      "published_at": "2026-11-26T12:45:00Z",
+      "published_at": "2026-11-27T02:15:00Z",
       "categories": [
         "rates"
       ],
@@ -443,46 +584,12 @@
       "change_condition": null
     },
     {
-      "id": "news-03c432c83f6a",
-      "title": "瑞銀料香港明年樓價升勢暫停 租金有望續升",
-      "url": "https://www.hkcna.hk/hk/content/s6b07efe4e4b0fa9c01ec838e.html",
-      "source": "hkcna.hk",
-      "source_type": "news",
-      "published_at": "2026-11-26T12:45:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ce2fab514659",
-      "title": "대출금리 5 % 시대 왔는데 ... 기준금리 추가인상에 한숨 쉬는 차주들",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03335766645649656&mediaCodeNo=257",
-      "source": "edaily.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "rates"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-bfc712dba660",
-      "title": "高盛最新警告 ： 现在抄底美股为时过早 _ 东方财富网",
-      "url": "https://finance.eastmoney.com/a/202611263940526677.html",
+      "id": "news-513ef35b3720",
+      "title": "扛过最凶险阶段 ！ 全球  柴油危机  警报正在解除 ？ _ 东方财富网",
+      "url": "https://finance.eastmoney.com/a/202611273941473982.html",
       "source": "finance.eastmoney.com",
       "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
+      "published_at": "2026-11-27T02:15:00Z",
       "categories": [
         "rates"
       ],
@@ -494,12 +601,12 @@
       "change_condition": null
     },
     {
-      "id": "news-d37bd0f0f651",
-      "title": "Fed Rate - Rise Bets Hit 93 . 5 % as Fear Gauge Jumps",
-      "url": "https://www.riotimesonline.com/global-economy-briefing-november-26-2026/",
-      "source": "riotimesonline.com",
+      "id": "news-f70e39896184",
+      "title": "한은은 금리 올리고 금융위는 포용금융 확대 주문 … 2금융권  딜레마",
+      "url": "https://biz.heraldcorp.com/article/10951492",
+      "source": "biz.heraldcorp.com",
       "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
+      "published_at": "2026-11-27T02:15:00Z",
       "categories": [
         "rates"
       ],
@@ -511,12 +618,114 @@
       "change_condition": null
     },
     {
-      "id": "news-7b6e33ca1617",
-      "title": "Brazil Inflation Data Due , Seen at 0 . 34 % | Morning Call , Nov 26",
-      "url": "https://www.riotimesonline.com/brazils-financial-morning-call-for-thursday-november-26-2026/",
-      "source": "riotimesonline.com",
+      "id": "news-29c0a6528eae",
+      "title": "2026折叠屏性价比榜 ： 小米 、 华为 、 三星 、 苹果对照 - 热点资讯 - ITBear科技资讯",
+      "url": "https://www.itbear.com.cn/html/2026-11/1599088.html",
+      "source": "itbear.com.cn",
       "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-599e59e858bf",
+      "title": "코스닥 700선 회복하나  매수 사이드카 … 코스피도 상승 흐름 [ 투자360 ]",
+      "url": "https://biz.heraldcorp.com/article/10951486",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-666c5d1e61a8",
+      "title": "Op - Ed : China vs US : Espionage , Guesspionage , Nvidia , and very different perspectives",
+      "url": "https://www.digitaljournal.com/article/op-ed-china-vs-us-espionage-guesspionage-nvidia-and-very-different-perspectives/",
+      "source": "digitaljournal.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bfa3a8f3c3d0",
+      "title": "Megaspeed investigation : Trump defends Jensen Huang  second term  at Nvidia , says  everybody replaceable",
+      "url": "https://economictimes.indiatimes.com/news/international/business/trump-defends-jensen-huangs-second-term-at-nvidia-says-everybodys-replaceable/articleshow/136206624.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7d6a5199208e",
+      "title": "I did a great thing : Trump backs Jensen Huang  second term  at Nvidia",
+      "url": "https://timesofindia.indiatimes.com/world/us/i-did-a-great-thing-trump-backs-jensen-huangs-second-term-at-nvidia/articleshow/136206444.cms",
+      "source": "timesofindia.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-7e24b00f1d36",
+      "title": "Dutch Government Lobbies Against US Chip Export Bill",
+      "url": "https://www.theepochtimes.com/world/dutch-government-lobbies-against-us-chip-export-bill-6129583",
+      "source": "theepochtimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "semis"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-616e5f0568c2",
+      "title": "感恩节假期暗藏风险 ！ 黄金剑指3305美元 ？ 七大交易品种最新技术前景分析 _ 金市直播 _ 黄金网 _ 中金在线",
+      "url": "http://gold.cnfol.com/jinshizhibo/20261127/32433646.shtml",
+      "source": "gold.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T01:45:00Z",
       "categories": [
         "rates"
       ],
@@ -528,14 +737,14 @@
       "change_condition": null
     },
     {
-      "id": "news-80da1a30128b",
-      "title": "신뢰 회복  꺼낸 신동우  스타벅스 , 내년 질적 성장 원년될 것  ( 종합 )",
-      "url": "https://www.edaily.co.kr/News/Read?newsId=03355446645649656&mediaCodeNo=257",
-      "source": "edaily.co.kr",
+      "id": "news-fcb9ffe70ef0",
+      "title": "《 金融股 》 華南金估央行年底升息 明年台灣經濟穩健成長 、 台幣偏升 - 財經",
+      "url": "https://www.chinatimes.com/realtimenews/20261127001063-260410",
+      "source": "chinatimes.com",
       "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
+      "published_at": "2026-11-27T01:45:00Z",
       "categories": [
-        "fx"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -545,218 +754,14 @@
       "change_condition": null
     },
     {
-      "id": "news-b218d80385c7",
-      "title": "Asian shares rebound led by AI stocks after Wall Street pares sharp losses – Winnipeg Free Press",
-      "url": "https://www.winnipegfreepress.com/business/2026/11/26/asian-shares-rebound-led-by-ai-stocks-after-wall-street-pares-sharp-losses",
-      "source": "winnipegfreepress.com",
+      "id": "news-313d4fd2ad21",
+      "title": "白银暴跌66 % 迎来  黑色星期五  式折扣 ！ 资深投资人 ： 十年一遇  的机会即将到来 _ 白银 _ 黄金网 _ 中金在线",
+      "url": "http://gold.cnfol.com/baiyin/20261127/32433688.shtml",
+      "source": "gold.cnfol.com",
       "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
+      "published_at": "2026-11-27T01:45:00Z",
       "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1d63dc16aba2",
-      "title": "iPhone 18 Pro und AirPods Pro 3 im o2 - Tarifbundle im Check",
-      "url": "https://www.ksta.de:443/shoppingwelt/iphone-18-pro-und-airpods-pro-3-im-o2-tarifbundle-im-check-1-1424705",
-      "source": "ksta.de",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a9aa4a043d7c",
-      "title": "अमेरिका ने 14 देशों पर थोपा टैरिफ : भारत पर लगाया अतिरिक्त 17 प्रतिशत , जानिए क्या होगा असर ?",
-      "url": "https://panchjanya.com/2026/11/26/500253/world/us-imposes-tariffs-on-14-countries-slaps-an-additional-17-percent-on-india-what-will-be-the-impact/",
-      "source": "panchjanya.com",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9dfbabb870b7",
-      "title": "Prăbușire dramatică pentru prețul aurului : A atins cel mai redus nivel din ultimul an și a coborât sub un prag psihologic major",
-      "url": "https://news.yam.md/ro/story/91388615",
-      "source": "news.yam.md",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dad4025b5283",
-      "title": "( video ) Moment dramatic surprins pe cameră : Un turist se luptă să - și păstreze echilibrul pe un pod suspendat din Chile",
-      "url": "https://news.yam.md/ro/story/91383467",
-      "source": "news.yam.md",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-a4f234e45066",
-      "title": "Euro și dolarul cresc : cursul valutar afișat de BNM pentru astăzi",
-      "url": "https://news.yam.md/ro/story/91396274",
-      "source": "news.yam.md",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4c146c3e9b56",
-      "title": "Letters to the Editor : Nov . 25 , 2026",
-      "url": "https://www.kelownadailycourier.ca/opinion/letters_to_editor/article_7b50b9a7-5d08-4470-9994-d7286134fa66.html",
-      "source": "kelownadailycourier.ca",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-69bc684e9bd3",
-      "title": "India encontró un héroe legendario de un libro legendario y está listo para conquistar el mundo del cine",
-      "url": "https://www.elpais.com.uy/tvshow/cine/india-encontro-un-heroe-legendario-de-un-libro-legendario-y-esta-listo-para-conquistar-el-mundo-del-cine",
-      "source": "elpais.com.uy",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1a83b26cd3cb",
-      "title": "ट्रंप का नया टैरिफ वारः भारत पर 35 % तक शुल्क लगाने का ऐलान , चीन - यूरोपीय संघ व ब्राजील पर भी लगेगा नया टैक्स - us plans tariff hikes on china eu brazil over subsidised factories",
-      "url": "https://www.punjabkesari.in/national/news/us-plans-tariff-hikes-on-china-eu-brazil-over-subsidised-factories-2403194",
-      "source": "punjabkesari.in",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-7ceb42113148",
-      "title": "Major economies balk at new US tariffs over  unfair  trade",
-      "url": "https://www.thedailystar.net/business/news/major-economies-balk-new-us-tariffs-over-unfair-trade-4333651",
-      "source": "thedailystar.net",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-edae9d47dd1a",
-      "title": "Tariff Shock : Trump Targets 14 Economies , Rattling Markets and Global Trade",
-      "url": "https://www.reviewnepal.com/tariff-shock-trump-targets-14-economies-rattling-markets-and-global-trade/",
-      "source": "reviewnepal.com",
-      "source_type": "news",
-      "published_at": "2026-11-26T06:15:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-61e3b7f6364d",
-      "title": "AI避风港 ！ 一片惨跌声中 ， 印度股市11月涨逾12 % 领跑全球",
-      "url": "https://wallstreetcn.com/articles/3786733",
-      "source": "wallstreetcn.com",
-      "source_type": "news",
-      "published_at": "2026-11-26T05:15:00Z",
-      "categories": [
-        "fx"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1fe86d52462f",
-      "title": "현대차그룹 , 현대차 · 기아 대표 유임 ... 부품 · 건설 계열사 4곳 수장 교체",
-      "url": "https://zdnet.co.kr/view/?no=20261126101551",
-      "source": "zdnet.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-26T04:15:00Z",
-      "categories": [
-        "fx"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
