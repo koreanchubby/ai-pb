@@ -381,7 +381,8 @@ class KisTests(unittest.TestCase):
         with self.assertRaises(RuntimeError):
             fn.fetch_kis(request, now=self.KST_7AM)
 
-    def test_fred_skips_us10y_when_kis_configured(self):
+    def test_fred_still_fetches_us10y_as_backup(self):
+        # 2026-10-14: 한국투자증권이 실패해도 FRED 값이 대신 쓰이도록 FRED는 두 지표 모두 받는다
         import os
         saved = os.environ.get("FRED_API_KEY")
         os.environ["FRED_API_KEY"] = "fredkey123456"
@@ -391,14 +392,78 @@ class KisTests(unittest.TestCase):
                 urls.append(url)
                 return read("fred_wti.json")
             fn.fetch_fred(get)
-            self.assertEqual(len(urls), 1)
-            self.assertIn("DCOILWTICO", urls[0])
-            self.assertNotIn("DGS10", urls[0])
+            self.assertEqual(len(urls), 2)
+            self.assertTrue(any("DGS10" in u for u in urls))
         finally:
             if saved is None:
                 os.environ.pop("FRED_API_KEY", None)
             else:
                 os.environ["FRED_API_KEY"] = saved
+
+    def fred_us10y(self, latest, date):
+        return {"id": "market-fred-" + date, "title": f"미국 10년물 국채금리 {latest}% (직전 대비 0%p)",
+                "url": "https://fred.stlouisfed.org/series/DGS10", "source": "FRED", "source_type": "market",
+                "published_at": date + "T00:00:00Z", "importance": 4, "categories": ["rates"],
+                "value": {"latest": latest, "date": date, "indicator": "us10y"}}
+
+    def test_kis_failure_falls_back_to_fred(self):
+        # 한투 값이 없는 상태에서 한투가 실패 → 이번에 받은 FRED 값이 남는다
+        def broken():
+            raise RuntimeError("토큰 발급 실패")
+        result = fn.build(sources=[("한국투자증권", broken),
+                                   ("FRED", lambda: [self.fred_us10y(5.22, "2026-10-08")])], now=self.KST_7AM)
+        [item] = [i for i in result["items"] if fn.indicator_of(i) == "us10y"]
+        self.assertEqual(item["source"], "FRED")
+
+    def test_newer_kis_value_survives_between_slots(self):
+        # 회차 사이(한투는 건너뜀)에는 이번에 받은 FRED(10/08)보다 이전 한투 값(10/09)이 최신이라 그대로 남는다
+        [kis] = fn.parse_kis_bond(json.loads(read("kis_us10y.json")), "미국 10년물 국채금리", "Y0202",
+                                  "rates", "%", 0.15, "us10y")
+        merged = fn.merge_with_previous([self.fred_us10y(5.22, "2026-10-08")], {"items": [kis]}, self.KST_NOON)
+        self.assertEqual([i["source"] for i in merged], ["한국투자증권"])
+        # 한투가 며칠 실패해 FRED 기준일이 더 최근이 되면 FRED로 바뀐다
+        merged = fn.merge_with_previous([self.fred_us10y(5.30, "2026-10-13")], {"items": [kis]}, self.KST_NOON)
+        self.assertEqual([i["source"] for i in merged], ["FRED"])
+
+    def test_same_date_prefers_kis(self):
+        [kis] = fn.parse_kis_bond(json.loads(read("kis_us10y.json")), "미국 10년물 국채금리", "Y0202",
+                                  "rates", "%", 0.15, "us10y")
+        merged = fn.merge_with_previous([self.fred_us10y(5.24, "2026-10-09"), kis], None, self.KST_7AM)
+        self.assertEqual([i["source"] for i in merged], ["한국투자증권"])
+
+    def test_late_run_in_slot_collects_once(self):
+        # 7시 실행이 밀려 8시대에 돌아도 받는다. 같은 회차에 이미 받았으면 건너뛴다
+        kst_8am = dt.datetime(2026, 10, 13, 23, 40, tzinfo=dt.timezone.utc)   # KST 10/14 08:40
+        [item] = fn.fetch_kis(self.fake_request([]), now=kst_8am)
+        self.assertEqual(item["value"]["fetched_at"], "2026-10-13T23:40:00Z")
+        with self.assertRaises(fn.SkipSource):
+            fn.fetch_kis(self.fake_request([]), now=kst_8am + dt.timedelta(minutes=10), previous={"items": [item]})
+        # 어제 받은 값은 오늘 회차를 막지 않는다
+        self.assertEqual(len(fn.fetch_kis(self.fake_request([]), now=kst_8am + dt.timedelta(days=1),
+                                          previous={"items": [item]})), 1)
+        # 회차 밖(9시대)은 건너뜀
+        with self.assertRaises(fn.SkipSource):
+            fn.fetch_kis(self.fake_request([]), now=kst_8am + dt.timedelta(hours=1))
+
+    def test_build_passes_previous_to_kis(self):
+        calls = []
+        [item] = fn.fetch_kis(self.fake_request([]), now=self.KST_7AM)
+        fn.build(sources=[("ECOS", lambda **kw: calls.append(kw) or [])], previous={"items": []}, now=self.KST_7AM)
+        self.assertEqual(calls, [{}])   # 표시가 없는 출처 함수에는 previous를 넘기지 않음
+        seen = {}
+        def kis_like(previous=None):
+            seen["previous"] = previous
+            return []
+        kis_like.wants_previous = True
+        fn.build(sources=[("한국투자증권", kis_like)], previous={"items": [item]}, now=self.KST_7AM)
+        self.assertEqual(seen["previous"]["items"][0]["source"], "한국투자증권")
+
+    def test_default_env_is_mock(self):
+        import os
+        os.environ.pop("KIS_ENV", None)
+        self.assertEqual(fn.kis_base(), fn.KIS_BASE["mock"])
+        os.environ["KIS_ENV"] = "real"
+        self.assertEqual(fn.kis_base(), fn.KIS_BASE["real"])
 
     def test_new_kis_value_replaces_old_fred_us10y(self):
         old = {"id": "market-oldfred", "title": "미국 10년물 국채금리 5.22% (직전 대비 -0.06%p)",
