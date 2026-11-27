@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T12:36:14Z",
+  "generated_at": "2026-11-27T22:02:19Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 15
+      "count": 25
     },
     {
       "source": "한국은행 ECOS",
@@ -36,9 +36,8 @@
     },
     {
       "source": "한국투자증권",
-      "ok": false,
-      "skipped": true,
-      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
+      "ok": true,
+      "count": 1
     },
     {
       "source": "FRED",
@@ -132,6 +131,32 @@
       }
     },
     {
+      "id": "market-7e56f985480d",
+      "title": "미국 10년물 국채금리 4.85% (직전 대비 -0.06%p)",
+      "url": "https://apiportal.koreainvestment.com/#Y0202",
+      "source": "한국투자증권",
+      "source_type": "market",
+      "published_at": "2026-11-25T00:00:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 5,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null,
+      "value": {
+        "latest": 4.85,
+        "previous": 4.91,
+        "change": -0.06,
+        "unit": "%",
+        "date": "2026-11-25",
+        "alert_threshold": 0.15,
+        "indicator": "us10y"
+      }
+    },
+    {
       "id": "market-e1cb70289532",
       "title": "WTI 원유 가격 82.24달러 (직전 대비 +0.82달러)",
       "url": "https://fred.stlouisfed.org/series/DCOILWTICO",
@@ -158,24 +183,6 @@
       }
     },
     {
-      "id": "news-781958211812",
-      "title": "Global Market Today : Asian stocks rise for second day , crude oil gains",
-      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-for-second-day-crude-oil-gains/articleshow/136206178.cms",
-      "source": "economictimes.indiatimes.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T02:15:00Z",
-      "categories": [
-        "rates",
-        "oil"
-      ],
-      "importance": 4,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-7049a39c11ca",
       "title": "삼성전자 , 오늘 30조원 현금배당 푼다 … 이재용 4488억원",
       "url": "https://ichannela.com/news/detail/000000561921.do",
@@ -185,6 +192,24 @@
       "categories": [
         "fx",
         "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-781958211812",
+      "title": "Global Market Today : Asian stocks rise for second day , crude oil gains",
+      "url": "https://economictimes.indiatimes.com/markets/us-stocks/news/global-market-today-asian-stocks-rise-for-second-day-crude-oil-gains/articleshow/136206178.cms",
+      "source": "economictimes.indiatimes.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T02:15:00Z",
+      "categories": [
+        "rates",
+        "oil"
       ],
       "importance": 4,
       "facts": null,
@@ -430,17 +455,220 @@
       "change_condition": null
     },
     {
-      "id": "news-358c5ff3b25d",
-      "title": "Fox News red - baiters cheer for Trump Nvidia state capitalism",
-      "url": "https://www.mediamatters.org/fox-news/fox-news-red-baiters-cheer-trumps-nvidia-state-capitalism",
-      "source": "mediamatters.org",
+      "id": "news-5b2d381518ff",
+      "title": "Dove ci porta Pablo Hernández de Cos , il designato presidente della Bce del dopo Lagarde",
+      "url": "https://altreconomia.it/dove-ci-porta-pablo-hernandez-de-cos-il-designato-presidente-della-bce-del-dopo-lagarde/",
+      "source": "altreconomia.it",
       "source_type": "news",
-      "published_at": "2026-11-24T20:15:00Z",
+      "published_at": "2026-11-27T20:30:00Z",
       "categories": [
-        "geopolitics",
-        "semis"
+        "rates"
       ],
-      "importance": 4,
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2eeecc49d6e5",
+      "title": "거래대금 급감에 추가 긴축까지증권업계 실적 회복  산 넘어 산",
+      "url": "https://newsway.co.kr/news/view?ud=2026112711324111589",
+      "source": "newsway.co.kr",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bed020430613",
+      "title": "美弹药库存见底 川普撤退 欧盟成  价值美国  首都",
+      "url": "https://www.wenxuecity.com/news/2026/11/26/126848334.html",
+      "source": "wenxuecity.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-2a634de5ec92",
+      "title": "Asian stocks mostly rise as markets calm after tech rout",
+      "url": "https://www.newindianexpress.com/business/2026/Nov/27/asian-stocks-mostly-rise-as-markets-calm-after-tech-rout",
+      "source": "newindianexpress.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-de6457eb069f",
+      "title": "Dow Jones Top Financial Services Headlines at 12 AM ET : BOE Warns Scale and Breadth Of AI Financing Poses Threat to Financial Stability | Capital ...",
+      "url": "https://www.morningstar.com/news/dow-jones/2026112752/dow-jones-top-financial-services-headlines-at-12-am-et-boe-warns-scale-and-breadth-of-ai-financing-poses-threat-to-financial-stability-capital",
+      "source": "morningstar.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-19b908e20353",
+      "title": "MÄRKTE ASIEN / Börsen erholen sich weiter - Chipwerte legen deutlich zu",
+      "url": "https://www.finanzen.net/nachricht/aktien/maerkte-asien-boersen-erholen-sich-weiter-chipwerte-legen-deutlich-zu-16089622",
+      "source": "finanzen.net",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6516518f03d0",
+      "title": "Edelmetall : Warum Gold trotz Kursrutsch für Anleger interessant bleibt",
+      "url": "https://www.rhein-zeitung.de/deutschland-welt/wirtschaft/warum-gold-trotz-kursrutsch-fuer-anleger-interessant-bleibt_arid-4173455.html",
+      "source": "rhein-zeitung.de",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-98ff41705df2",
+      "title": "银价距历史高点跌去66 %， 基金经理静待更深回调布局 _ 白银 _ 黄金网 _ 中金在线",
+      "url": "http://gold.cnfol.com/baiyin/20261127/32434053.shtml",
+      "source": "gold.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-d1deed13afc1",
+      "title": "国际金价大幅反弹 ， 现货黄金重返3685美元上方 ， 机构提示反转仍需确认",
+      "url": "https://finance.jrj.com.cn/2026/11/27133359294352.shtml",
+      "source": "finance.jrj.com.cn",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-ec493bbae79c",
+      "title": "黄金2027年还能买吗 ？ 华尔街发重大警告 : 美联储陷两难困局 黄金或再迎史诗级行情 _ 金市直播 _ 黄金网 _ 中金在线",
+      "url": "http://gold.cnfol.com/jinshizhibo/20261127/32434039.shtml",
+      "source": "gold.cnfol.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-9f32e33ff564",
+      "title": "Gold price today 27 November 2026 : MCX gold rate jumps but still 31 % down from record high ; is it the right time to buy ?",
+      "url": "https://www.livemint.com/market/commodities/gold-price-today-27-november-2026-mcx-gold-rate-jumps-but-still-31-down-from-record-high-is-it-the-right-time-to-buy-11795752383038.html",
+      "source": "livemint.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-aa9fc74ebdca",
+      "title": "LatAm Expat & Nomad Daily Guide for Friday , November 27 , 2026",
+      "url": "https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-friday-november-27-2026/",
+      "source": "riotimesonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "rates"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-6e3623c516ea",
+      "title": "Uzbekistan , South Korea seek $5B trade goal , advance free trade talks",
+      "url": "https://www.trend.az/casia/uzbekistan/4251252.html",
+      "source": "trend.az",
+      "source_type": "news",
+      "published_at": "2026-11-27T06:30:00Z",
+      "categories": [
+        "fx"
+      ],
+      "importance": 3,
       "facts": null,
       "ai_interpretation": null,
       "asset_impact": null,
@@ -499,23 +727,6 @@
       "change_condition": null
     },
     {
-      "id": "news-bed020430613",
-      "title": "美弹药库存见底 川普撤退 欧盟成  价值美国  首都",
-      "url": "https://www.wenxuecity.com/news/2026/11/26/126848334.html",
-      "source": "wenxuecity.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
       "id": "news-2c7785b7e661",
       "title": "Zelenskyy warns of imminent major Russian attack on Ukraine power grid",
       "url": "https://www.decaturdaily.com/news/other_news/international/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid/article_90c39308-2f3e-4d55-ac94-a94513ecad80.html",
@@ -558,210 +769,6 @@
       "published_at": "2026-11-27T06:30:00Z",
       "categories": [
         "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-ae63760f4384",
-      "title": "Sánchez endurece su tono y Feijoo rebaja el suyo , con Colau atacando a un Abascal sin fuelle",
-      "url": "https://www.lavozdeasturias.es/noticia/actualidad/2026/11/27/sanchez-endurece-tono-feijoo-rebaja-suyo-colau-atacando-abascal-fuelle/0003_202611G27P2994.htm",
-      "source": "lavozdeasturias.es",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-034df2a42d40",
-      "title": "Pacífico - Tribuna do Norte",
-      "url": "https://tribunadonorte.com.br/colunas/pacifico/",
-      "source": "tribunadonorte.com.br",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-3db858e9dfce",
-      "title": "Мирные переговоры приближаются к срыву ( Steigan blogger , Норвегия )",
-      "url": "https://inosmi.ru/20261127/rossiya-281419420.html",
-      "source": "inosmi.ru",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2cc49d3ad215",
-      "title": "上世纪六十年代的美国文革 （ 二 ） | www . wenxuecity . com",
-      "url": "https://www.wenxuecity.com/blog/202611/10578/21333.html",
-      "source": "wenxuecity.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-5bceb25f1167",
-      "title": "В Китае пассажирка пыталась провезти через границу 21 змею , спрятав их под одеждой » Gazeta . kg",
-      "url": "https://gazeta.kg/world/239119-v-kitae-passazhirka-pytalas-provezti-cherez-granicu-21-zmeju-sprjatav-ih-pod-odezhdoj.html",
-      "source": "gazeta.kg",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-def4f7a488cc",
-      "title": "[ 정책 인사이트 ] 늦어진 한계기업 구조조정 … 美  과잉생산 관세  빌미로",
-      "url": "https://biz.chosun.com/policy/policy_sub/2026/11/27/FVQDCRCRRJGMJKTBW6FVRY6X3I/",
-      "source": "biz.chosun.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-dafa2f9cb052",
-      "title": "秀智 、 IU輸了 ！ 2026最強韓劇女神TOP10冠軍是他 ： 擊敗 《 再婚皇后 》 申敏兒 、 穿韓服美到封神 | 陳得馥 | 風生活",
-      "url": "https://www.storm.mg/lifestyle/11185423",
-      "source": "storm.mg",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-1c516ca8673c",
-      "title": "Council House Music : Exploiting Local Authority Architecture",
-      "url": "https://thequietus.com/opinion-and-essays/black-sky-thinking/council-house-music/",
-      "source": "thequietus.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-b4dd7be0af03",
-      "title": "Trump says Huang excited about his  second term  at Nvidia",
-      "url": "https://www.businesstimes.com.sg/international/trump-says-huang-excited-about-his-second-term-nvidia",
-      "source": "businesstimes.com.sg",
-      "source_type": "news",
-      "published_at": "2026-11-27T02:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-9548285bb32d",
-      "title": "Budget 2027 : Sri Lanka is running out of time . Trade agreements alone wont save the economy",
-      "url": "https://www.ft.lk/columns/Budget-2027-Sri-Lanka-is-running-out-of-time-Trade-agreements-alone-won-t-save-the-economy/4-800657",
-      "source": "ft.lk",
-      "source_type": "news",
-      "published_at": "2026-11-27T02:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-4df6fbd915a1",
-      "title": "科技早报｜马云现身阿里平头哥办公区 ； 英伟达据悉暂停向四个东南亚国家出货服务器",
-      "url": "https://www.163.com/dy/article/LCNQMMQ20534A4SC.html",
-      "source": "163.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T02:30:00Z",
-      "categories": [
-        "semis"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-c744cd74924b",
-      "title": "Ex - GOP strategist predicts how long Trump GOP will pay for MAGA",
-      "url": "https://www.alternet.org/trump-maga-movement-2678540113/",
-      "source": "alternet.org",
-      "source_type": "news",
-      "published_at": "2026-11-27T02:30:00Z",
-      "categories": [
-        "semis"
       ],
       "importance": 3,
       "facts": null,
