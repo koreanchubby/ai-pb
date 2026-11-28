@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-27T22:02:19Z",
+  "generated_at": "2026-11-28T03:57:30Z",
   "demo": false,
   "attribution": [
     "뉴스 헤드라인: The GDELT Project (https://www.gdeltproject.org/)",
@@ -27,7 +27,7 @@
     {
       "source": "GDELT",
       "ok": true,
-      "count": 25
+      "count": 30
     },
     {
       "source": "한국은행 ECOS",
@@ -36,8 +36,9 @@
     },
     {
       "source": "한국투자증권",
-      "ok": true,
-      "count": 1
+      "ok": false,
+      "skipped": true,
+      "reason": "수집 시각 아님(KST 7시·15시만, 이전 값 유지)"
     },
     {
       "source": "FRED",
@@ -181,6 +182,24 @@
         "alert_threshold": 3.0,
         "indicator": "wti"
       }
+    },
+    {
+      "id": "news-70b2b7ab8118",
+      "title": "K - 반도체 편식  내년 더 심해진다 … 산업계  쏠림 충격  경고",
+      "url": "https://biz.heraldcorp.com/article/10951805",
+      "source": "biz.heraldcorp.com",
+      "source_type": "news",
+      "published_at": "2026-11-28T00:15:00Z",
+      "categories": [
+        "rates",
+        "semis"
+      ],
+      "importance": 4,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
     },
     {
       "id": "news-7049a39c11ca",
@@ -455,12 +474,12 @@
       "change_condition": null
     },
     {
-      "id": "news-5b2d381518ff",
-      "title": "Dove ci porta Pablo Hernández de Cos , il designato presidente della Bce del dopo Lagarde",
-      "url": "https://altreconomia.it/dove-ci-porta-pablo-hernandez-de-cos-il-designato-presidente-della-bce-del-dopo-lagarde/",
-      "source": "altreconomia.it",
+      "id": "news-748a91f2284a",
+      "title": "Novo Levy ou novo Meirelles ? As consideraes das redes sobre o futuro ministro da Fazenda",
+      "url": "https://www.estadao.com.br/politica/sergio-denicoli/novo-levy-ou-novo-meirelles-as-consideracoes-das-redes-sobre-o-futuro-ministro-da-fazenda/",
+      "source": "estadao.com.br",
       "source_type": "news",
-      "published_at": "2026-11-27T20:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
         "rates"
       ],
@@ -472,14 +491,14 @@
       "change_condition": null
     },
     {
-      "id": "news-2eeecc49d6e5",
-      "title": "거래대금 급감에 추가 긴축까지증권업계 실적 회복  산 넘어 산",
-      "url": "https://newsway.co.kr/news/view?ud=2026112711324111589",
-      "source": "newsway.co.kr",
+      "id": "news-75ab01c35b67",
+      "title": "Folha prepara novos formatos de eventos em 2027",
+      "url": "https://c-level.folha.uol.com.br/negocios/2026/11/folha-prepara-novos-formatos-de-eventos-em-2027.shtml",
+      "source": "c-level.folha.uol.com.br",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -489,14 +508,14 @@
       "change_condition": null
     },
     {
-      "id": "news-bed020430613",
-      "title": "美弹药库存见底 川普撤退 欧盟成  价值美国  首都",
-      "url": "https://www.wenxuecity.com/news/2026/11/26/126848334.html",
-      "source": "wenxuecity.com",
+      "id": "news-d6dfcc4f1c01",
+      "title": "耐克全球供应链再次受到考验 - 钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8220973.html",
+      "source": "tmtpost.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -506,14 +525,14 @@
       "change_condition": null
     },
     {
-      "id": "news-2a634de5ec92",
-      "title": "Asian stocks mostly rise as markets calm after tech rout",
-      "url": "https://www.newindianexpress.com/business/2026/Nov/27/asian-stocks-mostly-rise-as-markets-calm-after-tech-rout",
-      "source": "newindianexpress.com",
+      "id": "news-57ac2bf88ef1",
+      "title": "Edge AI Daily 早报 （ 11月28日 ）- 钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8220996.html",
+      "source": "tmtpost.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -523,14 +542,14 @@
       "change_condition": null
     },
     {
-      "id": "news-de6457eb069f",
-      "title": "Dow Jones Top Financial Services Headlines at 12 AM ET : BOE Warns Scale and Breadth Of AI Financing Poses Threat to Financial Stability | Capital ...",
-      "url": "https://www.morningstar.com/news/dow-jones/2026112752/dow-jones-top-financial-services-headlines-at-12-am-et-boe-warns-scale-and-breadth-of-ai-financing-poses-threat-to-financial-stability-capital",
-      "source": "morningstar.com",
+      "id": "news-d6e147cf3be1",
+      "title": "Elecciones en Taiwán : entre la distancia con China y el futuro de la energía nuclear",
+      "url": "https://www.ambito.com/mundo/elecciones-taiwan-la-distancia-china-y-el-futuro-la-energia-nuclear-n6350276",
+      "source": "ambito.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -540,14 +559,14 @@
       "change_condition": null
     },
     {
-      "id": "news-19b908e20353",
-      "title": "MÄRKTE ASIEN / Börsen erholen sich weiter - Chipwerte legen deutlich zu",
-      "url": "https://www.finanzen.net/nachricht/aktien/maerkte-asien-boersen-erholen-sich-weiter-chipwerte-legen-deutlich-zu-16089622",
-      "source": "finanzen.net",
+      "id": "news-48ebd74457ed",
+      "title": "Black Friday shoppers undeterred by inflation and bad weather",
+      "url": "https://www.2news.com/news/national/black-friday-shoppers-undeterred-by-inflation-and-bad-weather/article_f823aad6-a6c4-558d-b2be-eaa391666b55.html",
+      "source": "2news.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -557,14 +576,14 @@
       "change_condition": null
     },
     {
-      "id": "news-6516518f03d0",
-      "title": "Edelmetall : Warum Gold trotz Kursrutsch für Anleger interessant bleibt",
-      "url": "https://www.rhein-zeitung.de/deutschland-welt/wirtschaft/warum-gold-trotz-kursrutsch-fuer-anleger-interessant-bleibt_arid-4173455.html",
-      "source": "rhein-zeitung.de",
+      "id": "news-8a0957e8c18c",
+      "title": "Reinfo bajo cuestionamiento : demandantes alertan que las sucesivas ampliaciones favorecen la minería ilegal y agravan los daños ambientales",
+      "url": "https://inforegion.pe/reinfo-bajo-cuestionamiento-demandantes-alertan-que-las-sucesivas-ampliaciones-favorecen-la-mineria-ilegal-y-agravan-los-danos-ambientales/",
+      "source": "inforegion.pe",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -574,14 +593,14 @@
       "change_condition": null
     },
     {
-      "id": "news-98ff41705df2",
-      "title": "银价距历史高点跌去66 %， 基金经理静待更深回调布局 _ 白银 _ 黄金网 _ 中金在线",
-      "url": "http://gold.cnfol.com/baiyin/20261127/32434053.shtml",
-      "source": "gold.cnfol.com",
+      "id": "news-6f16143707ca",
+      "title": "Iran issues new threats as war stalemate drags on",
+      "url": "https://foxreno.com/news/nation-world/iran-issues-new-threats-as-war-stalemate-drags-on",
+      "source": "foxreno.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -591,14 +610,14 @@
       "change_condition": null
     },
     {
-      "id": "news-d1deed13afc1",
-      "title": "国际金价大幅反弹 ， 现货黄金重返3685美元上方 ， 机构提示反转仍需确认",
-      "url": "https://finance.jrj.com.cn/2026/11/27133359294352.shtml",
-      "source": "finance.jrj.com.cn",
+      "id": "news-ecfd03107a35",
+      "title": "Les oligarques de la tech ( volet 2 ), Trump et Musk super stars !",
+      "url": "https://mondafrique.com/decryptage/les-oligarques-de-la-tech-volet-2-trump-super-star-mais-instrumentalise/",
+      "source": "mondafrique.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -608,14 +627,14 @@
       "change_condition": null
     },
     {
-      "id": "news-ec493bbae79c",
-      "title": "黄金2027年还能买吗 ？ 华尔街发重大警告 : 美联储陷两难困局 黄金或再迎史诗级行情 _ 金市直播 _ 黄金网 _ 中金在线",
-      "url": "http://gold.cnfol.com/jinshizhibo/20261127/32434039.shtml",
-      "source": "gold.cnfol.com",
+      "id": "news-e37f693c684e",
+      "title": "Brasileiro cai em golpe de R$ 500 mil para lutar na Rússia - 27 / 11 / 2026 - Mundo",
+      "url": "https://www1.folha.uol.com.br/mundo/2026/11/com-ofertas-de-ate-r-500-mil-brasileiros-relatam-como-cairam-em-golpe-para-lutar-pela-russia.shtml",
+      "source": "folha.uol.com.br",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -625,14 +644,14 @@
       "change_condition": null
     },
     {
-      "id": "news-9f32e33ff564",
-      "title": "Gold price today 27 November 2026 : MCX gold rate jumps but still 31 % down from record high ; is it the right time to buy ?",
-      "url": "https://www.livemint.com/market/commodities/gold-price-today-27-november-2026-mcx-gold-rate-jumps-but-still-31-down-from-record-high-is-it-the-right-time-to-buy-11795752383038.html",
-      "source": "livemint.com",
+      "id": "news-02aa57c08453",
+      "title": "DeepSeek给智能装上了电表 - 钛媒体官方网站",
+      "url": "https://www.tmtpost.com/8220986.html",
+      "source": "tmtpost.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T02:30:00Z",
       "categories": [
-        "rates"
+        "geopolitics"
       ],
       "importance": 3,
       "facts": null,
@@ -642,12 +661,80 @@
       "change_condition": null
     },
     {
-      "id": "news-aa9fc74ebdca",
-      "title": "LatAm Expat & Nomad Daily Guide for Friday , November 27 , 2026",
-      "url": "https://www.riotimesonline.com/latam-expat-nomad-daily-guide-for-friday-november-27-2026/",
+      "id": "news-caba2631efd4",
+      "title": "JLR prépare un Defender électrique pour 2027 - L  Écho de Maskinongé",
+      "url": "https://www.lechodemaskinonge.com/actualites-automobile/jlr-prepare-un-defender-electrique-pour-2027/",
+      "source": "lechodemaskinonge.com",
+      "source_type": "news",
+      "published_at": "2026-11-28T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-59f2b30618fc",
+      "title": "Pese a los tarifazos los subsidios a las eléctricas aumentaron más de 160 mil millones",
+      "url": "https://www.lapoliticaonline.com:443/energia/la-reforma-electrica-de-milei-les-dejo-usd-391-millones-extra-a-las-generadoras-y-disparo-un-61-los-subsidios/",
+      "source": "lapoliticaonline.com",
+      "source_type": "news",
+      "published_at": "2026-11-28T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-bfbe69d9b167",
+      "title": "住9500平大院 ， 给欧豪下跪 ， 儿子是男版谷爱凌 ， 她才是名门千金",
+      "url": "https://www.163.com/dy/article/LCO0PMVH05564YMQ.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-28T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-13c46ad1755c",
+      "title": "DeepSeek给智能装上了电表",
+      "url": "https://www.163.com/dy/article/LCQIQF7005118O92.html",
+      "source": "163.com",
+      "source_type": "news",
+      "published_at": "2026-11-28T02:30:00Z",
+      "categories": [
+        "geopolitics"
+      ],
+      "importance": 3,
+      "facts": null,
+      "ai_interpretation": null,
+      "asset_impact": null,
+      "counter_evidence": null,
+      "change_condition": null
+    },
+    {
+      "id": "news-76118dba434f",
+      "title": "Bitcoin Rises 1 . 63 % to US$61 , 482 as Stocks Rally",
+      "url": "https://www.riotimesonline.com/crypto-markets-bitcoin-majors-friday-november-27-2026/",
       "source": "riotimesonline.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T01:45:00Z",
       "categories": [
         "rates"
       ],
@@ -659,14 +746,14 @@
       "change_condition": null
     },
     {
-      "id": "news-6e3623c516ea",
-      "title": "Uzbekistan , South Korea seek $5B trade goal , advance free trade talks",
-      "url": "https://www.trend.az/casia/uzbekistan/4251252.html",
-      "source": "trend.az",
+      "id": "news-2148ad03522e",
+      "title": "International Business : Global markets rally as end of bruising month approaches",
+      "url": "https://www.gdnonline.com:443/Details/1414181",
+      "source": "gdnonline.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T01:45:00Z",
       "categories": [
-        "fx"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
@@ -676,99 +763,14 @@
       "change_condition": null
     },
     {
-      "id": "news-a6da0088d24e",
-      "title": "A cidade do julgamento - Tribuna do Norte",
-      "url": "https://tribunadonorte.com.br/colunas/artigos/a-cidade-do-julgamento/",
-      "source": "tribunadonorte.com.br",
+      "id": "news-3d3c634bea8e",
+      "title": "President Trump floats 10 percent credit card interest rate cap",
+      "url": "https://www.wsfa.com/2026/11/27/president-trump-floats-10-percent-credit-card-interest-rate-cap/",
+      "source": "wsfa.com",
       "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
+      "published_at": "2026-11-28T01:45:00Z",
       "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-76c64d5f981c",
-      "title": "관세가 지킨 안방철강사의 남은 과제",
-      "url": "https://newsway.co.kr/news/view?ud=2026112714543944273",
-      "source": "newsway.co.kr",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-d220b46fddb7",
-      "title": "DeepSeek APP收费信号 ？ 大模型商业化叠加生态协同 ， 国产算力或迎放量窗口",
-      "url": "https://tech.ifeng.com/c/8yOCkkHCGlH",
-      "source": "tech.ifeng.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-2c7785b7e661",
-      "title": "Zelenskyy warns of imminent major Russian attack on Ukraine power grid",
-      "url": "https://www.decaturdaily.com/news/other_news/international/zelenskyy-warns-of-imminent-major-russian-attack-on-ukraines-power-grid/article_90c39308-2f3e-4d55-ac94-a94513ecad80.html",
-      "source": "decaturdaily.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-93658863fcef",
-      "title": "Canada Keeps Sanctions on Guatemala Porras",
-      "url": "https://www.riotimesonline.com/guatemala-canada-keeps-porras-sanctions/",
-      "source": "riotimesonline.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
-      ],
-      "importance": 3,
-      "facts": null,
-      "ai_interpretation": null,
-      "asset_impact": null,
-      "counter_evidence": null,
-      "change_condition": null
-    },
-    {
-      "id": "news-f7e9ebb551c2",
-      "title": "China faces highest rate as US announces fresh raft of tariffs",
-      "url": "http://www.tucsonpost.com/news/279454307/china-faces-highest-rate-as-us-announces-fresh-raft-of-tariffs",
-      "source": "tucsonpost.com",
-      "source_type": "news",
-      "published_at": "2026-11-27T06:30:00Z",
-      "categories": [
-        "geopolitics"
+        "rates"
       ],
       "importance": 3,
       "facts": null,
